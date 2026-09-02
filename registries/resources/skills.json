@@ -1,0 +1,500 @@
+{
+  "registry_name": "ResourceGrid Skill Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "description": "External canonical skill metadata for discovery and relationship mapping. Implementations remain in JFeimster/ai-agent-library.",
+  "resources": [
+    {
+      "resource_id": "skill-moonshine-crm-intake",
+      "entity_type": "skill",
+      "resource_type": "skill",
+      "title": "Moonshine CRM Intake",
+      "aliases": [],
+      "description": "Process funding and partner intake with evidence-backed CRM updates.",
+      "brand": "Moonshine Capital",
+      "topics": [
+        "crm",
+        "funding",
+        "hubspot",
+        "automation"
+      ],
+      "content_clusters": [
+        "Funding Operations",
+        "CRM Operations"
+      ],
+      "keywords": [
+        "crm",
+        "funding",
+        "hubspot",
+        "automation"
+      ],
+      "audiences": [
+        "Moonshine Capital operators"
+      ],
+      "industries": [],
+      "search_intent": "internal operations",
+      "funnel_stage": "operations",
+      "primary_use_case": "Gmail intake",
+      "conversion_goal": null,
+      "priority": 90,
+      "canonical_url": null,
+      "public_url": null,
+      "embed_url": null,
+      "repo_url": "https://github.com/JFeimster/ai-agent-library",
+      "internal_url": null,
+      "public_access": false,
+      "status": "active",
+      "last_verified_at": "2026-09-02T18:39:19Z",
+      "last_updated_at": "2026-09-02T18:39:19Z",
+      "notes": "Version 2.1.0. Implementation remains external and canonical in JFeimster/ai-agent-library.",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "version": "2.1.0",
+        "platforms": [
+          "chatgpt",
+          "codex"
+        ],
+        "canonical_repo": "JFeimster/ai-agent-library",
+        "canonical_path": "skills/moonshine-crm-intake",
+        "related_skill_ids": []
+      },
+      "best_for_content": [],
+      "capabilities": [
+        "Gmail intake",
+        "HubSpot enrichment",
+        "cross-system handoff"
+      ],
+      "recommended_cta_or_embed_role": null,
+      "canonical_repo": "JFeimster/ai-agent-library",
+      "canonical_path": "skills/moonshine-crm-intake",
+      "external_reference": true
+    },
+    {
+      "resource_id": "skill-moonshine-crm-schema-steward",
+      "entity_type": "skill",
+      "resource_type": "skill",
+      "title": "Moonshine CRM Schema Steward",
+      "aliases": [],
+      "description": "Protect constrained HubSpot schema and the custom-property budget.",
+      "brand": "Moonshine Capital",
+      "topics": [
+        "crm",
+        "hubspot",
+        "schema governance"
+      ],
+      "content_clusters": [
+        "Funding Operations",
+        "CRM Operations"
+      ],
+      "keywords": [
+        "crm",
+        "hubspot",
+        "schema governance"
+      ],
+      "audiences": [
+        "Moonshine Capital operators"
+      ],
+      "industries": [],
+      "search_intent": "internal operations",
+      "funnel_stage": "operations",
+      "primary_use_case": "Schema preflight",
+      "conversion_goal": null,
+      "priority": 90,
+      "canonical_url": null,
+      "public_url": null,
+      "embed_url": null,
+      "repo_url": "https://github.com/JFeimster/ai-agent-library",
+      "internal_url": null,
+      "public_access": false,
+      "status": "active",
+      "last_verified_at": "2026-09-02T18:39:19Z",
+      "last_updated_at": "2026-09-02T18:39:19Z",
+      "notes": "Version 1.0.0. Implementation remains external and canonical in JFeimster/ai-agent-library.",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "version": "1.0.0",
+        "platforms": [
+          "chatgpt",
+          "codex"
+        ],
+        "canonical_repo": "JFeimster/ai-agent-library",
+        "canonical_path": "skills/moonshine-crm-schema-steward",
+        "related_skill_ids": []
+      },
+      "best_for_content": [],
+      "capabilities": [
+        "Schema preflight",
+        "field mapping",
+        "custom-property governance"
+      ],
+      "recommended_cta_or_embed_role": null,
+      "canonical_repo": "JFeimster/ai-agent-library",
+      "canonical_path": "skills/moonshine-crm-schema-steward",
+      "external_reference": true
+    },
+    {
+      "resource_id": "skill-moonshine-crm-data-hygiene",
+      "entity_type": "skill",
+      "resource_type": "skill",
+      "title": "Moonshine CRM Data Hygiene",
+      "aliases": [],
+      "description": "Audit CRM quality while keeping destructive actions reviewable.",
+      "brand": "Moonshine Capital",
+      "topics": [
+        "crm",
+        "data quality",
+        "hubspot"
+      ],
+      "content_clusters": [
+        "Funding Operations",
+        "CRM Operations"
+      ],
+      "keywords": [
+        "crm",
+        "data quality",
+        "hubspot"
+      ],
+      "audiences": [
+        "Moonshine Capital operators"
+      ],
+      "industries": [],
+      "search_intent": "internal operations",
+      "funnel_stage": "operations",
+      "primary_use_case": "Duplicate review",
+      "conversion_goal": null,
+      "priority": 90,
+      "canonical_url": null,
+      "public_url": null,
+      "embed_url": null,
+      "repo_url": "https://github.com/JFeimster/ai-agent-library",
+      "internal_url": null,
+      "public_access": false,
+      "status": "active",
+      "last_verified_at": "2026-09-02T18:39:19Z",
+      "last_updated_at": "2026-09-02T18:39:19Z",
+      "notes": "Version 1.0.0. Implementation remains external and canonical in JFeimster/ai-agent-library.",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "version": "1.0.0",
+        "platforms": [
+          "chatgpt",
+          "codex"
+        ],
+        "canonical_repo": "JFeimster/ai-agent-library",
+        "canonical_path": "skills/moonshine-crm-data-hygiene",
+        "related_skill_ids": []
+      },
+      "best_for_content": [],
+      "capabilities": [
+        "Duplicate review",
+        "association audit",
+        "cleanup backlog"
+      ],
+      "recommended_cta_or_embed_role": null,
+      "canonical_repo": "JFeimster/ai-agent-library",
+      "canonical_path": "skills/moonshine-crm-data-hygiene",
+      "external_reference": true
+    },
+    {
+      "resource_id": "skill-moonshine-funding-pipeline-health",
+      "entity_type": "skill",
+      "resource_type": "skill",
+      "title": "Moonshine Funding Pipeline Health",
+      "aliases": [],
+      "description": "Turn funding opportunities into evidence-backed operating queues.",
+      "brand": "Moonshine Capital",
+      "topics": [
+        "funding",
+        "crm",
+        "pipeline operations"
+      ],
+      "content_clusters": [
+        "Funding Operations",
+        "CRM Operations"
+      ],
+      "keywords": [
+        "funding",
+        "crm",
+        "pipeline operations"
+      ],
+      "audiences": [
+        "Moonshine Capital operators"
+      ],
+      "industries": [],
+      "search_intent": "internal operations",
+      "funnel_stage": "operations",
+      "primary_use_case": "Operating queues",
+      "conversion_goal": null,
+      "priority": 90,
+      "canonical_url": null,
+      "public_url": null,
+      "embed_url": null,
+      "repo_url": "https://github.com/JFeimster/ai-agent-library",
+      "internal_url": null,
+      "public_access": false,
+      "status": "active",
+      "last_verified_at": "2026-09-02T18:39:19Z",
+      "last_updated_at": "2026-09-02T18:39:19Z",
+      "notes": "Version 1.0.0. Implementation remains external and canonical in JFeimster/ai-agent-library.",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "version": "1.0.0",
+        "platforms": [
+          "chatgpt",
+          "codex"
+        ],
+        "canonical_repo": "JFeimster/ai-agent-library",
+        "canonical_path": "skills/moonshine-funding-pipeline-health",
+        "related_skill_ids": []
+      },
+      "best_for_content": [],
+      "capabilities": [
+        "Operating queues",
+        "risk detection",
+        "next-action prioritization"
+      ],
+      "recommended_cta_or_embed_role": null,
+      "canonical_repo": "JFeimster/ai-agent-library",
+      "canonical_path": "skills/moonshine-funding-pipeline-health",
+      "external_reference": true
+    },
+    {
+      "resource_id": "skill-moonshine-crm-note-normalizer",
+      "entity_type": "skill",
+      "resource_type": "skill",
+      "title": "Moonshine CRM Note Normalizer",
+      "aliases": [],
+      "description": "Normalize intake and communications into evidence-labeled CRM notes.",
+      "brand": "Moonshine Capital",
+      "topics": [
+        "crm",
+        "automation",
+        "data normalization"
+      ],
+      "content_clusters": [
+        "Funding Operations",
+        "CRM Operations"
+      ],
+      "keywords": [
+        "crm",
+        "automation",
+        "data normalization"
+      ],
+      "audiences": [
+        "Moonshine Capital operators"
+      ],
+      "industries": [],
+      "search_intent": "internal operations",
+      "funnel_stage": "operations",
+      "primary_use_case": "Source labeling",
+      "conversion_goal": null,
+      "priority": 90,
+      "canonical_url": null,
+      "public_url": null,
+      "embed_url": null,
+      "repo_url": "https://github.com/JFeimster/ai-agent-library",
+      "internal_url": null,
+      "public_access": false,
+      "status": "active",
+      "last_verified_at": "2026-09-02T18:39:19Z",
+      "last_updated_at": "2026-09-02T18:39:19Z",
+      "notes": "Version 1.0.0. Implementation remains external and canonical in JFeimster/ai-agent-library.",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "version": "1.0.0",
+        "platforms": [
+          "chatgpt",
+          "codex"
+        ],
+        "canonical_repo": "JFeimster/ai-agent-library",
+        "canonical_path": "skills/moonshine-crm-note-normalizer",
+        "related_skill_ids": []
+      },
+      "best_for_content": [],
+      "capabilities": [
+        "Source labeling",
+        "timeline normalization",
+        "internal notes"
+      ],
+      "recommended_cta_or_embed_role": null,
+      "canonical_repo": "JFeimster/ai-agent-library",
+      "canonical_path": "skills/moonshine-crm-note-normalizer",
+      "external_reference": true
+    },
+    {
+      "resource_id": "skill-moonshine-funding-follow-up",
+      "entity_type": "skill",
+      "resource_type": "skill",
+      "title": "Moonshine Funding Follow-up",
+      "aliases": [],
+      "description": "Coordinate verified funding follow-up without duplicate outreach.",
+      "brand": "Moonshine Capital",
+      "topics": [
+        "funding",
+        "follow-up",
+        "crm"
+      ],
+      "content_clusters": [
+        "Funding Operations",
+        "CRM Operations"
+      ],
+      "keywords": [
+        "funding",
+        "follow-up",
+        "crm"
+      ],
+      "audiences": [
+        "Moonshine Capital operators"
+      ],
+      "industries": [],
+      "search_intent": "internal operations",
+      "funnel_stage": "operations",
+      "primary_use_case": "Application follow-up",
+      "conversion_goal": null,
+      "priority": 90,
+      "canonical_url": null,
+      "public_url": null,
+      "embed_url": null,
+      "repo_url": "https://github.com/JFeimster/ai-agent-library",
+      "internal_url": null,
+      "public_access": false,
+      "status": "active",
+      "last_verified_at": "2026-09-02T18:39:19Z",
+      "last_updated_at": "2026-09-02T18:39:19Z",
+      "notes": "Version 1.0.0. Implementation remains external and canonical in JFeimster/ai-agent-library.",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "version": "1.0.0",
+        "platforms": [
+          "chatgpt",
+          "codex"
+        ],
+        "canonical_repo": "JFeimster/ai-agent-library",
+        "canonical_path": "skills/moonshine-funding-follow-up",
+        "related_skill_ids": []
+      },
+      "best_for_content": [],
+      "capabilities": [
+        "Application follow-up",
+        "document reminders",
+        "reactivation"
+      ],
+      "recommended_cta_or_embed_role": null,
+      "canonical_repo": "JFeimster/ai-agent-library",
+      "canonical_path": "skills/moonshine-funding-follow-up",
+      "external_reference": true
+    },
+    {
+      "resource_id": "skill-moonshine-crm-reconciler",
+      "entity_type": "skill",
+      "resource_type": "skill",
+      "title": "Moonshine CRM Reconciler",
+      "aliases": [],
+      "description": "Resolve evidence-backed operational drift across CRM systems.",
+      "brand": "Moonshine Capital",
+      "topics": [
+        "crm",
+        "reconciliation",
+        "automation"
+      ],
+      "content_clusters": [
+        "Funding Operations",
+        "CRM Operations"
+      ],
+      "keywords": [
+        "crm",
+        "reconciliation",
+        "automation"
+      ],
+      "audiences": [
+        "Moonshine Capital operators"
+      ],
+      "industries": [],
+      "search_intent": "internal operations",
+      "funnel_stage": "operations",
+      "primary_use_case": "Cross-system drift",
+      "conversion_goal": null,
+      "priority": 90,
+      "canonical_url": null,
+      "public_url": null,
+      "embed_url": null,
+      "repo_url": "https://github.com/JFeimster/ai-agent-library",
+      "internal_url": null,
+      "public_access": false,
+      "status": "active",
+      "last_verified_at": "2026-09-02T18:39:19Z",
+      "last_updated_at": "2026-09-02T18:39:19Z",
+      "notes": "Version 1.0.0. Implementation remains external and canonical in JFeimster/ai-agent-library.",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "version": "1.0.0",
+        "platforms": [
+          "chatgpt",
+          "codex"
+        ],
+        "canonical_repo": "JFeimster/ai-agent-library",
+        "canonical_path": "skills/moonshine-crm-reconciler",
+        "related_skill_ids": []
+      },
+      "best_for_content": [],
+      "capabilities": [
+        "Cross-system drift",
+        "identity reconciliation",
+        "safe repair proposals"
+      ],
+      "recommended_cta_or_embed_role": null,
+      "canonical_repo": "JFeimster/ai-agent-library",
+      "canonical_path": "skills/moonshine-crm-reconciler",
+      "external_reference": true
+    }
+  ]
+}
