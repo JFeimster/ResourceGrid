@@ -1,0 +1,4963 @@
+{
+  "report_name": "ResourceGrid Relationship Candidates",
+  "version": "1.0.0",
+  "generated_at": "2026-09-02T11:05:41.116954+00:00",
+  "summary": {
+    "candidate_count": 299,
+    "counts_by_type": {
+      "implemented_by": 174,
+      "part_of": 113,
+      "references": 11,
+      "uses": 1
+    },
+    "resolved_targets": 286,
+    "external_or_unresolved_targets": 13
+  },
+  "relationships": [
+    {
+      "relationship_candidate_id": "rel-0001",
+      "source_id": "site-onboarding",
+      "relationship_type": "implemented_by",
+      "target_id": "site-onboarding",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 0
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0002",
+      "source_id": "site-staged-funding",
+      "relationship_type": "implemented_by",
+      "target_id": "site-staged-funding",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 1
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0003",
+      "source_id": "site-estimator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-estimator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 2
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0004",
+      "source_id": "site-moonshine-editorial-bento",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-editorial-bento",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 3
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0005",
+      "source_id": "site-seller-funding",
+      "relationship_type": "implemented_by",
+      "target_id": "site-seller-funding",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 4
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0006",
+      "source_id": "site-moonshine-capital",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-capital",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 5
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0007",
+      "source_id": "site-ai-funding-coach",
+      "relationship_type": "implemented_by",
+      "target_id": "site-ai-funding-coach",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 6
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0008",
+      "source_id": "site-partner-growth-hub",
+      "relationship_type": "implemented_by",
+      "target_id": "site-partner-growth-hub",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 7
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0009",
+      "source_id": "app-partnerlaunch",
+      "relationship_type": "implemented_by",
+      "target_id": "app-partnerlaunch",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 8
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0010",
+      "source_id": "site-burpee-v1",
+      "relationship_type": "implemented_by",
+      "target_id": "site-burpee-v1",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 9
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0011",
+      "source_id": "site-moonsine-partner-page",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonsine-partner-page",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 10
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0012",
+      "source_id": "site-dac-comp",
+      "relationship_type": "implemented_by",
+      "target_id": "site-dac-comp",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 11
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0013",
+      "source_id": "site-dac-pay",
+      "relationship_type": "implemented_by",
+      "target_id": "site-dac-pay",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 12
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0014",
+      "source_id": "site-flash-ui-v2",
+      "relationship_type": "implemented_by",
+      "target_id": "site-flash-ui-v2",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 13
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0015",
+      "source_id": "site-jfv",
+      "relationship_type": "implemented_by",
+      "target_id": "site-jfv",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 14
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0016",
+      "source_id": "site-embed-widgets",
+      "relationship_type": "implemented_by",
+      "target_id": "site-embed-widgets",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 15
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0017",
+      "source_id": "site-partnerhub",
+      "relationship_type": "implemented_by",
+      "target_id": "site-partnerhub",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 16
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0018",
+      "source_id": "site-moonshine-ai-directory",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-ai-directory",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 17
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0019",
+      "source_id": "site-amazon-payout-unlocker",
+      "relationship_type": "implemented_by",
+      "target_id": "site-amazon-payout-unlocker",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 18
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0020",
+      "source_id": "site-venturebuild-ai",
+      "relationship_type": "implemented_by",
+      "target_id": "site-venturebuild-ai",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 19
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0021",
+      "source_id": "app-vibe-site-smith",
+      "relationship_type": "implemented_by",
+      "target_id": "app-vibe-site-smith",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 20
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0022",
+      "source_id": "site-funding-any-reason",
+      "relationship_type": "implemented_by",
+      "target_id": "site-funding-any-reason",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 21
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0023",
+      "source_id": "site-business-valuation-tool",
+      "relationship_type": "implemented_by",
+      "target_id": "site-business-valuation-tool",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 22
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0024",
+      "source_id": "site-affiliate-launch-kit-generator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-affiliate-launch-kit-generator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 23
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0025",
+      "source_id": "site-niche-landing-page-factory",
+      "relationship_type": "implemented_by",
+      "target_id": "site-niche-landing-page-factory",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 24
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0026",
+      "source_id": "site-business-loan-affiliate-hub",
+      "relationship_type": "implemented_by",
+      "target_id": "site-business-loan-affiliate-hub",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 25
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0027",
+      "source_id": "site-dac-affiliate-enablement",
+      "relationship_type": "implemented_by",
+      "target_id": "site-dac-affiliate-enablement",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 26
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0028",
+      "source_id": "site-core-tools",
+      "relationship_type": "implemented_by",
+      "target_id": "site-core-tools",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 27
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0029",
+      "source_id": "site-vault-infra-portal",
+      "relationship_type": "implemented_by",
+      "target_id": "site-vault-infra-portal",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 28
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0030",
+      "source_id": "site-funding-embed",
+      "relationship_type": "implemented_by",
+      "target_id": "site-funding-embed",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 29
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0031",
+      "source_id": "site-inventory-turnover-accelerator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-inventory-turnover-accelerator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 30
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0032",
+      "source_id": "site-equity-defender",
+      "relationship_type": "implemented_by",
+      "target_id": "site-equity-defender",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 31
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0033",
+      "source_id": "site-agent-grid",
+      "relationship_type": "implemented_by",
+      "target_id": "site-agent-grid",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 32
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0034",
+      "source_id": "app-elitebroker-ai",
+      "relationship_type": "implemented_by",
+      "target_id": "app-elitebroker-ai",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 33
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0035",
+      "source_id": "site-financing-widget",
+      "relationship_type": "implemented_by",
+      "target_id": "site-financing-widget",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 34
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0036",
+      "source_id": "site-operator-funding-site",
+      "relationship_type": "implemented_by",
+      "target_id": "site-operator-funding-site",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 35
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0037",
+      "source_id": "site-newsletter-archive",
+      "relationship_type": "implemented_by",
+      "target_id": "repo-newsletter-site",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 36
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0038",
+      "source_id": "site-8fig-battle-plan",
+      "relationship_type": "implemented_by",
+      "target_id": "site-8fig-battle-plan",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 37
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0039",
+      "source_id": "site-ledgerops",
+      "relationship_type": "implemented_by",
+      "target_id": "site-ledgerops",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 38
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0040",
+      "source_id": "site-bank-breezy-nova",
+      "relationship_type": "implemented_by",
+      "target_id": "site-bank-breezy-nova",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 39
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0041",
+      "source_id": "site-bank-breezy-battle-plan",
+      "relationship_type": "implemented_by",
+      "target_id": "site-bank-breezy-battle-plan",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 40
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0042",
+      "source_id": "site-distilled-tools-pro",
+      "relationship_type": "implemented_by",
+      "target_id": "site-distilled-tools-pro",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 41
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0043",
+      "source_id": "site-agent-portal",
+      "relationship_type": "implemented_by",
+      "target_id": "site-agent-portal",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 42
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0044",
+      "source_id": "site-funding-partners-os",
+      "relationship_type": "implemented_by",
+      "target_id": "site-funding-partners-os",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 43
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0045",
+      "source_id": "site-moonshine-broker",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-broker",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 44
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0046",
+      "source_id": "site-acquire-meta",
+      "relationship_type": "implemented_by",
+      "target_id": "site-acquire-meta",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 45
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0047",
+      "source_id": "site-market-sniper-hub",
+      "relationship_type": "implemented_by",
+      "target_id": "site-market-sniper-hub",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 46
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0048",
+      "source_id": "site-investor-data-room",
+      "relationship_type": "implemented_by",
+      "target_id": "site-investor-data-room",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 47
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0049",
+      "source_id": "site-moonshine-funding-static",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-funding-static",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 49
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0050",
+      "source_id": "app-bizfin-os-smart-banking",
+      "relationship_type": "implemented_by",
+      "target_id": "app-bizfin-os-smart-banking",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 50
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0051",
+      "source_id": "site-funding-partners-os-dashboard",
+      "relationship_type": "implemented_by",
+      "target_id": "site-funding-partners-os-dashboard",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 52
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0052",
+      "source_id": "site-partner-onboarding",
+      "relationship_type": "implemented_by",
+      "target_id": "site-partner-onboarding",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 53
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0053",
+      "source_id": "site-capital-stack-os",
+      "relationship_type": "implemented_by",
+      "target_id": "site-capital-stack-os",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 54
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0054",
+      "source_id": "site-micro-acquisition-fundability-calculator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-micro-acquisition-fundability-calculator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 55
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0055",
+      "source_id": "site-moonshine-funding-funnel",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-funding-funnel",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 56
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0056",
+      "source_id": "site-myfigures-partner-onboarding",
+      "relationship_type": "implemented_by",
+      "target_id": "site-myfigures-partner-onboarding",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 57
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0057",
+      "source_id": "site-funding-tools-os",
+      "relationship_type": "implemented_by",
+      "target_id": "site-funding-tools-os",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 58
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0058",
+      "source_id": "site-funding-tools-static",
+      "relationship_type": "implemented_by",
+      "target_id": "site-funding-tools-static",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 59
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0059",
+      "source_id": "site-acquisition-deal-calculator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-acquisition-deal-calculator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 60
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0060",
+      "source_id": "site-hard-money-lenders",
+      "relationship_type": "implemented_by",
+      "target_id": "site-hard-money-lenders",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 61
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0061",
+      "source_id": "app-gemini-appsmith",
+      "relationship_type": "implemented_by",
+      "target_id": "app-gemini-appsmith",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 62
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0062",
+      "source_id": "site-bizcredit",
+      "relationship_type": "implemented_by",
+      "target_id": "site-bizcredit",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 63
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0063",
+      "source_id": "app-ai-funding-pathfinder",
+      "relationship_type": "implemented_by",
+      "target_id": "app-ai-funding-pathfinder",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 64
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0064",
+      "source_id": "site-ai-studio-app-builder",
+      "relationship_type": "implemented_by",
+      "target_id": "site-ai-studio-app-builder",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 65
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0065",
+      "source_id": "site-distilledfunding",
+      "relationship_type": "implemented_by",
+      "target_id": "site-distilledfunding",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 66
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0066",
+      "source_id": "app-territory-commander",
+      "relationship_type": "implemented_by",
+      "target_id": "app-territory-commander",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 67
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0067",
+      "source_id": "app-vidiom-ai",
+      "relationship_type": "implemented_by",
+      "target_id": "app-vidiom-ai",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 68
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0068",
+      "source_id": "site-finwise-saas-landing-page",
+      "relationship_type": "implemented_by",
+      "target_id": "site-finwise-saas-landing-page",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 69
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0069",
+      "source_id": "site-saasfly-ai",
+      "relationship_type": "implemented_by",
+      "target_id": "site-saasfly",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 71
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0070",
+      "source_id": "app-wrapperforge",
+      "relationship_type": "implemented_by",
+      "target_id": "app-wrapperforge",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 72
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0071",
+      "source_id": "site-finops-ai-agents",
+      "relationship_type": "implemented_by",
+      "target_id": "site-finops-ai-agents",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 73
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0072",
+      "source_id": "site-cash-command",
+      "relationship_type": "implemented_by",
+      "target_id": "site-cash-command",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 74
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0073",
+      "source_id": "site-prompt-lab",
+      "relationship_type": "implemented_by",
+      "target_id": "site-prompt-lab",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 75
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0074",
+      "source_id": "site-studio-ai",
+      "relationship_type": "implemented_by",
+      "target_id": "site-studio-ai",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 77
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0075",
+      "source_id": "site-7figures-partner-lander",
+      "relationship_type": "implemented_by",
+      "target_id": "repo-capital-launchpad",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 78
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0076",
+      "source_id": "site-agency-lab",
+      "relationship_type": "implemented_by",
+      "target_id": "site-agency-lab",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 79
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0077",
+      "source_id": "site-intel-grid",
+      "relationship_type": "implemented_by",
+      "target_id": "site-intel-grid",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 80
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0078",
+      "source_id": "site-agency-in-a-box",
+      "relationship_type": "implemented_by",
+      "target_id": "site-agency-in-a-box",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 81
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0079",
+      "source_id": "site-v0-skal-ventures-template",
+      "relationship_type": "implemented_by",
+      "target_id": "site-v0-skal-ventures-template",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 82
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0080",
+      "source_id": "site-ma-deal-analyzer",
+      "relationship_type": "implemented_by",
+      "target_id": "site-ma-deal-analyzer",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 83
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0081",
+      "source_id": "site-cashflow",
+      "relationship_type": "implemented_by",
+      "target_id": "site-cashflow",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 84
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0082",
+      "source_id": "site-vnv",
+      "relationship_type": "implemented_by",
+      "target_id": "site-vnv",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 85
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0083",
+      "source_id": "site-agenthunt",
+      "relationship_type": "implemented_by",
+      "target_id": "repo-agent-hunt",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 86
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0084",
+      "source_id": "site-grant-writer",
+      "relationship_type": "implemented_by",
+      "target_id": "site-grant-writer",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 87
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0085",
+      "source_id": "site-bizfin-os",
+      "relationship_type": "implemented_by",
+      "target_id": "site-bizfin-os",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 88
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0086",
+      "source_id": "site-start-your-agency",
+      "relationship_type": "implemented_by",
+      "target_id": "site-start-your-agency",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 89
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0087",
+      "source_id": "site-capital-stack",
+      "relationship_type": "implemented_by",
+      "target_id": "site-capital-stack",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 90
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0088",
+      "source_id": "site-funding-ceo",
+      "relationship_type": "implemented_by",
+      "target_id": "site-funding-ceo",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 91
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0089",
+      "source_id": "app-vanguard-gtm",
+      "relationship_type": "implemented_by",
+      "target_id": "app-vanguard-gtm",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 92
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0090",
+      "source_id": "app-acquistack-ai",
+      "relationship_type": "implemented_by",
+      "target_id": "app-acquistack-ai",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 93
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0091",
+      "source_id": "site-bio-2",
+      "relationship_type": "implemented_by",
+      "target_id": "site-bio-2",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 95
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0092",
+      "source_id": "site-saasfly",
+      "relationship_type": "implemented_by",
+      "target_id": "site-saasfly",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 97
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0093",
+      "source_id": "site-distilled-funding-tools",
+      "relationship_type": "implemented_by",
+      "target_id": "site-distilled-funding-tools",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 98
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0094",
+      "source_id": "site-gpt-action-architect",
+      "relationship_type": "implemented_by",
+      "target_id": "site-gpt-action-architect",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 99
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0095",
+      "source_id": "site-custom-gpt-directory",
+      "relationship_type": "implemented_by",
+      "target_id": "site-custom-gpt-directory",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 100
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0096",
+      "source_id": "site-underdog-capital-os",
+      "relationship_type": "implemented_by",
+      "target_id": "site-underdog-capital-os",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 101
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0097",
+      "source_id": "site-bizcred",
+      "relationship_type": "implemented_by",
+      "target_id": "site-bizcred",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 102
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0098",
+      "source_id": "site-dmv-bizfund-os",
+      "relationship_type": "implemented_by",
+      "target_id": "site-dmv-bizfund-os",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 103
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0099",
+      "source_id": "site-fee-audit-copilot",
+      "relationship_type": "implemented_by",
+      "target_id": null,
+      "target_external": {
+        "repository": "JFeimster/ecommerce-fee-audit"
+      },
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 105
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0100",
+      "source_id": "site-bizcred-ai",
+      "relationship_type": "implemented_by",
+      "target_id": "site-bizcred-ai",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 106
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0101",
+      "source_id": "site-alan-watts-directory",
+      "relationship_type": "implemented_by",
+      "target_id": "site-alan-watts-directory",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 107
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0102",
+      "source_id": "site-alan-watts-archive",
+      "relationship_type": "implemented_by",
+      "target_id": "site-alan-watts-archive",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 108
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0103",
+      "source_id": "site-newsletter-builder",
+      "relationship_type": "implemented_by",
+      "target_id": "site-newsletter-builder",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 109
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0104",
+      "source_id": "site-cashflow-stress-test",
+      "relationship_type": "implemented_by",
+      "target_id": "site-cashflow-stress-test",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 110
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0105",
+      "source_id": "site-the-radical-libertarian",
+      "relationship_type": "implemented_by",
+      "target_id": "site-the-radical-libertarian",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 111
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0106",
+      "source_id": "site-partner-command-center",
+      "relationship_type": "implemented_by",
+      "target_id": "site-partner-command-center",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 112
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0107",
+      "source_id": "notion-lender-fit-routing-copilot",
+      "relationship_type": "implemented_by",
+      "target_id": "notion-lender-fit-routing-copilot",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 114
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0108",
+      "source_id": "notion-funding-data-room-copilot",
+      "relationship_type": "implemented_by",
+      "target_id": "notion-funding-data-room-copilot",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 115
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0109",
+      "source_id": "site-funding-workflow-builder",
+      "relationship_type": "implemented_by",
+      "target_id": "site-funding-workflow-builder",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 116
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0110",
+      "source_id": "site-tracking-link-generator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-tracking-link-generator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 117
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0111",
+      "source_id": "site-fund-stack-ai",
+      "relationship_type": "implemented_by",
+      "target_id": "site-fundstack-ai",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 118
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0112",
+      "source_id": "site-fundstack-ai",
+      "relationship_type": "implemented_by",
+      "target_id": "site-fundstack-ai",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 119
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0113",
+      "source_id": "site-amazon-payout-gap",
+      "relationship_type": "implemented_by",
+      "target_id": "site-amazon-payout-gap",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 120
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0114",
+      "source_id": "site-cpa-capital-desk",
+      "relationship_type": "implemented_by",
+      "target_id": "site-cpa-capital-desk",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 121
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0115",
+      "source_id": "site-finance-gap-calculator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-finance-gap-calculator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 122
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0116",
+      "source_id": "site-jason",
+      "relationship_type": "implemented_by",
+      "target_id": "site-jason",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 123
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0117",
+      "source_id": "site-fpos",
+      "relationship_type": "implemented_by",
+      "target_id": "site-fpos",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 124
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0118",
+      "source_id": "site-brokerflow-ai",
+      "relationship_type": "implemented_by",
+      "target_id": "site-brokerflow-ai",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 125
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0119",
+      "source_id": "site-ai-agent-library",
+      "relationship_type": "implemented_by",
+      "target_id": "site-ai-agent-library",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 126
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0120",
+      "source_id": "site-cash-flow-gap-bridge-calculator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-cash-flow-gap-bridge-calculator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 127
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0121",
+      "source_id": "site-smb-ai-builder",
+      "relationship_type": "implemented_by",
+      "target_id": "site-smb-ai-builder",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 128
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0122",
+      "source_id": "site-capitalgrid",
+      "relationship_type": "implemented_by",
+      "target_id": "site-capitalgrid",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 129
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0123",
+      "source_id": "site-nexus-foundry",
+      "relationship_type": "implemented_by",
+      "target_id": "site-nexus-foundry",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 130
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0124",
+      "source_id": "site-reserve-unlocker",
+      "relationship_type": "implemented_by",
+      "target_id": "site-reserve-unlocker",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 131
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0125",
+      "source_id": "site-flash-ui-prompts",
+      "relationship_type": "implemented_by",
+      "target_id": "site-flash-ui-prompts",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 132
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0126",
+      "source_id": "site-ad-spend-cashflow",
+      "relationship_type": "implemented_by",
+      "target_id": "site-ad-spend-cashflow",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 133
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0127",
+      "source_id": "site-jason-speaks",
+      "relationship_type": "implemented_by",
+      "target_id": "site-jason-speaks",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 134
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0128",
+      "source_id": "site-broker-followup-machine",
+      "relationship_type": "implemented_by",
+      "target_id": "site-broker-followup-machine",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 135
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0129",
+      "source_id": "site-foundryos",
+      "relationship_type": "implemented_by",
+      "target_id": "site-foundryos",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 136
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0130",
+      "source_id": "site-ai-citation-auditor",
+      "relationship_type": "implemented_by",
+      "target_id": "site-ai-citation-auditor",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 137
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0131",
+      "source_id": "site-capital-stack-eut5",
+      "relationship_type": "implemented_by",
+      "target_id": "repo-capitalstack",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 138
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0132",
+      "source_id": "site-ai-agent-arsenal",
+      "relationship_type": "implemented_by",
+      "target_id": "site-ai-agent-arsenal",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 139
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0133",
+      "source_id": "site-heat-signal",
+      "relationship_type": "implemented_by",
+      "target_id": "site-heat-signal",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 140
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0134",
+      "source_id": "site-creator-house",
+      "relationship_type": "implemented_by",
+      "target_id": "site-creator-house",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 141
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0135",
+      "source_id": "site-cashgap",
+      "relationship_type": "implemented_by",
+      "target_id": "site-cashgap",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 142
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0136",
+      "source_id": "site-sba-business-acquisition-calculator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-sba-business-acquisition-calculator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 143
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0137",
+      "source_id": "site-flash-ui-portfolio",
+      "relationship_type": "implemented_by",
+      "target_id": "site-flash-ui-portfolio",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 144
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0138",
+      "source_id": "site-ecommerce-cash-flow",
+      "relationship_type": "implemented_by",
+      "target_id": "site-ecommerce-cash-flow",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 145
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0139",
+      "source_id": "site-kj-industries",
+      "relationship_type": "implemented_by",
+      "target_id": "site-kj-industries",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 146
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0140",
+      "source_id": "site-the-index",
+      "relationship_type": "implemented_by",
+      "target_id": "site-the-index",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 147
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0141",
+      "source_id": "site-real-estate-agents",
+      "relationship_type": "implemented_by",
+      "target_id": "site-real-estate-agents",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 148
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0142",
+      "source_id": "site-affiliate-dashboard",
+      "relationship_type": "implemented_by",
+      "target_id": "site-affiliate-dashboard",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 149
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0143",
+      "source_id": "site-trucker-repair-tracker",
+      "relationship_type": "implemented_by",
+      "target_id": "site-trucker-repair-tracker",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 150
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0144",
+      "source_id": "site-dac-funnel-tracker",
+      "relationship_type": "implemented_by",
+      "target_id": "site-dac-funnel-tracker",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 151
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0145",
+      "source_id": "site-moonshine-capital-partners",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-capital-partners",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 152
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0146",
+      "source_id": "site-microsite-automation",
+      "relationship_type": "implemented_by",
+      "target_id": "site-microsite-automation",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 153
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0147",
+      "source_id": "site-dac-social",
+      "relationship_type": "implemented_by",
+      "target_id": "site-dac-social",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 154
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0148",
+      "source_id": "site-partner-enablement-os",
+      "relationship_type": "implemented_by",
+      "target_id": "site-partner-enablement-os",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 155
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0149",
+      "source_id": "site-7-steps-launchpad",
+      "relationship_type": "implemented_by",
+      "target_id": "site-7-steps-launchpad",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 156
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0150",
+      "source_id": "site-partner-portal",
+      "relationship_type": "implemented_by",
+      "target_id": "site-partner-portal",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 157
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0151",
+      "source_id": "site-moonshine-partner-marketplace",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-partner-marketplace",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 158
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0152",
+      "source_id": "site-cpa-partner",
+      "relationship_type": "implemented_by",
+      "target_id": "site-cpa-partner",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 159
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0153",
+      "source_id": "site-moonshine-affiliate-ops",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-affiliate-ops",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 160
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0154",
+      "source_id": "site-equity-defender-widget",
+      "relationship_type": "implemented_by",
+      "target_id": "site-equity-defender-widget",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 161
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0155",
+      "source_id": "site-lendavo-partner-portal",
+      "relationship_type": "implemented_by",
+      "target_id": "site-lendavo-partner-portal",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 162
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0156",
+      "source_id": "site-the-capital-paradox-podcast",
+      "relationship_type": "implemented_by",
+      "target_id": "site-the-capital-paradox-podcast",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 163
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0157",
+      "source_id": "site-moonshine-funding-os",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-funding-os",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 164
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0158",
+      "source_id": "site-operation-velocity",
+      "relationship_type": "implemented_by",
+      "target_id": "site-operation-velocity",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 165
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0159",
+      "source_id": "site-business-loan-affiliate-library",
+      "relationship_type": "implemented_by",
+      "target_id": "site-business-loan-affiliate-library",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 166
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0160",
+      "source_id": "site-funding-action-plan",
+      "relationship_type": "implemented_by",
+      "target_id": "site-funding-action-plan",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 167
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0161",
+      "source_id": "site-tax-partner-pro",
+      "relationship_type": "implemented_by",
+      "target_id": "repo-taxpartnerpro",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 168
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0162",
+      "source_id": "site-moonshine-account-portal",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-account-portal",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 169
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0163",
+      "source_id": "site-moonshine-intake-router",
+      "relationship_type": "implemented_by",
+      "target_id": "site-moonshine-intake-router",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 170
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0164",
+      "source_id": "site-notion-to-site",
+      "relationship_type": "implemented_by",
+      "target_id": "site-notion-to-site",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 171
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0165",
+      "source_id": "site-dfy-funding",
+      "relationship_type": "implemented_by",
+      "target_id": "site-dfy-funding",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 172
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0166",
+      "source_id": "site-dac-goal-calculator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-dac-goal-calculator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 173
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0167",
+      "source_id": "site-distilled-partner-hub",
+      "relationship_type": "implemented_by",
+      "target_id": "site-distilled-partner-hub",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 174
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0168",
+      "source_id": "site-jf-brand-os",
+      "relationship_type": "implemented_by",
+      "target_id": "site-jf-brand-os",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 175
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0169",
+      "source_id": "site-capital-incubator",
+      "relationship_type": "implemented_by",
+      "target_id": "site-capital-incubator",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 176
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0170",
+      "source_id": "site-founder-fuel",
+      "relationship_type": "implemented_by",
+      "target_id": "site-founder-fuel",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 177
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0171",
+      "source_id": "site-burn-rate-runway-widget",
+      "relationship_type": "implemented_by",
+      "target_id": "site-burn-rate-runway-widget",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 178
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0172",
+      "source_id": "site-biz-credit-builder",
+      "relationship_type": "implemented_by",
+      "target_id": null,
+      "target_external": {
+        "repository": "JFeimster/BizCredit-Builder"
+      },
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 179
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0173",
+      "source_id": "site-cfo-in-a-box",
+      "relationship_type": "implemented_by",
+      "target_id": "site-cfo-in-a-box",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 180
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0174",
+      "source_id": "site-funding-quiz",
+      "relationship_type": "implemented_by",
+      "target_id": "site-funding-quiz",
+      "target_external": null,
+      "context": "Vercel project linked to GitHub repository",
+      "confidence": 0.99,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_index": 181
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0175",
+      "source_id": "gpt-start-your-own-funding-agency",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0176",
+      "source_id": "gpt-agent-growth-hub",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0177",
+      "source_id": "gpt-affiliate-marketing-strategist",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0178",
+      "source_id": "gpt-7-day-broker-blitz",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0179",
+      "source_id": "gpt-dac-affiliate-email-wizard",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0180",
+      "source_id": "gpt-deal-maker-ads",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0181",
+      "source_id": "gpt-affiliate-commission-estimator",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0182",
+      "source_id": "site-affiliate-launch-kit-generator",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0183",
+      "source_id": "site-dac-goal-calculator",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0184",
+      "source_id": "site-dac-comp",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0185",
+      "source_id": "stack-partner-affiliate-enablement",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "Affiliate Commission Estimator (GPT)",
+        "component_type": "tool_widgets"
+      },
+      "context": "Unresolved tool_widgets reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0186",
+      "source_id": "site-partner-enablement-os",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0187",
+      "source_id": "site-start-your-agency",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0188",
+      "source_id": "site-partnerhub",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0189",
+      "source_id": "site-onboarding",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0190",
+      "source_id": "site-agent-portal",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0191",
+      "source_id": "site-dac-affiliate-enablement",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0192",
+      "source_id": "site-myfigures-partner-onboarding",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0193",
+      "source_id": "repo-capital-launchpad",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0194",
+      "source_id": "app-partnerlaunch-funding-widget-suite",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0195",
+      "source_id": "app-moonshine-capital-partner-welcome",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0196",
+      "source_id": "app-myfigures-partner-program-onboarding",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0197",
+      "source_id": "app-funding-partners-os-agent-dashboard",
+      "relationship_type": "part_of",
+      "target_id": "stack-partner-affiliate-enablement",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 0,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0198",
+      "source_id": "stack-borrower-qualification",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "Funding Pathfinder",
+        "component_type": "gpt_brains"
+      },
+      "context": "Unresolved gpt_brains reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0199",
+      "source_id": "gpt-get-my-funding-offer",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0200",
+      "source_id": "gpt-same-day-capital-os",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0201",
+      "source_id": "notion-bank-statement-analyzer-funding-readiness",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0202",
+      "source_id": "gpt-fundable-lead-finder",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0203",
+      "source_id": "stack-borrower-qualification",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "am-i-fundable",
+        "component_type": "tool_widgets"
+      },
+      "context": "Unresolved tool_widgets reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0204",
+      "source_id": "site-funding-quiz",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0205",
+      "source_id": "site-funding-embed",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0206",
+      "source_id": "site-moonshine-ai-directory",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0207",
+      "source_id": "site-estimator",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0208",
+      "source_id": "app-ai-funding-pathfinder",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0209",
+      "source_id": "site-distilledfunding",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0210",
+      "source_id": "site-operator-funding-site",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0211",
+      "source_id": "app-ai-funding-pathfinder",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0212",
+      "source_id": "app-distilled-funding",
+      "relationship_type": "part_of",
+      "target_id": "stack-borrower-qualification",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 1,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0213",
+      "source_id": "gpt-ai-fractional-cfo",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0214",
+      "source_id": "notion-finance-ops-copilot",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0215",
+      "source_id": "gpt-cashflow-copilot",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0216",
+      "source_id": "gpt-real-time-cash-flow-analyzer",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0217",
+      "source_id": "gpt-weekly-finance-brief-bot",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0218",
+      "source_id": "site-burn-rate-runway-widget",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0219",
+      "source_id": "stack-fractional-cfo-cash-flow",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "cashflow-copilot-4",
+        "component_type": "tool_widgets"
+      },
+      "context": "Unresolved tool_widgets reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0220",
+      "source_id": "site-cash-command",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0221",
+      "source_id": "site-ad-spend-cashflow",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0222",
+      "source_id": "site-cfo-in-a-box",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0223",
+      "source_id": "site-cashflow",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0224",
+      "source_id": "site-bizfin-os",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0225",
+      "source_id": "app-flowstate-managed-cash-flow",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0226",
+      "source_id": "app-flow-finance",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0227",
+      "source_id": "app-bizfin-os-smart-banking",
+      "relationship_type": "part_of",
+      "target_id": "stack-fractional-cfo-cash-flow",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 2,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0228",
+      "source_id": "notion-deal-scorecard-gpt",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0229",
+      "source_id": "notion-is-this-a-good-deal-gpt",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0230",
+      "source_id": "gpt-the-business-buyer-s-blueprint",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0231",
+      "source_id": "gpt-bridge-capital-finder-gpt",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0232",
+      "source_id": "gpt-fix-and-flip-capital-coach",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0233",
+      "source_id": "site-ma-deal-analyzer",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0234",
+      "source_id": "site-acquisition-deal-calculator",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0235",
+      "source_id": "site-sba-business-acquisition-calculator",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0236",
+      "source_id": "site-micro-acquisition-fundability-calculator",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0237",
+      "source_id": "site-capital-stack-os",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0238",
+      "source_id": "site-acquire-meta",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0239",
+      "source_id": "app-acquiremeta",
+      "relationship_type": "part_of",
+      "target_id": "stack-acquisitions-m-and-a",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 3,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0240",
+      "source_id": "notion-bizcredit-builder-gpt",
+      "relationship_type": "part_of",
+      "target_id": "stack-business-credit",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 4,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0241",
+      "source_id": "gpt-business-banker-gpt",
+      "relationship_type": "part_of",
+      "target_id": "stack-business-credit",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 4,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0242",
+      "source_id": "stack-business-credit",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "(to build) credit-readiness scorecard widget",
+        "component_type": "tool_widgets"
+      },
+      "context": "Unresolved tool_widgets reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 4,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0243",
+      "source_id": "app-bizcredit-os",
+      "relationship_type": "part_of",
+      "target_id": "stack-business-credit",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 4,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0244",
+      "source_id": "site-biz-credit-builder",
+      "relationship_type": "part_of",
+      "target_id": "stack-business-credit",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 4,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0245",
+      "source_id": "stack-business-credit",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "bizfin-bank",
+        "component_type": "host_sites"
+      },
+      "context": "Unresolved host_sites reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 4,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0246",
+      "source_id": "app-bizcredit-os",
+      "relationship_type": "part_of",
+      "target_id": "stack-business-credit",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 4,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0247",
+      "source_id": "app-foundry-os",
+      "relationship_type": "part_of",
+      "target_id": "stack-business-credit",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 4,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0248",
+      "source_id": "gpt-ecommerce-cash-flow-forecaster",
+      "relationship_type": "part_of",
+      "target_id": "stack-ecommerce-capital",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 5,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0249",
+      "source_id": "gpt-ad-spend-cash-flow-calculator",
+      "relationship_type": "part_of",
+      "target_id": "stack-ecommerce-capital",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 5,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0250",
+      "source_id": "site-reserve-unlocker",
+      "relationship_type": "part_of",
+      "target_id": "stack-ecommerce-capital",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 5,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0251",
+      "source_id": "site-amazon-payout-unlocker",
+      "relationship_type": "part_of",
+      "target_id": "stack-ecommerce-capital",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 5,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0252",
+      "source_id": "site-inventory-turnover-accelerator",
+      "relationship_type": "part_of",
+      "target_id": "stack-ecommerce-capital",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 5,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0253",
+      "source_id": "stack-ecommerce-capital",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "Bezos Interest Calculator (concept)",
+        "component_type": "tool_widgets"
+      },
+      "context": "Unresolved tool_widgets reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 5,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0254",
+      "source_id": "stack-ecommerce-capital",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "Stockout Death Spiral Estimator (concept)",
+        "component_type": "tool_widgets"
+      },
+      "context": "Unresolved tool_widgets reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 5,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0255",
+      "source_id": "site-ecommerce-cash-flow",
+      "relationship_type": "part_of",
+      "target_id": "stack-ecommerce-capital",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 5,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0256",
+      "source_id": "app-phantom-cash-calculator",
+      "relationship_type": "part_of",
+      "target_id": "stack-ecommerce-capital",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 5,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0257",
+      "source_id": "gpt-broker-follow-up-machine",
+      "relationship_type": "part_of",
+      "target_id": "stack-broker-ops-crm-automation",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 6,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0258",
+      "source_id": "gpt-loan-broker-automation-architect",
+      "relationship_type": "part_of",
+      "target_id": "stack-broker-ops-crm-automation",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 6,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0259",
+      "source_id": "gpt-funding-workflow-sop-builder",
+      "relationship_type": "part_of",
+      "target_id": "stack-broker-ops-crm-automation",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 6,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0260",
+      "source_id": "gpt-harper-hubspot-api-architect",
+      "relationship_type": "part_of",
+      "target_id": "stack-broker-ops-crm-automation",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 6,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0261",
+      "source_id": "gpt-voice-agent-call-flow-builder",
+      "relationship_type": "part_of",
+      "target_id": "stack-broker-ops-crm-automation",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 6,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0262",
+      "source_id": "app-territory-commander",
+      "relationship_type": "part_of",
+      "target_id": "stack-broker-ops-crm-automation",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 6,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0263",
+      "source_id": "site-broker-followup-machine",
+      "relationship_type": "part_of",
+      "target_id": "stack-broker-ops-crm-automation",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 6,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0264",
+      "source_id": "app-elitebroker-ai",
+      "relationship_type": "part_of",
+      "target_id": "stack-broker-ops-crm-automation",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 6,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0265",
+      "source_id": "app-elitebroker-ai",
+      "relationship_type": "part_of",
+      "target_id": "stack-broker-ops-crm-automation",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 6,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0266",
+      "source_id": "app-territory-commander",
+      "relationship_type": "part_of",
+      "target_id": "stack-broker-ops-crm-automation",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 6,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0267",
+      "source_id": "gpt-siteforge-operator",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0268",
+      "source_id": "gpt-vercel-launch-smith",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0269",
+      "source_id": "gpt-sizzling-website-and-ui-generator",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0270",
+      "source_id": "gpt-flash-ui-prompt-architect",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0271",
+      "source_id": "gpt-agent-launch-site-builder",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0272",
+      "source_id": "gpt-no-code-gpt-builder",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0273",
+      "source_id": "site-flash-ui-prompts",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0274",
+      "source_id": "app-vibe-site-smith",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0275",
+      "source_id": "site-ai-studio-app-builder",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0276",
+      "source_id": "app-wrapperforge",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "tool_widgets member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0277",
+      "source_id": "site-foundryos",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0278",
+      "source_id": "site-niche-landing-page-factory",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0279",
+      "source_id": "site-microsite-automation",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0280",
+      "source_id": "site-notion-to-site",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0281",
+      "source_id": "app-venture-build-ai",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0282",
+      "source_id": "app-gemini-appsmith",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0283",
+      "source_id": "app-gemini-blueprint-studio",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0284",
+      "source_id": "app-vibe-site-smith",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0285",
+      "source_id": "app-wrapperforge",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0286",
+      "source_id": "app-google-ai-studio-app-builder",
+      "relationship_type": "part_of",
+      "target_id": "stack-asset-foundry-meta-builder",
+      "target_external": null,
+      "context": "ai_studio_apps member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 7,
+          "field": "ai_studio_apps"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0287",
+      "source_id": "site-ai-citation-auditor",
+      "relationship_type": "part_of",
+      "target_id": "stack-seo-content-ai-citation",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 8,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0288",
+      "source_id": "gpt-funding-article-refresh-auditor",
+      "relationship_type": "part_of",
+      "target_id": "stack-seo-content-ai-citation",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 8,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0289",
+      "source_id": "gpt-detailed-keyword-analysis-seo",
+      "relationship_type": "part_of",
+      "target_id": "stack-seo-content-ai-citation",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 8,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0290",
+      "source_id": "stack-seo-content-ai-citation",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "ZenSEO Article Writer",
+        "component_type": "gpt_brains"
+      },
+      "context": "Unresolved gpt_brains reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 8,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0291",
+      "source_id": "gpt-ai-reviews-blog-writer",
+      "relationship_type": "part_of",
+      "target_id": "stack-seo-content-ai-citation",
+      "target_external": null,
+      "context": "gpt_brains member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 8,
+          "field": "gpt_brains"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0292",
+      "source_id": "site-ai-citation-auditor",
+      "relationship_type": "part_of",
+      "target_id": "stack-seo-content-ai-citation",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 8,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0293",
+      "source_id": "repo-seo-audit-mc",
+      "relationship_type": "part_of",
+      "target_id": "stack-seo-content-ai-citation",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 8,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0294",
+      "source_id": "stack-real-estate-fix-and-flip",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "Fix-and-Flip ROI & Max Loan Estimator (concept)",
+        "component_type": "tool_widgets"
+      },
+      "context": "Unresolved tool_widgets reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 9,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0295",
+      "source_id": "stack-real-estate-fix-and-flip",
+      "relationship_type": "references",
+      "target_id": null,
+      "target_external": {
+        "name": "Real Estate Proof of Funds Generator (concept)",
+        "component_type": "tool_widgets"
+      },
+      "context": "Unresolved tool_widgets reference in assistant stack",
+      "confidence": 0.6,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 9,
+          "field": "tool_widgets"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0296",
+      "source_id": "site-hard-money-lenders",
+      "relationship_type": "part_of",
+      "target_id": "stack-real-estate-fix-and-flip",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 9,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0297",
+      "source_id": "site-real-estate-agents",
+      "relationship_type": "part_of",
+      "target_id": "stack-real-estate-fix-and-flip",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 9,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0298",
+      "source_id": "site-seller-funding",
+      "relationship_type": "part_of",
+      "target_id": "stack-real-estate-fix-and-flip",
+      "target_external": null,
+      "context": "host_sites member of assistant stack",
+      "confidence": 0.95,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "assistant-stacks.registry.json",
+          "source_index": 9,
+          "field": "host_sites"
+        }
+      ]
+    },
+    {
+      "relationship_candidate_id": "rel-0299",
+      "source_id": "notion-bizcredit-builder-gpt",
+      "relationship_type": "uses",
+      "target_id": "provider-credit-suite",
+      "target_external": null,
+      "context": "Related tool declared by GPT asset registry",
+      "confidence": 0.85,
+      "status": "proposed",
+      "evidence": [
+        {
+          "source_registry": "gpt-assets.registry.json",
+          "source_index": 11
+        }
+      ]
+    }
+  ]
+}

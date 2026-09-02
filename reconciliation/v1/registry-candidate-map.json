@@ -1,0 +1,922 @@
+{
+  "report_name": "ResourceGrid Registry Candidate Map",
+  "version": "1.0.0",
+  "generated_at": "2026-09-02T11:05:41.117151+00:00",
+  "summary": {
+    "registry_families_reviewed": 71,
+    "high_priority": 33,
+    "deferred": 22,
+    "manual_review": 7
+  },
+  "registries": [
+    {
+      "source_basename": "account-types.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/account-types.registry.json",
+      "preferred_record_count": 9,
+      "preferred_bytes": 1805,
+      "target": "defer/domain-intelligence",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "affiliate-funding-agency-gpts.registry.json",
+      "preferred_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+      "preferred_record_count": 24,
+      "preferred_bytes": 13342,
+      "target": "registries/resources/custom-gpts.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/affiliate-funding-agency-gpts.registry.json"
+      ]
+    },
+    {
+      "source_basename": "ai-automation-system-templates.registry.json",
+      "preferred_path": "JSON/downloads/ai-automation-system-templates.registry.json",
+      "preferred_record_count": 3,
+      "preferred_bytes": 14392,
+      "target": "registries/operations/assistant-stacks.json",
+      "priority": "medium",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/ai-automation-system-templates.registry.json"
+      ]
+    },
+    {
+      "source_basename": "ai-studio-apps.registry.json",
+      "preferred_path": "JSON/downloads/ai-studio-apps.registry.json",
+      "preferred_record_count": 44,
+      "preferred_bytes": 19681,
+      "target": "registries/resources/apps.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/ai-studio-apps registry json/ai-studio-apps.registry.json"
+      ]
+    },
+    {
+      "source_basename": "app-ideas.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/app-ideas.registry.json",
+      "preferred_record_count": 26,
+      "preferred_bytes": 11400,
+      "target": "registries/resources/apps.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "assets.json",
+      "preferred_path": "JSON/downloads/assets.json",
+      "preferred_record_count": 86,
+      "preferred_bytes": 31613,
+      "target": "reconciliation/cross-source-index",
+      "priority": "high",
+      "action": "use_as_cross_source_evidence",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "assistant-stacks.registry.json",
+      "preferred_path": "JSON/downloads/assistant-stacks.registry.json",
+      "preferred_record_count": 10,
+      "preferred_bytes": 10497,
+      "target": "registries/operations/assistant-stacks.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/assistant-stacks registry json/assistant-stacks.registry.json"
+      ]
+    },
+    {
+      "source_basename": "bank-financing.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/bank-financing.registry.json",
+      "preferred_record_count": 4,
+      "preferred_bytes": 1452,
+      "target": "registries/funding/products.json",
+      "priority": "medium",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "borrower-qualification-stack.registry.json",
+      "preferred_path": "JSON/downloads/borrower-qualification-stack.registry.json",
+      "preferred_record_count": 0,
+      "preferred_bytes": 5115,
+      "target": "registries/funding/routing-rules.json",
+      "priority": "medium",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/borrower-qualification-stack registry json/borrower-qualification-stack.registry.json"
+      ]
+    },
+    {
+      "source_basename": "broker-ops-command-registry.json",
+      "preferred_path": "JSON/AI Finance Ops Content Engine/broker-ops-command-registry.json",
+      "preferred_record_count": 9,
+      "preferred_bytes": 16854,
+      "target": "registries/operations/assistant-stacks.json",
+      "priority": "medium",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "capitalos-products.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/capitalos-products.registry.json",
+      "preferred_record_count": 11,
+      "preferred_bytes": 9573,
+      "target": "registries/funding/products.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "credit-building-stages.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/credit-building-stages.registry.json",
+      "preferred_record_count": 6,
+      "preferred_bytes": 2433,
+      "target": "defer/domain-intelligence",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "credit-bureaus.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/credit-bureaus.registry.json",
+      "preferred_record_count": 5,
+      "preferred_bytes": 1170,
+      "target": "defer/domain-intelligence",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "credit-tiers.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/credit-tiers.registry.json",
+      "preferred_record_count": 4,
+      "preferred_bytes": 2021,
+      "target": "defer/domain-intelligence",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "credit-vendors.registry.json",
+      "preferred_path": "JSON/downloads/credit-vendors.registry.json",
+      "preferred_record_count": 43,
+      "preferred_bytes": 14509,
+      "target": "defer/domain-intelligence",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 2,
+      "distinct_versions": 2,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/credit-vendors.registry.json"
+      ]
+    },
+    {
+      "source_basename": "custom-gpts.registry.json",
+      "preferred_path": "JSON/downloads/custom-gpts.registry.json",
+      "preferred_record_count": 100,
+      "preferred_bytes": 34015,
+      "target": "registries/resources/custom-gpts.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 3,
+      "distinct_versions": 2,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/custom-gpts registry json 9f9f-340d/custom-gpts.registry.json",
+        "JSON/Private & Shared/Registries/custom-gpts.registry.json"
+      ]
+    },
+    {
+      "source_basename": "data-assets.registry.json",
+      "preferred_path": "JSON/data-assets.registry.json",
+      "preferred_record_count": 4183,
+      "preferred_bytes": 10525306,
+      "target": "reconciliation/cross-source-index",
+      "priority": "high",
+      "action": "use_as_cross_source_evidence",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "digital-products.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+      "preferred_record_count": 60,
+      "preferred_bytes": 33286,
+      "target": "registries/conversion/offers.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "distilledfunding-subdomain-prompts.registry.json",
+      "preferred_path": "JSON/downloads/distilledfunding-subdomain-prompts.registry.json",
+      "preferred_record_count": 10,
+      "preferred_bytes": 51370,
+      "target": "registries/resources/sites.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/distilledfunding-subdomain-prompts.registry.json"
+      ]
+    },
+    {
+      "source_basename": "eam-tools.registry.json",
+      "preferred_path": "JSON/downloads/eam-tools.registry.json",
+      "preferred_record_count": 125,
+      "preferred_bytes": 61431,
+      "target": "registries/resources/tools.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 2,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/eam-tools.registry.json"
+      ]
+    },
+    {
+      "source_basename": "flash-ui-brand-system.registry.json",
+      "preferred_path": "JSON/downloads/flash-ui-brand-system.registry.json",
+      "preferred_record_count": 7,
+      "preferred_bytes": 3841,
+      "target": "defer/implementation-library",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/flash-ui-brand-system.registry.json"
+      ]
+    },
+    {
+      "source_basename": "flash-ui-prompt-commands.registry.json",
+      "preferred_path": "JSON/downloads/flash-ui-prompt-commands.registry.json",
+      "preferred_record_count": 12,
+      "preferred_bytes": 5515,
+      "target": "defer/implementation-library",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/flash-ui-prompt-commands.registry.json"
+      ]
+    },
+    {
+      "source_basename": "flash-ui-prompts.registry.json",
+      "preferred_path": "JSON/downloads/flash-ui-prompts.registry.json",
+      "preferred_record_count": 119,
+      "preferred_bytes": 219613,
+      "target": "defer/implementation-library",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/flash-ui-prompts.registry.json"
+      ]
+    },
+    {
+      "source_basename": "flash-ui-template-patterns.registry.json",
+      "preferred_path": "JSON/downloads/flash-ui-template-patterns.registry.json",
+      "preferred_record_count": 107,
+      "preferred_bytes": 105243,
+      "target": "defer/implementation-library",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/flash-ui-template-patterns.registry.json"
+      ]
+    },
+    {
+      "source_basename": "flash-ui-vertical-prompts.registry.json",
+      "preferred_path": "JSON/downloads/flash-ui-vertical-prompts.registry.json",
+      "preferred_record_count": 28,
+      "preferred_bytes": 13723,
+      "target": "defer/implementation-library",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/flash-ui-vertical-prompts.registry.json"
+      ]
+    },
+    {
+      "source_basename": "fundability-checklist.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/fundability-checklist.registry.json",
+      "preferred_record_count": 10,
+      "preferred_bytes": 2506,
+      "target": "registries/resources/calculators.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-applicants.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/funding-applicants.registry.json",
+      "preferred_record_count": 1,
+      "preferred_bytes": 1762,
+      "target": "defer/operational-crm",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-calculators.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/funding-calculators.registry.json",
+      "preferred_record_count": 138,
+      "preferred_bytes": 98490,
+      "target": "registries/resources/calculators.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-compliance-copy.registry.json",
+      "preferred_path": "JSON/downloads/funding-compliance-copy.registry.json",
+      "preferred_record_count": 8,
+      "preferred_bytes": 3356,
+      "target": "registries/conversion/compliance-copy.json",
+      "priority": "medium",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-directory.registry.json",
+      "preferred_path": "JSON/downloads/funding-directory.registry.json",
+      "preferred_record_count": 1,
+      "preferred_bytes": 2094,
+      "target": "review/unclassified",
+      "priority": "review",
+      "action": "manual_review",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-documents.registry.json",
+      "preferred_path": "JSON/downloads/funding-documents.registry.json",
+      "preferred_record_count": 20,
+      "preferred_bytes": 12397,
+      "target": "defer/operational-crm",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-lead-fields.registry.json",
+      "preferred_path": "JSON/downloads/funding-lead-fields.registry.json",
+      "preferred_record_count": 19,
+      "preferred_bytes": 15588,
+      "target": "defer/domain-intelligence",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-pages.registry.json",
+      "preferred_path": "JSON/downloads/funding-pages.registry.json",
+      "preferred_record_count": 7,
+      "preferred_bytes": 31575,
+      "target": "registries/resources/sites.json",
+      "priority": "medium",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/funding-pages registry json/funding-pages.registry.json"
+      ]
+    },
+    {
+      "source_basename": "funding-partners.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/funding-partners.registry.json",
+      "preferred_record_count": 54,
+      "preferred_bytes": 31418,
+      "target": "registries/funding/providers.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-pipeline-config.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/funding-pipeline-config.registry.json",
+      "preferred_record_count": 43,
+      "preferred_bytes": 7169,
+      "target": "defer/operational-crm",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-pipeline-leads.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/funding-pipeline-leads.registry.json",
+      "preferred_record_count": 65,
+      "preferred_bytes": 18582,
+      "target": "defer/operational-crm",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-product-families.registry.json",
+      "preferred_path": "JSON/downloads/funding-product-families.registry.json",
+      "preferred_record_count": 9,
+      "preferred_bytes": 13880,
+      "target": "registries/funding/product-families.json",
+      "priority": "medium",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 2,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/funding-product-families registry json/funding-product-families.registry.json"
+      ]
+    },
+    {
+      "source_basename": "funding-products.registry.json",
+      "preferred_path": "JSON/downloads/funding-products.registry.json",
+      "preferred_record_count": 59,
+      "preferred_bytes": 231489,
+      "target": "registries/funding/products.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 3,
+      "distinct_versions": 3,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/funding-products registry json 23e1-81da/funding-products.registry.json",
+        "JSON/Private & Shared/Registries/funding-products.registry.json"
+      ]
+    },
+    {
+      "source_basename": "funding-providers.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/funding-providers registry json/funding-providers.registry.json",
+      "preferred_record_count": 33,
+      "preferred_bytes": 53458,
+      "target": "registries/funding/providers.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 2,
+      "alternate_paths": [
+        "JSON/downloads/funding-providers.registry.json"
+      ]
+    },
+    {
+      "source_basename": "funding-routing-rules.registry.json",
+      "preferred_path": "JSON/downloads/funding-routing-rules.registry.json",
+      "preferred_record_count": 11,
+      "preferred_bytes": 12554,
+      "target": "registries/funding/routing-rules.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-scorecard.registry.json",
+      "preferred_path": "JSON/downloads/funding-scorecard.registry.json",
+      "preferred_record_count": 1,
+      "preferred_bytes": 8987,
+      "target": "registries/resources/calculators.json",
+      "priority": "medium",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "funding-tools.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/funding-tools registry json/funding-tools.registry.json",
+      "preferred_record_count": 125,
+      "preferred_bytes": 83312,
+      "target": "registries/resources/tools.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 2,
+      "alternate_paths": [
+        "JSON/downloads/funding-tools.registry.json"
+      ]
+    },
+    {
+      "source_basename": "github-repos.registry.json",
+      "preferred_path": "JSON/github-repos.registry.json",
+      "preferred_record_count": 221,
+      "preferred_bytes": 244221,
+      "target": "registries/resources/repositories.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 3,
+      "distinct_versions": 2,
+      "alternate_paths": [
+        "JSON/downloads/github-repos.registry.json",
+        "JSON/Private & Shared/Registries/github-repos.registry.json"
+      ]
+    },
+    {
+      "source_basename": "gpt-assets.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+      "preferred_record_count": 25,
+      "preferred_bytes": 42325,
+      "target": "registries/resources/custom-gpts.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "gpt-ideas.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/gpt-ideas.registry.json",
+      "preferred_record_count": 164,
+      "preferred_bytes": 59485,
+      "target": "review/unclassified",
+      "priority": "review",
+      "action": "manual_review",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "intake-verification-paths.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/intake-verification-paths.registry.json",
+      "preferred_record_count": 3,
+      "preferred_bytes": 2106,
+      "target": "defer/domain-intelligence",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "internal-provider-rules.registry.json",
+      "preferred_path": "JSON/downloads/internal-provider-rules.registry.json",
+      "preferred_record_count": 97,
+      "preferred_bytes": 270958,
+      "target": "registries/funding/routing-rules.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "lead-scoring-model.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/lead-scoring-model.registry.json",
+      "preferred_record_count": 5,
+      "preferred_bytes": 1797,
+      "target": "defer/domain-intelligence",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "moonshine-flash-ui-site-prompts.registry.json",
+      "preferred_path": "JSON/downloads/moonshine-flash-ui-site-prompts.registry.json",
+      "preferred_record_count": 15,
+      "preferred_bytes": 71143,
+      "target": "defer/implementation-library",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/moonshine-flash-ui-site-prompts.registry.json"
+      ]
+    },
+    {
+      "source_basename": "moonshine-partners.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/moonshine-partners.registry.json",
+      "preferred_record_count": 50,
+      "preferred_bytes": 13570,
+      "target": "registries/funding/providers.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "moonshine-pillar-page-prompts.registry.json",
+      "preferred_path": "JSON/downloads/moonshine-pillar-page-prompts.registry.json",
+      "preferred_record_count": 5,
+      "preferred_bytes": 41437,
+      "target": "defer/implementation-library",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/moonshine-pillar-page-prompts.registry.json"
+      ]
+    },
+    {
+      "source_basename": "moonshine-tool-prompts.registry.json",
+      "preferred_path": "JSON/downloads/moonshine-tool-prompts.registry.json",
+      "preferred_record_count": 14,
+      "preferred_bytes": 64138,
+      "target": "registries/resources/tools.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/moonshine-tool-prompts.registry.json"
+      ]
+    },
+    {
+      "source_basename": "moonshine.registry-map.json",
+      "preferred_path": "JSON/downloads/moonshine.registry-map.json",
+      "preferred_record_count": 19,
+      "preferred_bytes": 25194,
+      "target": "docs/source-registry-map.json",
+      "priority": "high",
+      "action": "retain_as_architecture_reference",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "offer-catalog.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+      "preferred_record_count": 20,
+      "preferred_bytes": 32569,
+      "target": "registries/conversion/offers.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "offer-launch-checklist.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/offer-launch-checklist.registry.json",
+      "preferred_record_count": 20,
+      "preferred_bytes": 11816,
+      "target": "registries/conversion/offers.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "offer-sequencing.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/offer-sequencing.registry.json",
+      "preferred_record_count": 20,
+      "preferred_bytes": 18985,
+      "target": "registries/conversion/offers.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "outreach-sequences.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/outreach-sequences.registry.json",
+      "preferred_record_count": 5,
+      "preferred_bytes": 2316,
+      "target": "review/unclassified",
+      "priority": "review",
+      "action": "manual_review",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "partner-onboarding-config.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/partner-onboarding-config.registry.json",
+      "preferred_record_count": 54,
+      "preferred_bytes": 7107,
+      "target": "review/unclassified",
+      "priority": "review",
+      "action": "manual_review",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "platform-assets.registry.json",
+      "preferred_path": "JSON/platform-assets.registry.json",
+      "preferred_record_count": 620,
+      "preferred_bytes": 400198,
+      "target": "reconciliation/cross-source-index",
+      "priority": "high",
+      "action": "use_as_cross_source_evidence",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "platform-guide.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/platform-guide.registry.json",
+      "preferred_record_count": 7,
+      "preferred_bytes": 4247,
+      "target": "review/unclassified",
+      "priority": "review",
+      "action": "manual_review",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "product-ideas.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/product-ideas.registry.json",
+      "preferred_record_count": 944,
+      "preferred_bytes": 1051350,
+      "target": "review/unclassified",
+      "priority": "review",
+      "action": "manual_review",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "revenue-asset-routing-map.json",
+      "preferred_path": "JSON/downloads/revenue-asset-routing-map.json",
+      "preferred_record_count": 23,
+      "preferred_bytes": 71951,
+      "target": "relationships/revenue-routing-candidates",
+      "priority": "review",
+      "action": "manual_review",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "site-builder-gpts.registry.json",
+      "preferred_path": "JSON/downloads/site-builder-gpts.registry.json",
+      "preferred_record_count": 12,
+      "preferred_bytes": 43108,
+      "target": "registries/resources/custom-gpts.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "template-registry.json",
+      "preferred_path": "JSON/skill-discovery/skill-discovery-safe/packages/0108-presentations/assets/builtin_templates/codex-grid-layout-library/artifact-tool-compose/template-registry.json",
+      "preferred_record_count": 0,
+      "preferred_bytes": 246000,
+      "target": "defer/implementation-library",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/skill-discovery/skill-discovery-safe/packages/1296-presentations/assets/builtin_templates/codex-grid-layout-library/artifact-tool-compose/template-registry.json"
+      ]
+    },
+    {
+      "source_basename": "tool-registry.json",
+      "preferred_path": "JSON/downloads/tool-registry.json",
+      "preferred_record_count": 11,
+      "preferred_bytes": 16007,
+      "target": "registries/resources/tools.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/tool-registry json/tool-registry.json"
+      ]
+    },
+    {
+      "source_basename": "ui-code-templates.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/ui-code-templates.registry.json",
+      "preferred_record_count": 9,
+      "preferred_bytes": 5180,
+      "target": "defer/implementation-library",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "vercel-deployments.registry.json",
+      "preferred_path": "JSON/downloads/vercel-deployments.registry.json",
+      "preferred_record_count": 157,
+      "preferred_bytes": 42133,
+      "target": "registries/resources/sites.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 1,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/vercel-deployments.registry.json"
+      ]
+    },
+    {
+      "source_basename": "vercel-portfolio-triage.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/vercel-portfolio-triage.registry.json",
+      "preferred_record_count": 130,
+      "preferred_bytes": 59462,
+      "target": "registries/resources/sites.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "vercel-projects.registry.json",
+      "preferred_path": "JSON/vercel-projects.registry.json",
+      "preferred_record_count": 182,
+      "preferred_bytes": 164366,
+      "target": "registries/resources/sites.json",
+      "priority": "high",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 2,
+      "distinct_versions": 2,
+      "alternate_paths": [
+        "JSON/Private & Shared/Registries/vercel-projects.registry.json"
+      ]
+    },
+    {
+      "source_basename": "vertical-microsite-config.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/vertical-microsite-config.registry.json",
+      "preferred_record_count": 5,
+      "preferred_bytes": 6837,
+      "target": "registries/resources/sites.json",
+      "priority": "medium",
+      "action": "reconcile_into_canonical_registry",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    },
+    {
+      "source_basename": "wix-connector-prompts.registry.json",
+      "preferred_path": "JSON/Private & Shared/Registries/wix-connector-prompts.registry.json",
+      "preferred_record_count": 30,
+      "preferred_bytes": 10380,
+      "target": "defer/implementation-library",
+      "priority": "defer",
+      "action": "reference_only_or_separate_domain",
+      "copy_count": 1,
+      "distinct_versions": 1,
+      "alternate_paths": []
+    }
+  ]
+}

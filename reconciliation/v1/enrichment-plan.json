@@ -1,0 +1,1483 @@
+{
+  "report_name": "ResourceGrid Enrichment Plan",
+  "version": "1.0.0",
+  "generated_at": "2026-09-02T11:05:41.116829+00:00",
+  "summary": {
+    "matched_canonical_entities": 46,
+    "entities_with_material_enrichment": 46
+  },
+  "entities": [
+    {
+      "resource_id": "calculator-amazon-dd-7-calculator",
+      "title": "Amazon DD+7 Calculator",
+      "current_entity_type": "calculator",
+      "matched_source_count": 3,
+      "sources": [
+        {
+          "source_registry": "assets.json",
+          "source_path": "JSON/downloads/assets.json",
+          "source_index": 12,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 21,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 101,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Landing page and trapped-capital calculator for Amazon resellers facing DD+7 reserves.",
+          "A high-performance landing page and \"Trapped Capital\" calculator designed for Amazon resellers facing DD+7 reserves."
+        ],
+        "categories": "ecom",
+        "slug": [
+          "amazon-payout-unlocker"
+        ],
+        "audiences": "Ecommerce Sellers"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-business-acquisition-deal-calculator",
+      "title": "Business Acquisition Deal Calculator",
+      "current_entity_type": "calculator",
+      "matched_source_count": 4,
+      "sources": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_path": "JSON/vercel-projects.registry.json",
+          "source_index": 93,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 4,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 524,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 155,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Web application for business acquisition and transaction workflows.",
+          "A lightweight, static deal calculator for small business acquisitions. Estimates down payment, capital stack, monthly debt service, and DSCR. Built for embedding on Wix and deployment via Vercel or…"
+        ],
+        "audiences": [
+          "business_buyer",
+          "SMB Owners / Funding Applicants",
+          "Business Buyers"
+        ],
+        "slug": [
+          "acquistack-ai",
+          "acquisition-deal-calculator"
+        ]
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-business-valuation-calculator",
+      "title": "Business Valuation Calculator",
+      "current_entity_type": "calculator",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 42,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 143,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "A premium, dark-mode landing page for the Empire Flippers Valuation Tool. Built with HTML, Tailwind CSS, and Vanilla JS. Features a \"High-Stakes Gold\" design, live API integration for instant busin…"
+        ],
+        "slug": [
+          "business-valuation-tool"
+        ],
+        "audiences": "AI Builders"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-buyer-equity-calculator",
+      "title": "Buyer Equity Calculator",
+      "current_entity_type": "calculator",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 46,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 150,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "An acquisition financing operating system for SMB deals. Generates conservative, balanced, and aggressive capital stacks with risks, fix-first plans, and document checklists."
+        ],
+        "slug": [
+          "capital-stack-os"
+        ],
+        "audiences": "Business Buyers"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-contractor-cash-flow-calculator",
+      "title": "Contractor Cash Flow Calculator",
+      "current_entity_type": "calculator",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 55,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 14,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "slug": [
+          "core-tools"
+        ],
+        "audiences": "General / SMB Audience"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-funding-readiness-scorecard",
+      "title": "Funding Readiness Scorecard",
+      "current_entity_type": "calculator",
+      "matched_source_count": 4,
+      "sources": [
+        {
+          "source_registry": "revenue-asset-routing-map.json",
+          "source_path": "JSON/downloads/revenue-asset-routing-map.json",
+          "source_index": 1,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_path": "JSON/vercel-projects.registry.json",
+          "source_index": 113,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 20,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 31,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "audiences": [
+          "business owners",
+          "rejected borrowers",
+          "low-confidence applicants",
+          "business_owner",
+          "SMB Owners / Funding Applicants"
+        ],
+        "monetization_path": [
+          {
+            "offer_name": "Fundability Fix Plan",
+            "offer_type": "Consulting",
+            "price_hint": "$97-$497 diagnostic or free review tied to funding referral",
+            "status": "candidate"
+          },
+          {
+            "label": "Self-serve readiness score",
+            "url": "https://am-i-fundable.vercel.app/",
+            "status": "available"
+          }
+        ],
+        "description": "Funding Readiness Scorecard with public-safe scoring, embed support, APIs, lead capture, and broker/CRM routing foundations.",
+        "slug": [
+          "am-i-fundable"
+        ]
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-inventory-funding-calculator",
+      "title": "Inventory Funding Calculator",
+      "current_entity_type": "calculator",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 108,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 97,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Eliminating the 14-day Amazon drag to unlock exponential inventory turns."
+        ],
+        "slug": [
+          "inventory-turnover-accelerator"
+        ],
+        "audiences": "Ecommerce Sellers"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-lender-fit-scorecard-matrix",
+      "title": "Lender Fit Scorecard / Matrix",
+      "current_entity_type": "calculator",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_path": "JSON/vercel-projects.registry.json",
+          "source_index": 114,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Interactive web tool for funding, capital, or financial workflows.",
+        "audiences": "business_owner",
+        "slug": "lender-fit-routing-copilot"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-lender-readiness-score",
+      "title": "Lender-Readiness Score",
+      "current_entity_type": "calculator",
+      "matched_source_count": 3,
+      "sources": [
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 406,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "funding-calculators.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/funding-calculators.registry.json",
+          "source_index": 34,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "funding-tools.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/funding-tools registry json/funding-tools.registry.json",
+          "source_index": 34,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Assessing profiles against full criteria to create a 60-day action plan for unbankable leads. 43",
+          "TODO"
+        ],
+        "slug": [
+          "lender-readiness-score"
+        ],
+        "outputs": [
+          "Your 60-Day Funding Action Plan 43"
+        ],
+        "audiences": "High-Churn Affiliates' Leads",
+        "categories": "TODO",
+        "primary_cta": "TODO",
+        "input_fields": "TODO"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-material-cost-inflation-tracker",
+      "title": "Material Cost Inflation Tracker",
+      "current_entity_type": "calculator",
+      "matched_source_count": 3,
+      "sources": [
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 407,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "funding-calculators.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/funding-calculators.registry.json",
+          "source_index": 39,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "funding-tools.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/funding-tools registry json/funding-tools.registry.json",
+          "source_index": 39,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Material prices surged since the bid; need to cover the budget gap. 48",
+          "TODO"
+        ],
+        "slug": [
+          "material-cost-inflation-tracker"
+        ],
+        "outputs": [
+          "Your Material Budget Gap Dashboard 48"
+        ],
+        "audiences": "Construction Contractors",
+        "categories": "TODO",
+        "primary_cta": "TODO",
+        "input_fields": "TODO"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-payroll-gap-bridge-estimator",
+      "title": "Payroll Gap Bridge Estimator",
+      "current_entity_type": "calculator",
+      "matched_source_count": 3,
+      "sources": [
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 409,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "funding-calculators.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/funding-calculators.registry.json",
+          "source_index": 44,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "funding-tools.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/funding-tools registry json/funding-tools.registry.json",
+          "source_index": 44,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Need exact funding required to hit Friday payroll while waiting on receivables. 53",
+          "TODO"
+        ],
+        "slug": [
+          "payroll-gap-bridge-estimator"
+        ],
+        "outputs": [
+          "Friday Payroll Protection Plan (PDF) 53"
+        ],
+        "audiences": "Service Businesses",
+        "categories": "TODO",
+        "primary_cta": "TODO",
+        "input_fields": "TODO"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-platform-fee-audit",
+      "title": "Platform Fee Audit",
+      "current_entity_type": "calculator",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_path": "JSON/vercel-projects.registry.json",
+          "source_index": 104,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 206,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Ecommerce fee-audit application with static frontend assets, API routes, configuration, and operational documentation.",
+          "Reconciles ecommerce payouts, exposes fee leakage, and measures contribution margin."
+        ],
+        "audiences": [
+          "internal_operator",
+          "Ecommerce Sellers"
+        ],
+        "slug": [
+          "ecommerce-fee-audit"
+        ]
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "calculator-wholesaler-real-estate-deal-analyzer-pro",
+      "title": "Wholesaler / Real Estate Deal Analyzer Pro",
+      "current_entity_type": "calculator",
+      "matched_source_count": 3,
+      "sources": [
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 519,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "funding-calculators.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/funding-calculators.registry.json",
+          "source_index": 46,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "funding-tools.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/funding-tools registry json/funding-tools.registry.json",
+          "source_index": 46,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Needs to run full deal math AND generate a proof of funds instantly. 55",
+          "TODO"
+        ],
+        "slug": [
+          "wholesaler-real-estate-deal-analyzer-pro"
+        ],
+        "outputs": [
+          "Deal Package with Pre-Qualification Letter 55"
+        ],
+        "audiences": "Real Estate Wholesalers",
+        "categories": "TODO",
+        "primary_cta": "TODO",
+        "input_fields": "TODO"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-30-day-channel-builder",
+      "title": "30-Day Channel Builder",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 73,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Generates 30-day YouTube content calendars for faceless creators.",
+        "slug": "30-day-channel-builder"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-affiliate-disclosure-and-earnings-disclaimer",
+      "title": "Affiliate Disclosure & Earnings Disclaimer",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 51,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Creates FTC-compliant affiliate disclosures and earnings disclaimers.",
+        "slug": "affiliate-disclosure-writer"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-affiliate-marketing-strategist",
+      "title": "Affiliate Marketing Strategist",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "affiliate-funding-agency-gpts.registry.json",
+          "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+          "source_index": 7,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 89,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Growth strategies to dominate affiliate marketing and agency building.",
+          "Cutthroat growth strategies to dominate affiliate marketing and agency building."
+        ],
+        "slug": "affiliate-marketing-strategist"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-affiliate-review-firestarter",
+      "title": "Affiliate Review Firestarter",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "affiliate-funding-agency-gpts.registry.json",
+          "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+          "source_index": 12,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 79,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Writes raw, punchy, emotional review articles for affiliate brands.",
+          "Writes raw, punchy, emotional review articles for affiliate brands on your blog."
+        ],
+        "slug": "affiliate-review-firestarter"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-affiliate-sizzle-captions-and-threads-that-sell",
+      "title": "Affiliate Sizzle: Captions & Threads that Sell",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "affiliate-funding-agency-gpts.registry.json",
+          "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+          "source_index": 10,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 67,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Generates captions and threads that drive affiliate sales on social media.",
+          "Creates bold, high-converting captions and Twitter/X threads for affiliate marketing posts."
+        ],
+        "slug": "affiliate-sizzle-captions-threads-that-sell"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-algorithm-whisperer-stealth-ranking-strategist",
+      "title": "Algorithm Whisperer: Stealth Ranking Strategist",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 58,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Helps creators master platform algorithms without breaking the rules",
+        "slug": "algorithm-whisperer-stealth-ranking-strategist"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-bridge-capital-finder-gpt",
+      "title": "Bridge Capital Finder GPT",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 50,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Post-close capital strategist for acquisition entrepreneurs",
+        "slug": "bridge-capital-finder-gpt"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-cashflow-copilot",
+      "title": "Cashflow Copilot",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 3,
+      "sources": [
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 51,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 38,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 127,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Your AI-powered partner for proactive cash flow automation, empowering growth and peace of mind for Independent Professionals & Visionary Entrepreneurs.",
+          "Upload your expenses and I’ll give you a clean audit, burn rate, and cost-cutting checklist — in seconds."
+        ],
+        "slug": [
+          "cashflow-copilot"
+        ],
+        "audiences": [
+          "Affiliates / Partners",
+          "AI Builders"
+        ]
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-fix-and-flip-capital-coach",
+      "title": "Fix & Flip Capital Coach",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 43,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Street-smart deal coach helping RE investors analyze flips, secure fast funding, and outsmart the numbers",
+        "slug": "fix-flip-capital-coach"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-get-my-funding-offer",
+      "title": "Get My Funding Offer",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 4,
+      "sources": [
+        {
+          "source_registry": "affiliate-funding-agency-gpts.registry.json",
+          "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+          "source_index": 16,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "platform-assets.registry.json",
+          "source_path": "JSON/platform-assets.registry.json",
+          "source_index": 102,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 37,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 58,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Qualifies a lead and surfaces real-time business funding offers from vetted lending partners.",
+          "Qualifies you and gets real-time business funding offers from vetted lending partners."
+        ],
+        "categories": "Money & Funding",
+        "slug": [
+          "get-my-funding-offer"
+        ],
+        "audiences": [
+          "Affiliates / Partners",
+          "SMB Owners / Funding Applicants"
+        ]
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-getting-started-right",
+      "title": "Getting Started Right",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "affiliate-funding-agency-gpts.registry.json",
+          "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+          "source_index": 4,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Foundational orientation for agency growth and sales for new partners.",
+        "categories": "Agency Growth & Sales"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-landing-page-builder-gpt",
+      "title": "Landing Page Builder GPT",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "gpt-assets.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+          "source_index": 7,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Builds conversion-focused landing page structure, copy, and static page assets.",
+        "audiences": [
+          "Founder",
+          "Marketer",
+          "Agency Owner",
+          "Creator"
+        ],
+        "funnel_stage": "Core",
+        "categories": [
+          "Content & Marketing",
+          "Building & Development",
+          "Creator & Content Ops",
+          "site-builders"
+        ],
+        "notion_url": "https://app.notion.com/p/2084bc1bd63c80439236c9e9fc107375?pvs=1",
+        "slug": "landing-page-builder-gpt",
+        "monetization_path": "Use for DFY landing page builds, template packs, and funnel buildouts.",
+        "outputs": [
+          "Landing page copy",
+          "Wireframe",
+          "Section flow",
+          "CTA strategy",
+          "HTML/CSS/JS"
+        ],
+        "input_fields": [
+          "Offer",
+          "Audience",
+          "Pain point",
+          "CTA",
+          "Proof",
+          "Traffic source",
+          "Brand vibe"
+        ],
+        "related_tools": [
+          "Vercel",
+          "Wix",
+          "Carrd",
+          "Webflow",
+          "ChatGPT"
+        ],
+        "related_content": [
+          "Landing page templates",
+          "Offer pages",
+          "Lead magnets"
+        ]
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-mrr-to-money-gpt",
+      "title": "MRR to Money GPT",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 56,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Translates SaaS MRR metrics into non-dilutive funding insights — fast and founder-friendly.",
+        "slug": "mrr-to-money-gpt"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-optimize-cash-flow-management",
+      "title": "Optimize Cash Flow Management",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 83,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "AI financial consultant for optimized cash flow management",
+        "slug": "optimize-cash-flow-management"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-real-time-cash-flow-analyzer",
+      "title": "Real-Time Cash Flow Analyzer",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "gpt-assets.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+          "source_index": 22,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 34,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Analyzes cash-flow data and summarizes risks, trends, and funding readiness.",
+          "Motivates and guides users to cut costs, grow savings, and reach financial goals"
+        ],
+        "audiences": [
+          "Small Business Owner",
+          "Gig Worker",
+          "Funding Client",
+          "Finance Operator"
+        ],
+        "funnel_stage": "Core",
+        "categories": [
+          "Finance",
+          "Cash Flow",
+          "Funding Readiness",
+          "Finance Ops",
+          "funding-tools"
+        ],
+        "notion_url": "https://app.notion.com/p/2314bc1bd63c8030a817fd7078e3734a?pvs=1",
+        "slug": [
+          "real-time-cash-flow-analyzer"
+        ],
+        "monetization_path": "Drive funding assessments, finance ops audits, cash-flow reports, and funding offer routing.",
+        "outputs": [
+          "Cash flow analysis",
+          "Risk flags",
+          "Funding readiness notes",
+          "Action plan",
+          "Summary report"
+        ],
+        "input_fields": [
+          "Bank statement summary",
+          "Revenue",
+          "Expenses",
+          "Deposits",
+          "Overdrafts",
+          "Balances",
+          "Funding goal"
+        ],
+        "related_tools": [
+          "Bank statements",
+          "CSV upload",
+          "Google Sheets",
+          "My Figures App",
+          "Notion"
+        ],
+        "related_content": [
+          "Cash-flow calculators",
+          "Funding readiness scorecards",
+          "Finance ops reports"
+        ]
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-saas-capital-concierge",
+      "title": "SaaS Capital Concierge",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 49,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Gives blunt, tailored capital advice to SaaS founders scaling without dilution.",
+        "slug": "saas-capital-concierge"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-sales-funnel-builder-gpt",
+      "title": "Sales Funnel Builder GPT",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 77,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Builds customer-first funnels with clear steps and strategic content for lasting conversions",
+        "slug": "sales-funnel-builder-gpt"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-scriptsmith",
+      "title": "ScriptSmith",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 72,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Crafts high-retention YouTube scripts for faceless channels",
+        "slug": "scriptsmith"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-smart-funding-debt-vs-equity",
+      "title": "Smart Funding: Debt vs. Equity",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 61,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Explains Debt vs. Equity Financing with analogies, tables, and decision impact, simplified for users.",
+        "slug": "smart-funding-debt-vs-equity"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-start-your-own-funding-agency",
+      "title": "Start Your Own Funding Agency",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 3,
+      "sources": [
+        {
+          "source_registry": "revenue-asset-routing-map.json",
+          "source_path": "JSON/downloads/revenue-asset-routing-map.json",
+          "source_index": 3,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "affiliate-funding-agency-gpts.registry.json",
+          "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+          "source_index": 0,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 96,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "audiences": [
+          "aspiring funding agents",
+          "affiliate marketers",
+          "salespeople",
+          "gig workers",
+          "networkers"
+        ],
+        "monetization_path": [
+          {
+            "offer_name": "7-Day Funding Agency Blitz",
+            "offer_type": "Affiliate Launch Kit",
+            "price_hint": "$97-$997 self-serve/onboarding; DFY tier $2,500+",
+            "status": "candidate"
+          },
+          {
+            "label": "Partner launch landing page",
+            "url": "https://moonshine-capital-partners.vercel.app/",
+            "status": "available"
+          }
+        ],
+        "description": [
+          "Turn hustle into income: start your own funding business with zero experience needed.",
+          "Turn hustle into income! Start your own funding agency with DAC—zero experience needed. Big commissions. Real freedom. Let’s go!"
+        ],
+        "slug": "start-your-own-funding-agency"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-startup-valuation-expert",
+      "title": "Startup Valuation Expert",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "gpt-assets.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+          "source_index": 13,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 47,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Helps estimate startup valuation logic, investor narrative, and valuation drivers.",
+          "Provides expert, structured startup valuation analysis by industry and financial criteria"
+        ],
+        "audiences": [
+          "Startup Founder",
+          "Investor",
+          "Advisor",
+          "SaaS Operator"
+        ],
+        "funnel_stage": "Tripwire",
+        "categories": [
+          "Finance",
+          "Startup Strategy",
+          "Capital Advisory",
+          "Finance Ops",
+          "finance-ops"
+        ],
+        "notion_url": "https://app.notion.com/p/2084bc1bd63c80528bc4e500c7a2cf85?pvs=1",
+        "slug": [
+          "startup-valuation-expert"
+        ],
+        "monetization_path": "Use for valuation reports, fundraising readiness audits, and advisory calls.",
+        "outputs": [
+          "Valuation range",
+          "Assumptions",
+          "Investor narrative",
+          "Dilution notes",
+          "Risk factors"
+        ],
+        "input_fields": [
+          "Revenue",
+          "Growth rate",
+          "Market",
+          "Stage",
+          "Traction",
+          "Funding need",
+          "Comparable companies"
+        ],
+        "related_tools": [
+          "Spreadsheets",
+          "Pitch deck",
+          "Notion",
+          "Financial models"
+        ],
+        "related_content": [
+          "Valuation explainers",
+          "Funding strategy guides",
+          "Pitch prep"
+        ]
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-the-business-buyer-s-blueprint",
+      "title": "The Business Buyer's Blueprint",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 44,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Business buying advisor with warm, strategic coaching",
+        "slug": "the-business-buyer-s-blueprint"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-transcript-to-blog-transformer",
+      "title": "Transcript to Blog Transformer",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 88,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Transforms video transcripts into polished, long-form blog articles.",
+        "slug": "transcript-to-blog-transformer"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-viral-decoder-reverse-engineer-top-videos",
+      "title": "Viral Decoder - Reverse Engineer Top Videos",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 74,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Reverse-engineers viral videos to reveal patterns & inspire repeatable content strategies.",
+        "slug": "viral-decoder-reverse-engineer-top-videos"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "gpt-zenseo-moonshine-writer",
+      "title": "ZenSEO Moonshine Writer",
+      "current_entity_type": "custom_gpt",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 41,
+          "match_method": "exact_url"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Merges Zen wit with tidal precision to craft SEO blogs that flow and rank.",
+        "slug": "zenseo-article-writer"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "notion-bank-statement-analyzer-funding-readiness",
+      "title": "Bank Statement Analyzer (Funding Readiness)",
+      "current_entity_type": "notion_resource",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "affiliate-funding-agency-gpts.registry.json",
+          "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+          "source_index": 23,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 9,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Reviews bank statements and returns a risk report (NSFs, average daily balance, deposit consistency, red flags) before applying.",
+          "Underwriting-style bank statement risk reports for SMB funding readiness."
+        ],
+        "funnel_stage": "Lead Magnet",
+        "categories": "Money & Funding",
+        "slug": "bank-statement-analyzer-funding-readiness"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "notion-bizcredit-builder-gpt",
+      "title": "BizCredit Builder GPT",
+      "current_entity_type": "notion_resource",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "gpt-assets.registry.json",
+          "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+          "source_index": 11,
+          "match_method": "exact_url"
+        },
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 52,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Guides business credit building, vendor setup, reporting readiness, and credit-building workflows.",
+          "Free tools to build business credit: customizable templates, exports, vendor lists, roadmap"
+        ],
+        "audiences": [
+          "Small Business Owner",
+          "Startup Founder",
+          "Funding Client",
+          "Credit Builder"
+        ],
+        "funnel_stage": "Core",
+        "categories": [
+          "Finance",
+          "Business Credit",
+          "Productivity & Automation",
+          "Finance Ops",
+          "funding-tools"
+        ],
+        "notion_url": "https://app.notion.com/p/2034bc1bd63c802e841bfb481eb58207?pvs=1",
+        "slug": [
+          "bizcredit-builder-gpt"
+        ],
+        "monetization_path": "Drive credit-builder offers, funding consultations, paid setup services, and affiliate products.",
+        "outputs": [
+          "Business credit roadmap",
+          "Vendor checklist",
+          "Readiness score",
+          "Next steps",
+          "Credit-building reminders"
+        ],
+        "input_fields": [
+          "Business age",
+          "Entity status",
+          "EIN/DUNS status",
+          "Industry",
+          "Current credit profile",
+          "Vendor accounts",
+          "Funding goal"
+        ],
+        "related_tools": [
+          "Nav",
+          "Credit Suite",
+          "Notion",
+          "CRM"
+        ],
+        "related_content": [
+          "Business credit guides",
+          "Vendor lists",
+          "Funding readiness tools"
+        ]
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "notion-deal-scorecard-gpt",
+      "title": "Deal Scorecard GPT",
+      "current_entity_type": "notion_resource",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 54,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Analyzes micro-acquisition deals and grades them with objective, no-BS scorecards.",
+        "slug": "deal-scorecard-gpt"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "notion-finance-ops-copilot",
+      "title": "Finance Ops Copilot",
+      "current_entity_type": "notion_resource",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 8,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Blunt SMB cash-flow readouts, fundability scoring, and funding-fit guidance.",
+        "slug": "finance-ops-copilot"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "notion-funding-data-room-copilot",
+      "title": "Funding Data Room Copilot",
+      "current_entity_type": "notion_resource",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "vercel-projects.registry.json",
+          "source_path": "JSON/vercel-projects.registry.json",
+          "source_index": 115,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 208,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "Web portal for funding, capital, or financial workflows.",
+          "Organizes funding files, flags readiness gaps, and recommends next-best actions."
+        ],
+        "audiences": [
+          "business_owner",
+          "General / SMB Audience"
+        ],
+        "slug": [
+          "funding-data-room-copilot"
+        ]
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "notion-funding-pathfinder-gpt",
+      "title": "Funding Pathfinder GPT",
+      "current_entity_type": "notion_resource",
+      "matched_source_count": 2,
+      "sources": [
+        {
+          "source_registry": "assets.json",
+          "source_path": "JSON/downloads/assets.json",
+          "source_index": 84,
+          "match_method": "exact_title"
+        },
+        {
+          "source_registry": "affiliate-funding-agency-gpts.registry.json",
+          "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+          "source_index": 5,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": [
+          "AI advisor that recommends funding paths before application.",
+          "Client-facing funding strategist that analyzes a business and returns a personalized step-by-step funding roadmap."
+        ],
+        "categories": [
+          "funding",
+          "Money & Funding"
+        ],
+        "funnel_stage": "Core"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "notion-is-this-a-good-deal-gpt",
+      "title": "Is This a Good Deal? GPT",
+      "current_entity_type": "notion_resource",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "custom-gpts.registry.json",
+          "source_path": "JSON/downloads/custom-gpts.registry.json",
+          "source_index": 42,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Tear down small startup deals. Spot red flags, value sanity, and creative funding ideas fast.",
+        "slug": "is-this-a-good-deal-gpt"
+      },
+      "review_status": "ready_for_review"
+    },
+    {
+      "resource_id": "notion-lender-fit-routing-copilot",
+      "title": "Lender Fit Routing Copilot",
+      "current_entity_type": "notion_resource",
+      "matched_source_count": 1,
+      "sources": [
+        {
+          "source_registry": "github-repos.registry.json",
+          "source_path": "JSON/github-repos.registry.json",
+          "source_index": 212,
+          "match_method": "exact_title"
+        }
+      ],
+      "suggested_enrichment": {
+        "description": "Lender-fit routing copilot for matching borrower profiles to likely financing channels and next-best lender options.",
+        "audiences": "SMB Owners / Funding Applicants",
+        "slug": "lender-fit-routing-copilot"
+      },
+      "review_status": "ready_for_review"
+    }
+  ]
+}
