@@ -1,1 +1,101 @@
-{}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resourcegrid.local/schemas/relationship.schema.json",
+  "title": "ResourceGrid Relationship",
+  "description": "Contract for directed relationships between canonical ResourceGrid entities or referenced external canonical entities.",
+  "type": "object",
+  "required": [
+    "relationship_id",
+    "source_id",
+    "relationship_type",
+    "target"
+  ],
+  "properties": {
+    "relationship_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "source_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "relationship_type": {
+      "type": "string",
+      "enum": [
+        "related_to",
+        "supports",
+        "references",
+        "uses",
+        "promotes",
+        "recommended_cta_for",
+        "internal_link_for",
+        "successor_to",
+        "derived_from",
+        "part_of",
+        "alternative_to",
+        "implemented_by"
+      ]
+    },
+    "target": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["resource_id"],
+          "properties": {
+            "resource_id": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["repository", "resource_id"],
+          "properties": {
+            "repository": {
+              "type": "string",
+              "pattern": "^[^/]+/[^/]+$"
+            },
+            "resource_id": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            "canonical_path": {
+              "type": ["string", "null"]
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "context": {
+      "type": ["string", "null"]
+    },
+    "weight": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "proposed", "deprecated"],
+      "default": "active"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "system": {"type": "string"},
+        "source_file": {"type": ["string", "null"]},
+        "verified_at": {"type": ["string", "null"], "format": "date-time"}
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "default": {}
+    }
+  },
+  "additionalProperties": false
+}
