@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://resourcegrid.local/schemas/entity.schema.json",
   "title": "ResourceGrid Entity",
-  "description": "Base contract shared by all ResourceGrid entities.",
+  "description": "Base contract shared by all ResourceGrid entities. Specialized schemas extend this contract with additional fields.",
   "type": "object",
   "required": [
     "resource_id",
@@ -140,5 +140,5 @@
       "default": {}
     }
   },
-  "additionalProperties": false
+  "additionalProperties": true
 }
