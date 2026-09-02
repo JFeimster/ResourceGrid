@@ -1,1 +1,60 @@
-{}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resourcegrid.local/schemas/cta.schema.json",
+  "title": "ResourceGrid CTA Entity",
+  "description": "Contract for approved internal, partner, affiliate, form, and offer calls to action.",
+  "allOf": [
+    {"$ref": "./entity.schema.json"},
+    {
+      "type": "object",
+      "required": ["cta_role", "approved_cta_label", "cta_destination"],
+      "properties": {
+        "cta_role": {
+          "type": "string",
+          "enum": ["primary", "secondary", "inline", "end_of_content", "embed", "partner", "affiliate", "lead_capture"]
+        },
+        "approved_cta_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "approved_cta_copy": {
+          "type": ["string", "null"]
+        },
+        "cta_destination": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cta_position": {
+          "type": ["string", "null"]
+        },
+        "cta_conditions": {
+          "type": "array",
+          "items": {"type": "string"},
+          "default": []
+        },
+        "cta_exclusions": {
+          "type": "array",
+          "items": {"type": "string"},
+          "default": []
+        },
+        "affiliate": {
+          "type": "boolean",
+          "default": false
+        },
+        "affiliate_network": {
+          "type": ["string", "null"]
+        },
+        "requires_disclosure": {
+          "type": "boolean",
+          "default": false
+        },
+        "approved_disclosure": {
+          "type": ["string", "null"]
+        },
+        "regulatory_notes": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  ]
+}
