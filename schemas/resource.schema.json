@@ -1,1 +1,60 @@
-{}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resourcegrid.local/schemas/resource.schema.json",
+  "title": "ResourceGrid Resource Entity",
+  "description": "Contract for GPTs, tools, calculators, sites, agents, skills, workflows, and other reusable resources.",
+  "allOf": [
+    {"$ref": "./entity.schema.json"},
+    {
+      "type": "object",
+      "required": ["resource_type"],
+      "properties": {
+        "resource_type": {
+          "type": "string",
+          "enum": [
+            "custom_gpt",
+            "agent",
+            "skill",
+            "workflow",
+            "automation",
+            "tool",
+            "calculator",
+            "site",
+            "microsite",
+            "github_repository",
+            "notion_resource",
+            "dataset",
+            "registry",
+            "external_resource"
+          ]
+        },
+        "best_for_content": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true,
+          "default": []
+        },
+        "capabilities": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true,
+          "default": []
+        },
+        "recommended_cta_or_embed_role": {
+          "type": ["string", "null"]
+        },
+        "canonical_repo": {
+          "type": ["string", "null"],
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "canonical_path": {
+          "type": ["string", "null"]
+        },
+        "external_reference": {
+          "type": ["boolean", "null"],
+          "default": false
+        }
+      }
+    }
+  ]
+}
