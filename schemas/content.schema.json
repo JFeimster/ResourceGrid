@@ -1,1 +1,48 @@
-{}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resourcegrid.local/schemas/content.schema.json",
+  "title": "ResourceGrid Content Entity",
+  "description": "Contract for articles, videos, newsletters, shorts, and social content.",
+  "allOf": [
+    {"$ref": "./entity.schema.json"},
+    {
+      "type": "object",
+      "required": ["content_format"],
+      "properties": {
+        "content_format": {
+          "type": "string",
+          "enum": ["blog_article", "youtube_video", "short_video", "newsletter", "social_content"]
+        },
+        "slug": {"type": ["string", "null"]},
+        "excerpt": {"type": ["string", "null"]},
+        "published_at": {"type": ["string", "null"], "format": "date-time"},
+        "author": {"type": ["string", "null"]},
+        "primary_keyword": {"type": ["string", "null"]},
+        "secondary_keywords": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true,
+          "default": []
+        },
+        "recommended_resource_refs": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "uniqueItems": true,
+          "default": []
+        },
+        "recommended_cta_refs": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "uniqueItems": true,
+          "default": []
+        },
+        "internal_link_refs": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "uniqueItems": true,
+          "default": []
+        }
+      }
+    }
+  ]
+}
