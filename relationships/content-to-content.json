@@ -1,1 +1,1 @@
-{}
+{"registry_name":"ResourceGrid Content-to-Content Relationships","registry_version":"1.0.0","generated_date":"2026-09-02","note":"No canonical content entities have been ingested yet; legacy content-cluster affinities are retained on each resource as content_clusters rather than inventing content IDs.","relationships":[]}
