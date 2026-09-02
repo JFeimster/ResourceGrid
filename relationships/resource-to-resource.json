@@ -1,1 +1,253 @@
-{"registry_name":"ResourceGrid Resource-to-Resource Relationships","registry_version":"1.0.0","generated_date":"2026-09-02","relationships":[{"relationship_id":"rel-calculator-buyer-equity-calculator-related-to-calculator-business-acquisition-deal-calculator","source_id":"calculator-buyer-equity-calculator","relationship_type":"related_to","target":{"resource_id":"calculator-business-acquisition-deal-calculator"},"context":"Legacy registry maps both resources to the same AcquiStack AI live surface.","weight":0.9,"status":"active","source":{"system":"legacy_registry","source_file":"moonshine-content-resource-relationships-expanded(2).json","verified_at":null},"metadata":{"relationship_basis":"shared_canonical_url"}},{"relationship_id":"rel-calculator-seller-note-modeler-related-to-calculator-business-acquisition-deal-calculator","source_id":"calculator-seller-note-modeler","relationship_type":"related_to","target":{"resource_id":"calculator-business-acquisition-deal-calculator"},"context":"Legacy registry maps both resources to the same AcquiStack AI live surface.","weight":0.9,"status":"active","source":{"system":"legacy_registry","source_file":"moonshine-content-resource-relationships-expanded(2).json","verified_at":null},"metadata":{"relationship_basis":"shared_canonical_url"}},{"relationship_id":"rel-calculator-earnout-modeler-related-to-calculator-business-acquisition-deal-calculator","source_id":"calculator-earnout-modeler","relationship_type":"related_to","target":{"resource_id":"calculator-business-acquisition-deal-calculator"},"context":"Legacy registry maps both resources to the same AcquiStack AI live surface.","weight":0.9,"status":"active","source":{"system":"legacy_registry","source_file":"moonshine-content-resource-relationships-expanded(2).json","verified_at":null},"metadata":{"relationship_basis":"shared_canonical_url"}},{"relationship_id":"rel-calculator-contractor-cash-flow-calculator-related-to-calculator-payroll-gap-bridge-estimator","source_id":"calculator-contractor-cash-flow-calculator","relationship_type":"related_to","target":{"resource_id":"calculator-payroll-gap-bridge-estimator"},"context":"Legacy registry supplied the target resource's canonical URL as this resource's secondary URL.","weight":0.85,"status":"active","source":{"system":"legacy_registry","source_file":"moonshine-content-resource-relationships-expanded(2).json","verified_at":null},"metadata":{"relationship_basis":"legacy_secondary_url"}},{"relationship_id":"rel-calculator-job-cost-funding-worksheet-related-to-calculator-neca-material-money-quoter","source_id":"calculator-job-cost-funding-worksheet","relationship_type":"related_to","target":{"resource_id":"calculator-neca-material-money-quoter"},"context":"Legacy registry supplied the target resource's canonical URL as this resource's secondary URL.","weight":0.85,"status":"active","source":{"system":"legacy_registry","source_file":"moonshine-content-resource-relationships-expanded(2).json","verified_at":null},"metadata":{"relationship_basis":"legacy_secondary_url"}},{"relationship_id":"rel-calculator-fix-and-flip-deal-math-tool-related-to-calculator-deal-killer-hard-money-analyzer","source_id":"calculator-fix-and-flip-deal-math-tool","relationship_type":"related_to","target":{"resource_id":"calculator-deal-killer-hard-money-analyzer"},"context":"Legacy registry supplied the target resource's canonical URL as this resource's secondary URL.","weight":0.85,"status":"active","source":{"system":"legacy_registry","source_file":"moonshine-content-resource-relationships-expanded(2).json","verified_at":null},"metadata":{"relationship_basis":"legacy_secondary_url"}}]}
+{
+  "registry_name": "ResourceGrid Resource-to-Resource Relationships",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "relationships": [
+    {
+      "relationship_id": "rel-calculator-buyer-equity-calculator-related-to-calculator-business-acquisition-deal-calculator",
+      "source_id": "calculator-buyer-equity-calculator",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-business-acquisition-deal-calculator"
+      },
+      "context": "Legacy registry maps both resources to the same AcquiStack AI live surface.",
+      "weight": 0.9,
+      "status": "active",
+      "source": {
+        "system": "legacy_registry",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json",
+        "verified_at": null
+      },
+      "metadata": {
+        "relationship_basis": "shared_canonical_url"
+      }
+    },
+    {
+      "relationship_id": "rel-calculator-seller-note-modeler-related-to-calculator-business-acquisition-deal-calculator",
+      "source_id": "calculator-seller-note-modeler",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-business-acquisition-deal-calculator"
+      },
+      "context": "Legacy registry maps both resources to the same AcquiStack AI live surface.",
+      "weight": 0.9,
+      "status": "active",
+      "source": {
+        "system": "legacy_registry",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json",
+        "verified_at": null
+      },
+      "metadata": {
+        "relationship_basis": "shared_canonical_url"
+      }
+    },
+    {
+      "relationship_id": "rel-calculator-earnout-modeler-related-to-calculator-business-acquisition-deal-calculator",
+      "source_id": "calculator-earnout-modeler",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-business-acquisition-deal-calculator"
+      },
+      "context": "Legacy registry maps both resources to the same AcquiStack AI live surface.",
+      "weight": 0.9,
+      "status": "active",
+      "source": {
+        "system": "legacy_registry",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json",
+        "verified_at": null
+      },
+      "metadata": {
+        "relationship_basis": "shared_canonical_url"
+      }
+    },
+    {
+      "relationship_id": "rel-calculator-contractor-cash-flow-calculator-related-to-calculator-payroll-gap-bridge-estimator",
+      "source_id": "calculator-contractor-cash-flow-calculator",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-payroll-gap-bridge-estimator"
+      },
+      "context": "Legacy registry supplied the target resource's canonical URL as this resource's secondary URL.",
+      "weight": 0.85,
+      "status": "active",
+      "source": {
+        "system": "legacy_registry",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json",
+        "verified_at": null
+      },
+      "metadata": {
+        "relationship_basis": "legacy_secondary_url"
+      }
+    },
+    {
+      "relationship_id": "rel-calculator-job-cost-funding-worksheet-related-to-calculator-neca-material-money-quoter",
+      "source_id": "calculator-job-cost-funding-worksheet",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-neca-material-money-quoter"
+      },
+      "context": "Legacy registry supplied the target resource's canonical URL as this resource's secondary URL.",
+      "weight": 0.85,
+      "status": "active",
+      "source": {
+        "system": "legacy_registry",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json",
+        "verified_at": null
+      },
+      "metadata": {
+        "relationship_basis": "legacy_secondary_url"
+      }
+    },
+    {
+      "relationship_id": "rel-calculator-fix-and-flip-deal-math-tool-related-to-calculator-deal-killer-hard-money-analyzer",
+      "source_id": "calculator-fix-and-flip-deal-math-tool",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-deal-killer-hard-money-analyzer"
+      },
+      "context": "Legacy registry supplied the target resource's canonical URL as this resource's secondary URL.",
+      "weight": 0.85,
+      "status": "active",
+      "source": {
+        "system": "legacy_registry",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json",
+        "verified_at": null
+      },
+      "metadata": {
+        "relationship_basis": "legacy_secondary_url"
+      }
+    },
+    {
+      "relationship_id": "rel-skill-moonshine-crm-intake-supports-skill-moonshine-crm-note-normalizer",
+      "source_id": "skill-moonshine-crm-intake",
+      "relationship_type": "supports",
+      "target": {
+        "resource_id": "skill-moonshine-crm-note-normalizer"
+      },
+      "context": "Normalizes source material before or during intake writes.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "relationship_basis": "moonshine_skill_platform"
+      }
+    },
+    {
+      "relationship_id": "rel-skill-moonshine-crm-intake-supports-skill-moonshine-crm-schema-steward",
+      "source_id": "skill-moonshine-crm-intake",
+      "relationship_type": "supports",
+      "target": {
+        "resource_id": "skill-moonshine-crm-schema-steward"
+      },
+      "context": "Requires schema governance before uncertain field or enum use.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "relationship_basis": "moonshine_skill_platform"
+      }
+    },
+    {
+      "relationship_id": "rel-skill-moonshine-crm-intake-related_to-skill-moonshine-crm-data-hygiene",
+      "source_id": "skill-moonshine-crm-intake",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "skill-moonshine-crm-data-hygiene"
+      },
+      "context": "Shares duplicate evidence and conservative repair controls.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "relationship_basis": "moonshine_skill_platform"
+      }
+    },
+    {
+      "relationship_id": "rel-skill-moonshine-crm-intake-supports-skill-moonshine-funding-pipeline-health",
+      "source_id": "skill-moonshine-crm-intake",
+      "relationship_type": "supports",
+      "target": {
+        "resource_id": "skill-moonshine-funding-pipeline-health"
+      },
+      "context": "Supplies verified intake and task state to pipeline review.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "relationship_basis": "moonshine_skill_platform"
+      }
+    },
+    {
+      "relationship_id": "rel-skill-moonshine-crm-intake-supports-skill-moonshine-funding-follow-up",
+      "source_id": "skill-moonshine-crm-intake",
+      "relationship_type": "supports",
+      "target": {
+        "resource_id": "skill-moonshine-funding-follow-up"
+      },
+      "context": "Supplies verified applicant state for follow-up orchestration.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "relationship_basis": "moonshine_skill_platform"
+      }
+    },
+    {
+      "relationship_id": "rel-skill-moonshine-crm-intake-supports-skill-moonshine-crm-reconciler",
+      "source_id": "skill-moonshine-crm-intake",
+      "relationship_type": "supports",
+      "target": {
+        "resource_id": "skill-moonshine-crm-reconciler"
+      },
+      "context": "Escalates cross-system conflicts to reconciliation when needed.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "JFeimster/ai-agent-library",
+        "source_file": "skills/skill-index.json",
+        "source_url": "https://github.com/JFeimster/ai-agent-library/tree/main/skills",
+        "verified_by": "Moonshine Skill Platform Reconciliation",
+        "verified_at": "2026-09-02T18:39:19Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "relationship_basis": "moonshine_skill_platform"
+      }
+    }
+  ]
+}
