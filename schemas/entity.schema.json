@@ -1,1 +1,144 @@
-{}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resourcegrid.local/schemas/entity.schema.json",
+  "title": "ResourceGrid Entity",
+  "description": "Base contract shared by all ResourceGrid entities.",
+  "type": "object",
+  "required": [
+    "resource_id",
+    "entity_type",
+    "title",
+    "status",
+    "source"
+  ],
+  "properties": {
+    "resource_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "entity_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true,
+      "default": []
+    },
+    "description": {
+      "type": ["string", "null"]
+    },
+    "brand": {
+      "type": ["string", "null"]
+    },
+    "topics": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true,
+      "default": []
+    },
+    "content_clusters": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true,
+      "default": []
+    },
+    "keywords": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true,
+      "default": []
+    },
+    "audiences": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true,
+      "default": []
+    },
+    "industries": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true,
+      "default": []
+    },
+    "search_intent": {
+      "type": ["string", "null"]
+    },
+    "funnel_stage": {
+      "type": ["string", "null"]
+    },
+    "primary_use_case": {
+      "type": ["string", "null"]
+    },
+    "conversion_goal": {
+      "type": ["string", "null"]
+    },
+    "priority": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "maximum": 100
+    },
+    "canonical_url": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "public_url": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "embed_url": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "repo_url": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "internal_url": {
+      "type": ["string", "null"]
+    },
+    "public_access": {
+      "type": ["boolean", "null"]
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "last_verified_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "last_updated_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "notes": {
+      "type": ["string", "null"]
+    },
+    "source": {
+      "type": "object",
+      "required": ["system"],
+      "properties": {
+        "system": {"type": "string", "minLength": 1},
+        "source_id": {"type": ["string", "null"]},
+        "source_file": {"type": ["string", "null"]},
+        "source_url": {"type": ["string", "null"], "format": "uri"},
+        "verified_by": {"type": ["string", "null"]},
+        "verified_at": {"type": ["string", "null"], "format": "date-time"},
+        "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "default": {}
+    }
+  },
+  "additionalProperties": false
+}
