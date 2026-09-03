@@ -1,0 +1,37 @@
+{
+  "promotion_name": "ResourceGrid Promotion Pass v1",
+  "version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "baseline_canonical_entities": 69,
+  "summary": {
+    "existing_entities_enriched": 46,
+    "new_entities_promoted": 860,
+    "canonical_entities_after_promotion": 929,
+    "relationship_count_after_promotion": 275,
+    "new_relationships_promoted": 269,
+    "candidate_records_held_or_collapsed": 140
+  },
+  "registry_counts": {
+    "registries/resources/custom-gpts.json": 107,
+    "registries/resources/calculators.json": 153,
+    "registries/resources/tools.json": 15,
+    "registries/conversion/affiliate-partners.json": 2,
+    "registries/conversion/compliance-copy.json": 8,
+    "registries/conversion/offers.json": 80,
+    "registries/funding/products.json": 59,
+    "registries/funding/providers.json": 50,
+    "registries/funding/routing-rules.json": 11,
+    "registries/operations/assistant-stacks.json": 10,
+    "registries/resources/apps.json": 41,
+    "registries/resources/repositories.json": 209,
+    "registries/resources/sites.json": 184
+  },
+  "promotion_policy": [
+    "Cross-type fuzzy title matches are distinct entities, not duplicates.",
+    "Custom GPT identity is deduplicated by ChatGPT GPT ID before title.",
+    "Funding tool rows sharing a source key with calculator rows are represented once as calculators.",
+    "Planned calculator concepts are retained with planned status because ResourceGrid tracks planned assets as well as live assets.",
+    "Unclassified candidates and unresolved external relationship references remain in the review queue.",
+    "Vercel implemented_by relationships are reconstructed from explicit github_repo fields rather than accepting self-referential candidate IDs."
+  ]
+}

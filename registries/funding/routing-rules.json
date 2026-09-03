@@ -1,0 +1,721 @@
+{
+  "registry_name": "ResourceGrid Funding Routing Rules Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "promotion": {
+    "source": "reconciliation/v1",
+    "promotion_pass": "v1"
+  },
+  "resources": [
+    {
+      "resource_id": "rule-business-bank-15k-revenue-route",
+      "entity_type": "routing_rule",
+      "title": "Business Bank + $15K Revenue Route",
+      "status": "active",
+      "description": "Routes active businesses with $15K+ lowest monthly revenue and a business bank account toward larger fast-capital / working-capital review.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-bankbreezy-bigger-funding",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 1
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Speak With a Funding Strategist"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-bankbreezy-bigger-funding",
+              "name": "Business Bank + $15K Revenue Route",
+              "description": "Routes active businesses with $15K+ lowest monthly revenue and a business bank account toward larger fast-capital / working-capital review.",
+              "priority": 100,
+              "conditions": {
+                "all": [
+                  {
+                    "lowest_monthly_revenue_90_days_min": 15000
+                  },
+                  {
+                    "bank_account_type": "business"
+                  }
+                ],
+                "minimum_credit_score": 450,
+                "minimum_time_in_business_months": 4,
+                "excluded_flags": [
+                  "open_bankruptcy",
+                  "excessive_nsfs",
+                  "no_current_revenue"
+                ]
+              },
+              "route_to_family": "revenue-advance-program",
+              "route_to_products_by_tags": [
+                "fast_working_capital",
+                "revenue_advance"
+              ],
+              "lead_priority": "hot",
+              "public_result_label": "Fast Working Capital Review",
+              "recommended_cta": "Speak With a Funding Strategist",
+              "public_visibility": false,
+              "internal_notes": "DAC-style bigger funding route. Public language should remain white-labeled."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "rule-business-credit-funding-prep-nurture-route",
+      "entity_type": "routing_rule",
+      "title": "Business Credit / Funding Prep Nurture Route",
+      "status": "active",
+      "description": "Routes applicants who are not ready for most active funding products toward business credit, prep, and nurture.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-business-credit-prep",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 9
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Get the Funding Prep Checklist"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-business-credit-prep",
+              "name": "Business Credit / Funding Prep Nurture Route",
+              "description": "Routes applicants who are not ready for most active funding products toward business credit, prep, and nurture.",
+              "priority": 70,
+              "conditions": {
+                "any": [
+                  {
+                    "monthly_revenue_max": 2999
+                  },
+                  {
+                    "credit_score_max": 499
+                  },
+                  {
+                    "time_in_business_months_max": 3,
+                    "credit_score_max": 679
+                  },
+                  {
+                    "business_structure": "no_formal_business"
+                  }
+                ]
+              },
+              "route_to_family": "business-credit-builder-path",
+              "route_to_products_by_tags": [
+                "credit_building_services",
+                "funding_prep"
+              ],
+              "lead_priority": "education",
+              "public_result_label": "Funding Prep / Business Credit Builder Path",
+              "recommended_cta": "Get the Funding Prep Checklist",
+              "public_visibility": false,
+              "internal_notes": "Do not push bad-fit applications. Convert into a nurture/product path."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "rule-business-line-access-route",
+      "entity_type": "routing_rule",
+      "title": "Business Line Access Route",
+      "status": "active",
+      "description": "Routes established businesses with fair-to-good credit, recurring revenue, and recurring capital needs toward revolving access paths.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-business-line-access",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 4
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Review Line of Credit Options"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-business-line-access",
+              "name": "Business Line Access Route",
+              "description": "Routes established businesses with fair-to-good credit, recurring revenue, and recurring capital needs toward revolving access paths.",
+              "priority": 85,
+              "conditions": {
+                "minimum_monthly_revenue": 15000,
+                "minimum_credit_score": 600,
+                "minimum_time_in_business_months": 12,
+                "bank_account_type": "business",
+                "allowed_purposes": [
+                  "working_capital",
+                  "inventory_materials",
+                  "marketing_growth",
+                  "cash_flow_smoothing"
+                ],
+                "excluded_flags": [
+                  "open_bankruptcy",
+                  "recent_tax_lien",
+                  "chaotic_cash_management"
+                ]
+              },
+              "route_to_family": "business-line-access-solution",
+              "route_to_products_by_tags": [
+                "revolving_access",
+                "business_line_of_credit"
+              ],
+              "lead_priority": "hot",
+              "public_result_label": "Business Line of Credit / Revolving Access Review",
+              "recommended_cta": "Review Line of Credit Options",
+              "public_visibility": false,
+              "internal_notes": "Fit depends heavily on deposits and cash-management discipline."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "rule-entry-revenue-personal-bank-route",
+      "entity_type": "routing_rule",
+      "title": "Entry Revenue / Personal Bank Route",
+      "status": "active",
+      "description": "Routes applicants with $3K–$15K lowest monthly revenue, personal bank deposits, or low FICO with sales above $5K toward a small-operator/self-employed review lane.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-dac-giggle-style-entry",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 0
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Get a Funding Readiness Review"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-dac-giggle-style-entry",
+              "name": "Entry Revenue / Personal Bank Route",
+              "description": "Routes applicants with $3K–$15K lowest monthly revenue, personal bank deposits, or low FICO with sales above $5K toward a small-operator/self-employed review lane.",
+              "priority": 95,
+              "conditions": {
+                "any": [
+                  {
+                    "lowest_monthly_revenue_90_days_min": 3000,
+                    "lowest_monthly_revenue_90_days_max": 15000
+                  },
+                  {
+                    "bank_account_type": "personal"
+                  },
+                  {
+                    "monthly_sales_min": 5000,
+                    "max_credit_score": 499
+                  }
+                ],
+                "excluded_flags": [
+                  "open_bankruptcy",
+                  "no_current_revenue"
+                ]
+              },
+              "route_to_family": "revenue-advance-program",
+              "route_to_products_by_tags": [
+                "subprime_revenue_based",
+                "small_operator",
+                "self_employed"
+              ],
+              "lead_priority": "warm",
+              "public_result_label": "Possible Fit for Select Fast-Capital Programs",
+              "recommended_cta": "Get a Funding Readiness Review",
+              "public_visibility": false,
+              "internal_notes": "Derived from DAC quick-reference bucket logic; do not expose provider or bucket names publicly."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "rule-equipment-asset-backed-route",
+      "entity_type": "routing_rule",
+      "title": "Equipment / Asset-Backed Route",
+      "status": "active",
+      "description": "Routes equipment, truck, machinery, and capex-driven requests to asset-backed review.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-equipment-asset-backed",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 6
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Review Equipment Funding Fit"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-equipment-asset-backed",
+              "name": "Equipment / Asset-Backed Route",
+              "description": "Routes equipment, truck, machinery, and capex-driven requests to asset-backed review.",
+              "priority": 88,
+              "conditions": {
+                "any": [
+                  {
+                    "funding_purpose": "equipment_vehicle_truck"
+                  },
+                  {
+                    "business_persona": "contractor_trucking_equipment_heavy"
+                  }
+                ],
+                "preferred_minimum_credit_score": 600,
+                "preferred_minimum_time_in_business_months": 12,
+                "required_supporting_detail": [
+                  "equipment_invoice_or_quote"
+                ],
+                "excluded_flags": [
+                  "obsolete_asset",
+                  "salvage_title",
+                  "no_asset_detail"
+                ]
+              },
+              "route_to_family": "equipment-finance-solution",
+              "route_to_products_by_tags": [
+                "equipment_asset_finance"
+              ],
+              "lead_priority": "warm",
+              "public_result_label": "Equipment / Truck Funding Review",
+              "recommended_cta": "Review Equipment Funding Fit",
+              "public_visibility": false,
+              "internal_notes": "Collect invoice/spec sheet before serious submission."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "rule-high-revenue-select-funding-route",
+      "entity_type": "routing_rule",
+      "title": "High-Revenue Select Funding Route",
+      "status": "active",
+      "description": "Routes $100K+/month business-bank files toward high-priority select working-capital review and larger offer potential.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-bankbreezy-select-funding",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 2
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Request Priority Funding Review"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-bankbreezy-select-funding",
+              "name": "High-Revenue Select Funding Route",
+              "description": "Routes $100K+/month business-bank files toward high-priority select working-capital review and larger offer potential.",
+              "priority": 110,
+              "conditions": {
+                "all": [
+                  {
+                    "monthly_revenue_min": 100000
+                  },
+                  {
+                    "bank_account_type": "business"
+                  }
+                ],
+                "minimum_credit_score": 450,
+                "excluded_flags": [
+                  "open_bankruptcy",
+                  "excessive_nsfs"
+                ]
+              },
+              "route_to_family": "revenue-advance-program",
+              "route_to_products_by_tags": [
+                "select_funding",
+                "high_revenue",
+                "fast_working_capital"
+              ],
+              "lead_priority": "hot",
+              "public_result_label": "High-Revenue Working Capital Review",
+              "recommended_cta": "Request Priority Funding Review",
+              "public_visibility": false,
+              "internal_notes": "High-ticket fast-capital route. Review repayment strain and existing advances before submission."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "rule-manual-strategy-review-route",
+      "entity_type": "routing_rule",
+      "title": "Manual Strategy Review Route",
+      "status": "active",
+      "description": "Escalates complex, conflicting, high-ticket, or borderline files to human review instead of automated recommendation.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-manual-review-edge-case",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 10
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Request a Funding Strategy Review"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-manual-review-edge-case",
+              "name": "Manual Strategy Review Route",
+              "description": "Escalates complex, conflicting, high-ticket, or borderline files to human review instead of automated recommendation.",
+              "priority": 75,
+              "conditions": {
+                "any": [
+                  {
+                    "desired_funding_amount_min": 500000
+                  },
+                  {
+                    "conflicting_answers": true
+                  },
+                  {
+                    "multiple_major_red_flags": true
+                  },
+                  {
+                    "mixed_use_case": true
+                  }
+                ]
+              },
+              "route_to_family": "manual-funding-strategy-review",
+              "route_to_products_by_tags": [
+                "manual_review"
+              ],
+              "lead_priority": "manual_review",
+              "public_result_label": "Manual Funding Strategy Review",
+              "recommended_cta": "Request a Funding Strategy Review",
+              "public_visibility": false,
+              "internal_notes": "Better to review manually than let a quiz cosplay as underwriting."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "rule-marketplace-seller-capital-route",
+      "entity_type": "routing_rule",
+      "title": "Marketplace Seller Capital Route",
+      "status": "active",
+      "description": "Routes e-commerce and marketplace sellers toward platform/API-driven capital paths.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-marketplace-seller-capital",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 8
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Review Seller Funding Fit"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-marketplace-seller-capital",
+              "name": "Marketplace Seller Capital Route",
+              "description": "Routes e-commerce and marketplace sellers toward platform/API-driven capital paths.",
+              "priority": 89,
+              "conditions": {
+                "any": [
+                  {
+                    "business_persona": "ecommerce_marketplace_seller"
+                  },
+                  {
+                    "funding_purpose": "ecommerce_marketplace_growth"
+                  },
+                  {
+                    "platform_sales": true
+                  }
+                ],
+                "minimum_monthly_revenue": 3000,
+                "required_supporting_detail": [
+                  "platform_or_marketplace_name"
+                ],
+                "excluded_flags": [
+                  "suspended_marketplace_account",
+                  "platform_disconnected"
+                ]
+              },
+              "route_to_family": "marketplace-capital-track",
+              "route_to_products_by_tags": [
+                "ecommerce_marketplace_capital"
+              ],
+              "lead_priority": "warm",
+              "public_result_label": "Marketplace Seller Capital Review",
+              "recommended_cta": "Review Seller Funding Fit",
+              "public_visibility": false,
+              "internal_notes": "Great verticalized funnel route. Ask account health questions early."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "rule-real-estate-asset-secured-route",
+      "entity_type": "routing_rule",
+      "title": "Real Estate / Asset-Secured Route",
+      "status": "active",
+      "description": "Routes property-driven requests to real-estate capital review based on collateral, LTV support, and exit strategy.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-real-estate-capital",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 7
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Review Real Estate Funding Fit"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-real-estate-capital",
+              "name": "Real Estate / Asset-Secured Route",
+              "description": "Routes property-driven requests to real-estate capital review based on collateral, LTV support, and exit strategy.",
+              "priority": 88,
+              "conditions": {
+                "any": [
+                  {
+                    "funding_purpose": "real_estate_purchase_project"
+                  },
+                  {
+                    "business_persona": "real_estate_investor"
+                  }
+                ],
+                "required_followups": [
+                  "property_type",
+                  "purchase_price_or_value",
+                  "equity_or_down_payment",
+                  "project_type",
+                  "exit_strategy"
+                ],
+                "excluded_flags": [
+                  "no_collateral_story",
+                  "no_exit_plan",
+                  "unsupported_ltv"
+                ]
+              },
+              "route_to_family": "real-estate-capital-track",
+              "route_to_products_by_tags": [
+                "real_estate_capital"
+              ],
+              "lead_priority": "manual_review",
+              "public_result_label": "Real Estate Capital Strategy Review",
+              "recommended_cta": "Review Real Estate Funding Fit",
+              "public_visibility": false,
+              "internal_notes": "Do not evaluate like generic business funding. Property story carries the file."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "rule-startup-credit-leverage-route",
+      "entity_type": "routing_rule",
+      "title": "Startup Credit-Leverage Route",
+      "status": "active",
+      "description": "Routes new founders or pre-revenue entities with strong personal credit toward startup / credit-leverage funding paths.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-startup-credit-leverage",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 3
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Check Startup Funding Readiness"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-startup-credit-leverage",
+              "name": "Startup Credit-Leverage Route",
+              "description": "Routes new founders or pre-revenue entities with strong personal credit toward startup / credit-leverage funding paths.",
+              "priority": 90,
+              "conditions": {
+                "max_time_in_business_months": 5,
+                "minimum_credit_score": 680,
+                "monthly_revenue_max": 9999,
+                "allowed_purposes": [
+                  "startup_launch",
+                  "business_credit_building",
+                  "marketing_growth",
+                  "inventory_materials"
+                ],
+                "excluded_flags": [
+                  "open_bankruptcy",
+                  "recent_missed_payments",
+                  "major_derogatories"
+                ]
+              },
+              "route_to_family": "startup-funding-path",
+              "route_to_products_by_tags": [
+                "startup_credit_leverage"
+              ],
+              "lead_priority": "warm",
+              "public_result_label": "Startup / Credit-Leverage Funding Path",
+              "recommended_cta": "Check Startup Funding Readiness",
+              "public_visibility": false,
+              "internal_notes": "Do not route weak-credit startups here. This is profile-driven, not hope-driven."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "rule-structured-growth-capital-route",
+      "entity_type": "routing_rule",
+      "title": "Structured Growth Capital Route",
+      "status": "active",
+      "description": "Routes stable businesses with stronger revenue, usable credit, and less urgency toward term, SBA-adjacent, growth, or refinance-style paths.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-routing-rules.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "route-structured-growth",
+        "evidence": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "source_path": "JSON/downloads/funding-routing-rules.registry.json",
+            "source_index": 5
+          }
+        ],
+        "source_fields": {
+          "primary_cta": "Review Growth Capital Fit"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-routing-rules.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "rule_id": "route-structured-growth",
+              "name": "Structured Growth Capital Route",
+              "description": "Routes stable businesses with stronger revenue, usable credit, and less urgency toward term, SBA-adjacent, growth, or refinance-style paths.",
+              "priority": 82,
+              "conditions": {
+                "minimum_monthly_revenue": 20000,
+                "minimum_credit_score": 600,
+                "minimum_time_in_business_months": 12,
+                "allowed_purposes": [
+                  "marketing_growth",
+                  "inventory_materials",
+                  "debt_consolidation_refinancing",
+                  "expansion"
+                ],
+                "excluded_flags": [
+                  "same_day_urgency",
+                  "open_bankruptcy",
+                  "unresolved_tax_issue"
+                ]
+              },
+              "route_to_family": "structured-growth-loan-path",
+              "route_to_products_by_tags": [
+                "structured_growth",
+                "term_loan"
+              ],
+              "lead_priority": "warm",
+              "public_result_label": "Structured Growth Capital Review",
+              "recommended_cta": "Review Growth Capital Fit",
+              "public_visibility": false,
+              "internal_notes": "Use when borrower has time and documentation. Do not force fire-drill files into this lane."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

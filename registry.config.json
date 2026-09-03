@@ -1,133 +1,149 @@
-{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "registry_name": "ResourceGrid",
-  "registry_version": "1.0.0",
-  "description": "Canonical registry and intelligence layer for content, tools, GPTs, CTAs, assets, relationships, and machine-ready context across the Distilled Funding ecosystem.",
-  "canonical_repository": "JFeimster/ResourceGrid",
-  "default_branch": "main",
-  "visibility": "private",
-  "source_of_truth": {
-    "policy": "modular_registries",
-    "compiled_outputs_are_canonical": false,
-    "manual_edit_compiled_outputs": false
-  },
-  "paths": {
-    "schemas": "schemas",
-    "registries": "registries",
-    "relationships": "relationships",
-    "sources": "sources",
-    "inbox": "inbox",
-    "compiled": "compiled",
-    "docs": "docs"
-  },
-  "id_conventions": {
-    "format": "kebab-case",
-    "entity_id_field": "resource_id",
-    "relationship_id_field": "relationship_id",
-    "immutable_after_publish": true,
-    "examples": [
-      "article-saas-valuation-multiples",
-      "gpt-business-buyers-blueprint",
-      "tool-acquisition-fundability",
-      "cta-apply-for-funding"
-    ]
-  },
-  "canonical_entity_types": [
-    "blog_article",
-    "youtube_video",
-    "short_video",
-    "newsletter",
-    "social_content",
-    "custom_gpt",
-    "agent",
-    "skill",
-    "workflow",
-    "automation",
-    "tool",
-    "calculator",
-    "lead_magnet",
-    "guide",
-    "template",
-    "landing_page",
-    "site",
-    "microsite",
-    "affiliate_partner",
-    "partner_cta",
-    "internal_cta",
-    "form",
-    "offer",
-    "service",
-    "community",
-    "directory",
-    "github_repository",
-    "notion_resource",
-    "dataset",
-    "registry",
-    "external_resource"
-  ],
-  "canonical_statuses": [
-    "draft",
-    "planned",
-    "active",
-    "live",
-    "published",
-    "paused",
-    "deprecated",
-    "archived"
-  ],
-  "canonical_relationship_types": [
-    "related_to",
-    "supports",
-    "references",
-    "uses",
-    "promotes",
-    "recommended_cta_for",
-    "internal_link_for",
-    "successor_to",
-    "derived_from",
-    "part_of",
-    "alternative_to",
-    "implemented_by"
-  ],
-  "brands": {
-    "primary": "Distilled Funding",
-    "aliases": ["Moonshine Capital"],
-    "allow_additional": true
-  },
-  "external_canonical_repositories": [
-    {
-      "repository": "JFeimster/ai-agent-library",
-      "purpose": "Canonical reusable agents, skills, workflows, platform guides, templates, schemas, supporting knowledge, and examples.",
-      "reference_only": true
-    }
-  ],
-  "deduplication": {
-    "primary_keys": ["resource_id"],
-    "strong_match_fields": ["canonical_url", "public_url", "repo_url"],
-    "secondary_match_fields": ["title", "aliases"],
-    "preserve_multiple_relationships": true,
-    "merge_duplicate_entities": true
-  },
-  "validation": {
-    "json_schema_draft": "2020-12",
-    "require_stable_ids": true,
-    "require_provenance": true,
-    "require_status": true,
-    "require_entity_type": true,
-    "reject_invalid_relationship_targets": true
-  },
-  "compilation": {
-    "master_registry": "compiled/master-registry.json",
-    "generated_outputs": [
-      "compiled/blog-generator-context.json",
-      "compiled/resource-recommendation-index.json",
-      "compiled/internal-link-index.json",
-      "compiled/cta-library.json",
-      "compiled/acquisition-content-pack.json",
-      "compiled/funding-content-pack.json",
-      "compiled/broker-content-pack.json",
-      "compiled/ecommerce-content-pack.json",
-      "compiled/seo-content-pack.json"
-    ]
-  }
+﻿{
+    "$schema":  "https://json-schema.org/draft/2020-12/schema",
+    "registry_name":  "ResourceGrid",
+    "registry_version":  "1.0.0",
+    "description":  "Canonical registry and intelligence layer for content, tools, GPTs, CTAs, assets, relationships, and machine-ready context across the Distilled Funding ecosystem.",
+    "canonical_repository":  "JFeimster/ResourceGrid",
+    "default_branch":  "main",
+    "visibility":  "private",
+    "source_of_truth":  {
+                            "policy":  "modular_registries",
+                            "compiled_outputs_are_canonical":  false,
+                            "manual_edit_compiled_outputs":  false
+                        },
+    "paths":  {
+                  "schemas":  "schemas",
+                  "registries":  "registries",
+                  "relationships":  "relationships",
+                  "sources":  "sources",
+                  "inbox":  "inbox",
+                  "compiled":  "compiled",
+                  "docs":  "docs"
+              },
+    "id_conventions":  {
+                           "format":  "kebab-case",
+                           "entity_id_field":  "resource_id",
+                           "relationship_id_field":  "relationship_id",
+                           "immutable_after_publish":  true,
+                           "examples":  [
+                                            "article-saas-valuation-multiples",
+                                            "gpt-business-buyers-blueprint",
+                                            "tool-acquisition-fundability",
+                                            "cta-apply-for-funding"
+                                        ]
+                       },
+    "canonical_entity_types":  [
+                                   "blog_article",
+                                   "youtube_video",
+                                   "short_video",
+                                   "newsletter",
+                                   "social_content",
+                                   "custom_gpt",
+                                   "agent",
+                                   "skill",
+                                   "workflow",
+                                   "automation",
+                                   "tool",
+                                   "calculator",
+                                   "lead_magnet",
+                                   "guide",
+                                   "template",
+                                   "landing_page",
+                                   "site",
+                                   "microsite",
+                                   "affiliate_partner",
+                                   "partner_cta",
+                                   "internal_cta",
+                                   "form",
+                                   "offer",
+                                   "service",
+                                   "community",
+                                   "directory",
+                                   "github_repository",
+                                   "notion_resource",
+                                   "dataset",
+                                   "registry",
+                                   "external_resource",
+                                   "funding_product",
+                                   "funding_provider",
+                                   "routing_rule",
+                                   "compliance_copy",
+                                   "assistant_stack"
+                               ],
+    "canonical_statuses":  [
+                               "draft",
+                               "planned",
+                               "active",
+                               "live",
+                               "published",
+                               "paused",
+                               "deprecated",
+                               "archived"
+                           ],
+    "canonical_relationship_types":  [
+                                         "related_to",
+                                         "supports",
+                                         "references",
+                                         "uses",
+                                         "promotes",
+                                         "recommended_cta_for",
+                                         "internal_link_for",
+                                         "successor_to",
+                                         "derived_from",
+                                         "part_of",
+                                         "alternative_to",
+                                         "implemented_by"
+                                     ],
+    "brands":  {
+                   "primary":  "Distilled Funding",
+                   "aliases":  [
+                                   "Moonshine Capital"
+                               ],
+                   "allow_additional":  true
+               },
+    "external_canonical_repositories":  [
+                                            {
+                                                "repository":  "JFeimster/ai-agent-library",
+                                                "purpose":  "Canonical reusable agents, skills, workflows, platform guides, templates, schemas, supporting knowledge, and examples.",
+                                                "reference_only":  true
+                                            }
+                                        ],
+    "deduplication":  {
+                          "primary_keys":  [
+                                               "resource_id"
+                                           ],
+                          "strong_match_fields":  [
+                                                      "canonical_url",
+                                                      "public_url",
+                                                      "repo_url"
+                                                  ],
+                          "secondary_match_fields":  [
+                                                         "title",
+                                                         "aliases"
+                                                     ],
+                          "preserve_multiple_relationships":  true,
+                          "merge_duplicate_entities":  true
+                      },
+    "validation":  {
+                       "json_schema_draft":  "2020-12",
+                       "require_stable_ids":  true,
+                       "require_provenance":  true,
+                       "require_status":  true,
+                       "require_entity_type":  true,
+                       "reject_invalid_relationship_targets":  true
+                   },
+    "compilation":  {
+                        "master_registry":  "compiled/master-registry.json",
+                        "generated_outputs":  [
+                                                  "compiled/blog-generator-context.json",
+                                                  "compiled/resource-recommendation-index.json",
+                                                  "compiled/internal-link-index.json",
+                                                  "compiled/cta-library.json",
+                                                  "compiled/acquisition-content-pack.json",
+                                                  "compiled/funding-content-pack.json",
+                                                  "compiled/broker-content-pack.json",
+                                                  "compiled/ecommerce-content-pack.json",
+                                                  "compiled/seo-content-pack.json"
+                                              ]
+                    }
 }

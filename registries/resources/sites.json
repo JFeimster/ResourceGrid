@@ -1,1 +1,5139 @@
-{}
+{
+  "registry_name": "ResourceGrid Sites Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "promotion": {
+    "source": "reconciliation/v1",
+    "promotion_pass": "v1"
+  },
+  "resources": [
+    {
+      "resource_id": "site-7-steps-launchpad",
+      "entity_type": "site",
+      "title": "7-steps-launchpad",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Agent onboarding microsite guiding new funding partners through certification, launch steps, and daily operating rhythm.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://7-steps-launchpad.vercel.app/",
+      "public_url": "https://7-steps-launchpad.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "7-steps-launchpad",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 156
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-7figures-partner-lander",
+      "entity_type": "site",
+      "title": "7figures-partner-lander",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Conversion-focused landing page for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://7figures-partner-lander.vercel.app/",
+      "public_url": "https://7figures-partner-lander.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "7figures-partner-lander",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 78
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-8fig-battle-plan",
+      "entity_type": "site",
+      "title": "8fig-battle-plan",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://8fig-battle-plan.vercel.app/",
+      "public_url": "https://8fig-battle-plan.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "8fig-battle-plan",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 37
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-acquire-meta",
+      "entity_type": "site",
+      "title": "acquire-meta",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for business acquisition and transaction workflows.",
+      "audiences": [
+        "business_buyer"
+      ],
+      "canonical_url": "https://acquire-meta.vercel.app/",
+      "public_url": "https://acquire-meta.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "acquire-meta",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 45
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-acquisition-deal-calculator",
+      "entity_type": "site",
+      "title": "acquisition-deal-calculator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive calculator for business acquisition and transaction workflows.",
+      "audiences": [
+        "business_buyer"
+      ],
+      "canonical_url": "https://acquisition-deal-calculator.vercel.app/",
+      "public_url": "https://acquisition-deal-calculator.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "acquisition-deal-calculator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 60
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ad-spend-cashflow",
+      "entity_type": "site",
+      "title": "ad-spend-cashflow",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://ad-spend-cashflow.vercel.app/",
+      "public_url": "https://ad-spend-cashflow.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ad-spend-cashflow",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 133
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-affiliate-dashboard",
+      "entity_type": "site",
+      "title": "affiliate-dashboard",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Affiliate operations dashboard for tracking referred borrowers, applications, commissions, payouts, and performance.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://affiliate-dashboard-amber.vercel.app/",
+      "public_url": "https://affiliate-dashboard-amber.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "affiliate-dashboard",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 149
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-affiliate-launch-kit-generator",
+      "entity_type": "site",
+      "title": "affiliate-launch-kit-generator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://affiliate-launch-kit-generator.vercel.app/",
+      "public_url": "https://affiliate-launch-kit-generator.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "affiliate-launch-kit-generator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 23
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-agency-in-a-box",
+      "entity_type": "site",
+      "title": "Agency-in-a-Box",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://agency-in-a-box-iota.vercel.app/",
+      "public_url": "https://agency-in-a-box-iota.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "agency-in-a-box",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 81
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-agency-lab",
+      "entity_type": "site",
+      "title": "agency-lab",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://agency-lab.vercel.app/",
+      "public_url": "https://agency-lab.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "agency-lab",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 79
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-agent-grid",
+      "entity_type": "site",
+      "title": "Agent-Grid",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for AI, development, or implementation workflows.",
+      "audiences": [
+        "developer",
+        "internal_operator"
+      ],
+      "canonical_url": "https://agent-grid.vercel.app/",
+      "public_url": "https://agent-grid.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "agent-grid",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 32
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-agent-portal",
+      "entity_type": "site",
+      "title": "agent-portal",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web portal.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://agent-portal-swart.vercel.app/",
+      "public_url": "https://agent-portal-swart.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "agent-portal",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 42
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-agenthunt",
+      "entity_type": "site",
+      "title": "AgentHunt",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://agent-hunt.vercel.app/",
+      "public_url": "https://agent-hunt.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "agenthunt",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 86
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ai-agent-arsenal",
+      "entity_type": "site",
+      "title": "ai-agent-arsenal",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Browsable directory.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://ai-agent-arsenal.vercel.app/",
+      "public_url": "https://ai-agent-arsenal.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-agent-arsenal",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 139
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ai-agent-library",
+      "entity_type": "site",
+      "title": "ai-agent-library",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Browsable directory.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://ai-agent-library-ochre.vercel.app/",
+      "public_url": "https://ai-agent-library-ochre.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-agent-library",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 126
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ai-citation-auditor",
+      "entity_type": "site",
+      "title": "ai-citation-auditor",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for analysis, auditing, or operational insight.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://ai-citation-auditor-six.vercel.app/",
+      "public_url": "https://ai-citation-auditor-six.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-citation-auditor",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 137
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ai-funding-coach",
+      "entity_type": "site",
+      "title": "ai-funding-coach",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://ai-funding-coach.vercel.app/",
+      "public_url": "https://ai-funding-coach.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-funding-coach",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 6
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ai-funding-pathfinder",
+      "entity_type": "site",
+      "title": "ai-funding-pathfinder",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://ai-funding-pathfinder.vercel.app/",
+      "public_url": "https://ai-funding-pathfinder.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-funding-pathfinder",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 64
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ai-studio-app-builder",
+      "entity_type": "site",
+      "title": "ai-studio-app-builder",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://ai-studio-app-builder.vercel.app/",
+      "public_url": "https://ai-studio-app-builder.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-studio-app-builder",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 65
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-alan-watts-archive",
+      "entity_type": "site",
+      "title": "alan-watts-archive",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Browsable directory for publishing, editorial, or content discovery.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://alan-watts-archive.vercel.app/",
+      "public_url": "https://alan-watts-archive.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "alan-watts-archive",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 108
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-alan-watts-directory",
+      "entity_type": "site",
+      "title": "alan-watts-directory",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Browsable directory for publishing, editorial, or content discovery.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://alan-watts-directory.vercel.app/",
+      "public_url": "https://alan-watts-directory.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "alan-watts-directory",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 107
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-amazon-payout-gap",
+      "entity_type": "site",
+      "title": "amazon-payout-gap",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://amazon-payout-gap.vercel.app/",
+      "public_url": "https://amazon-payout-gap.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "amazon-payout-gap",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 120
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-amazon-payout-unlocker",
+      "entity_type": "site",
+      "title": "amazon-payout-unlocker",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://amazon-payout-unlocker.vercel.app/",
+      "public_url": "https://amazon-payout-unlocker.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "amazon-payout-unlocker",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 18
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-bank-breezy-battle-plan",
+      "entity_type": "site",
+      "title": "bank-breezy-battle-plan",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://bank-breezy-battle-plan.vercel.app/",
+      "public_url": "https://bank-breezy-battle-plan.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bank-breezy-battle-plan",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 40
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-bank-breezy-nova",
+      "entity_type": "site",
+      "title": "Bank-Breezy-NoVa",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://bank-breezy-no-va.vercel.app/",
+      "public_url": "https://bank-breezy-no-va.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bank-breezy-nova",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 39
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-bio-2",
+      "entity_type": "site",
+      "title": "bio-2",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for brand, profile, or public marketing use.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://bio-2-ten.vercel.app/",
+      "public_url": "https://bio-2-ten.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bio-2",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 95
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-biz-credit-builder",
+      "entity_type": "site",
+      "title": "biz-credit-builder",
+      "status": "live",
+      "resource_type": "site",
+      "description": "AI-assisted business-credit and non-dilutive funding site for founders building a finance-ready company profile.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://biz-credit-builder.vercel.app/",
+      "public_url": "https://biz-credit-builder.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "biz-credit-builder",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 179
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-bizcred",
+      "entity_type": "site",
+      "title": "bizcred",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://bizcred-omega.vercel.app/",
+      "public_url": "https://bizcred-omega.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bizcred",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 102
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-bizcred-ai",
+      "entity_type": "site",
+      "title": "bizcred-ai",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://bizcred-ai.vercel.app/",
+      "public_url": "https://bizcred-ai.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bizcred-ai",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 106
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-bizcredit",
+      "entity_type": "site",
+      "title": "BizCredit",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://bizcredit-os.vercel.app/",
+      "public_url": "https://bizcredit-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bizcredit",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 63
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-bizfin-os",
+      "entity_type": "site",
+      "title": "BizFin-OS",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://bizfin-os.vercel.app/",
+      "public_url": "https://bizfin-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bizfin-os",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 88
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-bizfin-os-smart-banking",
+      "entity_type": "site",
+      "title": "bizfin-os-smart-banking-",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://bizfin-bank.vercel.app/",
+      "public_url": "https://bizfin-bank.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bizfin-os-smart-banking",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 50
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-broker-followup-machine",
+      "entity_type": "site",
+      "title": "broker-followup-machine",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner",
+        "loan_broker"
+      ],
+      "canonical_url": "https://broker-followup-machine.vercel.app/",
+      "public_url": "https://broker-followup-machine.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "broker-followup-machine",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 135
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-brokerflow-ai",
+      "entity_type": "site",
+      "title": "brokerflow-ai",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner",
+        "loan_broker"
+      ],
+      "canonical_url": "https://brokerflow-ai.vercel.app/",
+      "public_url": "https://brokerflow-ai.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "brokerflow-ai",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 125
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-burn-rate-runway-widget",
+      "entity_type": "site",
+      "title": "burn-rate-runway-widget",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Embeddable runway and burn-rate calculator for founders assessing cash pressure and funding timing.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://burn-rate-runway-widget.vercel.app/",
+      "public_url": "https://burn-rate-runway-widget.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "burn-rate-runway-widget",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 178
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-burpee-v1",
+      "entity_type": "site",
+      "title": "Burpee-v1",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://burpee-v1.vercel.app/",
+      "public_url": "https://burpee-v1.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "burpee-v1",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 9
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-business-line-of-credit",
+      "entity_type": "site",
+      "title": "business-line-of-credit",
+      "status": "planned",
+      "resource_type": "site",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-pages.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "business-line-of-credit",
+        "evidence": [
+          {
+            "source_registry": "funding-pages.registry.json",
+            "source_path": "JSON/downloads/funding-pages.registry.json",
+            "source_index": 2
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-business-loan-affiliate-hub",
+      "entity_type": "site",
+      "title": "Business-Loan-Affiliate-Hub",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web portal for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://business-loan-affiliate-hub.vercel.app/",
+      "public_url": "https://business-loan-affiliate-hub.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "business-loan-affiliate-hub",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 25
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-business-loan-affiliate-library",
+      "entity_type": "site",
+      "title": "business-loan-affiliate-library",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Editorial library of business-loan affiliate programs, comparisons, reviews, and growth playbooks for funding publishers and brokers.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://business-loan-affiliate-library.vercel.app/",
+      "public_url": "https://business-loan-affiliate-library.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "business-loan-affiliate-library",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 166
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-business-valuation-tool",
+      "entity_type": "site",
+      "title": "Business-Valuation-Tool",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive calculator for business acquisition and transaction workflows.",
+      "audiences": [
+        "business_buyer"
+      ],
+      "canonical_url": "https://business-valuation-tool-nine.vercel.app/",
+      "public_url": "https://business-valuation-tool-nine.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "business-valuation-tool",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 22
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-capital-incubator",
+      "entity_type": "site",
+      "title": "capital-incubator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Capital-readiness incubator landing page offering a structured startup-funding preparation program and vendor ecosystem.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://capital-incubator.vercel.app/",
+      "public_url": "https://capital-incubator.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "capital-incubator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 176
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-capital-stack",
+      "entity_type": "site",
+      "title": "capital-stack",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web service or routing application for funding and capital workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://capital-stack.vercel.app/",
+      "public_url": "https://capital-stack.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "capital-stack",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 90
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-capital-stack-eut5",
+      "entity_type": "site",
+      "title": "capital-stack-eut5",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web service or routing application for funding and capital workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://capital-stack-eut5.vercel.app/",
+      "public_url": "https://capital-stack-eut5.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "capital-stack-eut5",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 138
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-capital-stack-os",
+      "entity_type": "site",
+      "title": "capital-stack-os",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web service or routing application for funding and capital workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://capital-stack-os.vercel.app/",
+      "public_url": "https://capital-stack-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "capital-stack-os",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 54
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-capitalgrid",
+      "entity_type": "site",
+      "title": "capitalgrid",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web service or routing application for funding and capital workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://capitalgrid.vercel.app/",
+      "public_url": "https://capitalgrid.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "capitalgrid",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 129
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-cash-command",
+      "entity_type": "site",
+      "title": "cash-command",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for internal operating workflows.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://cash-command-pi.vercel.app/",
+      "public_url": "https://cash-command-pi.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cash-command",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 74
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-cash-flow-gap-bridge-calculator",
+      "entity_type": "site",
+      "title": "cash-flow-gap-bridge-calculator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive calculator for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://cash-flow-gap-bridge-calculator.vercel.app/",
+      "public_url": "https://cash-flow-gap-bridge-calculator.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cash-flow-gap-bridge-calculator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 127
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-cashflow",
+      "entity_type": "site",
+      "title": "cashflow",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://cashflow-sable-nu.vercel.app/",
+      "public_url": "https://cashflow-sable-nu.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cashflow",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 84
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-cashflow-copilot-4",
+      "entity_type": "site",
+      "title": "cashflow-copilot-4",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://cashflow-copilot-4.vercel.app/",
+      "public_url": "https://cashflow-copilot-4.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cashflow-copilot-4",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 94
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-cashflow-stress-test",
+      "entity_type": "site",
+      "title": "cashflow-stress-test",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Cash-flow stress-testing tool with a standalone static interface and dedicated embeddable HTML/JavaScript delivery.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://cashflow-stress-test.vercel.app/",
+      "public_url": "https://cashflow-stress-test.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cashflow-stress-test",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 110
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-cashgap",
+      "entity_type": "site",
+      "title": "cashgap",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Static directory of fintech calculators, simulators, and mini-sites for operators managing cash-flow pressure.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://cashgap-umber.vercel.app/",
+      "public_url": "https://cashgap-umber.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cashgap",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 142
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-cfo-in-a-box",
+      "entity_type": "site",
+      "title": "cfo-in-a-box",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Financial command-center web app for small-business owners analyzing runway, burn rate, funding readiness, risk, and next actions.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://cfo-in-a-box-lime.vercel.app/",
+      "public_url": "https://cfo-in-a-box-lime.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cfo-in-a-box",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 180
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-core-tools",
+      "entity_type": "site",
+      "title": "core-tools",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://core-tools.vercel.app/",
+      "public_url": "https://core-tools.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "core-tools",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 27
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-cpa-capital-desk",
+      "entity_type": "site",
+      "title": "cpa-capital-desk",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web service or routing application for funding and capital workflows.",
+      "audiences": [
+        "business_owner",
+        "loan_broker"
+      ],
+      "canonical_url": "https://cpa-capital-desk.vercel.app/",
+      "public_url": "https://cpa-capital-desk.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cpa-capital-desk",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 121
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-cpa-partner",
+      "entity_type": "site",
+      "title": "cpa-partner",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Partner landing page for CPAs and tax professionals helping clients access funding while developing a referral practice.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://cpa-partner.vercel.app/",
+      "public_url": "https://cpa-partner.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cpa-partner",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 159
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-creator-house",
+      "entity_type": "site",
+      "title": "creator-house",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Creator-economy media and private-operations site combining public cultural publishing with restricted creator resources.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://creator-house-eight.vercel.app/",
+      "public_url": "https://creator-house-eight.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "creator-house",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 141
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-custom-gpt-directory",
+      "entity_type": "site",
+      "title": "custom-gpt-directory",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Browsable directory.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://custom-gpt-directory.vercel.app/",
+      "public_url": "https://custom-gpt-directory.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "custom-gpt-directory",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 100
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-dac-affiliate-enablement",
+      "entity_type": "site",
+      "title": "dac-affiliate-enablement",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://dac-affiliate-enablement.vercel.app/",
+      "public_url": "https://dac-affiliate-enablement.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "dac-affiliate-enablement",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 26
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-dac-comp",
+      "entity_type": "site",
+      "title": "DAC-Comp",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://dac-comp.vercel.app/",
+      "public_url": "https://dac-comp.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "dac-comp",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 11
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-dac-funnel-tracker",
+      "entity_type": "site",
+      "title": "dac-funnel-tracker",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Broker dashboard for modeling a four-stage small-business funding funnel and projected client, volume, and revenue outcomes.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://dac-funnel-tracker.vercel.app/",
+      "public_url": "https://dac-funnel-tracker.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "dac-funnel-tracker",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 151
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-dac-goal-calculator",
+      "entity_type": "site",
+      "title": "dac-goal-calculator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "DAC commission and goal calculator for funding partners with optional Notion CRM integration.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://dac-goal-calculator.vercel.app/",
+      "public_url": "https://dac-goal-calculator.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "dac-goal-calculator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 173
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-dac-pay",
+      "entity_type": "site",
+      "title": "DAC-pay",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://dac-pay.vercel.app/",
+      "public_url": "https://dac-pay.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "dac-pay",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 12
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-dac-social",
+      "entity_type": "site",
+      "title": "dac-social",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Social-content generator helping independent funding brokers create recurring, location-based authority posts.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://dac-social.vercel.app/",
+      "public_url": "https://dac-social.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "dac-social",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 154
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-dfy-funding",
+      "entity_type": "site",
+      "title": "dfy-funding",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Funding agency website offering capital-readiness, funding-execution, and capital-operations services to business operators.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://dfy-funding.vercel.app/",
+      "public_url": "https://dfy-funding.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "dfy-funding",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 172
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-distilled-funding-tools",
+      "entity_type": "site",
+      "title": "distilled-funding-tools",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://tools.distilledfunding.com/",
+      "public_url": "https://tools.distilledfunding.com/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "distilled-funding-tools",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 98
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-distilled-partner-hub",
+      "entity_type": "site",
+      "title": "distilled-partner-hub",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Static partner tool hub bundling funding pre-screening, broker quota, outreach-script, and other embeddable assets.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://distilled-partner-hub.vercel.app/",
+      "public_url": "https://distilled-partner-hub.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "distilled-partner-hub",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 174
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-distilled-tools-pro",
+      "entity_type": "site",
+      "title": "Distilled-Tools-Pro",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://distilled-tools-pro.vercel.app/",
+      "public_url": "https://distilled-tools-pro.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "distilled-tools-pro",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 41
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-distilledfunding",
+      "entity_type": "site",
+      "title": "distilledfunding",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://distilledfunding.vercel.app/",
+      "public_url": "https://distilledfunding.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "distilledfunding",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 66
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-dmv-bizfund-os",
+      "entity_type": "site",
+      "title": "dmv-bizfund-os",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://dmv-bizfund-os.vercel.app/",
+      "public_url": "https://dmv-bizfund-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "dmv-bizfund-os",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 103
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ecommerce-cash-flow",
+      "entity_type": "site",
+      "title": "ecommerce-cash-flow",
+      "status": "live",
+      "resource_type": "site",
+      "description": "90-day cash-flow forecasting tool for ecommerce sellers assessing inventory pressure, payout timing, debt service, and working-capital gaps.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://ecommerce-cash-flow.vercel.app/",
+      "public_url": "https://ecommerce-cash-flow.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ecommerce-cash-flow",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 145
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ecommerce-seller-funding",
+      "entity_type": "site",
+      "title": "ecommerce-seller-funding",
+      "status": "planned",
+      "resource_type": "site",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-pages.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ecommerce-seller-funding",
+        "evidence": [
+          {
+            "source_registry": "funding-pages.registry.json",
+            "source_path": "JSON/downloads/funding-pages.registry.json",
+            "source_index": 6
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-elitebroker-ai",
+      "entity_type": "site",
+      "title": "EliteBroker-AI",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner",
+        "loan_broker"
+      ],
+      "canonical_url": "https://elite-broker-ai.vercel.app/",
+      "public_url": "https://elite-broker-ai.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "elitebroker-ai",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 33
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-embed-widgets",
+      "entity_type": "site",
+      "title": "Embed-Widgets",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Embeddable web widget.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://embed-widgets-kappa.vercel.app/",
+      "public_url": "https://embed-widgets-kappa.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "embed-widgets",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 15
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-equipment-financing",
+      "entity_type": "site",
+      "title": "equipment-financing",
+      "status": "planned",
+      "resource_type": "site",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-pages.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "equipment-financing",
+        "evidence": [
+          {
+            "source_registry": "funding-pages.registry.json",
+            "source_path": "JSON/downloads/funding-pages.registry.json",
+            "source_index": 4
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-equity-defender",
+      "entity_type": "site",
+      "title": "Equity-Defender",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://equity-defender.vercel.app/",
+      "public_url": "https://equity-defender.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "equity-defender",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 31
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-equity-defender-widget",
+      "entity_type": "site",
+      "title": "equity-defender-widget",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Embeddable calculator comparing dilution and ownership outcomes for venture and alternative funding scenarios.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://equity-defender-widget.vercel.app/",
+      "public_url": "https://equity-defender-widget.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "equity-defender-widget",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 161
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-estimator",
+      "entity_type": "site",
+      "title": "estimator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive calculator.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://estimator-lyart.vercel.app/",
+      "public_url": "https://estimator-lyart.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "estimator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 2
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-fee-audit-copilot",
+      "entity_type": "site",
+      "title": "fee-audit-copilot",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for analysis, auditing, or operational insight.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://fee-audit-copilot.vercel.app/",
+      "public_url": "https://fee-audit-copilot.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "fee-audit-copilot",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 105
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-finance-gap-calculator",
+      "entity_type": "site",
+      "title": "finance-gap-calculator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive calculator for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://finance-gap-calculator.vercel.app/",
+      "public_url": "https://finance-gap-calculator.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "finance-gap-calculator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 122
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-financing-widget",
+      "entity_type": "site",
+      "title": "financing-widget",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Embeddable web widget for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://financing-widget-gamma.vercel.app/",
+      "public_url": "https://financing-widget-gamma.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "financing-widget",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 34
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-finops-ai-agents",
+      "entity_type": "site",
+      "title": "FinOps-AI-Agents",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for internal operating workflows.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://finops-ai-sooty.vercel.app/",
+      "public_url": "https://finops-ai-sooty.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "finops-ai-agents",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 73
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-finwise-saas-landing-page",
+      "entity_type": "site",
+      "title": "finwise-saas-landing-page",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Conversion-focused landing page.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://finwise-saas-landing-page-eight-puce.vercel.app/",
+      "public_url": "https://finwise-saas-landing-page-eight-puce.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "finwise-saas-landing-page",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 69
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-flash-ui-portfolio",
+      "entity_type": "site",
+      "title": "flash-ui-portfolio",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Browsable portfolio directory indexing AI-generated starter sites, widgets, content hubs, partner pages, and experiments.",
+      "audiences": [
+        "developer"
+      ],
+      "canonical_url": "https://flash-ui-portfolio.vercel.app/",
+      "public_url": "https://flash-ui-portfolio.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "flash-ui-portfolio",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 144
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-flash-ui-prompts",
+      "entity_type": "site",
+      "title": "flash-ui-prompts",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for AI, development, or implementation workflows.",
+      "audiences": [
+        "developer",
+        "internal_operator"
+      ],
+      "canonical_url": "https://flash-ui-prompts.vercel.app/",
+      "public_url": "https://flash-ui-prompts.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "flash-ui-prompts",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 132
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-flash-ui-v2",
+      "entity_type": "site",
+      "title": "Flash-UI-v2",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for AI, development, or implementation workflows.",
+      "audiences": [
+        "developer",
+        "internal_operator"
+      ],
+      "canonical_url": "https://flash-ui-v2.vercel.app/",
+      "public_url": "https://flash-ui-v2.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "flash-ui-v2",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 13
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-founder-fuel",
+      "entity_type": "site",
+      "title": "founder-fuel",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Startup funding education and lead-capture site explaining realistic capital paths for early-stage founders.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://founder-fuel.vercel.app/",
+      "public_url": "https://founder-fuel.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "founder-fuel",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 177
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-foundryos",
+      "entity_type": "site",
+      "title": "foundryos",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform for internal operating workflows.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://foundryos.vercel.app/",
+      "public_url": "https://foundryos.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "foundryos",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 136
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-fpos",
+      "entity_type": "site",
+      "title": "fpos",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://fpos-blond.vercel.app/",
+      "public_url": "https://fpos-blond.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "fpos",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 124
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-fund-stack-ai",
+      "entity_type": "site",
+      "title": "fund-stack-ai",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://fund-stack-ai.vercel.app/",
+      "public_url": "https://fund-stack-ai.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "fund-stack-ai",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 118
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding",
+      "entity_type": "site",
+      "title": "funding",
+      "status": "planned",
+      "resource_type": "site",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-pages.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding",
+        "evidence": [
+          {
+            "source_registry": "funding-pages.registry.json",
+            "source_path": "JSON/downloads/funding-pages.registry.json",
+            "source_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding-action-plan",
+      "entity_type": "site",
+      "title": "funding-action-plan",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive planning calculator for funding-broker commissions, agency growth targets, and daily prospecting activity.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://funding-action-plan.vercel.app/",
+      "public_url": "https://funding-action-plan.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-action-plan",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 167
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding-any-reason",
+      "entity_type": "site",
+      "title": "Funding-Any-Reason",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://funding-any-reason.vercel.app/",
+      "public_url": "https://funding-any-reason.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-any-reason",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 21
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding-ceo",
+      "entity_type": "site",
+      "title": "funding-ceo",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://funding-ceo.vercel.app/",
+      "public_url": "https://funding-ceo.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-ceo",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 91
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding-embed",
+      "entity_type": "site",
+      "title": "funding-embed",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Embeddable web widget for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://funding-embed.vercel.app/",
+      "public_url": "https://funding-embed.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-embed",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 29
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding-partners-os",
+      "entity_type": "site",
+      "title": "funding-partners-os",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://funding-partners-os.vercel.app/",
+      "public_url": "https://funding-partners-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-partners-os",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 43
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding-partners-os-dashboard",
+      "entity_type": "site",
+      "title": "funding-partners-os-dashboard",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Operational dashboard for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://funding-partners-os-dashboard.vercel.app/",
+      "public_url": "https://funding-partners-os-dashboard.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-partners-os-dashboard",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 52
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding-quiz",
+      "entity_type": "site",
+      "title": "funding-quiz",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Embeddable funding-readiness scorecard for business owners evaluating potential funding fit.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://funding-quiz.vercel.app/",
+      "public_url": "https://funding-quiz.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-quiz",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 181
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding-tools-os",
+      "entity_type": "site",
+      "title": "funding-tools-os",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://funding-tools-os.vercel.app/",
+      "public_url": "https://funding-tools-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-tools-os",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 58
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding-tools-static",
+      "entity_type": "site",
+      "title": "funding-tools-static",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://funding-tools-static.vercel.app/",
+      "public_url": "https://funding-tools-static.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-tools-static",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 59
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-funding-workflow-builder",
+      "entity_type": "site",
+      "title": "funding-workflow-builder",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://funding-workflow-builder.vercel.app/",
+      "public_url": "https://funding-workflow-builder.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-workflow-builder",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 116
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-fundstack-ai",
+      "entity_type": "site",
+      "title": "fundstack-ai",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://fundstack-ai.vercel.app/",
+      "public_url": "https://fundstack-ai.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "fundstack-ai",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 119
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-gemini-appsmith",
+      "entity_type": "site",
+      "title": "Gemini-AppSmith",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for AI, development, or implementation workflows.",
+      "audiences": [
+        "developer",
+        "internal_operator"
+      ],
+      "canonical_url": "https://gemini-app-smith.vercel.app/",
+      "public_url": "https://gemini-app-smith.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "gemini-appsmith",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 62
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-gpt-action-architect",
+      "entity_type": "site",
+      "title": "gpt-action-architect",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Action-engineering system for designing, implementing, securing, testing, and maintaining integrations for custom GPTs.",
+      "audiences": [
+        "developer",
+        "internal_operator"
+      ],
+      "canonical_url": "https://gpt-action-architect.vercel.app/",
+      "public_url": "https://gpt-action-architect.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "gpt-action-architect",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 99
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-grant-writer",
+      "entity_type": "site",
+      "title": "Grant-Writer",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://grant-writer-pi.vercel.app/",
+      "public_url": "https://grant-writer-pi.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "grant-writer",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 87
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-hard-money-lenders",
+      "entity_type": "site",
+      "title": "Hard-Money-Lenders",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://hard-money-lenders.vercel.app/",
+      "public_url": "https://hard-money-lenders.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "hard-money-lenders",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 61
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-heat-signal",
+      "entity_type": "site",
+      "title": "heat-signal",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Editorial publication about business, culture, desire, and internet life for a general public audience.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://heat-signal-plum.vercel.app/",
+      "public_url": "https://heat-signal-plum.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "heat-signal",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 140
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-intel-grid",
+      "entity_type": "site",
+      "title": "intel-grid",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for internal operating workflows.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://intel-grid.vercel.app/",
+      "public_url": "https://intel-grid.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "intel-grid",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 80
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-inventory-turnover-accelerator",
+      "entity_type": "site",
+      "title": "Inventory-Turnover-Accelerator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://inventory-turnover-accelerator.vercel.app/",
+      "public_url": "https://inventory-turnover-accelerator.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "inventory-turnover-accelerator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 30
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-investor-data-room",
+      "entity_type": "site",
+      "title": "Investor-Data-Room",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web portal.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://investor-data-room-zeta.vercel.app/",
+      "public_url": "https://investor-data-room-zeta.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "investor-data-room",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 47
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-jason",
+      "entity_type": "site",
+      "title": "jason",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for brand, profile, or public marketing use.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://jason-amber.vercel.app/",
+      "public_url": "https://jason-amber.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "jason",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 123
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-jason-speaks",
+      "entity_type": "site",
+      "title": "jason-speaks",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for brand, profile, or public marketing use.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://jason-speaks.vercel.app/",
+      "public_url": "https://jason-speaks.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "jason-speaks",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 134
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-jf-brand-os",
+      "entity_type": "site",
+      "title": "jf-brand-os",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Personal brand operating site and source-of-truth directory for bios, resume assets, media materials, prompts, and documentation.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://jf-brand-os.vercel.app/",
+      "public_url": "https://jf-brand-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "jf-brand-os",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 175
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-jfv",
+      "entity_type": "site",
+      "title": "JFV",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for brand, profile, or public marketing use.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://jfv-lime.vercel.app/",
+      "public_url": "https://jfv-lime.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "jfv",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 14
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-kj-industries",
+      "entity_type": "site",
+      "title": "kj-industries",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public funding-access website helping main-street business owners start funding conversations through trusted partners.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://kj-industries.vercel.app/",
+      "public_url": "https://kj-industries.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "kj-industries",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 146
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ledgerops",
+      "entity_type": "site",
+      "title": "LedgerOps",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for internal operating workflows.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://ledger-ops.vercel.app/",
+      "public_url": "https://ledger-ops.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ledgerops",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 38
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-lendavo-partner-portal",
+      "entity_type": "site",
+      "title": "lendavo-partner-portal",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Partner portal helping referral partners assess client funding situations and initiate capital referrals.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://lendavo-partner-portal.vercel.app/",
+      "public_url": "https://lendavo-partner-portal.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "lendavo-partner-portal",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 162
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-ma-deal-analyzer",
+      "entity_type": "site",
+      "title": "ma-deal-analyzer",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for business acquisition and transaction workflows.",
+      "audiences": [
+        "business_buyer"
+      ],
+      "canonical_url": "https://ma-deal-analyzer.vercel.app/",
+      "public_url": "https://ma-deal-analyzer.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ma-deal-analyzer",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 83
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-market-sniper-hub",
+      "entity_type": "site",
+      "title": "market-sniper-hub",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web portal.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://market-sniper-hub.vercel.app/",
+      "public_url": "https://market-sniper-hub.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "market-sniper-hub",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 46
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-micro-acquisition-fundability-calculator",
+      "entity_type": "site",
+      "title": "micro-acquisition-fundability-calculator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive calculator for business acquisition and transaction workflows.",
+      "audiences": [
+        "business_buyer"
+      ],
+      "canonical_url": "https://micro-acquisition-fundability-calcu.vercel.app/",
+      "public_url": "https://micro-acquisition-fundability-calcu.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "micro-acquisition-fundability-calculator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 55
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-microsite-automation",
+      "entity_type": "site",
+      "title": "microsite-automation",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Internal control plane for launching, routing, governing, and synchronizing funding microsites.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://microsite-automation.vercel.app/",
+      "public_url": "https://microsite-automation.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "microsite-automation",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 153
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-account-portal",
+      "entity_type": "site",
+      "title": "moonshine-account-portal",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Role-aware Moonshine account portal for clients, partners, and admins managing applications, documents, funding, commissions, and support.",
+      "audiences": [
+        "affiliate_partner",
+        "business_owner",
+        "internal_operator"
+      ],
+      "canonical_url": "https://moonshine-account-portal.vercel.app/",
+      "public_url": "https://moonshine-account-portal.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-account-portal",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 169
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-affiliate-ops",
+      "entity_type": "site",
+      "title": "moonshine-affiliate-ops",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Internal operations app for generating, organizing, tracking, and reconciling affiliate links.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://moonshine-affiliate-ops.vercel.app/",
+      "public_url": "https://moonshine-affiliate-ops.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-affiliate-ops",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 160
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-agency-os",
+      "entity_type": "site",
+      "title": "moonshine-agency-os",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Moonshine Capital agency operations web application.",
+      "audiences": [
+        "internal"
+      ],
+      "canonical_url": "https://moonshine-agency-os.vercel.app/",
+      "public_url": "https://moonshine-agency-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-agency-os",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 70
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-ai-directory",
+      "entity_type": "site",
+      "title": "moonshine-ai-directory",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Browsable directory.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://moonshine-ai-directory.vercel.app/",
+      "public_url": "https://moonshine-ai-directory.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-ai-directory",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 17
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-broker",
+      "entity_type": "site",
+      "title": "moonshine-broker",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner",
+        "loan_broker"
+      ],
+      "canonical_url": "https://moonshine-broker.vercel.app/",
+      "public_url": "https://moonshine-broker.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-broker",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 44
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-capital",
+      "entity_type": "site",
+      "title": "moonshine-capital",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web service or routing application for funding and capital workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://moonshine-capital.vercel.app/",
+      "public_url": "https://moonshine-capital.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-capital",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 5
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-capital-partners",
+      "entity_type": "site",
+      "title": "moonshine-capital-partners",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Partner-facing funding platform with referral pages, borrower readiness tools, funding routing, and CRM-ready analyst workflows.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://moonshine-capital-partners.vercel.app/",
+      "public_url": "https://moonshine-capital-partners.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-capital-partners",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 152
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-editorial-bento",
+      "entity_type": "site",
+      "title": "moonshine-editorial-bento",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for publishing, editorial, or content discovery.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://moonshine-editorial-bento.vercel.app/",
+      "public_url": "https://moonshine-editorial-bento.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-editorial-bento",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 3
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-funding-funnel",
+      "entity_type": "site",
+      "title": "moonshine-funding-funnel",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Conversion-focused landing page for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://moonshine-funding-funnel.vercel.app/",
+      "public_url": "https://moonshine-funding-funnel.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-funding-funnel",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 56
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-funding-os",
+      "entity_type": "site",
+      "title": "moonshine-funding-os",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Static Funding Intelligence Engine for borrower intake, readiness scoring, funding-family routing, and analyst review.",
+      "audiences": [
+        "business_owner",
+        "internal_operator"
+      ],
+      "canonical_url": "https://moonshine-funding-os.vercel.app/",
+      "public_url": "https://moonshine-funding-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-funding-os",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 164
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-funding-static",
+      "entity_type": "site",
+      "title": "moonshine-funding-static",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://moonshine-funding-landing.vercel.app/",
+      "public_url": "https://moonshine-funding-landing.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-funding-static",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 49
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-intake-router",
+      "entity_type": "site",
+      "title": "moonshine-intake-router",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Internal intake service routing Tally partner-applicant submissions into HubSpot and Notion CRM records.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://moonshine-intake-router.vercel.app/",
+      "public_url": "https://moonshine-intake-router.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-intake-router",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 170
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonshine-partner-marketplace",
+      "entity_type": "site",
+      "title": "moonshine-partner-marketplace",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Partner-driven funding marketplace with verticalized offers, qualification tools, lead routing, and attribution journeys.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://moonshine-partner-marketplace.vercel.app/",
+      "public_url": "https://moonshine-partner-marketplace.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-partner-marketplace",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 158
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-moonsine-partner-page",
+      "entity_type": "site",
+      "title": "Moonsine-Partner-Page",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Conversion-focused landing page for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://moonsine-partner-page.vercel.app/",
+      "public_url": "https://moonsine-partner-page.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonsine-partner-page",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 10
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-myfigures-partner-onboarding",
+      "entity_type": "site",
+      "title": "myfigures-partner-onboarding",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://myfigures-partner-onboarding.vercel.app/",
+      "public_url": "https://myfigures-partner-onboarding.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "myfigures-partner-onboarding",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 57
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-newsletter-archive",
+      "entity_type": "site",
+      "title": "Newsletter-Archive",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Browsable directory for publishing, editorial, or content discovery.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://newsletter-site-six.vercel.app/",
+      "public_url": "https://newsletter-site-six.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "newsletter-archive",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 36
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-newsletter-builder",
+      "entity_type": "site",
+      "title": "newsletter-builder",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for publishing, editorial, or content discovery.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://newsletter-builder-pi.vercel.app/",
+      "public_url": "https://newsletter-builder-pi.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "newsletter-builder",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 109
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-nexus-foundry",
+      "entity_type": "site",
+      "title": "nexus-foundry",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for internal operating workflows.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://nexus-foundry-jason-feimsters-projects.vercel.app/",
+      "public_url": "https://nexus-foundry-jason-feimsters-projects.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "nexus-foundry",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 130
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-niche-landing-page-factory",
+      "entity_type": "site",
+      "title": "niche-landing-page-factory",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Conversion-focused landing page.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://niche-landing-page-factory.vercel.app/",
+      "public_url": "https://niche-landing-page-factory.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "niche-landing-page-factory",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 24
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-notion-to-site",
+      "entity_type": "site",
+      "title": "notion-to-site",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Prototype internal tool for mapping Notion database fields to generated web pages, templates, and synchronization workflows.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://notion-to-site-pi.vercel.app/",
+      "public_url": "https://notion-to-site-pi.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "notion-to-site",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 171
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-onboarding",
+      "entity_type": "site",
+      "title": "Onboarding",
+      "status": "live",
+      "resource_type": "site",
+      "description": "The definitive 30-day launchpad for elite funding partners to build their agency.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://onboarding-kappa-gules.vercel.app/",
+      "public_url": "https://onboarding-kappa-gules.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "onboarding",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-operation-velocity",
+      "entity_type": "site",
+      "title": "operation-velocity",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Editorial marketing and market-strategy property focused on ecommerce operators facing payout delays and liquidity pressure.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://operation-velocity.vercel.app/",
+      "public_url": "https://operation-velocity.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "operation-velocity",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 165
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-operator-funding-site",
+      "entity_type": "site",
+      "title": "operator-funding-site",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://operator-funding-site.vercel.app/",
+      "public_url": "https://operator-funding-site.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "operator-funding-site",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 35
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-partner-command-center",
+      "entity_type": "site",
+      "title": "partner-command-center",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://partner-command-center-rho.vercel.app/",
+      "public_url": "https://partner-command-center-rho.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partner-command-center",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 112
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-partner-enablement-os",
+      "entity_type": "site",
+      "title": "partner-enablement-os",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Partner asset hub for distributing launch kits, scripts, trackers, training, tools, and compliance-safe funding resources.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://partner-enablement-os.vercel.app/",
+      "public_url": "https://partner-enablement-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partner-enablement-os",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 155
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-partner-growth-hub",
+      "entity_type": "site",
+      "title": "partner-growth-hub",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web portal for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://partner-growth-hub.vercel.app/",
+      "public_url": "https://partner-growth-hub.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partner-growth-hub",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 7
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-partner-onboarding",
+      "entity_type": "site",
+      "title": "partner-onboarding",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://partner-onboarding-liart.vercel.app/",
+      "public_url": "https://partner-onboarding-liart.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partner-onboarding",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 53
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-partner-portal",
+      "entity_type": "site",
+      "title": "partner-portal",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Partner portal starter for affiliate and broker onboarding, training, resources, links, performance, and support.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://partner-portal-eight-blond.vercel.app/",
+      "public_url": "https://partner-portal-eight-blond.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partner-portal",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 157
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-partnerhub",
+      "entity_type": "site",
+      "title": "PartnerHub",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web portal for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://partner-hub-mocha.vercel.app/",
+      "public_url": "https://partner-hub-mocha.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partnerhub",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 16
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-partnerlaunch",
+      "entity_type": "site",
+      "title": "PartnerLaunch",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://partner-launch-jason-feimsters-projects.vercel.app/",
+      "public_url": "https://partner-launch-jason-feimsters-projects.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partnerlaunch",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 8
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-prompt-lab",
+      "entity_type": "site",
+      "title": "Prompt-Lab",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for AI, development, or implementation workflows.",
+      "audiences": [
+        "developer",
+        "internal_operator"
+      ],
+      "canonical_url": "https://prompt-lab-opal.vercel.app/",
+      "public_url": "https://prompt-lab-opal.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "prompt-lab",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 75
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-real-estate-agents",
+      "entity_type": "site",
+      "title": "real-estate-agents",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Partner recruitment site helping real-estate agents and brokers refer business owners and investors to funding options.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://real-estate-agents-ten.vercel.app/",
+      "public_url": "https://real-estate-agents-ten.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "real-estate-agents",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 148
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-real-estate-capital",
+      "entity_type": "site",
+      "title": "real-estate-capital",
+      "status": "planned",
+      "resource_type": "site",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-pages.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "real-estate-capital",
+        "evidence": [
+          {
+            "source_registry": "funding-pages.registry.json",
+            "source_path": "JSON/downloads/funding-pages.registry.json",
+            "source_index": 5
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-reserve-unlocker",
+      "entity_type": "site",
+      "title": "reserve-unlocker",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://reserve-unlocker-jason-feimsters-projects.vercel.app/",
+      "public_url": "https://reserve-unlocker-jason-feimsters-projects.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "reserve-unlocker",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 131
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-saasfly",
+      "entity_type": "site",
+      "title": "saasfly",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://saasfly-rouge-mu.vercel.app/",
+      "public_url": "https://saasfly-rouge-mu.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "saasfly",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 97
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-saasfly-ai",
+      "entity_type": "site",
+      "title": "saasfly-ai",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web platform.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://saasfly-ai.vercel.app/",
+      "public_url": "https://saasfly-ai.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "saasfly-ai",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 71
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-sba-business-acquisition-calculator",
+      "entity_type": "site",
+      "title": "sba-business-acquisition-calculator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Educational SBA 7(a) acquisition calculator estimating loan amount, payment, DSCR, and purchase-price capacity for business buyers.",
+      "audiences": [
+        "business_buyer"
+      ],
+      "canonical_url": "https://sba-business-acquisition-calculator.vercel.app/",
+      "public_url": "https://sba-business-acquisition-calculator.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "sba-business-acquisition-calculator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 143
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-seller-funding",
+      "entity_type": "site",
+      "title": "Seller-Funding",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for business acquisition and transaction workflows.",
+      "audiences": [
+        "business_seller"
+      ],
+      "canonical_url": "https://seller-funding.vercel.app/",
+      "public_url": "https://seller-funding.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "seller-funding",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 4
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-smb-ai-builder",
+      "entity_type": "site",
+      "title": "smb-ai-builder",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://smb-ai-builder.vercel.app/",
+      "public_url": "https://smb-ai-builder.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "smb-ai-builder",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 128
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-staged-funding",
+      "entity_type": "site",
+      "title": "staged-funding",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for funding, capital, or financial workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://staged-funding.vercel.app/",
+      "public_url": "https://staged-funding.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "staged-funding",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-start-your-agency",
+      "entity_type": "site",
+      "title": "start-your-agency",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application for broker, affiliate, or partner enablement.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://start-your-agency.vercel.app/",
+      "public_url": "https://start-your-agency.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "start-your-agency",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 89
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-startup-funding",
+      "entity_type": "site",
+      "title": "startup-funding",
+      "status": "planned",
+      "resource_type": "site",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-pages.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "startup-funding",
+        "evidence": [
+          {
+            "source_registry": "funding-pages.registry.json",
+            "source_path": "JSON/downloads/funding-pages.registry.json",
+            "source_index": 3
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-studio-ai",
+      "entity_type": "site",
+      "title": "Studio-AI",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for AI, development, or implementation workflows.",
+      "audiences": [
+        "developer",
+        "internal_operator"
+      ],
+      "canonical_url": "https://studio-ai-ecru.vercel.app/",
+      "public_url": "https://studio-ai-ecru.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "studio-ai",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 77
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-tax-partner-pro",
+      "entity_type": "site",
+      "title": "tax-partner-pro",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Partner portal for CPAs and tax professionals to connect clients with funding solutions and evaluate referral opportunities.",
+      "audiences": [
+        "affiliate_partner"
+      ],
+      "canonical_url": "https://tax-partner-pro.vercel.app/",
+      "public_url": "https://tax-partner-pro.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "tax-partner-pro",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 168
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-territory-commander",
+      "entity_type": "site",
+      "title": "territory-commander",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for internal operating workflows.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://territory-commander.vercel.app/",
+      "public_url": "https://territory-commander.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "territory-commander",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 67
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-the-capital-paradox-podcast",
+      "entity_type": "site",
+      "title": "the-capital-paradox-podcast",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Podcast and editorial site covering commercial lending, private credit, and capital-market shifts for a general public audience.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://the-capital-paradox-podcast.vercel.app/",
+      "public_url": "https://the-capital-paradox-podcast.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "the-capital-paradox-podcast",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 163
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-the-index",
+      "entity_type": "site",
+      "title": "the-index",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive public index for browsing and presenting modern cultural or market signal.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://the-index-delta.vercel.app/",
+      "public_url": "https://the-index-delta.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "the-index",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 147
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-the-radical-libertarian",
+      "entity_type": "site",
+      "title": "the-radical-libertarian",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for publishing, editorial, or content discovery.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://the-radical-libertarian.vercel.app/",
+      "public_url": "https://the-radical-libertarian.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "the-radical-libertarian",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 111
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-tracking-link-generator",
+      "entity_type": "site",
+      "title": "tracking-link-generator",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for analysis, auditing, or operational insight.",
+      "audiences": [
+        "internal_operator"
+      ],
+      "canonical_url": "https://tracking-link-generator.vercel.app/",
+      "public_url": "https://tracking-link-generator.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "tracking-link-generator",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 117
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-trucker-repair-tracker",
+      "entity_type": "site",
+      "title": "trucker-repair-tracker",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Calculator for trucking owner-operators estimating repair-related revenue recovery time and comparing funding paths.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://trucker-repair-tracker.vercel.app/",
+      "public_url": "https://trucker-repair-tracker.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "trucker-repair-tracker",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 150
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-underdog-capital-os",
+      "entity_type": "site",
+      "title": "underdog-capital-os",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web service or routing application for funding and capital workflows.",
+      "audiences": [
+        "business_owner"
+      ],
+      "canonical_url": "https://underdog-capital-os.vercel.app/",
+      "public_url": "https://underdog-capital-os.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "underdog-capital-os",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 101
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-v0-a-boring-agency",
+      "entity_type": "site",
+      "title": "v0-a-boring-agency",
+      "status": "live",
+      "resource_type": "site",
+      "description": "V0-generated agency website prototype.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://v0-a-boring-agency-seven-smoky.vercel.app/",
+      "public_url": "https://v0-a-boring-agency-seven-smoky.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "v0-a-boring-agency",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 96
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-v0-ai-agent-builder",
+      "entity_type": "site",
+      "title": "v0-ai-agent-builder",
+      "status": "live",
+      "resource_type": "site",
+      "description": "V0-generated AI agent builder prototype.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://v0-ai-agent-builder-delta-lime.vercel.app/",
+      "public_url": "https://v0-ai-agent-builder-delta-lime.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "v0-ai-agent-builder",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 76
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-v0-ai-chat-interface",
+      "entity_type": "site",
+      "title": "v0-ai-chat-interface",
+      "status": "live",
+      "resource_type": "site",
+      "description": "V0-generated AI chat interface prototype.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://v0-ai-chat-interface-lac-phi-30.vercel.app/",
+      "public_url": "https://v0-ai-chat-interface-lac-phi-30.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "v0-ai-chat-interface",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 51
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-v0-futuristic-dashboard",
+      "entity_type": "site",
+      "title": "v0-futuristic-dashboard",
+      "status": "live",
+      "resource_type": "site",
+      "description": "V0-generated futuristic dashboard project.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://v0-futuristic-dashboard-rust-eta-87.vercel.app/",
+      "public_url": "https://v0-futuristic-dashboard-rust-eta-87.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "v0-futuristic-dashboard",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 48
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-v0-skal-ventures-template",
+      "entity_type": "site",
+      "title": "v0-skal-ventures-template",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Reusable web template.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://v0-jfv.vercel.app/",
+      "public_url": "https://v0-jfv.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "v0-skal-ventures-template",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 82
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-vanguard-gtm",
+      "entity_type": "site",
+      "title": "VANGUARD-GTM",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web application.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://vanguard-gtm.vercel.app/",
+      "public_url": "https://vanguard-gtm.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "vanguard-gtm",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 92
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-vault-infra-portal",
+      "entity_type": "site",
+      "title": "vault-infra-portal",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Web portal.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://vault-infra-portal.vercel.app/",
+      "public_url": "https://vault-infra-portal.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "vault-infra-portal",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 28
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-venturebuild-ai",
+      "entity_type": "site",
+      "title": "VentureBuild-AI",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for AI, development, or implementation workflows.",
+      "audiences": [
+        "developer",
+        "internal_operator"
+      ],
+      "canonical_url": "https://venture-build-ai.vercel.app/",
+      "public_url": "https://venture-build-ai.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "venturebuild-ai",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 19
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-vibe-site-smith",
+      "entity_type": "site",
+      "title": "Vibe-Site-Smith",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for AI, development, or implementation workflows.",
+      "audiences": [
+        "developer",
+        "internal_operator"
+      ],
+      "canonical_url": "https://vibe-site-smith.vercel.app/",
+      "public_url": "https://vibe-site-smith.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "vibe-site-smith",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 20
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-vidiom-ai",
+      "entity_type": "site",
+      "title": "Vidiom-AI",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for publishing, editorial, or content discovery.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://vidiom-ai.vercel.app/",
+      "public_url": "https://vidiom-ai.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "vidiom-ai",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 68
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-vnv",
+      "entity_type": "site",
+      "title": "VnV",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Public-facing website for brand, profile, or public marketing use.",
+      "audiences": [
+        "general_public"
+      ],
+      "canonical_url": "https://vnv-seven.vercel.app/",
+      "public_url": "https://vnv-seven.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "vnv",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 85
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-working-capital",
+      "entity_type": "site",
+      "title": "working-capital",
+      "status": "planned",
+      "resource_type": "site",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-pages.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "working-capital",
+        "evidence": [
+          {
+            "source_registry": "funding-pages.registry.json",
+            "source_path": "JSON/downloads/funding-pages.registry.json",
+            "source_index": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "site-wrapperforge",
+      "entity_type": "site",
+      "title": "WrapperForge",
+      "status": "live",
+      "resource_type": "site",
+      "description": "Interactive web tool for AI, development, or implementation workflows.",
+      "audiences": [
+        "developer",
+        "internal_operator"
+      ],
+      "canonical_url": "https://wrapperforge.vercel.app/",
+      "public_url": "https://wrapperforge.vercel.app/",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "vercel-projects.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "wrapperforge",
+        "evidence": [
+          {
+            "source_registry": "vercel-projects.registry.json",
+            "source_path": "JSON/vercel-projects.registry.json",
+            "source_index": 72
+          }
+        ]
+      }
+    }
+  ]
+}

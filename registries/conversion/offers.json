@@ -1,1 +1,3891 @@
-{}
+{
+  "registry_name": "ResourceGrid Offers Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "promotion": {
+    "source": "reconciliation/v1",
+    "promotion_pass": "v1"
+  },
+  "resources": [
+    {
+      "resource_id": "offer-30-day-sprint-sheet",
+      "entity_type": "offer",
+      "title": "30-day-sprint-sheet",
+      "status": "active",
+      "description": "Daily execution tracker for new partners who need activity discipline.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "30-day-sprint-sheet",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 56
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "30-day-sprint-sheet",
+              "product_name": "30-Day Sprint Sheet",
+              "catalog_type": "Template",
+              "offer_format": "Tracker",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Partner Growth",
+              "build_target": "Hybrid",
+              "description": "Daily execution tracker for new partners who need activity discipline."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-affiliate-content-engine",
+      "entity_type": "offer",
+      "title": "affiliate-content-engine",
+      "status": "active",
+      "description": "Content and campaign engine for partners who need recruiting assets, lead-gen copy, and follow-up sequences.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "affiliate-content-engine",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 5
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "affiliate-content-engine",
+              "product_name": "Affiliate Content Engine",
+              "catalog_type": "AI Package",
+              "offer_format": "Package",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 79,
+              "billing_type": "One-Time",
+              "shop_category": "Marketing Assets",
+              "build_target": "Hybrid",
+              "description": "Content and campaign engine for partners who need recruiting assets, lead-gen copy, and follow-up sequences."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-agent-launch-sop",
+      "entity_type": "offer",
+      "title": "agent-launch-sop",
+      "status": "active",
+      "description": "SOP for launching as a funding broker without drifting into random activity.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "agent-launch-sop",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 45
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "agent-launch-sop",
+              "product_name": "Agent Launch SOP",
+              "catalog_type": "Template",
+              "offer_format": "SOP",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 79,
+              "billing_type": "One-Time",
+              "shop_category": "Partner Growth",
+              "build_target": "Wix",
+              "description": "SOP for launching as a funding broker without drifting into random activity."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-ai-funding-coach-membership",
+      "entity_type": "offer",
+      "title": "ai-funding-coach-membership",
+      "status": "active",
+      "description": "Strategic premium recurring offer for operators who want ongoing capital planning support.",
+      "funnel_stage": "Premium Recurring",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-funding-coach-membership",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 0
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "ai-funding-coach-membership",
+              "product_name": "AI Funding Coach Membership",
+              "catalog_type": "Membership",
+              "offer_format": "Subscription",
+              "funnel_role": "Premium Recurring",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB, Seller",
+              "price": 349,
+              "billing_type": "Monthly",
+              "shop_category": "Membership",
+              "build_target": "Hybrid",
+              "description": "Strategic premium recurring offer for operators who want ongoing capital planning support."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-amazon-payout-gap-guide",
+      "entity_type": "offer",
+      "title": "amazon-payout-gap-guide",
+      "status": "active",
+      "description": "Breaks down how payout timing creates inventory and cash disasters for Amazon sellers.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "amazon-payout-gap-guide",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 24
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "amazon-payout-gap-guide",
+              "product_name": "Amazon Payout Gap Guide",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Seller, Ecommerce Brand",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Seller Finance",
+              "build_target": "Wix",
+              "description": "Breaks down how payout timing creates inventory and cash disasters for Amazon sellers."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-application-rescue-scripts",
+      "entity_type": "offer",
+      "title": "application-rescue-scripts",
+      "status": "active",
+      "description": "Call, text, and email rescue scripts for applicants who vanished mid-process.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "application-rescue-scripts",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 30
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "application-rescue-scripts",
+              "product_name": "Application Rescue Scripts",
+              "catalog_type": "Template",
+              "offer_format": "Swipe File",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 79,
+              "billing_type": "One-Time",
+              "shop_category": "Funnel Recovery",
+              "build_target": "Wix",
+              "description": "Call, text, and email rescue scripts for applicants who vanished mid-process."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-asset-studio",
+      "entity_type": "offer",
+      "title": "Asset Studio",
+      "status": "active",
+      "description": "Build interactive widgets, tools, generators, and mini-apps that attract and convert leads",
+      "audiences": [
+        "Agencies, creators, fintech brands"
+      ],
+      "funnel_stage": "BOFU / Differentiator",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "asset-studio",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 18
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "asset-studio",
+              "name": "Asset Studio",
+              "rank": 19,
+              "brand_lane": "Cross-Brand",
+              "offer_family": "Engineering-as-Marketing",
+              "primary_audience": "Agencies, creators, fintech brands",
+              "core_promise": "Build interactive widgets, tools, generators, and mini-apps that attract and convert leads",
+              "offer_type": "Premium Build",
+              "price_low": 4000,
+              "price_high": 12000,
+              "billing_model": "One-time project or milestones",
+              "tier_notes": "Widget-only / tool / mini-app tiers",
+              "funnel_role": "BOFU / Differentiator",
+              "launch_priority": "High",
+              "rapid_launch_score": 5,
+              "primary_surface": "Vercel app + Stripe or consult CTA",
+              "alternate_surface": "Wix overview page",
+              "build_stack": "Custom GPT spec -> Gemini/AI Studio prototype -> GitHub -> Vercel",
+              "gpt_build_path": "This is the anti-Wix answer to your sizzling landing page problem",
+              "widget_potential": "High",
+              "checkout_primary": "Stripe invoice or payment link",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal",
+              "fulfillment": "Notion project docs + deployed app",
+              "asset_engine": "Vercel is primary",
+              "code_repo_home": "GitHub + Vercel mandatory",
+              "why_surface_wins": "The product should live where it can actually look and feel premium: Vercel",
+              "use_wix": "Optional",
+              "use_wordpress": "Optional",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "Use Wix only as a directory/index if needed"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-assist-call-playbook",
+      "entity_type": "offer",
+      "title": "assist-call-playbook",
+      "status": "active",
+      "description": "Structured call flow for helping applicants finish without drop-off.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "assist-call-playbook",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 38
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "assist-call-playbook",
+              "product_name": "Assist Call Playbook",
+              "catalog_type": "Template",
+              "offer_format": "Playbook",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 79,
+              "billing_type": "One-Time",
+              "shop_category": "Funnel Recovery",
+              "build_target": "Wix",
+              "description": "Structured call flow for helping applicants finish without drop-off."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-bank-link-completion-guide",
+      "entity_type": "offer",
+      "title": "bank-link-completion-guide",
+      "status": "active",
+      "description": "Plain-language guide explaining bank linking and how to complete it properly.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bank-link-completion-guide",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 7
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "bank-link-completion-guide",
+              "product_name": "Bank-Link Completion Guide",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Applicant, SMB, Founder",
+              "price": 39,
+              "billing_type": "One-Time",
+              "shop_category": "Funnel Recovery",
+              "build_target": "Wix",
+              "description": "Plain-language guide explaining bank linking and how to complete it properly."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-bank-link-reminder-sequence",
+      "entity_type": "offer",
+      "title": "bank-link-reminder-sequence",
+      "status": "active",
+      "description": "Sequence pack for reviving incomplete applications and getting users through bank-link.",
+      "funnel_stage": "Core Offer",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bank-link-reminder-sequence",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 28
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "bank-link-reminder-sequence",
+              "product_name": "Bank-Link Reminder Sequence",
+              "catalog_type": "Template",
+              "offer_format": "Template Pack",
+              "funnel_role": "Core Offer",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 99,
+              "billing_type": "One-Time",
+              "shop_category": "Funnel Recovery",
+              "build_target": "Wix",
+              "description": "Sequence pack for reviving incomplete applications and getting users through bank-link."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-banking-setup-guide-for-founders",
+      "entity_type": "offer",
+      "title": "banking-setup-guide-for-founders",
+      "status": "active",
+      "description": "Walkthrough for building a banking stack that does not sabotage approvals.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "banking-setup-guide-for-founders",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 29
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "banking-setup-guide-for-founders",
+              "product_name": "Banking Setup Guide for Founders",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Business Credit",
+              "build_target": "Wix",
+              "description": "Walkthrough for building a banking stack that does not sabotage approvals."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-banking-setup-sop",
+      "entity_type": "offer",
+      "title": "banking-setup-sop",
+      "status": "active",
+      "description": "SOP for setting up a sane business banking stack that supports funding readiness.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "banking-setup-sop",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 22
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "banking-setup-sop",
+              "product_name": "Banking Setup SOP",
+              "catalog_type": "Template",
+              "offer_format": "SOP",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Business Credit",
+              "build_target": "Wix",
+              "description": "SOP for setting up a sane business banking stack that supports funding readiness."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-broker-brain-vault",
+      "entity_type": "offer",
+      "title": "Broker Brain Vault",
+      "status": "active",
+      "description": "Create an internal AI-ready knowledge base for training, objections, SOPs, and lender logic",
+      "audiences": [
+        "Broker teams, affiliate orgs"
+      ],
+      "funnel_stage": "BOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "broker-brain-vault",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 11
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "broker-brain-vault",
+              "name": "Broker Brain Vault",
+              "rank": 12,
+              "brand_lane": "Moonshine Capital",
+              "offer_family": "Knowledge Base",
+              "primary_audience": "Broker teams, affiliate orgs",
+              "core_promise": "Create an internal AI-ready knowledge base for training, objections, SOPs, and lender logic",
+              "offer_type": "System Setup",
+              "price_low": 1500,
+              "price_high": 4000,
+              "billing_model": "One-time",
+              "tier_notes": "Starter / Team / Ops suite tiers",
+              "funnel_role": "BOFU",
+              "launch_priority": "Medium",
+              "rapid_launch_score": 3,
+              "primary_surface": "Moonshine Capital consult page",
+              "alternate_surface": "Vercel landing",
+              "build_stack": "Custom GPT + NotebookLM + Notion knowledge architecture",
+              "gpt_build_path": "AI is central to the value prop, but sale is still consultative",
+              "widget_potential": "Low",
+              "checkout_primary": "Stripe invoice",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal / company / contacts",
+              "fulfillment": "Notion knowledge base",
+              "asset_engine": "Notion + optional Vercel front-end",
+              "code_repo_home": "GitHub optional",
+              "why_surface_wins": "Internal systems offer; public site matters less than trust and consult flow",
+              "use_wix": "Optional",
+              "use_wordpress": "No",
+              "use_stripe": "Yes",
+              "use_vercel": "Optional",
+              "notes": "Could later expand into subscription support"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-business-credit-builder-os",
+      "entity_type": "offer",
+      "title": "business-credit-builder-os",
+      "status": "active",
+      "description": "Business credit operating system for building credibility, banking hygiene, and capital access.",
+      "funnel_stage": "Core Offer",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "business-credit-builder-os",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 41
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "business-credit-builder-os",
+              "product_name": "Business Credit Builder OS",
+              "catalog_type": "AI Package",
+              "offer_format": "Package",
+              "funnel_role": "Core Offer",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB, Agency Owner",
+              "price": 99,
+              "billing_type": "One-Time",
+              "shop_category": "Business Credit",
+              "build_target": "Hybrid",
+              "description": "Business credit operating system for building credibility, banking hygiene, and capital access."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-business-credit-foundations-guide",
+      "entity_type": "offer",
+      "title": "business-credit-foundations-guide",
+      "status": "active",
+      "description": "Explains the fundamentals of business credit in usable terms.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "business-credit-foundations-guide",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 6
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "business-credit-foundations-guide",
+              "product_name": "Business Credit Foundations Guide",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Business Credit",
+              "build_target": "Wix",
+              "description": "Explains the fundamentals of business credit in usable terms."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-business-credit-starter-checklist",
+      "entity_type": "offer",
+      "title": "business-credit-starter-checklist",
+      "status": "active",
+      "description": "Fast-start checklist for setting up the basics of business credit correctly.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "business-credit-starter-checklist",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 12
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "business-credit-starter-checklist",
+              "product_name": "Business Credit Starter Checklist",
+              "catalog_type": "Template",
+              "offer_format": "Checklist",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB",
+              "price": 39,
+              "billing_type": "One-Time",
+              "shop_category": "Business Credit",
+              "build_target": "Wix",
+              "description": "Fast-start checklist for setting up the basics of business credit correctly."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-calculator-brief-template",
+      "entity_type": "offer",
+      "title": "calculator-brief-template",
+      "status": "active",
+      "description": "Briefing template for scoping new calculators and scorecards fast.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "calculator-brief-template",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 25
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "calculator-brief-template",
+              "product_name": "Calculator Brief Template",
+              "catalog_type": "Template",
+              "offer_format": "Worksheet",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Broker, Operator",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Tools & Calculators",
+              "build_target": "Wix",
+              "description": "Briefing template for scoping new calculators and scorecards fast."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-capital-readiness-brief",
+      "entity_type": "offer",
+      "title": "Capital Readiness Brief",
+      "status": "active",
+      "description": "Quick self-assessment that segments prospects by readiness and routes them to the right next step",
+      "audiences": [
+        "Business owners exploring funding"
+      ],
+      "funnel_stage": "TOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "capital-readiness-brief",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 3
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "capital-readiness-brief",
+              "name": "Capital Readiness Brief",
+              "rank": 4,
+              "brand_lane": "Moonshine Capital",
+              "offer_family": "Assessment / Lead Qualifier",
+              "primary_audience": "Business owners exploring funding",
+              "core_promise": "Quick self-assessment that segments prospects by readiness and routes them to the right next step",
+              "offer_type": "Assessment",
+              "price_low": 0,
+              "price_high": 27,
+              "billing_model": "Free or one-time",
+              "tier_notes": "Free scorecard; paid expanded brief",
+              "funnel_role": "TOFU",
+              "launch_priority": "High",
+              "rapid_launch_score": 5,
+              "primary_surface": "Vercel quiz / calculator page",
+              "alternate_surface": "Moonshine Capital Wix page",
+              "build_stack": "Custom GPT -> Vercel quiz -> Stripe upsell",
+              "gpt_build_path": "Use GPT to generate branching questions, scoring logic, and personalized recommendation copy",
+              "widget_potential": "High",
+              "checkout_primary": "Stripe upsell after results",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot form / contact / quiz score property",
+              "fulfillment": "Notion or email PDF brief",
+              "asset_engine": "Vercel for quiz logic and richer UX",
+              "code_repo_home": "GitHub + Vercel",
+              "why_surface_wins": "Assessment tools are much sharper on Vercel than Wix unless you only need a basic form",
+              "use_wix": "Optional",
+              "use_wordpress": "No",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "Strong bridge into consult calls and funding narrative offers"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-capital-stack-planner",
+      "entity_type": "offer",
+      "title": "capital-stack-planner",
+      "status": "active",
+      "description": "Planning system for mapping credit, cash flow, debt, and funding options into one picture.",
+      "funnel_stage": "Retention",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "capital-stack-planner",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 1
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "capital-stack-planner",
+              "product_name": "Capital Stack Planner",
+              "catalog_type": "Template",
+              "offer_format": "Planner",
+              "funnel_role": "Retention",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB, Seller",
+              "price": 79,
+              "billing_type": "One-Time Value",
+              "shop_category": "Advisory",
+              "build_target": "Hybrid",
+              "description": "Planning system for mapping credit, cash flow, debt, and funding options into one picture."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-cash-flow-command-center",
+      "entity_type": "offer",
+      "title": "cash-flow-command-center",
+      "status": "draft",
+      "description": "Financial visibility package for cleaner books and better timing before chasing funding.",
+      "funnel_stage": "Core Offer",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cash-flow-command-center",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 57
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "cash-flow-command-center",
+              "product_name": "Cash Flow Command Center",
+              "catalog_type": "AI Package",
+              "offer_format": "Package",
+              "funnel_role": "Core Offer",
+              "status": "Draft",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Agency Owner, Seller",
+              "price": 129,
+              "billing_type": "One-Time Value",
+              "shop_category": "FinOps",
+              "build_target": "Hybrid",
+              "description": "Financial visibility package for cleaner books and better timing before chasing funding."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-cash-flow-review-sop",
+      "entity_type": "offer",
+      "title": "cash-flow-review-sop",
+      "status": "active",
+      "description": "Repeatable review rhythm for cash movement, obligations, and runway.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cash-flow-review-sop",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 37
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "cash-flow-review-sop",
+              "product_name": "Cash Flow Review SOP",
+              "catalog_type": "Template",
+              "offer_format": "SOP",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Seller, SMB",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "FinOps",
+              "build_target": "Wix",
+              "description": "Repeatable review rhythm for cash movement, obligations, and runway."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-content-engine-setup",
+      "entity_type": "offer",
+      "title": "Content Engine Setup",
+      "status": "active",
+      "description": "Install the full source-to-content machine across channels",
+      "audiences": [
+        "Creators, consultants, indie founders"
+      ],
+      "funnel_stage": "BOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "content-engine-setup",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 14
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "content-engine-setup",
+              "name": "Content Engine Setup",
+              "rank": 15,
+              "brand_lane": "Full-Time Hustler",
+              "offer_family": "Flagship System",
+              "primary_audience": "Creators, consultants, indie founders",
+              "core_promise": "Install the full source-to-content machine across channels",
+              "offer_type": "Flagship Service",
+              "price_low": 2500,
+              "price_high": 6000,
+              "billing_model": "One-time or split-pay",
+              "tier_notes": "Starter / Pro / Team implementation",
+              "funnel_role": "BOFU",
+              "launch_priority": "High",
+              "rapid_launch_score": 5,
+              "primary_surface": "Vercel sales page + Stripe + HubSpot",
+              "alternate_surface": "Wix service page",
+              "build_stack": "Custom GPTs + Gemini + AI Studio + Notion + Vercel",
+              "gpt_build_path": "This offer should showcase the exact machine it sells; Vercel lets you do that without Wix drag",
+              "widget_potential": "Medium",
+              "checkout_primary": "Stripe invoice / payment link",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal",
+              "fulfillment": "Notion workspace + Loom / docs",
+              "asset_engine": "Vercel + Notion + Stripe",
+              "code_repo_home": "GitHub + Vercel",
+              "why_surface_wins": "Best flagship for FTH and best example of your operator stack",
+              "use_wix": "Optional",
+              "use_wordpress": "Yes",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "Use WordPress to publish supporting pillar content and case studies"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-content-ops-install",
+      "entity_type": "offer",
+      "title": "Content Ops Install",
+      "status": "active",
+      "description": "Install an AI-driven content and lead magnet operating system for broker growth",
+      "audiences": [
+        "Loan brokers, partner teams"
+      ],
+      "funnel_stage": "BOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "content-ops-install",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 16
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "content-ops-install",
+              "name": "Content Ops Install",
+              "rank": 17,
+              "brand_lane": "Moonshine Capital",
+              "offer_family": "Flagship Ops Service",
+              "primary_audience": "Loan brokers, partner teams",
+              "core_promise": "Install an AI-driven content and lead magnet operating system for broker growth",
+              "offer_type": "Flagship Service",
+              "price_low": 3500,
+              "price_high": 8500,
+              "billing_model": "One-time or split-pay",
+              "tier_notes": "Solo broker vs team deployment tiers",
+              "funnel_role": "BOFU",
+              "launch_priority": "High",
+              "rapid_launch_score": 4,
+              "primary_surface": "Moonshine Capital consult page + Vercel demo assets",
+              "alternate_surface": "Stripe close page",
+              "build_stack": "GPT-generated demo tools + process docs + landing assets",
+              "gpt_build_path": "Use interactive proof (mini tools, calculators, examples) to sell implementation",
+              "widget_potential": "Medium",
+              "checkout_primary": "Stripe invoice",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal mandatory",
+              "fulfillment": "Notion + team docs + optional training",
+              "asset_engine": "Vercel demos + Notion ops",
+              "code_repo_home": "GitHub + Vercel",
+              "why_surface_wins": "Strong Moonshine flagship that benefits from demo assets more than static pages",
+              "use_wix": "Optional",
+              "use_wordpress": "No",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "Wix can host overview page; Vercel should carry the sexy proof layer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-content-that-recruits-and-converts",
+      "entity_type": "offer",
+      "title": "content-that-recruits-and-converts",
+      "status": "active",
+      "description": "Shows partners how to create content that recruits and converts.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "content-that-recruits-and-converts",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 11
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "content-that-recruits-and-converts",
+              "product_name": "Content That Recruits and Converts",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Partner, Broker",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Marketing Assets",
+              "build_target": "Wix",
+              "description": "Shows partners how to create content that recruits and converts."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-creator-circle",
+      "entity_type": "offer",
+      "title": "Creator Circle",
+      "status": "active",
+      "description": "Recurring access to templates, workshops, prompts, and operator-grade AI education",
+      "audiences": [
+        "Creators, self-employed operators, side hustlers"
+      ],
+      "funnel_stage": "Retention / LTV",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "creator-circle",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 19
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "creator-circle",
+              "name": "Creator Circle",
+              "rank": 20,
+              "brand_lane": "Full-Time Hustler",
+              "offer_family": "Membership",
+              "primary_audience": "Creators, self-employed operators, side hustlers",
+              "core_promise": "Recurring access to templates, workshops, prompts, and operator-grade AI education",
+              "offer_type": "Membership",
+              "price_low": 29,
+              "price_high": 99,
+              "billing_model": "Monthly subscription",
+              "tier_notes": "Entry / Pro / Inner Circle tiers",
+              "funnel_role": "Retention / LTV",
+              "launch_priority": "High",
+              "rapid_launch_score": 4,
+              "primary_surface": "Wix Pricing Plans + Members Area",
+              "alternate_surface": "Stripe subscription + Vercel member portal",
+              "build_stack": "GPT-generated curriculum, vault drops, challenge prompts, workshop pages",
+              "gpt_build_path": "Wix wins here because of native memberships; Stripe can still power subscription checkout if needed",
+              "widget_potential": "Medium",
+              "checkout_primary": "Stripe subscription or Wix plan",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot member lifecycle",
+              "fulfillment": "Wix Members Area + Notion vault",
+              "asset_engine": "Wix for membership shell; Vercel for standout tools",
+              "code_repo_home": "GitHub + Vercel for tools",
+              "why_surface_wins": "One of the few offers where Wix should be prioritized because its native member features matter",
+              "use_wix": "Yes",
+              "use_wordpress": "Yes",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "WordPress is top-of-funnel feeder, not the member hub"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-creator-toolkit-vault",
+      "entity_type": "offer",
+      "title": "Creator Toolkit Vault",
+      "status": "active",
+      "description": "Self-serve templates, prompts, and workflows for AI content systems",
+      "audiences": [
+        "Creators, freelancers, indie founders"
+      ],
+      "funnel_stage": "Tripwire",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "creator-toolkit-vault",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 1
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "creator-toolkit-vault",
+              "name": "Creator Toolkit Vault",
+              "rank": 2,
+              "brand_lane": "Full-Time Hustler",
+              "offer_family": "Digital Product",
+              "primary_audience": "Creators, freelancers, indie founders",
+              "core_promise": "Self-serve templates, prompts, and workflows for AI content systems",
+              "offer_type": "Digital Product",
+              "price_low": 29,
+              "price_high": 99,
+              "billing_model": "One-time",
+              "tier_notes": "Lite / Core / Pro bundle tiers",
+              "funnel_role": "Tripwire",
+              "launch_priority": "High",
+              "rapid_launch_score": 5,
+              "primary_surface": "Stripe payment page with delivery redirect",
+              "alternate_surface": "Wix Stores / Members Area",
+              "build_stack": "Custom GPT -> Notion export -> Stripe product page",
+              "gpt_build_path": "GPT-generated product copy, sales bullets, FAQs, onboarding email, and delivery assets",
+              "widget_potential": "Medium",
+              "checkout_primary": "Stripe Payment Link",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot contact + product purchased",
+              "fulfillment": "Notion workspace / Google Drive asset folder / Wix member access",
+              "asset_engine": "No-code product stack with Stripe + Notion",
+              "code_repo_home": "GitHub only if bundled with code assets",
+              "why_surface_wins": "Faster than Wix page builds; Stripe can host checkout immediately",
+              "use_wix": "Optional",
+              "use_wordpress": "Optional",
+              "use_stripe": "Yes",
+              "use_vercel": "Optional",
+              "notes": "Use Wix if you want catalog browsing, bundles, or member gating"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-credit-utilization-tracker",
+      "entity_type": "offer",
+      "title": "credit-utilization-tracker",
+      "status": "active",
+      "description": "Tracks balances and utilization to protect credit profile.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "credit-utilization-tracker",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 31
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "credit-utilization-tracker",
+              "product_name": "Credit Utilization Tracker",
+              "catalog_type": "Template",
+              "offer_format": "Tracker",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB",
+              "price": 39,
+              "billing_type": "One-Time",
+              "shop_category": "Business Credit",
+              "build_target": "Hybrid",
+              "description": "Tracks balances and utilization to protect credit profile."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-cta-disclaimer-pack",
+      "entity_type": "offer",
+      "title": "cta-disclaimer-pack",
+      "status": "active",
+      "description": "High-converting CTA bank plus disclosure language and compliance-safe copy blocks.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cta-disclaimer-pack",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 59
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "cta-disclaimer-pack",
+              "product_name": "CTA + Disclaimer Pack",
+              "catalog_type": "Template",
+              "offer_format": "Template Pack",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Marketing Assets",
+              "build_target": "Wix",
+              "description": "High-converting CTA bank plus disclosure language and compliance-safe copy blocks."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-email-campaign-templates",
+      "entity_type": "offer",
+      "title": "email-campaign-templates",
+      "status": "active",
+      "description": "Plug-and-play email sequences for nurture, reactivation, recruiting, and follow-up.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "email-campaign-templates",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 13
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "email-campaign-templates",
+              "product_name": "Email Campaign Templates",
+              "catalog_type": "Template",
+              "offer_format": "Swipe File",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "Marketing Assets",
+              "build_target": "Wix",
+              "description": "Plug-and-play email sequences for nurture, reactivation, recruiting, and follow-up."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-email-follow-up-that-gets-replies",
+      "entity_type": "offer",
+      "title": "email-follow-up-that-gets-replies",
+      "status": "active",
+      "description": "Guide for fixing dead follow-up and improving reply rates.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "email-follow-up-that-gets-replies",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 39
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "email-follow-up-that-gets-replies",
+              "product_name": "Email Follow-Up That Gets Replies",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Partner, Broker",
+              "price": 39,
+              "billing_type": "One-Time",
+              "shop_category": "Marketing Assets",
+              "build_target": "Wix",
+              "description": "Guide for fixing dead follow-up and improving reply rates."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-embed-guide-pack",
+      "entity_type": "offer",
+      "title": "embed-guide-pack",
+      "status": "active",
+      "description": "Embedding instructions and snippets for Wix, Notion, and blog pages.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "embed-guide-pack",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 3
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "embed-guide-pack",
+              "product_name": "Embed Guide Pack",
+              "catalog_type": "Template",
+              "offer_format": "Template Pack",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Operator",
+              "price": 79,
+              "billing_type": "One-Time",
+              "shop_category": "Tools & Calculators",
+              "build_target": "Wix",
+              "description": "Embedding instructions and snippets for Wix, Notion, and blog pages."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-embed-tools-into-wix-and-notion",
+      "entity_type": "offer",
+      "title": "embed-tools-into-wix-and-notion",
+      "status": "active",
+      "description": "Implementation guide for getting tools live where they can actually produce.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "embed-tools-into-wix-and-notion",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 2
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "embed-tools-into-wix-and-notion",
+              "product_name": "Embed Tools Into Wix and Notion",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Operator",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "Tools & Calculators",
+              "build_target": "Wix",
+              "description": "Implementation guide for getting tools live where they can actually produce."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-engineering-as-marketing-tool-suite",
+      "entity_type": "offer",
+      "title": "engineering-as-marketing-tool-suite",
+      "status": "draft",
+      "description": "Tool-driven lead-gen stack built around calculators, scorecards, and embedded utilities.",
+      "funnel_stage": "Moat",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "engineering-as-marketing-tool-suite",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 58
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "engineering-as-marketing-tool-suite",
+              "product_name": "Engineering-as-Marketing Tool Suite",
+              "catalog_type": "AI Package",
+              "offer_format": "Package",
+              "funnel_role": "Moat",
+              "status": "Draft",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Broker, Operator",
+              "price": 149,
+              "billing_type": "One-Time",
+              "shop_category": "Tools & Calculators",
+              "build_target": "Hybrid",
+              "description": "Tool-driven lead-gen stack built around calculators, scorecards, and embedded utilities."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-finance-cleanup-before-funding",
+      "entity_type": "offer",
+      "title": "finance-cleanup-before-funding",
+      "status": "active",
+      "description": "Helps founders clean up the mess before sending numbers into underwriting.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "finance-cleanup-before-funding",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 18
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "finance-cleanup-before-funding",
+              "product_name": "Finance Cleanup Before Funding",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "FinOps",
+              "build_target": "Wix",
+              "description": "Helps founders clean up the mess before sending numbers into underwriting."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-forecast-snapshot-template",
+      "entity_type": "offer",
+      "title": "forecast-snapshot-template",
+      "status": "active",
+      "description": "Lightweight template for short-term forecasting.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "forecast-snapshot-template",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 15
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "forecast-snapshot-template",
+              "product_name": "Forecast Snapshot Template",
+              "catalog_type": "Template",
+              "offer_format": "Dashboard",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB, Seller",
+              "price": 79,
+              "billing_type": "One-Time",
+              "shop_category": "FinOps",
+              "build_target": "Hybrid",
+              "description": "Lightweight template for short-term forecasting."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-forecasting-for-founders",
+      "entity_type": "offer",
+      "title": "forecasting-for-founders",
+      "status": "active",
+      "description": "Practical guide for building a useful forecast.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "forecasting-for-founders",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 20
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "forecasting-for-founders",
+              "product_name": "Forecasting for Founders",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Agency Owner, Seller",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "FinOps",
+              "build_target": "Wix",
+              "description": "Practical guide for building a useful forecast."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-founder-finance-cleanup-checklist",
+      "entity_type": "offer",
+      "title": "founder-finance-cleanup-checklist",
+      "status": "active",
+      "description": "Checklist for cleaning deposits, expenses, and cash sloppiness before applying.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "founder-finance-cleanup-checklist",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 50
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "founder-finance-cleanup-checklist",
+              "product_name": "Founder Finance Cleanup Checklist",
+              "catalog_type": "Template",
+              "offer_format": "Checklist",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "FinOps",
+              "build_target": "Wix",
+              "description": "Checklist for cleaning deposits, expenses, and cash sloppiness before applying."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-funding-agency-launch-kit",
+      "entity_type": "offer",
+      "title": "funding-agency-launch-kit",
+      "status": "active",
+      "description": "Partner/broker launch system for building a funding agency under the Moonshine umbrella.",
+      "funnel_stage": "Core Offer",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-agency-launch-kit",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 32
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "funding-agency-launch-kit",
+              "product_name": "Funding Agency Launch Kit",
+              "catalog_type": "AI Package",
+              "offer_format": "Package",
+              "funnel_role": "Core Offer",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner, Consultant",
+              "price": 149,
+              "billing_type": "Included",
+              "shop_category": "Partner Growth",
+              "build_target": "Hybrid",
+              "description": "Partner/broker launch system for building a funding agency under the Moonshine umbrella."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-funding-fastlane-starter",
+      "entity_type": "offer",
+      "title": "funding-fastlane-starter",
+      "status": "active",
+      "description": "Fast-entry package for funding direction, readiness help, and lender-fit clarity.",
+      "funnel_stage": "Tripwire",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-fastlane-starter",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 47
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "funding-fastlane-starter",
+              "product_name": "Funding Fastlane Starter",
+              "catalog_type": "AI Package",
+              "offer_format": "Package",
+              "funnel_role": "Tripwire",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "SMB, Founder, Gig Worker",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Funding Prep",
+              "build_target": "Hybrid",
+              "description": "Fast-entry package for funding direction, readiness help, and lender-fit clarity."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-funding-funnel-recovery-kit",
+      "entity_type": "offer",
+      "title": "funding-funnel-recovery-kit",
+      "status": "active",
+      "description": "Recovery system for stalled applicants, incomplete submissions, and bank-link abandonment.",
+      "funnel_stage": "Core Offer",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-funnel-recovery-kit",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 53
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "funding-funnel-recovery-kit",
+              "product_name": "Funding Funnel Recovery Kit",
+              "catalog_type": "AI Package",
+              "offer_format": "Package",
+              "funnel_role": "Core Offer",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 149,
+              "billing_type": "One-Time",
+              "shop_category": "Funnel Recovery",
+              "build_target": "Hybrid",
+              "description": "Recovery system for stalled applicants, incomplete submissions, and bank-link abandonment."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-funding-marketplace-directory-os",
+      "entity_type": "offer",
+      "title": "funding-marketplace-directory-os",
+      "status": "draft",
+      "description": "Marketplace layer for comparing providers, offers, tools, and next steps inside Moonshine Capital.",
+      "funnel_stage": "Moat",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-marketplace-directory-os",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 21
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "funding-marketplace-directory-os",
+              "product_name": "Funding Marketplace Directory OS",
+              "catalog_type": "AI Package",
+              "offer_format": "Package",
+              "funnel_role": "Moat",
+              "status": "Draft",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB, Seller",
+              "price": 129,
+              "billing_type": "One-Time Value",
+              "shop_category": "Marketplace",
+              "build_target": "Hybrid",
+              "description": "Marketplace layer for comparing providers, offers, tools, and next steps inside Moonshine Capital."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-funding-operator-pro",
+      "entity_type": "offer",
+      "title": "funding-operator-pro",
+      "status": "active",
+      "description": "Working membership for founders, brokers, sellers, and partners who need the full shelf.",
+      "funnel_stage": "Core Recurring",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-operator-pro",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 52
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "funding-operator-pro",
+              "product_name": "Funding Operator Pro",
+              "catalog_type": "Membership",
+              "offer_format": "Subscription",
+              "funnel_role": "Core Recurring",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Broker, Partner, Seller, Agency Owner, Gig Worker",
+              "price": 129,
+              "billing_type": "Monthly",
+              "shop_category": "Membership",
+              "build_target": "Hybrid",
+              "description": "Working membership for founders, brokers, sellers, and partners who need the full shelf."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-funding-readiness-checklist",
+      "entity_type": "offer",
+      "title": "funding-readiness-checklist",
+      "status": "active",
+      "description": "Shows applicants what to gather before applying.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-readiness-checklist",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 43
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "funding-readiness-checklist",
+              "product_name": "Funding Readiness Checklist",
+              "catalog_type": "Template",
+              "offer_format": "Checklist",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "SMB, Founder, Gig Worker",
+              "price": 29,
+              "billing_type": "One-Time",
+              "shop_category": "Funding Prep",
+              "build_target": "Hybrid",
+              "description": "Shows applicants what to gather before applying."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-funding-strategy-workbook",
+      "entity_type": "offer",
+      "title": "funding-strategy-workbook",
+      "status": "active",
+      "description": "Workbook for mapping capital needs, timing, constraints, and next moves.",
+      "funnel_stage": "Retention",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-strategy-workbook",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 36
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "funding-strategy-workbook",
+              "product_name": "Funding Strategy Workbook",
+              "catalog_type": "Template",
+              "offer_format": "Workbook",
+              "funnel_role": "Retention",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB",
+              "price": 99,
+              "billing_type": "One-Time Value",
+              "shop_category": "Advisory",
+              "build_target": "Hybrid",
+              "description": "Workbook for mapping capital needs, timing, constraints, and next moves."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-funnel-stack-buildout",
+      "entity_type": "offer",
+      "title": "Funnel Stack Buildout",
+      "status": "active",
+      "description": "Build an educational pre-funding funnel that warms and qualifies leads",
+      "audiences": [
+        "Founders and business owners preparing for funding"
+      ],
+      "funnel_stage": "BOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funnel-stack-buildout",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 12
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "funnel-stack-buildout",
+              "name": "Funnel Stack Buildout",
+              "rank": 13,
+              "brand_lane": "Moonshine Capital",
+              "offer_family": "Education Funnel",
+              "primary_audience": "Founders and business owners preparing for funding",
+              "core_promise": "Build an educational pre-funding funnel that warms and qualifies leads",
+              "offer_type": "Service",
+              "price_low": 1500,
+              "price_high": 4500,
+              "billing_model": "One-time",
+              "tier_notes": "Landing page + magnet + nurture vs full funnel",
+              "funnel_role": "BOFU",
+              "launch_priority": "High",
+              "rapid_launch_score": 4,
+              "primary_surface": "Vercel funnel + Stripe + HubSpot",
+              "alternate_surface": "Moonshine Capital Wix page",
+              "build_stack": "GPTs for pages, emails, scorecards, calculators, and CTAs",
+              "gpt_build_path": "This should be deployed as a clean funnel stack, not forced into a mediocre Wix design",
+              "widget_potential": "High",
+              "checkout_primary": "Stripe",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot mandatory",
+              "fulfillment": "Notion + email assets",
+              "asset_engine": "Vercel + Stripe + HubSpot",
+              "code_repo_home": "GitHub + Vercel",
+              "why_surface_wins": "One of the strongest cases for Vercel over Wix",
+              "use_wix": "Optional",
+              "use_wordpress": "No",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "Wix only when tying into native Moonshine navigation or forms"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-how-to-choose-the-right-funding-product",
+      "entity_type": "offer",
+      "title": "how-to-choose-the-right-funding-product",
+      "status": "active",
+      "description": "Decision guide for matching the right capital path to the business.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "how-to-choose-the-right-funding-product",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 44
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "how-to-choose-the-right-funding-product",
+              "product_name": "How to Choose the Right Funding Product",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB",
+              "price": 39,
+              "billing_type": "One-Time",
+              "shop_category": "Funding Prep",
+              "build_target": "Wix",
+              "description": "Decision guide for matching the right capital path to the business."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-how-to-compare-funding-providers",
+      "entity_type": "offer",
+      "title": "how-to-compare-funding-providers",
+      "status": "active",
+      "description": "Helps users compare lenders and providers based on reality.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "how-to-compare-funding-providers",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 55
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "how-to-compare-funding-providers",
+              "product_name": "How to Compare Funding Providers",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB, Seller",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Marketplace",
+              "build_target": "Wix",
+              "description": "Helps users compare lenders and providers based on reality."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-inventory-funding-sop",
+      "entity_type": "offer",
+      "title": "inventory-funding-sop",
+      "status": "active",
+      "description": "SOP for mapping reorder windows and funding timing.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "inventory-funding-sop",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 54
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "inventory-funding-sop",
+              "product_name": "Inventory Funding SOP",
+              "catalog_type": "Template",
+              "offer_format": "SOP",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Seller, Ecommerce Brand",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "Seller Finance",
+              "build_target": "Wix",
+              "description": "SOP for mapping reorder windows and funding timing."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-launch-a-calculator-lead-magnet",
+      "entity_type": "offer",
+      "title": "launch-a-calculator-lead-magnet",
+      "status": "active",
+      "description": "Shows how to turn a pain point into a functional lead magnet.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "launch-a-calculator-lead-magnet",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 35
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "launch-a-calculator-lead-magnet",
+              "product_name": "Launch a Calculator Lead Magnet",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Broker, Operator",
+              "price": 79,
+              "billing_type": "One-Time",
+              "shop_category": "Tools & Calculators",
+              "build_target": "Wix",
+              "description": "Shows how to turn a pain point into a functional lead magnet."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-lead-magnet-lab",
+      "entity_type": "offer",
+      "title": "Lead Magnet Lab",
+      "status": "active",
+      "description": "Done-with-you creation of downloadable lead magnet + delivery funnel",
+      "audiences": [
+        "Creators, coaches, affiliate educators"
+      ],
+      "funnel_stage": "Tripwire / MOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "lead-magnet-lab",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 4
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "lead-magnet-lab",
+              "name": "Lead Magnet Lab",
+              "rank": 5,
+              "brand_lane": "Full-Time Hustler",
+              "offer_family": "Productized Service",
+              "primary_audience": "Creators, coaches, affiliate educators",
+              "core_promise": "Done-with-you creation of downloadable lead magnet + delivery funnel",
+              "offer_type": "Service",
+              "price_low": 149,
+              "price_high": 349,
+              "billing_model": "One-time",
+              "tier_notes": "Starter / Plus tiers based on asset count",
+              "funnel_role": "Tripwire / MOFU",
+              "launch_priority": "Medium",
+              "rapid_launch_score": 4,
+              "primary_surface": "Stripe page + short Vercel sales page",
+              "alternate_surface": "Wix service page",
+              "build_stack": "Custom GPT -> Stripe page -> Notion delivery",
+              "gpt_build_path": "Rapid service packaging from existing content with AI-generated copy and assets",
+              "widget_potential": "Medium",
+              "checkout_primary": "Stripe",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot service pipeline",
+              "fulfillment": "Notion delivery hub",
+              "asset_engine": "Vercel page or simple hosted Stripe page",
+              "code_repo_home": "GitHub optional",
+              "why_surface_wins": "Cleaner to sell as a fast productized service without overbuilding a full Wix funnel",
+              "use_wix": "Optional",
+              "use_wordpress": "Optional",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "Use Wix if stacking with other service pages or bookings"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-magnet-forge",
+      "entity_type": "offer",
+      "title": "Magnet Forge",
+      "status": "active",
+      "description": "Turn one source asset into a fast lead magnet that captures email and qualifies intent",
+      "audiences": [
+        "Founders, brokers, affiliates"
+      ],
+      "funnel_stage": "TOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "magnet-forge",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 0
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "magnet-forge",
+              "name": "Magnet Forge",
+              "rank": 1,
+              "brand_lane": "Moonshine Capital",
+              "offer_family": "Lead Magnet / Entry",
+              "primary_audience": "Founders, brokers, affiliates",
+              "core_promise": "Turn one source asset into a fast lead magnet that captures email and qualifies intent",
+              "offer_type": "Free / Tripwire",
+              "price_low": 0,
+              "price_high": 49,
+              "billing_model": "Free or one-time",
+              "tier_notes": "Free checklist version; paid polished pack version",
+              "funnel_role": "TOFU",
+              "launch_priority": "High",
+              "rapid_launch_score": 5,
+              "primary_surface": "Stripe payment page or simple Vercel landing",
+              "alternate_surface": "Moonshine Capital Wix page",
+              "build_stack": "Custom GPT -> Gemini / Google AI Studio -> Stripe link/embed",
+              "gpt_build_path": "Use CustomGPT to transform transcript/video/PDF into PDF guide, CTA copy, and opt-in page blocks",
+              "widget_potential": "High",
+              "checkout_primary": "Stripe Payment Link / free opt-in",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot contact + lead source + lifecycle stage",
+              "fulfillment": "Notion vault + email delivery",
+              "asset_engine": "Vercel microsite or Stripe hosted page",
+              "code_repo_home": "GitHub + Vercel if custom; none if hosted Stripe",
+              "why_surface_wins": "Fastest path; no need to fight Wix design limitations for a simple magnet page",
+              "use_wix": "Optional",
+              "use_wordpress": "No",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "Use Wix only if bundling with Moonshine site navigation or native forms"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-marketplace-navigation-guide",
+      "entity_type": "offer",
+      "title": "marketplace-navigation-guide",
+      "status": "active",
+      "description": "Shows members how to use the marketplace, filters, calculators, and provider pages.",
+      "funnel_stage": "Onboarding",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "marketplace-navigation-guide",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 26
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "marketplace-navigation-guide",
+              "product_name": "Marketplace Navigation Guide",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Onboarding",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Seller, SMB",
+              "price": 29,
+              "billing_type": "One-Time Value",
+              "shop_category": "Marketplace",
+              "build_target": "Hybrid",
+              "description": "Shows members how to use the marketplace, filters, calculators, and provider pages."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-monthly-funding-review-guide",
+      "entity_type": "offer",
+      "title": "monthly-funding-review-guide",
+      "status": "active",
+      "description": "How to run a monthly review of capital readiness, timing, and next moves.",
+      "funnel_stage": "Retention",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "monthly-funding-review-guide",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 17
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "monthly-funding-review-guide",
+              "product_name": "Monthly Funding Review Guide",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Retention",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Operator",
+              "price": 49,
+              "billing_type": "One-Time Value",
+              "shop_category": "Advisory",
+              "build_target": "Hybrid",
+              "description": "How to run a monthly review of capital readiness, timing, and next moves."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-monthly-review-template",
+      "entity_type": "offer",
+      "title": "monthly-review-template",
+      "status": "active",
+      "description": "Monthly review framework for funding progress and readiness.",
+      "funnel_stage": "Retention",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "monthly-review-template",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 9
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "monthly-review-template",
+              "product_name": "Monthly Review Template",
+              "catalog_type": "Template",
+              "offer_format": "Planner",
+              "funnel_role": "Retention",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Operator",
+              "price": 49,
+              "billing_type": "One-Time Value",
+              "shop_category": "Advisory",
+              "build_target": "Hybrid",
+              "description": "Monthly review framework for funding progress and readiness."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-moonshine-capital-toolbox",
+      "entity_type": "offer",
+      "title": "moonshine-capital-toolbox",
+      "status": "active",
+      "description": "Entry-level recurring membership for templates, selected guides, and starter tools.",
+      "funnel_stage": "Membership Entry",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-capital-toolbox",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 51
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "moonshine-capital-toolbox",
+              "product_name": "Moonshine Capital Toolbox",
+              "catalog_type": "Membership",
+              "offer_format": "Subscription",
+              "funnel_role": "Membership Entry",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "SMB, Founder, Gig Worker",
+              "price": 49,
+              "billing_type": "Monthly",
+              "shop_category": "Membership",
+              "build_target": "Hybrid",
+              "description": "Entry-level recurring membership for templates, selected guides, and starter tools."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-narrative-kit",
+      "entity_type": "offer",
+      "title": "Narrative Kit",
+      "status": "active",
+      "description": "Package raw business info into cleaner lender-facing narrative assets",
+      "audiences": [
+        "Fundraising/funding applicants"
+      ],
+      "funnel_stage": "BOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "narrative-kit",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 13
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "narrative-kit",
+              "name": "Narrative Kit",
+              "rank": 14,
+              "brand_lane": "Moonshine Capital",
+              "offer_family": "Submission Support",
+              "primary_audience": "Fundraising/funding applicants",
+              "core_promise": "Package raw business info into cleaner lender-facing narrative assets",
+              "offer_type": "Premium Service",
+              "price_low": 1500,
+              "price_high": 4500,
+              "billing_model": "One-time",
+              "tier_notes": "Memo-only vs memo + submission support tiers",
+              "funnel_role": "BOFU",
+              "launch_priority": "High",
+              "rapid_launch_score": 3,
+              "primary_surface": "Moonshine Capital trust page + call CTA",
+              "alternate_surface": "Stripe invoice",
+              "build_stack": "Custom GPT intake + memo generation + review workflow",
+              "gpt_build_path": "The sale is trust-driven; page only needs credibility and clarity",
+              "widget_potential": "Low",
+              "checkout_primary": "Stripe invoice",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal",
+              "fulfillment": "Notion client workspace + document delivery",
+              "asset_engine": "Notion + Google Docs",
+              "code_repo_home": "GitHub no",
+              "why_surface_wins": "This is not a browse-and-buy commodity; use consultative close",
+              "use_wix": "Yes",
+              "use_wordpress": "No",
+              "use_stripe": "Yes",
+              "use_vercel": "No",
+              "notes": "Wix acceptable here because native trust/site authority matters more than spicy design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-newsletter-engine-starter",
+      "entity_type": "offer",
+      "title": "Newsletter Engine Starter",
+      "status": "active",
+      "description": "Launch a source-to-newsletter system with templates, prompts, and publishing workflow",
+      "audiences": [
+        "Experts building owned audience"
+      ],
+      "funnel_stage": "MOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "newsletter-engine-starter",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 5
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "newsletter-engine-starter",
+              "name": "Newsletter Engine Starter",
+              "rank": 6,
+              "brand_lane": "Full-Time Hustler",
+              "offer_family": "Newsletter System",
+              "primary_audience": "Experts building owned audience",
+              "core_promise": "Launch a source-to-newsletter system with templates, prompts, and publishing workflow",
+              "offer_type": "System Setup",
+              "price_low": 199,
+              "price_high": 499,
+              "billing_model": "One-time",
+              "tier_notes": "DIY setup vs assisted setup",
+              "funnel_role": "MOFU",
+              "launch_priority": "Medium",
+              "rapid_launch_score": 4,
+              "primary_surface": "Stripe page + Vercel landing",
+              "alternate_surface": "WordPress article CTA",
+              "build_stack": "GPT + Notion + Stripe",
+              "gpt_build_path": "Use GPT to generate issues, CTA ladders, lead magnets, and welcome sequence drafts",
+              "widget_potential": "Medium",
+              "checkout_primary": "Stripe",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot contact + newsletter intent segment",
+              "fulfillment": "Notion OS + email platform handoff",
+              "asset_engine": "Notion + Vercel for polished setup assets",
+              "code_repo_home": "GitHub optional",
+              "why_surface_wins": "This is more about system delivery than heavy site design",
+              "use_wix": "No",
+              "use_wordpress": "Yes",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "WordPress is useful only as the content feeder, not the conversion layer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-offer-comparison-sheet",
+      "entity_type": "offer",
+      "title": "offer-comparison-sheet",
+      "status": "active",
+      "description": "Compare multiple funding options side by side.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "offer-comparison-sheet",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 27
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "offer-comparison-sheet",
+              "product_name": "Offer Comparison Sheet",
+              "catalog_type": "Template",
+              "offer_format": "Worksheet",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "SMB, Founder",
+              "price": 29,
+              "billing_type": "One-Time",
+              "shop_category": "Funding Prep",
+              "build_target": "Hybrid",
+              "description": "Compare multiple funding options side by side."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-outreach-swipe-file-pack",
+      "entity_type": "offer",
+      "title": "outreach-swipe-file-pack",
+      "status": "active",
+      "description": "Prospecting copy for brokers, partners, and referral-focused operators.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "outreach-swipe-file-pack",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 10
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "outreach-swipe-file-pack",
+              "product_name": "Outreach Swipe File Pack",
+              "catalog_type": "Template",
+              "offer_format": "Swipe File",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner, Consultant",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "Partner Growth",
+              "build_target": "Wix",
+              "description": "Prospecting copy for brokers, partners, and referral-focused operators."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-partner-recruiter-pack",
+      "entity_type": "offer",
+      "title": "Partner Recruiter Pack",
+      "status": "active",
+      "description": "Recruit affiliates faster with a deck, FAQ, landing page copy, and onboarding assets",
+      "audiences": [
+        "Affiliate teams and recruiting partners"
+      ],
+      "funnel_stage": "MOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partner-recruiter-pack",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 7
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "partner-recruiter-pack",
+              "name": "Partner Recruiter Pack",
+              "rank": 8,
+              "brand_lane": "Moonshine Capital",
+              "offer_family": "Recruitment Enablement",
+              "primary_audience": "Affiliate teams and recruiting partners",
+              "core_promise": "Recruit affiliates faster with a deck, FAQ, landing page copy, and onboarding assets",
+              "offer_type": "Service / Pack",
+              "price_low": 299,
+              "price_high": 799,
+              "billing_model": "One-time",
+              "tier_notes": "Lite recruiter kit vs full recruiter funnel",
+              "funnel_role": "MOFU",
+              "launch_priority": "Medium",
+              "rapid_launch_score": 4,
+              "primary_surface": "Moonshine Capital Wix page if tied to partner program",
+              "alternate_surface": "Vercel page + Stripe",
+              "build_stack": "GPT-generated recruiting page, scripts, email invites, and deck outline",
+              "gpt_build_path": "Use AI Studio / Gemini for slide and page content; close via Stripe or call",
+              "widget_potential": "Medium",
+              "checkout_primary": "Stripe",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal / partner pipeline",
+              "fulfillment": "Notion + Google Drive asset pack",
+              "asset_engine": "Wix if living inside partner ecosystem; Vercel if speed/design matters more",
+              "code_repo_home": "GitHub optional",
+              "why_surface_wins": "This is one of the cases where Wix can make sense if it connects to existing partner UX",
+              "use_wix": "Yes",
+              "use_wordpress": "No",
+              "use_stripe": "Yes",
+              "use_vercel": "Optional",
+              "notes": "Use Wix when native site trust and partner navigation matter"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-payout-delay-worksheet",
+      "entity_type": "offer",
+      "title": "payout-delay-worksheet",
+      "status": "active",
+      "description": "Quantifies how payout timing creates operating pressure.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "payout-delay-worksheet",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 8
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "payout-delay-worksheet",
+              "product_name": "Payout Delay Worksheet",
+              "catalog_type": "Template",
+              "offer_format": "Worksheet",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Seller, Ecommerce Brand",
+              "price": 49,
+              "billing_type": "One-Time",
+              "shop_category": "Seller Finance",
+              "build_target": "Wix",
+              "description": "Quantifies how payout timing creates operating pressure."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-pipeline-buildout",
+      "entity_type": "offer",
+      "title": "Pipeline Buildout",
+      "status": "active",
+      "description": "Install a real content ops database and asset pipeline so nothing gets lost",
+      "audiences": [
+        "Agencies, creators, solo operators"
+      ],
+      "funnel_stage": "BOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "pipeline-buildout",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 10
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "pipeline-buildout",
+              "name": "Pipeline Buildout",
+              "rank": 11,
+              "brand_lane": "Full-Time Hustler",
+              "offer_family": "Ops Buildout",
+              "primary_audience": "Agencies, creators, solo operators",
+              "core_promise": "Install a real content ops database and asset pipeline so nothing gets lost",
+              "offer_type": "System Setup",
+              "price_low": 1200,
+              "price_high": 3000,
+              "billing_model": "One-time",
+              "tier_notes": "Database-only vs full workflow buildout",
+              "funnel_role": "BOFU",
+              "launch_priority": "Medium",
+              "rapid_launch_score": 4,
+              "primary_surface": "Stripe invoice / consult page on Vercel",
+              "alternate_surface": "Wix service page",
+              "build_stack": "GPT-driven schema generation + Notion implementation",
+              "gpt_build_path": "Use GPTs to design DB fields, views, naming systems, and SOP skeletons",
+              "widget_potential": "Low",
+              "checkout_primary": "Stripe invoice",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal",
+              "fulfillment": "Notion primary",
+              "asset_engine": "Notion + optional Vercel client portal",
+              "code_repo_home": "GitHub optional",
+              "why_surface_wins": "Conversion usually happens through consultative selling; not a mass-market checkout page",
+              "use_wix": "Optional",
+              "use_wordpress": "Optional",
+              "use_stripe": "Yes",
+              "use_vercel": "Optional",
+              "notes": "Wix only if you want service discoverability with your other offers"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-provider-directory-card-template",
+      "entity_type": "offer",
+      "title": "provider-directory-card-template",
+      "status": "active",
+      "description": "Standardized template for publishing consistent provider listings and offer cards.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "provider-directory-card-template",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 46
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "provider-directory-card-template",
+              "product_name": "Provider Directory Card Template",
+              "catalog_type": "Template",
+              "offer_format": "Template Pack",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB, Seller",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "Marketplace",
+              "build_target": "Hybrid",
+              "description": "Standardized template for publishing consistent provider listings and offer cards."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-provider-review-sop",
+      "entity_type": "offer",
+      "title": "provider-review-sop",
+      "status": "active",
+      "description": "SOP for evaluating provider offers before they hit the public marketplace.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "provider-review-sop",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 48
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "provider-review-sop",
+              "product_name": "Provider Review SOP",
+              "catalog_type": "Template",
+              "offer_format": "SOP",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Operator",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "Marketplace",
+              "build_target": "Wix",
+              "description": "SOP for evaluating provider offers before they hit the public marketplace."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-recover-incomplete-applications",
+      "entity_type": "offer",
+      "title": "recover-incomplete-applications",
+      "status": "active",
+      "description": "Strategy guide for rescuing stalled apps and improving completion rates.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "recover-incomplete-applications",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 33
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "recover-incomplete-applications",
+              "product_name": "Recover Incomplete Applications",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 79,
+              "billing_type": "One-Time",
+              "shop_category": "Funnel Recovery",
+              "build_target": "Wix",
+              "description": "Strategy guide for rescuing stalled apps and improving completion rates."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-repurpose-sprint",
+      "entity_type": "offer",
+      "title": "Repurpose Sprint",
+      "status": "active",
+      "description": "Turn one video/audio/source into multi-channel content and offers",
+      "audiences": [
+        "Podcasters, creators, founder-operators"
+      ],
+      "funnel_stage": "MOFU / BOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "repurpose-sprint",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 9
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "repurpose-sprint",
+              "name": "Repurpose Sprint",
+              "rank": 10,
+              "brand_lane": "Full-Time Hustler",
+              "offer_family": "Repurposing Sprint",
+              "primary_audience": "Podcasters, creators, founder-operators",
+              "core_promise": "Turn one video/audio/source into multi-channel content and offers",
+              "offer_type": "Sprint",
+              "price_low": 900,
+              "price_high": 2500,
+              "billing_model": "One-time sprint",
+              "tier_notes": "Episode-based or monthly batch tiers",
+              "funnel_role": "MOFU / BOFU",
+              "launch_priority": "High",
+              "rapid_launch_score": 5,
+              "primary_surface": "Stripe page + Vercel before/after examples",
+              "alternate_surface": "WordPress article CTA",
+              "build_stack": "Custom GPT -> Gemini -> Notion -> Stripe",
+              "gpt_build_path": "Fastest sales motion is examples + checkout, not a bloated service page",
+              "widget_potential": "Medium",
+              "checkout_primary": "Stripe",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal",
+              "fulfillment": "Notion workspace + Google Drive",
+              "asset_engine": "Vercel showcase page",
+              "code_repo_home": "GitHub optional",
+              "why_surface_wins": "This should sell off proof assets and samples more than long copy pages",
+              "use_wix": "No",
+              "use_wordpress": "Yes",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "WordPress useful for SEO articles that funnel into this offer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-research-to-content-workshop",
+      "entity_type": "offer",
+      "title": "Research-to-Content Workshop",
+      "status": "active",
+      "description": "Live training that shows how to turn research into publishable assets fast",
+      "audiences": [
+        "Operators wanting practical AI content workflows"
+      ],
+      "funnel_stage": "TOFU / MOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "research-to-content-workshop",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 2
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "research-to-content-workshop",
+              "name": "Research-to-Content Workshop",
+              "rank": 3,
+              "brand_lane": "Full-Time Hustler",
+              "offer_family": "Workshop / Event",
+              "primary_audience": "Operators wanting practical AI content workflows",
+              "core_promise": "Live training that shows how to turn research into publishable assets fast",
+              "offer_type": "Workshop",
+              "price_low": 0,
+              "price_high": 99,
+              "billing_model": "Free or one-time ticket",
+              "tier_notes": "Free lead-gen session or paid workshop replay",
+              "funnel_role": "TOFU / MOFU",
+              "launch_priority": "High",
+              "rapid_launch_score": 4,
+              "primary_surface": "Wix Bookings / Events",
+              "alternate_surface": "Stripe checkout + Vercel event page",
+              "build_stack": "GPT-generated event page copy + email sequence + replay assets",
+              "gpt_build_path": "Build curriculum with Gemini/AI Studio; sell seats via Wix or Stripe",
+              "widget_potential": "Medium",
+              "checkout_primary": "Stripe checkout or Wix Events",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot attendees + follow-up sequence",
+              "fulfillment": "Wix Events / Notion replay hub",
+              "asset_engine": "Wix native events if using registrations; Vercel if high-design promo page",
+              "code_repo_home": "GitHub + Vercel for promo microsite",
+              "why_surface_wins": "Wix wins when Bookings/Events is needed; otherwise Vercel is cleaner",
+              "use_wix": "Yes",
+              "use_wordpress": "Yes",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "WordPress useful for SEO posts promoting future workshop cohorts"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-seller-ecommerce-funding-pack",
+      "entity_type": "offer",
+      "title": "seller-ecommerce-funding-pack",
+      "status": "draft",
+      "description": "Capital and planning package for marketplace sellers dealing with payout lag and inventory pressure.",
+      "funnel_stage": "Core Offer",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "seller-ecommerce-funding-pack",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 4
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "seller-ecommerce-funding-pack",
+              "product_name": "Seller / Ecommerce Funding Pack",
+              "catalog_type": "AI Package",
+              "offer_format": "Package",
+              "funnel_role": "Core Offer",
+              "status": "Draft",
+              "brand_fit": "Core",
+              "primary_persona": "Seller, Ecommerce Brand",
+              "price": 99,
+              "billing_type": "One-Time",
+              "shop_category": "Seller Finance",
+              "build_target": "Hybrid",
+              "description": "Capital and planning package for marketplace sellers dealing with payout lag and inventory pressure."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-seller-funding-checklist",
+      "entity_type": "offer",
+      "title": "seller-funding-checklist",
+      "status": "active",
+      "description": "Funding prep checklist built for seller cash cycles and inventory timing.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "seller-funding-checklist",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 16
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "seller-funding-checklist",
+              "product_name": "Seller Funding Checklist",
+              "catalog_type": "Template",
+              "offer_format": "Checklist",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Seller, Ecommerce Brand",
+              "price": 39,
+              "billing_type": "One-Time",
+              "shop_category": "Seller Finance",
+              "build_target": "Wix",
+              "description": "Funding prep checklist built for seller cash cycles and inventory timing."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-seller-funding-survival-guide",
+      "entity_type": "offer",
+      "title": "seller-funding-survival-guide",
+      "status": "active",
+      "description": "Vertical guide for sellers navigating payout lag, stock cycles, and working capital stress.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "seller-funding-survival-guide",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 14
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "seller-funding-survival-guide",
+              "product_name": "Seller Funding Survival Guide",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Seller, Ecommerce Brand",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "Seller Finance",
+              "build_target": "Wix",
+              "description": "Vertical guide for sellers navigating payout lag, stock cycles, and working capital stress."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-short-form-caption-bank",
+      "entity_type": "offer",
+      "title": "short-form-caption-bank",
+      "status": "active",
+      "description": "Caption library for social posts, recruiting posts, and CTA-driven clips.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "short-form-caption-bank",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 23
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "short-form-caption-bank",
+              "product_name": "Short-Form Caption Bank",
+              "catalog_type": "Template",
+              "offer_format": "Swipe File",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner",
+              "price": 39,
+              "billing_type": "One-Time",
+              "shop_category": "Marketing Assets",
+              "build_target": "Wix",
+              "description": "Caption library for social posts, recruiting posts, and CTA-driven clips."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-signal-sprint",
+      "entity_type": "offer",
+      "title": "Signal Sprint",
+      "status": "active",
+      "description": "Turn one source asset into a week or month of distribution-ready content",
+      "audiences": [
+        "Funding agencies, partners, fintech creators"
+      ],
+      "funnel_stage": "MOFU / BOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "signal-sprint",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 8
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "signal-sprint",
+              "name": "Signal Sprint",
+              "rank": 9,
+              "brand_lane": "Moonshine Capital",
+              "offer_family": "Repurposing Sprint",
+              "primary_audience": "Funding agencies, partners, fintech creators",
+              "core_promise": "Turn one source asset into a week or month of distribution-ready content",
+              "offer_type": "Sprint",
+              "price_low": 900,
+              "price_high": 2500,
+              "billing_model": "One-time sprint",
+              "tier_notes": "Volume-based tiers",
+              "funnel_role": "MOFU / BOFU",
+              "launch_priority": "High",
+              "rapid_launch_score": 4,
+              "primary_surface": "Stripe invoice / payment link with Vercel overview page",
+              "alternate_surface": "Moonshine Capital Wix service page",
+              "build_stack": "Custom GPT -> Notion workflow -> Stripe close",
+              "gpt_build_path": "AI handles first-draft multiplication; human pass sharpens monetization angle",
+              "widget_potential": "Low",
+              "checkout_primary": "Stripe invoice / link",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal pipeline",
+              "fulfillment": "Notion workspace",
+              "asset_engine": "No-code content ops stack",
+              "code_repo_home": "GitHub optional",
+              "why_surface_wins": "No need for a fancy site; this usually sells through proof, examples, and conversation",
+              "use_wix": "Optional",
+              "use_wordpress": "Optional",
+              "use_stripe": "Yes",
+              "use_vercel": "Optional",
+              "notes": "Great candidate for case-study driven selling"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-start-your-funding-agency-guide",
+      "entity_type": "offer",
+      "title": "start-your-funding-agency-guide",
+      "status": "active",
+      "description": "Tactical guide for starting a funding agency around Moonshine Capital.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "start-your-funding-agency-guide",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 42
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "start-your-funding-agency-guide",
+              "product_name": "Start Your Funding Agency Guide",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Broker, Partner, Consultant",
+              "price": 79,
+              "billing_type": "One-Time",
+              "shop_category": "Partner Growth",
+              "build_target": "Wix",
+              "description": "Tactical guide for starting a funding agency around Moonshine Capital."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-submission-story-builder",
+      "entity_type": "offer",
+      "title": "Submission Story Builder",
+      "status": "active",
+      "description": "Create the story, memo, FAQ, and supporting assets behind a stronger submission package",
+      "audiences": [
+        "Founders, acquirers, operators"
+      ],
+      "funnel_stage": "BOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "submission-story-builder",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 17
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "submission-story-builder",
+              "name": "Submission Story Builder",
+              "rank": 18,
+              "brand_lane": "Moonshine Capital",
+              "offer_family": "Premium Packaging",
+              "primary_audience": "Founders, acquirers, operators",
+              "core_promise": "Create the story, memo, FAQ, and supporting assets behind a stronger submission package",
+              "offer_type": "Premium Service",
+              "price_low": 2500,
+              "price_high": 6500,
+              "billing_model": "One-time",
+              "tier_notes": "Memo / Memo+FAQ / Full package tiers",
+              "funnel_role": "BOFU",
+              "launch_priority": "Medium",
+              "rapid_launch_score": 3,
+              "primary_surface": "Consult page on Moonshine site",
+              "alternate_surface": "Stripe invoice page",
+              "build_stack": "Custom GPT intake + narrative + FAQ + document generation",
+              "gpt_build_path": "Sell through clarity, authority, and examples; not heavy public UX",
+              "widget_potential": "Low",
+              "checkout_primary": "Stripe invoice",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal",
+              "fulfillment": "Notion workspace + docs",
+              "asset_engine": "Notion + Docs",
+              "code_repo_home": "GitHub no",
+              "why_surface_wins": "This is closer to advisory packaging than broad ecom",
+              "use_wix": "Yes",
+              "use_wordpress": "No",
+              "use_stripe": "Yes",
+              "use_vercel": "No",
+              "notes": "Good to pair with call booking rather than instant checkout"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-the-capital-stack-guide",
+      "entity_type": "offer",
+      "title": "the-capital-stack-guide",
+      "status": "active",
+      "description": "Strategic guide for combining funding, business credit, and financial planning.",
+      "funnel_stage": "Retention",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "the-capital-stack-guide",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 19
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "the-capital-stack-guide",
+              "product_name": "The Capital Stack Guide",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Retention",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, SMB",
+              "price": 99,
+              "billing_type": "One-Time Value",
+              "shop_category": "Advisory",
+              "build_target": "Hybrid",
+              "description": "Strategic guide for combining funding, business credit, and financial planning."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-the-first-30-days-for-new-partners",
+      "entity_type": "offer",
+      "title": "the-first-30-days-for-new-partners",
+      "status": "active",
+      "description": "Daily operating guide for new partners to start producing.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "the-first-30-days-for-new-partners",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 40
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "the-first-30-days-for-new-partners",
+              "product_name": "The First 30 Days for New Partners",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Partner, Broker",
+              "price": 59,
+              "billing_type": "One-Time",
+              "shop_category": "Partner Growth",
+              "build_target": "Wix",
+              "description": "Daily operating guide for new partners to start producing."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-thought-leadership-os",
+      "entity_type": "offer",
+      "title": "Thought Leadership OS",
+      "status": "active",
+      "description": "Build a repeatable authority system with themes, voice, publishing cadence, and asset reuse",
+      "audiences": [
+        "Founders, consultants, media personalities"
+      ],
+      "funnel_stage": "BOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "thought-leadership-os",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 15
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "thought-leadership-os",
+              "name": "Thought Leadership OS",
+              "rank": 16,
+              "brand_lane": "Full-Time Hustler",
+              "offer_family": "Strategic Brand System",
+              "primary_audience": "Founders, consultants, media personalities",
+              "core_promise": "Build a repeatable authority system with themes, voice, publishing cadence, and asset reuse",
+              "offer_type": "Premium Strategy",
+              "price_low": 3000,
+              "price_high": 7500,
+              "billing_model": "One-time or milestone",
+              "tier_notes": "Strategy-only vs strategy + implementation",
+              "funnel_role": "BOFU",
+              "launch_priority": "Medium",
+              "rapid_launch_score": 4,
+              "primary_surface": "Vercel or polished doc-based sales page",
+              "alternate_surface": "WordPress supporting content",
+              "build_stack": "Custom GPT-driven editorial engine + Notion OS",
+              "gpt_build_path": "Sell through sophistication, case studies, and IP framing more than platform gimmicks",
+              "widget_potential": "Low",
+              "checkout_primary": "Stripe invoice",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot deal",
+              "fulfillment": "Notion strategy vault",
+              "asset_engine": "Notion + Vercel showcase",
+              "code_repo_home": "GitHub optional",
+              "why_surface_wins": "WordPress supports authority but should not be the only conversion surface",
+              "use_wix": "No",
+              "use_wordpress": "Yes",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "Can feed into retainer work easily"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-tool-launch-sop",
+      "entity_type": "offer",
+      "title": "tool-launch-sop",
+      "status": "active",
+      "description": "SOP for launching tools without turning deployment into a tragedy.",
+      "funnel_stage": "Upsell",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "tool-launch-sop",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 34
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "tool-launch-sop",
+              "product_name": "Tool Launch SOP",
+              "catalog_type": "Template",
+              "offer_format": "SOP",
+              "funnel_role": "Upsell",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "Founder, Operator",
+              "price": 79,
+              "billing_type": "One-Time",
+              "shop_category": "Tools & Calculators",
+              "build_target": "Wix",
+              "description": "SOP for launching tools without turning deployment into a tragedy."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-what-to-prepare-before-applying",
+      "entity_type": "offer",
+      "title": "what-to-prepare-before-applying",
+      "status": "active",
+      "description": "Plain-English explanation of what founders need ready before asking for capital.",
+      "funnel_stage": "Front-End",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "digital-products.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "what-to-prepare-before-applying",
+        "evidence": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/digital-products.registry.json",
+            "source_index": 49
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "digital-products.registry.json",
+            "record": {
+              "id": "what-to-prepare-before-applying",
+              "product_name": "What to Prepare Before Applying",
+              "catalog_type": "Guide",
+              "offer_format": "Guide",
+              "funnel_role": "Front-End",
+              "status": "Ready",
+              "brand_fit": "Core",
+              "primary_persona": "SMB, Founder, Gig Worker",
+              "price": 29,
+              "billing_type": "One-Time",
+              "shop_category": "Funding Prep",
+              "build_target": "Wix",
+              "description": "Plain-English explanation of what founders need ready before asking for capital."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "offer-workshop-funnel-starter",
+      "entity_type": "offer",
+      "title": "Workshop Funnel Starter",
+      "status": "active",
+      "description": "Turn one workshop or webinar into a replay funnel with CTA and follow-up",
+      "audiences": [
+        "Educators, lenders, consultants, affiliates"
+      ],
+      "funnel_stage": "MOFU",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "offer-catalog.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "workshop-funnel-starter",
+        "evidence": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/offer-catalog.registry.json",
+            "source_index": 6
+          }
+        ],
+        "source_records": [
+          {
+            "source_registry": "offer-catalog.registry.json",
+            "record": {
+              "id": "workshop-funnel-starter",
+              "name": "Workshop Funnel Starter",
+              "rank": 7,
+              "brand_lane": "Moonshine Capital",
+              "offer_family": "Funnel Build",
+              "primary_audience": "Educators, lenders, consultants, affiliates",
+              "core_promise": "Turn one workshop or webinar into a replay funnel with CTA and follow-up",
+              "offer_type": "Service",
+              "price_low": 249,
+              "price_high": 599,
+              "billing_model": "One-time",
+              "tier_notes": "Basic replay funnel vs full nurture pack",
+              "funnel_role": "MOFU",
+              "launch_priority": "Medium",
+              "rapid_launch_score": 4,
+              "primary_surface": "Vercel promo page + Stripe checkout",
+              "alternate_surface": "Moonshine Capital Wix page",
+              "build_stack": "Custom GPT -> Vercel page -> Stripe -> HubSpot",
+              "gpt_build_path": "AI can generate replay page copy, recap PDF, CTA blocks, and follow-up emails fast",
+              "widget_potential": "High",
+              "checkout_primary": "Stripe",
+              "checkout_alternate": "PayPal",
+              "crm_pipeline": "HubSpot lead + event follow-up pipeline",
+              "fulfillment": "Notion assets + email sequence",
+              "asset_engine": "Vercel for best-looking replay page; Wix only if using Bookings/Events",
+              "code_repo_home": "GitHub + Vercel",
+              "why_surface_wins": "Avoid forcing this through Wix unless native event features are part of the workflow",
+              "use_wix": "Optional",
+              "use_wordpress": "No",
+              "use_stripe": "Yes",
+              "use_vercel": "Yes",
+              "notes": "Good fit for repurposing partner trainings and webinars"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

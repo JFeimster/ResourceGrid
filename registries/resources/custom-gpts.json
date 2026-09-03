@@ -1,1 +1,4003 @@
-{"registry_name":"ResourceGrid Custom GPT Registry","registry_version":"1.0.0","generated_date":"2026-09-02","migration":{"legacy_rows":73,"canonical_entities":69,"deduplicated_rows":4},"resources":[{"resource_id":"gpt-get-my-funding-offer","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Get My Funding Offer","status":"published","topics":["Funding Readiness & Business Funding","Business Credit & Fundability"],"content_clusters":["Business Funding","Funding Readiness","Same-Day Funding","Business Credit"],"canonical_url":"https://chatgpt.com/g/g-6876b24050208191948c872fb36dd3b1-get-my-funding-offer","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-6876b24050208191948c872fb36dd3b1-get-my-funding-offer","best_for_content":["Funding-intent articles, qualification pages, product-fit comparisons","Articles where the reader has progressed from credit-building to funding intent"],"recommended_cta_or_embed_role":"Primary conversion CTA: Get My Funding Offer"},{"resource_id":"gpt-max-funding-specialist","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Max - Funding Specialist","status":"published","topics":["Funding Readiness & Business Funding"],"content_clusters":["Business Funding","Same-Day Funding","Gig Worker Funding"],"canonical_url":"https://chatgpt.com/g/g-680f278f022c8191aceede6f83658cd6-instant-micro-funding-same-day-cash","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-680f278f022c8191aceede6f83658cd6-instant-micro-funding-same-day-cash","best_for_content":["Fast-funding explainers, emergency cash-flow articles, micro-funding content"],"recommended_cta_or_embed_role":"Interactive funding specialist CTA"},{"resource_id":"gpt-real-time-cash-flow-analyzer","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Real-Time Cash Flow Analyzer","status":"published","topics":["Funding Readiness & Business Funding","Ecommerce & SaaS Capital"],"content_clusters":["Funding Readiness","Cash Flow","AI Finance Ops","Ecommerce Funding","Inventory Financing"],"canonical_url":"https://chatgpt.com/g/g-68781e74d5ec81919da08f5dc2183522-real-time-cash-flow-analyzer","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-68781e74d5ec81919da08f5dc2183522-real-time-cash-flow-analyzer","best_for_content":["Cash-flow gaps, underwriting-readiness, working-capital articles","Inventory gaps, payout delays, ad-spend cash-flow and working-capital content"],"recommended_cta_or_embed_role":"Diagnostic tool CTA before funding application"},{"resource_id":"gpt-cashflow-copilot","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Cashflow Copilot","status":"published","topics":["Funding Readiness & Business Funding"],"content_clusters":["Funding Readiness","Cash Flow","AI Finance Ops"],"canonical_url":"https://chatgpt.com/g/g-68769106cf988191bcc45c69e50038a2-cashflow-copilot","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-68769106cf988191bcc45c69e50038a2-cashflow-copilot","best_for_content":["Cash-flow planning and borrow-vs-fix-the-leak content"],"recommended_cta_or_embed_role":"Interactive planning CTA"},{"resource_id":"gpt-optimize-cash-flow-management","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Optimize Cash Flow Management","status":"published","topics":["Funding Readiness & Business Funding"],"content_clusters":["Business Funding","Financial Management"],"canonical_url":"https://chatgpt.com/g/g-6745c8c195188191a6d0277492be720b-optimize-cash-flow-management","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-6745c8c195188191a6d0277492be720b-optimize-cash-flow-management","best_for_content":["General cash-flow management and working-capital educational content"],"recommended_cta_or_embed_role":"Supporting interactive resource"},{"resource_id":"gpt-smart-funding-debt-vs-equity","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Smart Funding: Debt vs. Equity","status":"published","topics":["Funding Readiness & Business Funding","Acquisition Financing & ETA"],"content_clusters":["Business Funding","Acquisition Financing","Startup Funding","Capital Stack"],"canonical_url":"https://chatgpt.com/g/g-680f51ab4f008191ba74aace494b0e9c-smart-funding-debt-vs-equity","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-680f51ab4f008191ba74aace494b0e9c-smart-funding-debt-vs-equity","best_for_content":["Debt-vs-equity comparisons and capital-structure explainers","Capital stack, seller note, equity rollover and debt/equity articles"],"recommended_cta_or_embed_role":"Decision-support CTA"},{"resource_id":"gpt-start-your-own-funding-agency","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Start Your Own Funding Agency","status":"published","topics":["Loan Broker & Affiliate Growth"],"content_clusters":["Loan Broker","Affiliate Programs","Funding Agency"],"canonical_url":"https://chatgpt.com/g/g-1u8W1T1bM-start-your-own-funding-agency","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-1u8W1T1bM-start-your-own-funding-agency","best_for_content":["How to become a broker, start a funding agency, affiliate-program content"],"recommended_cta_or_embed_role":"Primary recruitment/onboarding CTA"},{"resource_id":"gpt-getting-started-right","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Getting Started Right","status":"published","topics":["Loan Broker & Affiliate Growth"],"content_clusters":["Loan Broker","Funding Agency"],"canonical_url":"https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right","best_for_content":["First-30-days, onboarding, productivity and operator setup content"],"recommended_cta_or_embed_role":"New-partner onboarding CTA"},{"resource_id":"gpt-affiliate-marketing-strategist","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Affiliate Marketing Strategist","status":"published","topics":["Loan Broker & Affiliate Growth"],"content_clusters":["Affiliate Programs","Loan Broker Marketing"],"canonical_url":"https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist","best_for_content":["Affiliate promotion, partner marketing, broker growth content"],"recommended_cta_or_embed_role":"Strategy companion CTA"},{"resource_id":"gpt-sales-funnel-builder-gpt","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Sales Funnel Builder GPT","status":"published","topics":["Loan Broker & Affiliate Growth"],"content_clusters":["Loan Broker","Affiliate Programs","AI Automation"],"canonical_url":"https://chatgpt.com/g/g-67f59b5a30a481919064b343d7d27fbb-sales-funnel-builder-gpt","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-67f59b5a30a481919064b343d7d27fbb-sales-funnel-builder-gpt","best_for_content":["Lead funnels, partner acquisition, broker marketing systems"],"recommended_cta_or_embed_role":"Interactive funnel-building CTA"},{"resource_id":"gpt-affiliate-disclosure-and-earnings-disclaimer","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Affiliate Disclosure & Earnings Disclaimer","status":"published","topics":["Loan Broker & Affiliate Growth"],"content_clusters":["Reviews","Affiliate Programs","Compliance"],"canonical_url":"https://chatgpt.com/g/g-68399ba0026c8191893369b52300c0b8-affiliate-disclosure-writer","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-68399ba0026c8191893369b52300c0b8-affiliate-disclosure-writer","best_for_content":["Affiliate reviews, partner comparisons, earnings/opportunity content"],"recommended_cta_or_embed_role":"Internal compliance-production resource; not necessarily reader-facing"},{"resource_id":"gpt-affiliate-review-firestarter","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Affiliate Review Firestarter","status":"published","topics":["Loan Broker & Affiliate Growth"],"content_clusters":["Reviews","Affiliate Programs"],"canonical_url":"https://chatgpt.com/g/g-67f155f9bd60819187e703f6610e3ab2-affiliate-review-firestarter","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-67f155f9bd60819187e703f6610e3ab2-affiliate-review-firestarter","best_for_content":["Review article ideation, verdict frameworks, pros/cons and alternatives sections"],"recommended_cta_or_embed_role":"Internal editorial accelerator"},{"resource_id":"gpt-affiliate-sizzle-captions-and-threads-that-sell","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Affiliate Sizzle: Captions & Threads that Sell","status":"published","topics":["Loan Broker & Affiliate Growth"],"content_clusters":["Affiliate Programs","Social","YouTube"],"canonical_url":"https://chatgpt.com/g/g-680ed727dcfc8191a2d65bf89a7315fb-affiliate-sizzle-captions-threads-that-sell","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-680ed727dcfc8191a2d65bf89a7315fb-affiliate-sizzle-captions-threads-that-sell","best_for_content":["Social distribution for affiliate reviews and broker content"],"recommended_cta_or_embed_role":"Post-publication promotion resource"},{"resource_id":"gpt-the-business-buyer-s-blueprint","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"The Business Buyer's Blueprint","status":"published","topics":["Acquisition Financing & ETA"],"content_clusters":["Acquisition Financing","ETA","Digital Business Acquisitions"],"canonical_url":"https://chatgpt.com/g/g-684061a8c1108191aba9d211400b5c17-the-business-buyers-blueprint","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-684061a8c1108191aba9d211400b5c17-the-business-buyers-blueprint","best_for_content":["Buyer guides, first-time acquisition articles, diligence and financing explainers"],"recommended_cta_or_embed_role":"Interactive buyer-planning CTA"},{"resource_id":"gpt-bridge-capital-finder-gpt","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Bridge Capital Finder GPT","status":"published","topics":["Acquisition Financing & ETA"],"content_clusters":["Acquisition Financing","Post-Acquisition Working Capital"],"canonical_url":"https://chatgpt.com/g/g-683e2ad99ca481919e4bb46e47fdd2fd-bridge-capital-finder-gpt","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-683e2ad99ca481919e4bb46e47fdd2fd-bridge-capital-finder-gpt","best_for_content":["Funding-gap, post-close capital and bridge-financing content"],"recommended_cta_or_embed_role":"Capital-gap diagnostic CTA"},{"resource_id":"gpt-startup-valuation-expert","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Startup Valuation Expert","status":"published","topics":["Acquisition Financing & ETA"],"content_clusters":["Acquisition Financing","Business Valuation","SaaS"],"canonical_url":"https://chatgpt.com/g/g-684022bef9f08191a158d81c6517c977-startup-valuation-expert","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-684022bef9f08191a158d81c6517c977-startup-valuation-expert","best_for_content":["Valuation, purchase-price, seller-note and acquisition-math content"],"recommended_cta_or_embed_role":"Valuation support CTA"},{"resource_id":"gpt-vc-backup-plan-gpt","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"VC Backup Plan GPT","status":"published","topics":["Acquisition Financing & ETA"],"content_clusters":["SaaS Financing","Startup Funding","Acquisition Financing"],"canonical_url":"https://chatgpt.com/g/g-682c74f2de8881918433d48eb97f6df0-vc-backup-plan-gpt","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-682c74f2de8881918433d48eb97f6df0-vc-backup-plan-gpt","best_for_content":["Non-dilutive funding, founder capital and alternative-finance content"],"recommended_cta_or_embed_role":"Alternative-capital CTA"},{"resource_id":"gpt-mrr-to-money-gpt","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"MRR to Money GPT","status":"published","topics":["Ecommerce & SaaS Capital"],"content_clusters":["SaaS Financing","Revenue-Based Financing","Subscription Ecommerce"],"canonical_url":"https://chatgpt.com/g/g-682c6ce14ae08191abd4976f15ee97ac-mrr-to-money-gpt","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-682c6ce14ae08191abd4976f15ee97ac-mrr-to-money-gpt","best_for_content":["MRR financing, recurring-revenue underwriting and SaaS capital content"],"recommended_cta_or_embed_role":"Recurring-revenue diagnostic CTA"},{"resource_id":"gpt-saas-capital-concierge","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"SaaS Capital Concierge","status":"published","topics":["Ecommerce & SaaS Capital"],"content_clusters":["SaaS Financing","Non-Dilutive Capital","Revenue-Based Financing"],"canonical_url":"https://chatgpt.com/g/g-683e442ec6848191ac36c7654d40e5dd-saas-capital-concierge","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-683e442ec6848191ac36c7654d40e5dd-saas-capital-concierge","best_for_content":["SaaS funding comparisons, founder capital strategy and lender-fit content"],"recommended_cta_or_embed_role":"Primary SaaS-capital CTA"},{"resource_id":"gpt-fix-and-flip-capital-coach","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Fix & Flip Capital Coach","status":"published","topics":["Real Estate Investor Financing"],"content_clusters":["Real Estate Funding","Fix-and-Flip","Hard Money","BRRRR"],"canonical_url":"https://chatgpt.com/g/g-684539c579a0819187b6125c7f47e1bd-fix-flip-capital-coach","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-684539c579a0819187b6125c7f47e1bd-fix-flip-capital-coach","best_for_content":["Fix-and-flip financing, hard money, rehab budgets and lender comparison content"],"recommended_cta_or_embed_role":"Primary real-estate interactive CTA"},{"resource_id":"gpt-zenseo-moonshine-writer","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"ZenSEO Moonshine Writer","status":"published","topics":["AI Finance Ops & Content Production"],"content_clusters":["All SEO Clusters","AEO"],"canonical_url":"https://chatgpt.com/g/g-6871e3b4627c81919fc968dbf25c3237-zenseo-article-writer","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-6871e3b4627c81919fc968dbf25c3237-zenseo-article-writer","best_for_content":["Drafting SEO/AEO articles aligned to Moonshine voice and structure"],"recommended_cta_or_embed_role":"Internal production resource"},{"resource_id":"gpt-algorithm-whisperer-stealth-ranking-strategist","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Algorithm Whisperer: Stealth Ranking Strategist","status":"published","topics":["AI Finance Ops & Content Production"],"content_clusters":["SEO","AEO","Content Strategy"],"canonical_url":"https://chatgpt.com/g/g-682828d684808191b5b2fee5326e4ec9-algorithm-whisperer-stealth-ranking-strategist","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-682828d684808191b5b2fee5326e4ec9-algorithm-whisperer-stealth-ranking-strategist","best_for_content":["Keyword architecture, ranking strategy, CTR and content-cluster planning"],"recommended_cta_or_embed_role":"Internal SEO strategy resource"},{"resource_id":"gpt-transcript-to-blog-transformer","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Transcript to Blog Transformer","status":"published","topics":["AI Finance Ops & Content Production"],"content_clusters":["YouTube","Blog","Cross-Channel Content"],"canonical_url":"https://chatgpt.com/g/g-RXJoy8U4v-transcript-to-blog-transformer","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-RXJoy8U4v-transcript-to-blog-transformer","best_for_content":["Turning existing Moonshine videos into blog spokes and updates"],"recommended_cta_or_embed_role":"Internal repurposing resource"},{"resource_id":"gpt-scriptsmith","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"ScriptSmith","status":"published","topics":["AI Finance Ops & Content Production"],"content_clusters":["YouTube","Shorts","Video"],"canonical_url":"https://chatgpt.com/g/g-680b3f78392c81918c8a7330628efcfd-scriptsmith","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-680b3f78392c81918c8a7330628efcfd-scriptsmith","best_for_content":["Companion YouTube scripts, Shorts and video voiceovers"],"recommended_cta_or_embed_role":"Internal video-production resource"},{"resource_id":"gpt-viral-decoder-reverse-engineer-top-videos","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Viral Decoder - Reverse Engineer Top Videos","status":"published","topics":["AI Finance Ops & Content Production"],"content_clusters":["YouTube","Video Strategy"],"canonical_url":"https://chatgpt.com/g/g-680b3ba02a788191bb4ca24ab63e431a-viral-decoder-reverse-engineer-top-videos","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-680b3ba02a788191bb4ca24ab63e431a-viral-decoder-reverse-engineer-top-videos","best_for_content":["Reverse-engineering winning video structures and hooks"],"recommended_cta_or_embed_role":"Internal YouTube research resource"},{"resource_id":"gpt-30-day-channel-builder","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"30-Day Channel Builder","status":"published","topics":["AI Finance Ops & Content Production"],"content_clusters":["YouTube","Content Calendar"],"canonical_url":"https://chatgpt.com/g/g-680b3dbff38c8191b962bb14fe070cd0-30-day-channel-builder","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-680b3dbff38c8191b962bb14fe070cd0-30-day-channel-builder","best_for_content":["Video-series planning and channel growth around SEO clusters"],"recommended_cta_or_embed_role":"Internal distribution-planning resource"},{"resource_id":"gpt-landing-page-builder-gpt","entity_type":"custom_gpt","resource_type":"custom_gpt","title":"Landing Page Builder GPT","status":"published","topics":["AI Finance Ops & Content Production"],"content_clusters":["Landing Pages","Lead Magnets","Tool Pages"],"canonical_url":"https://chatgpt.com/g/g-684051ab52848191ae60b23fd46b3c04-landing-page-builder-gpt","source":{"system":"custom-gpts.registry(3).json","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://chatgpt.com/g/g-684051ab52848191ae60b23fd46b3c04-landing-page-builder-gpt","best_for_content":["Building conversion pages for calculators, scorecards and partner funnels"],"recommended_cta_or_embed_role":"Internal page-production resource"}]}
+{
+  "registry_name": "ResourceGrid Custom GPT Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "migration": {
+    "legacy_rows": 73,
+    "canonical_entities": 69,
+    "deduplicated_rows": 4
+  },
+  "resources": [
+    {
+      "resource_id": "gpt-30-day-channel-builder",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "30-Day Channel Builder",
+      "status": "published",
+      "topics": [
+        "AI Finance Ops & Content Production"
+      ],
+      "content_clusters": [
+        "YouTube",
+        "Content Calendar"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-680b3dbff38c8191b962bb14fe070cd0-30-day-channel-builder",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-680b3dbff38c8191b962bb14fe070cd0-30-day-channel-builder",
+      "best_for_content": [
+        "Video-series planning and channel growth around SEO clusters"
+      ],
+      "recommended_cta_or_embed_role": "Internal distribution-planning resource",
+      "description": "Generates 30-day YouTube content calendars for faceless creators.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 73,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Generates 30-day YouTube content calendars for faceless creators.",
+            "slug": "30-day-channel-builder"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-aboutme",
+      "entity_type": "custom_gpt",
+      "title": "AboutMe",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "canonical_url": "https://chatgpt.com/g/g-hOBBFG8U1-aboutme",
+      "public_url": "https://chatgpt.com/g/g-hOBBFG8U1-aboutme",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "site-builder-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "aboutme",
+        "evidence": [
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 11
+          }
+        ],
+        "source_fields": {
+          "outputs": [
+            "personal webpage",
+            "bio section",
+            "social links",
+            "profile image/avatar"
+          ]
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-ad-spend-cash-flow-calculator",
+      "entity_type": "custom_gpt",
+      "title": "Ad Spend Cash Flow Calculator",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Forecasts ecommerce ad spend cash flow, payout lag, cash gaps, and scale/fund decisions.",
+      "canonical_url": "https://chatgpt.com/g/g-6a3359a8328c8191acc5cba7968a1639-ad-spend-cash-flow-calculator",
+      "public_url": "https://chatgpt.com/g/g-6a3359a8328c8191acc5cba7968a1639-ad-spend-cash-flow-calculator",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ad-spend-cash-flow-calculator",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 2
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-affiliate-agency-gpt",
+      "entity_type": "custom_gpt",
+      "title": "Affiliate Agency GPT",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Inspires affiliate partners to uplift small businesses through empowered referrals and meaningful growth.",
+      "canonical_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "public_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/24a4bc1bd63c81cdaaf9d6cf6e5dbd9f?pvs=1"
+        ],
+        "source_key": "affiliate-agency-gpt",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 91
+          },
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 1
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 6
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-affiliate-commission-estimator-f-a-r-e",
+      "entity_type": "custom_gpt",
+      "title": "Affiliate Commission Estimator (F.A.R.E.)",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "aliases": [
+        "Affiliate Commission Estimator"
+      ],
+      "description": "Helps agents and brokers calculate commissions and strategize revenue-sharing deals in alternative lending.",
+      "canonical_url": "https://chatgpt.com/g/g-FUKQjm8Yw-funding-agency-revenue-estimator",
+      "public_url": "https://chatgpt.com/g/g-FUKQjm8Yw-funding-agency-revenue-estimator",
+      "metadata": {
+        "alternate_urls": [
+          "https://chatgpt.com/g/g-FUKQjm8Yw-affiliate-commission-estimator"
+        ],
+        "source_key": "affiliate-commission-estimator",
+        "evidence": [
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 6
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "affiliate-funding-agency-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-affiliate-disclosure-and-earnings-disclaimer",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Affiliate Disclosure & Earnings Disclaimer",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Growth"
+      ],
+      "content_clusters": [
+        "Reviews",
+        "Affiliate Programs",
+        "Compliance"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-68399ba0026c8191893369b52300c0b8-affiliate-disclosure-writer",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-68399ba0026c8191893369b52300c0b8-affiliate-disclosure-writer",
+      "best_for_content": [
+        "Affiliate reviews, partner comparisons, earnings/opportunity content"
+      ],
+      "recommended_cta_or_embed_role": "Internal compliance-production resource; not necessarily reader-facing",
+      "description": "Creates FTC-compliant affiliate disclosures and earnings disclaimers.",
+      "aliases": [
+        "affiliate-disclosure-writer"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 51,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Creates FTC-compliant affiliate disclosures and earnings disclaimers.",
+            "slug": "affiliate-disclosure-writer"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-affiliate-disclosure-writer",
+      "entity_type": "custom_gpt",
+      "title": "Affiliate Disclosure Writer",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Creates FTC-compliant affiliate disclosures and earnings disclaimers in your brand voice.",
+      "canonical_url": "https://chatgpt.com/g/g-68713f530190819184196af0f5afc2c1-affiliate-disclosure-writer",
+      "public_url": "https://chatgpt.com/g/g-68713f530190819184196af0f5afc2c1-affiliate-disclosure-writer",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "affiliate-funding-agency-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "affiliate-disclosure-writer",
+        "evidence": [
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 13
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-affiliate-marketing-strategist",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Affiliate Marketing Strategist",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Growth"
+      ],
+      "content_clusters": [
+        "Affiliate Programs",
+        "Loan Broker Marketing"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "best_for_content": [
+        "Affiliate promotion, partner marketing, broker growth content"
+      ],
+      "recommended_cta_or_embed_role": "Strategy companion CTA",
+      "description": "Cutthroat growth strategies to dominate affiliate marketing and agency building.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 2,
+          "sources": [
+            {
+              "source_registry": "affiliate-funding-agency-gpts.registry.json",
+              "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+              "source_index": 7,
+              "match_method": "exact_url"
+            },
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 89,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "Growth strategies to dominate affiliate marketing and agency building.",
+              "Cutthroat growth strategies to dominate affiliate marketing and agency building."
+            ],
+            "slug": "affiliate-marketing-strategist"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-affiliate-review-firestarter",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Affiliate Review Firestarter",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Growth"
+      ],
+      "content_clusters": [
+        "Reviews",
+        "Affiliate Programs"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-67f155f9bd60819187e703f6610e3ab2-affiliate-review-firestarter",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-67f155f9bd60819187e703f6610e3ab2-affiliate-review-firestarter",
+      "best_for_content": [
+        "Review article ideation, verdict frameworks, pros/cons and alternatives sections"
+      ],
+      "recommended_cta_or_embed_role": "Internal editorial accelerator",
+      "description": "Writes raw, punchy, emotional review articles for affiliate brands on your blog.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 2,
+          "sources": [
+            {
+              "source_registry": "affiliate-funding-agency-gpts.registry.json",
+              "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+              "source_index": 12,
+              "match_method": "exact_url"
+            },
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 79,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "Writes raw, punchy, emotional review articles for affiliate brands.",
+              "Writes raw, punchy, emotional review articles for affiliate brands on your blog."
+            ],
+            "slug": "affiliate-review-firestarter"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-affiliate-sizzle-captions-and-threads-that-sell",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Affiliate Sizzle: Captions & Threads that Sell",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Growth"
+      ],
+      "content_clusters": [
+        "Affiliate Programs",
+        "Social",
+        "YouTube"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-680ed727dcfc8191a2d65bf89a7315fb-affiliate-sizzle-captions-threads-that-sell",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-680ed727dcfc8191a2d65bf89a7315fb-affiliate-sizzle-captions-threads-that-sell",
+      "best_for_content": [
+        "Social distribution for affiliate reviews and broker content"
+      ],
+      "recommended_cta_or_embed_role": "Post-publication promotion resource",
+      "description": "Creates bold, high-converting captions and Twitter/X threads for affiliate marketing posts.",
+      "aliases": [
+        "affiliate-sizzle-captions-threads-that-sell"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 2,
+          "sources": [
+            {
+              "source_registry": "affiliate-funding-agency-gpts.registry.json",
+              "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+              "source_index": 10,
+              "match_method": "exact_url"
+            },
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 67,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "Generates captions and threads that drive affiliate sales on social media.",
+              "Creates bold, high-converting captions and Twitter/X threads for affiliate marketing posts."
+            ],
+            "slug": "affiliate-sizzle-captions-threads-that-sell"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-agent-growth-hub",
+      "entity_type": "custom_gpt",
+      "title": "Agent Growth Hub",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "aliases": [
+        "Social DACtivator"
+      ],
+      "description": "Equips affiliates with AI tools for content, outreach, and daily execution.",
+      "canonical_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "public_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/24a4bc1bd63c818aacd7d72ce8d9aa27?pvs=1",
+          "https://chatgpt.com/g/g-abNIHoRVX-socialmediagenie"
+        ],
+        "source_key": "agent-growth-hub",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 92
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 10
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-agent-launch-site-builder",
+      "entity_type": "custom_gpt",
+      "title": "Agent Launch Site Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Builds strategic, conversion-focused landing pages and static files for AI agents.",
+      "canonical_url": "https://chatgpt.com/g/g-6a266d799fac819194b8088eb5feb9de-agent-launch-site-builder",
+      "public_url": "https://chatgpt.com/g/g-6a266d799fac819194b8088eb5feb9de-agent-launch-site-builder",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/a9232093df34419dacd9be637a7b0389?pvs=1"
+        ],
+        "source_key": "agent-launch-site-builder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 7
+          },
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 1
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 0
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-ai-agent-embedded-finance-integrator",
+      "entity_type": "custom_gpt",
+      "title": "[AI Agent] Embedded-Finance Integrator",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Instantly light up your checkout or ERP with plug-and-play financing widgets.",
+      "canonical_url": "https://chatgpt.com/g/g-6888c1def12c8191a9bad9aa84f954b7-ai-agent-embedded-finance-integrator",
+      "public_url": "https://chatgpt.com/g/g-6888c1def12c8191a9bad9aa84f954b7-ai-agent-embedded-finance-integrator",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-agent-embedded-finance-integrator",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 32
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-ai-agent-generator",
+      "entity_type": "custom_gpt",
+      "title": "AI Agent Generator",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Expert prompt writer for generating specialized AI agents.",
+      "canonical_url": "https://chatgpt.com/g/g-688113e552c08191b6178443f971fea0-ai-agent-generator",
+      "public_url": "https://chatgpt.com/g/g-688113e552c08191b6178443f971fea0-ai-agent-generator",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/23f4bc1bd63c802d866feb91d2d9d0ef?pvs=1"
+        ],
+        "source_key": "ai-agent-generator",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 33
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 1
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-ai-citation-auditor",
+      "entity_type": "custom_gpt",
+      "title": "AI Citation Auditor",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Audits finance content for AI citation readiness, clarity, trust, schema, links, and risky claims.",
+      "canonical_url": "https://chatgpt.com/g/g-6a2cefb19d3c81919b49852b4c53fc9d-ai-citation-auditor",
+      "public_url": "https://chatgpt.com/g/g-6a2cefb19d3c81919b49852b4c53fc9d-ai-citation-auditor",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-citation-auditor",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 4
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-ai-fractional-cfo",
+      "entity_type": "custom_gpt",
+      "title": "AI Fractional CFO",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Upload financials. Get CFO-style cash flow, runway, and funding clarity.",
+      "canonical_url": "https://chatgpt.com/g/g-6a00e691f1188191a3803cb5fea36165-ai-fractional-cfo",
+      "public_url": "https://chatgpt.com/g/g-6a00e691f1188191a3803cb5fea36165-ai-fractional-cfo",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-fractional-cfo",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 17
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-ai-reviews-blog-writer",
+      "entity_type": "custom_gpt",
+      "title": "AI Reviews Blog Writer",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Writes bold, sincere, long-form blog reviews on AI tools, prompts, and automations. Funny, honest, and SEO-smart—with human warmth and a daring voice that sparks real conversation. Perfect for content that informs, entertains, and stands out.",
+      "canonical_url": "https://chatgpt.com/g/g-FuhGrve2g-ai-reviews-blog-writer",
+      "public_url": "https://chatgpt.com/g/g-FuhGrve2g-ai-reviews-blog-writer",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/24a4bc1bd63c819f8c8fd9db815612fb?pvs=1"
+        ],
+        "source_key": "ai-reviews-blog-writer",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 99
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 5
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-aiden-strategos",
+      "entity_type": "custom_gpt",
+      "title": "Aiden Strategos",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Creates step-by-step AI implementation plans for financial management.",
+      "canonical_url": "https://chatgpt.com/g/g-68af620767a08191a663db90b10c799a-aiden-strategos",
+      "public_url": "https://chatgpt.com/g/g-68af620767a08191a663db90b10c799a-aiden-strategos",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "aiden-strategos",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 27
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-algorithm-whisperer-stealth-ranking-strategist",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Algorithm Whisperer: Stealth Ranking Strategist",
+      "status": "published",
+      "topics": [
+        "AI Finance Ops & Content Production"
+      ],
+      "content_clusters": [
+        "SEO",
+        "AEO",
+        "Content Strategy"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-682828d684808191b5b2fee5326e4ec9-algorithm-whisperer-stealth-ranking-strategist",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-682828d684808191b5b2fee5326e4ec9-algorithm-whisperer-stealth-ranking-strategist",
+      "best_for_content": [
+        "Keyword architecture, ranking strategy, CTR and content-cluster planning"
+      ],
+      "recommended_cta_or_embed_role": "Internal SEO strategy resource",
+      "description": "Helps creators master platform algorithms without breaking the rules",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 58,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Helps creators master platform algorithms without breaking the rules",
+            "slug": "algorithm-whisperer-stealth-ranking-strategist"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-bank-match-gpt",
+      "entity_type": "custom_gpt",
+      "title": "Bank Match GPT",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Matches businesses with best-fit digital banking options based on needs, revenue, and operating style.",
+      "audiences": [
+        "Ecommerce Seller",
+        "Founder",
+        "Gig Worker",
+        "Small Business Owner"
+      ],
+      "funnel_stage": "Lead Magnet",
+      "canonical_url": "https://app.notion.com/p/2014bc1bd63c803d9b91cd18a687aa66?pvs=1",
+      "public_url": "https://app.notion.com/p/2014bc1bd63c803d9b91cd18a687aa66?pvs=1",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "gpt-assets.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bank-match-gpt",
+        "evidence": [
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 12
+          }
+        ],
+        "source_fields": {
+          "categories": [
+            "Finance",
+            "Digital Banking",
+            "Funding Readiness",
+            "Finance Ops",
+            "funding-tools"
+          ],
+          "notion_url": "https://app.notion.com/p/2014bc1bd63c803d9b91cd18a687aa66?pvs=1",
+          "monetization_path": "Drive banking affiliate referrals, funding assessments, and onboarding checklists.",
+          "outputs": [
+            "Bank shortlist",
+            "Feature comparison",
+            "Funding-readiness notes",
+            "Setup checklist",
+            "Risk warnings"
+          ],
+          "input_fields": [
+            "Business type",
+            "Monthly revenue",
+            "Deposit volume",
+            "Industry",
+            "Banking needs",
+            "Funding goals",
+            "Payment tools"
+          ],
+          "related_tools": [
+            "Mercury",
+            "Novo",
+            "Lili",
+            "Relay",
+            "Nav"
+          ],
+          "related_content": [
+            "Banking comparison posts",
+            "Funding readiness guides",
+            "Affiliate banking pages"
+          ]
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-brand-os-operator",
+      "entity_type": "custom_gpt",
+      "title": "Brand OS Operator",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "A metamodern funnel architect and digital systems jester.",
+      "canonical_url": "https://chatgpt.com/g/g-6970ff5094cc819196ae4851090cc698-brand-os-operator",
+      "public_url": "https://chatgpt.com/g/g-6970ff5094cc819196ae4851090cc698-brand-os-operator",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "brand-os-operator",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 20
+          },
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 5
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-bridge-capital-finder-gpt",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Bridge Capital Finder GPT",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing & ETA"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Post-Acquisition Working Capital"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-683e2ad99ca481919e4bb46e47fdd2fd-bridge-capital-finder-gpt",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-683e2ad99ca481919e4bb46e47fdd2fd-bridge-capital-finder-gpt",
+      "best_for_content": [
+        "Funding-gap, post-close capital and bridge-financing content"
+      ],
+      "recommended_cta_or_embed_role": "Capital-gap diagnostic CTA",
+      "description": "Post-close capital strategist for acquisition entrepreneurs",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 50,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Post-close capital strategist for acquisition entrepreneurs",
+            "slug": "bridge-capital-finder-gpt"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-broker-follow-up-machine",
+      "entity_type": "custom_gpt",
+      "title": "Broker Follow-Up Machine",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Builds team-based broker follow-up systems, CRM workflows, and automation maps.",
+      "canonical_url": "https://chatgpt.com/g/g-6a2152c07e488191862b272d5e3a4b44-broker-follow-up-machine",
+      "public_url": "https://chatgpt.com/g/g-6a2152c07e488191862b272d5e3a4b44-broker-follow-up-machine",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "broker-follow-up-machine",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 10
+          },
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 18
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-broker-follow-up-machine-gpt",
+      "entity_type": "custom_gpt",
+      "title": "Broker Follow-Up Machine GPT",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Builds borrower, referral partner, and pipeline follow-up systems so loan brokers stop losing deals to forgotten check-ins.",
+      "audiences": [
+        "Agency Owner",
+        "Broker VA",
+        "Independent Funding Agent",
+        "Loan Broker",
+        "Referral Partner Manager"
+      ],
+      "funnel_stage": "Lead Magnet",
+      "canonical_url": "https://app.notion.com/p/d19dfe1252444112b360e9569f213624?pvs=1",
+      "public_url": "https://chatgpt.com/g/g-6a2152c07e488191862b272d5e3a4b44-broker-follow-up-machine",
+      "metadata": {
+        "alternate_urls": [
+          "https://chatgpt.com/g/g-6a2152c07e488191862b272d5e3a4b44-broker-follow-up-machine"
+        ],
+        "source_key": "broker-follow-up-machine-gpt",
+        "evidence": [
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 23
+          }
+        ],
+        "source_fields": {
+          "categories": [
+            "Sales & Client Relations",
+            "Productivity & Automation",
+            "Agency Growth & Sales",
+            "funding-agency-automation"
+          ],
+          "notion_url": "https://app.notion.com/p/d19dfe1252444112b360e9569f213624?pvs=1",
+          "monetization_path": "Use as a lead magnet that routes to CRM automation setup, broker follow-up packs, and DFY funding agency systems.",
+          "outputs": [
+            "Follow-up sequence",
+            "Email copy",
+            "SMS copy",
+            "Call script",
+            "CRM tags",
+            "Automation rules",
+            "Metrics"
+          ],
+          "input_fields": [
+            "Lead type",
+            "Pipeline stage",
+            "Desired action",
+            "Channel",
+            "CRM/tool",
+            "Tone",
+            "Days since contact",
+            "Missing documents"
+          ],
+          "related_tools": [
+            "Zapier",
+            "Notion/Airtable sync",
+            "CRM",
+            "Email",
+            "SMS"
+          ],
+          "related_content": [
+            "Broker follow-up sequence pack",
+            "Dead lead revival kit",
+            "Missing document templates"
+          ]
+        }
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "gpt-assets.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-business-banker-gpt",
+      "entity_type": "custom_gpt",
+      "title": "Business Banker GPT",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Your AI assistant to build a bankable, fundable business banking stack",
+      "canonical_url": "https://chatgpt.com/g/g-6836cbfa2f8481918fd90ffc89cf563d-business-banker-gpt",
+      "public_url": "https://chatgpt.com/g/g-6836cbfa2f8481918fd90ffc89cf563d-business-banker-gpt",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "business-banker-gpt",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 53
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-business-vulnerability-deep-dive",
+      "entity_type": "custom_gpt",
+      "title": "Business Vulnerability Deep Dive",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Creates consultancy-grade reports analyzing business vulnerabilities and solutions.",
+      "canonical_url": "https://chatgpt.com/g/g-680f418d4d188191b2509473d16725fa-business-vulnerability-deep-dive",
+      "public_url": "https://chatgpt.com/g/g-680f418d4d188191b2509473d16725fa-business-vulnerability-deep-dive",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "business-vulnerability-deep-dive",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 62
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-cashflow-copilot",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Cashflow Copilot",
+      "status": "published",
+      "topics": [
+        "Funding Readiness & Business Funding"
+      ],
+      "content_clusters": [
+        "Funding Readiness",
+        "Cash Flow",
+        "AI Finance Ops"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-68769106cf988191bcc45c69e50038a2-cashflow-copilot",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-68769106cf988191bcc45c69e50038a2-cashflow-copilot",
+      "best_for_content": [
+        "Cash-flow planning and borrow-vs-fix-the-leak content"
+      ],
+      "recommended_cta_or_embed_role": "Interactive planning CTA",
+      "description": "Your AI-powered partner for proactive cash flow automation, empowering growth and peace of mind for Independent Professionals & Visionary Entrepreneurs.",
+      "audiences": [
+        "Affiliates / Partners",
+        "AI Builders"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 3,
+          "sources": [
+            {
+              "source_registry": "platform-assets.registry.json",
+              "source_path": "JSON/platform-assets.registry.json",
+              "source_index": 51,
+              "match_method": "exact_title"
+            },
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 38,
+              "match_method": "exact_url"
+            },
+            {
+              "source_registry": "github-repos.registry.json",
+              "source_path": "JSON/github-repos.registry.json",
+              "source_index": 127,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "Your AI-powered partner for proactive cash flow automation, empowering growth and peace of mind for Independent Professionals & Visionary Entrepreneurs.",
+              "Upload your expenses and I’ll give you a clean audit, burn rate, and cost-cutting checklist — in seconds."
+            ],
+            "slug": [
+              "cashflow-copilot"
+            ],
+            "audiences": [
+              "Affiliates / Partners",
+              "AI Builders"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-cloudflare-worker-in-a-box",
+      "entity_type": "custom_gpt",
+      "title": "Cloudflare Worker-in-a-box",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Generates complete, production-ready Cloudflare Workers code with best practices.",
+      "canonical_url": "https://chatgpt.com/gpts/editor/g-691c0319be808191b7e0e9ba824fed16",
+      "public_url": "https://chatgpt.com/gpts/editor/g-691c0319be808191b7e0e9ba824fed16",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "cloudflare-worker-in-a-box",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 24
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-community-catalyst-build-groups-that-thrive",
+      "entity_type": "custom_gpt",
+      "title": "Community Catalyst: Build Groups that Thrive",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Designs, audits, and optimizes branded company communities across Wix, Discord, and Notion.",
+      "canonical_url": "https://chatgpt.com/g/g-680ee6713508819199e51068824fa6a4-community-catalyst-build-groups-that-thrive",
+      "public_url": "https://chatgpt.com/g/g-680ee6713508819199e51068824fa6a4-community-catalyst-build-groups-that-thrive",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "community-catalyst-build-groups-that-thrive",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 66
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-consistent-character-gpt",
+      "entity_type": "custom_gpt",
+      "title": "Consistent Character GPT",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Builds emotionally deep, adaptable, and psychologically consistent fictional characters.",
+      "canonical_url": "https://chatgpt.com/g/g-6875e9f2b10c819196d494774a65fd0f-consistent-character-gpt",
+      "public_url": "https://chatgpt.com/g/g-6875e9f2b10c819196d494774a65fd0f-consistent-character-gpt",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/24a4bc1bd63c8185a1c5f54d8e932afc?pvs=1"
+        ],
+        "source_key": "consistent-character-gpt",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 40
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 2
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-course-ecosystem-builder",
+      "entity_type": "custom_gpt",
+      "title": "Course Ecosystem Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Builds monetized course ecosystems on Wix with gated execution steps.",
+      "canonical_url": "https://chatgpt.com/g/g-69de2dcbfe208191963678cbefa77acb-course-ecosystem-builder",
+      "public_url": "https://chatgpt.com/g/g-69de2dcbfe208191963678cbefa77acb-course-ecosystem-builder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "course-ecosystem-builder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 18
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-dac-affiliate-email-wizard",
+      "entity_type": "custom_gpt",
+      "title": "DAC Affiliate Email Wizard",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Crafts personalized email campaigns for DAC affiliates.",
+      "canonical_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "public_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "dac-affiliate-email-wizard",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 95
+          },
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 11
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-dead-lead-revival-gpt",
+      "entity_type": "custom_gpt",
+      "title": "Dead Lead Revival GPT",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Turns stale CRM notes into a dead-lead reactivation plan with segment, angle, email, SMS, call script, next best action, and compliance warnings.",
+      "funnel_stage": "Lead Magnet",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "affiliate-funding-agency-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "dead-lead-revival-gpt",
+        "evidence": [
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 19
+          }
+        ],
+        "source_fields": {
+          "categories": "Agency Growth & Sales"
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-deal-maker-ads",
+      "entity_type": "custom_gpt",
+      "title": "Deal Maker Ads",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "High-voltage ad copy that recruits affiliates with hustler edge and contrarian bite",
+      "canonical_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "public_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "metadata": {
+        "alternate_urls": [
+          "https://chatgpt.com/g/g-67bcaa62b38c81918d1d82a7a6ddf53e-deal-maker-ads"
+        ],
+        "source_key": "deal-maker-ads",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 94
+          },
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 8
+          },
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 9
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-deepprompt-architect",
+      "entity_type": "custom_gpt",
+      "title": "DeepPrompt Architect",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Creates structured, comprehensive prompts for deep research and academic inquiries",
+      "canonical_url": "https://chatgpt.com/g/g-683f3dba4c948191b909e47e15bc2546-deepprompt-architect",
+      "public_url": "https://chatgpt.com/g/g-683f3dba4c948191b909e47e15bc2546-deepprompt-architect",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/2074bc1bd63c80b6bfd2f770dd307627?pvs=1"
+        ],
+        "source_key": "deepprompt-architect",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 48
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 16
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-designergpt",
+      "entity_type": "custom_gpt",
+      "title": "DesignerGPT",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "canonical_url": "https://chatgpt.com/g/g-2Eo3NxuS7-designergpt",
+      "public_url": "https://chatgpt.com/g/g-2Eo3NxuS7-designergpt",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "site-builder-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "designergpt",
+        "evidence": [
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 7
+          }
+        ],
+        "source_fields": {
+          "outputs": [
+            "hosted website",
+            "website design",
+            "DALL·E-generated images",
+            "Replit handoff"
+          ]
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-detailed-keyword-analysis-seo",
+      "entity_type": "custom_gpt",
+      "title": "Detailed Keyword Analysis (SEO)",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Dominates search with high-impact, rankable SEO content clusters.",
+      "canonical_url": "https://chatgpt.com/g/g-688f3b6ae0808191925f294777aa947d-detailed-keyword-analysis-seo",
+      "public_url": "https://chatgpt.com/g/g-688f3b6ae0808191925f294777aa947d-detailed-keyword-analysis-seo",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "detailed-keyword-analysis-seo",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 31
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-digital-product-lab",
+      "entity_type": "custom_gpt",
+      "title": "Digital Product Lab",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Turns skills into 5 evergreen digital product ideas with formats, platforms, and fast-start tips.",
+      "canonical_url": "https://chatgpt.com/g/g-680b424747ec8191a0b0afbe5661c7af-digital-product-lab",
+      "public_url": "https://chatgpt.com/g/g-680b424747ec8191a0b0afbe5661c7af-digital-product-lab",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "digital-product-lab",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 71
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-ecommerce-cash-flow-forecaster",
+      "entity_type": "custom_gpt",
+      "title": "Ecommerce Cash Flow Forecaster",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Forecasts 90-day ecommerce cash flow, inventory pressure, and working capital gaps.",
+      "canonical_url": "https://chatgpt.com/g/g-6a17b19d6ebc8191988bb82a2710704f-ecommerce-cash-flow-forecaster",
+      "public_url": "https://chatgpt.com/g/g-6a17b19d6ebc8191988bb82a2710704f-ecommerce-cash-flow-forecaster",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ecommerce-cash-flow-forecaster",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 15
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-embedded-finance-integrator",
+      "entity_type": "custom_gpt",
+      "title": "Embedded-Finance Integrator",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Frames embedded-finance workflows, partner offers, and agent actions for platforms and service businesses.",
+      "audiences": [
+        "Agency Owner",
+        "Embedded Finance Partner",
+        "Fintech Founder",
+        "SaaS Operator"
+      ],
+      "funnel_stage": "Core",
+      "canonical_url": "https://app.notion.com/p/974b405310d34c1a8f0231c15cdb845b?pvs=1",
+      "public_url": "https://app.notion.com/p/974b405310d34c1a8f0231c15cdb845b?pvs=1",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "gpt-assets.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "embedded-finance-integrator",
+        "evidence": [
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 9
+          }
+        ],
+        "source_fields": {
+          "categories": [
+            "Fintech",
+            "Productivity & Automation",
+            "Sales & Client Relations",
+            "Finance Ops",
+            "finance-ops"
+          ],
+          "notion_url": "https://app.notion.com/p/974b405310d34c1a8f0231c15cdb845b?pvs=1",
+          "monetization_path": "Use for embedded-finance consulting, partner program setup, and white-label funding integrations.",
+          "outputs": [
+            "Embedded finance workflow",
+            "Action specs",
+            "Partner handoff map",
+            "Intake fields",
+            "Compliance notes"
+          ],
+          "input_fields": [
+            "Business model",
+            "Customer type",
+            "Funding offer",
+            "Partner/provider",
+            "Required intake",
+            "Handoff process"
+          ],
+          "related_tools": [
+            "CRM",
+            "OpenAPI actions",
+            "Zapier",
+            "Notion",
+            "Funding providers"
+          ],
+          "related_content": [
+            "Embedded finance playbooks",
+            "Partner workflows",
+            "Funding offer maps"
+          ]
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-finops-configurator-pro",
+      "entity_type": "custom_gpt",
+      "title": "FinOps Configurator Pro",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Fintech strategist for MSPs with hustler-fintech tone",
+      "canonical_url": "https://chatgpt.com/g/g-68aef91e6b808191ac0b2232916fadd1-finops-configurator-pro",
+      "public_url": "https://chatgpt.com/g/g-68aef91e6b808191ac0b2232916fadd1-finops-configurator-pro",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "finops-configurator-pro",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 28
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-fintech-integration-advisor",
+      "entity_type": "custom_gpt",
+      "title": "FinTech Integration Advisor",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Recommends fintech APIs and tools tailored to your systems.",
+      "canonical_url": "https://chatgpt.com/g/g-68af89c26a24819189c666767d567810-fintech-integration-advisor",
+      "public_url": "https://chatgpt.com/g/g-68af89c26a24819189c666767d567810-fintech-integration-advisor",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "fintech-integration-advisor",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 26
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-fix-and-flip-capital-coach",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Fix & Flip Capital Coach",
+      "status": "published",
+      "topics": [
+        "Real Estate Investor Financing"
+      ],
+      "content_clusters": [
+        "Real Estate Funding",
+        "Fix-and-Flip",
+        "Hard Money",
+        "BRRRR"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-684539c579a0819187b6125c7f47e1bd-fix-flip-capital-coach",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-684539c579a0819187b6125c7f47e1bd-fix-flip-capital-coach",
+      "best_for_content": [
+        "Fix-and-flip financing, hard money, rehab budgets and lender comparison content"
+      ],
+      "recommended_cta_or_embed_role": "Primary real-estate interactive CTA",
+      "description": "Street-smart deal coach helping RE investors analyze flips, secure fast funding, and outsmart the numbers",
+      "aliases": [
+        "fix-flip-capital-coach"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 43,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Street-smart deal coach helping RE investors analyze flips, secure fast funding, and outsmart the numbers",
+            "slug": "fix-flip-capital-coach"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-flash-ui-prompt-architect",
+      "entity_type": "custom_gpt",
+      "title": "Flash-UI Prompt Architect",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Generate better Flash-UI prompts for apps, dashboards, landing pages, and UI flows.",
+      "canonical_url": "https://chatgpt.com/g/g-6a14163f18988191b8c1358c1bea1c0c-flash-ui-prompt-architect",
+      "public_url": "https://chatgpt.com/g/g-6a14163f18988191b8c1358c1bea1c0c-flash-ui-prompt-architect",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "flash-ui-prompt-architect",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 16
+          },
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-fundable-lead-finder",
+      "entity_type": "custom_gpt",
+      "title": "Fundable Lead Finder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Scores blue-collar service leads and writes no-BS funding outreach.",
+      "canonical_url": "https://chatgpt.com/g/g-6a1a8152e8208191aa100266e5e94dd5-fundable-lead-finder",
+      "public_url": "https://chatgpt.com/g/g-6a1a8152e8208191aa100266e5e94dd5-fundable-lead-finder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "fundable-lead-finder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 14
+          },
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 17
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-funding-article-refresh-auditor",
+      "entity_type": "custom_gpt",
+      "title": "Funding Article Refresh Auditor",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Audits funding articles for SEO refresh opportunities, risk, CTAs, and AI search readiness.",
+      "canonical_url": "https://chatgpt.com/g/g-6a3c5684f4448191be2386deae724f53-funding-article-refresh-auditor",
+      "public_url": "https://chatgpt.com/g/g-6a3c5684f4448191be2386deae724f53-funding-article-refresh-auditor",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-article-refresh-auditor",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-funding-pathfinder",
+      "entity_type": "custom_gpt",
+      "title": "Funding Pathfinder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Get funded fast—no fluff, just smart strategy. Intake → Analyze → Funding roadmap with affiliate CTAs.",
+      "canonical_url": "https://chatgpt.com/g/g-6876b717ca808191aea5343f89c670e3-funding-pathfinder",
+      "public_url": "https://chatgpt.com/g/g-6876b717ca808191aea5343f89c670e3-funding-pathfinder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-pathfinder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 36
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-funding-tracker",
+      "entity_type": "custom_gpt",
+      "title": "Funding Tracker",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Helps businesses set, track, and manage funding goals with real-time insights and visualizations.",
+      "canonical_url": "https://chatgpt.com/g/g-680eee96dff4819190eb21ffad7c0180-funding-tracker",
+      "public_url": "https://chatgpt.com/g/g-680eee96dff4819190eb21ffad7c0180-funding-tracker",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-tracker",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 65
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-funding-workflow-sop-builder",
+      "entity_type": "custom_gpt",
+      "title": "Funding Workflow SOP Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Turns messy loan broker workflows into SOPs, checklists, delegation docs, and automation maps.",
+      "canonical_url": "https://chatgpt.com/g/g-6a21460c79d481918f2dd0f37cc9a01e-funding-workflow-sop-builder",
+      "public_url": "https://chatgpt.com/g/g-6a21460c79d481918f2dd0f37cc9a01e-funding-workflow-sop-builder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-workflow-sop-builder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 12
+          },
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 20
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-funding-workflow-sop-builder-gpt",
+      "entity_type": "custom_gpt",
+      "title": "Funding Workflow SOP Builder GPT",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Turns messy loan broker processes into SOPs, checklists, delegation docs, and automation-ready workflows.",
+      "audiences": [
+        "Agency Owner",
+        "Broker VA",
+        "Loan Broker",
+        "Processor",
+        "Productized Service Operator"
+      ],
+      "funnel_stage": "Tripwire",
+      "canonical_url": "https://app.notion.com/p/bcef793d9b43441fa17e0dd130eecd99?pvs=1",
+      "public_url": "https://chatgpt.com/g/g-6a21460c79d481918f2dd0f37cc9a01e-funding-workflow-sop-builder",
+      "metadata": {
+        "alternate_urls": [
+          "https://chatgpt.com/g/g-6a21460c79d481918f2dd0f37cc9a01e-funding-workflow-sop-builder"
+        ],
+        "source_key": "funding-workflow-sop-builder-gpt",
+        "evidence": [
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 20
+          }
+        ],
+        "source_fields": {
+          "categories": [
+            "Business Operations",
+            "Productivity & Automation",
+            "Ops & Templates",
+            "funding-agency-automation"
+          ],
+          "notion_url": "https://app.notion.com/p/bcef793d9b43441fa17e0dd130eecd99?pvs=1",
+          "monetization_path": "Sell as a broker SOP pack, tripwire product, or DFY funding agency operations buildout.",
+          "outputs": [
+            "SOP",
+            "Checklist",
+            "Delegation guide",
+            "Automation map",
+            "CRM fields",
+            "Human review points"
+          ],
+          "input_fields": [
+            "Process name",
+            "Current workflow",
+            "Owner",
+            "Tools involved",
+            "Bottlenecks",
+            "Desired output",
+            "Delegation needs"
+          ],
+          "related_tools": [
+            "Notion",
+            "Zapier",
+            "CRM",
+            "Google Sheets",
+            "Airtable"
+          ],
+          "related_content": [
+            "Funding agency SOPs",
+            "Broker processor checklist",
+            "Automation roadmap"
+          ]
+        }
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "gpt-assets.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-fundraising-strategist",
+      "entity_type": "custom_gpt",
+      "title": "Fundraising Strategist",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Bold, no-fluff fundraising strategist with wit and grit.",
+      "canonical_url": "https://chatgpt.com/g/g-68bb784293ec8191b55de484f5dfbfb2-fundraising-strategist",
+      "public_url": "https://chatgpt.com/g/g-68bb784293ec8191b55de484f5dfbfb2-fundraising-strategist",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "fundraising-strategist",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 25
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-futureproof-skill-builder",
+      "entity_type": "custom_gpt",
+      "title": "FutureProof Skill Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "AI career strategist for the 2025 job market",
+      "canonical_url": "https://chatgpt.com/g/g-67453fd4a3088191a5cd8693974ba413-futureproof-skill-builder",
+      "public_url": "https://chatgpt.com/g/g-67453fd4a3088191a5cd8693974ba413-futureproof-skill-builder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "futureproof-skill-builder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 85
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-game-plan-wizard",
+      "entity_type": "custom_gpt",
+      "title": "Game Plan Wizard",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Turns bold income goals into laser-focused daily action plans using DAC math—fast, sharp, no fluff.",
+      "canonical_url": "https://chatgpt.com/g/g-69548413b088819191fabdfeb2429174-game-plan-wizard",
+      "public_url": "https://chatgpt.com/g/g-69548413b088819191fabdfeb2429174-game-plan-wizard",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "game-plan-wizard",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 21
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-get-my-funding-offer",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Get My Funding Offer",
+      "status": "published",
+      "topics": [
+        "Funding Readiness & Business Funding",
+        "Business Credit & Fundability"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Funding Readiness",
+        "Same-Day Funding",
+        "Business Credit"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-6876b24050208191948c872fb36dd3b1-get-my-funding-offer",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-6876b24050208191948c872fb36dd3b1-get-my-funding-offer",
+      "best_for_content": [
+        "Funding-intent articles, qualification pages, product-fit comparisons",
+        "Articles where the reader has progressed from credit-building to funding intent"
+      ],
+      "recommended_cta_or_embed_role": "Primary conversion CTA: Get My Funding Offer",
+      "description": "Qualifies a lead and surfaces real-time business funding offers from vetted lending partners.",
+      "audiences": [
+        "Affiliates / Partners",
+        "SMB Owners / Funding Applicants"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 4,
+          "sources": [
+            {
+              "source_registry": "affiliate-funding-agency-gpts.registry.json",
+              "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+              "source_index": 16,
+              "match_method": "exact_url"
+            },
+            {
+              "source_registry": "platform-assets.registry.json",
+              "source_path": "JSON/platform-assets.registry.json",
+              "source_index": 102,
+              "match_method": "exact_title"
+            },
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 37,
+              "match_method": "exact_url"
+            },
+            {
+              "source_registry": "github-repos.registry.json",
+              "source_path": "JSON/github-repos.registry.json",
+              "source_index": 58,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "Qualifies a lead and surfaces real-time business funding offers from vetted lending partners.",
+              "Qualifies you and gets real-time business funding offers from vetted lending partners."
+            ],
+            "categories": "Money & Funding",
+            "slug": [
+              "get-my-funding-offer"
+            ],
+            "audiences": [
+              "Affiliates / Partners",
+              "SMB Owners / Funding Applicants"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-getting-started-right",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Getting Started Right",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Growth"
+      ],
+      "content_clusters": [
+        "Loan Broker",
+        "Funding Agency"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "best_for_content": [
+        "First-30-days, onboarding, productivity and operator setup content"
+      ],
+      "recommended_cta_or_embed_role": "New-partner onboarding CTA",
+      "description": "Foundational orientation for agency growth and sales for new partners.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "affiliate-funding-agency-gpts.registry.json",
+              "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+              "source_index": 4,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Foundational orientation for agency growth and sales for new partners.",
+            "categories": "Agency Growth & Sales"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-gig-income-organizer",
+      "entity_type": "custom_gpt",
+      "title": "Gig Income Organizer",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Organizes gig income and estimates funding readiness from statements, CSVs, and summaries.",
+      "canonical_url": "https://chatgpt.com/g/g-6a20fe02fe288191ad5733e3da824b74-gig-income-organizer",
+      "public_url": "https://chatgpt.com/g/g-6a20fe02fe288191ad5733e3da824b74-gig-income-organizer",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "gig-income-organizer",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 13
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-gpt-stack-builder",
+      "entity_type": "custom_gpt",
+      "title": "GPT Stack Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Build and debug modular GPT stacks with prebuilt templates and assistant logic.",
+      "canonical_url": "https://chatgpt.com/g/g-687729cd579881918d552b97cb33b29e-gpt-stack-builder",
+      "public_url": "https://chatgpt.com/g/g-687729cd579881918d552b97cb33b29e-gpt-stack-builder",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/2314bc1bd63c8063b882f64e6ce3d244?pvs=1"
+        ],
+        "source_key": "gpt-stack-builder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 35
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 24
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-gumroad-copy-coach",
+      "entity_type": "custom_gpt",
+      "title": "🛍️ Gumroad Copy Coach",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Helps creators write authentic, high-converting Gumroad sales page copy.",
+      "canonical_url": "https://chatgpt.com/g/g-680b44c5310081919c9ef142eb1430d9-gumroad-copy-coach",
+      "public_url": "https://chatgpt.com/g/g-680b44c5310081919c9ef142eb1430d9-gumroad-copy-coach",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "gumroad-copy-coach",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 70
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-habit-reactor-engineer",
+      "entity_type": "custom_gpt",
+      "title": "Habit Reactor Engineer",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "🔬 Turn your habits inside out. Habit Reactor Engineer deconstructs any habit you choose—down to its atomic, behavioral blueprint. Using deep neuropsych insights and Mermaid diagrams, it reveals what’s really running the show behind your daily actions.",
+      "canonical_url": "https://chatgpt.com/gpts/editor/g-67f12ac6d6048191a6982d3532d138a1",
+      "public_url": "https://chatgpt.com/gpts/editor/g-67f12ac6d6048191a6982d3532d138a1",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/1ec4bc1bd63c817596c3cafbccf11c2d?pvs=1"
+        ],
+        "source_key": "habit-reactor-engineer",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 81
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 19
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-harper-hubspot-api-architect",
+      "entity_type": "custom_gpt",
+      "title": "Harper — HubSpot API Architect",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Pulls live contact, deal, and company data from HubSpot via API.",
+      "canonical_url": "https://chatgpt.com/g/g-689caca104ec8191a731c101eba14f31-harper-hubspot-api-architect",
+      "public_url": "https://chatgpt.com/g/g-689caca104ec8191a731c101eba14f31-harper-hubspot-api-architect",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "harper-hubspot-api-architect",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 30
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-hidden-opportunities-finder",
+      "entity_type": "custom_gpt",
+      "title": "Hidden Opportunities Finder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "An AI tool designed to uncover hidden opportunities in your projects, businesses or creative endeavours.",
+      "canonical_url": "https://chatgpt.com/g/g-6737012f640c8190b5f8c684640fbe41-hidden-opportunities-finder",
+      "public_url": "https://chatgpt.com/g/g-6737012f640c8190b5f8c684640fbe41-hidden-opportunities-finder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "hidden-opportunities-finder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 86
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-industry-analysis-bot",
+      "entity_type": "custom_gpt",
+      "title": "Industry Analysis Bot",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "A chatbot specialized in conducting comprehensive industry analysis across various sectors.",
+      "canonical_url": "https://chatgpt.com/g/g-vBgeRtZjf-industry-analysis-bot",
+      "public_url": "https://chatgpt.com/g/g-vBgeRtZjf-industry-analysis-bot",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/1ec4bc1bd63c81bd8920ce3418332afb?pvs=1"
+        ],
+        "source_key": "industry-analysis-bot",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 87
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 17
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-landing-page-builder-gpt",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Landing Page Builder GPT",
+      "status": "published",
+      "topics": [
+        "AI Finance Ops & Content Production"
+      ],
+      "content_clusters": [
+        "Landing Pages",
+        "Lead Magnets",
+        "Tool Pages"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-684051ab52848191ae60b23fd46b3c04-landing-page-builder-gpt",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-684051ab52848191ae60b23fd46b3c04-landing-page-builder-gpt",
+      "best_for_content": [
+        "Building conversion pages for calculators, scorecards and partner funnels"
+      ],
+      "recommended_cta_or_embed_role": "Internal page-production resource",
+      "description": "Builds conversion-focused landing page structure, copy, and static page assets.",
+      "audiences": [
+        "Agency Owner",
+        "Creator",
+        "Founder",
+        "Marketer"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "gpt-assets.registry.json",
+              "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+              "source_index": 7,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Builds conversion-focused landing page structure, copy, and static page assets.",
+            "audiences": [
+              "Founder",
+              "Marketer",
+              "Agency Owner",
+              "Creator"
+            ],
+            "funnel_stage": "Core",
+            "categories": [
+              "Content & Marketing",
+              "Building & Development",
+              "Creator & Content Ops",
+              "site-builders"
+            ],
+            "notion_url": "https://app.notion.com/p/2084bc1bd63c80439236c9e9fc107375?pvs=1",
+            "slug": "landing-page-builder-gpt",
+            "monetization_path": "Use for DFY landing page builds, template packs, and funnel buildouts.",
+            "outputs": [
+              "Landing page copy",
+              "Wireframe",
+              "Section flow",
+              "CTA strategy",
+              "HTML/CSS/JS"
+            ],
+            "input_fields": [
+              "Offer",
+              "Audience",
+              "Pain point",
+              "CTA",
+              "Proof",
+              "Traffic source",
+              "Brand vibe"
+            ],
+            "related_tools": [
+              "Vercel",
+              "Wix",
+              "Carrd",
+              "Webflow",
+              "ChatGPT"
+            ],
+            "related_content": [
+              "Landing page templates",
+              "Offer pages",
+              "Lead magnets"
+            ]
+          }
+        },
+        "promotion_v1": {
+          "merged_possible_matches": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 45,
+              "title": "Landing Page Builder",
+              "match_method": "fuzzy_title",
+              "confidence": 0.909
+            }
+          ],
+          "alternate_urls": [
+            "https://chatgpt.com/g/g-684051ab52848191ae60b23fd46b3c04-landing-page-builder"
+          ]
+        }
+      },
+      "aliases": [
+        "Landing Page Builder"
+      ]
+    },
+    {
+      "resource_id": "gpt-landing-page-generator",
+      "entity_type": "custom_gpt",
+      "title": "Landing Page Generator",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Creates high-converting landing page copy and minimal responsive HTML.",
+      "canonical_url": "https://chatgpt.com/g/g-6a26c40cf56c819194aaec6115c2c091-landing-page-generator",
+      "public_url": "https://chatgpt.com/g/g-6a26c40cf56c819194aaec6115c2c091-landing-page-generator",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/23f4bc1bd63c8053b6e8eb83ce4ed42e?pvs=1"
+        ],
+        "source_key": "landing-page-generator",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 5
+          },
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 3
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 21
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-lean-startup-budget-coach",
+      "entity_type": "custom_gpt",
+      "title": "Lean Startup Budget Coach",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "A savvy budgeting buddy for startup founders! This GPT walks you through lean budgeting like a pro—covering strategic spending, trimming the fat, and keeping your finances sharp while your startup scales.",
+      "canonical_url": "https://chatgpt.com/g/g-67f12236c7548191b077e4120bbbd0d5-lean-startup-budget-coach",
+      "public_url": "https://chatgpt.com/g/g-67f12236c7548191b077e4120bbbd0d5-lean-startup-budget-coach",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "lean-startup-budget-coach",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 82
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-legendary-mentorship",
+      "entity_type": "custom_gpt",
+      "title": "Legendary Mentorship",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Simulates world-class mentorship from iconic figures.",
+      "canonical_url": "https://chatgpt.com/g/g-68280f3c737c8191a030af9e3569a5db-legendary-mentorship",
+      "public_url": "https://chatgpt.com/g/g-68280f3c737c8191a030af9e3569a5db-legendary-mentorship",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "legendary-mentorship",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 60
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-loan-broker-automation-architect",
+      "entity_type": "custom_gpt",
+      "title": "Loan Broker Automation Architect",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Designs broker automations for intake, docs, CRM, lender matching, follow-up, and tracking.",
+      "canonical_url": "https://chatgpt.com/g/g-6a214c8c41d48191bebafa39c853412f-loan-broker-automation-architect",
+      "public_url": "https://chatgpt.com/g/g-6a214c8c41d48191bebafa39c853412f-loan-broker-automation-architect",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "loan-broker-automation-architect",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 11
+          },
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 21
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-loan-broker-automation-architect-gpt",
+      "entity_type": "custom_gpt",
+      "title": "Loan Broker Automation Architect GPT",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Designs automation systems for loan brokers, funding agencies, and broker operations.",
+      "audiences": [
+        "Automation Builder",
+        "Broker VA",
+        "Funding Agency Owner",
+        "Loan Broker"
+      ],
+      "funnel_stage": "Core",
+      "canonical_url": "https://app.notion.com/p/fb6e7a08617b4d11aad27b9bbf84f50a?pvs=1",
+      "public_url": "https://app.notion.com/p/fb6e7a08617b4d11aad27b9bbf84f50a?pvs=1",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "gpt-assets.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "loan-broker-automation-architect-gpt",
+        "evidence": [
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 8
+          }
+        ],
+        "source_fields": {
+          "categories": [
+            "Productivity & Automation",
+            "Business Operations",
+            "Sales & Client Relations",
+            "Agency Growth & Sales",
+            "funding-agency-automation"
+          ],
+          "notion_url": "https://app.notion.com/p/fb6e7a08617b4d11aad27b9bbf84f50a?pvs=1",
+          "monetization_path": "Convert into DFY automation builds, monthly ops retainers, and broker automation audits.",
+          "outputs": [
+            "Automation map",
+            "Trigger/action logic",
+            "CRM fields",
+            "Human review points",
+            "Tool recommendations",
+            "Implementation plan"
+          ],
+          "input_fields": [
+            "Broker workflow",
+            "CRM",
+            "Lead source",
+            "Current bottleneck",
+            "Documents required",
+            "Follow-up rules",
+            "Compliance constraints"
+          ],
+          "related_tools": [
+            "Zapier",
+            "Make",
+            "n8n",
+            "GoHighLevel",
+            "HubSpot",
+            "Airtable",
+            "Notion"
+          ],
+          "related_content": [
+            "Broker automation maps",
+            "Funding agency workflows",
+            "CRM setup guides"
+          ]
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-maila-voiceover-studio",
+      "entity_type": "custom_gpt",
+      "title": "Maila Voiceover Studio",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Turns scripts into polished voiceovers via your Maila Speech API.",
+      "canonical_url": "https://chatgpt.com/g/g-68a2be123420819183f70a974c2f9fe5-maila-voiceover-studio",
+      "public_url": "https://chatgpt.com/g/g-68a2be123420819183f70a974c2f9fe5-maila-voiceover-studio",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "maila-voiceover-studio",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 29
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-max-funding-specialist",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Max - Funding Specialist",
+      "status": "published",
+      "topics": [
+        "Funding Readiness & Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Same-Day Funding",
+        "Gig Worker Funding"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-680f278f022c8191aceede6f83658cd6-instant-micro-funding-same-day-cash",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-680f278f022c8191aceede6f83658cd6-instant-micro-funding-same-day-cash",
+      "best_for_content": [
+        "Fast-funding explainers, emergency cash-flow articles, micro-funding content"
+      ],
+      "recommended_cta_or_embed_role": "Interactive funding specialist CTA",
+      "aliases": [
+        "Same-Day Capital OS"
+      ],
+      "description": "Fast funding advisor helping users get same-day capital with simple steps.",
+      "metadata": {
+        "promotion_v1": {
+          "gpt_id_aliases": [
+            {
+              "gpt_id": "g-680f278f022c8191aceede6f83658cd6",
+              "candidate_id": "gpt-same-day-capital-os",
+              "title": "Same-Day Capital OS",
+              "url": "https://chatgpt.com/g/g-680f278f022c8191aceede6f83658cd6-same-day-capital-os"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-mrr-to-money-gpt",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "MRR to Money GPT",
+      "status": "published",
+      "topics": [
+        "Ecommerce & SaaS Capital"
+      ],
+      "content_clusters": [
+        "SaaS Financing",
+        "Revenue-Based Financing",
+        "Subscription Ecommerce"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-682c6ce14ae08191abd4976f15ee97ac-mrr-to-money-gpt",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-682c6ce14ae08191abd4976f15ee97ac-mrr-to-money-gpt",
+      "best_for_content": [
+        "MRR financing, recurring-revenue underwriting and SaaS capital content"
+      ],
+      "recommended_cta_or_embed_role": "Recurring-revenue diagnostic CTA",
+      "description": "Translates SaaS MRR metrics into non-dilutive funding insights — fast and founder-friendly.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 56,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Translates SaaS MRR metrics into non-dilutive funding insights — fast and founder-friendly.",
+            "slug": "mrr-to-money-gpt"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-no-code-gpt-builder",
+      "entity_type": "custom_gpt",
+      "title": "No-Code GPT Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Builds crystal-clear GPT blueprints from raw ideas—fast, structured, monetizable.",
+      "canonical_url": "https://chatgpt.com/g/g-6876070e97a88191aaa47b0c53ec4d02-no-code-gpt-builder",
+      "public_url": "https://chatgpt.com/g/g-6876070e97a88191aaa47b0c53ec4d02-no-code-gpt-builder",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/2314bc1bd63c80af9d4cff7373692742?pvs=1"
+        ],
+        "source_key": "no-code-gpt-builder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 39
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 3
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-notion-template-builder",
+      "entity_type": "custom_gpt",
+      "title": "Notion Template Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Design plug-and-play Notion templates with automation, integrations, sales UX, and stunning layout.",
+      "canonical_url": "https://chatgpt.com/g/g-680b4720085c81919a8f77db2a6953cc-notion-template-builder",
+      "public_url": "https://chatgpt.com/g/g-680b4720085c81919a8f77db2a6953cc-notion-template-builder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "notion-template-builder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 69
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-optimize-cash-flow-management",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Optimize Cash Flow Management",
+      "status": "published",
+      "topics": [
+        "Funding Readiness & Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Financial Management"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-6745c8c195188191a6d0277492be720b-optimize-cash-flow-management",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-6745c8c195188191a6d0277492be720b-optimize-cash-flow-management",
+      "best_for_content": [
+        "General cash-flow management and working-capital educational content"
+      ],
+      "recommended_cta_or_embed_role": "Supporting interactive resource",
+      "description": "AI financial consultant for optimized cash flow management",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 83,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "AI financial consultant for optimized cash flow management",
+            "slug": "optimize-cash-flow-management"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-passive-income-pro-tailored-ideas-that-work",
+      "entity_type": "custom_gpt",
+      "title": "Passive Income Pro: Tailored Ideas That Work",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Looking for passive income ideas that actually make sense for your lifestyle? I generate ethical, practical, and scalable passive income ideas tailored to your exact audience. Just tell me how many you want and who they’re for — I’ll handle the rest.",
+      "canonical_url": "https://chatgpt.com/g/g-67f12f55f0b08191bd6cac0d9fe4f9e7-passive-income-pro-tailored-ideas-that-work",
+      "public_url": "https://chatgpt.com/g/g-67f12f55f0b08191bd6cac0d9fe4f9e7-passive-income-pro-tailored-ideas-that-work",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "passive-income-pro-tailored-ideas-that-work",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 80
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-payment-processing-pro-zero-fees",
+      "entity_type": "custom_gpt",
+      "title": "Payment Processing Pro: Zero Fees",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Guides businesses and agents through Net Zero Fees Dual Pricing with warm, confident, action-focused support.",
+      "canonical_url": "https://chatgpt.com/g/g-680f1bddb85081918bea61a53b67322b-payment-processing-pro-zero-fees",
+      "public_url": "https://chatgpt.com/g/g-680f1bddb85081918bea61a53b67322b-payment-processing-pro-zero-fees",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "payment-processing-pro-zero-fees",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 64
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-personalized-tax-planning-strategy",
+      "entity_type": "custom_gpt",
+      "title": "Personalized Tax Planning Strategy",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "AI tax advisor: Optimize deductions, minimize liability for SMBs.",
+      "canonical_url": "https://chatgpt.com/g/g-6745b6f144f0819194508301c42f641f-personalized-tax-planning-strategy",
+      "public_url": "https://chatgpt.com/g/g-6745b6f144f0819194508301c42f641f-personalized-tax-planning-strategy",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/1ec4bc1bd63c81dfb167caac4937e7bd?pvs=1"
+        ],
+        "source_key": "personalized-tax-planning-strategy",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 84
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 18
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-productized-services-template-builder",
+      "entity_type": "custom_gpt",
+      "title": "Productized Services Template Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Build Notion templates to systematize and sell services",
+      "canonical_url": "https://chatgpt.com/g/g-682973ea86c081919747f4865dee9240-productized-services-template-builder",
+      "public_url": "https://chatgpt.com/g/g-682973ea86c081919747f4865dee9240-productized-services-template-builder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "productized-services-template-builder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 57
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-prompt-analyst",
+      "entity_type": "custom_gpt",
+      "title": "Prompt Analyst",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Generates voiceover scripts for prompt reviews.",
+      "canonical_url": "https://chatgpt.com/g/g-ao3s8drbu-prompt-analyst",
+      "public_url": "https://chatgpt.com/g/g-ao3s8drbu-prompt-analyst",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/24a4bc1bd63c8147864dfda77a39357c?pvs=1"
+        ],
+        "source_key": "prompt-analyst",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 97
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 4
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-real-time-cash-flow-analyzer",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Real-Time Cash Flow Analyzer",
+      "status": "published",
+      "topics": [
+        "Funding Readiness & Business Funding",
+        "Ecommerce & SaaS Capital"
+      ],
+      "content_clusters": [
+        "Funding Readiness",
+        "Cash Flow",
+        "AI Finance Ops",
+        "Ecommerce Funding",
+        "Inventory Financing"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-68781e74d5ec81919da08f5dc2183522-real-time-cash-flow-analyzer",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-68781e74d5ec81919da08f5dc2183522-real-time-cash-flow-analyzer",
+      "best_for_content": [
+        "Cash-flow gaps, underwriting-readiness, working-capital articles",
+        "Inventory gaps, payout delays, ad-spend cash-flow and working-capital content"
+      ],
+      "recommended_cta_or_embed_role": "Diagnostic tool CTA before funding application",
+      "description": "Motivates and guides users to cut costs, grow savings, and reach financial goals",
+      "audiences": [
+        "Finance Operator",
+        "Funding Client",
+        "Gig Worker",
+        "Small Business Owner"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 2,
+          "sources": [
+            {
+              "source_registry": "gpt-assets.registry.json",
+              "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+              "source_index": 22,
+              "match_method": "exact_title"
+            },
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 34,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "Analyzes cash-flow data and summarizes risks, trends, and funding readiness.",
+              "Motivates and guides users to cut costs, grow savings, and reach financial goals"
+            ],
+            "audiences": [
+              "Small Business Owner",
+              "Gig Worker",
+              "Funding Client",
+              "Finance Operator"
+            ],
+            "funnel_stage": "Core",
+            "categories": [
+              "Finance",
+              "Cash Flow",
+              "Funding Readiness",
+              "Finance Ops",
+              "funding-tools"
+            ],
+            "notion_url": "https://app.notion.com/p/2314bc1bd63c8030a817fd7078e3734a?pvs=1",
+            "slug": [
+              "real-time-cash-flow-analyzer"
+            ],
+            "monetization_path": "Drive funding assessments, finance ops audits, cash-flow reports, and funding offer routing.",
+            "outputs": [
+              "Cash flow analysis",
+              "Risk flags",
+              "Funding readiness notes",
+              "Action plan",
+              "Summary report"
+            ],
+            "input_fields": [
+              "Bank statement summary",
+              "Revenue",
+              "Expenses",
+              "Deposits",
+              "Overdrafts",
+              "Balances",
+              "Funding goal"
+            ],
+            "related_tools": [
+              "Bank statements",
+              "CSV upload",
+              "Google Sheets",
+              "My Figures App",
+              "Notion"
+            ],
+            "related_content": [
+              "Cash-flow calculators",
+              "Funding readiness scorecards",
+              "Finance ops reports"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-resumetailor-ai",
+      "entity_type": "custom_gpt",
+      "title": "ResumeTailor AI",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "A custom GPT that tailors resumes to job postings",
+      "canonical_url": "https://chatgpt.com/g/g-67f19f6b42e48191ac8a32555e2a0309-resumetailor-ai",
+      "public_url": "https://chatgpt.com/g/g-67f19f6b42e48191ac8a32555e2a0309-resumetailor-ai",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/1ec4bc1bd63c8105a70bdabf56e52513?pvs=1"
+        ],
+        "source_key": "resumetailor-ai",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 78
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 15
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-saas-capital-concierge",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "SaaS Capital Concierge",
+      "status": "published",
+      "topics": [
+        "Ecommerce & SaaS Capital"
+      ],
+      "content_clusters": [
+        "SaaS Financing",
+        "Non-Dilutive Capital",
+        "Revenue-Based Financing"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-683e442ec6848191ac36c7654d40e5dd-saas-capital-concierge",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-683e442ec6848191ac36c7654d40e5dd-saas-capital-concierge",
+      "best_for_content": [
+        "SaaS funding comparisons, founder capital strategy and lender-fit content"
+      ],
+      "recommended_cta_or_embed_role": "Primary SaaS-capital CTA",
+      "description": "Gives blunt, tailored capital advice to SaaS founders scaling without dilution.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 49,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Gives blunt, tailored capital advice to SaaS founders scaling without dilution.",
+            "slug": "saas-capital-concierge"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-sales-funnel-builder-gpt",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Sales Funnel Builder GPT",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Growth"
+      ],
+      "content_clusters": [
+        "Loan Broker",
+        "Affiliate Programs",
+        "AI Automation"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-67f59b5a30a481919064b343d7d27fbb-sales-funnel-builder-gpt",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-67f59b5a30a481919064b343d7d27fbb-sales-funnel-builder-gpt",
+      "best_for_content": [
+        "Lead funnels, partner acquisition, broker marketing systems"
+      ],
+      "recommended_cta_or_embed_role": "Interactive funnel-building CTA",
+      "description": "Builds customer-first funnels with clear steps and strategic content for lasting conversions",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 77,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Builds customer-first funnels with clear steps and strategic content for lasting conversions",
+            "slug": "sales-funnel-builder-gpt"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-scriptsmith",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "ScriptSmith",
+      "status": "published",
+      "topics": [
+        "AI Finance Ops & Content Production"
+      ],
+      "content_clusters": [
+        "YouTube",
+        "Shorts",
+        "Video"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-680b3f78392c81918c8a7330628efcfd-scriptsmith",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-680b3f78392c81918c8a7330628efcfd-scriptsmith",
+      "best_for_content": [
+        "Companion YouTube scripts, Shorts and video voiceovers"
+      ],
+      "recommended_cta_or_embed_role": "Internal video-production resource",
+      "description": "Crafts high-retention YouTube scripts for faceless channels",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 72,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Crafts high-retention YouTube scripts for faceless channels",
+            "slug": "scriptsmith"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-siteforge-operator",
+      "entity_type": "custom_gpt",
+      "title": "SiteForge Operator",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "A website factory in a trench coat. Drop your brand + CTA, get a full repo: pages, components, data JSON, SEO, and Vercel-ready deploy docs.",
+      "canonical_url": "https://chatgpt.com/g/g-698ea9b3d5d88191aa11946cbbdc727d-siteforge-operator",
+      "public_url": "https://chatgpt.com/g/g-698ea9b3d5d88191aa11946cbbdc727d-siteforge-operator",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "siteforge-operator",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 19
+          },
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 4
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-sizzling-website-and-ui-generator",
+      "entity_type": "custom_gpt",
+      "title": "Sizzling Website & UI Generator",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Direct, witty B2B site generator with auto visual style logic and conversion focus.",
+      "canonical_url": "https://chatgpt.com/g/g-6933411723008191a16a98e7aa2d31cf-sizzling-website-ui-generator",
+      "public_url": "https://chatgpt.com/g/g-6933411723008191a16a98e7aa2d31cf-sizzling-website-ui-generator",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "sizzling-website-ui-generator",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 23
+          },
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 2
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-smart-funding-debt-vs-equity",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Smart Funding: Debt vs. Equity",
+      "status": "published",
+      "topics": [
+        "Funding Readiness & Business Funding",
+        "Acquisition Financing & ETA"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Acquisition Financing",
+        "Startup Funding",
+        "Capital Stack"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-680f51ab4f008191ba74aace494b0e9c-smart-funding-debt-vs-equity",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-680f51ab4f008191ba74aace494b0e9c-smart-funding-debt-vs-equity",
+      "best_for_content": [
+        "Debt-vs-equity comparisons and capital-structure explainers",
+        "Capital stack, seller note, equity rollover and debt/equity articles"
+      ],
+      "recommended_cta_or_embed_role": "Decision-support CTA",
+      "description": "Explains Debt vs. Equity Financing with analogies, tables, and decision impact, simplified for users.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 61,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Explains Debt vs. Equity Financing with analogies, tables, and decision impact, simplified for users.",
+            "slug": "smart-funding-debt-vs-equity"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-smart-niche-finder-faceless-channel-ideas",
+      "entity_type": "custom_gpt",
+      "title": "Smart Niche Finder – Faceless Channel Ideas",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Helps users find faceless YouTube niches with high growth potential.",
+      "canonical_url": "https://chatgpt.com/g/g-680b39a835ec8191a36c473618a7734e-smart-niche-finder-faceless-channel-ideas",
+      "public_url": "https://chatgpt.com/g/g-680b39a835ec8191a36c473618a7734e-smart-niche-finder-faceless-channel-ideas",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "smart-niche-finder-faceless-channel-ideas",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 75
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-smb-ai-workflow-and-agent-builder",
+      "entity_type": "custom_gpt",
+      "title": "SMB AI Workflow & Agent Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Audits SMB workflows and designs practical AI automation and agent plans.",
+      "canonical_url": "https://chatgpt.com/g/g-6a3cac9b87f08191af3f98ab42ad55ae-smb-ai-workflow-agent-builder",
+      "public_url": "https://chatgpt.com/g/g-6a3cac9b87f08191af3f98ab42ad55ae-smb-ai-workflow-agent-builder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "smb-ai-workflow-agent-builder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-start-your-own-funding-agency",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Start Your Own Funding Agency",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Growth"
+      ],
+      "content_clusters": [
+        "Loan Broker",
+        "Affiliate Programs",
+        "Funding Agency"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-1u8W1T1bM-start-your-own-funding-agency",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-1u8W1T1bM-start-your-own-funding-agency",
+      "best_for_content": [
+        "How to become a broker, start a funding agency, affiliate-program content"
+      ],
+      "recommended_cta_or_embed_role": "Primary recruitment/onboarding CTA",
+      "description": "Turn hustle into income! Start your own funding agency with DAC—zero experience needed. Big commissions. Real freedom. Let’s go!",
+      "audiences": [
+        "affiliate marketers",
+        "aspiring funding agents",
+        "gig workers",
+        "networkers",
+        "salespeople"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 3,
+          "sources": [
+            {
+              "source_registry": "revenue-asset-routing-map.json",
+              "source_path": "JSON/downloads/revenue-asset-routing-map.json",
+              "source_index": 3,
+              "match_method": "exact_url"
+            },
+            {
+              "source_registry": "affiliate-funding-agency-gpts.registry.json",
+              "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+              "source_index": 0,
+              "match_method": "exact_url"
+            },
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 96,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "audiences": [
+              "aspiring funding agents",
+              "affiliate marketers",
+              "salespeople",
+              "gig workers",
+              "networkers"
+            ],
+            "monetization_path": [
+              {
+                "offer_name": "7-Day Funding Agency Blitz",
+                "offer_type": "Affiliate Launch Kit",
+                "price_hint": "$97-$997 self-serve/onboarding; DFY tier $2,500+",
+                "status": "candidate"
+              },
+              {
+                "label": "Partner launch landing page",
+                "url": "https://moonshine-capital-partners.vercel.app/",
+                "status": "available"
+              }
+            ],
+            "description": [
+              "Turn hustle into income: start your own funding business with zero experience needed.",
+              "Turn hustle into income! Start your own funding agency with DAC—zero experience needed. Big commissions. Real freedom. Let’s go!"
+            ],
+            "slug": "start-your-own-funding-agency"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-startup-valuation-expert",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Startup Valuation Expert",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing & ETA"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Valuation",
+        "SaaS"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-684022bef9f08191a158d81c6517c977-startup-valuation-expert",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-684022bef9f08191a158d81c6517c977-startup-valuation-expert",
+      "best_for_content": [
+        "Valuation, purchase-price, seller-note and acquisition-math content"
+      ],
+      "recommended_cta_or_embed_role": "Valuation support CTA",
+      "description": "Provides expert, structured startup valuation analysis by industry and financial criteria",
+      "audiences": [
+        "Advisor",
+        "Investor",
+        "SaaS Operator",
+        "Startup Founder"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 2,
+          "sources": [
+            {
+              "source_registry": "gpt-assets.registry.json",
+              "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+              "source_index": 13,
+              "match_method": "exact_title"
+            },
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 47,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "Helps estimate startup valuation logic, investor narrative, and valuation drivers.",
+              "Provides expert, structured startup valuation analysis by industry and financial criteria"
+            ],
+            "audiences": [
+              "Startup Founder",
+              "Investor",
+              "Advisor",
+              "SaaS Operator"
+            ],
+            "funnel_stage": "Tripwire",
+            "categories": [
+              "Finance",
+              "Startup Strategy",
+              "Capital Advisory",
+              "Finance Ops",
+              "finance-ops"
+            ],
+            "notion_url": "https://app.notion.com/p/2084bc1bd63c80528bc4e500c7a2cf85?pvs=1",
+            "slug": [
+              "startup-valuation-expert"
+            ],
+            "monetization_path": "Use for valuation reports, fundraising readiness audits, and advisory calls.",
+            "outputs": [
+              "Valuation range",
+              "Assumptions",
+              "Investor narrative",
+              "Dilution notes",
+              "Risk factors"
+            ],
+            "input_fields": [
+              "Revenue",
+              "Growth rate",
+              "Market",
+              "Stage",
+              "Traction",
+              "Funding need",
+              "Comparable companies"
+            ],
+            "related_tools": [
+              "Spreadsheets",
+              "Pitch deck",
+              "Notion",
+              "Financial models"
+            ],
+            "related_content": [
+              "Valuation explainers",
+              "Funding strategy guides",
+              "Pitch prep"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-static-html-wizard",
+      "entity_type": "custom_gpt",
+      "title": "Static HTML Wizard",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "canonical_url": "https://chatgpt.com/g/g-CmFL8N18M-static-html-wizard",
+      "public_url": "https://chatgpt.com/g/g-CmFL8N18M-static-html-wizard",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "site-builder-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "static-html-wizard",
+        "evidence": [
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 9
+          }
+        ],
+        "source_fields": {
+          "outputs": [
+            "static HTML",
+            "TODO"
+          ]
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-static-site-builder",
+      "entity_type": "custom_gpt",
+      "title": "Static Site Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "canonical_url": "https://chatgpt.com/g/g-9BxSWLG4X-static-site-builder",
+      "public_url": "https://chatgpt.com/g/g-9BxSWLG4X-static-site-builder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "site-builder-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "static-site-builder",
+        "evidence": [
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 10
+          }
+        ],
+        "source_fields": {
+          "outputs": [
+            "static site",
+            "TODO"
+          ]
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-static-website-creator",
+      "entity_type": "custom_gpt",
+      "title": "Static Website Creator",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "canonical_url": "https://chatgpt.com/g/g-nNELUSGbc-static-website-creator",
+      "public_url": "https://chatgpt.com/g/g-nNELUSGbc-static-website-creator",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "site-builder-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "static-website-creator",
+        "evidence": [
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 8
+          }
+        ],
+        "source_fields": {
+          "outputs": [
+            "HTML file",
+            "CSS file",
+            "JavaScript file"
+          ]
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-the-business-buyer-s-blueprint",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "The Business Buyer's Blueprint",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing & ETA"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "ETA",
+        "Digital Business Acquisitions"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-684061a8c1108191aba9d211400b5c17-the-business-buyers-blueprint",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-684061a8c1108191aba9d211400b5c17-the-business-buyers-blueprint",
+      "best_for_content": [
+        "Buyer guides, first-time acquisition articles, diligence and financing explainers"
+      ],
+      "recommended_cta_or_embed_role": "Interactive buyer-planning CTA",
+      "description": "Business buying advisor with warm, strategic coaching",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 44,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Business buying advisor with warm, strategic coaching",
+            "slug": "the-business-buyer-s-blueprint"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-transcript-to-blog-transformer",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Transcript to Blog Transformer",
+      "status": "published",
+      "topics": [
+        "AI Finance Ops & Content Production"
+      ],
+      "content_clusters": [
+        "YouTube",
+        "Blog",
+        "Cross-Channel Content"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-RXJoy8U4v-transcript-to-blog-transformer",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-RXJoy8U4v-transcript-to-blog-transformer",
+      "best_for_content": [
+        "Turning existing Moonshine videos into blog spokes and updates"
+      ],
+      "recommended_cta_or_embed_role": "Internal repurposing resource",
+      "description": "Transforms video transcripts into polished, long-form blog articles.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 88,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Transforms video transcripts into polished, long-form blog articles.",
+            "slug": "transcript-to-blog-transformer"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-trend-app-architect",
+      "entity_type": "custom_gpt",
+      "title": "Trend App Architect",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Generates innovative app ideas based on Google Trends and emerging technologies",
+      "canonical_url": "https://chatgpt.com/g/g-6840373a8ba8819187c660a0f07fa029-trend-app-architect",
+      "public_url": "https://chatgpt.com/g/g-6840373a8ba8819187c660a0f07fa029-trend-app-architect",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "trend-app-architect",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 46
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-vc-backup-plan-gpt",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "VC Backup Plan GPT",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing & ETA"
+      ],
+      "content_clusters": [
+        "SaaS Financing",
+        "Startup Funding",
+        "Acquisition Financing"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-682c74f2de8881918433d48eb97f6df0-vc-backup-plan-gpt",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-682c74f2de8881918433d48eb97f6df0-vc-backup-plan-gpt",
+      "best_for_content": [
+        "Non-dilutive funding, founder capital and alternative-finance content"
+      ],
+      "recommended_cta_or_embed_role": "Alternative-capital CTA",
+      "aliases": [
+        "VC Backup Plan"
+      ],
+      "description": "Helps startup founders create a bold, tailored non-dilutive funding plan when VC isn’t working",
+      "metadata": {
+        "promotion_v1": {
+          "gpt_id_aliases": [
+            {
+              "gpt_id": "g-682c74f2de8881918433d48eb97f6df0",
+              "candidate_id": "gpt-vc-backup-plan",
+              "title": "VC Backup Plan",
+              "url": "https://chatgpt.com/g/g-682c74f2de8881918433d48eb97f6df0-vc-backup-plan"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-vercel-launch-smith",
+      "entity_type": "custom_gpt",
+      "title": "Vercel Launch Smith",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Generates deploy-ready static or Next.js sites with bold B2B copy and GitHub-ready code.",
+      "canonical_url": "https://chatgpt.com/g/g-69481ddcf79c8191b532ef06e5c67ab8-vercel-launch-smith",
+      "public_url": "https://chatgpt.com/g/g-69481ddcf79c8191b532ef06e5c67ab8-vercel-launch-smith",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "vercel-launch-smith",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 22
+          },
+          {
+            "source_registry": "site-builder-gpts.registry.json",
+            "source_path": "JSON/downloads/site-builder-gpts.registry.json",
+            "source_index": 6
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-video-vault-find-your-faceless-niche",
+      "entity_type": "custom_gpt",
+      "title": "Video Vault: Find Your Faceless Niche",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Finds profitable faceless YouTube niches with high CPM and low competition.",
+      "canonical_url": "https://chatgpt.com/g/g-680021426c648191a786bbcb02f07dc7-video-vault-find-your-faceless-niche",
+      "public_url": "https://chatgpt.com/g/g-680021426c648191a786bbcb02f07dc7-video-vault-find-your-faceless-niche",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "video-vault-find-your-faceless-niche",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 76
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-viral-decoder-reverse-engineer-top-videos",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "Viral Decoder - Reverse Engineer Top Videos",
+      "status": "published",
+      "topics": [
+        "AI Finance Ops & Content Production"
+      ],
+      "content_clusters": [
+        "YouTube",
+        "Video Strategy"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-680b3ba02a788191bb4ca24ab63e431a-viral-decoder-reverse-engineer-top-videos",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-680b3ba02a788191bb4ca24ab63e431a-viral-decoder-reverse-engineer-top-videos",
+      "best_for_content": [
+        "Reverse-engineering winning video structures and hooks"
+      ],
+      "recommended_cta_or_embed_role": "Internal YouTube research resource",
+      "description": "Reverse-engineers viral videos to reveal patterns & inspire repeatable content strategies.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 74,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Reverse-engineers viral videos to reveal patterns & inspire repeatable content strategies.",
+            "slug": "viral-decoder-reverse-engineer-top-videos"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "gpt-voice-agent-call-flow-builder",
+      "entity_type": "custom_gpt",
+      "title": "Voice Agent Call Flow Builder",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Creates review-ready voice-agent workflows with scripts, CRM maps, QA, and risk gates.",
+      "canonical_url": "https://chatgpt.com/g/g-6a2da20c24a4819193256354e3cb4233-voice-agent-call-flow-builder",
+      "public_url": "https://chatgpt.com/g/g-6a2da20c24a4819193256354e3cb4233-voice-agent-call-flow-builder",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "voice-agent-call-flow-builder",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 3
+          },
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 22
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-voiceover-script-genius",
+      "entity_type": "custom_gpt",
+      "title": "Voiceover Script Genius",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Creates engaging voiceover scripts for AI Tools and GPTs.",
+      "canonical_url": "https://chatgpt.com/g/g-Ede2SPc4C-voiceover-script-genius",
+      "public_url": "https://chatgpt.com/g/g-Ede2SPc4C-voiceover-script-genius",
+      "metadata": {
+        "alternate_urls": [
+          "https://app.notion.com/p/24a4bc1bd63c810cb53eca2d839372b1?pvs=1"
+        ],
+        "source_key": "voiceover-script-genius",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 90
+          },
+          {
+            "source_registry": "gpt-assets.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+            "source_index": 14
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "gpt-webinarwizardpro",
+      "entity_type": "custom_gpt",
+      "title": "WebinarWizardPro",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Webinar script creator for Moonshine Capital's affiliates.",
+      "canonical_url": "https://chatgpt.com/g/g-VtQqtsHI6-webinarwizardpro",
+      "public_url": "https://chatgpt.com/g/g-VtQqtsHI6-webinarwizardpro",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "webinarwizardpro",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 93
+          },
+          {
+            "source_registry": "affiliate-funding-agency-gpts.registry.json",
+            "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+            "source_index": 15
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-weekly-finance-brief-bot",
+      "entity_type": "custom_gpt",
+      "title": "Weekly Finance Brief Bot",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Turns weekly finance CSVs into concise cash-flow briefs for SMB owners and advisors.",
+      "canonical_url": "https://chatgpt.com/g/g-6a267c5d18088191b5fe15aeab7fe459-weekly-finance-brief-bot",
+      "public_url": "https://chatgpt.com/g/g-6a267c5d18088191b5fe15aeab7fe459-weekly-finance-brief-bot",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "weekly-finance-brief-bot",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 6
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-weird-talent-monetizer",
+      "entity_type": "custom_gpt",
+      "title": "Weird Talent Monetizer",
+      "status": "published",
+      "resource_type": "custom_gpt",
+      "description": "Reframe odd talents into respected, profitable careers.",
+      "canonical_url": "https://chatgpt.com/g/g-682817e1715081919d8db7ce984bae34-weird-talent-monetizer",
+      "public_url": "https://chatgpt.com/g/g-682817e1715081919d8db7ce984bae34-weird-talent-monetizer",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "custom-gpts.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "weird-talent-monetizer",
+        "evidence": [
+          {
+            "source_registry": "custom-gpts.registry.json",
+            "source_path": "JSON/downloads/custom-gpts.registry.json",
+            "source_index": 59
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "gpt-zenseo-moonshine-writer",
+      "entity_type": "custom_gpt",
+      "resource_type": "custom_gpt",
+      "title": "ZenSEO Moonshine Writer",
+      "status": "published",
+      "topics": [
+        "AI Finance Ops & Content Production"
+      ],
+      "content_clusters": [
+        "All SEO Clusters",
+        "AEO"
+      ],
+      "canonical_url": "https://chatgpt.com/g/g-6871e3b4627c81919fc968dbf25c3237-zenseo-article-writer",
+      "source": {
+        "system": "custom-gpts.registry(3).json",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://chatgpt.com/g/g-6871e3b4627c81919fc968dbf25c3237-zenseo-article-writer",
+      "best_for_content": [
+        "Drafting SEO/AEO articles aligned to Moonshine voice and structure"
+      ],
+      "recommended_cta_or_embed_role": "Internal production resource",
+      "description": "Merges Zen wit with tidal precision to craft SEO blogs that flow and rank.",
+      "aliases": [
+        "zenseo-article-writer"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 41,
+              "match_method": "exact_url"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Merges Zen wit with tidal precision to craft SEO blogs that flow and rank.",
+            "slug": "zenseo-article-writer"
+          }
+        }
+      }
+    }
+  ],
+  "promotion_v1": {
+    "promoted_date": "2026-09-02",
+    "source": "reconciliation/v1",
+    "total_resources": 107
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "registry_name": "ResourceGrid Compliance Copy Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "promotion": {
+    "source": "reconciliation/v1",
+    "promotion_pass": "v1"
+  },
+  "resources": [
+    {
+      "resource_id": "compliance-blocked-terms-all-funding-copy",
+      "entity_type": "compliance_copy",
+      "title": "Blocked Terms — All Funding Copy",
+      "status": "active",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-compliance-copy.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "blocked_terms",
+        "evidence": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "source_path": "JSON/downloads/funding-compliance-copy.registry.json",
+            "source_index": 4
+          }
+        ],
+        "source_fields": {
+          "required": true,
+          "public_visibility": true,
+          "copy_type": "blocked_terms",
+          "asset_scope": "all_funding_copy"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "copy_type": "blocked_terms",
+              "asset_scope": "all_funding_copy",
+              "terms": [
+                "guaranteed approval",
+                "you qualify",
+                "you are approved",
+                "instant approval",
+                "guaranteed funding",
+                "best rates guaranteed",
+                "no credit check guaranteed",
+                "100% approval",
+                "pre-approved without review"
+              ],
+              "replacement_terms": [
+                "may be a fit",
+                "potential funding path",
+                "funding readiness",
+                "subject to review",
+                "not an approval",
+                "not a funding offer",
+                "fast review may be available",
+                "options depend on underwriting"
+              ],
+              "required": true,
+              "public_visibility": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "compliance-internal-visibility-rule-provider-routing",
+      "entity_type": "compliance_copy",
+      "title": "Internal Visibility Rule — Provider Routing",
+      "status": "active",
+      "description": "Do not display backend lender, provider, affiliate, portal, commission, or submission-route details in public-facing tools unless explicitly approved.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-compliance-copy.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "internal_visibility_rule",
+        "evidence": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "source_path": "JSON/downloads/funding-compliance-copy.registry.json",
+            "source_index": 7
+          }
+        ],
+        "source_fields": {
+          "required": true,
+          "public_visibility": false,
+          "copy_type": "internal_visibility_rule",
+          "asset_scope": "provider_routing",
+          "approved_text": "Do not display backend lender, provider, affiliate, portal, commission, or submission-route details in public-facing tools unless explicitly approved."
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "copy_type": "internal_visibility_rule",
+              "asset_scope": "provider_routing",
+              "approved_text": "Do not display backend lender, provider, affiliate, portal, commission, or submission-route details in public-facing tools unless explicitly approved.",
+              "required": true,
+              "public_visibility": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "compliance-lead-capture-consent-scorecards-quizzes-widgets",
+      "entity_type": "compliance_copy",
+      "title": "Lead Capture Consent — Scorecards Quizzes Widgets",
+      "status": "active",
+      "description": "I agree to be contacted about funding options and understand this score is not an approval, offer, or guarantee of funding.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-compliance-copy.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "lead_capture_consent",
+        "evidence": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "source_path": "JSON/downloads/funding-compliance-copy.registry.json",
+            "source_index": 1
+          }
+        ],
+        "source_fields": {
+          "required": true,
+          "public_visibility": true,
+          "copy_type": "lead_capture_consent",
+          "asset_scope": "scorecards_quizzes_widgets",
+          "approved_text": "I agree to be contacted about funding options and understand this score is not an approval, offer, or guarantee of funding."
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "copy_type": "lead_capture_consent",
+              "asset_scope": "scorecards_quizzes_widgets",
+              "approved_text": "I agree to be contacted about funding options and understand this score is not an approval, offer, or guarantee of funding.",
+              "required": true,
+              "public_visibility": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "compliance-manual-review-language-routing-results",
+      "entity_type": "compliance_copy",
+      "title": "Manual Review Language — Routing Results",
+      "status": "active",
+      "description": "Your file may require a manual strategy review because the best path depends on details that should not be decided by a quiz alone.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-compliance-copy.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "manual_review_language",
+        "evidence": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "source_path": "JSON/downloads/funding-compliance-copy.registry.json",
+            "source_index": 6
+          }
+        ],
+        "source_fields": {
+          "required": false,
+          "public_visibility": true,
+          "copy_type": "manual_review_language",
+          "asset_scope": "routing_results",
+          "approved_text": "Your file may require a manual strategy review because the best path depends on details that should not be decided by a quiz alone."
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "copy_type": "manual_review_language",
+              "asset_scope": "routing_results",
+              "approved_text": "Your file may require a manual strategy review because the best path depends on details that should not be decided by a quiz alone.",
+              "required": false,
+              "public_visibility": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "compliance-required-disclaimer-all-funding-tools",
+      "entity_type": "compliance_copy",
+      "title": "Required Disclaimer — All Funding Tools",
+      "status": "active",
+      "description": "This tool is for educational and pre-qualification guidance only. It is not an approval, commitment to lend, or guarantee of funding. Actual options depend on underwriting review, documentation, lender criteria, business performance, credit profile, and other factors.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-compliance-copy.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "required_disclaimer",
+        "evidence": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "source_path": "JSON/downloads/funding-compliance-copy.registry.json",
+            "source_index": 0
+          }
+        ],
+        "source_fields": {
+          "required": true,
+          "public_visibility": true,
+          "copy_type": "required_disclaimer",
+          "asset_scope": "all_funding_tools",
+          "approved_text": "This tool is for educational and pre-qualification guidance only. It is not an approval, commitment to lend, or guarantee of funding. Actual options depend on underwriting review, documentation, lender criteria, business performance, credit profile, and other factors."
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "copy_type": "required_disclaimer",
+              "asset_scope": "all_funding_tools",
+              "approved_text": "This tool is for educational and pre-qualification guidance only. It is not an approval, commitment to lend, or guarantee of funding. Actual options depend on underwriting review, documentation, lender criteria, business performance, credit profile, and other factors.",
+              "required": true,
+              "public_visibility": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "compliance-safe-terms-all-funding-copy",
+      "entity_type": "compliance_copy",
+      "title": "Safe Terms — All Funding Copy",
+      "status": "active",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-compliance-copy.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "safe_terms",
+        "evidence": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "source_path": "JSON/downloads/funding-compliance-copy.registry.json",
+            "source_index": 3
+          }
+        ],
+        "source_fields": {
+          "required": false,
+          "public_visibility": true,
+          "copy_type": "safe_terms",
+          "asset_scope": "all_funding_copy"
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "copy_type": "safe_terms",
+              "asset_scope": "all_funding_copy",
+              "terms": [
+                "funding readiness score",
+                "potential funding paths",
+                "may be a fit",
+                "based on your answers",
+                "recommended next step",
+                "subject to review",
+                "not an approval",
+                "not a funding offer",
+                "options may depend on documentation",
+                "manual review may be required"
+              ],
+              "required": false,
+              "public_visibility": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "compliance-score-result-safe-intro-funding-readiness-scorecard",
+      "entity_type": "compliance_copy",
+      "title": "Score Result Safe Intro — Funding Readiness Scorecard",
+      "status": "active",
+      "description": "Based on your answers, here is your funding readiness score, potential funding paths, possible blockers, and recommended next steps. This is not an approval or funding offer.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-compliance-copy.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "score_result_safe_intro",
+        "evidence": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "source_path": "JSON/downloads/funding-compliance-copy.registry.json",
+            "source_index": 5
+          }
+        ],
+        "source_fields": {
+          "required": true,
+          "public_visibility": true,
+          "copy_type": "score_result_safe_intro",
+          "asset_scope": "funding_readiness_scorecard",
+          "approved_text": "Based on your answers, here is your funding readiness score, potential funding paths, possible blockers, and recommended next steps. This is not an approval or funding offer."
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "copy_type": "score_result_safe_intro",
+              "asset_scope": "funding_readiness_scorecard",
+              "approved_text": "Based on your answers, here is your funding readiness score, potential funding paths, possible blockers, and recommended next steps. This is not an approval or funding offer.",
+              "required": true,
+              "public_visibility": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "compliance-white-label-provider-language-public-results",
+      "entity_type": "compliance_copy",
+      "title": "White Label Provider Language — Public Results",
+      "status": "active",
+      "description": "You may fit one or more funding paths in the Moonshine Capital network.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-compliance-copy.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "white_label_provider_language",
+        "evidence": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "source_path": "JSON/downloads/funding-compliance-copy.registry.json",
+            "source_index": 2
+          }
+        ],
+        "source_fields": {
+          "required": false,
+          "public_visibility": true,
+          "copy_type": "white_label_provider_language",
+          "asset_scope": "public_results",
+          "approved_text": "You may fit one or more funding paths in the Moonshine Capital network."
+        },
+        "source_records": [
+          {
+            "source_registry": "funding-compliance-copy.registry.json",
+            "record": {
+              "schema_version": "1.0.0",
+              "copy_type": "white_label_provider_language",
+              "asset_scope": "public_results",
+              "approved_text": "You may fit one or more funding paths in the Moonshine Capital network.",
+              "required": false,
+              "public_visibility": true
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,1 +1,62 @@
-{"registry_name":"ResourceGrid Affiliate Partner Registry","registry_version":"1.0.0","generated_date":"2026-09-02","migration":{"legacy_rows":73,"canonical_entities":69,"deduplicated_rows":4},"resources":[{"resource_id":"affiliate-flippa-referral","entity_type":"affiliate_partner","resource_type":"external_resource","title":"Flippa Referral","status":"active","topics":["Digital Business Acquisitions"],"content_clusters":["Digital Business Acquisitions","Flippa","Acquisition Financing"],"canonical_url":"https://referral.flippa.com/ahlrm16w43ai","source":{"system":"Owner-provided partner link","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://referral.flippa.com/ahlrm16w43ai","best_for_content":["Flippa reviews, marketplace comparisons, digital-business acquisition financing"],"recommended_cta_or_embed_role":"Marketplace/referral CTA"},{"resource_id":"affiliate-kiavi-partner-link","entity_type":"affiliate_partner","resource_type":"external_resource","title":"Kiavi Partner Link","status":"active","topics":["Real Estate Investor Financing"],"content_clusters":["Real Estate Funding","Fix-and-Flip","Bridge Loans"],"canonical_url":"https://try.kiavi.com/8rcvpme017fh","source":{"system":"Owner-provided partner link","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"public_url":"https://try.kiavi.com/8rcvpme017fh","best_for_content":["Kiavi review, New Silver vs Kiavi, fix-and-flip lender comparisons"],"recommended_cta_or_embed_role":"Provider application/referral CTA"}]}
+{
+  "registry_name": "ResourceGrid Affiliate Partner Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "migration": {
+    "legacy_rows": 73,
+    "canonical_entities": 69,
+    "deduplicated_rows": 4
+  },
+  "resources": [
+    {
+      "resource_id": "affiliate-flippa-referral",
+      "entity_type": "affiliate_partner",
+      "resource_type": "external_resource",
+      "title": "Flippa Referral",
+      "status": "active",
+      "topics": [
+        "Digital Business Acquisitions"
+      ],
+      "content_clusters": [
+        "Digital Business Acquisitions",
+        "Flippa",
+        "Acquisition Financing"
+      ],
+      "canonical_url": "https://referral.flippa.com/ahlrm16w43ai",
+      "source": {
+        "system": "Owner-provided partner link",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://referral.flippa.com/ahlrm16w43ai",
+      "best_for_content": [
+        "Flippa reviews, marketplace comparisons, digital-business acquisition financing"
+      ],
+      "recommended_cta_or_embed_role": "Marketplace/referral CTA"
+    },
+    {
+      "resource_id": "affiliate-kiavi-partner-link",
+      "entity_type": "affiliate_partner",
+      "resource_type": "external_resource",
+      "title": "Kiavi Partner Link",
+      "status": "active",
+      "topics": [
+        "Real Estate Investor Financing"
+      ],
+      "content_clusters": [
+        "Real Estate Funding",
+        "Fix-and-Flip",
+        "Bridge Loans"
+      ],
+      "canonical_url": "https://try.kiavi.com/8rcvpme017fh",
+      "source": {
+        "system": "Owner-provided partner link",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "public_url": "https://try.kiavi.com/8rcvpme017fh",
+      "best_for_content": [
+        "Kiavi review, New Silver vs Kiavi, fix-and-flip lender comparisons"
+      ],
+      "recommended_cta_or_embed_role": "Provider application/referral CTA"
+    }
+  ]
+}

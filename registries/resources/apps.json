@@ -1,0 +1,1058 @@
+{
+  "registry_name": "ResourceGrid Apps and External AI Resources Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "promotion": {
+    "source": "reconciliation/v1",
+    "promotion_pass": "v1"
+  },
+  "resources": [
+    {
+      "resource_id": "app-acquiremeta",
+      "entity_type": "external_resource",
+      "title": "AcquireMeta",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A meta-marketplace aggregating online businesses for sale from multiple platforms like Empire Flippers, Flippa, and Acquire. Features AI-powered deal analysis.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1JBcz0FSma7frhhmUucnaCFsyKq4G1_5U?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1JBcz0FSma7frhhmUucnaCFsyKq4G1_5U?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "acquiremeta",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 14
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-acquistack-ai",
+      "entity_type": "external_resource",
+      "title": "AcquiStack AI",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "An AI-powered M&A Copilot for structuring SBA-compliant acquisitions. This application helps users design and validate acquisition capital stacks for small businesses using a suite of specialized AI agents.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/11hWJ-gCDiRst0JVa1R-RcIgqO02scmII?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/11hWJ-gCDiRst0JVa1R-RcIgqO02scmII?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "acquistack-ai",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 40
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-aether",
+      "entity_type": "external_resource",
+      "title": "Aether",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A spatial intelligence workspace that transforms chaos into structure using Gemini AI.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1wvpczOwEf3e8xfvePKxquBziSItAQKV5?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1wvpczOwEf3e8xfvePKxquBziSItAQKV5?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "aether",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 38
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-agent-grid-luxury-ai-magazine",
+      "entity_type": "external_resource",
+      "title": "Agent Grid - Luxury AI Magazine",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A high-end, luxury-futurism magazine for AI agents, GPTs, and automation workflows. Featuring modular bento grids and cinematic typography.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1rGooN6UfTJNGOdhnRvoYNAN4tW-3SD8B?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1rGooN6UfTJNGOdhnRvoYNAN4tW-3SD8B?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "agent-grid-luxury-ai-magazine",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 31
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-ai-funding-pathfinder",
+      "entity_type": "external_resource",
+      "title": "AI Funding Pathfinder",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "An intelligent assistant for business owners to find the most suitable funding path. The app asks a few diagnostic questions and provides tailored recommendations, risk analysis, and actionable next steps.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1P9SpeHI1QKqppbUtS2Sg64q8kvzmUYDA?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1P9SpeHI1QKqppbUtS2Sg64q8kvzmUYDA?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ai-funding-pathfinder",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 12
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-axiom-luxury-curation",
+      "entity_type": "external_resource",
+      "title": "AXIOM - Luxury Curation",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A premium, editorial-grade directory and magazine for intelligent systems, AI agents, and machine infrastructure.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/16uFcrWiFW_U7DRuu8_mnqLEpm9OtmFnC?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/16uFcrWiFW_U7DRuu8_mnqLEpm9OtmFnC?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "axiom-luxury-curation",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 27
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-bizcredit-os",
+      "entity_type": "external_resource",
+      "title": "BizCredit OS",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "Business Credit Building Automation - Turn business credit building from a mysterious checklist into a guided operating system.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1YkH6tUNDx9K37N6zlnxmGo2joIceadPa?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1YkH6tUNDx9K37N6zlnxmGo2joIceadPa?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bizcredit-os",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 20
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-bizfin-os-smart-banking",
+      "entity_type": "external_resource",
+      "title": "BizFin OS - Smart Banking",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A unified banking control plane for scaling SMBs. Aggregate accounts, detect churn, and monitor cash flow in real-time.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1sUsb6cm0xKmZU8ppHEl_Twr1mrbT3qjx?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1sUsb6cm0xKmZU8ppHEl_Twr1mrbT3qjx?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "bizfin-os-smart-banking",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 23
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-capitalos-fintech-architecture",
+      "entity_type": "external_resource",
+      "title": "CapitalOS - Fintech Architecture",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A high-performance B2B fintech landing page based on the Financia archetype. Designed for capital deployment, cash flow automation, and funding approvals.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1_ApblirCOako9wIE33WpxYiPYnEc15Rk?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1_ApblirCOako9wIE33WpxYiPYnEc15Rk?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "capitalos-fintech-architecture",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 5
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-distilled-funding",
+      "entity_type": "external_resource",
+      "title": "Distilled Funding",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A premium marketplace for alternative financing and fintech providers.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1FalaIZ0hG2IaE4bb1dIMlMqkLa4kiAwe?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1FalaIZ0hG2IaE4bb1dIMlMqkLa4kiAwe?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "distilled-funding",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 7
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-elitebroker-ai",
+      "entity_type": "external_resource",
+      "title": "EliteBroker AI",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "Strategic advisor for business funding and affiliate loan brokering, helping entrepreneurs build professional commercial finance agencies.",
+      "canonical_url": "https://aistudio.google.com/apps/5996bcb2-ecba-404f-b9b6-7d2d13ed7c07?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/5996bcb2-ecba-404f-b9b6-7d2d13ed7c07?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "elitebroker-ai",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-flash-ui",
+      "entity_type": "external_resource",
+      "title": "Flash UI",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "Put Gemini 3 Flash's creativity and coding abilities to the test. Rapidly generate UI, explore variations, and export code.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1erjX9x2d-3Zjntvo9mBq3ljw97BLBXSC?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1erjX9x2d-3Zjntvo9mBq3ljw97BLBXSC?showPreview=true&showAssistant=true",
+      "metadata": {
+        "alternate_urls": [
+          "https://aistudio.google.com/apps/7cfb8a32-d135-4404-addc-f331097b1935?showPreview=true&showAssistant=true",
+          "https://aistudio.google.com/apps/drive/1xkqh8KBN11CsOlBNUZV4ka1nUPFP0e9p?showPreview=true&showAssistant=true"
+        ],
+        "source_key": "flash-ui",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 4
+          },
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 26
+          },
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 3
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "app-flow-finance",
+      "entity_type": "external_resource",
+      "title": "Flow Finance",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "Streamlined cash flow and automated financial operations for the modern automated CFO.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1vUGeZWfsGZwZ9HQ7y2kh_JAYmQOjNzGG?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1vUGeZWfsGZwZ9HQ7y2kh_JAYmQOjNzGG?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "flow-finance",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 22
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-flowstate-managed-cash-flow",
+      "entity_type": "external_resource",
+      "title": "FlowState - Managed Cash Flow",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A high-end productized service platform for managed cash flow forecasting and financial insights, inspired by top-tier SaaS design.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1HrXvlbqC_LDKmJ1M3YtlG24V31DRjh9h?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1HrXvlbqC_LDKmJ1M3YtlG24V31DRjh9h?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "flowstate-managed-cash-flow",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 9
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-foundry-os",
+      "entity_type": "external_resource",
+      "title": "Foundry OS",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "Automated and Managed Micro-SaaS for Business Credit Building. Infrastructure for Infinite Leverage.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1nNXHNKdatYLm7gdkjDKQ-3lMuuD4MTiD?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1nNXHNKdatYLm7gdkjDKQ-3lMuuD4MTiD?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "foundry-os",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 13
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-funding-partners-os-agent-dashboard",
+      "entity_type": "external_resource",
+      "title": "Funding Partners OS - Agent Dashboard",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A high-velocity, exclusive dark-mode fintech dashboard for agents to manage deals, track commissions, and access marketing tools.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1UoPydsBlD7uFRMtIiDfcXP9HSvzJeA_r?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1UoPydsBlD7uFRMtIiDfcXP9HSvzJeA_r?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "funding-partners-os-agent-dashboard",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 16
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-gemini-appsmith",
+      "entity_type": "external_resource",
+      "title": "Gemini AppSmith",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "An interface to define requirements for custom AI applications, configure Gemini models, and generate structured specifications. This app embodies the Gemini AppSmith persona, helping users translate ideas into well-defined AI app specs.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1pv3JcEgF8n-iMZrTBTUIru7yMl-FRhhx?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1pv3JcEgF8n-iMZrTBTUIru7yMl-FRhhx?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "gemini-appsmith",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 15
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-gemini-blueprint-studio",
+      "entity_type": "external_resource",
+      "title": "Gemini Blueprint Studio",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "An application that takes a user's app idea and generates a complete development package, including requirements, system prompts, model configurations, and documentation, using the Gemini API.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1y-MOg4Hp4sH6L9zeSEIZhB26cujQVndT?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1y-MOg4Hp4sH6L9zeSEIZhB26cujQVndT?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "gemini-blueprint-studio",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 18
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-gemini-chat-widget",
+      "entity_type": "external_resource",
+      "title": "Gemini Chat Widget",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A configurable, mobile-friendly chat widget powered by Google Gemini, adapted for client-side rendering.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1AF9Bg7UlxNfnL9TKrti2Rq6eaQ2a2KOS?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1AF9Bg7UlxNfnL9TKrti2Rq6eaQ2a2KOS?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "gemini-chat-widget",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 41
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-gemini-google-tasks-integrator",
+      "entity_type": "external_resource",
+      "title": "Gemini Google Tasks Integrator",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "An interactive chat application that demonstrates how to use Gemini's function calling capabilities to manage a simulated Google Tasks list. Users can add, list, and update tasks using natural language.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1wOZd_AkXX35gbm1IelswS-XKE5CZt-bu?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1wOZd_AkXX35gbm1IelswS-XKE5CZt-bu?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "gemini-google-tasks-integrator",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 43
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-gemini-insight-bento",
+      "entity_type": "external_resource",
+      "title": "Gemini Insight Bento",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "An AI-powered dashboard featuring a responsive Bento Grid layout. Each card uses the Gemini API to generate real-time insights across various domains like innovation, design, and technology.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1XRapfc2xseUPDZS3gSsqM4QMyFypJsev?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1XRapfc2xseUPDZS3gSsqM4QMyFypJsev?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "gemini-insight-bento",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 32
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-google-ai-studio-app-builder",
+      "entity_type": "external_resource",
+      "title": "Google AI Studio App Builder",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "An expert AI Agent that helps you design, develop, and deploy custom applications in Google AI Studio by generating optimized system prompts and configurations.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1e3yPG8IyvhfNpcva0s2Ime5DcjNsyT8H?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1e3yPG8IyvhfNpcva0s2Ime5DcjNsyT8H?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "google-ai-studio-app-builder",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 10
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-juliet-foxtrot-ventures",
+      "entity_type": "external_resource",
+      "title": "Juliet Foxtrot Ventures",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A luxury-level, metamodern venture studio website for Juliet Foxtrot Ventures (JFV), featuring high-end aesthetics and fintech/AI narratives.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1pLh_cPNmXE2CpQ8r9EQR0f5oijUysz3n?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1pLh_cPNmXE2CpQ8r9EQR0f5oijUysz3n?showPreview=true&showAssistant=true",
+      "metadata": {
+        "alternate_urls": [
+          "https://aistudio.google.com/apps/drive/1_2MuJBYq9MG7m0Un1cX9T9Izcw0RKmvJ?showPreview=true&showAssistant=true"
+        ],
+        "source_key": "juliet-foxtrot-ventures",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 35
+          },
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 21
+          }
+        ]
+      },
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      }
+    },
+    {
+      "resource_id": "app-moonshine-capital-partner-welcome",
+      "entity_type": "external_resource",
+      "title": "Moonshine Capital Partner Welcome",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A professional onboarding welcome page for new partners of Moonshine Capital, featuring step-by-step guidance and call-to-action buttons.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1dCI9iHSwh5Aw-tRxxbOv5PVjKUIym9b1?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1dCI9iHSwh5Aw-tRxxbOv5PVjKUIym9b1?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "moonshine-capital-partner-welcome",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 6
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-myfigures-partner-program-onboarding",
+      "entity_type": "external_resource",
+      "title": "MyFigures Partner Program Onboarding",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A professional and high-converting affiliate onboarding landing page for the MyFigures partner program, featuring tiered commission structures, real-time tracking benefits, and an AI-powered partner assistant.",
+      "canonical_url": "https://aistudio.google.com/apps/6bc8a4a1-41af-4c16-885a-a2b3e277ed0a?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/6bc8a4a1-41af-4c16-885a-a2b3e277ed0a?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "myfigures-partner-program-onboarding",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 8
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-nichenavigator",
+      "entity_type": "external_resource",
+      "title": "NicheNavigator",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A B2B market research tool that identifies profitable micro-SaaS and service business opportunities by analyzing expensive business problems.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1L6AKw5fqYBI9CSXaLbiNZYujDJ5GcKh3?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1L6AKw5fqYBI9CSXaLbiNZYujDJ5GcKh3?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "nichenavigator",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 11
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-orbital-synthetic-intelligence-hud",
+      "entity_type": "external_resource",
+      "title": "ORBITAL - Synthetic Intelligence HUD",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A high-fidelity, multimodal AI command center featuring real-time voice interaction, advanced vision analysis, and reasoning engines using the Gemini 2.5 API.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1nrjtp95vRaK13rUyqrp2Ey0hwDWpdoAi?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1nrjtp95vRaK13rUyqrp2Ey0hwDWpdoAi?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "orbital-synthetic-intelligence-hud",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 42
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-partnerlaunch",
+      "entity_type": "external_resource",
+      "title": "PartnerLaunch",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A comprehensive toolkit for funding partners to generate, preview, and deploy engagement widgets for their brokerage websites.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1YeKkhzeP2FKMHqJMLI5awMV4exba0T3c?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1YeKkhzeP2FKMHqJMLI5awMV4exba0T3c?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partnerlaunch",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 17
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-partnerlaunch-funding-widget-suite",
+      "entity_type": "external_resource",
+      "title": "PartnerLaunch - Funding Widget Suite",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A comprehensive toolkit for funding partners to generate, preview, and deploy engagement widgets for their brokerage websites.",
+      "canonical_url": "https://aistudio.google.com/apps/e3a388ee-610e-47fa-9ee2-eb7bfb9c6c07?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/e3a388ee-610e-47fa-9ee2-eb7bfb9c6c07?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partnerlaunch-funding-widget-suite",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-phantom-cash-calculator",
+      "entity_type": "external_resource",
+      "title": "Phantom Cash Calculator",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A diagnostic tool for Amazon sellers to calculate capital trapped by the DD+7 policy.",
+      "canonical_url": "https://aistudio.google.com/apps/ad483442-f493-4b5c-b23f-2abacc78d793?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/ad483442-f493-4b5c-b23f-2abacc78d793?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "phantom-cash-calculator",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 2
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-prompt-lab-magazine",
+      "entity_type": "external_resource",
+      "title": "Prompt Lab Magazine",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A luxury-futurism editorial platform for AI builders, featuring deep dives into multimodal AI, automation, and the future of prompt engineering.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1c1WASZr4q7t4Jf8Xv0zAIdIqbJJjFNr0?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1c1WASZr4q7t4Jf8Xv0zAIdIqbJJjFNr0?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "prompt-lab-magazine",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 29
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-territory-commander",
+      "entity_type": "external_resource",
+      "title": "Territory Commander",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "Tactical execution planner for business funding brokers to dominate local markets through disciplined territory saturation.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1szYoRTopobKh73DCjnQx6NM9YPPJnNi0?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1szYoRTopobKh73DCjnQx6NM9YPPJnNi0?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "territory-commander",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 24
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-the-architect-nexus",
+      "entity_type": "external_resource",
+      "title": "The Architect // Nexus",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A high-performance AI-driven interface that generates conceptual web blueprints, marketing copy, and aesthetic systems based on user directives.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1Mv7srOhZYopptdjesNWDov8btsiomPnh?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1Mv7srOhZYopptdjesNWDov8btsiomPnh?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "the-architect-nexus",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 39
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-the-capital-stack",
+      "entity_type": "external_resource",
+      "title": "The Capital Stack",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A static, high-performance website showcasing The Capital Stack newsletter network.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1pD-ZE3W8sWvIS9TxPBKmDkWOJhLIATyT?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1pD-ZE3W8sWvIS9TxPBKmDkWOJhLIATyT?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "the-capital-stack",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 36
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-the-index-luxury-magazine-directory",
+      "entity_type": "external_resource",
+      "title": "The Index - Luxury Magazine Directory",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A high-end, editorial-style directory and magazine hybrid featuring bento-grid layouts, cinematic micro-interactions, and premium curation logic.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1mw8eI80bWkStand4TTtfQFTylztZC7yN?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1mw8eI80bWkStand4TTtfQFTylztZC7yN?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "the-index-luxury-magazine-directory",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 28
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-vanguard-gtm",
+      "entity_type": "external_resource",
+      "title": "Vanguard GTM",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A tactical Go-To-Market deployment engine that generates strategic growth specs and conversion-optimized code.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1ErLnvJ_0lr8QAbaOPWal5m0-9j33XRk8?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1ErLnvJ_0lr8QAbaOPWal5m0-9j33XRk8?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "vanguard-gtm",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 34
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-velvet-and-void",
+      "entity_type": "external_resource",
+      "title": "Velvet & Void",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A visually arresting, AI-powered creative agency that manifests brand concepts into reality using Gemini models.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1CvKJNRaZzSLZs79sXx2iptvkxXdLC5yX?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1CvKJNRaZzSLZs79sXx2iptvkxXdLC5yX?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "velvet-void",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 37
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-venture-build-ai",
+      "entity_type": "external_resource",
+      "title": "Venture Build AI",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "An AI-powered strategic partner for launching websites. Generates site replicas or advisory reports based on project briefs.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1mP1MxDX0wy0iushLm1B7pDXmYpz7-vEQ?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1mP1MxDX0wy0iushLm1B7pDXmYpz7-vEQ?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "venture-build-ai",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 19
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-vibe-site-smith",
+      "entity_type": "external_resource",
+      "title": "Vibe Site Smith",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "An AI-powered website generator that turns abstract ideas into deployable code instantly. Features a vibe-driven interface and real-time code preview.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1zo6y5leYrPD3Guft4yguplga-fjg-TyT?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1zo6y5leYrPD3Guft4yguplga-fjg-TyT?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "vibe-site-smith",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 30
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-vidiom-ai",
+      "entity_type": "external_resource",
+      "title": "Vidiom AI",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A high-performance video transcription and analysis tool powered by Gemini 3. Extracts transcripts from uploaded videos or analyzes public URLs using search grounding.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1UVC11ovfF0oMUXw-uxWZFt1loBkV5sCA?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1UVC11ovfF0oMUXw-uxWZFt1loBkV5sCA?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "vidiom-ai",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 25
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "app-wrapperforge",
+      "entity_type": "external_resource",
+      "title": "WrapperForge",
+      "status": "active",
+      "resource_type": "external_resource",
+      "description": "A comprehensive studio for building, designing, and generating code for AI Wrappers (custom GPTs). Features template suggestions, architectural advice for n8n/webhooks, and instant frontend code generation.",
+      "canonical_url": "https://aistudio.google.com/apps/drive/1pXmcUOE133PU31_fON8-r1HgFc-dShSC?showPreview=true&showAssistant=true",
+      "public_url": "https://aistudio.google.com/apps/drive/1pXmcUOE133PU31_fON8-r1HgFc-dShSC?showPreview=true&showAssistant=true",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "ai-studio-apps.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "wrapperforge",
+        "evidence": [
+          {
+            "source_registry": "ai-studio-apps.registry.json",
+            "source_path": "JSON/downloads/ai-studio-apps.registry.json",
+            "source_index": 33
+          }
+        ]
+      }
+    }
+  ]
+}

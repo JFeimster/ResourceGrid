@@ -1,1 +1,674 @@
-{"registry_name":"ResourceGrid Tool, Workflow & Notion Resource Registry","registry_version":"1.0.0","generated_date":"2026-09-02","migration":{"legacy_rows":73,"canonical_entities":69,"deduplicated_rows":4},"resources":[{"resource_id":"notion-funding-pathfinder-gpt","entity_type":"notion_resource","resource_type":"notion_resource","title":"Funding Pathfinder GPT","status":"active","topics":["Funding Readiness & Business Funding"],"content_clusters":["Funding Readiness","Business Funding"],"canonical_url":"https://app.notion.com/p/2314bc1bd63c80bba4c4da7e5d224786","source":{"system":"Notion workspace","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"internal_url":"https://app.notion.com/p/2314bc1bd63c80bba4c4da7e5d224786","best_for_content":["Lender/product routing, qualification and next-step content"],"recommended_cta_or_embed_role":"Internal routing resource or reader CTA when a public surface exists"},{"resource_id":"notion-bank-statement-analyzer-funding-readiness","entity_type":"notion_resource","resource_type":"notion_resource","title":"Bank Statement Analyzer (Funding Readiness)","status":"active","topics":["Funding Readiness & Business Funding"],"content_clusters":["Funding Readiness","Underwriting","Cash Flow"],"canonical_url":"https://app.notion.com/p/52b575b256ef40e2b3bd98b56e77138c","source":{"system":"Notion workspace","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"internal_url":"https://app.notion.com/p/52b575b256ef40e2b3bd98b56e77138c","best_for_content":["Bank-statement, underwriting and cash-flow readiness content"],"recommended_cta_or_embed_role":"Diagnostic supporting resource"},{"resource_id":"notion-lender-fit-routing-copilot","entity_type":"notion_resource","resource_type":"notion_resource","title":"Lender Fit Routing Copilot","status":"active","topics":["Funding Readiness & Business Funding"],"content_clusters":["Funding Readiness","Business Funding"],"canonical_url":"https://app.notion.com/p/39f4bc1bd63c8148b616e933872bb810","source":{"system":"Notion workspace","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"internal_url":"https://app.notion.com/p/39f4bc1bd63c8148b616e933872bb810","best_for_content":["Product-fit, lender-fit and comparison articles"],"recommended_cta_or_embed_role":"Routing/fit CTA"},{"resource_id":"notion-funding-data-room-copilot","entity_type":"notion_resource","resource_type":"notion_resource","title":"Funding Data Room Copilot","status":"active","topics":["Funding Readiness & Business Funding"],"content_clusters":["Funding Readiness","Loan Documents"],"canonical_url":"https://app.notion.com/p/39e4bc1bd63c81d68750eb01fbd32baa","source":{"system":"Notion workspace","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"internal_url":"https://app.notion.com/p/39e4bc1bd63c81d68750eb01fbd32baa","best_for_content":["Document readiness, lender packets and funding-data-room articles"],"recommended_cta_or_embed_role":"Document-readiness CTA"},{"resource_id":"notion-bizcredit-builder-gpt","entity_type":"notion_resource","resource_type":"notion_resource","title":"BizCredit Builder GPT","status":"active","topics":["Business Credit & Fundability"],"content_clusters":["Business Credit","Tradelines","Funding Readiness"],"canonical_url":"https://app.notion.com/p/2034bc1bd63c802e841bfb481eb58207","source":{"system":"Notion workspace","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"internal_url":"https://app.notion.com/p/2034bc1bd63c802e841bfb481eb58207","best_for_content":["Tradelines, reporting, business-credit profile and fundability content"],"recommended_cta_or_embed_role":"Interactive business-credit CTA"},{"resource_id":"notion-deal-scorecard-gpt","entity_type":"notion_resource","resource_type":"notion_resource","title":"Deal Scorecard GPT","status":"active","topics":["Acquisition Financing & ETA"],"content_clusters":["Acquisition Financing","Deal Analysis"],"canonical_url":"https://app.notion.com/p/2034bc1bd63c80d3a769c246bc4cf684","source":{"system":"Notion workspace","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"internal_url":"https://app.notion.com/p/2034bc1bd63c80d3a769c246bc4cf684","best_for_content":["Deal quality, acquisition underwriting and buyer-readiness content"],"recommended_cta_or_embed_role":"Deal-analysis CTA"},{"resource_id":"notion-is-this-a-good-deal-gpt","entity_type":"notion_resource","resource_type":"notion_resource","title":"Is This a Good Deal? GPT","status":"active","topics":["Acquisition Financing & ETA"],"content_clusters":["Acquisition Financing","Deal Analysis"],"canonical_url":"https://app.notion.com/p/24a4bc1bd63c81258447e8b983818258","source":{"system":"Notion workspace","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"internal_url":"https://app.notion.com/p/24a4bc1bd63c81258447e8b983818258","best_for_content":["Marketplace listings, Flippa/Empire Flippers and acquisition due diligence"],"recommended_cta_or_embed_role":"Deal-quality CTA"},{"resource_id":"notion-finance-ops-copilot","entity_type":"notion_resource","resource_type":"notion_resource","title":"Finance Ops Copilot","status":"active","topics":["AI Finance Ops & Content Production"],"content_clusters":["AI Finance Ops","Cash Flow","Emerging Fintech"],"canonical_url":"https://app.notion.com/p/3794bc1bd63c80999598f5c5f2bd8221","source":{"system":"Notion workspace","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"internal_url":"https://app.notion.com/p/3794bc1bd63c80999598f5c5f2bd8221","best_for_content":["FinOps, financial automation and working-capital operations content"],"recommended_cta_or_embed_role":"Interactive finance-ops resource"},{"resource_id":"workflow-funding-readiness-review-skill","entity_type":"workflow","resource_type":"workflow","title":"Funding Readiness Review Skill","status":"live","topics":["Funding Readiness & Business Funding"],"content_clusters":["Funding Readiness","Loan Broker"],"canonical_url":"https://core-tools.vercel.app/tools/funding-readiness-review","source":{"system":"Vercel core-tools + GitHub JFeimster/core-tools","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"repo_url":"https://github.com/JFeimster/core-tools","public_url":"https://core-tools.vercel.app/tools/funding-readiness-review","best_for_content":["Broker/operator readiness-review content"],"recommended_cta_or_embed_role":"Internal workflow or supporting CTA"},{"resource_id":"workflow-lender-match-brief-skill","entity_type":"workflow","resource_type":"workflow","title":"Lender Match Brief Skill","status":"live","topics":["Funding Readiness & Business Funding"],"content_clusters":["Funding Readiness","Loan Broker"],"canonical_url":"https://core-tools.vercel.app/tools/lender-match-brief","source":{"system":"Vercel core-tools + GitHub JFeimster/core-tools","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"repo_url":"https://github.com/JFeimster/core-tools","public_url":"https://core-tools.vercel.app/tools/lender-match-brief","best_for_content":["Lender-fit and routing articles"],"recommended_cta_or_embed_role":"Deal-routing resource"},{"resource_id":"tool-real-estate-proof-of-funds-generator","entity_type":"tool","resource_type":"tool","title":"Real Estate Proof of Funds Generator","status":"live","topics":["Real Estate Investor Financing"],"content_clusters":["Real Estate Funding"],"canonical_url":"https://core-tools.vercel.app/tools/real-estate-proof-of-funds-pof-generator","source":{"system":"Vercel core-tools + GitHub JFeimster/core-tools","source_file":"moonshine-content-resource-relationships-expanded(2).json"},"repo_url":"https://github.com/JFeimster/core-tools","public_url":"https://core-tools.vercel.app/tools/real-estate-proof-of-funds-pof-generator","best_for_content":["Proof-of-funds and offer-preparation content"],"recommended_cta_or_embed_role":"POF resource"}]}
+{
+  "registry_name": "ResourceGrid Tool, Workflow & Notion Resource Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "migration": {
+    "legacy_rows": 73,
+    "canonical_entities": 69,
+    "deduplicated_rows": 4
+  },
+  "resources": [
+    {
+      "resource_id": "notion-bank-statement-analyzer-funding-readiness",
+      "entity_type": "notion_resource",
+      "resource_type": "notion_resource",
+      "title": "Bank Statement Analyzer (Funding Readiness)",
+      "status": "active",
+      "topics": [
+        "Funding Readiness & Business Funding"
+      ],
+      "content_clusters": [
+        "Funding Readiness",
+        "Underwriting",
+        "Cash Flow"
+      ],
+      "canonical_url": "https://app.notion.com/p/52b575b256ef40e2b3bd98b56e77138c",
+      "source": {
+        "system": "Notion workspace",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "internal_url": "https://app.notion.com/p/52b575b256ef40e2b3bd98b56e77138c",
+      "best_for_content": [
+        "Bank-statement, underwriting and cash-flow readiness content"
+      ],
+      "recommended_cta_or_embed_role": "Diagnostic supporting resource",
+      "description": "Reviews bank statements and returns a risk report (NSFs, average daily balance, deposit consistency, red flags) before applying.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 2,
+          "sources": [
+            {
+              "source_registry": "affiliate-funding-agency-gpts.registry.json",
+              "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+              "source_index": 23,
+              "match_method": "exact_title"
+            },
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 9,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "Reviews bank statements and returns a risk report (NSFs, average daily balance, deposit consistency, red flags) before applying.",
+              "Underwriting-style bank statement risk reports for SMB funding readiness."
+            ],
+            "funnel_stage": "Lead Magnet",
+            "categories": "Money & Funding",
+            "slug": "bank-statement-analyzer-funding-readiness"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "notion-bizcredit-builder-gpt",
+      "entity_type": "notion_resource",
+      "resource_type": "notion_resource",
+      "title": "BizCredit Builder GPT",
+      "status": "active",
+      "topics": [
+        "Business Credit & Fundability"
+      ],
+      "content_clusters": [
+        "Business Credit",
+        "Tradelines",
+        "Funding Readiness"
+      ],
+      "canonical_url": "https://app.notion.com/p/2034bc1bd63c802e841bfb481eb58207",
+      "source": {
+        "system": "Notion workspace",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "internal_url": "https://app.notion.com/p/2034bc1bd63c802e841bfb481eb58207",
+      "best_for_content": [
+        "Tradelines, reporting, business-credit profile and fundability content"
+      ],
+      "recommended_cta_or_embed_role": "Interactive business-credit CTA",
+      "description": "Guides business credit building, vendor setup, reporting readiness, and credit-building workflows.",
+      "audiences": [
+        "Credit Builder",
+        "Funding Client",
+        "Small Business Owner",
+        "Startup Founder"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 2,
+          "sources": [
+            {
+              "source_registry": "gpt-assets.registry.json",
+              "source_path": "JSON/Private & Shared/Registries/gpt-assets.registry.json",
+              "source_index": 11,
+              "match_method": "exact_url"
+            },
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 52,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "Guides business credit building, vendor setup, reporting readiness, and credit-building workflows.",
+              "Free tools to build business credit: customizable templates, exports, vendor lists, roadmap"
+            ],
+            "audiences": [
+              "Small Business Owner",
+              "Startup Founder",
+              "Funding Client",
+              "Credit Builder"
+            ],
+            "funnel_stage": "Core",
+            "categories": [
+              "Finance",
+              "Business Credit",
+              "Productivity & Automation",
+              "Finance Ops",
+              "funding-tools"
+            ],
+            "notion_url": "https://app.notion.com/p/2034bc1bd63c802e841bfb481eb58207?pvs=1",
+            "slug": [
+              "bizcredit-builder-gpt"
+            ],
+            "monetization_path": "Drive credit-builder offers, funding consultations, paid setup services, and affiliate products.",
+            "outputs": [
+              "Business credit roadmap",
+              "Vendor checklist",
+              "Readiness score",
+              "Next steps",
+              "Credit-building reminders"
+            ],
+            "input_fields": [
+              "Business age",
+              "Entity status",
+              "EIN/DUNS status",
+              "Industry",
+              "Current credit profile",
+              "Vendor accounts",
+              "Funding goal"
+            ],
+            "related_tools": [
+              "Nav",
+              "Credit Suite",
+              "Notion",
+              "CRM"
+            ],
+            "related_content": [
+              "Business credit guides",
+              "Vendor lists",
+              "Funding readiness tools"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "notion-deal-scorecard-gpt",
+      "entity_type": "notion_resource",
+      "resource_type": "notion_resource",
+      "title": "Deal Scorecard GPT",
+      "status": "active",
+      "topics": [
+        "Acquisition Financing & ETA"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Deal Analysis"
+      ],
+      "canonical_url": "https://app.notion.com/p/2034bc1bd63c80d3a769c246bc4cf684",
+      "source": {
+        "system": "Notion workspace",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "internal_url": "https://app.notion.com/p/2034bc1bd63c80d3a769c246bc4cf684",
+      "best_for_content": [
+        "Deal quality, acquisition underwriting and buyer-readiness content"
+      ],
+      "recommended_cta_or_embed_role": "Deal-analysis CTA",
+      "description": "Analyzes micro-acquisition deals and grades them with objective, no-BS scorecards.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 54,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Analyzes micro-acquisition deals and grades them with objective, no-BS scorecards.",
+            "slug": "deal-scorecard-gpt"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "notion-finance-ops-copilot",
+      "entity_type": "notion_resource",
+      "resource_type": "notion_resource",
+      "title": "Finance Ops Copilot",
+      "status": "active",
+      "topics": [
+        "AI Finance Ops & Content Production"
+      ],
+      "content_clusters": [
+        "AI Finance Ops",
+        "Cash Flow",
+        "Emerging Fintech"
+      ],
+      "canonical_url": "https://app.notion.com/p/3794bc1bd63c80999598f5c5f2bd8221",
+      "source": {
+        "system": "Notion workspace",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "internal_url": "https://app.notion.com/p/3794bc1bd63c80999598f5c5f2bd8221",
+      "best_for_content": [
+        "FinOps, financial automation and working-capital operations content"
+      ],
+      "recommended_cta_or_embed_role": "Interactive finance-ops resource",
+      "description": "Blunt SMB cash-flow readouts, fundability scoring, and funding-fit guidance.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 8,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Blunt SMB cash-flow readouts, fundability scoring, and funding-fit guidance.",
+            "slug": "finance-ops-copilot"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "notion-funding-data-room-copilot",
+      "entity_type": "notion_resource",
+      "resource_type": "notion_resource",
+      "title": "Funding Data Room Copilot",
+      "status": "active",
+      "topics": [
+        "Funding Readiness & Business Funding"
+      ],
+      "content_clusters": [
+        "Funding Readiness",
+        "Loan Documents"
+      ],
+      "canonical_url": "https://app.notion.com/p/39e4bc1bd63c81d68750eb01fbd32baa",
+      "source": {
+        "system": "Notion workspace",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "internal_url": "https://app.notion.com/p/39e4bc1bd63c81d68750eb01fbd32baa",
+      "best_for_content": [
+        "Document readiness, lender packets and funding-data-room articles"
+      ],
+      "recommended_cta_or_embed_role": "Document-readiness CTA",
+      "description": "Organizes funding files, flags readiness gaps, and recommends next-best actions.",
+      "audiences": [
+        "business_owner",
+        "General / SMB Audience"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 2,
+          "sources": [
+            {
+              "source_registry": "vercel-projects.registry.json",
+              "source_path": "JSON/vercel-projects.registry.json",
+              "source_index": 115,
+              "match_method": "exact_title"
+            },
+            {
+              "source_registry": "github-repos.registry.json",
+              "source_path": "JSON/github-repos.registry.json",
+              "source_index": 208,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "Web portal for funding, capital, or financial workflows.",
+              "Organizes funding files, flags readiness gaps, and recommends next-best actions."
+            ],
+            "audiences": [
+              "business_owner",
+              "General / SMB Audience"
+            ],
+            "slug": [
+              "funding-data-room-copilot"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "notion-funding-pathfinder-gpt",
+      "entity_type": "notion_resource",
+      "resource_type": "notion_resource",
+      "title": "Funding Pathfinder GPT",
+      "status": "active",
+      "topics": [
+        "Funding Readiness & Business Funding"
+      ],
+      "content_clusters": [
+        "Funding Readiness",
+        "Business Funding"
+      ],
+      "canonical_url": "https://app.notion.com/p/2314bc1bd63c80bba4c4da7e5d224786",
+      "source": {
+        "system": "Notion workspace",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "internal_url": "https://app.notion.com/p/2314bc1bd63c80bba4c4da7e5d224786",
+      "best_for_content": [
+        "Lender/product routing, qualification and next-step content"
+      ],
+      "recommended_cta_or_embed_role": "Internal routing resource or reader CTA when a public surface exists",
+      "description": "Client-facing funding strategist that analyzes a business and returns a personalized step-by-step funding roadmap.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 2,
+          "sources": [
+            {
+              "source_registry": "assets.json",
+              "source_path": "JSON/downloads/assets.json",
+              "source_index": 84,
+              "match_method": "exact_title"
+            },
+            {
+              "source_registry": "affiliate-funding-agency-gpts.registry.json",
+              "source_path": "JSON/downloads/affiliate-funding-agency-gpts.registry.json",
+              "source_index": 5,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": [
+              "AI advisor that recommends funding paths before application.",
+              "Client-facing funding strategist that analyzes a business and returns a personalized step-by-step funding roadmap."
+            ],
+            "categories": [
+              "funding",
+              "Money & Funding"
+            ],
+            "funnel_stage": "Core"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "notion-is-this-a-good-deal-gpt",
+      "entity_type": "notion_resource",
+      "resource_type": "notion_resource",
+      "title": "Is This a Good Deal? GPT",
+      "status": "active",
+      "topics": [
+        "Acquisition Financing & ETA"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Deal Analysis"
+      ],
+      "canonical_url": "https://app.notion.com/p/24a4bc1bd63c81258447e8b983818258",
+      "source": {
+        "system": "Notion workspace",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "internal_url": "https://app.notion.com/p/24a4bc1bd63c81258447e8b983818258",
+      "best_for_content": [
+        "Marketplace listings, Flippa/Empire Flippers and acquisition due diligence"
+      ],
+      "recommended_cta_or_embed_role": "Deal-quality CTA",
+      "description": "Tear down small startup deals. Spot red flags, value sanity, and creative funding ideas fast.",
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "custom-gpts.registry.json",
+              "source_path": "JSON/downloads/custom-gpts.registry.json",
+              "source_index": 42,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Tear down small startup deals. Spot red flags, value sanity, and creative funding ideas fast.",
+            "slug": "is-this-a-good-deal-gpt"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "notion-lender-fit-routing-copilot",
+      "entity_type": "notion_resource",
+      "resource_type": "notion_resource",
+      "title": "Lender Fit Routing Copilot",
+      "status": "active",
+      "topics": [
+        "Funding Readiness & Business Funding"
+      ],
+      "content_clusters": [
+        "Funding Readiness",
+        "Business Funding"
+      ],
+      "canonical_url": "https://app.notion.com/p/39f4bc1bd63c8148b616e933872bb810",
+      "source": {
+        "system": "Notion workspace",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "internal_url": "https://app.notion.com/p/39f4bc1bd63c8148b616e933872bb810",
+      "best_for_content": [
+        "Product-fit, lender-fit and comparison articles"
+      ],
+      "recommended_cta_or_embed_role": "Routing/fit CTA",
+      "description": "Lender-fit routing copilot for matching borrower profiles to likely financing channels and next-best lender options.",
+      "audiences": [
+        "SMB Owners / Funding Applicants"
+      ],
+      "metadata": {
+        "reconciliation_v1": {
+          "matched_source_count": 1,
+          "sources": [
+            {
+              "source_registry": "github-repos.registry.json",
+              "source_path": "JSON/github-repos.registry.json",
+              "source_index": 212,
+              "match_method": "exact_title"
+            }
+          ],
+          "suggested_enrichment": {
+            "description": "Lender-fit routing copilot for matching borrower profiles to likely financing channels and next-best lender options.",
+            "audiences": "SMB Owners / Funding Applicants",
+            "slug": "lender-fit-routing-copilot"
+          }
+        }
+      }
+    },
+    {
+      "resource_id": "tool-equipment-roi-and-payment-calculator",
+      "entity_type": "tool",
+      "title": "Equipment ROI & Payment Calculator",
+      "status": "planned",
+      "resource_type": "tool",
+      "description": "Checking if new equipment revenue outpaces the monthly financing payment. 51",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-tools.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "equipment-roi-payment-calculator",
+        "evidence": [
+          {
+            "source_registry": "funding-tools.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/funding-tools registry json/funding-tools.registry.json",
+            "source_index": 42
+          }
+        ],
+        "source_fields": {
+          "outputs": "Equipment Investment Profitability Forecast 51"
+        }
+      }
+    },
+    {
+      "resource_id": "tool-fix-and-flip-roi-and-max-loan-estimator",
+      "entity_type": "tool",
+      "title": "Fix-and-Flip ROI & Max Loan Estimator",
+      "status": "planned",
+      "resource_type": "tool",
+      "description": "Hard money deal analysis to find max loan amount and potential ROI. 36",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-tools.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "fix-and-flip-roi-max-loan-estimator",
+        "evidence": [
+          {
+            "source_registry": "funding-tools.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/funding-tools registry json/funding-tools.registry.json",
+            "source_index": 27
+          }
+        ],
+        "source_fields": {
+          "outputs": "Deal Profitability Scorecard (PDF) 36"
+        }
+      }
+    },
+    {
+      "resource_id": "tool-real-estate-proof-of-funds-generator",
+      "entity_type": "tool",
+      "resource_type": "tool",
+      "title": "Real Estate Proof of Funds Generator",
+      "status": "live",
+      "topics": [
+        "Real Estate Investor Financing"
+      ],
+      "content_clusters": [
+        "Real Estate Funding"
+      ],
+      "canonical_url": "https://core-tools.vercel.app/tools/real-estate-proof-of-funds-pof-generator",
+      "source": {
+        "system": "Vercel core-tools + GitHub JFeimster/core-tools",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "repo_url": "https://github.com/JFeimster/core-tools",
+      "public_url": "https://core-tools.vercel.app/tools/real-estate-proof-of-funds-pof-generator",
+      "best_for_content": [
+        "Proof-of-funds and offer-preparation content"
+      ],
+      "recommended_cta_or_embed_role": "POF resource",
+      "metadata": {
+        "promotion_v1": {
+          "merged_possible_matches": [
+            {
+              "source_registry": "platform-assets.registry.json",
+              "source_path": "JSON/platform-assets.registry.json",
+              "source_index": 411,
+              "title": "Real Estate Proof of Funds (POF) Generator",
+              "match_method": "fuzzy_title",
+              "confidence": 0.947
+            },
+            {
+              "source_registry": "funding-calculators.registry.json",
+              "source_path": "JSON/Private & Shared/Registries/funding-calculators.registry.json",
+              "source_index": 30,
+              "title": "Real Estate Proof of Funds (POF) Generator",
+              "match_method": "fuzzy_title",
+              "confidence": 0.947
+            },
+            {
+              "source_registry": "funding-tools.registry.json",
+              "source_path": "JSON/Private & Shared/Registries/funding-tools registry json/funding-tools.registry.json",
+              "source_index": 30,
+              "title": "Real Estate Proof of Funds (POF) Generator",
+              "match_method": "fuzzy_title",
+              "confidence": 0.947
+            }
+          ]
+        }
+      },
+      "aliases": [
+        "Real Estate Proof of Funds (POF) Generator"
+      ]
+    },
+    {
+      "resource_id": "tool-the-amazon-fees-and-fines-auditor",
+      "entity_type": "tool",
+      "title": "The Amazon \"Fees & Fines\" Auditor",
+      "status": "planned",
+      "resource_type": "tool",
+      "description": "FBA storage and low-inventory fees silently eating margins before payouts hit. 77",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-tools.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "the-amazon-fees-fines-auditor",
+        "evidence": [
+          {
+            "source_registry": "funding-tools.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/funding-tools registry json/funding-tools.registry.json",
+            "source_index": 69
+          }
+        ],
+        "source_fields": {
+          "outputs": "Bezos Tax Receipt 77"
+        }
+      }
+    },
+    {
+      "resource_id": "tool-the-compliance-and-kyc-vault",
+      "entity_type": "tool",
+      "title": "The \"Compliance & KYC\" Vault",
+      "status": "planned",
+      "resource_type": "tool",
+      "description": "Deal fatigue caused by messy corporate documents (EINs, Articles, Voided Checks). 123",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "funding-tools.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "the-compliance-kyc-vault",
+        "evidence": [
+          {
+            "source_registry": "funding-tools.registry.json",
+            "source_path": "JSON/Private & Shared/Registries/funding-tools registry json/funding-tools.registry.json",
+            "source_index": 114
+          }
+        ],
+        "source_fields": {
+          "outputs": "Funding Ready ZIP File 123"
+        }
+      }
+    },
+    {
+      "resource_id": "workflow-funding-readiness-review-skill",
+      "entity_type": "workflow",
+      "resource_type": "workflow",
+      "title": "Funding Readiness Review Skill",
+      "status": "live",
+      "topics": [
+        "Funding Readiness & Business Funding"
+      ],
+      "content_clusters": [
+        "Funding Readiness",
+        "Loan Broker"
+      ],
+      "canonical_url": "https://core-tools.vercel.app/tools/funding-readiness-review",
+      "source": {
+        "system": "Vercel core-tools + GitHub JFeimster/core-tools",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "repo_url": "https://github.com/JFeimster/core-tools",
+      "public_url": "https://core-tools.vercel.app/tools/funding-readiness-review",
+      "best_for_content": [
+        "Broker/operator readiness-review content"
+      ],
+      "recommended_cta_or_embed_role": "Internal workflow or supporting CTA"
+    },
+    {
+      "resource_id": "workflow-lender-match-brief-skill",
+      "entity_type": "workflow",
+      "resource_type": "workflow",
+      "title": "Lender Match Brief Skill",
+      "status": "live",
+      "topics": [
+        "Funding Readiness & Business Funding"
+      ],
+      "content_clusters": [
+        "Funding Readiness",
+        "Loan Broker"
+      ],
+      "canonical_url": "https://core-tools.vercel.app/tools/lender-match-brief",
+      "source": {
+        "system": "Vercel core-tools + GitHub JFeimster/core-tools",
+        "source_file": "moonshine-content-resource-relationships-expanded(2).json"
+      },
+      "repo_url": "https://github.com/JFeimster/core-tools",
+      "public_url": "https://core-tools.vercel.app/tools/lender-match-brief",
+      "best_for_content": [
+        "Lender-fit and routing articles"
+      ],
+      "recommended_cta_or_embed_role": "Deal-routing resource"
+    }
+  ],
+  "promotion_v1": {
+    "promoted_date": "2026-09-02",
+    "source": "reconciliation/v1",
+    "total_resources": 15
+  }
+}

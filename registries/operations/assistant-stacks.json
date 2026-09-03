@@ -1,0 +1,730 @@
+{
+  "registry_name": "ResourceGrid Assistant Stacks Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-02",
+  "promotion": {
+    "source": "reconciliation/v1",
+    "promotion_pass": "v1"
+  },
+  "resources": [
+    {
+      "resource_id": "stack-acquisitions-m-and-a",
+      "entity_type": "assistant_stack",
+      "title": "Acquisitions / M&A",
+      "status": "active",
+      "description": "Help buyers source, score, and finance SMB acquisitions.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "assistant-stacks.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "acquisitions-ma",
+        "evidence": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "source_path": "JSON/downloads/assistant-stacks.registry.json",
+            "source_index": 3
+          }
+        ],
+        "source_fields": {
+          "categories": "acquisitions-m&a",
+          "related_tools": [
+            "ma-deal-analyzer",
+            "acquisition-deal-calculator",
+            "sba-business-acquisition-calculator",
+            "micro-acquisition-fundability-calculator"
+          ],
+          "host_sites": [
+            "capital-stack-os",
+            "acquire-meta"
+          ]
+        },
+        "source_records": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "record": {
+              "name": "Acquisitions / M&A",
+              "slug": "acquisitions-ma",
+              "sequence": 4,
+              "vertical": "acquisitions-m&a",
+              "status": "assemble-ready",
+              "goal": "Help buyers source, score, and finance SMB acquisitions.",
+              "gpt_brains": [
+                "Deal Scorecard GPT",
+                "Is This a Good Deal? GPT",
+                "The Business Buyer’s Blueprint",
+                "Bridge Capital Finder GPT",
+                "Fix & Flip Capital Coach"
+              ],
+              "tool_widgets": [
+                "ma-deal-analyzer",
+                "acquisition-deal-calculator",
+                "sba-business-acquisition-calculator",
+                "micro-acquisition-fundability-calculator"
+              ],
+              "host_sites": [
+                "capital-stack-os",
+                "acquire-meta"
+              ],
+              "ai_studio_apps": [
+                "AcquireMeta"
+              ],
+              "api_action": "(to build) listing-scrape / business-listing ingest action",
+              "missing_pieces": [
+                "Listing data API",
+                "Unified deal-score schema"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "stack-asset-foundry-meta-builder",
+      "entity_type": "assistant_stack",
+      "title": "Asset Foundry (meta-builder)",
+      "status": "active",
+      "description": "Turn any idea into a deployable asset (site/widget/funnel) at scale.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "assistant-stacks.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "asset-foundry-meta-builder",
+        "evidence": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "source_path": "JSON/downloads/assistant-stacks.registry.json",
+            "source_index": 7
+          }
+        ],
+        "source_fields": {
+          "categories": "asset-generation",
+          "related_tools": [
+            "flash-ui-prompts",
+            "vibe-site-smith",
+            "ai-studio-app-builder",
+            "WrapperForge"
+          ],
+          "host_sites": [
+            "foundryos",
+            "niche-landing-page-factory",
+            "microsite-automation",
+            "notion-to-site"
+          ]
+        },
+        "source_records": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "record": {
+              "name": "Asset Foundry (meta-builder)",
+              "slug": "asset-foundry-meta-builder",
+              "sequence": 8,
+              "vertical": "asset-generation",
+              "status": "assemble-ready",
+              "goal": "Turn any idea into a deployable asset (site/widget/funnel) at scale.",
+              "gpt_brains": [
+                "SiteForge Operator",
+                "Vercel Launch Smith",
+                "Sizzling Website & UI Generator",
+                "Flash-UI Prompt Architect",
+                "Agent Launch Site Builder",
+                "No-Code GPT Builder"
+              ],
+              "tool_widgets": [
+                "flash-ui-prompts",
+                "vibe-site-smith",
+                "ai-studio-app-builder",
+                "WrapperForge"
+              ],
+              "host_sites": [
+                "foundryos",
+                "niche-landing-page-factory",
+                "microsite-automation",
+                "notion-to-site"
+              ],
+              "ai_studio_apps": [
+                "Venture Build AI",
+                "Gemini AppSmith",
+                "Gemini Blueprint Studio",
+                "Vibe Site Smith",
+                "WrapperForge",
+                "Google AI Studio App Builder"
+              ],
+              "api_action": "Cloudflare Worker-in-a-box / WrapperForge → generate OpenAPI actions; SMB-AI-Builder no-auth GPT Actions",
+              "missing_pieces": [
+                "One-click ZIP→GitHub→Vercel deploy action"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "stack-borrower-qualification",
+      "entity_type": "assistant_stack",
+      "title": "Borrower Qualification",
+      "status": "active",
+      "description": "Turn cold traffic into pre-qualified, routed funding applicants.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "assistant-stacks.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "borrower-qualification",
+        "evidence": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "source_path": "JSON/downloads/assistant-stacks.registry.json",
+            "source_index": 1
+          }
+        ],
+        "source_fields": {
+          "categories": "funding-qualification",
+          "related_tools": [
+            "am-i-fundable",
+            "funding-quiz",
+            "funding-embed",
+            "moonshine-ai-directory",
+            "estimator"
+          ],
+          "host_sites": [
+            "ai-funding-pathfinder",
+            "distilledfunding",
+            "operator-funding-site"
+          ]
+        },
+        "source_records": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "record": {
+              "name": "Borrower Qualification",
+              "slug": "borrower-qualification",
+              "sequence": 2,
+              "vertical": "funding-qualification",
+              "status": "assemble-ready",
+              "goal": "Turn cold traffic into pre-qualified, routed funding applicants.",
+              "gpt_brains": [
+                "Funding Pathfinder",
+                "Get My Funding Offer",
+                "Same-Day Capital OS",
+                "Bank Statement Analyzer (Funding Readiness)",
+                "Fundable Lead Finder"
+              ],
+              "tool_widgets": [
+                "am-i-fundable",
+                "funding-quiz",
+                "funding-embed",
+                "moonshine-ai-directory",
+                "estimator"
+              ],
+              "host_sites": [
+                "ai-funding-pathfinder",
+                "distilledfunding",
+                "operator-funding-site"
+              ],
+              "ai_studio_apps": [
+                "AI Funding Pathfinder",
+                "Distilled Funding"
+              ],
+              "api_action": "moonshine-intake-router (Tally webhook) → funding-applicant-ops (n8n → HubSpot deals)",
+              "missing_pieces": [
+                "Shared scoring model across quiz + GPT"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "stack-broker-ops-crm-automation",
+      "entity_type": "assistant_stack",
+      "title": "Broker Ops / CRM Automation",
+      "status": "active",
+      "description": "Automate broker intake, follow-up, lender matching, and CRM hygiene.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "assistant-stacks.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "broker-ops-crm-automation",
+        "evidence": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "source_path": "JSON/downloads/assistant-stacks.registry.json",
+            "source_index": 6
+          }
+        ],
+        "source_fields": {
+          "categories": "broker-ops/crm",
+          "related_tools": "territory-commander",
+          "host_sites": [
+            "broker-followup-machine",
+            "EliteBroker-AI"
+          ]
+        },
+        "source_records": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "record": {
+              "name": "Broker Ops / CRM Automation",
+              "slug": "broker-ops-crm-automation",
+              "sequence": 7,
+              "vertical": "broker-ops/crm",
+              "status": "assemble-ready",
+              "goal": "Automate broker intake, follow-up, lender matching, and CRM hygiene.",
+              "gpt_brains": [
+                "Broker Follow-Up Machine",
+                "Loan Broker Automation Architect",
+                "Funding Workflow SOP Builder",
+                "Harper — HubSpot API Architect",
+                "Voice Agent Call Flow Builder"
+              ],
+              "tool_widgets": [
+                "territory-commander"
+              ],
+              "host_sites": [
+                "broker-followup-machine",
+                "EliteBroker-AI"
+              ],
+              "ai_studio_apps": [
+                "EliteBroker AI",
+                "Territory Commander"
+              ],
+              "api_action": "Harper → HubSpot API (live deals/contacts); funding-applicant-ops (n8n Gmail→HubSpot)",
+              "missing_pieces": [
+                "Lender-matching rules engine"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "stack-business-credit",
+      "entity_type": "assistant_stack",
+      "title": "Business Credit",
+      "status": "active",
+      "description": "Walk owners through building a bankable, fundable credit profile.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "assistant-stacks.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "business-credit",
+        "evidence": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "source_path": "JSON/downloads/assistant-stacks.registry.json",
+            "source_index": 4
+          }
+        ],
+        "source_fields": {
+          "categories": "business-credit",
+          "related_tools": "(to build) credit-readiness scorecard widget",
+          "host_sites": [
+            "bizcredit-os",
+            "biz-credit-builder",
+            "BizFin-OS",
+            "bizfin-bank"
+          ]
+        },
+        "source_records": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "record": {
+              "name": "Business Credit",
+              "slug": "business-credit",
+              "sequence": 5,
+              "vertical": "business-credit",
+              "status": "brain-needs-tool",
+              "goal": "Walk owners through building a bankable, fundable credit profile.",
+              "gpt_brains": [
+                "💳 BizCredit Builder GPT",
+                "Business Banker GPT"
+              ],
+              "tool_widgets": [
+                "(to build) credit-readiness scorecard widget"
+              ],
+              "host_sites": [
+                "bizcredit-os",
+                "biz-credit-builder",
+                "BizFin-OS",
+                "bizfin-bank"
+              ],
+              "ai_studio_apps": [
+                "BizCredit OS",
+                "Foundry OS"
+              ],
+              "api_action": "(optional) vendor-tradeline data feed",
+              "missing_pieces": [
+                "No dedicated credit-readiness widget yet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "stack-ecommerce-capital",
+      "entity_type": "assistant_stack",
+      "title": "Ecommerce Capital",
+      "status": "active",
+      "description": "Unlock trapped Amazon/ecom cash and fund inventory restocks.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "assistant-stacks.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "ecommerce-capital",
+        "evidence": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "source_path": "JSON/downloads/assistant-stacks.registry.json",
+            "source_index": 5
+          }
+        ],
+        "source_fields": {
+          "categories": "ecommerce-capital",
+          "related_tools": [
+            "reserve-unlocker",
+            "amazon-payout-unlocker",
+            "inventory-turnover-accelerator",
+            "Bezos Interest Calculator (concept)",
+            "Stockout Death Spiral Estimator (concept)"
+          ],
+          "host_sites": "ecommerce-cash-flow"
+        },
+        "source_records": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "record": {
+              "name": "Ecommerce Capital",
+              "slug": "ecommerce-capital",
+              "sequence": 6,
+              "vertical": "ecommerce-capital",
+              "status": "assemble-ready",
+              "goal": "Unlock trapped Amazon/ecom cash and fund inventory restocks.",
+              "gpt_brains": [
+                "Ecommerce Cash Flow Forecaster",
+                "Ad Spend Cash Flow Calculator"
+              ],
+              "tool_widgets": [
+                "reserve-unlocker",
+                "amazon-payout-unlocker",
+                "inventory-turnover-accelerator",
+                "Bezos Interest Calculator (concept)",
+                "Stockout Death Spiral Estimator (concept)"
+              ],
+              "host_sites": [
+                "ecommerce-cash-flow"
+              ],
+              "ai_studio_apps": [
+                "Phantom Cash Calculator"
+              ],
+              "api_action": "(to build) Amazon settlement / payout ingest",
+              "missing_pieces": [
+                "Settlement data connection"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "stack-fractional-cfo-cash-flow",
+      "entity_type": "assistant_stack",
+      "title": "Fractional CFO / Cash Flow",
+      "status": "active",
+      "description": "Give SMB owners CFO-grade cash-flow clarity, then route to funding.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "assistant-stacks.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "fractional-cfo-cashflow",
+        "evidence": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "source_path": "JSON/downloads/assistant-stacks.registry.json",
+            "source_index": 2
+          }
+        ],
+        "source_fields": {
+          "categories": "cashflow-cfo",
+          "related_tools": [
+            "burn-rate-runway-widget",
+            "cashflow-copilot-4",
+            "cash-command",
+            "ad-spend-cashflow"
+          ],
+          "host_sites": [
+            "cfo-in-a-box",
+            "cashflow",
+            "bizfin-os"
+          ]
+        },
+        "source_records": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "record": {
+              "name": "Fractional CFO / Cash Flow",
+              "slug": "fractional-cfo-cashflow",
+              "sequence": 3,
+              "vertical": "cashflow-cfo",
+              "status": "assemble-ready",
+              "goal": "Give SMB owners CFO-grade cash-flow clarity, then route to funding.",
+              "gpt_brains": [
+                "AI Fractional CFO",
+                "Finance Ops Copilot",
+                "Cashflow Copilot",
+                "Real-Time Cash Flow Analyzer",
+                "Weekly Finance Brief Bot"
+              ],
+              "tool_widgets": [
+                "burn-rate-runway-widget",
+                "cashflow-copilot-4",
+                "cash-command",
+                "ad-spend-cashflow"
+              ],
+              "host_sites": [
+                "cfo-in-a-box",
+                "cashflow",
+                "bizfin-os"
+              ],
+              "ai_studio_apps": [
+                "FlowState - Managed Cash Flow",
+                "Flow Finance",
+                "BizFin OS - Smart Banking"
+              ],
+              "api_action": "bizfin-chat-widget (embeddable) → Plaid/Stripe (per Runway Extender spec)",
+              "missing_pieces": [
+                "Live Plaid connection wired to a GPT action"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "stack-partner-affiliate-enablement",
+      "entity_type": "assistant_stack",
+      "title": "Partner / Affiliate Enablement",
+      "status": "active",
+      "description": "Recruit, onboard, and activate funding affiliates/agents into daily producers.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "assistant-stacks.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "partner-affiliate-enablement",
+        "evidence": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "source_path": "JSON/downloads/assistant-stacks.registry.json",
+            "source_index": 0
+          }
+        ],
+        "source_fields": {
+          "categories": "partner-enablement",
+          "related_tools": [
+            "affiliate-launch-kit-generator",
+            "dac-goal-calculator",
+            "dac-comp",
+            "Affiliate Commission Estimator (GPT)"
+          ],
+          "host_sites": [
+            "partner-enablement-os",
+            "start-your-agency",
+            "PartnerHub",
+            "Onboarding",
+            "agent-portal",
+            "dac-affiliate-enablement",
+            "myfigures-partner-onboarding",
+            "capital-launchpad"
+          ]
+        },
+        "source_records": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "record": {
+              "name": "Partner / Affiliate Enablement",
+              "slug": "partner-affiliate-enablement",
+              "sequence": 1,
+              "vertical": "partner-enablement",
+              "status": "assemble-ready",
+              "goal": "Recruit, onboard, and activate funding affiliates/agents into daily producers.",
+              "gpt_brains": [
+                "🚀 Start Your Own Funding Agency",
+                "Agent Growth Hub",
+                "Affiliate Marketing Strategist",
+                "7-Day Broker Blitz",
+                "DAC Affiliate Email Wizard",
+                "Deal Maker Ads",
+                "Affiliate Commission Estimator"
+              ],
+              "tool_widgets": [
+                "affiliate-launch-kit-generator",
+                "dac-goal-calculator",
+                "dac-comp",
+                "Affiliate Commission Estimator (GPT)"
+              ],
+              "host_sites": [
+                "partner-enablement-os",
+                "start-your-agency",
+                "PartnerHub",
+                "Onboarding",
+                "agent-portal",
+                "dac-affiliate-enablement",
+                "myfigures-partner-onboarding",
+                "capital-launchpad"
+              ],
+              "ai_studio_apps": [
+                "PartnerLaunch - Funding Widget Suite",
+                "Moonshine Capital Partner Welcome",
+                "MyFigures Partner Program Onboarding",
+                "Funding Partners OS - Agent Dashboard"
+              ],
+              "api_action": "Tally/CRM webhook → partner CRM (HubSpot via funding-applicant-ops)",
+              "missing_pieces": [
+                "Single source-of-truth partner directory",
+                "Unified commission calculator embedded in PartnerHub"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "stack-real-estate-fix-and-flip",
+      "entity_type": "assistant_stack",
+      "title": "Real Estate / Fix-&-Flip",
+      "status": "active",
+      "description": "Fund investors with hard money, POF letters, and flip ROI analysis.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "assistant-stacks.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "real-estate-fix-flip",
+        "evidence": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "source_path": "JSON/downloads/assistant-stacks.registry.json",
+            "source_index": 9
+          }
+        ],
+        "source_fields": {
+          "categories": "real-estate",
+          "related_tools": [
+            "Fix-and-Flip ROI & Max Loan Estimator (concept)",
+            "Real Estate Proof of Funds Generator (concept)"
+          ],
+          "host_sites": [
+            "hard-money-lenders",
+            "Real-Estate-Agents",
+            "Seller-Funding"
+          ]
+        },
+        "source_records": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "record": {
+              "name": "Real Estate / Fix-&-Flip",
+              "slug": "real-estate-fix-flip",
+              "sequence": 10,
+              "vertical": "real-estate",
+              "status": "hands-need-brain",
+              "goal": "Fund investors with hard money, POF letters, and flip ROI analysis.",
+              "gpt_brains": [
+                "Fix & Flip Capital Coach"
+              ],
+              "tool_widgets": [
+                "Fix-and-Flip ROI & Max Loan Estimator (concept)",
+                "Real Estate Proof of Funds Generator (concept)"
+              ],
+              "host_sites": [
+                "hard-money-lenders",
+                "Real-Estate-Agents",
+                "Seller-Funding"
+              ],
+              "ai_studio_apps": [],
+              "api_action": "(optional) ARV/comps data API",
+              "missing_pieces": [
+                "Dedicated RE GPTs beyond Fix & Flip"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource_id": "stack-seo-content-ai-citation",
+      "entity_type": "assistant_stack",
+      "title": "SEO / Content / AI-Citation",
+      "status": "active",
+      "description": "Produce rankable, AI-citable funding content and audit existing assets.",
+      "source": {
+        "system": "registry_reconciliation_v1",
+        "source_file": "assistant-stacks.registry.json",
+        "confidence": 0.9
+      },
+      "metadata": {
+        "source_key": "seo-content-ai-citation",
+        "evidence": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "source_path": "JSON/downloads/assistant-stacks.registry.json",
+            "source_index": 8
+          }
+        ],
+        "source_fields": {
+          "categories": "seo-content-media",
+          "host_sites": [
+            "ai-citation-auditor",
+            "SEO-Audit-MC"
+          ]
+        },
+        "source_records": [
+          {
+            "source_registry": "assistant-stacks.registry.json",
+            "record": {
+              "name": "SEO / Content / AI-Citation",
+              "slug": "seo-content-ai-citation",
+              "sequence": 9,
+              "vertical": "seo-content-media",
+              "status": "brain-heavy",
+              "goal": "Produce rankable, AI-citable funding content and audit existing assets.",
+              "gpt_brains": [
+                "AI Citation Auditor",
+                "Funding Article Refresh Auditor",
+                "Detailed Keyword Analysis (SEO)",
+                "ZenSEO Article Writer",
+                "AI Reviews Blog Writer"
+              ],
+              "tool_widgets": [],
+              "host_sites": [
+                "ai-citation-auditor",
+                "SEO-Audit-MC"
+              ],
+              "ai_studio_apps": [],
+              "api_action": "(optional) SERP / crawl API",
+              "missing_pieces": [
+                "No content widget; consider embeddable audit tool"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
