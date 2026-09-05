@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const Ajv = require('ajv');
+const Ajv2020 = require('ajv/dist/2020');
 const addFormats = require('ajv-formats');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -36,7 +36,7 @@ function relationshipsFrom(doc) {
 
 fs.mkdirSync(COMPILED, { recursive: true });
 
-const ajv = new Ajv({ allErrors: true, strict: false, allowUnionTypes: true });
+const ajv = new Ajv2020({ allErrors: true, strict: false, allowUnionTypes: true });
 addFormats(ajv);
 const entitySchema = readJson(path.join(SCHEMAS, 'entity.schema.json'));
 const relationshipSchema = readJson(path.join(SCHEMAS, 'relationship.schema.json'));
