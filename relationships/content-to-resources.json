@@ -31770,6 +31770,1475 @@
       "metadata": {
         "enrichment_version": "v1.2"
       }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-affiliate-marketing-strategist",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-agent-growth-hub",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-dac-affiliate-email-wizard",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-deal-maker-ads",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-getting-started-right",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-getting-started-right"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-provider-bank-breezy",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "source_video_id": "B8dSnHFMVY4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-affiliate-marketing-strategist",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "source_video_id": "B8dSnHFMVY4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-agent-growth-hub",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "source_video_id": "B8dSnHFMVY4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-dac-affiliate-email-wizard",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "source_video_id": "B8dSnHFMVY4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-deal-maker-ads",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "source_video_id": "B8dSnHFMVY4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-getting-started-right",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-getting-started-right"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "source_video_id": "B8dSnHFMVY4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-fhtt6s6coti-references-provider-bank-breezy",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "Fhtt6s6CoTI"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-affiliate-marketing-strategist",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-agent-growth-hub",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-dac-affiliate-email-wizard",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-deal-maker-ads",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-getting-started-right",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-getting-started-right"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-provider-bank-breezy",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-keealebdo0-references-provider-bank-breezy",
+      "source_id": "youtube-keealebdo0",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "-KEEAlEBDO0"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-site-agency-in-a-box",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "site-agency-in-a-box"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://agency-in-a-box-iota.vercel.app/",
+        "normalized_evidence_url": "https://agency-in-a-box-iota.vercel.app/",
+        "source_video_id": "o-_me9-I_5U"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-affiliate-marketing-strategist",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-agent-growth-hub",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-dac-affiliate-email-wizard",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-deal-maker-ads",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-getting-started-right",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-getting-started-right"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-provider-bank-breezy",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-uy-t0waclxe-references-provider-guidant",
+      "source_id": "youtube-uy-t0waclxe",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-guidant"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://www.gfprequal.com/mc",
+        "normalized_evidence_url": "https://gfprequal.com/mc",
+        "source_video_id": "uY-T0WAClxE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "source_video_id": "YWPwyv540aE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-affiliate-marketing-strategist",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "source_video_id": "YWPwyv540aE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-agent-growth-hub",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "source_video_id": "YWPwyv540aE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-dac-affiliate-email-wizard",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "source_video_id": "YWPwyv540aE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-deal-maker-ads",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "source_video_id": "YWPwyv540aE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-getting-started-right",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-getting-started-right"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "source_video_id": "YWPwyv540aE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-provider-bank-breezy",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "YWPwyv540aE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-references-gpt-vc-backup-plan-gpt",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-vc-backup-plan-gpt"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "VC Backup Plan GPT",
+        "source_video_id": "3OJXu8ZJsxc"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-provider-david-allen-capital",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-provider-david-allen-capital",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "B8dSnHFMVY4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-provider-national-business-capital",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-national-business-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "National Business Capital",
+        "source_video_id": "B8dSnHFMVY4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-d3llrn13oq4-references-repo-funding-product-matrix",
+      "source_id": "youtube-d3llrn13oq4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "repo-funding-product-matrix"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "funding-product-matrix",
+        "source_video_id": "d3llRn13oQ4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-fhtt6s6coti-references-provider-david-allen-capital",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "Fhtt6s6CoTI"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-provider-david-allen-capital",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-hfccdehcwtk-references-provider-david-allen-capital",
+      "source_id": "youtube-hfccdehcwtk",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "hfCCdEHCwtk"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-hfccdehcwtk-references-provider-national-business-capital",
+      "source_id": "youtube-hfccdehcwtk",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-national-business-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "National Business Capital",
+        "source_video_id": "hfCCdEHCwtk"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-keealebdo0-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-keealebdo0",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Affiliate Agency GPT",
+        "source_video_id": "-KEEAlEBDO0"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-mxq7kwdggs8-references-gpt-start-your-own-funding-agency",
+      "source_id": "youtube-mxq7kwdggs8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-start-your-own-funding-agency"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Start Your Own Funding Agency",
+        "source_video_id": "mXQ7kwdggS8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-mxq7kwdggs8-references-provider-david-allen-capital",
+      "source_id": "youtube-mxq7kwdggs8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "mXQ7kwdggS8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-mxq7kwdggs8-references-provider-national-business-capital",
+      "source_id": "youtube-mxq7kwdggs8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-national-business-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "National Business Capital",
+        "source_video_id": "mXQ7kwdggS8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-provider-david-allen-capital",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-provider-david-allen-capital",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "YWPwyv540aE"
+      }
     }
   ]
 }

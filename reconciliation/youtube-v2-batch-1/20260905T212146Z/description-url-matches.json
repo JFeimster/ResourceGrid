@@ -1,0 +1,805 @@
+{
+  "batch": "youtube-v2-batch-1",
+  "run_id": "20260905T212146Z",
+  "generated_at": "2026-09-05T21:23:31.422Z",
+  "matches": [
+    {
+      "youtube_video_id": "1mD0qUNNR5E",
+      "source_resource_id": "youtube-1md0qunnr5e",
+      "original_url": "https://www.distilledfunding.com/post/ai-tools-for-loan-brokers",
+      "normalized_url": "https://distilledfunding.com/post/ai-tools-for-loan-brokers",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "article-ai-tools-for-loan-brokers",
+        "entity_type": "blog_article",
+        "title": "27 AI Tools Every Loan Broker Should Know in 2026",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\blog-articles.json"
+      }
+    },
+    {
+      "youtube_video_id": "uY-T0WAClxE",
+      "source_resource_id": "youtube-uy-t0waclxe",
+      "original_url": "https://www.gfprequal.com/mc",
+      "normalized_url": "https://gfprequal.com/mc",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "provider-guidant",
+        "entity_type": "funding_provider",
+        "title": "Guidant",
+        "field": "public_url",
+        "registry_file": "registries\\funding\\providers.json"
+      }
+    },
+    {
+      "youtube_video_id": "o-_me9-I_5U",
+      "source_resource_id": "youtube-o-me9-i-5u",
+      "original_url": "https://agency-in-a-box-iota.vercel.app/",
+      "normalized_url": "https://agency-in-a-box-iota.vercel.app/",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "site-agency-in-a-box",
+        "entity_type": "site",
+        "title": "Agency-in-a-Box",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\sites.json"
+      }
+    },
+    {
+      "youtube_video_id": "o-_me9-I_5U",
+      "source_resource_id": "youtube-o-me9-i-5u",
+      "original_url": "https://youtu.be/mvBaddvaB2w",
+      "normalized_url": "https://youtube.com/watch?v=mvBaddvaB2w",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-mvbaddvab2w",
+        "entity_type": "youtube_video",
+        "title": "Best Affiliate Programs for Business Loan Brokers in 2026",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "o-_me9-I_5U",
+      "source_resource_id": "youtube-o-me9-i-5u",
+      "original_url": "https://youtu.be/fYOHbmH2fhk",
+      "normalized_url": "https://youtube.com/watch?v=fYOHbmH2fhk",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-fyohbmh2fhk",
+        "entity_type": "youtube_video",
+        "title": "Money Brokers Are Quietly Making Millions | Here's How to Join",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "o-_me9-I_5U",
+      "source_resource_id": "youtube-o-me9-i-5u",
+      "original_url": "https://youtu.be/tpihvA2OHhg",
+      "normalized_url": "https://youtube.com/watch?v=tpihvA2OHhg",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-tpihva2ohhg",
+        "entity_type": "youtube_video",
+        "title": "Why Smart People Are Becoming Loan Brokers in 2026",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "o-_me9-I_5U",
+      "source_resource_id": "youtube-o-me9-i-5u",
+      "original_url": "https://youtu.be/Fhtt6s6CoTI",
+      "normalized_url": "https://youtube.com/watch?v=Fhtt6s6CoTI",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-fhtt6s6coti",
+        "entity_type": "youtube_video",
+        "title": "Commission Math: What 1 Deal/Week Pays Loan Brokers (4%–8%)",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "o-_me9-I_5U",
+      "source_resource_id": "youtube-o-me9-i-5u",
+      "original_url": "https://youtu.be/9A3hThKaLT8",
+      "normalized_url": "https://youtube.com/watch?v=9A3hThKaLT8",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-9a3hthkalt8",
+        "entity_type": "youtube_video",
+        "title": "Moonshine Capital Affiliate Program: Agency-in-a-Box Funding Model",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "normalized_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-getting-started-right",
+        "entity_type": "custom_gpt",
+        "title": "Getting Started Right",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "normalized_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub",
+        "entity_type": "custom_gpt",
+        "title": "Agent Growth Hub",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "normalized_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt",
+        "entity_type": "custom_gpt",
+        "title": "Affiliate Agency GPT",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "normalized_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads",
+        "entity_type": "custom_gpt",
+        "title": "Deal Maker Ads",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "normalized_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard",
+        "entity_type": "custom_gpt",
+        "title": "DAC Affiliate Email Wizard",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "normalized_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist",
+        "entity_type": "custom_gpt",
+        "title": "Affiliate Marketing Strategist",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "hAjAWAy2MD4",
+      "source_resource_id": "youtube-hajaway2md4",
+      "original_url": "https://youtu.be/mvBaddvaB2w",
+      "normalized_url": "https://youtube.com/watch?v=mvBaddvaB2w",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-mvbaddvab2w",
+        "entity_type": "youtube_video",
+        "title": "Best Affiliate Programs for Business Loan Brokers in 2026",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "hAjAWAy2MD4",
+      "source_resource_id": "youtube-hajaway2md4",
+      "original_url": "https://youtu.be/-KEEAlEBDO0",
+      "normalized_url": "https://youtube.com/watch?v=-KEEAlEBDO0",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-keealebdo0",
+        "entity_type": "youtube_video",
+        "title": "10 Plug-and-Play Automations That Scaled My Funding Agency to 7 Figures",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "hAjAWAy2MD4",
+      "source_resource_id": "youtube-hajaway2md4",
+      "original_url": "https://youtu.be/Fhtt6s6CoTI",
+      "normalized_url": "https://youtube.com/watch?v=Fhtt6s6CoTI",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-fhtt6s6coti",
+        "entity_type": "youtube_video",
+        "title": "Commission Math: What 1 Deal/Week Pays Loan Brokers (4%–8%)",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "xAlzXDFwjzM",
+      "source_resource_id": "youtube-xalzxdfwjzm",
+      "original_url": "https://www.distilledfunding.com/post/fundandgrow-review",
+      "normalized_url": "https://distilledfunding.com/post/fundandgrow-review",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "article-fundandgrow-review",
+        "entity_type": "blog_article",
+        "title": "Fund&Grow Review 2026: 0% Credit Stacking for Up to $250K",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\blog-articles.json"
+      }
+    },
+    {
+      "youtube_video_id": "-KEEAlEBDO0",
+      "source_resource_id": "youtube-keealebdo0",
+      "original_url": "https://bankbreezy.com/funding/jason",
+      "normalized_url": "https://bankbreezy.com/funding/jason",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "provider-bank-breezy",
+        "entity_type": "funding_provider",
+        "title": "Bank Breezy",
+        "field": "public_url",
+        "registry_file": "registries\\funding\\providers.json"
+      }
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "normalized_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-getting-started-right",
+        "entity_type": "custom_gpt",
+        "title": "Getting Started Right",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "normalized_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub",
+        "entity_type": "custom_gpt",
+        "title": "Agent Growth Hub",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "normalized_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt",
+        "entity_type": "custom_gpt",
+        "title": "Affiliate Agency GPT",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "normalized_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads",
+        "entity_type": "custom_gpt",
+        "title": "Deal Maker Ads",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "normalized_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard",
+        "entity_type": "custom_gpt",
+        "title": "DAC Affiliate Email Wizard",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "normalized_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist",
+        "entity_type": "custom_gpt",
+        "title": "Affiliate Marketing Strategist",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bankbreezy.com/funding/jason",
+      "normalized_url": "https://bankbreezy.com/funding/jason",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "provider-bank-breezy",
+        "entity_type": "funding_provider",
+        "title": "Bank Breezy",
+        "field": "public_url",
+        "registry_file": "registries\\funding\\providers.json"
+      }
+    },
+    {
+      "youtube_video_id": "GzlgSQwWGfo",
+      "source_resource_id": "youtube-gzlgsqwwgfo",
+      "original_url": "https://youtu.be/Fhtt6s6CoTI",
+      "normalized_url": "https://youtube.com/watch?v=Fhtt6s6CoTI",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-fhtt6s6coti",
+        "entity_type": "youtube_video",
+        "title": "Commission Math: What 1 Deal/Week Pays Loan Brokers (4%–8%)",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "GzlgSQwWGfo",
+      "source_resource_id": "youtube-gzlgsqwwgfo",
+      "original_url": "https://youtu.be/YWPwyv540aE",
+      "normalized_url": "https://youtube.com/watch?v=YWPwyv540aE",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-ywpwyv540ae",
+        "entity_type": "youtube_video",
+        "title": "Build Your Loan Brokerage EMPIRE with Scaling Strategies for Solo and Team Operations",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "GzlgSQwWGfo",
+      "source_resource_id": "youtube-gzlgsqwwgfo",
+      "original_url": "https://youtu.be/h2jqg5i5Y2o",
+      "normalized_url": "https://youtube.com/watch?v=h2jqg5i5Y2o",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-h2jqg5i5y2o",
+        "entity_type": "youtube_video",
+        "title": "The Funding Broker Opportunity Nobody's Talking About",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "GzlgSQwWGfo",
+      "source_resource_id": "youtube-gzlgsqwwgfo",
+      "original_url": "https://youtu.be/V60om-8yrI0",
+      "normalized_url": "https://youtube.com/watch?v=V60om-8yrI0",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-v60om-8yri0",
+        "entity_type": "youtube_video",
+        "title": "The Networking Shift That's Making Brokers Rich (And Why Cold Calling Doesn't Work Anymore)",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bankbreezy.com/funding/jason",
+      "normalized_url": "https://bankbreezy.com/funding/jason",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "provider-bank-breezy",
+        "entity_type": "funding_provider",
+        "title": "Bank Breezy",
+        "field": "public_url",
+        "registry_file": "registries\\funding\\providers.json"
+      }
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "normalized_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-getting-started-right",
+        "entity_type": "custom_gpt",
+        "title": "Getting Started Right",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "normalized_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub",
+        "entity_type": "custom_gpt",
+        "title": "Agent Growth Hub",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "normalized_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt",
+        "entity_type": "custom_gpt",
+        "title": "Affiliate Agency GPT",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "normalized_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads",
+        "entity_type": "custom_gpt",
+        "title": "Deal Maker Ads",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "normalized_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard",
+        "entity_type": "custom_gpt",
+        "title": "DAC Affiliate Email Wizard",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "normalized_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist",
+        "entity_type": "custom_gpt",
+        "title": "Affiliate Marketing Strategist",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bankbreezy.com/funding/jason",
+      "normalized_url": "https://bankbreezy.com/funding/jason",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "provider-bank-breezy",
+        "entity_type": "funding_provider",
+        "title": "Bank Breezy",
+        "field": "public_url",
+        "registry_file": "registries\\funding\\providers.json"
+      }
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "normalized_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-getting-started-right",
+        "entity_type": "custom_gpt",
+        "title": "Getting Started Right",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "normalized_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub",
+        "entity_type": "custom_gpt",
+        "title": "Agent Growth Hub",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "normalized_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt",
+        "entity_type": "custom_gpt",
+        "title": "Affiliate Agency GPT",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "normalized_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads",
+        "entity_type": "custom_gpt",
+        "title": "Deal Maker Ads",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "normalized_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard",
+        "entity_type": "custom_gpt",
+        "title": "DAC Affiliate Email Wizard",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "normalized_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist",
+        "entity_type": "custom_gpt",
+        "title": "Affiliate Marketing Strategist",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bankbreezy.com/funding/jason",
+      "normalized_url": "https://bankbreezy.com/funding/jason",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "provider-bank-breezy",
+        "entity_type": "funding_provider",
+        "title": "Bank Breezy",
+        "field": "public_url",
+        "registry_file": "registries\\funding\\providers.json"
+      }
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "normalized_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-getting-started-right",
+        "entity_type": "custom_gpt",
+        "title": "Getting Started Right",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "normalized_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub",
+        "entity_type": "custom_gpt",
+        "title": "Agent Growth Hub",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "normalized_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt",
+        "entity_type": "custom_gpt",
+        "title": "Affiliate Agency GPT",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "normalized_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads",
+        "entity_type": "custom_gpt",
+        "title": "Deal Maker Ads",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "normalized_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard",
+        "entity_type": "custom_gpt",
+        "title": "DAC Affiliate Email Wizard",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "normalized_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist",
+        "entity_type": "custom_gpt",
+        "title": "Affiliate Marketing Strategist",
+        "field": "public_url",
+        "registry_file": "registries\\resources\\custom-gpts.json"
+      }
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bankbreezy.com/funding/jason",
+      "normalized_url": "https://bankbreezy.com/funding/jason",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "provider-bank-breezy",
+        "entity_type": "funding_provider",
+        "title": "Bank Breezy",
+        "field": "public_url",
+        "registry_file": "registries\\funding\\providers.json"
+      }
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://youtu.be/R7oCUroopkw",
+      "normalized_url": "https://youtube.com/watch?v=R7oCUroopkw",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-r7ocuroopkw",
+        "entity_type": "youtube_video",
+        "title": "Skip the SBA—How First-Time Acquirers Are Funding Deals Right Now",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://youtu.be/sNl09g9ENb8",
+      "normalized_url": "https://youtube.com/watch?v=sNl09g9ENb8",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-snl09g9enb8",
+        "entity_type": "youtube_video",
+        "title": "Owner Financing Explained: Pros, Cons & How to Do It",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://youtu.be/Isc2TwO2ZVY",
+      "normalized_url": "https://youtube.com/watch?v=Isc2TwO2ZVY",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-isc2two2zvy",
+        "entity_type": "youtube_video",
+        "title": "Is Loan Stacking a Secret Power Move or a Dangerous Trap❓💸",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "ZCllyMCeVSc",
+      "source_resource_id": "youtube-zcllymcevsc",
+      "original_url": "https://youtu.be/6HvoKUHG9cY",
+      "normalized_url": "https://youtube.com/watch?v=6HvoKUHG9cY",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-6hvokuhg9cy",
+        "entity_type": "youtube_video",
+        "title": "'New Silver' Review: Hard Money Lenders for Real Estate Investors",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    },
+    {
+      "youtube_video_id": "ZCllyMCeVSc",
+      "source_resource_id": "youtube-zcllymcevsc",
+      "original_url": "https://youtu.be/sNl09g9ENb8",
+      "normalized_url": "https://youtube.com/watch?v=sNl09g9ENb8",
+      "classification": "resolved_resourcegrid_entity",
+      "target": {
+        "resource_id": "youtube-snl09g9enb8",
+        "entity_type": "youtube_video",
+        "title": "Owner Financing Explained: Pros, Cons & How to Do It",
+        "field": "source.source_url",
+        "registry_file": "registries\\content\\youtube-videos.json"
+      }
+    }
+  ]
+}

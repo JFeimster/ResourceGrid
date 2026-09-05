@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-05T18:03:08.372Z",
+  "generated_at": "2026-09-05T22:34:20.862Z",
   "valid": true,
   "summary": {
     "registry_files": 36,
     "relationship_files": 5,
-    "entities_checked": 1591,
-    "relationships_checked": 4610,
+    "entities_checked": 1629,
+    "relationships_checked": 4715,
     "json_parse_errors": 0,
     "schema_errors": 0
   },

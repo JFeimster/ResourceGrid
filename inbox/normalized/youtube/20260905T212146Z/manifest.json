@@ -1,0 +1,13 @@
+{
+  "batch": "youtube-v2-batch-1",
+  "run_id": "20260905T212146Z",
+  "generated_at": "2026-09-05T21:23:07.258Z",
+  "raw_manifest": "inbox\\raw\\youtube\\20260905T212146Z\\manifest.json",
+  "source_video_count": 208,
+  "playlist_count": 0,
+  "shorts_explicit": 38,
+  "shorts_non_short": 106,
+  "shorts_unknown": 64,
+  "videos_with_descriptions": 25,
+  "videos_with_transcript_availability": 25
+}

@@ -1,0 +1,2504 @@
+{
+  "batch": "youtube-v2-batch-1",
+  "run_id": "20260905T212146Z",
+  "generated_at": "2026-09-05T21:23:31.422Z",
+  "rows": [
+    {
+      "youtube_video_id": "1mD0qUNNR5E",
+      "resource_id": "youtube-1md0qunnr5e",
+      "title": "5 AI Tools Every Loan Broker Needs in 2026",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "d3llRn13oQ4",
+      "resource_id": "youtube-d3llrn13oq4",
+      "title": "The Funding Product Matrix Every Broker Needs (MCA vs LOC vs AR Explained)",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "ZiadbBoPMm0",
+      "resource_id": "youtube-ziadbbopmm0",
+      "title": "Same-Day Small Business Funding: Watch Before You Apply (Instant Micro Funding Explained)",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "A19TaIumRE0",
+      "resource_id": "youtube-a19taiumre0",
+      "title": "New Course: High-Paying Loan Broker Partner Programs",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "uY-T0WAClxE",
+      "resource_id": "youtube-uy-t0waclxe",
+      "title": "ROBS Financing 2026: Use Your 401(k) to Buy a Business (Tax-Free)",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "o-_me9-I_5U",
+      "resource_id": "youtube-o-me9-i-5u",
+      "title": "Why This Side Hustle Hits Harder Than Most Affiliate Programs",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "5KhtW42PH0U",
+      "resource_id": "youtube-5khtw42ph0u",
+      "title": "What Happens Next After You Apply for Bigger Business Funding",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "resource_id": "youtube-b8dsnhfmvy4",
+      "title": "Is Being a Loan Broker Worth It? Real Income Breakdown + Getting Started",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "hAjAWAy2MD4",
+      "resource_id": "youtube-hajaway2md4",
+      "title": "Local SEO for Brokers: $0 Strategy to Rank #1 in Your Market",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "xAlzXDFwjzM",
+      "resource_id": "youtube-xalzxdfwjzm",
+      "title": "Fund&Grow Review 2026: How to Get $250K in 0% Business Credit (Real Requirements)",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "-KEEAlEBDO0",
+      "resource_id": "youtube-keealebdo0",
+      "title": "10 Plug-and-Play Automations That Scaled My Funding Agency to 7 Figures",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "resource_id": "youtube-9a3hthkalt8",
+      "title": "Moonshine Capital Affiliate Program: Agency-in-a-Box Funding Model",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "GzlgSQwWGfo",
+      "resource_id": "youtube-gzlgsqwwgfo",
+      "title": "Loan Brokers Are 40x More Productive With This AI Strategy",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "resource_id": "youtube-fhtt6s6coti",
+      "title": "Commission Math: What 1 Deal/Week Pays Loan Brokers (4%–8%)",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "resource_id": "youtube-ywpwyv540ae",
+      "title": "Build Your Loan Brokerage EMPIRE with Scaling Strategies for Solo and Team Operations",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "resource_id": "youtube-h2jqg5i5y2o",
+      "title": "The Funding Broker Opportunity Nobody's Talking About",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "V60om-8yrI0",
+      "resource_id": "youtube-v60om-8yri0",
+      "title": "The Networking Shift That's Making Brokers Rich (And Why Cold Calling Doesn't Work Anymore)",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "resource_id": "youtube-tpihva2ohhg",
+      "title": "Why Smart People Are Becoming Loan Brokers in 2026",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "resource_id": "youtube-3ojxu8zjsxc",
+      "title": "Seller Financing 101: How to Close Win-Win Deals with Retiring Boomers",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "fYOHbmH2fhk",
+      "resource_id": "youtube-fyohbmh2fhk",
+      "title": "Money Brokers Are Quietly Making Millions | Here's How to Join",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "ZCllyMCeVSc",
+      "resource_id": "youtube-zcllymcevsc",
+      "title": "3 Easy Ways to Find Homes with Seller Financing",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "zx2QhUUESbw",
+      "resource_id": "youtube-zx2qhuuesbw",
+      "title": "💡 Why Every Investor Should Consider DSCR Loans for Rental Properties 🏘️",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "iRyUdzm_Jm0",
+      "resource_id": "youtube-iryudzm-jm0",
+      "title": "What is Wix Seller Financing and How Does it Work?",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "resource_id": "youtube-mxq7kwdggs8",
+      "title": "Unlock the Secrets of Client Acquisition: Transform Your Funding Agency with Expert Insights",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "resource_id": "youtube-hfccdehcwtk",
+      "title": "Buying Power: Acquisition Financing Made Simple",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "_2GARn_z4ug",
+      "resource_id": "youtube-2garn-z4ug",
+      "title": "Fund Your Local Community: Become a Loan Broker | #shorts",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "_9-Pj_Wq1VA",
+      "resource_id": "youtube-9-pj-wq1va",
+      "title": "⚡ Instant $10K Funding for Gig Workers & Entrepreneurs TODAY! 💼",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "_D91mSji94g",
+      "resource_id": "youtube-d91msji94g",
+      "title": "The Lifeline of Business: Navigating Working Capital Options",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "_McGmkKCVn0",
+      "resource_id": "youtube-mcgmkkcvn0",
+      "title": "🌟 How Much Does Revenue-Based Funding Really Cost? 🌟",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "-bytHuVEXQc",
+      "resource_id": "youtube-bythuvexqc",
+      "title": "From Rejected to $5M Funded (The Real Process) #FranchiseLoans #NoBS #SkipTheBanks",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "-EokjBxxKeU",
+      "resource_id": "youtube-eokjbxxkeu",
+      "title": "👨‍⚖️ Attorney Firm Business Loans: Secure Financing for Law Firm Growth ⚖️",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "-HSKZ0WG9t0",
+      "resource_id": "youtube-hskz0wg9t0",
+      "title": "🌟 Get Up To $10k In 10 Minutes! | David Allen Capital Review 🚀",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "-uMKPEnEzXI",
+      "resource_id": "youtube-umkpenezxi",
+      "title": "💰 How to Make $10,000/Month as a Commercial Loan Broker! 🚀",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "-v1-cOEF9PM",
+      "resource_id": "youtube-v1-coef9pm",
+      "title": "Tired of the Corporate Grind? Launch Your Own Lucrative Funding Agency!",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "0mPa2QGB2Go",
+      "resource_id": "youtube-0mpa2qgb2go",
+      "title": "Don't Take VC Money. Take This Instead",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "1Of_UsAasEk",
+      "resource_id": "youtube-1of-usaasek",
+      "title": "Funding Your eCommerce Potential with Onramp Funds | Fast & Flexible Funding for Growth",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "2UwHOYRKYfE",
+      "resource_id": "youtube-2uwhoyrkyfe",
+      "title": "Is Loan Brokering Actually Profitable? Here's What We Found | The Funding Agency, Ep #01",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "4kPuHTi9pHk",
+      "resource_id": "youtube-4kpuhti9phk",
+      "title": "Empower, Earn, and Expand: Unleash Your Leadership Potential with DAC Business Services Agency!",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "4P22uJdIK2c",
+      "resource_id": "youtube-4p22ujdik2c",
+      "title": "AI Can Touch Your Money: 13 Finance MCP Servers for 2026",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "5pf9EunDtXg",
+      "resource_id": "youtube-5pf9eundtxg",
+      "title": "Real Estate Ventures: Navigating CRE Loan Strategies",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "5uS3qJgC2UQ",
+      "resource_id": "youtube-5us3qjgc2uq",
+      "title": "SBA Loans: Your Gateway to Business Expansion",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "61NbsKy-VdY",
+      "resource_id": "youtube-61nbsky-vdy",
+      "title": "Fast Funding for Small Business: The Real Numbers Behind the Hype",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "67g02oBmAmo",
+      "resource_id": "youtube-67g02obmamo",
+      "title": "“No Credit Check” Gig Worker Loans… Are They Real? (Here’s the Trick)",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "68zVPxnsuyg",
+      "resource_id": "youtube-68zvpxnsuyg",
+      "title": "How to Buy a Small Business in 2026: Step by Step for Beginners",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "6hdLePD48LI",
+      "resource_id": "youtube-6hdlepd48li",
+      "title": "💰💵 Money Talks: Innovative Loan Solutions for Today's Entrepreneurs 🤑💲",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "6HvoKUHG9cY",
+      "resource_id": "youtube-6hvokuhg9cy",
+      "title": "'New Silver' Review: Hard Money Lenders for Real Estate Investors",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "6OtsUnLA1Kc",
+      "resource_id": "youtube-6otsunla1kc",
+      "title": "The Hard Truth About Business Grants vs Loans: Why Waiting Could Ruin Your Business",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "7b-ElFJbVEw",
+      "resource_id": "youtube-7b-elfjbvew",
+      "title": "Buy Any Online Business: Smart Financing Strategies for Content, SaaS & E-commerce Deals",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "7CsOdJ7oTAA",
+      "resource_id": "youtube-7csodj7otaa",
+      "title": "4 Business Loans With No Credit Check or Low Credit Score | #FinanceTips",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "8BlWgVXwwjY",
+      "resource_id": "youtube-8blwgvxwwjy",
+      "title": "Tired of Payday Loan Fees? Here's What Actually Works",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "8r9nxRuNwY8",
+      "resource_id": "youtube-8r9nxrunwy8",
+      "title": "🏠 Modular Homes: The Secret to Faster, Cheaper Real Estate Builds 🚀 #RealEstateInvesting",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "99am0B0vSOY",
+      "resource_id": "youtube-99am0b0vsoy",
+      "title": "🎢 2.2 Economic Cycles and Their Impact on Financing | Thriving in Any Market 💼",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "9LoVqWki_Ic",
+      "resource_id": "youtube-9lovqwki-ic",
+      "title": "Startup Loans with Bad Credit? Yes, You Can! | #startupfunding #badcreditloans",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "9rQp01fWcPQ",
+      "resource_id": "youtube-9rqp01fwcpq",
+      "title": "Your Clients Can't Afford Annual Premiums? Here's What Top Agents Do",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "a1j0XVdY_zw",
+      "resource_id": "youtube-a1j0xvdy-zw",
+      "title": "Instant Cash Flow: How Micro Funding Transforms the Gig Economy | AltFinance Ep2",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "a7dEsH6voEM",
+      "resource_id": "youtube-a7desh6voem",
+      "title": "Recession-Proof Business? Sell Access to Capital 💰",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "abOqLmw94k4",
+      "resource_id": "youtube-aboqlmw94k4",
+      "title": "Are No-Credit-Check Loans for Gig Workers REALLY Possible? 💰",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "AF1A5B4CUkY",
+      "resource_id": "youtube-af1a5b4cuky",
+      "title": "Business Loan Approval in Days, Not Months",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "aj-3DRN2NRA",
+      "resource_id": "youtube-aj-3drn2nra",
+      "title": "🚀 Upstart Loans Review: Get Approved with More Than Just Your Credit Score! 🚀",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "AJISYfool-M",
+      "resource_id": "youtube-ajisyfool-m",
+      "title": "Navigating Business Loans: A Candid GoKapital Review for Savvy Entrepreneurs!",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "aN1I4F2qjAs",
+      "resource_id": "youtube-an1i4f2qjas",
+      "title": "Offering Financing Solutions: A Guide for Coaches, Consultants, and B2B Professionals",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "AUS5AcGK0H8",
+      "resource_id": "youtube-aus5acgk0h8",
+      "title": "Bypass the Bank: Secure $2M for Your Venture This Week! 💰🚀 #GetFunded",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "AWc2i3VIcus",
+      "resource_id": "youtube-awc2i3vicus",
+      "title": "Term Loans Demystified: Long-Term Growth for Entrepreneurs",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "AWqzBfdeBkw",
+      "resource_id": "youtube-awqzbfdebkw",
+      "title": "Instant Funding: The 5 Biggest Benefits Every Gig Worker Should Know About!",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Ax6GnYJ-Daw",
+      "resource_id": "youtube-ax6gnyj-daw",
+      "title": "Bad Credit Loans: A Lifeline for Those with Poor Credit Scores",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "aYxqzSEH1JE",
+      "resource_id": "youtube-ayxqzseh1je",
+      "title": "💸 Uplyft Capital Disaster Relief Loan Explained: Is It Right for You? 🔍",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "BkqepKDRGlk",
+      "resource_id": "youtube-bkqepkdrglk",
+      "title": "Small Scale, Big Impact: Microloans for Emerging Businesses",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "bqiBPPAEYvU",
+      "resource_id": "youtube-bqibppaeyvu",
+      "title": "8 Must-Have AI Tools for Amazon & Shopify Sellers (Sell Smarter!)",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "BuJ_4Lou4ZU",
+      "resource_id": "youtube-buj-4lou4zu",
+      "title": "Eliminate Up To 95% on Payment Processing Fees! A Game Changer for Business Owners! 🔓",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "bWw9oIFiSBo",
+      "resource_id": "youtube-bww9oifisbo",
+      "title": "Financing a Semi-Truck Engine Rebuild: How to Find $20k When You're Broke",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "bxiNpleH9BQ",
+      "resource_id": "youtube-bxinpleh9bq",
+      "title": "💸 Same-Day Microloans for Instagram Sellers: How to Get Money Fast! 📈",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "C2685vQoAkA",
+      "resource_id": "youtube-c2685vqoaka",
+      "title": "Top 3 No-Money-Down Business Loans You Can Get NOW! 💸",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "cpEpub0h_yI",
+      "resource_id": "youtube-cpepub0h-yi",
+      "title": "💼 1.1 Understanding the Concept of a Money Broker | Unlocking Opportunities for Businesses 💵",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "D_C2EGOoBow",
+      "resource_id": "youtube-d-c2egoobow",
+      "title": "🌟 1.2 Why Recession-Proof Businesses Matter | Thriving When the Economy Stumbles 💼",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "d1UHWDS6Q4g",
+      "resource_id": "youtube-d1uhwds6q4g",
+      "title": "Can RBF Replace Your Bank? Alternative Financing Decoded | AltFin #01",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "DaJEtTn2Xgw",
+      "resource_id": "youtube-dajettn2xgw",
+      "title": "Unlocking Growth: When Is Revenue-Based Funding Ideal? | #GetFunded #Shorts",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "dCJGN7yqvnk",
+      "resource_id": "youtube-dcjgn7yqvnk",
+      "title": "Service Business Loan Approved? Here's Your Fastest Path",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "DL0NxsyMpgE",
+      "resource_id": "youtube-dl0nxsympge",
+      "title": "🍽️ 3.2 Types of Financing Products | A Menu of Funding Options for Businesses 💼",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "DxZUmEZDYyQ",
+      "resource_id": "youtube-dxzumezdyyq",
+      "title": "Get Fast-Track Approvals with David Allen Capital's Select Funding",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "e-N-JqIRpv0",
+      "resource_id": "youtube-e-n-jqirpv0",
+      "title": "🏘️ How to Qualify for a Vacation Rental Loan: Simple Steps for Investors 💡",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "E2v5dZ54J3Q",
+      "resource_id": "youtube-e2v5dz54j3q",
+      "title": "Client Funding 101: A Step-by-Step Guide to Securing Capital",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "ec-nA3CMYvk",
+      "resource_id": "youtube-ec-na3cmyvk",
+      "title": "Payroll Due Tomorrow? Fund It Today | #cashflow #getfunded #shorts",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "EsFvQ6L0e7c",
+      "resource_id": "youtube-esfvq6l0e7c",
+      "title": "💸 Need Working Capital? Top 7 Resources for Amazon Entrepreneurs! 🚀#AmazonSeller #GetFunded",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "F1zZJXX6FWQ",
+      "resource_id": "youtube-f1zzjxx6fwq",
+      "title": "9 Types of SBA Loans Explained: Which One Is Right for You?",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "FGuJUEcGkQY",
+      "resource_id": "youtube-fgujuecgkqy",
+      "title": "💰 Get $150k to $50M | GoKapital’s Commercial Real Estate Loans! 🚀",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "FpbhT2LhKO0",
+      "resource_id": "youtube-fpbht2lhko0",
+      "title": "🚀💪 Empowering Entrepreneurs: The Rise of Revenue-Based Funding 💵💡",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "FPYGB4OaPYk",
+      "resource_id": "youtube-fpygb4oapyk",
+      "title": "🤝 3.4 The Role of Consultants in Business Funding | Be the Trusted Advisor 💼",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "fqpwqdzE9VI",
+      "resource_id": "youtube-fqpwqdze9vi",
+      "title": "Bank Loan vs Hard Money | Which One Actually Works for Investment Property?",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "FshwywqDI2w",
+      "resource_id": "youtube-fshwywqdi2w",
+      "title": "💸 Best Franchise Financing Options: Loans, SBA, and Alternatives Explained 🤑💰",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "FXwOeh-3eOc",
+      "resource_id": "youtube-fxwoeh-3eoc",
+      "title": "🚀 Revolutionize Your Business Financing with DAC's Line of Credit! 💼",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "GcCVQ9SJAWo",
+      "resource_id": "youtube-gccvq9sjawo",
+      "title": "Financial Freedom for Your Employees: Discover Rellevate’s Interest-Free Pay Advances Today!",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "GdUSERkwk38",
+      "resource_id": "youtube-gduserkwk38",
+      "title": "Denied for Funding? This Is Why #businessfunding #loandenial",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "GhZvRveA130",
+      "resource_id": "youtube-ghzvrvea130",
+      "title": "DAC Ep1 | What is a DAC Affiliate Agency & How Does It Work?",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "GzurHeBs2IE",
+      "resource_id": "youtube-gzurhebs2ie",
+      "title": "7 Funding Sources That Actually Accept Self-Employed Applicants #entrepreneurship #startup",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "H0wbfX6BX7s",
+      "resource_id": "youtube-h0wbfx6bx7s",
+      "title": "Upstart Medical Loans for Emergency Healthcare Costs: What You Should Know",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "H3nKHX-IVTo",
+      "resource_id": "youtube-h3nkhx-ivto",
+      "title": "Why Funding Agencies are the Hottest Side Hustle in Finance!?!? | The Funding Agency Ep #2",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "haEwWimKKXo",
+      "resource_id": "youtube-haewwimkkxo",
+      "title": "🌟 Elevate Your Business with Uplyft Capital 🌟",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "hcpOm6STBZ0",
+      "resource_id": "youtube-hcpom6stbz0",
+      "title": "Building Your Funding Empire: What It Takes To Win with Moonshine Capital",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "hjt_Aj9jVjg",
+      "resource_id": "youtube-hjt-aj9jvjg",
+      "title": "Instant Micro Funding: Get $10k in 10 Min |  #GetFunded #InstantLoan",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "HRyOkF9oJqQ",
+      "resource_id": "youtube-hryokf9ojqq",
+      "title": "🏡 Your Guide to Fix-N-Flip Success: ROK Financial Loan Review 📝",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "IIiETclEVww",
+      "resource_id": "youtube-iiietclevww",
+      "title": "The Secret to Financing Business Acquisitions: SBA Loans Uncovered",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "iN769Dw9eHo",
+      "resource_id": "youtube-in769dw9eho",
+      "title": "Navigating Rental Property Loans: The GoKapital Advantage Unveiled",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "ipd1ip47HG0",
+      "resource_id": "youtube-ipd1ip47hg0",
+      "title": "🏡 3 Best Vacation Rental Loan Options: Maximize Your Investment 💸",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Isc2TwO2ZVY",
+      "resource_id": "youtube-isc2two2zvy",
+      "title": "Is Loan Stacking a Secret Power Move or a Dangerous Trap❓💸",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "IswugwVcS9E",
+      "resource_id": "youtube-iswugwvcs9e",
+      "title": "💰 Onramp's Revenue-Based Financing: How It Works & How to Apply",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Jf79jespCXA",
+      "resource_id": "youtube-jf79jespcxa",
+      "title": "Upstart Home Improvement Loans vs. The Competition: What You Need to Know",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "jJicM_vg2V8",
+      "resource_id": "youtube-jjicm-vg2v8",
+      "title": "No W-2 Needed for Same Day $20K Funding!",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "JkaEOTjgFYc",
+      "resource_id": "youtube-jkaeotjgfyc",
+      "title": "Scaling Your Business: From Solo Agent to a Thriving Agency",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Jn3dfmmXWHY",
+      "resource_id": "youtube-jn3dfmmxwhy",
+      "title": "Your Shopify Sales Look Good But Your Bank Account Doesn't | Here's Why",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "JrL_rDurahE",
+      "resource_id": "youtube-jrl-rdurahe",
+      "title": "Banks Hate This: 30-Year Rental Loans From 6.125% | How to Escape the 9-5 Trap",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "jrplrgX0qT0",
+      "resource_id": "youtube-jrplrgx0qt0",
+      "title": "🚀🎯 Elevate Your E-Commerce Finances: Getting Started with SellersFi 🛒🛍️",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "kcv8gi3oB_E",
+      "resource_id": "youtube-kcv8gi3ob-e",
+      "title": "The Future of Finance: How AI is Transforming Loan Brokering",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Kn5Vwu3qNLU",
+      "resource_id": "youtube-kn5vwu3qnlu",
+      "title": "Elevate Your Business with Moonshine Capital's Funding Solutions",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "kntOjB6S300",
+      "resource_id": "youtube-kntojb6s300",
+      "title": "How to Save Hours on Business Banking Every Single Week",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "KpoHu9bBids",
+      "resource_id": "youtube-kpohu9bbids",
+      "title": "Tech Stack for Success: Must-Have Tools for Modern Loan Brokers",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "l0mue7ODrfI",
+      "resource_id": "youtube-l0mue7odrfi",
+      "title": "What Are the Requirements for Obtaining a Startup Business Loan?",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "l6xRggADlmw",
+      "resource_id": "youtube-l6xrggadlmw",
+      "title": "🌟 Fast, Flexible Bridge Loans by Lima One Capital – What You Need to Know! 🏠",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "LgrZkFtKPoA",
+      "resource_id": "youtube-lgrzkftkpoa",
+      "title": "AI Content Refresh: Turn Stale Blog Posts Into Lead Assets",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "lHyQw5aGhy0",
+      "resource_id": "youtube-lhyqw5aghy0",
+      "title": "Fast Cash for Electricians WITHOUT the Credit Check",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "ljgcChiO_h4",
+      "resource_id": "youtube-ljgcchio-h4",
+      "title": "💵🔥 Is it “Bad Debt” or “Clean Fuel”? #Funding #SmartMoney  💼🚀",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "LlBnZ44Vwfg",
+      "resource_id": "youtube-llbnz44vwfg",
+      "title": "Corporate Credit: The Untapped Resource for Business Growth",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "LrA_8FP9Lds",
+      "resource_id": "youtube-lra-8fp9lds",
+      "title": "Your Client's Cash Problem Isn't What You Think",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "m-v8s-qj86U",
+      "resource_id": "youtube-m-v8s-qj86u",
+      "title": "Ignite Your Financial Reign: Discover Moonshine Capital and Build Your Funding Empire!",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "m6DXYuvXSZQ",
+      "resource_id": "youtube-m6dxyuvxszq",
+      "title": "Gig Worker Loans EXPLAINED: How to Get Up to $20K Fast 🚀 (No Banks, No Credit Games)",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "mDK-rHLs3HM",
+      "resource_id": "youtube-mdk-rhls3hm",
+      "title": "Is Visio Lending REALLY Worth It?",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "MFt0LLQZdg0",
+      "resource_id": "youtube-mft0llqzdg0",
+      "title": "🔍 1.3 Overview of the Funding Industry | Navigating the World of Business Financing 💼",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "mhde7mpSHjw",
+      "resource_id": "youtube-mhde7mpshjw",
+      "title": "Stop Letting AI Make Funding Decisions — Here's Where to Draw the Line",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "mKtgy7PYjMg",
+      "resource_id": "youtube-mktgy7pyjmg",
+      "title": "🌟 The Hottest Side Hustle of 2024: Join Moonshine Capital & Start Earning Today! 🌟",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "MumHULVnJNg",
+      "resource_id": "youtube-mumhulvnjng",
+      "title": "AI in Finance 2026: The New Capital Stack Explained",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "mvBaddvaB2w",
+      "resource_id": "youtube-mvbaddvab2w",
+      "title": "Best Affiliate Programs for Business Loan Brokers in 2026",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "N6BvK30rctU",
+      "resource_id": "youtube-n6bvk30rctu",
+      "title": "Fora Financial Accounts Receivable Financing: Is It Worth It?",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "O8JNX1OKoeE",
+      "resource_id": "youtube-o8jnx1okoee",
+      "title": "How to Turn Your Primary Home Into a Rental Property 📈",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "OAxlhjIgC3o",
+      "resource_id": "youtube-oaxlhjigc3o",
+      "title": "Harnessing ChatGPT: A Game-Changer for Loan Brokers",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "OBc-PaQbRSU",
+      "resource_id": "youtube-obc-paqbrsu",
+      "title": "Same Day Business Funding: When It Saves You, When It Destroys You",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "oDTf5BXcla0",
+      "resource_id": "youtube-odtf5bxcla0",
+      "title": "Unveiled: Top U.S. Havens for Small Business Loans | Insights from NBC's 2023 Report",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "ohfLsF0qchM",
+      "resource_id": "youtube-ohflsf0qchm",
+      "title": "How to Use Your 401K to Fund a Business (Uplyft Capital Review) | #401krollover",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "OVK88w5Qp28",
+      "resource_id": "youtube-ovk88w5qp28",
+      "title": "Instant Line of Credit for Gig Workers—Truth vs Hype ⚡",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "OZD8UjJp1UI",
+      "resource_id": "youtube-ozd8ujjp1ui",
+      "title": "Bridge the Client Capital Gap: The CPA's Guide to Business Funding",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "P1yVS9HhSOY",
+      "resource_id": "youtube-p1yvs9hhsoy",
+      "title": "Get Instant Loans Up to $15,000 with Zippyloan – Apply Today!",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "p2eWFRs5f2g",
+      "resource_id": "youtube-p2ewfrs5f2g",
+      "title": "💵 3.3 Understanding Commissions and Fees | How Money Brokers Get Paid 💼",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Pj4nOAUrW0A",
+      "resource_id": "youtube-pj4noaurw0a",
+      "title": "How Bankers Save the Relationship When the Answer is \"No\"",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "pmq_-OGIUmQ",
+      "resource_id": "youtube-pmq-ogiumq",
+      "title": "Unlock Flexible Financing with Credibly’s Small Business Line of Credit | Up to $250,000!",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "pUZsw-8iAG0",
+      "resource_id": "youtube-puzsw-8iag0",
+      "title": "Broker Brilliance: Unlocking the Mindset of a Successful Loan Broker | The Funding Agency Ep. #3",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "PWfq94M173M",
+      "resource_id": "youtube-pwfq94m173m",
+      "title": "Get Up to $150K at 0% Interest with 7 Figures Funding’s Credit Stacking",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "PYVDAC1zhzI",
+      "resource_id": "youtube-pyvdac1zhzi",
+      "title": "Same-Day Business Funding: Get Cash Today (No Bank BS)",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Q2YD4aw5Sps",
+      "resource_id": "youtube-q2yd4aw5sps",
+      "title": "Why Join Moonshine Capital: Start Your Own Affiliate Business Today!",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "QDOb5NiGY9Q",
+      "resource_id": "youtube-qdob5nigy9q",
+      "title": "Earn BIG While Helping Clients Get Funded: Moonshine Capital's Partner Program Explained",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "QetL6jhFr9k",
+      "resource_id": "youtube-qetl6jhfr9k",
+      "title": "Get Business Money FAST Without Bank Approval in 2025!",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "qgK8U9veyG4",
+      "resource_id": "youtube-qgk8u9veyg4",
+      "title": "🚀 How to Apply for Instant Micro Funding – Step-by-Step Guide for Gig Workers!",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "QHYvgO-0xzg",
+      "resource_id": "youtube-qhyvgo-0xzg",
+      "title": "Invoices to Cash: An Entrepreneur's Guide to Factoring",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "QktL49Wt3fI",
+      "resource_id": "youtube-qktl49wt3fi",
+      "title": "Giggle Finance Review 2026: Legit Funding or Expensive Cash Trap?",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "qposMie96q8",
+      "resource_id": "youtube-qposmie96q8",
+      "title": "How to Get a Business Loan Without Tax Returns? Here's What Works ℹ️",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "QqyJOA8g6HQ",
+      "resource_id": "youtube-qqyjoa8g6hq",
+      "title": "Scaling Your Funding Agency: When, Why, and How",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "QyIiUQ18Kp8",
+      "resource_id": "youtube-qyiiuq18kp8",
+      "title": "Moonshine Capital's Approach to RBF That's Disrupting Traditional Lending",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "R7oCUroopkw",
+      "resource_id": "youtube-r7ocuroopkw",
+      "title": "Skip the SBA—How First-Time Acquirers Are Funding Deals Right Now",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "rDEbbNWPxkY",
+      "resource_id": "youtube-rdebbnwpxky",
+      "title": "$75K to $2.5M in Rental Loans – No Income Verification Needed!",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "rijfqmY6Z2U",
+      "resource_id": "youtube-rijfqmy6z2u",
+      "title": "🌟 Transform Your Dreams into Reality: Unlock Quick Business Funding with Moonshine Capital 🤑",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "RrYx0uDl59A",
+      "resource_id": "youtube-rryx0udl59a",
+      "title": "Partner With National Business Capital and Close More Deals",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "RsQfsjht0aw",
+      "resource_id": "youtube-rsqfsjht0aw",
+      "title": "Credit Card Stacking: Revolutionary Funding or Risky Business?",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "RXLTJXuvVQE",
+      "resource_id": "youtube-rxltjxuvvqe",
+      "title": "How Gig Workers Get $20K Same Day! 💸🔥",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Sf6susw-zhw",
+      "resource_id": "youtube-sf6susw-zhw",
+      "title": "Broke? Stuck? Screwed? Here’s the Unfiltered Truth About Bridge Loans",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "sFGCq6bxOyc",
+      "resource_id": "youtube-sfgcq6bxoyc",
+      "title": "Hedge Funds Are Snatching Up Houses—This Is What You Need to Do!",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "sNl09g9ENb8",
+      "resource_id": "youtube-snl09g9enb8",
+      "title": "Owner Financing Explained: Pros, Cons & How to Do It",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "SNqZNFQNrXc",
+      "resource_id": "youtube-snqznfqnrxc",
+      "title": "Skyrocket Your Sales: Embark on a Profitable Journey as an Affiliate Financing Partner!",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "stbAzfr9qKE",
+      "resource_id": "youtube-stbazfr9qke",
+      "title": "Stop Cold Calling. Start Closing Deals While You Sleep #AIForSales #LoanBroker #Automation",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "stIbAW2mnj4",
+      "resource_id": "youtube-stibaw2mnj4",
+      "title": "Capitalize on Success: Becoming a Top Business Loan Broker",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "SwbJTheYMhY",
+      "resource_id": "youtube-swbjtheymhy",
+      "title": "Visio Lending Review: Your Gateway to Simplified Rental Loans and Vacation Rentals",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Tdpn3TS0UV8",
+      "resource_id": "youtube-tdpn3ts0uv8",
+      "title": "Why 80% of Loan Brokers Make Under $1k!",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "TFKEf-O5eF4",
+      "resource_id": "youtube-tfkef-o5ef4",
+      "title": "Wayflyer Rejected Your Arbitrage Business? Here's Who Will Actually Fund You",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "tgGY6rJzQ9g",
+      "resource_id": "youtube-tggy6rjzq9g",
+      "title": "📜 2.1 The Evolution of Money Brokering | From Ancient Markets to Modern Deals 💼",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "tTtO4yDOd_o",
+      "resource_id": "youtube-ttto4ydod-o",
+      "title": "Boost Your Online Store with eCommerce Funding Strategies",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "TUwc7aK-_YI",
+      "resource_id": "youtube-tuwc7ak-yi",
+      "title": "You're Not Getting Paid | The Net-60 Problem",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "tVQinuAqrZM",
+      "resource_id": "youtube-tvqinuaqrzm",
+      "title": "Unlock Your Potential: Rapid Funding Solutions Await | Moonshine Capital",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "U2mbvM837l4",
+      "resource_id": "youtube-u2mbvm837l4",
+      "title": "Mastering the Art of Loan Brokering: Your Ultimate Guide",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "U7QRMLIolLw",
+      "resource_id": "youtube-u7qrmliollw",
+      "title": "💸 SBA Loans EXPLAINED: ROK Financial’s Pros, Cons & Quick Application Guide! 📈",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "U7Y5Qg_vu_E",
+      "resource_id": "youtube-u7y5qg-vu-e",
+      "title": "💐 Upstart Wedding Loans: How to Qualify and Get Approved in 2024 💰",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "ui4C4400C7k",
+      "resource_id": "youtube-ui4c4400c7k",
+      "title": "Get Clients FAST for Your Funding Agency: 3 Proven Lead Generation Tips 🚀",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "uiwXQG7CCO8",
+      "resource_id": "youtube-uiwxqg7cco8",
+      "title": "✨ Empower Your Online Store with SellersFi: A Financial Powerhouse for Entrepreneurs 🌟",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "uq96OWlZZWo",
+      "resource_id": "youtube-uq96owlzzwo",
+      "title": "Most Loan Brokers Can’t Scale Because of These 5 Mistakes",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "uVrIIIvyjk0",
+      "resource_id": "youtube-uvriiivyjk0",
+      "title": "Why Glitch Energy Chose 8fig's Funding Over a 7-Figure VC Deal",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "uzJkpdIPgUU",
+      "resource_id": "youtube-uzjkpdipguu",
+      "title": "Can You Really Buy a House with Bitcoin? Everything You Need to Know",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "VJt9bVgCFwE",
+      "resource_id": "youtube-vjt9bvgcfwe",
+      "title": "💼 2.3 Case Studies of Successful Money Broker Businesses | Real Stories, Real Success 🌟",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "vkGK_ah838U",
+      "resource_id": "youtube-vkgk-ah838u",
+      "title": "Dreaming of Real Estate Investing? Start for $20 on Ark7! 🚀 #RentalIncome #PassiveIncome",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "vn5gOaZd1Yw",
+      "resource_id": "youtube-vn5goazd1yw",
+      "title": "Need Funding for Your Accounting Firm? Here’s How to Qualify for $50K - $500K Loans! | #shorts",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "vN9EVN9Qj6I",
+      "resource_id": "youtube-vn9evn9qj6i",
+      "title": "The Biggest Funding Lie Founders Keep Believing",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Vo6BAZIrqWo",
+      "resource_id": "youtube-vo6bazirqwo",
+      "title": "Stop Losing Money On Hidden Loan Fees! 😱",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "vtmENo5iAC0",
+      "resource_id": "youtube-vtmeno5iac0",
+      "title": "What Are Upstart’s Eligibility Requirements for Personal Loans? 💰| #shorts",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "vx9kamfeh9g",
+      "resource_id": "youtube-vx9kamfeh9g",
+      "title": "Mastering ChatGPT Prompts: Innovating Loan Brokerage with AI",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "W0V6EXnh2Vs",
+      "resource_id": "youtube-w0v6exnh2vs",
+      "title": "Awakening Opportunity: Start Your Own DAC Affiliate Agency Today!",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "wHLaKhP1s_Y",
+      "resource_id": "youtube-whlakhp1s-y",
+      "title": "Accessing Capital: Lines of Credit Explained",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "WHVMV3BOoeE",
+      "resource_id": "youtube-whvmv3booee",
+      "title": "💸 Instant Micro Funding EXPLAINED: How to Get $300–$20K TODAY (No Credit Check)",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "WKiqUkdrTyo",
+      "resource_id": "youtube-wkiqukdrtyo",
+      "title": "I Tested NorthOne So You Don't Have To",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "WpDZyYuORD4",
+      "resource_id": "youtube-wpdzyyuord4",
+      "title": "What Underwriters Actually Want to Hear #funding #pitch #shorts",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "WUa5APKoGec",
+      "resource_id": "youtube-wua5apkogec",
+      "title": "Need Quick Funds? Discover DAC's Instant Micro Funding Solution for Gig Workers",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "x18aLWTmriE",
+      "resource_id": "youtube-x18alwtmrie",
+      "title": "This Secret Side Hustle Pays Big In 2026!",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "XVOG2mPJyOE",
+      "resource_id": "youtube-xvog2mpjyoe",
+      "title": "🌪️ 4.1 Navigating Economic Downturns | Thriving as a Money Broker in Tough Times 💼",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Xx9gT4WL6sE",
+      "resource_id": "youtube-xx9gt4wl6se",
+      "title": "Revenue Based Funding Just Changed The Game For Amazon Sellers",
+      "classification": {
+        "value": "short",
+        "is_short": true,
+        "method": "official_channel_shorts_tab",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "XysB2gOA5iQ",
+      "resource_id": "youtube-xysb2goa5iq",
+      "title": "The Business Banking Mistake Killing Your Funding Chances",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "YiseECgaaSc",
+      "resource_id": "youtube-yiseecgaasc",
+      "title": "Tired of Bleeding 3-4% on Every Sale?",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Yl3bXsAg8rc",
+      "resource_id": "youtube-yl3bxsag8rc",
+      "title": "🚀 How to Get Fast Funding for Your Startup with GoKapital | Up to $500,000! 💰",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "YlvdfZfYERg",
+      "resource_id": "youtube-ylvdfzfyerg",
+      "title": "💼 3.1 What is a Money Broker? | The Hidden Hero of Business Financing 🌟",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "YpnwhsDJZvM",
+      "resource_id": "youtube-ypnwhsdjzvm",
+      "title": "Broker's Financial Palette: Navigating the Spectrum of Loan Opportunities",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "YR699Pgxeng",
+      "resource_id": "youtube-yr699pgxeng",
+      "title": "GoKapital Review 2026: Legit Opportunity or \"Predatory\" Scam?",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "yWWJkliNjzc",
+      "resource_id": "youtube-ywwjklinjzc",
+      "title": "💵 Unlocking the Secrets to Quick Business Funding with Moonshine Capital 🤑",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "Yz8JAClUs38",
+      "resource_id": "youtube-yz8jaclus38",
+      "title": "Recover Dead Leads Automatically: The Follow-Up Engine That Closes More Deals",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "z4Bjb6g08-I",
+      "resource_id": "youtube-z4bjb6g08-i",
+      "title": "Gig Economy Funding Made Easy: Best Platforms to Try Today | GetFunded",
+      "classification": {
+        "value": "video",
+        "is_short": false,
+        "method": "duration_over_180_seconds",
+        "confidence": 0.99
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "ZetYlG5ukPg",
+      "resource_id": "youtube-zetylg5ukpg",
+      "title": "💸 Empowering Dreams, Enabling Success: Our Vision at Moonshine Capital 💸",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    },
+    {
+      "youtube_video_id": "zlWcUSnRpvQ",
+      "resource_id": "youtube-zlwcusnrpvq",
+      "title": "🚀 Easily Monitor Your Business Credit with FairFigure! 🚀",
+      "classification": {
+        "value": "unknown",
+        "is_short": null,
+        "method": "insufficient_evidence",
+        "confidence": 0
+      },
+      "canonical_registry_action": "preserve_existing_registry_location"
+    }
+  ],
+  "policy": "classification_only_preserve_existing_registry_location"
+}

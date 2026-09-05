@@ -1,0 +1,5425 @@
+{
+  "batch": "youtube-v2-batch-1",
+  "run_id": "20260905T212146Z",
+  "generated_at": "2026-09-05T21:23:31.422Z",
+  "relationships": [
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-1md0qunnr5e-references-article-ai-tools-for-loan-brokers",
+      "source_id": "youtube-1md0qunnr5e",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "article-ai-tools-for-loan-brokers"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://www.distilledfunding.com/post/ai-tools-for-loan-brokers",
+        "normalized_evidence_url": "https://distilledfunding.com/post/ai-tools-for-loan-brokers",
+        "source_video_id": "1mD0qUNNR5E"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-isc2two2zvy",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-isc2two2zvy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/Isc2TwO2ZVY",
+        "normalized_evidence_url": "https://youtube.com/watch?v=Isc2TwO2ZVY",
+        "source_video_id": "3OJXu8ZJsxc"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-r7ocuroopkw",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-r7ocuroopkw"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/R7oCUroopkw",
+        "normalized_evidence_url": "https://youtube.com/watch?v=R7oCUroopkw",
+        "source_video_id": "3OJXu8ZJsxc"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-snl09g9enb8",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-snl09g9enb8"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/sNl09g9ENb8",
+        "normalized_evidence_url": "https://youtube.com/watch?v=sNl09g9ENb8",
+        "source_video_id": "3OJXu8ZJsxc"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-affiliate-marketing-strategist",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-agent-growth-hub",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-dac-affiliate-email-wizard",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-deal-maker-ads",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-getting-started-right",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-getting-started-right"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-provider-bank-breezy",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "source_video_id": "B8dSnHFMVY4"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-affiliate-marketing-strategist",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "source_video_id": "B8dSnHFMVY4"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-agent-growth-hub",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "source_video_id": "B8dSnHFMVY4"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-dac-affiliate-email-wizard",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "source_video_id": "B8dSnHFMVY4"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-deal-maker-ads",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "source_video_id": "B8dSnHFMVY4"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-getting-started-right",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-getting-started-right"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "source_video_id": "B8dSnHFMVY4"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-fhtt6s6coti-references-provider-bank-breezy",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "Fhtt6s6CoTI"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-fhtt6s6coti",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-fhtt6s6coti"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/Fhtt6s6CoTI",
+        "normalized_evidence_url": "https://youtube.com/watch?v=Fhtt6s6CoTI",
+        "source_video_id": "GzlgSQwWGfo"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-h2jqg5i5y2o",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-h2jqg5i5y2o"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/h2jqg5i5Y2o",
+        "normalized_evidence_url": "https://youtube.com/watch?v=h2jqg5i5Y2o",
+        "source_video_id": "GzlgSQwWGfo"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-v60om-8yri0",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-v60om-8yri0"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/V60om-8yrI0",
+        "normalized_evidence_url": "https://youtube.com/watch?v=V60om-8yrI0",
+        "source_video_id": "GzlgSQwWGfo"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-ywpwyv540ae",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-ywpwyv540ae"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/YWPwyv540aE",
+        "normalized_evidence_url": "https://youtube.com/watch?v=YWPwyv540aE",
+        "source_video_id": "GzlgSQwWGfo"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-affiliate-marketing-strategist",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-agent-growth-hub",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-dac-affiliate-email-wizard",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-deal-maker-ads",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-getting-started-right",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-getting-started-right"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-provider-bank-breezy",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-hajaway2md4-references-youtube-fhtt6s6coti",
+      "source_id": "youtube-hajaway2md4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-fhtt6s6coti"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/Fhtt6s6CoTI",
+        "normalized_evidence_url": "https://youtube.com/watch?v=Fhtt6s6CoTI",
+        "source_video_id": "hAjAWAy2MD4"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-hajaway2md4-references-youtube-keealebdo0",
+      "source_id": "youtube-hajaway2md4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-keealebdo0"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/-KEEAlEBDO0",
+        "normalized_evidence_url": "https://youtube.com/watch?v=-KEEAlEBDO0",
+        "source_video_id": "hAjAWAy2MD4"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-hajaway2md4-references-youtube-mvbaddvab2w",
+      "source_id": "youtube-hajaway2md4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-mvbaddvab2w"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/mvBaddvaB2w",
+        "normalized_evidence_url": "https://youtube.com/watch?v=mvBaddvaB2w",
+        "source_video_id": "hAjAWAy2MD4"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-keealebdo0-references-provider-bank-breezy",
+      "source_id": "youtube-keealebdo0",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "-KEEAlEBDO0"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-site-agency-in-a-box",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "site-agency-in-a-box"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://agency-in-a-box-iota.vercel.app/",
+        "normalized_evidence_url": "https://agency-in-a-box-iota.vercel.app/",
+        "source_video_id": "o-_me9-I_5U"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-9a3hthkalt8",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-9a3hthkalt8"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/9A3hThKaLT8",
+        "normalized_evidence_url": "https://youtube.com/watch?v=9A3hThKaLT8",
+        "source_video_id": "o-_me9-I_5U"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-fhtt6s6coti",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-fhtt6s6coti"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/Fhtt6s6CoTI",
+        "normalized_evidence_url": "https://youtube.com/watch?v=Fhtt6s6CoTI",
+        "source_video_id": "o-_me9-I_5U"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-fyohbmh2fhk",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-fyohbmh2fhk"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/fYOHbmH2fhk",
+        "normalized_evidence_url": "https://youtube.com/watch?v=fYOHbmH2fhk",
+        "source_video_id": "o-_me9-I_5U"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-mvbaddvab2w",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-mvbaddvab2w"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/mvBaddvaB2w",
+        "normalized_evidence_url": "https://youtube.com/watch?v=mvBaddvaB2w",
+        "source_video_id": "o-_me9-I_5U"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-tpihva2ohhg",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-tpihva2ohhg"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/tpihvA2OHhg",
+        "normalized_evidence_url": "https://youtube.com/watch?v=tpihvA2OHhg",
+        "source_video_id": "o-_me9-I_5U"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-affiliate-marketing-strategist",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-agent-growth-hub",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-dac-affiliate-email-wizard",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-deal-maker-ads",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-getting-started-right",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-getting-started-right"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-provider-bank-breezy",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-uy-t0waclxe-references-provider-guidant",
+      "source_id": "youtube-uy-t0waclxe",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-guidant"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://www.gfprequal.com/mc",
+        "normalized_evidence_url": "https://gfprequal.com/mc",
+        "source_video_id": "uY-T0WAClxE"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-xalzxdfwjzm-references-article-fundandgrow-review",
+      "source_id": "youtube-xalzxdfwjzm",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "article-fundandgrow-review"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://www.distilledfunding.com/post/fundandgrow-review",
+        "normalized_evidence_url": "https://distilledfunding.com/post/fundandgrow-review",
+        "source_video_id": "xAlzXDFwjzM"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-affiliate-marketing-strategist",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-marketing-strategist"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-agent-growth-hub",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-agent-growth-hub"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-dac-affiliate-email-wizard",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-dac-affiliate-email-wizard"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-deal-maker-ads",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-deal-maker-ads"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-getting-started-right",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-getting-started-right"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "normalized_evidence_url": "https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-provider-bank-breezy",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-bank-breezy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "public_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://bankbreezy.com/funding/jason",
+        "normalized_evidence_url": "https://bankbreezy.com/funding/jason",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-zcllymcevsc-references-youtube-6hvokuhg9cy",
+      "source_id": "youtube-zcllymcevsc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-6hvokuhg9cy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/6HvoKUHG9cY",
+        "normalized_evidence_url": "https://youtube.com/watch?v=6HvoKUHG9cY",
+        "source_video_id": "ZCllyMCeVSc"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-zcllymcevsc-references-youtube-snl09g9enb8",
+      "source_id": "youtube-zcllymcevsc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-snl09g9enb8"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/sNl09g9ENb8",
+        "normalized_evidence_url": "https://youtube.com/watch?v=sNl09g9ENb8",
+        "source_video_id": "ZCllyMCeVSc"
+      },
+      "evidence_class": "explicit_description_url",
+      "confidence": 1,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-promotes-cta-funding-any-reason",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "3OJXu8ZJsxc"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "3OJXu8ZJsxc"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-references-article-same-day-loans-for-gig-workers-5-providers-compared",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "article-same-day-loans-for-gig-workers-5-providers-compared"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Same-Day Loans for Gig Workers: 5 Providers Compared",
+        "source_video_id": "3OJXu8ZJsxc"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-references-gpt-vc-backup-plan-gpt",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-vc-backup-plan-gpt"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "VC Backup Plan GPT",
+        "source_video_id": "3OJXu8ZJsxc"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-promotes-cta-funding-any-reason",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-promotes-form-tally-moe658",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-9a3hthkalt8-references-provider-david-allen-capital",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "9A3hThKaLT8"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "B8dSnHFMVY4"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-promotes-form-tally-moe658",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "B8dSnHFMVY4"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-provider-david-allen-capital",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "B8dSnHFMVY4"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-references-provider-national-business-capital",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-national-business-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "National Business Capital",
+        "source_video_id": "B8dSnHFMVY4"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-d3llrn13oq4-references-repo-funding-product-matrix",
+      "source_id": "youtube-d3llrn13oq4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "repo-funding-product-matrix"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "funding-product-matrix",
+        "source_video_id": "d3llRn13oQ4"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-fhtt6s6coti-promotes-cta-funding-any-reason",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "Fhtt6s6CoTI"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-fhtt6s6coti-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "Fhtt6s6CoTI"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-fhtt6s6coti-promotes-form-tally-moe658",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "Fhtt6s6CoTI"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-fhtt6s6coti-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "Fhtt6s6CoTI"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-fhtt6s6coti-references-provider-david-allen-capital",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "Fhtt6s6CoTI"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "GzlgSQwWGfo"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-promotes-form-tally-moe658",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "GzlgSQwWGfo"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-cta-funding-any-reason",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-form-tally-moe658",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-references-provider-david-allen-capital",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "h2jqg5i5Y2o"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-hfccdehcwtk-promotes-cta-funding-any-reason",
+      "source_id": "youtube-hfccdehcwtk",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "hfCCdEHCwtk"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-hfccdehcwtk-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-hfccdehcwtk",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "hfCCdEHCwtk"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-hfccdehcwtk-references-provider-david-allen-capital",
+      "source_id": "youtube-hfccdehcwtk",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "hfCCdEHCwtk"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-hfccdehcwtk-references-provider-national-business-capital",
+      "source_id": "youtube-hfccdehcwtk",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-national-business-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "National Business Capital",
+        "source_video_id": "hfCCdEHCwtk"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-keealebdo0-promotes-cta-funding-any-reason",
+      "source_id": "youtube-keealebdo0",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "-KEEAlEBDO0"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-keealebdo0-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-keealebdo0",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "-KEEAlEBDO0"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-keealebdo0-references-gpt-affiliate-agency-gpt",
+      "source_id": "youtube-keealebdo0",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-affiliate-agency-gpt"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Affiliate Agency GPT",
+        "source_video_id": "-KEEAlEBDO0"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-mxq7kwdggs8-promotes-cta-funding-any-reason",
+      "source_id": "youtube-mxq7kwdggs8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "mXQ7kwdggS8"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-mxq7kwdggs8-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-mxq7kwdggs8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "mXQ7kwdggS8"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-mxq7kwdggs8-references-gpt-start-your-own-funding-agency",
+      "source_id": "youtube-mxq7kwdggs8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "gpt-start-your-own-funding-agency"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Start Your Own Funding Agency",
+        "source_video_id": "mXQ7kwdggS8"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-mxq7kwdggs8-references-provider-david-allen-capital",
+      "source_id": "youtube-mxq7kwdggs8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "mXQ7kwdggS8"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-mxq7kwdggs8-references-provider-national-business-capital",
+      "source_id": "youtube-mxq7kwdggs8",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-national-business-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "National Business Capital",
+        "source_video_id": "mXQ7kwdggS8"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-promotes-cta-funding-any-reason",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-promotes-form-tally-moe658",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-tpihva2ohhg-references-provider-david-allen-capital",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "tpihvA2OHhg"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-promotes-cta-funding-any-reason",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-promotes-form-tally-moe658",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-ywpwyv540ae-references-provider-david-allen-capital",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "provider-david-allen-capital"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "David Allen Capital",
+        "source_video_id": "YWPwyv540aE"
+      },
+      "evidence_class": "exact_title",
+      "confidence": 0.92,
+      "auto_promote": true
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-2garn-z4ug-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-2garn-z4ug",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program",
+          "AI Automation & Finance Ops"
+        ],
+        "supporting_existing_edge_count": 5,
+        "source_video_id": "_2GARn_z4ug"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-2garn-z4ug-related-to-article-human-in-the-loop-ai-funding",
+      "source_id": "youtube-2garn-z4ug",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-human-in-the-loop-ai-funding"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program",
+          "AI Automation & Finance Ops"
+        ],
+        "supporting_existing_edge_count": 137,
+        "source_video_id": "_2GARn_z4ug"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-2garn-z4ug-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-2garn-z4ug",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program",
+          "AI Automation & Finance Ops"
+        ],
+        "supporting_existing_edge_count": 57,
+        "source_video_id": "_2GARn_z4ug"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-7csodj7otaa-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-7csodj7otaa",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Reviews & Comparisons"
+        ],
+        "supporting_existing_edge_count": 14,
+        "source_video_id": "7CsOdJ7oTAA"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-7csodj7otaa-related-to-article-how-much-money-do-you-need-to-buy-a-business",
+      "source_id": "youtube-7csodj7otaa",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-how-much-money-do-you-need-to-buy-a-business"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Reviews & Comparisons"
+        ],
+        "supporting_existing_edge_count": 90,
+        "source_video_id": "7CsOdJ7oTAA"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-7csodj7otaa-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-7csodj7otaa",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Reviews & Comparisons"
+        ],
+        "supporting_existing_edge_count": 83,
+        "source_video_id": "7CsOdJ7oTAA"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-a7desh6voem-promotes-affiliate-flippa-referral",
+      "source_id": "youtube-a7desh6voem",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-flippa-referral"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 25,
+        "source_video_id": "a7dEsH6voEM"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-a7desh6voem-related-to-article-how-much-money-do-you-need-to-buy-a-business",
+      "source_id": "youtube-a7desh6voem",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-how-much-money-do-you-need-to-buy-a-business"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 275,
+        "source_video_id": "a7dEsH6voEM"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-a7desh6voem-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-a7desh6voem",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 245,
+        "source_video_id": "a7dEsH6voEM"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-hjt-aj9jvjg-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-hjt-aj9jvjg",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "AI Automation & Finance Ops"
+        ],
+        "supporting_existing_edge_count": 4,
+        "source_video_id": "hjt_Aj9jVjg"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-hjt-aj9jvjg-related-to-article-human-in-the-loop-ai-funding",
+      "source_id": "youtube-hjt-aj9jvjg",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-human-in-the-loop-ai-funding"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "AI Automation & Finance Ops"
+        ],
+        "supporting_existing_edge_count": 70,
+        "source_video_id": "hjt_Aj9jVjg"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-hjt-aj9jvjg-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-hjt-aj9jvjg",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "AI Automation & Finance Ops"
+        ],
+        "supporting_existing_edge_count": 40,
+        "source_video_id": "hjt_Aj9jVjg"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-iiietclevww-promotes-affiliate-flippa-referral",
+      "source_id": "youtube-iiietclevww",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-flippa-referral"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 25,
+        "source_video_id": "IIiETclEVww"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-iiietclevww-related-to-article-how-much-money-do-you-need-to-buy-a-business",
+      "source_id": "youtube-iiietclevww",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-how-much-money-do-you-need-to-buy-a-business"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 275,
+        "source_video_id": "IIiETclEVww"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-iiietclevww-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-iiietclevww",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 245,
+        "source_video_id": "IIiETclEVww"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-jjicm-vg2v8-promotes-affiliate-flippa-referral",
+      "source_id": "youtube-jjicm-vg2v8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-flippa-referral"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 25,
+        "source_video_id": "jJicM_vg2V8"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-jjicm-vg2v8-related-to-article-how-much-money-do-you-need-to-buy-a-business",
+      "source_id": "youtube-jjicm-vg2v8",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-how-much-money-do-you-need-to-buy-a-business"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 275,
+        "source_video_id": "jJicM_vg2V8"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-jjicm-vg2v8-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-jjicm-vg2v8",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 245,
+        "source_video_id": "jJicM_vg2V8"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-m-v8s-qj86u-promotes-affiliate-flippa-referral",
+      "source_id": "youtube-m-v8s-qj86u",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-flippa-referral"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 25,
+        "source_video_id": "m-v8s-qj86U"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-m-v8s-qj86u-related-to-article-how-much-money-do-you-need-to-buy-a-business",
+      "source_id": "youtube-m-v8s-qj86u",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-how-much-money-do-you-need-to-buy-a-business"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 275,
+        "source_video_id": "m-v8s-qj86U"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-m-v8s-qj86u-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-m-v8s-qj86u",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 245,
+        "source_video_id": "m-v8s-qj86U"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-o8jnx1okoee-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-o8jnx1okoee",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Real Estate Funding"
+        ],
+        "supporting_existing_edge_count": 47,
+        "source_video_id": "O8JNX1OKoeE"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-o8jnx1okoee-related-to-article-get-a-personalized-funding-quote",
+      "source_id": "youtube-o8jnx1okoee",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-get-a-personalized-funding-quote"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Real Estate Funding"
+        ],
+        "supporting_existing_edge_count": 35,
+        "source_video_id": "O8JNX1OKoeE"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-o8jnx1okoee-related-to-calculator-deal-killer-hard-money-analyzer",
+      "source_id": "youtube-o8jnx1okoee",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-deal-killer-hard-money-analyzer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Real Estate Funding"
+        ],
+        "supporting_existing_edge_count": 46,
+        "source_video_id": "O8JNX1OKoeE"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-ohflsf0qchm-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-ohflsf0qchm",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Credit",
+          "Reviews & Comparisons"
+        ],
+        "supporting_existing_edge_count": 14,
+        "source_video_id": "ohfLsF0qchM"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-ohflsf0qchm-related-to-article-how-much-money-do-you-need-to-buy-a-business",
+      "source_id": "youtube-ohflsf0qchm",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-how-much-money-do-you-need-to-buy-a-business"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Credit",
+          "Reviews & Comparisons"
+        ],
+        "supporting_existing_edge_count": 102,
+        "source_video_id": "ohfLsF0qchM"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-ohflsf0qchm-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-ohflsf0qchm",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Credit",
+          "Reviews & Comparisons"
+        ],
+        "supporting_existing_edge_count": 112,
+        "source_video_id": "ohfLsF0qchM"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-q2yd4aw5sps-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-q2yd4aw5sps",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 2,
+        "source_video_id": "Q2YD4aw5Sps"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-q2yd4aw5sps-related-to-article-human-in-the-loop-ai-funding",
+      "source_id": "youtube-q2yd4aw5sps",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-human-in-the-loop-ai-funding"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 93,
+        "source_video_id": "Q2YD4aw5Sps"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-q2yd4aw5sps-related-to-calculator-lender-fit-scorecard-matrix",
+      "source_id": "youtube-q2yd4aw5sps",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-lender-fit-scorecard-matrix"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 19,
+        "source_video_id": "Q2YD4aw5Sps"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-qgk8u9veyg4-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-qgk8u9veyg4",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "AI Automation & Finance Ops"
+        ],
+        "supporting_existing_edge_count": 4,
+        "source_video_id": "qgK8U9veyG4"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-qgk8u9veyg4-related-to-article-human-in-the-loop-ai-funding",
+      "source_id": "youtube-qgk8u9veyg4",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-human-in-the-loop-ai-funding"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "AI Automation & Finance Ops"
+        ],
+        "supporting_existing_edge_count": 70,
+        "source_video_id": "qgK8U9veyG4"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-qgk8u9veyg4-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-qgk8u9veyg4",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "AI Automation & Finance Ops"
+        ],
+        "supporting_existing_edge_count": 40,
+        "source_video_id": "qgK8U9veyG4"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-rdebbnwpxky-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-rdebbnwpxky",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Real Estate Funding"
+        ],
+        "supporting_existing_edge_count": 47,
+        "source_video_id": "rDEbbNWPxkY"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-rdebbnwpxky-related-to-article-get-a-personalized-funding-quote",
+      "source_id": "youtube-rdebbnwpxky",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-get-a-personalized-funding-quote"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Real Estate Funding"
+        ],
+        "supporting_existing_edge_count": 35,
+        "source_video_id": "rDEbbNWPxkY"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-rdebbnwpxky-related-to-calculator-deal-killer-hard-money-analyzer",
+      "source_id": "youtube-rdebbnwpxky",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-deal-killer-hard-money-analyzer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Real Estate Funding"
+        ],
+        "supporting_existing_edge_count": 46,
+        "source_video_id": "rDEbbNWPxkY"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-rxltjxuvvqe-promotes-affiliate-flippa-referral",
+      "source_id": "youtube-rxltjxuvvqe",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-flippa-referral"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 25,
+        "source_video_id": "RXLTJXuvVQE"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-rxltjxuvvqe-related-to-article-how-much-money-do-you-need-to-buy-a-business",
+      "source_id": "youtube-rxltjxuvvqe",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-how-much-money-do-you-need-to-buy-a-business"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 275,
+        "source_video_id": "RXLTJXuvVQE"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-rxltjxuvvqe-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-rxltjxuvvqe",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 245,
+        "source_video_id": "RXLTJXuvVQE"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-tdpn3ts0uv8-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-tdpn3ts0uv8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 2,
+        "source_video_id": "Tdpn3TS0UV8"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-tdpn3ts0uv8-related-to-article-human-in-the-loop-ai-funding",
+      "source_id": "youtube-tdpn3ts0uv8",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-human-in-the-loop-ai-funding"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 93,
+        "source_video_id": "Tdpn3TS0UV8"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-tdpn3ts0uv8-related-to-calculator-lender-fit-scorecard-matrix",
+      "source_id": "youtube-tdpn3ts0uv8",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-lender-fit-scorecard-matrix"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 19,
+        "source_video_id": "Tdpn3TS0UV8"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-tvqinuaqrzm-promotes-affiliate-flippa-referral",
+      "source_id": "youtube-tvqinuaqrzm",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-flippa-referral"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 25,
+        "source_video_id": "tVQinuAqrZM"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-tvqinuaqrzm-related-to-article-how-much-money-do-you-need-to-buy-a-business",
+      "source_id": "youtube-tvqinuaqrzm",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-how-much-money-do-you-need-to-buy-a-business"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 275,
+        "source_video_id": "tVQinuAqrZM"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-tvqinuaqrzm-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-tvqinuaqrzm",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Business Funding"
+        ],
+        "supporting_existing_edge_count": 245,
+        "source_video_id": "tVQinuAqrZM"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-ui4c4400c7k-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-ui4c4400c7k",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 2,
+        "source_video_id": "ui4C4400C7k"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-ui4c4400c7k-related-to-article-human-in-the-loop-ai-funding",
+      "source_id": "youtube-ui4c4400c7k",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-human-in-the-loop-ai-funding"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 93,
+        "source_video_id": "ui4C4400C7k"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-ui4c4400c7k-related-to-calculator-lender-fit-scorecard-matrix",
+      "source_id": "youtube-ui4c4400c7k",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-lender-fit-scorecard-matrix"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 19,
+        "source_video_id": "ui4C4400C7k"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-uq96owlzzwo-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-uq96owlzzwo",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 2,
+        "source_video_id": "uq96OWlZZWo"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-uq96owlzzwo-related-to-article-human-in-the-loop-ai-funding",
+      "source_id": "youtube-uq96owlzzwo",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-human-in-the-loop-ai-funding"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 93,
+        "source_video_id": "uq96OWlZZWo"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-uq96owlzzwo-related-to-calculator-lender-fit-scorecard-matrix",
+      "source_id": "youtube-uq96owlzzwo",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-lender-fit-scorecard-matrix"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 19,
+        "source_video_id": "uq96OWlZZWo"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-vo6bazirqwo-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-vo6bazirqwo",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 2,
+        "source_video_id": "Vo6BAZIrqWo"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-vo6bazirqwo-related-to-article-human-in-the-loop-ai-funding",
+      "source_id": "youtube-vo6bazirqwo",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-human-in-the-loop-ai-funding"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 93,
+        "source_video_id": "Vo6BAZIrqWo"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-vo6bazirqwo-related-to-calculator-lender-fit-scorecard-matrix",
+      "source_id": "youtube-vo6bazirqwo",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "calculator-lender-fit-scorecard-matrix"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Loan Broker & Affiliate Program"
+        ],
+        "supporting_existing_edge_count": 19,
+        "source_video_id": "Vo6BAZIrqWo"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-ctas.json",
+      "relationship_id": "rel-youtube-vtmeno5iac0-promotes-affiliate-kiavi-partner-link",
+      "source_id": "youtube-vtmeno5iac0",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "affiliate-kiavi-partner-link"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Reviews & Comparisons"
+        ],
+        "supporting_existing_edge_count": 14,
+        "source_video_id": "vtmENo5iAC0"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-content.json",
+      "relationship_id": "rel-youtube-vtmeno5iac0-related-to-article-how-much-money-do-you-need-to-buy-a-business",
+      "source_id": "youtube-vtmeno5iac0",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "article-how-much-money-do-you-need-to-buy-a-business"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Reviews & Comparisons"
+        ],
+        "supporting_existing_edge_count": 90,
+        "source_video_id": "vtmENo5iAC0"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    },
+    {
+      "action": "add",
+      "relationship_file": "relationships/content-to-resources.json",
+      "relationship_id": "rel-youtube-vtmeno5iac0-related-to-gpt-get-my-funding-offer",
+      "source_id": "youtube-vtmeno5iac0",
+      "relationship_type": "related_to",
+      "target": {
+        "resource_id": "gpt-get-my-funding-offer"
+      },
+      "context": "Deterministic cluster-based candidate for a new YouTube video; held from auto-promotion.",
+      "weight": 0.55,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "taxonomy_cluster",
+        "evidence_rank": 1,
+        "match_method": "taxonomy_cluster",
+        "confidence": 0.55,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "inferred_clusters": [
+          "Reviews & Comparisons"
+        ],
+        "supporting_existing_edge_count": 83,
+        "source_video_id": "vtmENo5iAC0"
+      },
+      "evidence_class": "taxonomy_cluster",
+      "confidence": 0.55,
+      "auto_promote": false
+    }
+  ]
+}

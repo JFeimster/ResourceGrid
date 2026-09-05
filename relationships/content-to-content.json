@@ -30060,6 +30060,565 @@
       "metadata": {
         "enrichment_version": "v1.2"
       }
+    },
+    {
+      "relationship_id": "rel-youtube-1md0qunnr5e-references-article-ai-tools-for-loan-brokers",
+      "source_id": "youtube-1md0qunnr5e",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "article-ai-tools-for-loan-brokers"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://www.distilledfunding.com/post/ai-tools-for-loan-brokers",
+        "normalized_evidence_url": "https://distilledfunding.com/post/ai-tools-for-loan-brokers",
+        "source_video_id": "1mD0qUNNR5E"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-isc2two2zvy",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-isc2two2zvy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/Isc2TwO2ZVY",
+        "normalized_evidence_url": "https://youtube.com/watch?v=Isc2TwO2ZVY",
+        "source_video_id": "3OJXu8ZJsxc"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-r7ocuroopkw",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-r7ocuroopkw"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/R7oCUroopkw",
+        "normalized_evidence_url": "https://youtube.com/watch?v=R7oCUroopkw",
+        "source_video_id": "3OJXu8ZJsxc"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-snl09g9enb8",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-snl09g9enb8"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/sNl09g9ENb8",
+        "normalized_evidence_url": "https://youtube.com/watch?v=sNl09g9ENb8",
+        "source_video_id": "3OJXu8ZJsxc"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-fhtt6s6coti",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-fhtt6s6coti"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/Fhtt6s6CoTI",
+        "normalized_evidence_url": "https://youtube.com/watch?v=Fhtt6s6CoTI",
+        "source_video_id": "GzlgSQwWGfo"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-h2jqg5i5y2o",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-h2jqg5i5y2o"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/h2jqg5i5Y2o",
+        "normalized_evidence_url": "https://youtube.com/watch?v=h2jqg5i5Y2o",
+        "source_video_id": "GzlgSQwWGfo"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-v60om-8yri0",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-v60om-8yri0"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/V60om-8yrI0",
+        "normalized_evidence_url": "https://youtube.com/watch?v=V60om-8yrI0",
+        "source_video_id": "GzlgSQwWGfo"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-ywpwyv540ae",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-ywpwyv540ae"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/YWPwyv540aE",
+        "normalized_evidence_url": "https://youtube.com/watch?v=YWPwyv540aE",
+        "source_video_id": "GzlgSQwWGfo"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-hajaway2md4-references-youtube-fhtt6s6coti",
+      "source_id": "youtube-hajaway2md4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-fhtt6s6coti"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/Fhtt6s6CoTI",
+        "normalized_evidence_url": "https://youtube.com/watch?v=Fhtt6s6CoTI",
+        "source_video_id": "hAjAWAy2MD4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-hajaway2md4-references-youtube-keealebdo0",
+      "source_id": "youtube-hajaway2md4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-keealebdo0"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/-KEEAlEBDO0",
+        "normalized_evidence_url": "https://youtube.com/watch?v=-KEEAlEBDO0",
+        "source_video_id": "hAjAWAy2MD4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-hajaway2md4-references-youtube-mvbaddvab2w",
+      "source_id": "youtube-hajaway2md4",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-mvbaddvab2w"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/mvBaddvaB2w",
+        "normalized_evidence_url": "https://youtube.com/watch?v=mvBaddvaB2w",
+        "source_video_id": "hAjAWAy2MD4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-9a3hthkalt8",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-9a3hthkalt8"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/9A3hThKaLT8",
+        "normalized_evidence_url": "https://youtube.com/watch?v=9A3hThKaLT8",
+        "source_video_id": "o-_me9-I_5U"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-fhtt6s6coti",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-fhtt6s6coti"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/Fhtt6s6CoTI",
+        "normalized_evidence_url": "https://youtube.com/watch?v=Fhtt6s6CoTI",
+        "source_video_id": "o-_me9-I_5U"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-fyohbmh2fhk",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-fyohbmh2fhk"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/fYOHbmH2fhk",
+        "normalized_evidence_url": "https://youtube.com/watch?v=fYOHbmH2fhk",
+        "source_video_id": "o-_me9-I_5U"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-mvbaddvab2w",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-mvbaddvab2w"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/mvBaddvaB2w",
+        "normalized_evidence_url": "https://youtube.com/watch?v=mvBaddvaB2w",
+        "source_video_id": "o-_me9-I_5U"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-tpihva2ohhg",
+      "source_id": "youtube-o-me9-i-5u",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-tpihva2ohhg"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/tpihvA2OHhg",
+        "normalized_evidence_url": "https://youtube.com/watch?v=tpihvA2OHhg",
+        "source_video_id": "o-_me9-I_5U"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-xalzxdfwjzm-references-article-fundandgrow-review",
+      "source_id": "youtube-xalzxdfwjzm",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "article-fundandgrow-review"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://www.distilledfunding.com/post/fundandgrow-review",
+        "normalized_evidence_url": "https://distilledfunding.com/post/fundandgrow-review",
+        "source_video_id": "xAlzXDFwjzM"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-zcllymcevsc-references-youtube-6hvokuhg9cy",
+      "source_id": "youtube-zcllymcevsc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-6hvokuhg9cy"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/6HvoKUHG9cY",
+        "normalized_evidence_url": "https://youtube.com/watch?v=6HvoKUHG9cY",
+        "source_video_id": "ZCllyMCeVSc"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-zcllymcevsc-references-youtube-snl09g9enb8",
+      "source_id": "youtube-zcllymcevsc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "youtube-snl09g9enb8"
+      },
+      "context": "Explicit URL in published YouTube description.",
+      "weight": 1,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "explicit_description_url",
+        "evidence_rank": 4,
+        "match_method": "source.source_url",
+        "confidence": 1,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "evidence_url": "https://youtu.be/sNl09g9ENb8",
+        "normalized_evidence_url": "https://youtube.com/watch?v=sNl09g9ENb8",
+        "source_video_id": "ZCllyMCeVSc"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-references-article-same-day-loans-for-gig-workers-5-providers-compared",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "references",
+      "target": {
+        "resource_id": "article-same-day-loans-for-gig-workers-5-providers-compared"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Same-Day Loans for Gig Workers: 5 Providers Compared",
+        "source_video_id": "3OJXu8ZJsxc"
+      }
     }
   ]
 }

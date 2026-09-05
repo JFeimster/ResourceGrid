@@ -1,0 +1,1527 @@
+{
+  "batch": "youtube-v2-batch-1",
+  "run_id": "20260905T212146Z",
+  "generated_at": "2026-09-05T21:23:31.422Z",
+  "urls": [
+    {
+      "youtube_video_id": "ZiadbBoPMm0",
+      "source_resource_id": "youtube-ziadbbopmm0",
+      "original_url": "https://bit.ly/4qlRBaa",
+      "normalized_url": "https://bit.ly/4qlRBaa",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "ZiadbBoPMm0",
+      "source_resource_id": "youtube-ziadbbopmm0",
+      "original_url": "https://bit.ly/4tLjZ6s",
+      "normalized_url": "https://bit.ly/4tLjZ6s",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "A19TaIumRE0",
+      "source_resource_id": "youtube-a19taiumre0",
+      "original_url": "https://bit.ly/3QF48sf",
+      "normalized_url": "https://bit.ly/3QF48sf",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "A19TaIumRE0",
+      "source_resource_id": "youtube-a19taiumre0",
+      "original_url": "https://bit.ly/4tY5qO1",
+      "normalized_url": "https://bit.ly/4tY5qO1",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "o-_me9-I_5U",
+      "source_resource_id": "youtube-o-me9-i-5u",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "o-_me9-I_5U",
+      "source_resource_id": "youtube-o-me9-i-5u",
+      "original_url": "https://www.distilledfunding.com/partners",
+      "normalized_url": "https://distilledfunding.com/partners",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "5KhtW42PH0U",
+      "source_resource_id": "youtube-5khtw42ph0u",
+      "original_url": "https://bit.ly/4but9Nr",
+      "normalized_url": "https://bit.ly/4but9Nr",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "5KhtW42PH0U",
+      "source_resource_id": "youtube-5khtw42ph0u",
+      "original_url": "https://wix.to/QSs2RVY",
+      "normalized_url": "https://wix.to/QSs2RVY",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "5KhtW42PH0U",
+      "source_resource_id": "youtube-5khtw42ph0u",
+      "original_url": "https://bit.ly/4shDB2h",
+      "normalized_url": "https://bit.ly/4shDB2h",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/4qeoLIw",
+      "normalized_url": "https://bit.ly/4qeoLIw",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/FundingBizLaunch",
+      "normalized_url": "https://bit.ly/FundingBizLaunch",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/DACagency",
+      "normalized_url": "https://bit.ly/DACagency",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/rockfi-affiliate",
+      "normalized_url": "https://bit.ly/rockfi-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/3PFLCff",
+      "normalized_url": "https://bit.ly/3PFLCff",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/creditsuiteaffiliate",
+      "normalized_url": "https://bit.ly/creditsuiteaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/nbcaffiliate",
+      "normalized_url": "https://bit.ly/nbcaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/financefactory-affiliate",
+      "normalized_url": "https://bit.ly/financefactory-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/4rUH0Ep",
+      "normalized_url": "https://bit.ly/4rUH0Ep",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/VCBackupPlanGPT",
+      "normalized_url": "https://bit.ly/VCBackupPlanGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/InstantFundingGPT",
+      "normalized_url": "https://bit.ly/InstantFundingGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/NoCodeGPT",
+      "normalized_url": "https://bit.ly/NoCodeGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/CashFlowPrompt",
+      "normalized_url": "https://bit.ly/CashFlowPrompt",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "B8dSnHFMVY4",
+      "source_resource_id": "youtube-b8dsnhfmvy4",
+      "original_url": "https://bit.ly/PassiveProGPT",
+      "normalized_url": "https://bit.ly/PassiveProGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "xAlzXDFwjzM",
+      "source_resource_id": "youtube-xalzxdfwjzm",
+      "original_url": "https://www.fundandgrow.com/sign-up-now?ref=jasonfeimster",
+      "normalized_url": "https://fundandgrow.com/sign-up-now?ref=jasonfeimster",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "-KEEAlEBDO0",
+      "source_resource_id": "youtube-keealebdo0",
+      "original_url": "https://bit.ly/fundingforanyreason",
+      "normalized_url": "https://bit.ly/fundingforanyreason",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "-KEEAlEBDO0",
+      "source_resource_id": "youtube-keealebdo0",
+      "original_url": "https://bit.ly/3Al55ht",
+      "normalized_url": "https://bit.ly/3Al55ht",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "-KEEAlEBDO0",
+      "source_resource_id": "youtube-keealebdo0",
+      "original_url": "https://bit.ly/4a6HXkL",
+      "normalized_url": "https://bit.ly/4a6HXkL",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "-KEEAlEBDO0",
+      "source_resource_id": "youtube-keealebdo0",
+      "original_url": "https://bit.ly/3OgsF5A",
+      "normalized_url": "https://bit.ly/3OgsF5A",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "-KEEAlEBDO0",
+      "source_resource_id": "youtube-keealebdo0",
+      "original_url": "https://bit.ly/4r0Z66U",
+      "normalized_url": "https://bit.ly/4r0Z66U",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "-KEEAlEBDO0",
+      "source_resource_id": "youtube-keealebdo0",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "-KEEAlEBDO0",
+      "source_resource_id": "youtube-keealebdo0",
+      "original_url": "https://bit.ly/partner_overview",
+      "normalized_url": "https://bit.ly/partner_overview",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/4qeoLIw",
+      "normalized_url": "https://bit.ly/4qeoLIw",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/FundingBizLaunch",
+      "normalized_url": "https://bit.ly/FundingBizLaunch",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/DACagency",
+      "normalized_url": "https://bit.ly/DACagency",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/rockfi-affiliate",
+      "normalized_url": "https://bit.ly/rockfi-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/3PFLCff",
+      "normalized_url": "https://bit.ly/3PFLCff",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/creditsuiteaffiliate",
+      "normalized_url": "https://bit.ly/creditsuiteaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/nbcaffiliate",
+      "normalized_url": "https://bit.ly/nbcaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/financefactory-affiliate",
+      "normalized_url": "https://bit.ly/financefactory-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/4rUH0Ep",
+      "normalized_url": "https://bit.ly/4rUH0Ep",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/VCBackupPlanGPT",
+      "normalized_url": "https://bit.ly/VCBackupPlanGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/InstantFundingGPT",
+      "normalized_url": "https://bit.ly/InstantFundingGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/NoCodeGPT",
+      "normalized_url": "https://bit.ly/NoCodeGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/CashFlowPrompt",
+      "normalized_url": "https://bit.ly/CashFlowPrompt",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/PassiveProGPT",
+      "normalized_url": "https://bit.ly/PassiveProGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/fundingforanyreason",
+      "normalized_url": "https://bit.ly/fundingforanyreason",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/3Al55ht",
+      "normalized_url": "https://bit.ly/3Al55ht",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/3EXLRQU",
+      "normalized_url": "https://bit.ly/3EXLRQU",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "9A3hThKaLT8",
+      "source_resource_id": "youtube-9a3hthkalt8",
+      "original_url": "https://bit.ly/4220hHi",
+      "normalized_url": "https://bit.ly/4220hHi",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "GzlgSQwWGfo",
+      "source_resource_id": "youtube-gzlgsqwwgfo",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "GzlgSQwWGfo",
+      "source_resource_id": "youtube-gzlgsqwwgfo",
+      "original_url": "https://bit.ly/3YSNpTc",
+      "normalized_url": "https://bit.ly/3YSNpTc",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "GzlgSQwWGfo",
+      "source_resource_id": "youtube-gzlgsqwwgfo",
+      "original_url": "https://bit.ly/4rUH0Ep",
+      "normalized_url": "https://bit.ly/4rUH0Ep",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/4qeoLIw",
+      "normalized_url": "https://bit.ly/4qeoLIw",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/FundingBizLaunch",
+      "normalized_url": "https://bit.ly/FundingBizLaunch",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/DACagency",
+      "normalized_url": "https://bit.ly/DACagency",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/rockfi-affiliate",
+      "normalized_url": "https://bit.ly/rockfi-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/3PFLCff",
+      "normalized_url": "https://bit.ly/3PFLCff",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/creditsuiteaffiliate",
+      "normalized_url": "https://bit.ly/creditsuiteaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/nbcaffiliate",
+      "normalized_url": "https://bit.ly/nbcaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/financefactory-affiliate",
+      "normalized_url": "https://bit.ly/financefactory-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/4a6HXkL",
+      "normalized_url": "https://bit.ly/4a6HXkL",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/4rjfijw",
+      "normalized_url": "https://bit.ly/4rjfijw",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/3OgsF5A",
+      "normalized_url": "https://bit.ly/3OgsF5A",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/3NPBV0x",
+      "normalized_url": "https://bit.ly/3NPBV0x",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/4r0Z66U",
+      "normalized_url": "https://bit.ly/4r0Z66U",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/4tdCrWc",
+      "normalized_url": "https://bit.ly/4tdCrWc",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/4rUH0Ep",
+      "normalized_url": "https://bit.ly/4rUH0Ep",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/VCBackupPlanGPT",
+      "normalized_url": "https://bit.ly/VCBackupPlanGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/InstantFundingGPT",
+      "normalized_url": "https://bit.ly/InstantFundingGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/NoCodeGPT",
+      "normalized_url": "https://bit.ly/NoCodeGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/CashFlowPrompt",
+      "normalized_url": "https://bit.ly/CashFlowPrompt",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/PassiveProGPT",
+      "normalized_url": "https://bit.ly/PassiveProGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/fundingforanyreason",
+      "normalized_url": "https://bit.ly/fundingforanyreason",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/3Al55ht",
+      "normalized_url": "https://bit.ly/3Al55ht",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/3EXLRQU",
+      "normalized_url": "https://bit.ly/3EXLRQU",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "Fhtt6s6CoTI",
+      "source_resource_id": "youtube-fhtt6s6coti",
+      "original_url": "https://bit.ly/4220hHi",
+      "normalized_url": "https://bit.ly/4220hHi",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/4qeoLIw",
+      "normalized_url": "https://bit.ly/4qeoLIw",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/FundingBizLaunch",
+      "normalized_url": "https://bit.ly/FundingBizLaunch",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/DACaffiliate",
+      "normalized_url": "https://bit.ly/DACaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/rockfi-affiliate",
+      "normalized_url": "https://bit.ly/rockfi-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/3PFLCff",
+      "normalized_url": "https://bit.ly/3PFLCff",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/creditsuiteaffiliate",
+      "normalized_url": "https://bit.ly/creditsuiteaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/nbcaffiliate",
+      "normalized_url": "https://bit.ly/nbcaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/financefactory-affiliate",
+      "normalized_url": "https://bit.ly/financefactory-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/4rUH0Ep",
+      "normalized_url": "https://bit.ly/4rUH0Ep",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/VCBackupPlanGPT",
+      "normalized_url": "https://bit.ly/VCBackupPlanGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/InstantFundingGPT",
+      "normalized_url": "https://bit.ly/InstantFundingGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/NoCodeGPT",
+      "normalized_url": "https://bit.ly/NoCodeGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/CashFlowPrompt",
+      "normalized_url": "https://bit.ly/CashFlowPrompt",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/PassiveProGPT",
+      "normalized_url": "https://bit.ly/PassiveProGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/fundingforanyreason",
+      "normalized_url": "https://bit.ly/fundingforanyreason",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/3Al55ht",
+      "normalized_url": "https://bit.ly/3Al55ht",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/3EXLRQU",
+      "normalized_url": "https://bit.ly/3EXLRQU",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "YWPwyv540aE",
+      "source_resource_id": "youtube-ywpwyv540ae",
+      "original_url": "https://bit.ly/4220hHi",
+      "normalized_url": "https://bit.ly/4220hHi",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/3LmrRuX",
+      "normalized_url": "https://bit.ly/3LmrRuX",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/4qeoLIw",
+      "normalized_url": "https://bit.ly/4qeoLIw",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/FundingBizLaunch",
+      "normalized_url": "https://bit.ly/FundingBizLaunch",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/DACaffiliate",
+      "normalized_url": "https://bit.ly/DACaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/rockfi-affiliate",
+      "normalized_url": "https://bit.ly/rockfi-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/3PFLCff",
+      "normalized_url": "https://bit.ly/3PFLCff",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/creditsuiteaffiliate",
+      "normalized_url": "https://bit.ly/creditsuiteaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/nbcaffiliate",
+      "normalized_url": "https://bit.ly/nbcaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/financefactory-affiliate",
+      "normalized_url": "https://bit.ly/financefactory-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/4rUH0Ep",
+      "normalized_url": "https://bit.ly/4rUH0Ep",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/VCBackupPlanGPT",
+      "normalized_url": "https://bit.ly/VCBackupPlanGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/InstantFundingGPT",
+      "normalized_url": "https://bit.ly/InstantFundingGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/NoCodeGPT",
+      "normalized_url": "https://bit.ly/NoCodeGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/CashFlowPrompt",
+      "normalized_url": "https://bit.ly/CashFlowPrompt",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/PassiveProGPT",
+      "normalized_url": "https://bit.ly/PassiveProGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/fundingforanyreason",
+      "normalized_url": "https://bit.ly/fundingforanyreason",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/3Al55ht",
+      "normalized_url": "https://bit.ly/3Al55ht",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/3EXLRQU",
+      "normalized_url": "https://bit.ly/3EXLRQU",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "h2jqg5i5Y2o",
+      "source_resource_id": "youtube-h2jqg5i5y2o",
+      "original_url": "https://bit.ly/4220hHi",
+      "normalized_url": "https://bit.ly/4220hHi",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "V60om-8yrI0",
+      "source_resource_id": "youtube-v60om-8yri0",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "V60om-8yrI0",
+      "source_resource_id": "youtube-v60om-8yri0",
+      "original_url": "https://bit.ly/4qeoLIw",
+      "normalized_url": "https://bit.ly/4qeoLIw",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "V60om-8yrI0",
+      "source_resource_id": "youtube-v60om-8yri0",
+      "original_url": "https://bit.ly/4rUH0Ep",
+      "normalized_url": "https://bit.ly/4rUH0Ep",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "V60om-8yrI0",
+      "source_resource_id": "youtube-v60om-8yri0",
+      "original_url": "https://bit.ly/FundingBizLaunch",
+      "normalized_url": "https://bit.ly/FundingBizLaunch",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/4qeoLIw",
+      "normalized_url": "https://bit.ly/4qeoLIw",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/FundingBizLaunch",
+      "normalized_url": "https://bit.ly/FundingBizLaunch",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/DACaffiliate",
+      "normalized_url": "https://bit.ly/DACaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/rockfi-affiliate",
+      "normalized_url": "https://bit.ly/rockfi-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/3PFLCff",
+      "normalized_url": "https://bit.ly/3PFLCff",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/creditsuiteaffiliate",
+      "normalized_url": "https://bit.ly/creditsuiteaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/nbcaffiliate",
+      "normalized_url": "https://bit.ly/nbcaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/financefactory-affiliate",
+      "normalized_url": "https://bit.ly/financefactory-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/4rUH0Ep",
+      "normalized_url": "https://bit.ly/4rUH0Ep",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/VCBackupPlanGPT",
+      "normalized_url": "https://bit.ly/VCBackupPlanGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/InstantFundingGPT",
+      "normalized_url": "https://bit.ly/InstantFundingGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/NoCodeGPT",
+      "normalized_url": "https://bit.ly/NoCodeGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/CashFlowPrompt",
+      "normalized_url": "https://bit.ly/CashFlowPrompt",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/PassiveProGPT",
+      "normalized_url": "https://bit.ly/PassiveProGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/fundingforanyreason",
+      "normalized_url": "https://bit.ly/fundingforanyreason",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/3Al55ht",
+      "normalized_url": "https://bit.ly/3Al55ht",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/3EXLRQU",
+      "normalized_url": "https://bit.ly/3EXLRQU",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "tpihvA2OHhg",
+      "source_resource_id": "youtube-tpihva2ohhg",
+      "original_url": "https://bit.ly/4220hHi",
+      "normalized_url": "https://bit.ly/4220hHi",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://wix.to/Yq41L77",
+      "normalized_url": "https://wix.to/Yq41L77",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://bit.ly/4l3msoZ",
+      "normalized_url": "https://bit.ly/4l3msoZ",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://www.distilledfunding.com/custom-gpts",
+      "normalized_url": "https://distilledfunding.com/custom-gpts",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://bit.ly/VCBackupPlanGPT",
+      "normalized_url": "https://bit.ly/VCBackupPlanGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://bit.ly/InstantFundingGPT",
+      "normalized_url": "https://bit.ly/InstantFundingGPT",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://wix.to/H2EwqFs",
+      "normalized_url": "https://wix.to/H2EwqFs",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://wix.to/yMDZccM",
+      "normalized_url": "https://wix.to/yMDZccM",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://wix.to/7NMlgMU",
+      "normalized_url": "https://wix.to/7NMlgMU",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://bit.ly/fundingforanyreason",
+      "normalized_url": "https://bit.ly/fundingforanyreason",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://bit.ly/BankBreezyApply",
+      "normalized_url": "https://bit.ly/BankBreezyApply",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://bit.ly/3Al55ht",
+      "normalized_url": "https://bit.ly/3Al55ht",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "3OJXu8ZJsxc",
+      "source_resource_id": "youtube-3ojxu8zjsxc",
+      "original_url": "https://bit.ly/4220hHi",
+      "normalized_url": "https://bit.ly/4220hHi",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "fYOHbmH2fhk",
+      "source_resource_id": "youtube-fyohbmh2fhk",
+      "original_url": "https://tally.so/r/mOe658",
+      "normalized_url": "https://tally.so/r/mOe658",
+      "classification": "ambiguous_resourcegrid_url",
+      "candidates": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "field": "source.source_url",
+          "registry_file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "youtube_video_id": "fYOHbmH2fhk",
+      "source_resource_id": "youtube-fyohbmh2fhk",
+      "original_url": "https://bit.ly/4qeoLIw",
+      "normalized_url": "https://bit.ly/4qeoLIw",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "fYOHbmH2fhk",
+      "source_resource_id": "youtube-fyohbmh2fhk",
+      "original_url": "https://bit.ly/FundingBizLaunch",
+      "normalized_url": "https://bit.ly/FundingBizLaunch",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "fYOHbmH2fhk",
+      "source_resource_id": "youtube-fyohbmh2fhk",
+      "original_url": "https://bit.ly/DACaffiliate",
+      "normalized_url": "https://bit.ly/DACaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "fYOHbmH2fhk",
+      "source_resource_id": "youtube-fyohbmh2fhk",
+      "original_url": "https://bit.ly/rockfi-affiliate",
+      "normalized_url": "https://bit.ly/rockfi-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "fYOHbmH2fhk",
+      "source_resource_id": "youtube-fyohbmh2fhk",
+      "original_url": "https://bit.ly/3PFLCff",
+      "normalized_url": "https://bit.ly/3PFLCff",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "fYOHbmH2fhk",
+      "source_resource_id": "youtube-fyohbmh2fhk",
+      "original_url": "https://bit.ly/creditsuiteaffiliate",
+      "normalized_url": "https://bit.ly/creditsuiteaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "fYOHbmH2fhk",
+      "source_resource_id": "youtube-fyohbmh2fhk",
+      "original_url": "https://bit.ly/nbcaffiliate",
+      "normalized_url": "https://bit.ly/nbcaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "fYOHbmH2fhk",
+      "source_resource_id": "youtube-fyohbmh2fhk",
+      "original_url": "https://bit.ly/financefactory-affiliate",
+      "normalized_url": "https://bit.ly/financefactory-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "ZCllyMCeVSc",
+      "source_resource_id": "youtube-zcllymcevsc",
+      "original_url": "https://ulvis.net/1RVI",
+      "normalized_url": "https://ulvis.net/1RVI",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "ZCllyMCeVSc",
+      "source_resource_id": "youtube-zcllymcevsc",
+      "original_url": "https://fxo.co/Is72",
+      "normalized_url": "https://fxo.co/Is72",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "ZCllyMCeVSc",
+      "source_resource_id": "youtube-zcllymcevsc",
+      "original_url": "https://fxo.co/Is73",
+      "normalized_url": "https://fxo.co/Is73",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "ZCllyMCeVSc",
+      "source_resource_id": "youtube-zcllymcevsc",
+      "original_url": "https://fxo.co/IlMS",
+      "normalized_url": "https://fxo.co/IlMS",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "ZCllyMCeVSc",
+      "source_resource_id": "youtube-zcllymcevsc",
+      "original_url": "https://fxo.co/Is74",
+      "normalized_url": "https://fxo.co/Is74",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "ZCllyMCeVSc",
+      "source_resource_id": "youtube-zcllymcevsc",
+      "original_url": "https://fxo.co/Is75",
+      "normalized_url": "https://fxo.co/Is75",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "zx2QhUUESbw",
+      "source_resource_id": "youtube-zx2qhuuesbw",
+      "original_url": "https://bit.ly/visiorentalloans",
+      "normalized_url": "https://bit.ly/visiorentalloans",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "iRyUdzm_Jm0",
+      "source_resource_id": "youtube-iryudzm-jm0",
+      "original_url": "https://bit.ly/fundingforanyreason",
+      "normalized_url": "https://bit.ly/fundingforanyreason",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/3v6bmuA",
+      "normalized_url": "https://bit.ly/3v6bmuA",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/41qQgTV",
+      "normalized_url": "https://bit.ly/41qQgTV",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/DACaffiliate",
+      "normalized_url": "https://bit.ly/DACaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/nbcaffiliate",
+      "normalized_url": "https://bit.ly/nbcaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/creditsuiteaffiliate",
+      "normalized_url": "https://bit.ly/creditsuiteaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/rockfi-affiliate",
+      "normalized_url": "https://bit.ly/rockfi-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/financefactory-affiliate",
+      "normalized_url": "https://bit.ly/financefactory-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/fundingforanyreason",
+      "normalized_url": "https://bit.ly/fundingforanyreason",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/dac-businesscapital",
+      "normalized_url": "https://bit.ly/dac-businesscapital",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/dac-gigfunding",
+      "normalized_url": "https://bit.ly/dac-gigfunding",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/fundandgrow-apply",
+      "normalized_url": "https://bit.ly/fundandgrow-apply",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "mXQ7kwdggS8",
+      "source_resource_id": "youtube-mxq7kwdggs8",
+      "original_url": "https://bit.ly/nbcapply",
+      "normalized_url": "https://bit.ly/nbcapply",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "source_resource_id": "youtube-hfccdehcwtk",
+      "original_url": "https://bit.ly/DACaffiliate",
+      "normalized_url": "https://bit.ly/DACaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "source_resource_id": "youtube-hfccdehcwtk",
+      "original_url": "https://bit.ly/nbcaffiliate",
+      "normalized_url": "https://bit.ly/nbcaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "source_resource_id": "youtube-hfccdehcwtk",
+      "original_url": "https://bit.ly/creditsuiteaffiliate",
+      "normalized_url": "https://bit.ly/creditsuiteaffiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "source_resource_id": "youtube-hfccdehcwtk",
+      "original_url": "https://bit.ly/rockfi-affiliate",
+      "normalized_url": "https://bit.ly/rockfi-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "source_resource_id": "youtube-hfccdehcwtk",
+      "original_url": "https://bit.ly/financefactory-affiliate",
+      "normalized_url": "https://bit.ly/financefactory-affiliate",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "source_resource_id": "youtube-hfccdehcwtk",
+      "original_url": "https://bit.ly/fundingforanyreason",
+      "normalized_url": "https://bit.ly/fundingforanyreason",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "source_resource_id": "youtube-hfccdehcwtk",
+      "original_url": "https://bit.ly/dac-businesscapital",
+      "normalized_url": "https://bit.ly/dac-businesscapital",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "source_resource_id": "youtube-hfccdehcwtk",
+      "original_url": "https://bit.ly/dac-gigfunding",
+      "normalized_url": "https://bit.ly/dac-gigfunding",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "source_resource_id": "youtube-hfccdehcwtk",
+      "original_url": "https://bit.ly/fundandgrow-apply",
+      "normalized_url": "https://bit.ly/fundandgrow-apply",
+      "classification": "external_unmatched"
+    },
+    {
+      "youtube_video_id": "hfCCdEHCwtk",
+      "source_resource_id": "youtube-hfccdehcwtk",
+      "original_url": "https://bit.ly/nbcapply",
+      "normalized_url": "https://bit.ly/nbcapply",
+      "classification": "external_unmatched"
+    }
+  ]
+}

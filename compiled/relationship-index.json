@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T18:03:10.856Z",
+  "generated_at": "2026-09-05T22:34:22.362Z",
   "source_count": 770,
-  "relationship_count": 4610,
+  "relationship_count": 4715,
   "relationships_by_source": {
     "article-0-interest-credit-stacking-with-7-figures-funding": [
       {
@@ -25336,6 +25336,15 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-1md0qunnr5e-references-article-ai-tools-for-loan-brokers",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "article-ai-tools-for-loan-brokers"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
       }
     ],
     "youtube-1of-usaasek": [
@@ -25425,6 +25434,60 @@
         "weight": 0.85
       },
       {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-isc2two2zvy",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-isc2two2zvy"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-r7ocuroopkw",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-r7ocuroopkw"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-snl09g9enb8",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-snl09g9enb8"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-references-article-same-day-loans-for-gig-workers-5-providers-compared",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "article-same-day-loans-for-gig-workers-5-providers-compared"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-promotes-cta-funding-any-reason",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-funding-any-reason"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-promotes-form-tally-w4r2ad",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-w4r2ad"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
         "relationship_id": "content-resource-youtube-3ojxu8zjsxc-calculator-buyer-equity-calculator-71ecd22335",
         "relationship_type": "references",
         "target": {
@@ -25459,6 +25522,15 @@
         },
         "context": "Resource recommendation from deterministic cluster/topic/title matching.",
         "weight": 0.72
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-references-gpt-vc-backup-plan-gpt",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-vc-backup-plan-gpt"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-4kpuhti9phk": [
@@ -25900,6 +25972,114 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-promotes-cta-funding-any-reason",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-funding-any-reason"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-promotes-cta-join-b2b-funding-platform",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-join-b2b-funding-platform"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-promotes-form-tally-moe658",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-moe658"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-promotes-form-tally-w4r2ad",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-w4r2ad"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-affiliate-agency-gpt",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-agency-gpt"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-affiliate-marketing-strategist",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-marketing-strategist"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-agent-growth-hub",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-agent-growth-hub"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-dac-affiliate-email-wizard",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-dac-affiliate-email-wizard"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-deal-maker-ads",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-deal-maker-ads"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-getting-started-right",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-getting-started-right"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-provider-bank-breezy",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-bank-breezy"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-provider-david-allen-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-david-allen-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-9rqp01fwcpq": [
@@ -26269,6 +26449,96 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-promotes-cta-join-b2b-funding-platform",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-join-b2b-funding-platform"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-promotes-form-tally-moe658",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-moe658"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-affiliate-agency-gpt",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-agency-gpt"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-affiliate-marketing-strategist",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-marketing-strategist"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-agent-growth-hub",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-agent-growth-hub"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-dac-affiliate-email-wizard",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-dac-affiliate-email-wizard"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-deal-maker-ads",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-deal-maker-ads"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-getting-started-right",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-getting-started-right"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-provider-david-allen-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-david-allen-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-provider-national-business-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-national-business-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-bqibppaeyvu": [
@@ -26515,6 +26785,15 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-d3llrn13oq4-references-repo-funding-product-matrix",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "repo-funding-product-matrix"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-d91msji94g": [
@@ -26934,6 +27213,60 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-promotes-cta-funding-any-reason",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-funding-any-reason"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-promotes-cta-join-b2b-funding-platform",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-join-b2b-funding-platform"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-promotes-form-tally-moe658",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-moe658"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-promotes-form-tally-w4r2ad",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-w4r2ad"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-references-provider-bank-breezy",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-bank-breezy"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-references-provider-david-allen-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-david-allen-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-fpygb4oapyk": [
@@ -27245,6 +27578,60 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-fhtt6s6coti",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-fhtt6s6coti"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-h2jqg5i5y2o",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-h2jqg5i5y2o"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-v60om-8yri0",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-v60om-8yri0"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-ywpwyv540ae",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-ywpwyv540ae"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-promotes-cta-join-b2b-funding-platform",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-join-b2b-funding-platform"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-promotes-form-tally-moe658",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-moe658"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-h2jqg5i5y2o": [
@@ -27274,6 +27661,114 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-cta-funding-any-reason",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-funding-any-reason"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-cta-join-b2b-funding-platform",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-join-b2b-funding-platform"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-form-tally-moe658",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-moe658"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-form-tally-w4r2ad",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-w4r2ad"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-affiliate-agency-gpt",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-agency-gpt"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-affiliate-marketing-strategist",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-marketing-strategist"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-agent-growth-hub",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-agent-growth-hub"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-dac-affiliate-email-wizard",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-dac-affiliate-email-wizard"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-deal-maker-ads",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-deal-maker-ads"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-getting-started-right",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-getting-started-right"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-provider-bank-breezy",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-bank-breezy"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-provider-david-allen-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-david-allen-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-h3nkhx-ivto": [
@@ -27332,6 +27827,33 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-hajaway2md4-references-youtube-fhtt6s6coti",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-fhtt6s6coti"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-hajaway2md4-references-youtube-keealebdo0",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-keealebdo0"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-hajaway2md4-references-youtube-mvbaddvab2w",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-mvbaddvab2w"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
       }
     ],
     "youtube-hfccdehcwtk": [
@@ -27361,6 +27883,24 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-hfccdehcwtk-promotes-cta-funding-any-reason",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-funding-any-reason"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-hfccdehcwtk-promotes-form-tally-w4r2ad",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-w4r2ad"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       },
       {
         "relationship_id": "content-resource-youtube-hfccdehcwtk-affiliate-flippa-referral-d06d136347",
@@ -27397,6 +27937,24 @@
         },
         "context": "Resource recommendation from deterministic cluster/topic/title matching.",
         "weight": 0.72
+      },
+      {
+        "relationship_id": "rel-youtube-hfccdehcwtk-references-provider-david-allen-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-david-allen-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-hfccdehcwtk-references-provider-national-business-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-national-business-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-hryokf9ojqq": [
@@ -27860,6 +28418,42 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-keealebdo0-promotes-cta-funding-any-reason",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-funding-any-reason"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-keealebdo0-promotes-form-tally-w4r2ad",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-w4r2ad"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-keealebdo0-references-provider-bank-breezy",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-bank-breezy"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-keealebdo0-references-gpt-affiliate-agency-gpt",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-agency-gpt"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-kpohu9bbids": [
@@ -28195,6 +28789,24 @@
         "weight": 0.85
       },
       {
+        "relationship_id": "rel-youtube-mxq7kwdggs8-promotes-cta-funding-any-reason",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-funding-any-reason"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-mxq7kwdggs8-promotes-form-tally-w4r2ad",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-w4r2ad"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
         "relationship_id": "content-resource-youtube-mxq7kwdggs8-affiliate-flippa-referral-f2ccec18aa",
         "relationship_type": "references",
         "target": {
@@ -28229,6 +28841,33 @@
         },
         "context": "Resource recommendation from deterministic cluster/topic/title matching.",
         "weight": 0.72
+      },
+      {
+        "relationship_id": "rel-youtube-mxq7kwdggs8-references-gpt-start-your-own-funding-agency",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-start-your-own-funding-agency"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-mxq7kwdggs8-references-provider-david-allen-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-david-allen-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-mxq7kwdggs8-references-provider-national-business-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-national-business-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-n6bvk30rctu": [
@@ -28287,6 +28926,60 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-9a3hthkalt8",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-9a3hthkalt8"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-fhtt6s6coti",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-fhtt6s6coti"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-fyohbmh2fhk",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-fyohbmh2fhk"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-mvbaddvab2w",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-mvbaddvab2w"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-tpihva2ohhg",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-tpihva2ohhg"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-site-agency-in-a-box",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "site-agency-in-a-box"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
       }
     ],
     "youtube-oaxlhjigc3o": [
@@ -29348,6 +30041,114 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-promotes-cta-funding-any-reason",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-funding-any-reason"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-promotes-cta-join-b2b-funding-platform",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-join-b2b-funding-platform"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-promotes-form-tally-moe658",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-moe658"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-promotes-form-tally-w4r2ad",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-w4r2ad"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-affiliate-agency-gpt",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-agency-gpt"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-affiliate-marketing-strategist",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-marketing-strategist"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-agent-growth-hub",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-agent-growth-hub"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-dac-affiliate-email-wizard",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-dac-affiliate-email-wizard"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-deal-maker-ads",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-deal-maker-ads"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-getting-started-right",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-getting-started-right"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-provider-bank-breezy",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-bank-breezy"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-provider-david-allen-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-david-allen-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-ttto4ydod-o": [
@@ -29594,6 +30395,15 @@
         },
         "context": "Resource recommendation from deterministic cluster/topic/title matching.",
         "weight": 0.72
+      },
+      {
+        "relationship_id": "rel-youtube-uy-t0waclxe-references-provider-guidant",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-guidant"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
       }
     ],
     "youtube-v1-coef9pm": [
@@ -29828,6 +30638,15 @@
         "weight": 0.85
       },
       {
+        "relationship_id": "rel-youtube-xalzxdfwjzm-references-article-fundandgrow-review",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "article-fundandgrow-review"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
         "relationship_id": "content-resource-youtube-xalzxdfwjzm-calculator-funding-readiness-scorecard-b0be7c9bda",
         "relationship_type": "references",
         "target": {
@@ -29998,6 +30817,114 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-promotes-cta-funding-any-reason",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-funding-any-reason"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-promotes-cta-join-b2b-funding-platform",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "cta-join-b2b-funding-platform"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-promotes-form-tally-moe658",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-moe658"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-promotes-form-tally-w4r2ad",
+        "relationship_type": "promotes",
+        "target": {
+          "resource_id": "form-tally-w4r2ad"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-affiliate-agency-gpt",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-agency-gpt"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-affiliate-marketing-strategist",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-affiliate-marketing-strategist"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-agent-growth-hub",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-agent-growth-hub"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-dac-affiliate-email-wizard",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-dac-affiliate-email-wizard"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-deal-maker-ads",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-deal-maker-ads"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-getting-started-right",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "gpt-getting-started-right"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-provider-bank-breezy",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-bank-breezy"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-provider-david-allen-capital",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "provider-david-allen-capital"
+        },
+        "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+        "weight": 0.92
       }
     ],
     "youtube-ywwjklinjzc": [
@@ -30121,6 +31048,24 @@
         },
         "context": "Recommended internal content relationship from Content Intelligence Enrichment v1.2.",
         "weight": 0.85
+      },
+      {
+        "relationship_id": "rel-youtube-zcllymcevsc-references-youtube-6hvokuhg9cy",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-6hvokuhg9cy"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
+      },
+      {
+        "relationship_id": "rel-youtube-zcllymcevsc-references-youtube-snl09g9enb8",
+        "relationship_type": "references",
+        "target": {
+          "resource_id": "youtube-snl09g9enb8"
+        },
+        "context": "Explicit URL in published YouTube description.",
+        "weight": 1
       },
       {
         "relationship_id": "content-resource-youtube-zcllymcevsc-affiliate-flippa-referral-bcab9a2f59",

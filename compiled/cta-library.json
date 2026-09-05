@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T18:03:10.856Z",
-  "count": 210,
+  "generated_at": "2026-09-05T22:34:22.362Z",
+  "count": 229,
   "resources": [
     {
       "resource_id": "article-is-this-business-worth-buying",
@@ -91,10 +91,62 @@
       "recommended_cta_or_embed_role": null
     },
     {
+      "resource_id": "youtube-1md0qunnr5e",
+      "entity_type": "youtube_video",
+      "title": "5 AI Tools Every Loan Broker Needs in 2026",
+      "description": "You do not need 27 AI subscriptions to run an AI-enabled funding agency. You need *5 core AI tools for loan brokers* working together.\n\n👉 *See all 27 AI tools for loan brokers:*\nhttps://www.distilledfunding.com/post/ai-tools-for-loan-brokers\n\nIn this video, I break down the lean starter stack for business loan brokers, commercial funding professionals, and funding agencies:\n\n• *AI Assistant* — ChatGPT, Claude, or Gemini for research, borrower prep, drafting, and workflow design\n• *CRM* — HubSpot or a similar platform for leads, deal stages, tasks, and follow-up\n• *Meeting Intelligence* — Fireflies.ai for recording, transcription, summaries, and next actions\n• *Automation* — Zapier, Make, or n8n to connect your funding workflow\n• *Knowledge System* — Notion or Airtable for lender data, SOPs, templates, and operational knowledge\n\nThe goal is not to collect software.\n\nStart with the funding workflow: _Lead → Intake → Qualification → Documents → Lender Fit → Submission → Follow-Up → Close → Referral._\n\nThen automate the repetitive work that consumes expensive human attention.\n\n*Machine handles repetition. Human handles consequence.*\n\nIf you run a funding agency or work as a loan broker, comment below: *What part of your funding workflow wastes the most time right now?*\n\n#AIForFinance #AIAutomation #LoanBroker #FundingAutomation #FundingAgency #CommercialBroker",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=1mD0qUNNR5E",
+      "public_url": "https://www.youtube.com/watch?v=1mD0qUNNR5E",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-d3llrn13oq4",
+      "entity_type": "youtube_video",
+      "title": "The Funding Product Matrix Every Broker Needs (MCA vs LOC vs AR Explained)",
+      "description": "*Most brokers don't lose deals because they lack options* — _they lose them because they route every borrower the same way._ In this video, we break down the *Funding Product Matrix:* a simple framework that helps brokers diagnose the real business problem and match it to the right product — _MCA, line of credit, AR financing, equipment financing, and more._\n\n*What you'll learn:*\n🔎 How to identify what the money is actually for before recommending a product\n🔎 Why repayment source determines product fit — _not loan size_\n🔎 How to check deal readiness before you waste time on a decline\n🔎 Where AI can _(and can't)_ help you route deals faster\n\nWhether you're a new broker or a seasoned referral partner, this matrix will help you *stop guessing* and *start closing* cleaner deals.\n\n*Download the Funding Product Matrix* and use it _before_ your next borrower call.\n📥 Download the Funding Product Matrix PDF \n📊 Want the spreadsheet version? Download the CSV.\n🌐 Open the interactive @notion version \n\n#LoanBroker #BusinessFunding #GetFunded",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=d3llRn13oQ4",
+      "public_url": "https://www.youtube.com/watch?v=d3llRn13oQ4",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
       "resource_id": "youtube-ziadbbopmm0",
       "entity_type": "youtube_video",
       "title": "Same-Day Small Business Funding: Watch Before You Apply (Instant Micro Funding Explained)",
-      "description": null,
+      "description": "*Need fast cash for your business or side hustle?* Instant micro funding can get you same-day capital—but it's not always the best move. In this video, I break down exactly what instant micro funding is, who it's designed for _(gig workers, contractors, Amazon sellers, restaurant owners),_ the hidden costs most people miss, and how to know if it's right for YOUR business.\n\n*What You'll Learn:*\n➡️ What instant micro funding actually is _(and what it's NOT)_\n➡️ Who qualifies and what lenders look for\n➡️ The 3 questions to ask BEFORE you apply\n➡️ Pros and cons of same-day funding\n➡️ When fast funding makes sense vs. when it can hurt you\n➡️ How to compare offers and avoid predatory terms\n\n*Trusted Funding Partners:*\n👉 BankBreezy: https://bit.ly/4qlRBaa\n👉 DAC: https://bit.ly/4tLjZ6s\n\nDon't let _\"same-day\"_ pressure you into a bad decision. Use this guide to make a smarter funding choice.\n\n💬 *Drop a comment* with the type of business you run—contractor, gig worker, seller, restaurant, freelancer—and I'll create more funding content tailored to YOU.\n\n#SmallBusinessFunding #BusinessLoans #InstantMicroFunding #SameDayFunding #ContractorFunding #GigWorkerMoney #FastBusinessCapital",
       "status": "published",
       "topics": [
         "Business Funding",
@@ -116,10 +168,56 @@
       "recommended_cta_or_embed_role": null
     },
     {
+      "resource_id": "youtube-a19taiumre0",
+      "entity_type": "youtube_video",
+      "title": "New Course: High-Paying Loan Broker Partner Programs",
+      "description": "New course is live: *High-Paying Loan Broker Partner Programs*\n\nI created this course for anyone who _wants to understand how loan broker, business funding affiliate, and referral partner programs work_ before jumping into random programs.\n\nIf you’ve been interested in starting a funding agency, becoming a loan broker, or earning referral commissions by connecting business owners with funding providers, this course was built for you.\n\n*Inside the course, you’ll learn:*\n\n✅ What loan brokers and funding affiliates actually do  \n✅ How referral commissions may work  \n✅ The difference between affiliate, broker, ISO, and referral partner programs  \n✅ How to compare funding partner programs  \n✅ What to look for before joining a program  \n✅ How to avoid beginner mistakes  \n✅ How to start building a simple funding referral business  \n\nThis is not a generic affiliate marketing course. This course is focused specifically on loan broker partner programs, business funding affiliates, and referral opportunities in the funding space.\n\n*Enroll now:* https://bit.ly/3QF48sf\n*View available courses:* https://bit.ly/4tY5qO1\n\nDisclaimer: _This content is for educational purposes only. Income is not guaranteed. Results depend on your effort, experience, lead quality, partner program terms, approvals, and market conditions._\n\n#LoanBroker #BusinessFunding #AffiliateMarketing #FundingAffiliate #ReferralBusiness #MoonshineCapital #DistilledFunding",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=A19TaIumRE0",
+      "public_url": "https://www.youtube.com/watch?v=A19TaIumRE0",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-uy-t0waclxe",
+      "entity_type": "youtube_video",
+      "title": "ROBS Financing 2026: Use Your 401(k) to Buy a Business (Tax-Free)",
+      "description": "*Thinking about using your retirement savings to buy a business?* ROBS _(Rollover for Business Startups)_ financing lets you tap into your 401(k) or IRA without penalties, taxes, or monthly loan payments. *Guidant Financial* is one of the most established names in ROBS financing—helping entrepreneurs fund over $3 billion in businesses since 2003.\n\nIn this video, we break down:\n\n- How ROBS financing actually works\n- The real costs _(setup fees, ongoing compliance, and hidden risks)_\n- Who should _(and shouldn't)_ consider ROBS\n- How it compares to traditional SBA loans\n- What happens if your business fails\n\n*Ready to explore ROBS financing with Guidant Financial?* \n\nApply here: https://www.gfprequal.com/mc\n\nROBS isn't for everyone—but if you've got the retirement funds and you're buying a proven, cash-flowing business, it could be a game changer. Just make sure you understand the compliance requirements and long-term risks before you jump in.\n\n*💡 Want more funding strategies?* Subscribe for weekly breakdowns on business loans, alternative financing, and acquisition tactics for serious entrepreneurs.\n\n#GuidantFinancial #BuyABusiness #BusinessAcquisition #ROBSFinancing #401kBusinessFunding #AlternativeFinancing #EntrepreneurFunding",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 96,
+      "canonical_url": "https://www.youtube.com/watch?v=uY-T0WAClxE",
+      "public_url": "https://www.youtube.com/watch?v=uY-T0WAClxE",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
       "resource_id": "youtube-5khtw42ph0u",
       "entity_type": "youtube_video",
       "title": "What Happens Next After You Apply for Bigger Business Funding",
-      "description": null,
+      "description": "You applied for bigger business funding. Now here’s what happens next.\n\nIf your business is on the bigger funding path, the next step is usually submitting a few key documents so your file can be reviewed and matched with the strongest available offer.\n\nIn this video, we cover:\n- what the bigger funding path means\n- which documents may be needed\n- how to keep your file moving\n- what to do next to avoid delays\n\nCommon documents may include:\n- recent bank statements\n- driver’s license\n- voided check\n\nThe faster you complete your next step, the faster your file can move forward.\n\nUpload your documents here:\nhttps://bit.ly/4but9Nr \n\nNeed help finishing your application?\nBook an assist call here:\nhttps://wix.to/QSs2RVY\n\nJoin the applicant support hub:\nhttps://bit.ly/4shDB2h\n\n#BusinessFunding #SmallBusinessFunding #FundingHelp",
       "status": "published",
       "topics": [
         "Business Funding"
@@ -135,6 +233,242 @@
       "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=5KhtW42PH0U",
       "public_url": "https://www.youtube.com/watch?v=5KhtW42PH0U",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-b8dsnhfmvy4",
+      "entity_type": "youtube_video",
+      "title": "Is Being a Loan Broker Worth It? Real Income Breakdown + Getting Started",
+      "description": "Thinking about starting a loan brokerage business in 2026? This video clarifies the realities of becoming a funding broker, emphasizing that it's not a quick path to easy money. We'll explore what it truly takes to succeed as a loan broker, including understanding the industry and building client relationships. While it can be a viable work from home business, success hinges on dedication and smart entrepreneurship.\n\n- How the business model actually works\n- Real income potential and commission structures\n- Step-by-step process to get started\n- Best platforms and lenders to partner with\n- Common mistakes to avoid as a beginner\n- Whether this side hustle is right for you\n\nWhether you're looking for passive income, a flexible work-from-home opportunity, or a legitimate way to help small businesses grow, this comprehensive review covers everything you need to know about the loan broker industry.\n\n──────────────────────────────────────────\n\n💸 *JOIN THE #1 B2B FUNDING PLATFORM*\n_Get plugged into the top platforms that pay brokers to connect business owners with fast capital._\n\n✅ Apply to become a partner: https://tally.so/r/mOe658\n📌 Opportunity overview: https://bit.ly/4qeoLIw\n🧠 Want a launch plan call? https://bit.ly/FundingBizLaunch\n\n🤑 *GET PAID TO EMPOWER BUSINESSES WITH FAST FUNDING*\n_Affiliate & partner programs built for brokers:_\n\n✔️ David Allen Capital Affiliate – https://bit.ly/DACagency\n✔️ ROKFI Affiliate – https://bit.ly/rockfi-affiliate\n✔️ 7 Figures Funding – https://bit.ly/3PFLCff\n✔️ Credit Suite Affiliate – https://bit.ly/creditsuiteaffiliate\n✔️ National Business Capital – https://bit.ly/nbcaffiliate\n✔️ Finance Factory Affiliate – https://bit.ly/financefactory-affiliate\n\n🤖 *AI AGENTS — TAILORED ASSISTANTS FOR LOAN BROKERS*\n_Scale faster with GPT-powered intelligence and workflow helpers:_\n\n🛠️ Start Your Agency (7-Day Broker Blitz) – https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right\n📈 Agency Growth Hub – https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub\n🚀 Affiliate Agency GPT – https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt\n⚡ Deal Maker Ads – https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads\n✍️ Email Wizard – https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard\n📈 Marketing Strategist – https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist\n\n🧠 *CUSTOM GPTS & TOOLS*\n_Work smarter with AI toolkits built for funding, credit, and agency growth:_\n\n🗄️ CustomGPT Vault – https://bit.ly/4rUH0Ep\n🛡️ VC Backup Plan GPT – https://bit.ly/VCBackupPlanGPT\n⚡ Instant Micro Funding GPT – https://bit.ly/InstantFundingGPT\n🧩 No-Code GPT Builder – https://bit.ly/NoCodeGPT\n💵 Cash Flow Optimizer Prompt – https://bit.ly/CashFlowPrompt\n💡 Passive Income Pro GPT – https://bit.ly/PassiveProGPT\n\n──────────────────────────────────────────\n\n*Topics*\n#LoanBroker #SideHustle #PassiveIncome #BusinessFunding #MakeMoneyOnline #WorkFromHome #Entrepreneurship",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=B8dSnHFMVY4",
+      "public_url": "https://www.youtube.com/watch?v=B8dSnHFMVY4",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-xalzxdfwjzm",
+      "entity_type": "youtube_video",
+      "title": "Fund&Grow Review 2026: How to Get $250K in 0% Business Credit (Real Requirements)",
+      "description": "*Are you looking for 0% business credit cards to fuel your venture?* This video explores Fund & Grow, a service that assists small business owners in obtaining business credit cards for new business, emphasizing the importance of corporate credit and credit stacking. We discuss how to leverage various financing options to secure startup funding, helping you build a strong financial foundation.\n\nFund&Grow specializes in helping entrepreneurs access unsecured business credit cards with 0% introductory APR periods—no collateral required. _But is it worth the fee? And can you actually qualify?_\n\n*What You'll Learn:*\n- How Fund&Grow's credit card funding program actually works\n- Real qualification requirements (credit score, income, business age)\n- The complete timeline from application to funding\n- Total costs and fees you should expect\n- Who should (and shouldn't) use this service\n- Alternatives to consider\n\nWhether you're looking to *fund inventory, marketing, equipment, or bridge cash flow gaps,* this review gives you the _unfiltered facts_ you need to make an informed decision.\n\n*Ready to apply?* \n_Get started with Fund&Grow's concierge service:_  https://www.fundandgrow.com/sign-up-now?ref=jasonfeimster\n\n*Related Resources*\n_Read our review:_ https://www.distilledfunding.com/post/fundandgrow-review\n\n*Drop your questions in the comments.* _I respond to every one._\n\n---\n\n*Topics*\n#FundAndGrow #BusinessFunding #CreditStacking #BusinessCredit",
+      "status": "published",
+      "topics": [
+        "Business Credit",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Business Credit",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 90,
+      "canonical_url": "https://www.youtube.com/watch?v=xAlzXDFwjzM",
+      "public_url": "https://www.youtube.com/watch?v=xAlzXDFwjzM",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-keealebdo0",
+      "entity_type": "youtube_video",
+      "title": "10 Plug-and-Play Automations That Scaled My Funding Agency to 7 Figures",
+      "description": "Running a funding agency without automation is like driving with the parking brake on. You're burning cash on manual tasks when you should be scaling deals.\n\nIn this video, I'm giving away the exact 10 n8n automation templates I use to run a multimillion-dollar funding agency—completely free. No upsell. No catch. Just battle-tested workflows that eliminate 90% of your operational chaos.\n\n*What You're Getting:*\n\n✔️ Lead Intake & CRM Creation _(auto-creates contacts + sends confirmations)_\n✔️ Document Collection Sequence _(chases missing paperwork automatically)_\n✔️ Smart Lead Routing _(assigns reps based on source, geography, or deal size)_\n✔️ Behavioral Follow-Up Triggers _(engages leads based on email opens, clicks, etc.)_\n✔️ Stage Progression Alerts _(flags stuck deals before they die)_\n✔️ Deal Packet Auto-Generation _(creates polished packets for underwriting)_\n✔️ Lead Scoring & Prioritization _(tags high-value leads for immediate action)_\n✔️ Re-Engagement Sequence for Cold Leads _(revives deals you thought were dead)_\n✔️ Partner Attribution & Routing _(tracks referral sources + splits commissions)_\n✔️ No-Contact Escalation _(surfaces leads with zero outreach attempts)_\n\n📥 *Get the Free Automation Pack:* Comment \"FUNDING AUTOMATION\" below the video and I'll send you instant access to all 10 templates + a walkthrough video.\n\n*💸 Need Funding for Your Business?*\n\n🚀 Apply for $500 to $2M in Fast Funding → https://bankbreezy.com/funding/jason\n⚡ Funding for ANY Reason (No endless paperwork) → https://bit.ly/fundingforanyreason\n🆕 Startup Business Funding (No revenue required) → https://bit.ly/3Al55ht\n\n*🤖 AI Tools for Funding Brokers:*\n\n🛠️ Start Your Funding Agency _(Get Started Right)_ → https://bit.ly/4a6HXkL\n🚀 Affiliate Agency GPT → https://bit.ly/3OgsF5A\n✍️ Email Wizard → https://bit.ly/4r0Z66U\n\n*💼 Become a Funding Broker:*\n\n➡️ Get Started _(Apply)_ → https://tally.so/r/mOe658\n➡️ Opportunity Overview _(Video)_ → https://bit.ly/partner_overview\n\n*Topics:*\n#nocode #n8nautomation #businessautomation #fundingagency #crm",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=-KEEAlEBDO0",
+      "public_url": "https://www.youtube.com/watch?v=-KEEAlEBDO0",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-9a3hthkalt8",
+      "entity_type": "youtube_video",
+      "title": "Moonshine Capital Affiliate Program: Agency-in-a-Box Funding Model",
+      "description": "We break down a business model for building a legitimate B2B agency by partnering with Moonshine Capital. This video explores the opportunity, contrasting it with the \"Biz Opp\" lie and highlighting Moonshine Capital's \"Agency-in-a-Box\" system as a solution for entrepreneurs. Learn how to start a business with a solid business strategy and foster innovation within the B2B space.\n\n💸 *JOIN THE #1 B2B FUNDING PLATFORM*\n_Get plugged into the top platforms that pay brokers to connect business owners with fast capital._\n\n✅ *Apply to become a partner:* https://tally.so/r/mOe658\n📌 *Opportunity overview:* https://bit.ly/4qeoLIw\n🧠 *Want a launch plan call?* https://bit.ly/FundingBizLaunch\n\n──────────────────────────────────────────\n\n🤑 *GET PAID TO EMPOWER BUSINESSES WITH FAST FUNDING*\n_Affiliate & partner programs built for brokers:_\n\n✔️ David Allen Capital Affiliate – https://bit.ly/DACagency\n✔️ ROKFI Affiliate – https://bit.ly/rockfi-affiliate\n✔️ 7 Figures Funding – https://bit.ly/3PFLCff\n✔️ Credit Suite Affiliate – https://bit.ly/creditsuiteaffiliate\n✔️ National Business Capital – https://bit.ly/nbcaffiliate\n✔️ Finance Factory Affiliate – https://bit.ly/financefactory-affiliate\n\n──────────────────────────────────────────\n\n🤖 *AI AGENTS — TAILORED ASSISTANTS FOR LOAN BROKERS*\n_Scale faster with GPT-powered intelligence and workflow helpers:_\n\n🛠️ Start Your Agency (7-Day Broker Blitz) – https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right\n📈 Agency Growth Hub – https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub\n🚀 Affiliate Agency GPT – https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt\n⚡ Deal Maker Ads – https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads\n✍️ Email Wizard – https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard\n📈 Marketing Strategist – https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist\n\n──────────────────────────────────────────\n\n🧠 *CUSTOM GPTS & TOOLS*\n_Work smarter with AI toolkits built for funding, credit, and agency growth:_\n\n🗄️ CustomGPT Vault – https://bit.ly/4rUH0Ep\n🛡️ VC Backup Plan GPT – https://bit.ly/VCBackupPlanGPT\n⚡ Instant Micro Funding GPT – https://bit.ly/InstantFundingGPT\n🧩 No-Code GPT Builder – https://bit.ly/NoCodeGPT\n💵 Cash Flow Optimizer Prompt – https://bit.ly/CashFlowPrompt\n💡 Passive Income Pro GPT – https://bit.ly/PassiveProGPT\n\n──────────────────────────────────────────\n\n💰 *GET FUNDING FAST — ANY REASON, ANY STAGE*\n_Fast, easy funding options for businesses at every stage:_\n\n🚀 Apply for Funding — $500 to $2M wired FAST → https://bankbreezy.com/funding/jason\n⚡ Funding for ANY Reason — No endless paperwork → https://bit.ly/fundingforanyreason\n🆕 Startup Business Funding (No revenue needed) → https://bit.ly/3Al55ht\n🛠️ Equipment Financing — Upgrade without draining cash → https://bit.ly/3EXLRQU\n🏡 Short-Term Rental Financing — Secure your next Airbnb → https://bit.ly/4220hHi\n\n──────────────────────────────────────────\n\n★ *Topics*\n#StartABusiness #LoanBroker #BusinessFunding #BrokerageBusiness #SalesSystems #SmallBusinessFunding",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=9A3hThKaLT8",
+      "public_url": "https://www.youtube.com/watch?v=9A3hThKaLT8",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-fhtt6s6coti",
+      "entity_type": "youtube_video",
+      "title": "Commission Math: What 1 Deal/Week Pays Loan Brokers (4%–8%)",
+      "description": "Let’s kill the _mystery_ and do the math.\nIf you can get *1 funded deal per week* at *$50,000,* here’s what your commission can look like at *4% vs 6% vs 8%* — and why _“consistency”_ is the real cheat code.\n\nIn this video you’ll learn:\n✅ What $50K funded per week pays at 4%, 6%, and 8%\n✅ What that looks like monthly + annually (no fantasy numbers)\n✅ Why most people lose at this game (hint: pipeline, not talent)\n✅ How to get plugged in as a partner and start building your weekly deal flow\n\nThis isn’t financial advice — *it’s commission math + business reality.* If you’re _serious_ about building a real income stream as a funding partner/loan broker, start here.\n\n──────────────────────────────────────────\n\n💸 *JOIN THE #1 B2B FUNDING PLATFORM*\n_Get plugged into the top platforms that pay brokers to connect business owners with fast capital._\n\n➡️ Get Started _(Apply)_ – https://tally.so/r/mOe658\n➡️ *Opportunity Overview* _(Video)_ – https://bit.ly/4qeoLIw\n➡️ Schedule your *Funding Biz Q&A + Launch Plan* – _Clarity, roadmap, and insider strategy_ → https://bit.ly/FundingBizLaunch\n\n──────────────────────────────────────────\n\n🤑 *GET PAID TO EMPOWER BUSINESSES WITH FAST FUNDING*\n_Affiliate & partner programs built for brokers:_\n\n✔️ David Allen Capital Affiliate – https://bit.ly/DACagency\n✔️ ROKFI Affiliate – https://bit.ly/rockfi-affiliate\n✔️ 7 Figures Funding – https://bit.ly/3PFLCff\n✔️ Credit Suite Affiliate – https://bit.ly/creditsuiteaffiliate\n✔️ National Business Capital – https://bit.ly/nbcaffiliate\n✔️ Finance Factory Affiliate – https://bit.ly/financefactory-affiliate\n\n──────────────────────────────────────────\n\n🤖 *AI AGENTS — TAILORED ASSISTANTS FOR LOAN BROKERS*\n_Scale faster with GPT-powered intelligence and workflow helpers:_\n\n🛠️ *Start Your Agency* _(7-Day Broker Blitz)_ – https://bit.ly/4a6HXkL\n📈 *Agency Growth Hub* – https://bit.ly/4rjfijw\n🚀 *Affiliate Agency GPT* – https://bit.ly/3OgsF5A\n⚡ *Deal Maker Ads* – https://bit.ly/3NPBV0x\n✍️ *Email Wizard* – https://bit.ly/4r0Z66U\n📈 *Marketing Strategist* – https://bit.ly/4tdCrWc\n\n──────────────────────────────────────────\n\n🧠 *CUSTOM GPTS & TOOLS*\n_Work smarter with AI toolkits built for funding, credit, and agency growth:_\n\n🗄️ *CustomGPT Vault* – https://bit.ly/4rUH0Ep\n🛡️ *VC Backup Plan GPT* – https://bit.ly/VCBackupPlanGPT\n⚡ *Instant Micro Funding GPT* – https://bit.ly/InstantFundingGPT\n🧩 *No-Code GPT Builder* – https://bit.ly/NoCodeGPT\n💵 *Cash Flow Optimizer Prompt* – https://bit.ly/CashFlowPrompt\n💡 *Passive Income Pro GPT* – https://bit.ly/PassiveProGPT\n\n──────────────────────────────────────────\n\n💰 *GET FUNDING FAST — ANY REASON, ANY STAGE*\n_Fast, easy funding options for businesses at every stage:_\n\n🚀 *Apply for Funding* — _$500 to $2M wired FAST_ → https://bankbreezy.com/funding/jason\n⚡ *Funding for ANY Reason* — _No endless paperwork_ → https://bit.ly/fundingforanyreason\n🆕 *Startup Business Funding* _(No revenue needed)_ → https://bit.ly/3Al55ht\n🛠️ *Equipment Financing* — _Upgrade without draining cash_ → https://bit.ly/3EXLRQU\n🏡 *Short-Term Rental Financing* — _Secure your next Airbnb_ → https://bit.ly/4220hHi\n\n──────────────────────────────────────────\n👇 *Engage With the Community*\n*Tell us below:* _What’s your biggest barrier to becoming a loan broker right now?_ Drop it and we’ll help break it down.\n\nℹ️ *Topics*\n#LoanBroker #BusinessFunding #CommissionsEarned #AffiliateMarketing #B2BFunding",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=Fhtt6s6CoTI",
+      "public_url": "https://www.youtube.com/watch?v=Fhtt6s6CoTI",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-ywpwyv540ae",
+      "entity_type": "youtube_video",
+      "title": "Build Your Loan Brokerage EMPIRE with Scaling Strategies for Solo and Team Operations",
+      "description": "Most loan brokers don’t lose because they can’t sell… they lose because they built a stressful commission job disguised as a “business.” If you’re still the lead gen, the follow-up, the admin, and the closer, you don’t own a brokerage — *you ARE the brokerage.*\n\nIn this video, I’m breaking down how to build your *Loan Brokerage EMPIRE* with scaling strategies that work whether you’re a solo operator or building a *team operation.* We’ll cover the exact framework that separates brokers who stay stuck from brokers who build a machine: *Volume → Systems → Leverage → Team.*\n\nYou’ll learn how to:\n\n✅ Build a simple 3-stage pipeline _(lead capture → pre-qual → submit/fund)_ that doesn’t change every week\n✅ Automate follow-up so deals don’t die in the gaps\n✅ Standardize your process so you can delegate without chaos\n✅ Scale from “me vs. my inbox” to a clean team structure _(Setter → Processor → Closer)_\n✅ Stop leaking deals and start making closings inevitable\n\nIf you want more funded deals, less chaos, and a brokerage that doesn’t collapse when you take a day off… *this is the blueprint.*\n\n👇 *Engage With the Community*\nWhat’s your biggest barrier to becoming a loan broker right now — *lead flow, follow-up, or confidence closing*? Drop it below and I’ll tell you the next move.\n\n──────────────────────────────────────────\n\n💸 *JOIN THE #1 B2B FUNDING PLATFORM*\n_Get plugged into the top platforms that pay brokers to connect business owners with fast capital._\n\n✅ *Apply to become a partner:* https://tally.so/r/mOe658\n📌 *Opportunity overview:* https://bit.ly/4qeoLIw\n🧠 *Want a launch plan call?* https://bit.ly/FundingBizLaunch\n\n──────────────────────────────────────────\n\n🤑 *GET PAID TO EMPOWER BUSINESSES WITH FAST FUNDING*\n_Affiliate & partner programs built for brokers:_\n\n✔️ David Allen Capital Affiliate – https://bit.ly/DACaffiliate\n✔️ ROKFI Affiliate – https://bit.ly/rockfi-affiliate\n✔️ 7 Figures Funding – https://bit.ly/3PFLCff\n✔️ Credit Suite Affiliate – https://bit.ly/creditsuiteaffiliate\n✔️ National Business Capital – https://bit.ly/nbcaffiliate\n✔️ Finance Factory Affiliate – https://bit.ly/financefactory-affiliate\n\n──────────────────────────────────────────\n\n🤖 *AI AGENTS — TAILORED ASSISTANTS FOR LOAN BROKERS*\n_Scale faster with GPT-powered intelligence and workflow helpers:_\n\n🛠️ Start Your Agency (7-Day Broker Blitz) – https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right\n📈 Agency Growth Hub – https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub\n🚀 Affiliate Agency GPT – https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt\n⚡ Deal Maker Ads – https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads\n✍️ Email Wizard – https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard\n📈 Marketing Strategist – https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist\n\n──────────────────────────────────────────\n\n🧠 *CUSTOM GPTS & TOOLS*\n_Work smarter with AI toolkits built for funding, credit, and agency growth:_\n\n🗄️ CustomGPT Vault – https://bit.ly/4rUH0Ep\n🛡️ VC Backup Plan GPT – https://bit.ly/VCBackupPlanGPT\n⚡ Instant Micro Funding GPT – https://bit.ly/InstantFundingGPT\n🧩 No-Code GPT Builder – https://bit.ly/NoCodeGPT\n💵 Cash Flow Optimizer Prompt – https://bit.ly/CashFlowPrompt\n💡 Passive Income Pro GPT – https://bit.ly/PassiveProGPT\n\n──────────────────────────────────────────\n\n💰 *GET FUNDING FAST — ANY REASON, ANY STAGE*\n_Fast, easy funding options for businesses at every stage:_\n\n🚀 Apply for Funding — $500 to $2M wired FAST → https://bankbreezy.com/funding/jason\n⚡ Funding for ANY Reason — No endless paperwork → https://bit.ly/fundingforanyreason\n🆕 Startup Business Funding (No revenue needed) → https://bit.ly/3Al55ht\n🛠️ Equipment Financing — Upgrade without draining cash → https://bit.ly/3EXLRQU\n🏡 Short-Term Rental Financing — Secure your next Airbnb → https://bit.ly/4220hHi\n\n──────────────────────────────────────────\n\n★ *Topics*\n#StartABusiness #LoanBroker #BusinessFunding #BrokerageBusiness #SalesSystems #SmallBusinessFunding",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=YWPwyv540aE",
+      "public_url": "https://www.youtube.com/watch?v=YWPwyv540aE",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-h2jqg5i5y2o",
+      "entity_type": "youtube_video",
+      "title": "The Funding Broker Opportunity Nobody's Talking About",
+      "description": "Tired of promoting products that don't make a real difference? Discover how you can earn substantial commissions while genuinely helping small business owners secure the funding they desperately need.\n\nLearn how you can connect struggling business owners with the capital they need while earning generous commissions - all without inventory, monthly fees, or technical expertise.\n\n💸 *Want to get funded now?*\n➡️ https://bit.ly/3LmrRuX\n\n──────────────────────────────────────────\n\n💸 *JOIN THE #1 B2B FUNDING PLATFORM*\nGet plugged into the top platforms that pay brokers to connect business owners with fast capital.\n\n✅ *Apply to become a partner:* https://tally.so/r/mOe658\n📌 *Opportunity overview:* https://bit.ly/4qeoLIw\n🧠 *Want a launch plan call?* https://bit.ly/FundingBizLaunch\n\n──────────────────────────────────────────\n\n🤑 *GET PAID TO EMPOWER BUSINESSES WITH FAST FUNDING*\nAffiliate & partner programs built for brokers:\n\n✔️ David Allen Capital Affiliate – https://bit.ly/DACaffiliate\n✔️ ROKFI Affiliate – https://bit.ly/rockfi-affiliate\n✔️ 7 Figures Funding – https://bit.ly/3PFLCff\n✔️ Credit Suite Affiliate – https://bit.ly/creditsuiteaffiliate\n✔️ National Business Capital – https://bit.ly/nbcaffiliate\n✔️ Finance Factory Affiliate – https://bit.ly/financefactory-affiliate\n\n──────────────────────────────────────────\n\n🤖 *AI AGENTS — TAILORED ASSISTANTS FOR LOAN BROKERS*\nScale faster with GPT-powered intelligence and workflow helpers:\n\n🛠️ Start Your Agency (7-Day Broker Blitz) – https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right\n📈 Agency Growth Hub – https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub\n🚀 Affiliate Agency GPT – https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt\n⚡ Deal Maker Ads – https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads\n✍️ Email Wizard – https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard\n📈 Marketing Strategist – https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist\n\n──────────────────────────────────────────\n\n🧠 *CUSTOM GPTS & TOOLS*\nWork smarter with AI toolkits built for funding, credit, and agency growth:\n\n🗄️ CustomGPT Vault – https://bit.ly/4rUH0Ep\n🛡️ VC Backup Plan GPT – https://bit.ly/VCBackupPlanGPT\n⚡ Instant Micro Funding GPT – https://bit.ly/InstantFundingGPT\n🧩 No-Code GPT Builder – https://bit.ly/NoCodeGPT\n💵 Cash Flow Optimizer Prompt – https://bit.ly/CashFlowPrompt\n💡 Passive Income Pro GPT – https://bit.ly/PassiveProGPT\n\n──────────────────────────────────────────\n\n💰 *GET FUNDING FAST — ANY REASON, ANY STAGE*\nFast, easy funding options for businesses at every stage:\n\n🚀 Apply for Funding — $500 to $2M wired FAST → https://bankbreezy.com/funding/jason\n⚡ Funding for ANY Reason — No endless paperwork → https://bit.ly/fundingforanyreason\n🆕 Startup Business Funding (No revenue needed) → https://bit.ly/3Al55ht\n🛠️ Equipment Financing — Upgrade without draining cash → https://bit.ly/3EXLRQU\n🏡 Short-Term Rental Financing — Secure your next Airbnb → https://bit.ly/4220hHi\n\n──────────────────────────────────────────\n\n👇 *Engage With the Community*\nWhat’s your _biggest_ barrier to starting your own funding agency right now?\nDrop it in the comments and I’ll help you break it down.\n\n*Topics* #sidehustleideas #fundingagency #loanbroker #businessfunding #smallbusinessloans #affiliateloanbroker #workingcapital #affiliatemarketing",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=h2jqg5i5Y2o",
+      "public_url": "https://www.youtube.com/watch?v=h2jqg5i5Y2o",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-tpihva2ohhg",
+      "entity_type": "youtube_video",
+      "title": "Why Smart People Are Becoming Loan Brokers in 2026",
+      "description": "Transform your career and _get paid to empower small businesses_ as a loan broker — step-by-step, no fluff.\n\nIn this video, you’ll discover exactly how to start and grow a _small business loan brokerage_ that helps entrepreneurs secure funding while you build a thriving income stream.\n\n👇 *Watch, Learn, and Apply These Real-World Steps Today!*\n\n──────────────────────────────────────────\n\n💸 *JOIN THE #1 B2B FUNDING PLATFORM*\nGet plugged into the top platforms that pay brokers to connect business owners with fast capital.\n\n✅ *Apply to become a partner:* https://tally.so/r/mOe658\n📌 *Opportunity overview:* https://bit.ly/4qeoLIw\n🧠 *Want a launch plan call?* https://bit.ly/FundingBizLaunch\n\n──────────────────────────────────────────\n\n🤑 *GET PAID TO EMPOWER BUSINESSES WITH FAST FUNDING*\nAffiliate & partner programs built for brokers:\n\n✔️ David Allen Capital Affiliate – https://bit.ly/DACaffiliate\n✔️ ROKFI Affiliate – https://bit.ly/rockfi-affiliate\n✔️ 7 Figures Funding – https://bit.ly/3PFLCff\n✔️ Credit Suite Affiliate – https://bit.ly/creditsuiteaffiliate\n✔️ National Business Capital – https://bit.ly/nbcaffiliate\n✔️ Finance Factory Affiliate – https://bit.ly/financefactory-affiliate\n\n──────────────────────────────────────────\n\n🤖 *AI AGENTS — TAILORED ASSISTANTS FOR LOAN BROKERS*\nScale faster with GPT-powered intelligence and workflow helpers:\n\n🛠️ Start Your Agency (7-Day Broker Blitz) – https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right\n📈 Agency Growth Hub – https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub\n🚀 Affiliate Agency GPT – https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt\n⚡ Deal Maker Ads – https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads\n✍️ Email Wizard – https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard\n📈 Marketing Strategist – https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist\n\n──────────────────────────────────────────\n\n🧠 *CUSTOM GPTS & TOOLS*\nWork smarter with AI toolkits built for funding, credit, and agency growth:\n\n🗄️ CustomGPT Vault – https://bit.ly/4rUH0Ep \n🛡️ VC Backup Plan GPT – https://bit.ly/VCBackupPlanGPT\n⚡ Instant Micro Funding GPT – https://bit.ly/InstantFundingGPT\n🧩 No-Code GPT Builder – https://bit.ly/NoCodeGPT\n💵 Cash Flow Optimizer Prompt – https://bit.ly/CashFlowPrompt\n💡 Passive Income Pro GPT – https://bit.ly/PassiveProGPT\n\n──────────────────────────────────────────\n\n💰 *GET FUNDING FAST — ANY REASON, ANY STAGE*\nFast, easy funding options for businesses at every stage:\n\n🚀 Apply for Funding — $500 to $2M wired FAST → https://bankbreezy.com/funding/jason\n⚡ Funding for ANY Reason — No endless paperwork → https://bit.ly/fundingforanyreason\n🆕 Startup Business Funding (No revenue needed) → https://bit.ly/3Al55ht\n🛠️ Equipment Financing — Upgrade without draining cash → https://bit.ly/3EXLRQU\n🏡 Short-Term Rental Financing — Secure your next Airbnb → https://bit.ly/4220hHi\n\n──────────────────────────────────────────\n\n👇 *Engage With the Community*\nTell us below: _What’s your biggest barrier to becoming a loan broker right now?_ Drop it and we’ll help break it down.\n\n#smallbusiness #loanbroker #businessfunding #entrepreneurship #finance",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=tpihvA2OHhg",
+      "public_url": "https://www.youtube.com/watch?v=tpihvA2OHhg",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-3ojxu8zjsxc",
+      "entity_type": "youtube_video",
+      "title": "Seller Financing 101: How to Close Win-Win Deals with Retiring Boomers",
+      "description": "10,000 Baby Boomers retire every day — many own profitable businesses they don’t want to sell to private equity sharks or competitors.\n\nHere’s the *exact playbook* for using *seller financing* to buy those businesses with minimal capital, while keeping their legacy intact.\n\nWhether you’re an acquisition entrepreneur, investor, or strategist, this video will walk you step-by-step through building trust, structuring win-win terms, and avoiding rookie mistakes in seller-financed acquisitions.\n\n🔗 *Get the FREE Blueprint:* https://wix.to/Yq41L77 👈\n\n⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘\n\n📌 *Tools & Resources* \nBook 1:1 Discussion → https://bit.ly/4l3msoZ\nAI Agents & Custom GPTs → https://www.distilledfunding.com/custom-gpts\nVC Backup Plan GPT → https://bit.ly/VCBackupPlanGPT\nInstant Micro Funding GPT → https://bit.ly/InstantFundingGPT\n\n🎥 *Related Videos* \nhttps://youtu.be/R7oCUroopkw\nhttps://youtu.be/sNl09g9ENb8\nhttps://youtu.be/Isc2TwO2ZVY\n\n📰 *HOT Off The Press* \nVCs Are Just Payday Lenders in Patagonia Vests → https://wix.to/H2EwqFs\nTop 10 Same-Day Business Loan Providers Ranked (2025 Update) → https://wix.to/yMDZccM\nSame-Day Loans for Gig Workers: 5 Providers Compared → https://wix.to/7NMlgMU\n\n────────────────────────────────────────────────\n\n💰 *Get Funded* \nFunding for ANY Reason → https://bit.ly/fundingforanyreason\nGet from $500 to $2 Million! → https://bit.ly/BankBreezyApply\nStartup Business Funding Options For New Business → https://bit.ly/3Al55ht\nGet Equipment Financing For Your Small Business → https.bit.ly/3EXLRQU\nFinancing for your Short Term Rental Property → https://bit.ly/4220hHi \n\n────────────────────────────────────────────────\n\n📖 *Topics* \n#WealthTransfer #SellerFinancing #AcquisitionEntrepreneur #BusinessAcquisition #Entrepreneurship #BoomerBuyout #SmallBusinessGrowth #LegacyDeals #DealMaking #BusinessOwnership",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=3OJXu8ZJsxc",
+      "public_url": "https://www.youtube.com/watch?v=3OJXu8ZJsxc",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-fyohbmh2fhk",
+      "entity_type": "youtube_video",
+      "title": "Money Brokers Are Quietly Making Millions | Here's How to Join",
+      "description": "Are you ready to unlock the secrets of becoming a successful money broker and start funding dreams in 2026? In this video, we'll take you on a journey to explore the world of money broking, where you'll learn how to connect borrowers with lenders and earn a lucrative income in the process. From understanding the role of a money broker to building a successful business, we'll cover it all. Whether you're a seasoned finance professional or just starting out, this video is packed with valuable insights and practical tips to help you get started on your money broking journey. So, what are you waiting for? Watch now and start funding dreams in 2026!\n\n💸 *Start Your Own Funding Business!* 💸\n_Get Paid To Empower Businesses with Fast Funding Solutions!_\n\n✅ *Apply to become a partner:* https://tally.so/r/mOe658\n📌 *Opportunity overview:* https://bit.ly/4qeoLIw\n🧠 *Want a launch plan call?* https://bit.ly/FundingBizLaunch\n\n🤑 *Help Your Clients Today!* 🤑\n\n✔️ 𝐃𝐚𝐯𝐢𝐝 𝐀𝐥𝐥𝐞𝐧 𝐂𝐚𝐩𝐢𝐭𝐚𝐥: https://bit.ly/DACaffiliate\n✔️ 𝐑𝐎𝐊𝐅𝐈: https://bit.ly/rockfi-affiliate\n✔️ 𝟕 𝐅𝐢𝐠𝐮𝐫𝐞𝐬 𝐅𝐮𝐧𝐝𝐢𝐧𝐠: https://bit.ly/3PFLCff\n✔️ 𝐂𝐫𝐞𝐝𝐢𝐭 𝐒𝐮𝐢𝐭𝐞: https://bit.ly/creditsuiteaffiliate\n✔️ 𝐍𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐂𝐚𝐩𝐢𝐭𝐚𝐥: https://bit.ly/nbcaffiliate\n✔️ 𝐅𝐢𝐧𝐚𝐧𝐜𝐞 𝐅𝐚𝐜𝐭𝐨𝐫𝐲: https://bit.ly/financefactory-affiliate",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=fYOHbmH2fhk",
+      "public_url": "https://www.youtube.com/watch?v=fYOHbmH2fhk",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -158,6 +492,77 @@
       "recommended_cta_or_embed_role": null
     },
     {
+      "resource_id": "youtube-iryudzm-jm0",
+      "entity_type": "youtube_video",
+      "title": "What is Wix Seller Financing and How Does it Work?",
+      "description": "Welcome back to *Moonshine Capital TV!* In today's video, we're diving into a game-changer for Wix sellers – *Wix Seller Financing.* If you're running an online store on Wix, you don't want to miss this!\n\n*Get Funded:* https://bit.ly/fundingforanyreason\n\nThe Wix platform is an incredible place to sell your goods online, offering an easy-to-use interface and a suite of tools to help you thrive. But with any eCommerce platform, managing cash flow and handling inventory can be challenging. That’s where Wix Seller Financing comes in!\n\n*In this video, we’ll cover:*\n➡️ The benefits of selling on Wix\n➡️ Common challenges Wix sellers face\n➡️ How Wix Seller Financing can provide the financial flexibility you need\n➡️ The simple application process\n➡️ Approval and funding details\n➡️ Flexible repayment options tailored to your business needs\n\nWhether you're gearing up for a major product launch or handling last-minute orders, having access to capital can make all the difference. Explore how Wix Seller Financing can help you take your business to the next level.\n\n*Interested in applying for Wix Seller Financing?* \n🔗 Apply Now: https://bit.ly/fundingforanyreason\n\nDon’t forget to like this video, subscribe to *Moonshine Capital TV* for more eCommerce tips, and hit that notification bell so you never miss an update. Let us know in the comments if you have any questions about Wix Seller Financing or other funding options. Thanks for watching, and see you next time! \n\n*Topics* \n#ecommerce #wixwebsite #getfunded #workingcapital #onlineloan #onlineloans #onlineloanapply #funding #fundingoptions #8fig #wixseller #wixstudio #ecommercebusiness #ecommercefunding #ecommerceseller #ecommercefinancing",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=iRyUdzm_Jm0",
+      "public_url": "https://www.youtube.com/watch?v=iRyUdzm_Jm0",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-mxq7kwdggs8",
+      "entity_type": "youtube_video",
+      "title": "Unlock the Secrets of Client Acquisition: Transform Your Funding Agency with Expert Insights",
+      "description": "Embark on a transformative journey with 'The Art of Client Acquisition: Strategies That Work,' an episode that's more than just a podcast – it's a beacon of hope and guidance for business loan brokers and aspiring funding agency entrepreneurs. Join Jason Feimster, the seasoned CEO of Moonshine Capital, as he unveils the compelling world of client acquisition with unparalleled depth and clarity.\n\nIn this riveting episode, Jason doesn't just share strategies; he takes you by the hand and guides you through the intricate maze of understanding your audience, crafting a magnetic brand presence, and mastering the art of digital marketing. Every word resonates with the wisdom of experience, every strategy a ladder to your success.\n\nDive deep into the nuances of building lasting relationships and discover the power of networking in ways you never imagined. Jason's narration is not just informative; it's a heartfelt conversation, a mentor sharing invaluable insights with a protégé. Feel the passion behind his words as he discusses innovative sales techniques and the magic of closing deals, turning the mundane into something extraordinary.\n\nThis episode is a treasure trove of knowledge, with every minute offering practical, actionable advice. It's an emotional journey, one that inspires and empowers, leaving you equipped and eager to transform your business. Whether you're a veteran in the industry or just starting, this episode is your key to unlocking a world of possibilities.\n\nFind this empowering episode on Spotify and YouTube, under 'The Funding Agency' podcast by Moonshine Capital. Subscribe, delve into the world of client acquisition, and let Jason Feimster help you pave your path to unparalleled success.\n\n'Cause in the world of funding and loans, it's not just about the numbers; it's about the people, the dreams, and the journeys. Join us and redefine the way you see client acquisition forever.\n\n---------------------------------\n\n*TIMESTAMPS*\n00:00 Opening Remarks\n01:51 The Importance of Client Acquisition in the Funding Agency Business\n04:32 Understanding Your Target Audience\n07:21 Building a Strong Brand Presence\n10:13 Networking and Relationship Building\n13:15 Digital Marketing Strategies for Client Acquisition\n16:14 Sales Techniques and Closing Deals\n19:07 Leveraging Technology and Automation\n22:23 Client Retention and Referrals\n25:24 Recap and Key Takeaways\n28:18 Closing Remarks\n\n---------------------------------\n\n🎧 *ABOUT OUR PODCAST*\nDive deep into the world of the hottest home-based side-hustle and learn how launch your funding empire with \"The Funding Agency\" podcast by Moonshine Capital. Whether you're looking to start your own funding agency, become a loan broker, or partner with Moonshine Capital, this podcast is your ultimate guide. Join us as we unravel the secrets of the industry, share expert insights, and pave the way for your success in the funding realm.\n\n🔗 Tune in to \"The Funding Agency\" on Spotify and YouTube. Embrace the change, inspire innovation, and be part of the revolution in the funding world. Subscribe now for this and more insightful episodes that pave the way for your success in the dynamic realm of funding and finance. Let's build a smarter, more connected funding future together!\n\n🔗 Listen on Spotify: https://bit.ly/3v6bmuA\n🔗 Watch on YouTube: https://bit.ly/41qQgTV\n\n---------------------------------\n\n*GET INVOLVED | BECOME A LOAN BROKER*\nEarn a Commission by Sharing Links to Your Audience to get Approved For Funding \n\n✔️ David Allen Capital: https://bit.ly/DACaffiliate\n✔️ National Business Capital: https://bit.ly/nbcaffiliate\n✔️ Credit Suite: https://bit.ly/creditsuiteaffiliate\n✔️ ROKFI: https://bit.ly/rockfi-affiliate\n✔️ Finance Factory: https://bit.ly/financefactory-affiliate\n\n#GETFUNDED | *APPLY NOW*\n💵 Funding For ANY Reason https://bit.ly/fundingforanyreason\n💵 When Your Bank Can't Help - We Can! (up to $2M) https://bit.ly/dac-businesscapital\n💵 Instant Funding For Self-Employed & Gig-Workers https://bit.ly/dac-gigfunding\n💵 Get Up To $250K with Fund&Grow https://bit.ly/fundandgrow-apply\n💵 75+ Lender Marketplace https://bit.ly/nbcapply",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=mXQ7kwdggS8",
+      "public_url": "https://www.youtube.com/watch?v=mXQ7kwdggS8",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-hfccdehcwtk",
+      "entity_type": "youtube_video",
+      "title": "Buying Power: Acquisition Financing Made Simple",
+      "description": "Welcome to Episode 8 of 'AltFinance: The Funding Frontier,' where we venture into the dynamic realm of acquisition financing. Hosted by Jason Feimster, the visionary Founder & CEO of Moonshine Capital, this episode is a treasure trove for anyone aiming to scale new heights in the business world.\n\nTitled 'Buying Power: Acquisition Financing Made Simple,' we unravel the complexities of this crucial financial tool, transforming the intimidating into the understandable. Whether you're dreaming of expanding your business empire or simply curious about how companies evolve through strategic acquisitions, this episode is your guide through the intricate dance of acquisition financing.\n\nJoin us as we dissect the different types of financing available, from traditional bank loans to innovative mezzanine financing. Immerse yourself in real-world case studies, illustrating how businesses of all sizes have successfully navigated these waters. Gain invaluable insights from financial experts and learn the secrets of securing and effectively utilizing acquisition financing.\n\nWith Jason's expert guidance, this episode is more than just an exploration of financial concepts; it's a journey into the heart of business growth and transformation. So, whether you're a budding entrepreneur or a seasoned business mogul, tune in to 'AltFinance: The Funding Frontier' on Spotify, YouTube, and wherever podcasts are available. Embark on this enlightening journey with us, and unlock the potential of acquisition financing to power your business dreams.\n\nTIMESTAMPS\n00:00 Introduction to Acquisition Financing\n01:34 Understanding the Basics of Acquisition Financing\n03:48 Case Studies: Successful Acquisition Financing Examples\n05:58 The Process of Securing Acquisition Financing\n08:21 Strategies for Effective Use of Acquisition Financing\n10:54 Emerging Trends in Acquisition Financing\n13:34 Q&A Session with Listeners\n15:45 Conclusion & Final Remarks \n\n🎧 ABOUT OUR PODCAST\nAltFinance: The Funding Frontier\" is a groundbreaking podcast that delves into the dynamic world of alternative financing, exploring the myriad of options available to entrepreneurs and businesses outside the traditional banking system. Hosted by Jason Feimster, the Founder & CEO of Moonshine Capital, this podcast serves as a vital resource for anyone looking to navigate the often-complex financing landscape.\n\nWith each episode, Jason brings his expertise and experience to the table, guiding listeners through the intricacies of various funding mechanisms. From revenue-based financing, which allows businesses to pay back loans from a percentage of their ongoing earnings, to Instant Micro Funding designed for the agility of self-employed individuals and gig workers, the podcast leaves no stone unturned.\n\nWhether you're a start-up owner, a small business veteran, or simply interested in the finance industry's future, \"AltFinance: The Funding Frontier\" is your gateway to understanding and utilizing alternative financing to its fullest potential. Join Jason Feimster as he illuminates the path to financial empowerment and business success through innovative funding solutions.\n\n---------------------------------\n\nGET INVOLVED | BECOME A LOAN BROKER\nEarn a Commission by Sharing Links to Your Audience\n\n✔️ David Allen Capital: https://bit.ly/DACaffiliate\n✔️ National Business Capital: https://bit.ly/nbcaffiliate\n✔️ Credit Suite: https://bit.ly/creditsuiteaffiliate\n✔️ ROKFI: https://bit.ly/rockfi-affiliate\n✔️ Finance Factory: https://bit.ly/financefactory-affiliate\n\nGET FUNDED | APPLY NOW\n🔗 Funding For ANY Reason https://bit.ly/fundingforanyreason\n🔗 When Your Bank Can't Help - We Can! (up to $2M) https://bit.ly/dac-businesscapital\n🔗 Instant Funding For Self-Employed & Gig-Workers https://bit.ly/dac-gigfunding\n🔗 Get Up To $250K with Fund&Grow https://bit.ly/fundandgrow-apply\n🔗 75+ Lender Marketplace https://bit.ly/nbcapply",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=hfCCdEHCwtk",
+      "public_url": "https://www.youtube.com/watch?v=hfCCdEHCwtk",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
       "resource_id": "youtube-an1i4f2qjas",
       "entity_type": "youtube_video",
       "title": "Offering Financing Solutions: A Guide for Coaches, Consultants, and B2B Professionals",
@@ -173,6 +578,46 @@
       "priority": 57,
       "canonical_url": "https://www.youtube.com/watch?v=aN1I4F2qjAs",
       "public_url": "https://www.youtube.com/watch?v=aN1I4F2qjAs",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-iswugwvcs9e",
+      "entity_type": "short_video",
+      "title": "💰 Onramp's Revenue-Based Financing: How It Works & How to Apply",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=IswugwVcS9E",
+      "public_url": "https://www.youtube.com/watch?v=IswugwVcS9E",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-qgk8u9veyg4",
+      "entity_type": "short_video",
+      "title": "🚀 How to Apply for Instant Micro Funding – Step-by-Step Guide for Gig Workers!",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=qgK8U9veyG4",
+      "public_url": "https://www.youtube.com/watch?v=qgK8U9veyG4",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },

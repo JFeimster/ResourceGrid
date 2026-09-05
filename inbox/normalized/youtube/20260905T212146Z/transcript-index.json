@@ -1,0 +1,102 @@
+{
+  "batch": "youtube-v2-batch-1",
+  "run_id": "20260905T212146Z",
+  "generated_at": "2026-09-05T21:23:31.066Z",
+  "ytdlp_available": true,
+  "requested_limit": 4,
+  "entries": [
+    {
+      "video_id": "_2GARn_z4ug",
+      "selected_score": 155,
+      "attempted": true,
+      "available": true,
+      "processed": true,
+      "files": [
+        {
+          "path": "inbox\\raw\\youtube\\20260905T212146Z\\transcripts\\_2GARn_z4ug.en.en-orig.vtt",
+          "sha256": "a456519222b8a93578c6ab63369f938a03e867e5471f2f61609647f0ac26732d",
+          "bytes": 6853
+        },
+        {
+          "path": "inbox\\raw\\youtube\\20260905T212146Z\\transcripts\\_2GARn_z4ug.en.en.vtt",
+          "sha256": "a456519222b8a93578c6ab63369f938a03e867e5471f2f61609647f0ac26732d",
+          "bytes": 6853
+        }
+      ],
+      "error": null,
+      "word_count": 864,
+      "derived_url_count": 0
+    },
+    {
+      "video_id": "_McGmkKCVn0",
+      "selected_score": 155,
+      "attempted": true,
+      "available": true,
+      "processed": true,
+      "files": [
+        {
+          "path": "inbox\\raw\\youtube\\20260905T212146Z\\transcripts\\_McGmkKCVn0.en.en-US.vtt",
+          "sha256": "bc7c134ac4ca5fdda2063a2aaaec942a3db889a62d2eac86fff2f889d7396308",
+          "bytes": 2559
+        },
+        {
+          "path": "inbox\\raw\\youtube\\20260905T212146Z\\transcripts\\_McGmkKCVn0.en.en-orig.vtt",
+          "sha256": "aa8715ffa723e423686388bf1075e57ec275892ec1b9142ce65e10c5a5280a9b",
+          "bytes": 14583
+        },
+        {
+          "path": "inbox\\raw\\youtube\\20260905T212146Z\\transcripts\\_McGmkKCVn0.en.en.vtt",
+          "sha256": "aa8715ffa723e423686388bf1075e57ec275892ec1b9142ce65e10c5a5280a9b",
+          "bytes": 14583
+        }
+      ],
+      "error": "ERROR: Unable to download video subtitles for 'en-en-US': HTTP Error 429: Too Many Requests",
+      "word_count": 1937,
+      "derived_url_count": 0
+    },
+    {
+      "video_id": "-bytHuVEXQc",
+      "selected_score": 155,
+      "attempted": true,
+      "available": true,
+      "processed": true,
+      "files": [
+        {
+          "path": "inbox\\raw\\youtube\\20260905T212146Z\\transcripts\\-bytHuVEXQc.en.en-orig.vtt",
+          "sha256": "bb606441ca0bdd176cd88cb7e1e883a07c48c7e58c9c7942859e51f9e7db79a3",
+          "bytes": 11231
+        },
+        {
+          "path": "inbox\\raw\\youtube\\20260905T212146Z\\transcripts\\-bytHuVEXQc.en.en.vtt",
+          "sha256": "bb606441ca0bdd176cd88cb7e1e883a07c48c7e58c9c7942859e51f9e7db79a3",
+          "bytes": 11231
+        }
+      ],
+      "error": null,
+      "word_count": 1284,
+      "derived_url_count": 0
+    },
+    {
+      "video_id": "7CsOdJ7oTAA",
+      "selected_score": 155,
+      "attempted": true,
+      "available": true,
+      "processed": true,
+      "files": [
+        {
+          "path": "inbox\\raw\\youtube\\20260905T212146Z\\transcripts\\7CsOdJ7oTAA.en.en-orig.vtt",
+          "sha256": "b969246c075f0cd2cf3e0a2aa131e2f24a6dad1076c1cd85ee8eb07388be82b2",
+          "bytes": 233
+        },
+        {
+          "path": "inbox\\raw\\youtube\\20260905T212146Z\\transcripts\\7CsOdJ7oTAA.en.en.vtt",
+          "sha256": "b969246c075f0cd2cf3e0a2aa131e2f24a6dad1076c1cd85ee8eb07388be82b2",
+          "bytes": 233
+        }
+      ],
+      "error": null,
+      "word_count": 16,
+      "derived_url_count": 0
+    }
+  ]
+}

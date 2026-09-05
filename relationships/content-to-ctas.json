@@ -20541,6 +20541,870 @@
       "metadata": {
         "enrichment_version": "v1.2"
       }
+    },
+    {
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-promotes-cta-funding-any-reason",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "3OJXu8ZJsxc"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-3ojxu8zjsxc-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-3ojxu8zjsxc",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "3OJXu8ZJsxc"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-promotes-cta-funding-any-reason",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-promotes-form-tally-moe658",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-9a3hthkalt8-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-9a3hthkalt8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "9A3hThKaLT8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "B8dSnHFMVY4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-b8dsnhfmvy4-promotes-form-tally-moe658",
+      "source_id": "youtube-b8dsnhfmvy4",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "B8dSnHFMVY4"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-fhtt6s6coti-promotes-cta-funding-any-reason",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "Fhtt6s6CoTI"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-fhtt6s6coti-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "Fhtt6s6CoTI"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-fhtt6s6coti-promotes-form-tally-moe658",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "Fhtt6s6CoTI"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-fhtt6s6coti-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-fhtt6s6coti",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "Fhtt6s6CoTI"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "GzlgSQwWGfo"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-gzlgsqwwgfo-promotes-form-tally-moe658",
+      "source_id": "youtube-gzlgsqwwgfo",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "GzlgSQwWGfo"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-cta-funding-any-reason",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-form-tally-moe658",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-h2jqg5i5y2o",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "h2jqg5i5Y2o"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-hfccdehcwtk-promotes-cta-funding-any-reason",
+      "source_id": "youtube-hfccdehcwtk",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "hfCCdEHCwtk"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-hfccdehcwtk-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-hfccdehcwtk",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "hfCCdEHCwtk"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-keealebdo0-promotes-cta-funding-any-reason",
+      "source_id": "youtube-keealebdo0",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "-KEEAlEBDO0"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-keealebdo0-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-keealebdo0",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "-KEEAlEBDO0"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-mxq7kwdggs8-promotes-cta-funding-any-reason",
+      "source_id": "youtube-mxq7kwdggs8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "mXQ7kwdggS8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-mxq7kwdggs8-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-mxq7kwdggs8",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "mXQ7kwdggS8"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-promotes-cta-funding-any-reason",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-promotes-form-tally-moe658",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-tpihva2ohhg-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-tpihva2ohhg",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "tpihvA2OHhg"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-promotes-cta-funding-any-reason",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-funding-any-reason"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason",
+        "source_video_id": "YWPwyv540aE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-promotes-cta-join-b2b-funding-platform",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "cta-join-b2b-funding-platform"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform",
+        "source_video_id": "YWPwyv540aE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-promotes-form-tally-moe658",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-moe658"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Join the #1 B2B Funding Platform!",
+        "source_video_id": "YWPwyv540aE"
+      }
+    },
+    {
+      "relationship_id": "rel-youtube-ywpwyv540ae-promotes-form-tally-w4r2ad",
+      "source_id": "youtube-ywpwyv540ae",
+      "relationship_type": "promotes",
+      "target": {
+        "resource_id": "form-tally-w4r2ad"
+      },
+      "context": "Exact canonical ResourceGrid title mentioned in published YouTube description.",
+      "weight": 0.92,
+      "status": "active",
+      "source": {
+        "system": "YouTube",
+        "source_file": null,
+        "verified_at": "2026-09-05T21:23:31.422Z"
+      },
+      "metadata": {
+        "evidence_class": "exact_title",
+        "evidence_rank": 3,
+        "match_method": "exact_title",
+        "confidence": 0.92,
+        "source_system": "YouTube",
+        "ingestion_batch": "youtube-v2-batch-1",
+        "ingestion_run": "20260905T212146Z",
+        "matched_title": "Funding for ANY Reason 💵",
+        "source_video_id": "YWPwyv540aE"
+      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:03:10.856Z",
+  "generated_at": "2026-09-05T22:34:22.362Z",
   "terms": [
     "ecommerce",
     "amazon",
@@ -9,7 +9,7 @@
     "mrr",
     "subscription"
   ],
-  "count": 136,
+  "count": 143,
   "resources": [
     {
       "resource_id": "article-saas-valuation-multiples",
@@ -1478,6 +1478,31 @@
       "recommended_cta_or_embed_role": null
     },
     {
+      "resource_id": "youtube-1md0qunnr5e",
+      "entity_type": "youtube_video",
+      "title": "5 AI Tools Every Loan Broker Needs in 2026",
+      "description": "You do not need 27 AI subscriptions to run an AI-enabled funding agency. You need *5 core AI tools for loan brokers* working together.\n\n👉 *See all 27 AI tools for loan brokers:*\nhttps://www.distilledfunding.com/post/ai-tools-for-loan-brokers\n\nIn this video, I break down the lean starter stack for business loan brokers, commercial funding professionals, and funding agencies:\n\n• *AI Assistant* — ChatGPT, Claude, or Gemini for research, borrower prep, drafting, and workflow design\n• *CRM* — HubSpot or a similar platform for leads, deal stages, tasks, and follow-up\n• *Meeting Intelligence* — Fireflies.ai for recording, transcription, summaries, and next actions\n• *Automation* — Zapier, Make, or n8n to connect your funding workflow\n• *Knowledge System* — Notion or Airtable for lender data, SOPs, templates, and operational knowledge\n\nThe goal is not to collect software.\n\nStart with the funding workflow: _Lead → Intake → Qualification → Documents → Lender Fit → Submission → Follow-Up → Close → Referral._\n\nThen automate the repetitive work that consumes expensive human attention.\n\n*Machine handles repetition. Human handles consequence.*\n\nIf you run a funding agency or work as a loan broker, comment below: *What part of your funding workflow wastes the most time right now?*\n\n#AIForFinance #AIAutomation #LoanBroker #FundingAutomation #FundingAgency #CommercialBroker",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=1mD0qUNNR5E",
+      "public_url": "https://www.youtube.com/watch?v=1mD0qUNNR5E",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
       "resource_id": "youtube-jn3dfmmxwhy",
       "entity_type": "youtube_video",
       "title": "Your Shopify Sales Look Good But Your Bank Account Doesn't | Here's Why",
@@ -1497,6 +1522,79 @@
       "priority": 82,
       "canonical_url": "https://www.youtube.com/watch?v=Jn3dfmmXWHY",
       "public_url": "https://www.youtube.com/watch?v=Jn3dfmmXWHY",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-ziadbbopmm0",
+      "entity_type": "youtube_video",
+      "title": "Same-Day Small Business Funding: Watch Before You Apply (Instant Micro Funding Explained)",
+      "description": "*Need fast cash for your business or side hustle?* Instant micro funding can get you same-day capital—but it's not always the best move. In this video, I break down exactly what instant micro funding is, who it's designed for _(gig workers, contractors, Amazon sellers, restaurant owners),_ the hidden costs most people miss, and how to know if it's right for YOUR business.\n\n*What You'll Learn:*\n➡️ What instant micro funding actually is _(and what it's NOT)_\n➡️ Who qualifies and what lenders look for\n➡️ The 3 questions to ask BEFORE you apply\n➡️ Pros and cons of same-day funding\n➡️ When fast funding makes sense vs. when it can hurt you\n➡️ How to compare offers and avoid predatory terms\n\n*Trusted Funding Partners:*\n👉 BankBreezy: https://bit.ly/4qlRBaa\n👉 DAC: https://bit.ly/4tLjZ6s\n\nDon't let _\"same-day\"_ pressure you into a bad decision. Use this guide to make a smarter funding choice.\n\n💬 *Drop a comment* with the type of business you run—contractor, gig worker, seller, restaurant, freelancer—and I'll create more funding content tailored to YOU.\n\n#SmallBusinessFunding #BusinessLoans #InstantMicroFunding #SameDayFunding #ContractorFunding #GigWorkerMoney #FastBusinessCapital",
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=ZiadbBoPMm0",
+      "public_url": "https://www.youtube.com/watch?v=ZiadbBoPMm0",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-xalzxdfwjzm",
+      "entity_type": "youtube_video",
+      "title": "Fund&Grow Review 2026: How to Get $250K in 0% Business Credit (Real Requirements)",
+      "description": "*Are you looking for 0% business credit cards to fuel your venture?* This video explores Fund & Grow, a service that assists small business owners in obtaining business credit cards for new business, emphasizing the importance of corporate credit and credit stacking. We discuss how to leverage various financing options to secure startup funding, helping you build a strong financial foundation.\n\nFund&Grow specializes in helping entrepreneurs access unsecured business credit cards with 0% introductory APR periods—no collateral required. _But is it worth the fee? And can you actually qualify?_\n\n*What You'll Learn:*\n- How Fund&Grow's credit card funding program actually works\n- Real qualification requirements (credit score, income, business age)\n- The complete timeline from application to funding\n- Total costs and fees you should expect\n- Who should (and shouldn't) use this service\n- Alternatives to consider\n\nWhether you're looking to *fund inventory, marketing, equipment, or bridge cash flow gaps,* this review gives you the _unfiltered facts_ you need to make an informed decision.\n\n*Ready to apply?* \n_Get started with Fund&Grow's concierge service:_  https://www.fundandgrow.com/sign-up-now?ref=jasonfeimster\n\n*Related Resources*\n_Read our review:_ https://www.distilledfunding.com/post/fundandgrow-review\n\n*Drop your questions in the comments.* _I respond to every one._\n\n---\n\n*Topics*\n#FundAndGrow #BusinessFunding #CreditStacking #BusinessCredit",
+      "status": "published",
+      "topics": [
+        "Business Credit",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Business Credit",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 90,
+      "canonical_url": "https://www.youtube.com/watch?v=xAlzXDFwjzM",
+      "public_url": "https://www.youtube.com/watch?v=xAlzXDFwjzM",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-h2jqg5i5y2o",
+      "entity_type": "youtube_video",
+      "title": "The Funding Broker Opportunity Nobody's Talking About",
+      "description": "Tired of promoting products that don't make a real difference? Discover how you can earn substantial commissions while genuinely helping small business owners secure the funding they desperately need.\n\nLearn how you can connect struggling business owners with the capital they need while earning generous commissions - all without inventory, monthly fees, or technical expertise.\n\n💸 *Want to get funded now?*\n➡️ https://bit.ly/3LmrRuX\n\n──────────────────────────────────────────\n\n💸 *JOIN THE #1 B2B FUNDING PLATFORM*\nGet plugged into the top platforms that pay brokers to connect business owners with fast capital.\n\n✅ *Apply to become a partner:* https://tally.so/r/mOe658\n📌 *Opportunity overview:* https://bit.ly/4qeoLIw\n🧠 *Want a launch plan call?* https://bit.ly/FundingBizLaunch\n\n──────────────────────────────────────────\n\n🤑 *GET PAID TO EMPOWER BUSINESSES WITH FAST FUNDING*\nAffiliate & partner programs built for brokers:\n\n✔️ David Allen Capital Affiliate – https://bit.ly/DACaffiliate\n✔️ ROKFI Affiliate – https://bit.ly/rockfi-affiliate\n✔️ 7 Figures Funding – https://bit.ly/3PFLCff\n✔️ Credit Suite Affiliate – https://bit.ly/creditsuiteaffiliate\n✔️ National Business Capital – https://bit.ly/nbcaffiliate\n✔️ Finance Factory Affiliate – https://bit.ly/financefactory-affiliate\n\n──────────────────────────────────────────\n\n🤖 *AI AGENTS — TAILORED ASSISTANTS FOR LOAN BROKERS*\nScale faster with GPT-powered intelligence and workflow helpers:\n\n🛠️ Start Your Agency (7-Day Broker Blitz) – https://chatgpt.com/g/g-680ba7aacd288191800f5602b02a11cd-getting-started-right\n📈 Agency Growth Hub – https://chatgpt.com/g/g-abNIHoRVX-agent-growth-hub\n🚀 Affiliate Agency GPT – https://chatgpt.com/g/g-sAsXvLr6H-affiliate-agency-gpt\n⚡ Deal Maker Ads – https://chatgpt.com/g/g-w0ehowMV9-deal-maker-ads\n✍️ Email Wizard – https://chatgpt.com/g/g-w91bZd7up-dac-affiliate-email-wizard\n📈 Marketing Strategist – https://chatgpt.com/g/g-dRZknamEd-affiliate-marketing-strategist\n\n──────────────────────────────────────────\n\n🧠 *CUSTOM GPTS & TOOLS*\nWork smarter with AI toolkits built for funding, credit, and agency growth:\n\n🗄️ CustomGPT Vault – https://bit.ly/4rUH0Ep\n🛡️ VC Backup Plan GPT – https://bit.ly/VCBackupPlanGPT\n⚡ Instant Micro Funding GPT – https://bit.ly/InstantFundingGPT\n🧩 No-Code GPT Builder – https://bit.ly/NoCodeGPT\n💵 Cash Flow Optimizer Prompt – https://bit.ly/CashFlowPrompt\n💡 Passive Income Pro GPT – https://bit.ly/PassiveProGPT\n\n──────────────────────────────────────────\n\n💰 *GET FUNDING FAST — ANY REASON, ANY STAGE*\nFast, easy funding options for businesses at every stage:\n\n🚀 Apply for Funding — $500 to $2M wired FAST → https://bankbreezy.com/funding/jason\n⚡ Funding for ANY Reason — No endless paperwork → https://bit.ly/fundingforanyreason\n🆕 Startup Business Funding (No revenue needed) → https://bit.ly/3Al55ht\n🛠️ Equipment Financing — Upgrade without draining cash → https://bit.ly/3EXLRQU\n🏡 Short-Term Rental Financing — Secure your next Airbnb → https://bit.ly/4220hHi\n\n──────────────────────────────────────────\n\n👇 *Engage With the Community*\nWhat’s your _biggest_ barrier to starting your own funding agency right now?\nDrop it in the comments and I’ll help you break it down.\n\n*Topics* #sidehustleideas #fundingagency #loanbroker #businessfunding #smallbusinessloans #affiliateloanbroker #workingcapital #affiliatemarketing",
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=h2jqg5i5Y2o",
+      "public_url": "https://www.youtube.com/watch?v=h2jqg5i5Y2o",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -1545,6 +1643,29 @@
       "recommended_cta_or_embed_role": null
     },
     {
+      "resource_id": "youtube-iryudzm-jm0",
+      "entity_type": "youtube_video",
+      "title": "What is Wix Seller Financing and How Does it Work?",
+      "description": "Welcome back to *Moonshine Capital TV!* In today's video, we're diving into a game-changer for Wix sellers – *Wix Seller Financing.* If you're running an online store on Wix, you don't want to miss this!\n\n*Get Funded:* https://bit.ly/fundingforanyreason\n\nThe Wix platform is an incredible place to sell your goods online, offering an easy-to-use interface and a suite of tools to help you thrive. But with any eCommerce platform, managing cash flow and handling inventory can be challenging. That’s where Wix Seller Financing comes in!\n\n*In this video, we’ll cover:*\n➡️ The benefits of selling on Wix\n➡️ Common challenges Wix sellers face\n➡️ How Wix Seller Financing can provide the financial flexibility you need\n➡️ The simple application process\n➡️ Approval and funding details\n➡️ Flexible repayment options tailored to your business needs\n\nWhether you're gearing up for a major product launch or handling last-minute orders, having access to capital can make all the difference. Explore how Wix Seller Financing can help you take your business to the next level.\n\n*Interested in applying for Wix Seller Financing?* \n🔗 Apply Now: https://bit.ly/fundingforanyreason\n\nDon’t forget to like this video, subscribe to *Moonshine Capital TV* for more eCommerce tips, and hit that notification bell so you never miss an update. Let us know in the comments if you have any questions about Wix Seller Financing or other funding options. Thanks for watching, and see you next time! \n\n*Topics* \n#ecommerce #wixwebsite #getfunded #workingcapital #onlineloan #onlineloans #onlineloanapply #funding #fundingoptions #8fig #wixseller #wixstudio #ecommercebusiness #ecommercefunding #ecommerceseller #ecommercefinancing",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=iRyUdzm_Jm0",
+      "public_url": "https://www.youtube.com/watch?v=iRyUdzm_Jm0",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
       "resource_id": "youtube-1of-usaasek",
       "entity_type": "youtube_video",
       "title": "Funding Your eCommerce Potential with Onramp Funds | Fast & Flexible Funding for Growth",
@@ -1587,6 +1708,44 @@
       "priority": 82,
       "canonical_url": "https://www.youtube.com/watch?v=tTtO4yDOd_o",
       "public_url": "https://www.youtube.com/watch?v=tTtO4yDOd_o",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-esfvq6l0e7c",
+      "entity_type": "short_video",
+      "title": "💸 Need Working Capital? Top 7 Resources for Amazon Entrepreneurs! 🚀#AmazonSeller #GetFunded",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=EsFvQ6L0e7c",
+      "public_url": "https://www.youtube.com/watch?v=EsFvQ6L0e7c",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-xx9gt4wl6se",
+      "entity_type": "short_video",
+      "title": "Revenue Based Funding Just Changed The Game For Amazon Sellers",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=Xx9gT4WL6sE",
+      "public_url": "https://www.youtube.com/watch?v=Xx9gT4WL6sE",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },

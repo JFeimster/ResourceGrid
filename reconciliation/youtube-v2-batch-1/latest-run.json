@@ -1,0 +1,7 @@
+{
+  "batch": "youtube-v2-batch-1",
+  "run_id": "20260905T212146Z",
+  "updated_at": "2026-09-05T21:23:31.422Z",
+  "promotion_plan": "reconciliation\\youtube-v2-batch-1\\20260905T212146Z\\promotion-plan.json",
+  "input_repo_head": "f591629ff6209d86c0869043c09a2bc97c9abaaf"
+}

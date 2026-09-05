@@ -1,0 +1,2838 @@
+{
+  "batch": "youtube-v2-batch-1",
+  "run_id": "20260905T212146Z",
+  "generated_at": "2026-09-05T21:23:31.067Z",
+  "phase": "pre-reconciliation-enrichment",
+  "source_videos_evaluated": 208,
+  "transcript_limit": 4,
+  "transcript_candidates_selected": 4,
+  "transcript_available_count": 29,
+  "transcript_processed_count": 4,
+  "transcript_failed_attempts": 0,
+  "full_transcript_bodies_promoted_to_canonical": false,
+  "raw_transcript_directory": "inbox\\raw\\youtube\\20260905T212146Z\\transcripts",
+  "notes": [
+    "Transcript bodies remain in inbox/raw staging.",
+    "Normalized records contain only compact transcript provenance/hash/path plus derived terms/URLs.",
+    "Canonical promotion may use derived intelligence but must not include transcript bodies."
+  ],
+  "reconciliation": {
+    "batch": "youtube-v2-batch-1",
+    "run_id": "20260905T212146Z",
+    "generated_at": "2026-09-05T21:23:31.422Z",
+    "input_repo_head": "f591629ff6209d86c0869043c09a2bc97c9abaaf",
+    "acquisition": {
+      "youtube_api_available": false,
+      "youtube_api_used": false,
+      "ytdlp_available": true,
+      "ytdlp_used": true,
+      "ytdlp_metadata_limit": 25
+    },
+    "canonical_counts_before": {
+      "total_entities": 1591,
+      "youtube_videos": 163,
+      "short_videos": 7,
+      "total_relationships": 4610,
+      "content_to_content": 0,
+      "content_to_resources": 0,
+      "content_to_ctas": 0,
+      "duplicate_canonical_ids": [],
+      "duplicate_relationship_ids": [],
+      "self_references": []
+    },
+    "source_videos_discovered": 208,
+    "existing_canonical_matches": 170,
+    "genuinely_new_videos": 38,
+    "unavailable_deleted_private_candidates": 0,
+    "ambiguous_records": 0,
+    "duplicate_candidates": 0,
+    "matched_entities_with_field_updates": 170,
+    "fields_proposed_for_update": 560,
+    "curated_fields_preserved": [
+      "resource_id",
+      "topics",
+      "content_clusters",
+      "keywords",
+      "audiences",
+      "industries",
+      "search_intent",
+      "funnel_stage",
+      "primary_use_case",
+      "conversion_goal",
+      "priority",
+      "recommended_resource_refs",
+      "recommended_cta_refs",
+      "internal_link_refs",
+      "notes"
+    ],
+    "shorts": {
+      "short": 38,
+      "non_short": 106,
+      "unknown": 64
+    },
+    "playlists_discovered": 0,
+    "playlist_memberships": 0,
+    "transcript_availability": 29,
+    "transcripts_processed": 4,
+    "explicit_resourcegrid_url_matches": 57,
+    "unmatched_urls": 192,
+    "proposed_relationship_additions": 162,
+    "proposed_relationship_evidence_updates": 0,
+    "auto_promotable_relationship_changes": 105,
+    "held_relationship_changes": 57,
+    "relationship_evidence_breakdown": {
+      "exact_title": 48,
+      "explicit_description_url": 57,
+      "taxonomy_cluster": 57
+    },
+    "canonical_mutation_performed": false,
+    "reconciliation_plan_sha256": "a14c5d2bcf66453e38173c56d556af2ffe801b28bf87b669150d011fab9dbe6b"
+  },
+  "relationship_evidence_priority": [
+    "official_playlist/source evidence",
+    "explicit description URLs",
+    "exact stable-ID/URL/title evidence",
+    "transcript evidence",
+    "taxonomy/cluster inference"
+  ],
+  "promotion": {
+    "batch": "youtube-v2-batch-1",
+    "run_id": "20260905T212146Z",
+    "promoted_at": "2026-09-05T22:24:31.527Z",
+    "repo_head": "f591629ff6209d86c0869043c09a2bc97c9abaaf",
+    "counts_before_promotion": {
+      "total_entities": 1591,
+      "youtube_videos": 163,
+      "short_videos": 7,
+      "total_relationships": 4610,
+      "content_to_content": 0,
+      "content_to_resources": 0,
+      "content_to_ctas": 0,
+      "duplicate_canonical_ids": [],
+      "duplicate_relationship_ids": [],
+      "self_references": []
+    },
+    "matched_entities_updated": 170,
+    "field_update_results": [
+      {
+        "resource_id": "youtube-1md0qunnr5e",
+        "youtube_video_id": "1mD0qUNNR5E",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-d3llrn13oq4",
+        "youtube_video_id": "d3llRn13oQ4",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ziadbbopmm0",
+        "youtube_video_id": "ZiadbBoPMm0",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-a19taiumre0",
+        "youtube_video_id": "A19TaIumRE0",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-uy-t0waclxe",
+        "youtube_video_id": "uY-T0WAClxE",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-o-me9-i-5u",
+        "youtube_video_id": "o-_me9-I_5U",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-5khtw42ph0u",
+        "youtube_video_id": "5KhtW42PH0U",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-b8dsnhfmvy4",
+        "youtube_video_id": "B8dSnHFMVY4",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-hajaway2md4",
+        "youtube_video_id": "hAjAWAy2MD4",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-xalzxdfwjzm",
+        "youtube_video_id": "xAlzXDFwjzM",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-keealebdo0",
+        "youtube_video_id": "-KEEAlEBDO0",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-9a3hthkalt8",
+        "youtube_video_id": "9A3hThKaLT8",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-gzlgsqwwgfo",
+        "youtube_video_id": "GzlgSQwWGfo",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-fhtt6s6coti",
+        "youtube_video_id": "Fhtt6s6CoTI",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ywpwyv540ae",
+        "youtube_video_id": "YWPwyv540aE",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-h2jqg5i5y2o",
+        "youtube_video_id": "h2jqg5i5Y2o",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-v60om-8yri0",
+        "youtube_video_id": "V60om-8yrI0",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-tpihva2ohhg",
+        "youtube_video_id": "tpihvA2OHhg",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-3ojxu8zjsxc",
+        "youtube_video_id": "3OJXu8ZJsxc",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-fyohbmh2fhk",
+        "youtube_video_id": "fYOHbmH2fhk",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-zcllymcevsc",
+        "youtube_video_id": "ZCllyMCeVSc",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-zx2qhuuesbw",
+        "youtube_video_id": "zx2QhUUESbw",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-iryudzm-jm0",
+        "youtube_video_id": "iRyUdzm_Jm0",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-mxq7kwdggs8",
+        "youtube_video_id": "mXQ7kwdggS8",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-hfccdehcwtk",
+        "youtube_video_id": "hfCCdEHCwtk",
+        "status": "updated",
+        "fields": [
+          "description",
+          "published_at",
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-9-pj-wq1va",
+        "youtube_video_id": "_9-Pj_Wq1VA",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-d91msji94g",
+        "youtube_video_id": "_D91mSji94g",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-eokjbxxkeu",
+        "youtube_video_id": "-EokjBxxKeU",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-hskz0wg9t0",
+        "youtube_video_id": "-HSKZ0WG9t0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-umkpenezxi",
+        "youtube_video_id": "-uMKPEnEzXI",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-v1-coef9pm",
+        "youtube_video_id": "-v1-cOEF9PM",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-0mpa2qgb2go",
+        "youtube_video_id": "0mPa2QGB2Go",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-1of-usaasek",
+        "youtube_video_id": "1Of_UsAasEk",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-2uwhoyrkyfe",
+        "youtube_video_id": "2UwHOYRKYfE",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-4kpuhti9phk",
+        "youtube_video_id": "4kPuHTi9pHk",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-4p22ujdik2c",
+        "youtube_video_id": "4P22uJdIK2c",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-5pf9eundtxg",
+        "youtube_video_id": "5pf9EunDtXg",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-5us3qjgc2uq",
+        "youtube_video_id": "5uS3qJgC2UQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-61nbsky-vdy",
+        "youtube_video_id": "61NbsKy-VdY",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-67g02obmamo",
+        "youtube_video_id": "67g02oBmAmo",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-68zvpxnsuyg",
+        "youtube_video_id": "68zVPxnsuyg",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-6hdlepd48li",
+        "youtube_video_id": "6hdLePD48LI",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-6hvokuhg9cy",
+        "youtube_video_id": "6HvoKUHG9cY",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-6otsunla1kc",
+        "youtube_video_id": "6OtsUnLA1Kc",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-7b-elfjbvew",
+        "youtube_video_id": "7b-ElFJbVEw",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-8blwgvxwwjy",
+        "youtube_video_id": "8BlWgVXwwjY",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-8r9nxrunwy8",
+        "youtube_video_id": "8r9nxRuNwY8",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-99am0b0vsoy",
+        "youtube_video_id": "99am0B0vSOY",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-9rqp01fwcpq",
+        "youtube_video_id": "9rQp01fWcPQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-a1j0xvdy-zw",
+        "youtube_video_id": "a1j0XVdY_zw",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-aboqlmw94k4",
+        "youtube_video_id": "abOqLmw94k4",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-af1a5b4cuky",
+        "youtube_video_id": "AF1A5B4CUkY",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-aj-3drn2nra",
+        "youtube_video_id": "aj-3DRN2NRA",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ajisyfool-m",
+        "youtube_video_id": "AJISYfool-M",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-an1i4f2qjas",
+        "youtube_video_id": "aN1I4F2qjAs",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-awc2i3vicus",
+        "youtube_video_id": "AWc2i3VIcus",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ax6gnyj-daw",
+        "youtube_video_id": "Ax6GnYJ-Daw",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ayxqzseh1je",
+        "youtube_video_id": "aYxqzSEH1JE",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-bkqepkdrglk",
+        "youtube_video_id": "BkqepKDRGlk",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-bqibppaeyvu",
+        "youtube_video_id": "bqiBPPAEYvU",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-buj-4lou4zu",
+        "youtube_video_id": "BuJ_4Lou4ZU",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-bww9oifisbo",
+        "youtube_video_id": "bWw9oIFiSBo",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-bxinpleh9bq",
+        "youtube_video_id": "bxiNpleH9BQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-c2685vqoaka",
+        "youtube_video_id": "C2685vQoAkA",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-cpepub0h-yi",
+        "youtube_video_id": "cpEpub0h_yI",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-d-c2egoobow",
+        "youtube_video_id": "D_C2EGOoBow",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-d1uhwds6q4g",
+        "youtube_video_id": "d1UHWDS6Q4g",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-dcjgn7yqvnk",
+        "youtube_video_id": "dCJGN7yqvnk",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-dl0nxsympge",
+        "youtube_video_id": "DL0NxsyMpgE",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-dxzumezdyyq",
+        "youtube_video_id": "DxZUmEZDYyQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-e-n-jqirpv0",
+        "youtube_video_id": "e-N-JqIRpv0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-e2v5dz54j3q",
+        "youtube_video_id": "E2v5dZ54J3Q",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-f1zzjxx6fwq",
+        "youtube_video_id": "F1zZJXX6FWQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-fgujuecgkqy",
+        "youtube_video_id": "FGuJUEcGkQY",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-fpbht2lhko0",
+        "youtube_video_id": "FpbhT2LhKO0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-fpygb4oapyk",
+        "youtube_video_id": "FPYGB4OaPYk",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-fqpwqdze9vi",
+        "youtube_video_id": "fqpwqdzE9VI",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-fshwywqdi2w",
+        "youtube_video_id": "FshwywqDI2w",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-fxwoeh-3eoc",
+        "youtube_video_id": "FXwOeh-3eOc",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-gccvq9sjawo",
+        "youtube_video_id": "GcCVQ9SJAWo",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ghzvrvea130",
+        "youtube_video_id": "GhZvRveA130",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-h0wbfx6bx7s",
+        "youtube_video_id": "H0wbfX6BX7s",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-h3nkhx-ivto",
+        "youtube_video_id": "H3nKHX-IVTo",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-haewwimkkxo",
+        "youtube_video_id": "haEwWimKKXo",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-hcpom6stbz0",
+        "youtube_video_id": "hcpOm6STBZ0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-hryokf9ojqq",
+        "youtube_video_id": "HRyOkF9oJqQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-in769dw9eho",
+        "youtube_video_id": "iN769Dw9eHo",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ipd1ip47hg0",
+        "youtube_video_id": "ipd1ip47HG0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-isc2two2zvy",
+        "youtube_video_id": "Isc2TwO2ZVY",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-jf79jespcxa",
+        "youtube_video_id": "Jf79jespCXA",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-jkaeotjgfyc",
+        "youtube_video_id": "JkaEOTjgFYc",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-jn3dfmmxwhy",
+        "youtube_video_id": "Jn3dfmmXWHY",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-jrl-rdurahe",
+        "youtube_video_id": "JrL_rDurahE",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-jrplrgx0qt0",
+        "youtube_video_id": "jrplrgX0qT0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-kcv8gi3ob-e",
+        "youtube_video_id": "kcv8gi3oB_E",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-kn5vwu3qnlu",
+        "youtube_video_id": "Kn5Vwu3qNLU",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-kntojb6s300",
+        "youtube_video_id": "kntOjB6S300",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-kpohu9bbids",
+        "youtube_video_id": "KpoHu9bBids",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-l0mue7odrfi",
+        "youtube_video_id": "l0mue7ODrfI",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-l6xrggadlmw",
+        "youtube_video_id": "l6xRggADlmw",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-lgrzkftkpoa",
+        "youtube_video_id": "LgrZkFtKPoA",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-lhyqw5aghy0",
+        "youtube_video_id": "lHyQw5aGhy0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-llbnz44vwfg",
+        "youtube_video_id": "LlBnZ44Vwfg",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-lra-8fp9lds",
+        "youtube_video_id": "LrA_8FP9Lds",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-m6dxyuvxszq",
+        "youtube_video_id": "m6DXYuvXSZQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-mdk-rhls3hm",
+        "youtube_video_id": "mDK-rHLs3HM",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-mft0llqzdg0",
+        "youtube_video_id": "MFt0LLQZdg0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-mhde7mpshjw",
+        "youtube_video_id": "mhde7mpSHjw",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-mktgy7pyjmg",
+        "youtube_video_id": "mKtgy7PYjMg",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-mumhulvnjng",
+        "youtube_video_id": "MumHULVnJNg",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-mvbaddvab2w",
+        "youtube_video_id": "mvBaddvaB2w",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-n6bvk30rctu",
+        "youtube_video_id": "N6BvK30rctU",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-oaxlhjigc3o",
+        "youtube_video_id": "OAxlhjIgC3o",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-obc-paqbrsu",
+        "youtube_video_id": "OBc-PaQbRSU",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-odtf5bxcla0",
+        "youtube_video_id": "oDTf5BXcla0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ovk88w5qp28",
+        "youtube_video_id": "OVK88w5Qp28",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ozd8ujjp1ui",
+        "youtube_video_id": "OZD8UjJp1UI",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-p1yvs9hhsoy",
+        "youtube_video_id": "P1yVS9HhSOY",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-p2ewfrs5f2g",
+        "youtube_video_id": "p2eWFRs5f2g",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-pj4noaurw0a",
+        "youtube_video_id": "Pj4nOAUrW0A",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-pmq-ogiumq",
+        "youtube_video_id": "pmq_-OGIUmQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-puzsw-8iag0",
+        "youtube_video_id": "pUZsw-8iAG0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-pwfq94m173m",
+        "youtube_video_id": "PWfq94M173M",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-pyvdac1zhzi",
+        "youtube_video_id": "PYVDAC1zhzI",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-qdob5nigy9q",
+        "youtube_video_id": "QDOb5NiGY9Q",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-qetl6jhfr9k",
+        "youtube_video_id": "QetL6jhFr9k",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-qhyvgo-0xzg",
+        "youtube_video_id": "QHYvgO-0xzg",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-qktl49wt3fi",
+        "youtube_video_id": "QktL49Wt3fI",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-qposmie96q8",
+        "youtube_video_id": "qposMie96q8",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-qqyjoa8g6hq",
+        "youtube_video_id": "QqyJOA8g6HQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-qyiiuq18kp8",
+        "youtube_video_id": "QyIiUQ18Kp8",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-r7ocuroopkw",
+        "youtube_video_id": "R7oCUroopkw",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-rijfqmy6z2u",
+        "youtube_video_id": "rijfqmY6Z2U",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-rryx0udl59a",
+        "youtube_video_id": "RrYx0uDl59A",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-rsqfsjht0aw",
+        "youtube_video_id": "RsQfsjht0aw",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-sf6susw-zhw",
+        "youtube_video_id": "Sf6susw-zhw",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-snl09g9enb8",
+        "youtube_video_id": "sNl09g9ENb8",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-stibaw2mnj4",
+        "youtube_video_id": "stIbAW2mnj4",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-swbjtheymhy",
+        "youtube_video_id": "SwbJTheYMhY",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-tfkef-o5ef4",
+        "youtube_video_id": "TFKEf-O5eF4",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-tggy6rjzq9g",
+        "youtube_video_id": "tgGY6rJzQ9g",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ttto4ydod-o",
+        "youtube_video_id": "tTtO4yDOd_o",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-tuwc7ak-yi",
+        "youtube_video_id": "TUwc7aK-_YI",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-u2mbvm837l4",
+        "youtube_video_id": "U2mbvM837l4",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-u7qrmliollw",
+        "youtube_video_id": "U7QRMLIolLw",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-u7y5qg-vu-e",
+        "youtube_video_id": "U7Y5Qg_vu_E",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-uiwxqg7cco8",
+        "youtube_video_id": "uiwXQG7CCO8",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-uvriiivyjk0",
+        "youtube_video_id": "uVrIIIvyjk0",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-uzjkpdipguu",
+        "youtube_video_id": "uzJkpdIPgUU",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-vjt9bvgcfwe",
+        "youtube_video_id": "VJt9bVgCFwE",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-vn9evn9qj6i",
+        "youtube_video_id": "vN9EVN9Qj6I",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-vx9kamfeh9g",
+        "youtube_video_id": "vx9kamfeh9g",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-w0v6exnh2vs",
+        "youtube_video_id": "W0V6EXnh2Vs",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-whlakhp1s-y",
+        "youtube_video_id": "wHLaKhP1s_Y",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-whvmv3booee",
+        "youtube_video_id": "WHVMV3BOoeE",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-wkiqukdrtyo",
+        "youtube_video_id": "WKiqUkdrTyo",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-wua5apkogec",
+        "youtube_video_id": "WUa5APKoGec",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-x18alwtmrie",
+        "youtube_video_id": "x18aLWTmriE",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-xvog2mpjyoe",
+        "youtube_video_id": "XVOG2mPJyOE",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-xysb2goa5iq",
+        "youtube_video_id": "XysB2gOA5iQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-yiseecgaasc",
+        "youtube_video_id": "YiseECgaaSc",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-yl3bxsag8rc",
+        "youtube_video_id": "Yl3bXsAg8rc",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ylvdfzfyerg",
+        "youtube_video_id": "YlvdfZfYERg",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ypnwhsdjzvm",
+        "youtube_video_id": "YpnwhsDJZvM",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-yr699pgxeng",
+        "youtube_video_id": "YR699Pgxeng",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-ywwjklinjzc",
+        "youtube_video_id": "yWWJkliNjzc",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-yz8jaclus38",
+        "youtube_video_id": "Yz8JAClUs38",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-z4bjb6g08-i",
+        "youtube_video_id": "z4Bjb6g08-I",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-zetylg5ukpg",
+        "youtube_video_id": "ZetYlG5ukPg",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      },
+      {
+        "resource_id": "youtube-zlwcusnrpvq",
+        "youtube_video_id": "zlWcUSnRpvQ",
+        "status": "updated",
+        "fields": [
+          "last_verified_at",
+          "source",
+          "metadata"
+        ]
+      }
+    ],
+    "new_entities_promoted": 38,
+    "new_entities": [
+      {
+        "resource_id": "youtube-2garn-z4ug",
+        "youtube_video_id": "_2GARn_z4ug",
+        "title": "Fund Your Local Community: Become a Loan Broker | #shorts"
+      },
+      {
+        "resource_id": "youtube-mcgmkkcvn0",
+        "youtube_video_id": "_McGmkKCVn0",
+        "title": "🌟 How Much Does Revenue-Based Funding Really Cost? 🌟"
+      },
+      {
+        "resource_id": "youtube-bythuvexqc",
+        "youtube_video_id": "-bytHuVEXQc",
+        "title": "From Rejected to $5M Funded (The Real Process) #FranchiseLoans #NoBS #SkipTheBanks"
+      },
+      {
+        "resource_id": "youtube-7csodj7otaa",
+        "youtube_video_id": "7CsOdJ7oTAA",
+        "title": "4 Business Loans With No Credit Check or Low Credit Score | #FinanceTips"
+      },
+      {
+        "resource_id": "youtube-9lovqwki-ic",
+        "youtube_video_id": "9LoVqWki_Ic",
+        "title": "Startup Loans with Bad Credit? Yes, You Can! | #startupfunding #badcreditloans"
+      },
+      {
+        "resource_id": "youtube-a7desh6voem",
+        "youtube_video_id": "a7dEsH6voEM",
+        "title": "Recession-Proof Business? Sell Access to Capital 💰"
+      },
+      {
+        "resource_id": "youtube-aus5acgk0h8",
+        "youtube_video_id": "AUS5AcGK0H8",
+        "title": "Bypass the Bank: Secure $2M for Your Venture This Week! 💰🚀 #GetFunded"
+      },
+      {
+        "resource_id": "youtube-awqzbfdebkw",
+        "youtube_video_id": "AWqzBfdeBkw",
+        "title": "Instant Funding: The 5 Biggest Benefits Every Gig Worker Should Know About!"
+      },
+      {
+        "resource_id": "youtube-dajettn2xgw",
+        "youtube_video_id": "DaJEtTn2Xgw",
+        "title": "Unlocking Growth: When Is Revenue-Based Funding Ideal? | #GetFunded #Shorts"
+      },
+      {
+        "resource_id": "youtube-ec-na3cmyvk",
+        "youtube_video_id": "ec-nA3CMYvk",
+        "title": "Payroll Due Tomorrow? Fund It Today | #cashflow #getfunded #shorts"
+      },
+      {
+        "resource_id": "youtube-esfvq6l0e7c",
+        "youtube_video_id": "EsFvQ6L0e7c",
+        "title": "💸 Need Working Capital? Top 7 Resources for Amazon Entrepreneurs! 🚀#AmazonSeller #GetFunded"
+      },
+      {
+        "resource_id": "youtube-gduserkwk38",
+        "youtube_video_id": "GdUSERkwk38",
+        "title": "Denied for Funding? This Is Why #businessfunding #loandenial"
+      },
+      {
+        "resource_id": "youtube-gzurhebs2ie",
+        "youtube_video_id": "GzurHeBs2IE",
+        "title": "7 Funding Sources That Actually Accept Self-Employed Applicants #entrepreneurship #startup"
+      },
+      {
+        "resource_id": "youtube-hjt-aj9jvjg",
+        "youtube_video_id": "hjt_Aj9jVjg",
+        "title": "Instant Micro Funding: Get $10k in 10 Min |  #GetFunded #InstantLoan"
+      },
+      {
+        "resource_id": "youtube-iiietclevww",
+        "youtube_video_id": "IIiETclEVww",
+        "title": "The Secret to Financing Business Acquisitions: SBA Loans Uncovered"
+      },
+      {
+        "resource_id": "youtube-iswugwvcs9e",
+        "youtube_video_id": "IswugwVcS9E",
+        "title": "💰 Onramp's Revenue-Based Financing: How It Works & How to Apply"
+      },
+      {
+        "resource_id": "youtube-jjicm-vg2v8",
+        "youtube_video_id": "jJicM_vg2V8",
+        "title": "No W-2 Needed for Same Day $20K Funding!"
+      },
+      {
+        "resource_id": "youtube-ljgcchio-h4",
+        "youtube_video_id": "ljgcChiO_h4",
+        "title": "💵🔥 Is it “Bad Debt” or “Clean Fuel”? #Funding #SmartMoney  💼🚀"
+      },
+      {
+        "resource_id": "youtube-m-v8s-qj86u",
+        "youtube_video_id": "m-v8s-qj86U",
+        "title": "Ignite Your Financial Reign: Discover Moonshine Capital and Build Your Funding Empire!"
+      },
+      {
+        "resource_id": "youtube-o8jnx1okoee",
+        "youtube_video_id": "O8JNX1OKoeE",
+        "title": "How to Turn Your Primary Home Into a Rental Property 📈"
+      },
+      {
+        "resource_id": "youtube-ohflsf0qchm",
+        "youtube_video_id": "ohfLsF0qchM",
+        "title": "How to Use Your 401K to Fund a Business (Uplyft Capital Review) | #401krollover"
+      },
+      {
+        "resource_id": "youtube-q2yd4aw5sps",
+        "youtube_video_id": "Q2YD4aw5Sps",
+        "title": "Why Join Moonshine Capital: Start Your Own Affiliate Business Today!"
+      },
+      {
+        "resource_id": "youtube-qgk8u9veyg4",
+        "youtube_video_id": "qgK8U9veyG4",
+        "title": "🚀 How to Apply for Instant Micro Funding – Step-by-Step Guide for Gig Workers!"
+      },
+      {
+        "resource_id": "youtube-rdebbnwpxky",
+        "youtube_video_id": "rDEbbNWPxkY",
+        "title": "$75K to $2.5M in Rental Loans – No Income Verification Needed!"
+      },
+      {
+        "resource_id": "youtube-rxltjxuvvqe",
+        "youtube_video_id": "RXLTJXuvVQE",
+        "title": "How Gig Workers Get $20K Same Day! 💸🔥"
+      },
+      {
+        "resource_id": "youtube-sfgcq6bxoyc",
+        "youtube_video_id": "sFGCq6bxOyc",
+        "title": "Hedge Funds Are Snatching Up Houses—This Is What You Need to Do!"
+      },
+      {
+        "resource_id": "youtube-snqznfqnrxc",
+        "youtube_video_id": "SNqZNFQNrXc",
+        "title": "Skyrocket Your Sales: Embark on a Profitable Journey as an Affiliate Financing Partner!"
+      },
+      {
+        "resource_id": "youtube-stbazfr9qke",
+        "youtube_video_id": "stbAzfr9qKE",
+        "title": "Stop Cold Calling. Start Closing Deals While You Sleep #AIForSales #LoanBroker #Automation"
+      },
+      {
+        "resource_id": "youtube-tdpn3ts0uv8",
+        "youtube_video_id": "Tdpn3TS0UV8",
+        "title": "Why 80% of Loan Brokers Make Under $1k!"
+      },
+      {
+        "resource_id": "youtube-tvqinuaqrzm",
+        "youtube_video_id": "tVQinuAqrZM",
+        "title": "Unlock Your Potential: Rapid Funding Solutions Await | Moonshine Capital"
+      },
+      {
+        "resource_id": "youtube-ui4c4400c7k",
+        "youtube_video_id": "ui4C4400C7k",
+        "title": "Get Clients FAST for Your Funding Agency: 3 Proven Lead Generation Tips 🚀"
+      },
+      {
+        "resource_id": "youtube-uq96owlzzwo",
+        "youtube_video_id": "uq96OWlZZWo",
+        "title": "Most Loan Brokers Can’t Scale Because of These 5 Mistakes"
+      },
+      {
+        "resource_id": "youtube-vkgk-ah838u",
+        "youtube_video_id": "vkGK_ah838U",
+        "title": "Dreaming of Real Estate Investing? Start for $20 on Ark7! 🚀 #RentalIncome #PassiveIncome"
+      },
+      {
+        "resource_id": "youtube-vn5goazd1yw",
+        "youtube_video_id": "vn5gOaZd1Yw",
+        "title": "Need Funding for Your Accounting Firm? Here’s How to Qualify for $50K - $500K Loans! | #shorts"
+      },
+      {
+        "resource_id": "youtube-vo6bazirqwo",
+        "youtube_video_id": "Vo6BAZIrqWo",
+        "title": "Stop Losing Money On Hidden Loan Fees! 😱"
+      },
+      {
+        "resource_id": "youtube-vtmeno5iac0",
+        "youtube_video_id": "vtmENo5iAC0",
+        "title": "What Are Upstart’s Eligibility Requirements for Personal Loans? 💰| #shorts"
+      },
+      {
+        "resource_id": "youtube-wpdzyyuord4",
+        "youtube_video_id": "WpDZyYuORD4",
+        "title": "What Underwriters Actually Want to Hear #funding #pitch #shorts"
+      },
+      {
+        "resource_id": "youtube-xx9gt4wl6se",
+        "youtube_video_id": "Xx9gT4WL6sE",
+        "title": "Revenue Based Funding Just Changed The Game For Amazon Sellers"
+      }
+    ],
+    "new_entities_skipped": [],
+    "relationships_added": 105,
+    "relationships_evidence_updated": 0,
+    "relationship_results": [
+      {
+        "relationship_id": "rel-youtube-1md0qunnr5e-references-article-ai-tools-for-loan-brokers",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-isc2two2zvy",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-r7ocuroopkw",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-references-youtube-snl09g9enb8",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-affiliate-agency-gpt",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-affiliate-marketing-strategist",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-agent-growth-hub",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-dac-affiliate-email-wizard",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-deal-maker-ads",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-gpt-getting-started-right",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-provider-bank-breezy",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-affiliate-agency-gpt",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-affiliate-marketing-strategist",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-agent-growth-hub",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-dac-affiliate-email-wizard",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-deal-maker-ads",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-gpt-getting-started-right",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-references-provider-bank-breezy",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-fhtt6s6coti",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-h2jqg5i5y2o",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-v60om-8yri0",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-references-youtube-ywpwyv540ae",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-affiliate-agency-gpt",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-affiliate-marketing-strategist",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-agent-growth-hub",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-dac-affiliate-email-wizard",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-deal-maker-ads",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-gpt-getting-started-right",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-provider-bank-breezy",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-hajaway2md4-references-youtube-fhtt6s6coti",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-hajaway2md4-references-youtube-keealebdo0",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-hajaway2md4-references-youtube-mvbaddvab2w",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-keealebdo0-references-provider-bank-breezy",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-site-agency-in-a-box",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-9a3hthkalt8",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-fhtt6s6coti",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-fyohbmh2fhk",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-mvbaddvab2w",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-o-me9-i-5u-references-youtube-tpihva2ohhg",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-affiliate-agency-gpt",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-affiliate-marketing-strategist",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-agent-growth-hub",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-dac-affiliate-email-wizard",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-deal-maker-ads",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-gpt-getting-started-right",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-provider-bank-breezy",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-uy-t0waclxe-references-provider-guidant",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-xalzxdfwjzm-references-article-fundandgrow-review",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-affiliate-agency-gpt",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-affiliate-marketing-strategist",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-agent-growth-hub",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-dac-affiliate-email-wizard",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-deal-maker-ads",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-gpt-getting-started-right",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-provider-bank-breezy",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-zcllymcevsc-references-youtube-6hvokuhg9cy",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-zcllymcevsc-references-youtube-snl09g9enb8",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "explicit_description_url"
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-promotes-cta-funding-any-reason",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-promotes-form-tally-w4r2ad",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-references-article-same-day-loans-for-gig-workers-5-providers-compared",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-3ojxu8zjsxc-references-gpt-vc-backup-plan-gpt",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-promotes-cta-funding-any-reason",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-promotes-cta-join-b2b-funding-platform",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-promotes-form-tally-moe658",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-promotes-form-tally-w4r2ad",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-9a3hthkalt8-references-provider-david-allen-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-promotes-cta-join-b2b-funding-platform",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-promotes-form-tally-moe658",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-provider-david-allen-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-b8dsnhfmvy4-references-provider-national-business-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-d3llrn13oq4-references-repo-funding-product-matrix",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-promotes-cta-funding-any-reason",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-promotes-cta-join-b2b-funding-platform",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-promotes-form-tally-moe658",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-promotes-form-tally-w4r2ad",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-fhtt6s6coti-references-provider-david-allen-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-promotes-cta-join-b2b-funding-platform",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-gzlgsqwwgfo-promotes-form-tally-moe658",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-cta-funding-any-reason",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-cta-join-b2b-funding-platform",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-form-tally-moe658",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-promotes-form-tally-w4r2ad",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-h2jqg5i5y2o-references-provider-david-allen-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-hfccdehcwtk-promotes-cta-funding-any-reason",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-hfccdehcwtk-promotes-form-tally-w4r2ad",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-hfccdehcwtk-references-provider-david-allen-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-hfccdehcwtk-references-provider-national-business-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-keealebdo0-promotes-cta-funding-any-reason",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-keealebdo0-promotes-form-tally-w4r2ad",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-keealebdo0-references-gpt-affiliate-agency-gpt",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-mxq7kwdggs8-promotes-cta-funding-any-reason",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-mxq7kwdggs8-promotes-form-tally-w4r2ad",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-mxq7kwdggs8-references-gpt-start-your-own-funding-agency",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-mxq7kwdggs8-references-provider-david-allen-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-mxq7kwdggs8-references-provider-national-business-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-promotes-cta-funding-any-reason",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-promotes-cta-join-b2b-funding-platform",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-promotes-form-tally-moe658",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-promotes-form-tally-w4r2ad",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-tpihva2ohhg-references-provider-david-allen-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-promotes-cta-funding-any-reason",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-promotes-cta-join-b2b-funding-platform",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-promotes-form-tally-moe658",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-promotes-form-tally-w4r2ad",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      },
+      {
+        "relationship_id": "rel-youtube-ywpwyv540ae-references-provider-david-allen-capital",
+        "action": "add",
+        "status": "added",
+        "evidence_class": "exact_title"
+      }
+    ],
+    "held_ambiguous_records": 0,
+    "held_weak_relationship_candidates": 57,
+    "shorts_moved_between_registries": 0,
+    "playlists_promoted_as_entities": 0,
+    "unmatched_external_urls_promoted_as_entities": 0,
+    "full_transcripts_promoted": 0,
+    "counts_after_local_mutation_before_validation": {
+      "total_entities": 1629,
+      "youtube_videos": 163,
+      "short_videos": 45,
+      "total_relationships": 4715,
+      "content_to_content": 0,
+      "content_to_resources": 0,
+      "content_to_ctas": 0,
+      "duplicate_canonical_ids": [],
+      "duplicate_relationship_ids": [],
+      "self_references": []
+    }
+  },
+  "final": {
+    "batch": "youtube-v2-batch-1",
+    "run_id": "20260905T212146Z",
+    "generated_at": "2026-09-05T22:29:56.789Z",
+    "repo": {
+      "head": "f591629ff6209d86c0869043c09a2bc97c9abaaf",
+      "branch": "main"
+    },
+    "acquisition": {
+      "youtube_api_available": false,
+      "youtube_api_used": false,
+      "ytdlp_available": true,
+      "ytdlp_used": true,
+      "ytdlp_metadata_limit": 25
+    },
+    "reconciliation": {
+      "source_videos_discovered": 208,
+      "existing_canonical_matches": 170,
+      "genuinely_new_videos": 38,
+      "unavailable_deleted_private_candidates": 0,
+      "ambiguous_records": 0,
+      "duplicate_candidates": 0,
+      "fields_proposed_for_update": 560,
+      "curated_fields_preserved": [
+        "resource_id",
+        "topics",
+        "content_clusters",
+        "keywords",
+        "audiences",
+        "industries",
+        "search_intent",
+        "funnel_stage",
+        "primary_use_case",
+        "conversion_goal",
+        "priority",
+        "recommended_resource_refs",
+        "recommended_cta_refs",
+        "internal_link_refs",
+        "notes"
+      ]
+    },
+    "intelligence": {
+      "shorts": {
+        "short": 38,
+        "non_short": 106,
+        "unknown": 64
+      },
+      "playlists_discovered": 0,
+      "playlist_memberships": 0,
+      "transcript_availability": 29,
+      "transcripts_processed": 4,
+      "explicit_resourcegrid_url_matches": 57,
+      "unmatched_urls": 192,
+      "relationship_evidence_breakdown": {
+        "exact_title": 48,
+        "explicit_description_url": 57,
+        "taxonomy_cluster": 57
+      }
+    },
+    "promotion": {
+      "matched_entities_updated": 170,
+      "new_entities_promoted": 38,
+      "relationships_added": 105,
+      "relationships_evidence_updated": 0,
+      "held_ambiguous_records": 0,
+      "held_weak_relationship_candidates": 57,
+      "shorts_moved_between_registries": 0,
+      "playlists_promoted_as_entities": 0,
+      "full_transcripts_promoted": 0
+    },
+    "counts": {
+      "before": {
+        "total_entities": 1591,
+        "youtube_videos": 163,
+        "short_videos": 7,
+        "total_relationships": 4610,
+        "content_to_content": 1582,
+        "content_to_resources": 1672,
+        "content_to_ctas": 1081,
+        "duplicate_canonical_ids": [],
+        "duplicate_relationship_ids": [],
+        "self_references": []
+      },
+      "after": {
+        "total_entities": 1629,
+        "youtube_videos": 163,
+        "short_videos": 45,
+        "total_relationships": 4715,
+        "content_to_content": 1602,
+        "content_to_resources": 1725,
+        "content_to_ctas": 1113,
+        "duplicate_canonical_ids": [],
+        "duplicate_relationship_ids": [],
+        "self_references": []
+      },
+      "delta": {
+        "total_entities": 38,
+        "youtube_videos": 0,
+        "short_videos": 38,
+        "total_relationships": 105,
+        "content_to_content": 20,
+        "content_to_resources": 53,
+        "content_to_ctas": 32
+      }
+    },
+    "commands": {
+      "npm run registry:build": 0,
+      "npm run lint": 0,
+      "npm run build": 0
+    },
+    "validation": {
+      "validation_report_valid": true,
+      "validation_errors": 0,
+      "unresolved_relationships": 0,
+      "duplicate_canonical_ids": 0,
+      "duplicate_relationship_ids": 0,
+      "self_references": 0,
+      "transcript_body_leaked_into_compiled_master": false,
+      "youtube_api_key_found_in_repo_outputs": false,
+      "deduplication_report_present": true
+    },
+    "success": true
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "batch": "youtube-v2-batch-1",
+  "run_id": "20260905T212146Z",
+  "generated_at": "2026-09-05T22:29:56.789Z",
+  "repo": {
+    "head": "f591629ff6209d86c0869043c09a2bc97c9abaaf",
+    "branch": "main"
+  },
+  "acquisition": {
+    "youtube_api_available": false,
+    "youtube_api_used": false,
+    "ytdlp_available": true,
+    "ytdlp_used": true,
+    "ytdlp_metadata_limit": 25
+  },
+  "reconciliation": {
+    "source_videos_discovered": 208,
+    "existing_canonical_matches": 170,
+    "genuinely_new_videos": 38,
+    "unavailable_deleted_private_candidates": 0,
+    "ambiguous_records": 0,
+    "duplicate_candidates": 0,
+    "fields_proposed_for_update": 560,
+    "curated_fields_preserved": [
+      "resource_id",
+      "topics",
+      "content_clusters",
+      "keywords",
+      "audiences",
+      "industries",
+      "search_intent",
+      "funnel_stage",
+      "primary_use_case",
+      "conversion_goal",
+      "priority",
+      "recommended_resource_refs",
+      "recommended_cta_refs",
+      "internal_link_refs",
+      "notes"
+    ]
+  },
+  "intelligence": {
+    "shorts": {
+      "short": 38,
+      "non_short": 106,
+      "unknown": 64
+    },
+    "playlists_discovered": 0,
+    "playlist_memberships": 0,
+    "transcript_availability": 29,
+    "transcripts_processed": 4,
+    "explicit_resourcegrid_url_matches": 57,
+    "unmatched_urls": 192,
+    "relationship_evidence_breakdown": {
+      "exact_title": 48,
+      "explicit_description_url": 57,
+      "taxonomy_cluster": 57
+    }
+  },
+  "promotion": {
+    "matched_entities_updated": 170,
+    "new_entities_promoted": 38,
+    "relationships_added": 105,
+    "relationships_evidence_updated": 0,
+    "held_ambiguous_records": 0,
+    "held_weak_relationship_candidates": 57,
+    "shorts_moved_between_registries": 0,
+    "playlists_promoted_as_entities": 0,
+    "full_transcripts_promoted": 0
+  },
+  "counts": {
+    "before": {
+      "total_entities": 1591,
+      "youtube_videos": 163,
+      "short_videos": 7,
+      "total_relationships": 4610,
+      "content_to_content": 1582,
+      "content_to_resources": 1672,
+      "content_to_ctas": 1081,
+      "duplicate_canonical_ids": [],
+      "duplicate_relationship_ids": [],
+      "self_references": []
+    },
+    "after": {
+      "total_entities": 1629,
+      "youtube_videos": 163,
+      "short_videos": 45,
+      "total_relationships": 4715,
+      "content_to_content": 1602,
+      "content_to_resources": 1725,
+      "content_to_ctas": 1113,
+      "duplicate_canonical_ids": [],
+      "duplicate_relationship_ids": [],
+      "self_references": []
+    },
+    "delta": {
+      "total_entities": 38,
+      "youtube_videos": 0,
+      "short_videos": 38,
+      "total_relationships": 105,
+      "content_to_content": 20,
+      "content_to_resources": 53,
+      "content_to_ctas": 32
+    }
+  },
+  "commands": {
+    "npm run registry:build": 0,
+    "npm run lint": 0,
+    "npm run build": 0
+  },
+  "validation": {
+    "validation_report_valid": true,
+    "validation_errors": 0,
+    "unresolved_relationships": 0,
+    "duplicate_canonical_ids": 0,
+    "duplicate_relationship_ids": 0,
+    "self_references": 0,
+    "transcript_body_leaked_into_compiled_master": false,
+    "youtube_api_key_found_in_repo_outputs": false,
+    "deduplication_report_present": true
+  },
+  "success": true
+}
