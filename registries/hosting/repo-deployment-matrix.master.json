@@ -11,7 +11,8 @@
     "NEXT + AUTH",
     "NODE SERVICE",
     "BACKGROUND WORKER",
-    "DOCS / REGISTRY"
+    "DOCS / REGISTRY",
+    "PLATFORM_NATIVE - WIX/VELO"
   ],
   "projects": [
     {
@@ -25,13 +26,22 @@
         "description": "B2B Funding Partner Network"
       },
       "primary_runtime": "STATIC",
+      "runtime_details": {
+        "primary_class": "STATIC",
+        "framework": null,
+        "traits": ["HTML", "CSS", "JavaScript", "JSON registries"],
+        "server_runtime_required": false,
+        "api_required": false,
+        "auth_required": false,
+        "embed_distribution": false
+      },
       "current_deployment": {
         "provider": "Vercel",
-        "project": null,
-        "project_id": null,
-        "url": null,
+        "project": "fundstack-ai",
+        "project_id": "prj_Zpxy4N07U73b2kGBCGjtN5ubmVFa",
+        "url": "https://fundstack-ai.vercel.app",
         "domains": [],
-        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+        "status_note": "Canonical active FundStack deployment; duplicate fund-stack-ai was paused."
       },
       "hosting_alternatives": [
         {
@@ -60,9 +70,13 @@
         }
       ],
       "recommendation": {
-        "action": "investigate before deciding",
+        "action": "migrate to Cloudflare Pages",
         "migration_effort": "LOW",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+        "canonical_host": "cloudflare-pages",
+        "migration_worth": "HIGH",
+        "migration_priority": 2,
+        "wave": 1,
+        "notes": "Pure static workload with prior request amplification; no reason to pay for a Next/server runtime."
       },
       "automation_upside": {
         "level": "MEDIUM",
@@ -70,13 +84,13 @@
       },
       "relationship_note": null,
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
-        "confidence": "MEDIUM",
+        "status": "RESTORED_FROM_HISTORY",
+        "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [
           "vercel.json"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -90,13 +104,22 @@
         "description": null
       },
       "primary_runtime": "STATIC + EMBED",
+      "runtime_details": {
+        "primary_class": "STATIC + EMBED",
+        "framework": null,
+        "traits": ["index.html", "widget.html", "widget.js", "widget.css", "iframe/widget distribution"],
+        "server_runtime_required": false,
+        "api_required": false,
+        "auth_required": false,
+        "embed_distribution": true
+      },
       "current_deployment": {
-        "provider": null,
-        "project": null,
-        "project_id": null,
-        "url": null,
+        "provider": "Vercel",
+        "project": "funding-quiz",
+        "project_id": "prj_RlSvfGaNW5clq4R6YrXj70phMRjy",
+        "url": "https://funding-quiz.vercel.app",
         "domains": [],
-        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+        "status_note": null
       },
       "hosting_alternatives": [
         {
@@ -125,9 +148,13 @@
         }
       ],
       "recommendation": {
-        "action": "investigate before deciding",
+        "action": "migrate to Cloudflare Pages",
         "migration_effort": "VERY_LOW",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+        "canonical_host": "cloudflare-pages",
+        "migration_worth": "HIGH",
+        "migration_priority": 1,
+        "wave": 1,
+        "notes": "Tiny static widget repo. This is the safest proof-of-concept migration and directly benefits from CDN-style economics."
       },
       "automation_upside": {
         "level": "HIGH",
@@ -135,11 +162,11 @@
       },
       "relationship_note": null,
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
-        "confidence": "LOW",
+        "status": "RESTORED_FROM_HISTORY",
+        "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -153,13 +180,22 @@
         "description": null
       },
       "primary_runtime": "STATIC + API",
+      "runtime_details": {
+        "primary_class": "STATIC + API",
+        "framework": "custom static build + Node serverless API",
+        "traits": ["static dist build", "Node fs access", "webhooks", "score engine", "partner matching"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": false
+      },
       "current_deployment": {
         "provider": "Vercel",
-        "project": null,
-        "project_id": null,
-        "url": null,
+        "project": "am-i-fundable",
+        "project_id": "prj_kfOrQZoWRGLLthCrbpZfBYBzDc1q",
+        "url": "https://am-i-fundable.vercel.app",
         "domains": [],
-        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+        "status_note": null
       },
       "hosting_alternatives": [
         {
@@ -188,9 +224,13 @@
         }
       ],
       "recommendation": {
-        "action": "keep on Vercel",
+        "action": "extract API then migrate",
         "migration_effort": "HIGH",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+        "canonical_host": "cloudflare-pages + cloudflare-workers",
+        "migration_worth": "MEDIUM",
+        "migration_priority": 6,
+        "wave": 3,
+        "notes": "Good long-term fit, but API adaptation should follow easier migrations and a proven Worker pattern."
       },
       "automation_upside": {
         "level": "HIGH",
@@ -198,7 +238,7 @@
       },
       "relationship_note": "Potential shared API consumer with partner-intake-os; investigate API consolidation rather than host migration.",
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
+        "status": "RESTORED_FROM_HISTORY",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [
@@ -228,7 +268,7 @@
           "api/public/resource-recommendations.js",
           "api/public/result-tier.js"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -242,13 +282,22 @@
         "description": "Partner Widget Suite"
       },
       "primary_runtime": "STATIC + API",
+      "runtime_details": {
+        "primary_class": "STATIC + API",
+        "framework": "Vite + React",
+        "traits": ["embeddable widgets", "Vite static build", "API endpoints", "Supabase", "AI SDK/Google GenAI"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": true
+      },
       "current_deployment": {
         "provider": "Vercel",
-        "project": null,
-        "project_id": null,
-        "url": null,
+        "project": "embed-widgets",
+        "project_id": "prj_gKDS5B7VWtJR1oX8WWORIb4wZ0jC",
+        "url": "https://embed-widgets-kappa.vercel.app",
         "domains": [],
-        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+        "status_note": null
       },
       "hosting_alternatives": [
         {
@@ -279,7 +328,11 @@
       "recommendation": {
         "action": "keep on Vercel",
         "migration_effort": "MEDIUM",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+        "canonical_host": "cloudflare-pages + cloudflare-workers",
+        "migration_worth": "HIGH",
+        "migration_priority": 4,
+        "wave": 2,
+        "notes": "Shared widget distribution is a compounding asset; static edge delivery plus lightweight API is a strong match."
       },
       "automation_upside": {
         "level": "HIGH",
@@ -287,7 +340,7 @@
       },
       "relationship_note": null,
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
+        "status": "RESTORED_FROM_HISTORY",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [
@@ -297,7 +350,7 @@
           "package.json",
           "vercel.json"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -311,13 +364,23 @@
         "description": null
       },
       "primary_runtime": "NEXT STATIC EXPORT",
+      "runtime_details": {
+        "primary_class": "NEXT STATIC EXPORT",
+        "framework": "Next.js 14",
+        "traits": ["local JSON data", "generateStaticParams", "unoptimized images", "trailingSlash"],
+        "server_runtime_required": false,
+        "api_required": false,
+        "auth_required": false,
+        "embed_distribution": false,
+        "classification_note": "Static-export candidate; next.config does not yet enable output: export."
+      },
       "current_deployment": {
         "provider": "Vercel",
-        "project": null,
-        "project_id": null,
-        "url": null,
+        "project": "capitalgrid",
+        "project_id": "prj_2ZMym1AiHEcmOzY7uw2RCsy7IRoG",
+        "url": "https://capitalgrid.vercel.app",
         "domains": [],
-        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+        "status_note": null
       },
       "hosting_alternatives": [
         {
@@ -348,7 +411,11 @@
       "recommendation": {
         "action": "convert to static first",
         "migration_effort": "LOW",
-        "notes": "Runtime simplification should be evaluated before selecting a new host."
+        "canonical_host": "cloudflare-pages",
+        "migration_worth": "HIGH",
+        "migration_priority": 3,
+        "wave": 1,
+        "notes": "Local-data Next app appears highly static-exportable; removing the runtime is more valuable than moving SSR elsewhere."
       },
       "automation_upside": {
         "level": "MEDIUM",
@@ -356,7 +423,7 @@
       },
       "relationship_note": null,
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
+        "status": "RESTORED_FROM_HISTORY",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [
@@ -364,7 +431,7 @@
           "package.json",
           "vercel.json"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -378,13 +445,22 @@
         "description": "Static-first Funding Partners OS for Moonshine Capital partner acquisition, partner onboarding, lead submission, partner tracking, marketplace offers, training resources, lightweight admin workflows, and future integration examples."
       },
       "primary_runtime": "STATIC + API",
+      "runtime_details": {
+        "primary_class": "STATIC + API",
+        "framework": null,
+        "traits": ["static HTML/JS", "lead routing API", "partner signup API", "dashboard API"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": false
+      },
       "current_deployment": {
         "provider": "Vercel",
-        "project": null,
-        "project_id": null,
-        "url": null,
+        "project": "partner-command-center",
+        "project_id": "prj_F1L6UW5jFp6L5Ov8ENwrbfVETDVY",
+        "url": "https://partner-command-center-rho.vercel.app",
         "domains": [],
-        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+        "status_note": null
       },
       "hosting_alternatives": [
         {
@@ -413,9 +489,14 @@
         }
       ],
       "recommendation": {
-        "action": "extract API then migrate",
+        "action": "keep on Vercel for now; extract API then migrate",
         "migration_effort": "MEDIUM",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+        "canonical_host": "vercel-for-now",
+        "future_target": "cloudflare-pages + cloudflare-workers OR netlify",
+        "migration_worth": "MEDIUM",
+        "migration_priority": 5,
+        "wave": 2,
+        "notes": "Migration is reasonable but current usage is low; choose Node-compatible Netlify for speed or Cloudflare for better request economics after API adaptation."
       },
       "automation_upside": {
         "level": "HIGH",
@@ -423,7 +504,7 @@
       },
       "relationship_note": "Possible successor/consolidation target for fpos and funding-partners-os-dashboard; requires human review before any merge.",
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
+        "status": "RESTORED_FROM_HISTORY",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [
@@ -442,7 +523,7 @@
           "api/tally-signup-webhook.example.js",
           "vercel.json"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -456,13 +537,22 @@
         "description": "Turns partner intake into classified, scored, CRM-ready operating intelligence."
       },
       "primary_runtime": "STATIC + API",
+      "runtime_details": {
+        "primary_class": "STATIC + API",
+        "framework": null,
+        "traits": ["large API surface", "admin", "leads", "partners", "Tally", "sync", "security", "notifications", "OpenAPI contracts"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": true,
+        "embed_distribution": false
+      },
       "current_deployment": {
         "provider": "Vercel",
-        "project": null,
-        "project_id": null,
-        "url": null,
+        "project": "partner-intake-os",
+        "project_id": "prj_CW0X32zvV9HYXRKDAXyUAWJsuOuw",
+        "url": "https://partner-intake-os.vercel.app",
         "domains": [],
-        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+        "status_note": null
       },
       "hosting_alternatives": [
         {
@@ -493,7 +583,11 @@
       "recommendation": {
         "action": "keep on Vercel",
         "migration_effort": "HIGH",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+        "canonical_host": "vercel",
+        "migration_worth": "LOW",
+        "migration_priority": 9,
+        "wave": null,
+        "notes": "Broad API/auth surface and low current usage make migration churn unjustified. Revisit when API contracts and live workflows stabilize."
       },
       "automation_upside": {
         "level": "HIGH",
@@ -501,7 +595,7 @@
       },
       "relationship_note": null,
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
+        "status": "RESTORED_FROM_HISTORY",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [
@@ -531,7 +625,7 @@
           "api/partners/[partner_id].ts",
           "api/partners/classify.ts"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -545,13 +639,23 @@
         "description": "Next.js + Tailwind landing page for recruiting Funding Partners/Loan Brokers with a Starter Kit opt-in, FAQ, and booking flow."
       },
       "primary_runtime": "NEXT SSR",
+      "runtime_details": {
+        "primary_class": "NEXT SSR",
+        "framework": "Next.js 15",
+        "traits": ["mostly static content", "single /api/lead route"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": false,
+        "optimization_path": "Externalize lead API into canonical intake service, then convert to NEXT STATIC EXPORT."
+      },
       "current_deployment": {
         "provider": "Vercel",
-        "project": null,
-        "project_id": null,
-        "url": null,
+        "project": "moonshine-broker",
+        "project_id": "prj_6u2AkC3eCW11lyKuuIHfZtu22GHt",
+        "url": "https://moonshine-broker.vercel.app",
         "domains": [],
-        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+        "status_note": null
       },
       "hosting_alternatives": [
         {
@@ -580,9 +684,14 @@
         }
       ],
       "recommendation": {
-        "action": "extract API then migrate",
+        "action": "keep on Vercel for now; extract API then migrate",
         "migration_effort": "MEDIUM",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+        "canonical_host": "vercel-for-now",
+        "future_target": "cloudflare-pages after API extraction",
+        "migration_worth": "MEDIUM_LATER",
+        "migration_priority": 7,
+        "wave": 3,
+        "notes": "Better to remove the one server dependency than move an otherwise static marketing site to another SSR host."
       },
       "automation_upside": {
         "level": "HIGH",
@@ -590,7 +699,7 @@
       },
       "relationship_note": "Lead endpoint is a candidate for partner-intake-os extraction.",
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
+        "status": "RESTORED_FROM_HISTORY",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [
@@ -599,7 +708,7 @@
           "package.json",
           "vercel.json"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -613,13 +722,22 @@
         "description": "Public acquisition platform for Distilled Funding connecting buyers, sellers, business listings, deal intelligence, financing, tools, directories, and acquisition resources."
       },
       "primary_runtime": "NEXT SSR",
+      "runtime_details": {
+        "primary_class": "NEXT SSR",
+        "framework": "Next.js 15",
+        "traits": ["App Router", "API routes", "Tally intake", "deal reality check", "dynamic buyer/business routes"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": false
+      },
       "current_deployment": {
         "provider": "Vercel",
-        "project": null,
-        "project_id": null,
-        "url": null,
+        "project": "acquire-distilled",
+        "project_id": "prj_uP49iVonKILs6ETbEjFKrIA0O10c",
+        "url": "https://acquire-distilled.vercel.app",
         "domains": [],
-        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+        "status_note": null
       },
       "hosting_alternatives": [
         {
@@ -650,7 +768,11 @@
       "recommendation": {
         "action": "keep on Vercel",
         "migration_effort": "MEDIUM",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+        "canonical_host": "vercel",
+        "migration_worth": "NO",
+        "migration_priority": 10,
+        "wave": null,
+        "notes": "Actively evolving Next app with legitimate API/dynamic runtime requirements. Migration would add work without solving a current problem."
       },
       "automation_upside": {
         "level": "HIGH",
@@ -658,7 +780,7 @@
       },
       "relationship_note": null,
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
+        "status": "RESTORED_FROM_HISTORY",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [
@@ -669,7 +791,7 @@
           "package.json",
           "vercel.json"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -683,13 +805,22 @@
         "description": "Next.js front-end layer for a broker directory, partner onboarding flow, and future Funding Agent OS experience."
       },
       "primary_runtime": "NEXT + AUTH",
+      "runtime_details": {
+        "primary_class": "NEXT + AUTH",
+        "framework": "Next.js 14",
+        "traits": ["middleware", "signed session cookies", "role-based /admin and /portal", "environment secrets"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": true,
+        "embed_distribution": false
+      },
       "current_deployment": {
         "provider": "Vercel",
-        "project": null,
-        "project_id": null,
-        "url": null,
+        "project": "moonshine-capital-portal",
+        "project_id": "prj_EQrfYjOPHEjm9oGGbLkfpOevUb6q",
+        "url": "https://moonshine-capital-portal.vercel.app",
         "domains": [],
-        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+        "status_note": null
       },
       "hosting_alternatives": [
         {
@@ -720,7 +851,11 @@
       "recommendation": {
         "action": "keep on Vercel",
         "migration_effort": "HIGH",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+        "canonical_host": "vercel",
+        "migration_worth": "NO",
+        "migration_priority": 11,
+        "wave": null,
+        "notes": "This is exactly the kind of active Next/auth workload Vercel is currently earning its keep on."
       },
       "automation_upside": {
         "level": "HIGH",
@@ -728,7 +863,7 @@
       },
       "relationship_note": null,
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
+        "status": "RESTORED_FROM_HISTORY",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [
@@ -741,7 +876,7 @@
           "package.json",
           "vercel.json"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -754,45 +889,85 @@
         "pushed_at": "2026-09-05T17:30:00Z",
         "description": "Canonical registry and intelligence layer for content, tools, GPTs, CTAs, assets, relationships, and machine-ready context across the Distilled Funding ecosystem."
       },
-      "primary_runtime": "NEXT SSR",
+      "primary_runtime": "DOCS / REGISTRY",
+      "runtime_details": {
+        "primary_class": "DOCS / REGISTRY",
+        "framework": "Next.js 16 presentation layer + Node registry compiler",
+        "traits": ["canonical registries", "schemas", "compiled JSON indexes", "validation/dedupe/relationships", "small web UI"],
+        "server_runtime_required": false,
+        "api_required": false,
+        "auth_required": false,
+        "embed_distribution": false,
+        "classification_note": "Build pipeline needs Node, but public runtime can be static if compiled outputs are generated before deploy."
+      },
       "current_deployment": {
         "provider": null,
         "project": null,
         "project_id": null,
         "url": null,
         "domains": [],
-        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+        "status_note": "No matching current Vercel project found during audit."
       },
       "hosting_alternatives": [
         {
-          "provider_product_id": "vercel",
-          "fit": "BEST_FIT",
-          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "provider_product_id": "cloudflare-pages",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "EXCELLENT",
           "migration_effort": "LOW",
-          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
-          "notes": "Vercel is catalog-compatible with NEXT SSR."
+          "pricing_posture": "$0 likely",
+          "notes": "Best general public UI host after static build/export."
+        },
+        {
+          "provider_product_id": "cloudflare-r2",
+          "fit": "EXCELLENT_ARTIFACTS",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0/low",
+          "notes": "Ideal for large compiled registry artifacts."
+        },
+        {
+          "provider_product_id": "mintlify",
+          "fit": "EXCELLENT_DOCS",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 Starter",
+          "notes": "Best if public API/docs + MCP exposure becomes primary."
+        },
+        {
+          "provider_product_id": "gitbook",
+          "fit": "EXCELLENT_DOCS",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 without custom domain; $65+ for branded domain",
+          "notes": "Excellent LLM/MCP docs output."
         },
         {
           "provider_product_id": "netlify",
-          "fit": "REALISTIC_ALTERNATIVE",
-          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "GOOD",
           "migration_effort": "LOW",
-          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
-          "notes": "Netlify is catalog-compatible with NEXT SSR."
+          "pricing_posture": "$0 until credit ceiling",
+          "notes": "Strong static docs/UI host with Agent Runners."
         },
         {
-          "provider_product_id": "firebase-app-hosting",
-          "fit": "REALISTIC_ALTERNATIVE",
-          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "provider_product_id": "github-pages",
+          "fit": "GOOD_IF_PUBLIC_NONCOMMERCIAL_DOCS",
+          "free_tier_fit": "EXCELLENT",
           "migration_effort": "LOW",
-          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
-          "notes": "Firebase App Hosting is catalog-compatible with NEXT SSR."
+          "pricing_posture": "$0",
+          "notes": "Use only for eligible docs/reference content, not commercial app hosting."
         }
       ],
       "recommendation": {
         "action": "convert to static first",
         "migration_effort": "LOW",
-        "notes": "Runtime simplification should be evaluated before selecting a new host."
+        "canonical_host": "cloudflare-pages",
+        "artifact_host": "cloudflare-r2-later",
+        "docs_option": "mintlify-if-public-ai-native-docs-become-a-priority",
+        "migration_worth": "HIGH",
+        "migration_priority": 8,
+        "wave": 2,
+        "notes": "Treat registry compilation as build-time work and publish the resulting UI/artifacts cheaply; do not invent a persistent runtime."
       },
       "automation_upside": {
         "level": "HIGH",
@@ -800,7 +975,7 @@
       },
       "relationship_note": "Registry/query surfaces are a candidate to become static generated outputs with narrowly scoped API health handling.",
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
+        "status": "RESTORED_FROM_HISTORY",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
         "evidence_files": [
@@ -808,7 +983,7 @@
           "next.config.ts",
           "package.json"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -821,45 +996,59 @@
         "pushed_at": "2026-09-03T10:21:53Z",
         "description": null
       },
-      "primary_runtime": "DOCS / REGISTRY",
+      "primary_runtime": "PLATFORM_NATIVE - WIX/VELO",
+      "runtime_details": {
+        "primary_class": "PLATFORM_NATIVE - WIX/VELO",
+        "taxonomy_exception": true,
+        "framework": "Wix CLI / Velo",
+        "traits": ["Wix pages", "Velo backend", "routers", "HTTP functions", "Wix permissions", "Stripe", "Nodemailer"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": true,
+        "embed_distribution": false
+      },
       "current_deployment": {
-        "provider": null,
+        "provider": "Wix",
         "project": null,
         "project_id": null,
-        "url": null,
+        "url": "https://www.distilledfunding.com",
         "domains": [],
-        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+        "status_note": "Wix CLI/Velo source; no matching Vercel project."
       },
       "hosting_alternatives": [
         {
-          "provider_product_id": "github-pages",
-          "fit": "BEST_FIT",
-          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
-          "notes": "GitHub Pages is catalog-compatible with DOCS / REGISTRY."
+          "provider_product_id": "netlify",
+          "fit": "REPLATFORM_ONLY",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "VERY_HIGH",
+          "pricing_posture": "$0 entry",
+          "notes": "Would require rebuilding Wix/Velo-specific functionality."
         },
         {
-          "provider_product_id": "mintlify",
-          "fit": "REALISTIC_ALTERNATIVE",
-          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
-          "notes": "Mintlify is catalog-compatible with DOCS / REGISTRY."
+          "provider_product_id": "cloudflare-workers",
+          "fit": "REPLATFORM_ONLY",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "VERY_HIGH",
+          "pricing_posture": "$0 entry",
+          "notes": "Not a migration; this would be an architectural rewrite."
         },
         {
-          "provider_product_id": "cloudflare-pages",
-          "fit": "REALISTIC_ALTERNATIVE",
-          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
-          "notes": "Cloudflare Pages is catalog-compatible with DOCS / REGISTRY."
+          "provider_product_id": "railway",
+          "fit": "BACKEND_ONLY_REPLATFORM",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "VERY_HIGH",
+          "pricing_posture": "$5 typical",
+          "notes": "Could host extracted services but not replace Wix product features directly."
         }
       ],
       "recommendation": {
-        "action": "do not deploy independently",
+        "action": "keep on Wix",
         "migration_effort": "VERY_LOW",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+        "canonical_host": "wix",
+        "migration_worth": "NO",
+        "migration_priority": 12,
+        "wave": null,
+        "notes": "This repo is intentionally platform-native. Replatforming would destroy working Wix integrations for no immediate hosting benefit."
       },
       "automation_upside": {
         "level": "MEDIUM",
@@ -867,13 +1056,13 @@
       },
       "relationship_note": null,
       "audit": {
-        "status": "BASELINE_RECONSTRUCTED",
+        "status": "RESTORED_FROM_HISTORY",
         "confidence": "MEDIUM",
         "audited_at": "2026-09-05",
         "evidence_files": [
           "package.json"
         ],
-        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+        "note": "Historical deployment facts restored and reconciled from commit 3542caa313d61cb38a06baa9f2c08d18750b020c."
       }
     },
     {
@@ -921,11 +1110,6 @@
           "notes": "Cloudflare Pages is catalog-compatible with DOCS / REGISTRY."
         }
       ],
-      "recommendation": {
-        "action": "migrate in later wave",
-        "migration_effort": "VERY_LOW",
-        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
-      },
       "automation_upside": {
         "level": "MEDIUM",
         "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
@@ -2206,6 +2390,185 @@
         "evidence_files": [
           "package.json"
         ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/moonshine-account-portal",
+      "github": {
+        "repository": "JFeimster/moonshine-account-portal",
+        "url": "https://github.com/JFeimster/moonshine-account-portal",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-03-15T07:56:41Z",
+        "description": "The official Moonshine Capital client and partner account portal. Secure dashboard for funding applications, partner lead submissions, commission tracking, document management, and internal messaging."
+      },
+      "primary_runtime": "NEXT + AUTH",
+      "runtime_details": {
+        "primary_class": "NEXT + AUTH",
+        "framework": "Next.js",
+        "traits": ["NextAuth", "middleware", "authentication API route", "secure client and partner dashboard"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": true,
+        "embed_distribution": false
+      },
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": "moonshine-account-portal",
+        "project_id": "prj_grkYLO6UOXEIMwehYJtctG1A0hOX",
+        "url": "https://moonshine-account-portal.vercel.app",
+        "domains": [],
+        "status_note": "Reconciled from the canonical Vercel site record and implemented_by relationship."
+      },
+      "hosting_alternatives": [],
+      "recommendation": {
+        "action": "keep current Vercel deployment",
+        "migration_effort": "HIGH",
+        "notes": "Deployment linkage is verified. Authentication and dashboard server behavior make this a poor static-host candidate; keep it on a managed Next.js runtime while product overlap with moonshine-capital-portal is reviewed."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "A managed Next.js runtime is operationally appropriate for authenticated portal workflows."
+      },
+      "relationship_note": "Potential successor or parallel portal to moonshine-capital-portal; resolve product ownership before consolidation.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": ["app/api/auth/[...nextauth]/route.ts", "middleware.ts", "next.config.mjs", "package.json"],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/moonshine-funding-os",
+      "github": {
+        "repository": "JFeimster/moonshine-funding-os",
+        "url": "https://github.com/JFeimster/moonshine-funding-os",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-05-21T12:04:56Z",
+        "description": "Semantic underwriting and funding-routing OS for borrower qualification, lender matching, and partner-driven capital workflows."
+      },
+      "primary_runtime": "STATIC",
+      "runtime_details": {
+        "primary_class": "STATIC",
+        "framework": null,
+        "traits": ["static HTML", "vercel.json", "funding-routing interface"],
+        "server_runtime_required": false,
+        "api_required": false,
+        "auth_required": false,
+        "embed_distribution": false
+      },
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": "moonshine-funding-os",
+        "project_id": "prj_YUSpjJXMqE2Iw4ZPUjUJrKUPTlih",
+        "url": "https://moonshine-funding-os.vercel.app",
+        "domains": [],
+        "status_note": "Reconciled from the canonical Vercel site record and implemented_by relationship."
+      },
+      "hosting_alternatives": [],
+      "recommendation": {
+        "action": "keep current Vercel deployment; evaluate static migration later",
+        "migration_effort": "LOW",
+        "notes": "Deployment linkage is verified. Static infrastructure makes this a low-friction candidate for later host optimization after product overlap with funding-operator-os and funding-partners-os is reviewed."
+      },
+      "automation_upside": {"level": "MEDIUM", "notes": "Static hosting and Git-based deployment should be straightforward once ownership is confirmed."},
+      "relationship_note": "Potentially related to funding-operator-os and funding-partners-os; retain as a distinct implementation until reviewed.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "MEDIUM",
+        "audited_at": "2026-09-05",
+        "evidence_files": ["vercel.json"],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/moonshine-funding-funnel",
+      "github": {
+        "repository": "JFeimster/moonshine-funding-funnel",
+        "url": "https://github.com/JFeimster/moonshine-funding-funnel",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2025-12-30T04:09:22Z",
+        "description": "A multi-vertical partner acquisition engine for Moonshine Capital, powered by JSON configs and Next.js."
+      },
+      "primary_runtime": "NEXT SSR",
+      "runtime_details": {
+        "primary_class": "NEXT SSR",
+        "framework": "Next.js",
+        "traits": ["JSON configuration", "lead API route", "multi-vertical partner acquisition"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": false
+      },
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": "moonshine-funding-funnel",
+        "project_id": "prj_gwrIkvQyMn5GAAaQd65876BjtwXc",
+        "url": "https://moonshine-funding-funnel.vercel.app",
+        "domains": [],
+        "status_note": "Reconciled from the canonical Vercel site record and implemented_by relationship."
+      },
+      "hosting_alternatives": [],
+      "recommendation": {
+        "action": "keep current Vercel deployment for now",
+        "migration_effort": "MEDIUM",
+        "notes": "Deployment linkage is verified. The lead route requires a server-capable host; compare against moonshine-broker and partner-intake-os before any migration or consolidation decision."
+      },
+      "automation_upside": {"level": "HIGH", "notes": "Next.js and a small API surface are compatible with existing Vercel-style automation."},
+      "relationship_note": "Potential partner-funnel predecessor or parallel implementation; review against the canonical partner acquisition stack.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": ["app/api/lead/route.ts", "next.config.js", "package.json"],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/AcquiStack-AI",
+      "github": {
+        "repository": "JFeimster/AcquiStack-AI",
+        "url": "https://github.com/JFeimster/AcquiStack-AI",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-07-08T03:59:58Z",
+        "description": "Your AI-powered M&A Copilot for structuring SBA-compliant acquisitions"
+      },
+      "primary_runtime": "NODE SERVICE",
+      "runtime_details": {
+        "primary_class": "NODE SERVICE",
+        "framework": "Vite + Express",
+        "traits": ["React client", "Express dependency", "worker/cron signals", "server/container signals", "Google GenAI"],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": false
+      },
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": "prj_MfOXstJcabERdkCSctroZZ9HY9fi",
+        "url": "https://acquistack-ai.vercel.app",
+        "domains": [],
+        "status_note": "Reconciled from the canonical Vercel relationship evidence; project name not explicitly verified in the current source record."
+      },
+      "hosting_alternatives": [],
+      "recommendation": {
+        "action": "keep current Vercel deployment pending runtime optimization review",
+        "migration_effort": "HIGH",
+        "notes": "Vercel deployment linkage is verified, while the project display name remains unverified. Express, worker, and container signals rule out a static-only target despite the Vite client."
+      },
+      "automation_upside": {"level": "HIGH", "notes": "A Node-capable host can support the application and its background processing signals."},
+      "relationship_note": "Potentially related to acquisition-core and acquisition-fundability; validate shared calculation boundaries before consolidation.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": ["package.json"],
         "note": "GitHub API tree and relevant source/configuration files inspected."
       }
     }
