@@ -1,1 +1,59 @@
-{}
+﻿{
+    "source_id":  "source-google-drive",
+    "name":  "Google Drive",
+    "source_type":  "document_and_file_repository",
+    "status":  "active",
+    "purpose":  "Source for documents, spreadsheets, presentations, exports, research, lead magnets, templates, media, JSON, and CSV assets.",
+    "authority":  {
+                      "canonical_for":  [
+                                            "Drive file identity",
+                                            "Drive file location",
+                                            "owner-managed source documents"
+                                        ],
+                      "rule":  "When another platform owns publication or implementation, enrich/reference that canonical entity rather than duplicating it."
+                  },
+    "ingestion":  {
+                      "preferred_method":  "Google Drive connector",
+                      "fallback_method":  "owner-provided export",
+                      "raw_destination":  "inbox/raw/google-drive/",
+                      "normalized_destination":  "inbox/normalized/google-drive/",
+                      "preserve_source_ids":  true,
+                      "preserve_source_urls":  true
+                  },
+    "deduplication":  {
+                          "strong_keys":  [
+                                              "drive_file_id",
+                                              "content_hash"
+                                          ],
+                          "secondary_keys":  [
+                                                 "title",
+                                                 "aliases"
+                                             ],
+                          "merge_duplicate_entities":  true,
+                          "preserve_provenance":  true
+                      },
+    "provenance":  {
+                       "required":  true,
+                       "required_fields":  [
+                                               "source.system",
+                                               "source.source_id",
+                                               "source.source_url"
+                                           ]
+                   },
+    "sync_policy":  {
+                        "mode":  "manual_or_automated_refresh",
+                        "stale_after_days":  60,
+                        "refresh_before":  [
+                                               "reconciliation",
+                                               "promotion",
+                                               "compilation"
+                                           ]
+                    },
+    "security":  {
+                     "store_tokens":  false,
+                     "store_secrets":  false,
+                     "respect_source_permissions":  true,
+                     "expose_private_urls_in_public_outputs":  false
+                 },
+    "notes":  "Index Drive assets and metadata; do not turn ResourceGrid into a second document store."
+}

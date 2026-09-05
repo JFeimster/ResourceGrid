@@ -1,1 +1,59 @@
-{}
+﻿{
+    "source_id":  "source-wix",
+    "name":  "Wix",
+    "source_type":  "website_cms_and_business_platform",
+    "status":  "active",
+    "purpose":  "Canonical publishing source for Distilled Funding Wix pages, blog content, CMS, forms, members, events, bookings, and business data.",
+    "authority":  {
+                      "canonical_for":  [
+                                            "published Wix URL",
+                                            "Wix object identity",
+                                            "publication state"
+                                        ],
+                      "rule":  "When another platform owns publication or implementation, enrich/reference that canonical entity rather than duplicating it."
+                  },
+    "ingestion":  {
+                      "preferred_method":  "Wix connector/API",
+                      "fallback_method":  "owner-provided export",
+                      "raw_destination":  "inbox/raw/wix/",
+                      "normalized_destination":  "inbox/normalized/wix/",
+                      "preserve_source_ids":  true,
+                      "preserve_source_urls":  true
+                  },
+    "deduplication":  {
+                          "strong_keys":  [
+                                              "wix_object_id",
+                                              "canonical_url"
+                                          ],
+                          "secondary_keys":  [
+                                                 "title",
+                                                 "aliases"
+                                             ],
+                          "merge_duplicate_entities":  true,
+                          "preserve_provenance":  true
+                      },
+    "provenance":  {
+                       "required":  true,
+                       "required_fields":  [
+                                               "source.system",
+                                               "source.source_id",
+                                               "source.source_url"
+                                           ]
+                   },
+    "sync_policy":  {
+                        "mode":  "manual_or_automated_refresh",
+                        "stale_after_days":  14,
+                        "refresh_before":  [
+                                               "reconciliation",
+                                               "promotion",
+                                               "compilation"
+                                           ]
+                    },
+    "security":  {
+                     "store_tokens":  false,
+                     "store_secrets":  false,
+                     "respect_source_permissions":  true,
+                     "expose_private_urls_in_public_outputs":  false
+                 },
+    "notes":  "Primary site: https://www.distilledfunding.com"
+}

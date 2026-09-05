@@ -1,1 +1,61 @@
-{}
+﻿{
+    "source_id":  "source-youtube",
+    "name":  "YouTube",
+    "source_type":  "video_publishing_platform",
+    "status":  "active",
+    "purpose":  "Canonical publishing source for Moonshine Capital TV videos and Shorts used for relationships, repurposing, and content context.",
+    "authority":  {
+                      "canonical_for":  [
+                                            "YouTube video ID",
+                                            "watch URL",
+                                            "published title",
+                                            "published description",
+                                            "publication state"
+                                        ],
+                      "rule":  "When another platform owns publication or implementation, enrich/reference that canonical entity rather than duplicating it."
+                  },
+    "ingestion":  {
+                      "preferred_method":  "YouTube API/connector/export",
+                      "fallback_method":  "owner-provided export",
+                      "raw_destination":  "inbox/raw/youtube/",
+                      "normalized_destination":  "inbox/normalized/youtube/",
+                      "preserve_source_ids":  true,
+                      "preserve_source_urls":  true
+                  },
+    "deduplication":  {
+                          "strong_keys":  [
+                                              "youtube_video_id",
+                                              "canonical_watch_url"
+                                          ],
+                          "secondary_keys":  [
+                                                 "title",
+                                                 "aliases"
+                                             ],
+                          "merge_duplicate_entities":  true,
+                          "preserve_provenance":  true
+                      },
+    "provenance":  {
+                       "required":  true,
+                       "required_fields":  [
+                                               "source.system",
+                                               "source.source_id",
+                                               "source.source_url"
+                                           ]
+                   },
+    "sync_policy":  {
+                        "mode":  "manual_or_automated_refresh",
+                        "stale_after_days":  14,
+                        "refresh_before":  [
+                                               "reconciliation",
+                                               "promotion",
+                                               "compilation"
+                                           ]
+                    },
+    "security":  {
+                     "store_tokens":  false,
+                     "store_secrets":  false,
+                     "respect_source_permissions":  true,
+                     "expose_private_urls_in_public_outputs":  false
+                 },
+    "notes":  "Primary channel: https://youtube.com/@moonshinecapitaltv"
+}

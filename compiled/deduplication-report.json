@@ -1,0 +1,3333 @@
+{
+  "generated_at": "2026-09-05T13:13:15.863Z",
+  "summary": {
+    "entities_scanned": 936,
+    "duplicate_id_groups": 0,
+    "shared_url_groups": 1,
+    "shared_repo_groups": 3,
+    "shared_title_groups": 166
+  },
+  "duplicate_ids": [],
+  "shared_urls": [
+    {
+      "key": "https://acquistack-ai.vercel.app",
+      "count": 4,
+      "records": [
+        {
+          "resource_id": "calculator-business-acquisition-deal-calculator",
+          "entity_type": "calculator",
+          "title": "Business Acquisition Deal Calculator",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-buyer-equity-calculator",
+          "entity_type": "calculator",
+          "title": "Buyer Equity Calculator",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-earnout-modeler",
+          "entity_type": "calculator",
+          "title": "Earnout Modeler",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-seller-note-modeler",
+          "entity_type": "calculator",
+          "title": "Seller Note Modeler",
+          "file": "registries\\resources\\calculators.json"
+        }
+      ]
+    }
+  ],
+  "shared_repositories": [
+    {
+      "key": "https://github.com/jfeimster/core-tools",
+      "count": 22,
+      "records": [
+        {
+          "resource_id": "calculator-ai-bid-financing-calculator",
+          "entity_type": "calculator",
+          "title": "AI Bid Financing Calculator",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-am-i-bankable-probability-score",
+          "entity_type": "calculator",
+          "title": "Am I Bankable? Probability Score",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-amazon-payout-bridge-predictor",
+          "entity_type": "calculator",
+          "title": "Amazon Payout Bridge Predictor",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-contractor-cash-flow-calculator",
+          "entity_type": "calculator",
+          "title": "Contractor Cash Flow Calculator",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-dd-7-reality-calendar",
+          "entity_type": "calculator",
+          "title": "DD+7 Reality Calendar",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-deal-killer-hard-money-analyzer",
+          "entity_type": "calculator",
+          "title": "Deal Killer Hard Money Analyzer",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-deferred-transaction-unlocker",
+          "entity_type": "calculator",
+          "title": "Deferred Transaction Unlocker",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-fix-and-flip-deal-math-tool",
+          "entity_type": "calculator",
+          "title": "Fix-and-Flip Deal Math Tool",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-inventory-reorder-bridge",
+          "entity_type": "calculator",
+          "title": "Inventory Reorder Bridge",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-job-cost-funding-worksheet",
+          "entity_type": "calculator",
+          "title": "Job Cost Funding Worksheet",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-lender-readiness-score",
+          "entity_type": "calculator",
+          "title": "Lender-Readiness Score",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-material-cost-inflation-tracker",
+          "entity_type": "calculator",
+          "title": "Material Cost Inflation Tracker",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-multi-channel-expansion-revenue-forecaster",
+          "entity_type": "calculator",
+          "title": "Multi-Channel Expansion Revenue Forecaster",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-neca-material-money-quoter",
+          "entity_type": "calculator",
+          "title": "NECA Material Money Quoter",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-net-90-opportunity-cost-calculator",
+          "entity_type": "calculator",
+          "title": "Net-90 Opportunity Cost Calculator",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-payroll-gap-bridge-estimator",
+          "entity_type": "calculator",
+          "title": "Payroll Gap Bridge Estimator",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-payroll-panic-countdown-timer",
+          "entity_type": "calculator",
+          "title": "Payroll Panic Countdown Timer",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-stockout-bleed-auditor",
+          "entity_type": "calculator",
+          "title": "Stockout Bleed Auditor",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-wholesaler-real-estate-deal-analyzer-pro",
+          "entity_type": "calculator",
+          "title": "Wholesaler / Real Estate Deal Analyzer Pro",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "tool-real-estate-proof-of-funds-generator",
+          "entity_type": "tool",
+          "title": "Real Estate Proof of Funds Generator",
+          "file": "registries\\resources\\tools.json"
+        },
+        {
+          "resource_id": "workflow-funding-readiness-review-skill",
+          "entity_type": "workflow",
+          "title": "Funding Readiness Review Skill",
+          "file": "registries\\resources\\tools.json"
+        },
+        {
+          "resource_id": "workflow-lender-match-brief-skill",
+          "entity_type": "workflow",
+          "title": "Lender Match Brief Skill",
+          "file": "registries\\resources\\tools.json"
+        }
+      ]
+    },
+    {
+      "key": "https://github.com/jfeimster/ai-agent-library",
+      "count": 8,
+      "records": [
+        {
+          "resource_id": "repo-ai-agent-library",
+          "entity_type": "github_repository",
+          "title": "ai-agent-library",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "skill-moonshine-crm-intake",
+          "entity_type": "skill",
+          "title": "Moonshine CRM Intake",
+          "file": "registries\\resources\\skills.json"
+        },
+        {
+          "resource_id": "skill-moonshine-crm-schema-steward",
+          "entity_type": "skill",
+          "title": "Moonshine CRM Schema Steward",
+          "file": "registries\\resources\\skills.json"
+        },
+        {
+          "resource_id": "skill-moonshine-crm-data-hygiene",
+          "entity_type": "skill",
+          "title": "Moonshine CRM Data Hygiene",
+          "file": "registries\\resources\\skills.json"
+        },
+        {
+          "resource_id": "skill-moonshine-funding-pipeline-health",
+          "entity_type": "skill",
+          "title": "Moonshine Funding Pipeline Health",
+          "file": "registries\\resources\\skills.json"
+        },
+        {
+          "resource_id": "skill-moonshine-crm-note-normalizer",
+          "entity_type": "skill",
+          "title": "Moonshine CRM Note Normalizer",
+          "file": "registries\\resources\\skills.json"
+        },
+        {
+          "resource_id": "skill-moonshine-funding-follow-up",
+          "entity_type": "skill",
+          "title": "Moonshine Funding Follow-up",
+          "file": "registries\\resources\\skills.json"
+        },
+        {
+          "resource_id": "skill-moonshine-crm-reconciler",
+          "entity_type": "skill",
+          "title": "Moonshine CRM Reconciler",
+          "file": "registries\\resources\\skills.json"
+        }
+      ]
+    },
+    {
+      "key": "https://github.com/jfeimster/acquisition-deal-calculator",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "calculator-business-acquisition-deal-calculator",
+          "entity_type": "calculator",
+          "title": "Business Acquisition Deal Calculator",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-earnout-modeler",
+          "entity_type": "calculator",
+          "title": "Earnout Modeler",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "calculator-seller-note-modeler",
+          "entity_type": "calculator",
+          "title": "Seller Note Modeler",
+          "file": "registries\\resources\\calculators.json"
+        }
+      ]
+    }
+  ],
+  "shared_titles": [
+    {
+      "key": "ai citation auditor",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "gpt-ai-citation-auditor",
+          "entity_type": "custom_gpt",
+          "title": "AI Citation Auditor",
+          "file": "registries\\resources\\custom-gpts.json"
+        },
+        {
+          "resource_id": "repo-ai-citation-auditor",
+          "entity_type": "github_repository",
+          "title": "ai-citation-auditor",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-ai-citation-auditor",
+          "entity_type": "site",
+          "title": "ai-citation-auditor",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "ai funding pathfinder",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "app-ai-funding-pathfinder",
+          "entity_type": "external_resource",
+          "title": "AI Funding Pathfinder",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-ai-funding-pathfinder",
+          "entity_type": "github_repository",
+          "title": "ai-funding-pathfinder",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-ai-funding-pathfinder",
+          "entity_type": "site",
+          "title": "ai-funding-pathfinder",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "bizfin os smart banking",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "app-bizfin-os-smart-banking",
+          "entity_type": "external_resource",
+          "title": "BizFin OS - Smart Banking",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-bizfin-os-smart-banking",
+          "entity_type": "github_repository",
+          "title": "bizfin-os-smart-banking-",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-bizfin-os-smart-banking",
+          "entity_type": "site",
+          "title": "bizfin-os-smart-banking-",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "cash flow gap bridge calculator",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "calculator-cash-flow-gap-bridge-calculator",
+          "entity_type": "calculator",
+          "title": "Cash Flow Gap Bridge Calculator",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "repo-cash-flow-gap-bridge-calculator",
+          "entity_type": "github_repository",
+          "title": "cash-flow-gap-bridge-calculator",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-cash-flow-gap-bridge-calculator",
+          "entity_type": "site",
+          "title": "cash-flow-gap-bridge-calculator",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "elitebroker ai",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "app-elitebroker-ai",
+          "entity_type": "external_resource",
+          "title": "EliteBroker AI",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-elitebroker-ai",
+          "entity_type": "github_repository",
+          "title": "EliteBroker-AI",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-elitebroker-ai",
+          "entity_type": "site",
+          "title": "EliteBroker-AI",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "gemini appsmith",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "app-gemini-appsmith",
+          "entity_type": "external_resource",
+          "title": "Gemini AppSmith",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-gemini-appsmith",
+          "entity_type": "github_repository",
+          "title": "Gemini-AppSmith",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-gemini-appsmith",
+          "entity_type": "site",
+          "title": "Gemini-AppSmith",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "partnerlaunch",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "app-partnerlaunch",
+          "entity_type": "external_resource",
+          "title": "PartnerLaunch",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-partnerlaunch",
+          "entity_type": "github_repository",
+          "title": "PartnerLaunch",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-partnerlaunch",
+          "entity_type": "site",
+          "title": "PartnerLaunch",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "territory commander",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "app-territory-commander",
+          "entity_type": "external_resource",
+          "title": "Territory Commander",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-territory-commander",
+          "entity_type": "github_repository",
+          "title": "territory-commander",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-territory-commander",
+          "entity_type": "site",
+          "title": "territory-commander",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "vanguard gtm",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "app-vanguard-gtm",
+          "entity_type": "external_resource",
+          "title": "Vanguard GTM",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-vanguard-gtm",
+          "entity_type": "github_repository",
+          "title": "VANGUARD-GTM",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-vanguard-gtm",
+          "entity_type": "site",
+          "title": "VANGUARD-GTM",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "vibe site smith",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "app-vibe-site-smith",
+          "entity_type": "external_resource",
+          "title": "Vibe Site Smith",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-vibe-site-smith",
+          "entity_type": "github_repository",
+          "title": "Vibe-Site-Smith",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-vibe-site-smith",
+          "entity_type": "site",
+          "title": "Vibe-Site-Smith",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "vidiom ai",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "app-vidiom-ai",
+          "entity_type": "external_resource",
+          "title": "Vidiom AI",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-vidiom-ai",
+          "entity_type": "github_repository",
+          "title": "Vidiom-AI",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-vidiom-ai",
+          "entity_type": "site",
+          "title": "Vidiom-AI",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "wrapperforge",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "app-wrapperforge",
+          "entity_type": "external_resource",
+          "title": "WrapperForge",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-wrapperforge",
+          "entity_type": "github_repository",
+          "title": "WrapperForge",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-wrapperforge",
+          "entity_type": "site",
+          "title": "WrapperForge",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "7 steps launchpad",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-7-steps-launchpad",
+          "entity_type": "github_repository",
+          "title": "7-steps-launchpad",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-7-steps-launchpad",
+          "entity_type": "site",
+          "title": "7-steps-launchpad",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "8fig battle plan",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-8fig-battle-plan",
+          "entity_type": "github_repository",
+          "title": "8fig-battle-plan",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-8fig-battle-plan",
+          "entity_type": "site",
+          "title": "8fig-battle-plan",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "acquire meta",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-acquire-meta",
+          "entity_type": "github_repository",
+          "title": "acquire-meta",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-acquire-meta",
+          "entity_type": "site",
+          "title": "acquire-meta",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "acquistack ai",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "app-acquistack-ai",
+          "entity_type": "external_resource",
+          "title": "AcquiStack AI",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-acquistack-ai",
+          "entity_type": "github_repository",
+          "title": "AcquiStack-AI",
+          "file": "registries\\resources\\repositories.json"
+        }
+      ]
+    },
+    {
+      "key": "ad spend cashflow",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-ad-spend-cashflow",
+          "entity_type": "github_repository",
+          "title": "ad-spend-cashflow",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-ad-spend-cashflow",
+          "entity_type": "site",
+          "title": "ad-spend-cashflow",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "affiliate dashboard",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-affiliate-dashboard",
+          "entity_type": "github_repository",
+          "title": "affiliate-dashboard",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-affiliate-dashboard",
+          "entity_type": "site",
+          "title": "affiliate-dashboard",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "affiliate launch kit generator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-affiliate-launch-kit-generator",
+          "entity_type": "github_repository",
+          "title": "affiliate-launch-kit-generator",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-affiliate-launch-kit-generator",
+          "entity_type": "site",
+          "title": "affiliate-launch-kit-generator",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "agency in a box",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-agency-in-a-box",
+          "entity_type": "github_repository",
+          "title": "Agency-in-a-Box",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-agency-in-a-box",
+          "entity_type": "site",
+          "title": "Agency-in-a-Box",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "agency lab",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-agency-lab",
+          "entity_type": "github_repository",
+          "title": "agency-lab",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-agency-lab",
+          "entity_type": "site",
+          "title": "agency-lab",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "agent grid",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-agent-grid",
+          "entity_type": "github_repository",
+          "title": "Agent-Grid",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-agent-grid",
+          "entity_type": "site",
+          "title": "Agent-Grid",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "agent portal",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-agent-portal",
+          "entity_type": "github_repository",
+          "title": "agent-portal",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-agent-portal",
+          "entity_type": "site",
+          "title": "agent-portal",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "ai agent arsenal",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-ai-agent-arsenal",
+          "entity_type": "github_repository",
+          "title": "ai-agent-arsenal",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-ai-agent-arsenal",
+          "entity_type": "site",
+          "title": "ai-agent-arsenal",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "ai agent library",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-ai-agent-library",
+          "entity_type": "github_repository",
+          "title": "ai-agent-library",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-ai-agent-library",
+          "entity_type": "site",
+          "title": "ai-agent-library",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "ai funding coach",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-ai-funding-coach",
+          "entity_type": "github_repository",
+          "title": "ai-funding-coach",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-ai-funding-coach",
+          "entity_type": "site",
+          "title": "ai-funding-coach",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "ai studio app builder",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-ai-studio-app-builder",
+          "entity_type": "github_repository",
+          "title": "ai-studio-app-builder",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-ai-studio-app-builder",
+          "entity_type": "site",
+          "title": "ai-studio-app-builder",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "alan watts archive",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-alan-watts-archive",
+          "entity_type": "github_repository",
+          "title": "alan-watts-archive",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-alan-watts-archive",
+          "entity_type": "site",
+          "title": "alan-watts-archive",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "alan watts directory",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-alan-watts-directory",
+          "entity_type": "github_repository",
+          "title": "alan-watts-directory",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-alan-watts-directory",
+          "entity_type": "site",
+          "title": "alan-watts-directory",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "amazon payout gap",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-amazon-payout-gap",
+          "entity_type": "github_repository",
+          "title": "amazon-payout-gap",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-amazon-payout-gap",
+          "entity_type": "site",
+          "title": "amazon-payout-gap",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "bank breezy battle plan",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-bank-breezy-battle-plan",
+          "entity_type": "github_repository",
+          "title": "bank-breezy-battle-plan",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-bank-breezy-battle-plan",
+          "entity_type": "site",
+          "title": "bank-breezy-battle-plan",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "bank breezy nova",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-bank-breezy-nova",
+          "entity_type": "github_repository",
+          "title": "Bank-Breezy-NoVa",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-bank-breezy-nova",
+          "entity_type": "site",
+          "title": "Bank-Breezy-NoVa",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "bio 2",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-bio-2",
+          "entity_type": "github_repository",
+          "title": "bio-2",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-bio-2",
+          "entity_type": "site",
+          "title": "bio-2",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "bizcred",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-bizcred",
+          "entity_type": "github_repository",
+          "title": "BizCred",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-bizcred",
+          "entity_type": "site",
+          "title": "bizcred",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "bizcred ai",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-bizcred-ai",
+          "entity_type": "github_repository",
+          "title": "bizcred-ai",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-bizcred-ai",
+          "entity_type": "site",
+          "title": "bizcred-ai",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "bizcredit",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-bizcredit",
+          "entity_type": "github_repository",
+          "title": "BizCredit",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-bizcredit",
+          "entity_type": "site",
+          "title": "BizCredit",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "bizcredit os",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "app-bizcredit-os",
+          "entity_type": "external_resource",
+          "title": "BizCredit OS",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-bizcredit-os",
+          "entity_type": "github_repository",
+          "title": "bizcredit-os",
+          "file": "registries\\resources\\repositories.json"
+        }
+      ]
+    },
+    {
+      "key": "bizfin os",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-bizfin-os",
+          "entity_type": "github_repository",
+          "title": "BizFin-OS",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-bizfin-os",
+          "entity_type": "site",
+          "title": "BizFin-OS",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "broker followup machine",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-broker-followup-machine",
+          "entity_type": "github_repository",
+          "title": "broker-followup-machine",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-broker-followup-machine",
+          "entity_type": "site",
+          "title": "broker-followup-machine",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "brokerflow ai",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-brokerflow-ai",
+          "entity_type": "github_repository",
+          "title": "brokerflow-ai",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-brokerflow-ai",
+          "entity_type": "site",
+          "title": "brokerflow-ai",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "burn rate runway widget",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-burn-rate-runway-widget",
+          "entity_type": "github_repository",
+          "title": "burn-rate-runway-widget",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-burn-rate-runway-widget",
+          "entity_type": "site",
+          "title": "burn-rate-runway-widget",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "burpee v1",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-burpee-v1",
+          "entity_type": "github_repository",
+          "title": "Burpee-v1",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-burpee-v1",
+          "entity_type": "site",
+          "title": "Burpee-v1",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "business loan affiliate hub",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-business-loan-affiliate-hub",
+          "entity_type": "github_repository",
+          "title": "Business-Loan-Affiliate-Hub",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-business-loan-affiliate-hub",
+          "entity_type": "site",
+          "title": "Business-Loan-Affiliate-Hub",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "business loan affiliate library",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-business-loan-affiliate-library",
+          "entity_type": "github_repository",
+          "title": "business-loan-affiliate-library",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-business-loan-affiliate-library",
+          "entity_type": "site",
+          "title": "business-loan-affiliate-library",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "capital incubator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-capital-incubator",
+          "entity_type": "github_repository",
+          "title": "capital-incubator",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-capital-incubator",
+          "entity_type": "site",
+          "title": "capital-incubator",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "capital stack",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-capital-stack",
+          "entity_type": "github_repository",
+          "title": "capital-stack",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-capital-stack",
+          "entity_type": "site",
+          "title": "capital-stack",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "capitalgrid",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-capitalgrid",
+          "entity_type": "github_repository",
+          "title": "capitalgrid",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-capitalgrid",
+          "entity_type": "site",
+          "title": "capitalgrid",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "cash command",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-cash-command",
+          "entity_type": "github_repository",
+          "title": "cash-command",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-cash-command",
+          "entity_type": "site",
+          "title": "cash-command",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "cashflow",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-cashflow",
+          "entity_type": "github_repository",
+          "title": "cashflow",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-cashflow",
+          "entity_type": "site",
+          "title": "cashflow",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "cashflow copilot 4",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-cashflow-copilot-4",
+          "entity_type": "github_repository",
+          "title": "cashflow-copilot-4",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-cashflow-copilot-4",
+          "entity_type": "site",
+          "title": "cashflow-copilot-4",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "cashflow stress test",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-cashflow-stress-test",
+          "entity_type": "github_repository",
+          "title": "cashflow-stress-test",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-cashflow-stress-test",
+          "entity_type": "site",
+          "title": "cashflow-stress-test",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "cashgap",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-cashgap",
+          "entity_type": "github_repository",
+          "title": "cashgap",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-cashgap",
+          "entity_type": "site",
+          "title": "cashgap",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "cfo in a box",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-cfo-in-a-box",
+          "entity_type": "github_repository",
+          "title": "cfo-in-a-box",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-cfo-in-a-box",
+          "entity_type": "site",
+          "title": "cfo-in-a-box",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "cpa capital desk",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-cpa-capital-desk",
+          "entity_type": "github_repository",
+          "title": "cpa-capital-desk",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-cpa-capital-desk",
+          "entity_type": "site",
+          "title": "cpa-capital-desk",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "cpa partner",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-cpa-partner",
+          "entity_type": "github_repository",
+          "title": "CPA-Partner",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-cpa-partner",
+          "entity_type": "site",
+          "title": "cpa-partner",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "creator house",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-creator-house",
+          "entity_type": "github_repository",
+          "title": "creator-house",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-creator-house",
+          "entity_type": "site",
+          "title": "creator-house",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "custom gpt directory",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-custom-gpt-directory",
+          "entity_type": "github_repository",
+          "title": "custom-gpt-directory",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-custom-gpt-directory",
+          "entity_type": "site",
+          "title": "custom-gpt-directory",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "dac affiliate enablement",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-dac-affiliate-enablement",
+          "entity_type": "github_repository",
+          "title": "dac-affiliate-enablement",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-dac-affiliate-enablement",
+          "entity_type": "site",
+          "title": "dac-affiliate-enablement",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "dac comp",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-dac-comp",
+          "entity_type": "github_repository",
+          "title": "DAC-Comp",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-dac-comp",
+          "entity_type": "site",
+          "title": "DAC-Comp",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "dac funnel tracker",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-dac-funnel-tracker",
+          "entity_type": "github_repository",
+          "title": "dac-funnel-tracker",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-dac-funnel-tracker",
+          "entity_type": "site",
+          "title": "dac-funnel-tracker",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "dac goal calculator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-dac-goal-calculator",
+          "entity_type": "github_repository",
+          "title": "dac-goal-calculator",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-dac-goal-calculator",
+          "entity_type": "site",
+          "title": "dac-goal-calculator",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "dac pay",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-dac-pay",
+          "entity_type": "github_repository",
+          "title": "DAC-pay",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-dac-pay",
+          "entity_type": "site",
+          "title": "DAC-pay",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "dac social",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-dac-social",
+          "entity_type": "github_repository",
+          "title": "DAC-Social",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-dac-social",
+          "entity_type": "site",
+          "title": "dac-social",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "dfy funding",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-dfy-funding",
+          "entity_type": "github_repository",
+          "title": "dfy-funding",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-dfy-funding",
+          "entity_type": "site",
+          "title": "dfy-funding",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "distilled funding tools",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-distilled-funding-tools",
+          "entity_type": "github_repository",
+          "title": "distilled-funding-tools",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-distilled-funding-tools",
+          "entity_type": "site",
+          "title": "distilled-funding-tools",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "distilled partner hub",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-distilled-partner-hub",
+          "entity_type": "github_repository",
+          "title": "distilled-partner-hub",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-distilled-partner-hub",
+          "entity_type": "site",
+          "title": "distilled-partner-hub",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "distilled tools pro",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-distilled-tools-pro",
+          "entity_type": "github_repository",
+          "title": "Distilled-Tools-Pro",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-distilled-tools-pro",
+          "entity_type": "site",
+          "title": "Distilled-Tools-Pro",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "distilledfunding",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-distilledfunding",
+          "entity_type": "github_repository",
+          "title": "distilledfunding",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-distilledfunding",
+          "entity_type": "site",
+          "title": "distilledfunding",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "dmv bizfund os",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-dmv-bizfund-os",
+          "entity_type": "github_repository",
+          "title": "dmv-bizfund-os",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-dmv-bizfund-os",
+          "entity_type": "site",
+          "title": "dmv-bizfund-os",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "ecommerce cash flow",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-ecommerce-cash-flow",
+          "entity_type": "github_repository",
+          "title": "ecommerce-cash-flow",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-ecommerce-cash-flow",
+          "entity_type": "site",
+          "title": "ecommerce-cash-flow",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "embed widgets",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-embed-widgets",
+          "entity_type": "github_repository",
+          "title": "Embed-Widgets",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-embed-widgets",
+          "entity_type": "site",
+          "title": "Embed-Widgets",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "equipment roi payment calculator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "calculator-equipment-roi-and-payment-calculator",
+          "entity_type": "calculator",
+          "title": "Equipment ROI & Payment Calculator",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "tool-equipment-roi-and-payment-calculator",
+          "entity_type": "tool",
+          "title": "Equipment ROI & Payment Calculator",
+          "file": "registries\\resources\\tools.json"
+        }
+      ]
+    },
+    {
+      "key": "equity defender",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-equity-defender",
+          "entity_type": "github_repository",
+          "title": "Equity-Defender",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-equity-defender",
+          "entity_type": "site",
+          "title": "Equity-Defender",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "equity defender widget",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-equity-defender-widget",
+          "entity_type": "github_repository",
+          "title": "equity-defender-widget",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-equity-defender-widget",
+          "entity_type": "site",
+          "title": "equity-defender-widget",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "estimator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-estimator",
+          "entity_type": "github_repository",
+          "title": "estimator",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-estimator",
+          "entity_type": "site",
+          "title": "estimator",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "finance gap calculator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-finance-gap-calculator",
+          "entity_type": "github_repository",
+          "title": "Finance-Gap-Calculator",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-finance-gap-calculator",
+          "entity_type": "site",
+          "title": "finance-gap-calculator",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "financing widget",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-financing-widget",
+          "entity_type": "github_repository",
+          "title": "financing-widget",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-financing-widget",
+          "entity_type": "site",
+          "title": "financing-widget",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "finops ai agents",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-finops-ai-agents",
+          "entity_type": "github_repository",
+          "title": "FinOps-AI-Agents",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-finops-ai-agents",
+          "entity_type": "site",
+          "title": "FinOps-AI-Agents",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "finwise saas landing page",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-finwise-saas-landing-page",
+          "entity_type": "github_repository",
+          "title": "finwise-saas-landing-page",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-finwise-saas-landing-page",
+          "entity_type": "site",
+          "title": "finwise-saas-landing-page",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "fix and flip roi max loan estimator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "calculator-fix-and-flip-roi-and-max-loan-estimator",
+          "entity_type": "calculator",
+          "title": "Fix-and-Flip ROI & Max Loan Estimator",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "tool-fix-and-flip-roi-and-max-loan-estimator",
+          "entity_type": "tool",
+          "title": "Fix-and-Flip ROI & Max Loan Estimator",
+          "file": "registries\\resources\\tools.json"
+        }
+      ]
+    },
+    {
+      "key": "flash ui portfolio",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-flash-ui-portfolio",
+          "entity_type": "github_repository",
+          "title": "flash-ui-portfolio",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-flash-ui-portfolio",
+          "entity_type": "site",
+          "title": "flash-ui-portfolio",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "flash ui prompts",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-flash-ui-prompts",
+          "entity_type": "github_repository",
+          "title": "flash-ui-prompts",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-flash-ui-prompts",
+          "entity_type": "site",
+          "title": "flash-ui-prompts",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "flash ui v2",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-flash-ui-v2",
+          "entity_type": "github_repository",
+          "title": "Flash-UI-v2",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-flash-ui-v2",
+          "entity_type": "site",
+          "title": "Flash-UI-v2",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "flow finance",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "app-flow-finance",
+          "entity_type": "external_resource",
+          "title": "Flow Finance",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-flow-finance",
+          "entity_type": "github_repository",
+          "title": "Flow-Finance",
+          "file": "registries\\resources\\repositories.json"
+        }
+      ]
+    },
+    {
+      "key": "founder fuel",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-founder-fuel",
+          "entity_type": "github_repository",
+          "title": "founder-fuel",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-founder-fuel",
+          "entity_type": "site",
+          "title": "founder-fuel",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "foundryos",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-foundryos",
+          "entity_type": "github_repository",
+          "title": "foundryos",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-foundryos",
+          "entity_type": "site",
+          "title": "foundryos",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "fpos",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-fpos",
+          "entity_type": "github_repository",
+          "title": "fpos",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-fpos",
+          "entity_type": "site",
+          "title": "fpos",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "funding action plan",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-funding-action-plan",
+          "entity_type": "github_repository",
+          "title": "funding-action-plan",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-funding-action-plan",
+          "entity_type": "site",
+          "title": "funding-action-plan",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "funding any reason",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-funding-any-reason",
+          "entity_type": "github_repository",
+          "title": "Funding-Any-Reason",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-funding-any-reason",
+          "entity_type": "site",
+          "title": "Funding-Any-Reason",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "funding ceo",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-funding-ceo",
+          "entity_type": "github_repository",
+          "title": "funding-ceo",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-funding-ceo",
+          "entity_type": "site",
+          "title": "funding-ceo",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "funding embed",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-funding-embed",
+          "entity_type": "github_repository",
+          "title": "funding-embed",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-funding-embed",
+          "entity_type": "site",
+          "title": "funding-embed",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "funding partners os",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-funding-partners-os",
+          "entity_type": "github_repository",
+          "title": "funding-partners-os",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-funding-partners-os",
+          "entity_type": "site",
+          "title": "funding-partners-os",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "funding partners os dashboard",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-funding-partners-os-dashboard",
+          "entity_type": "github_repository",
+          "title": "funding-partners-os-dashboard",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-funding-partners-os-dashboard",
+          "entity_type": "site",
+          "title": "funding-partners-os-dashboard",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "funding pathfinder",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "gpt-funding-pathfinder",
+          "entity_type": "custom_gpt",
+          "title": "Funding Pathfinder",
+          "file": "registries\\resources\\custom-gpts.json"
+        },
+        {
+          "resource_id": "repo-funding-pathfinder",
+          "entity_type": "github_repository",
+          "title": "funding-pathfinder",
+          "file": "registries\\resources\\repositories.json"
+        }
+      ]
+    },
+    {
+      "key": "funding quiz",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-funding-quiz",
+          "entity_type": "github_repository",
+          "title": "funding-quiz",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-funding-quiz",
+          "entity_type": "site",
+          "title": "funding-quiz",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "funding tools os",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-funding-tools-os",
+          "entity_type": "github_repository",
+          "title": "funding-tools-os",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-funding-tools-os",
+          "entity_type": "site",
+          "title": "funding-tools-os",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "funding tools static",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-funding-tools-static",
+          "entity_type": "github_repository",
+          "title": "funding-tools-static",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-funding-tools-static",
+          "entity_type": "site",
+          "title": "funding-tools-static",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "funding workflow builder",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-funding-workflow-builder",
+          "entity_type": "github_repository",
+          "title": "funding-workflow-builder",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-funding-workflow-builder",
+          "entity_type": "site",
+          "title": "funding-workflow-builder",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "fundstack ai",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-fundstack-ai",
+          "entity_type": "github_repository",
+          "title": "FundStack-AI",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-fundstack-ai",
+          "entity_type": "site",
+          "title": "fundstack-ai",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "gpt action architect",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-gpt-action-architect",
+          "entity_type": "github_repository",
+          "title": "gpt-action-architect",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-gpt-action-architect",
+          "entity_type": "site",
+          "title": "gpt-action-architect",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "grant writer",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-grant-writer",
+          "entity_type": "github_repository",
+          "title": "Grant-Writer",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-grant-writer",
+          "entity_type": "site",
+          "title": "Grant-Writer",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "hard money lenders",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-hard-money-lenders",
+          "entity_type": "github_repository",
+          "title": "Hard-Money-Lenders",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-hard-money-lenders",
+          "entity_type": "site",
+          "title": "Hard-Money-Lenders",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "intel grid",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-intel-grid",
+          "entity_type": "github_repository",
+          "title": "intel-grid",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-intel-grid",
+          "entity_type": "site",
+          "title": "intel-grid",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "investor data room",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-investor-data-room",
+          "entity_type": "github_repository",
+          "title": "Investor-Data-Room",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-investor-data-room",
+          "entity_type": "site",
+          "title": "Investor-Data-Room",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "jason",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-jason",
+          "entity_type": "github_repository",
+          "title": "jason",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-jason",
+          "entity_type": "site",
+          "title": "jason",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "jason speaks",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-jason-speaks",
+          "entity_type": "github_repository",
+          "title": "jason-speaks",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-jason-speaks",
+          "entity_type": "site",
+          "title": "jason-speaks",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "jf brand os",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-jf-brand-os",
+          "entity_type": "github_repository",
+          "title": "jf-brand-os",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-jf-brand-os",
+          "entity_type": "site",
+          "title": "jf-brand-os",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "jfv",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-jfv",
+          "entity_type": "github_repository",
+          "title": "JFV",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-jfv",
+          "entity_type": "site",
+          "title": "JFV",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "juliet foxtrot ventures",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "app-juliet-foxtrot-ventures",
+          "entity_type": "external_resource",
+          "title": "Juliet Foxtrot Ventures",
+          "file": "registries\\resources\\apps.json"
+        },
+        {
+          "resource_id": "repo-juliet-foxtrot-ventures",
+          "entity_type": "github_repository",
+          "title": "juliet-foxtrot-ventures",
+          "file": "registries\\resources\\repositories.json"
+        }
+      ]
+    },
+    {
+      "key": "kj industries",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-kj-industries",
+          "entity_type": "github_repository",
+          "title": "kj-industries",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-kj-industries",
+          "entity_type": "site",
+          "title": "kj-industries",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "landing page generator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "gpt-landing-page-generator",
+          "entity_type": "custom_gpt",
+          "title": "Landing Page Generator",
+          "file": "registries\\resources\\custom-gpts.json"
+        },
+        {
+          "resource_id": "repo-landing-page-generator",
+          "entity_type": "github_repository",
+          "title": "landing-page-generator",
+          "file": "registries\\resources\\repositories.json"
+        }
+      ]
+    },
+    {
+      "key": "ledgerops",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-ledgerops",
+          "entity_type": "github_repository",
+          "title": "LedgerOps",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-ledgerops",
+          "entity_type": "site",
+          "title": "LedgerOps",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "lendavo partner portal",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-lendavo-partner-portal",
+          "entity_type": "github_repository",
+          "title": "lendavo-partner-portal",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-lendavo-partner-portal",
+          "entity_type": "site",
+          "title": "lendavo-partner-portal",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "ma deal analyzer",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-ma-deal-analyzer",
+          "entity_type": "github_repository",
+          "title": "ma-deal-analyzer",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-ma-deal-analyzer",
+          "entity_type": "site",
+          "title": "ma-deal-analyzer",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "market sniper hub",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-market-sniper-hub",
+          "entity_type": "github_repository",
+          "title": "market-sniper-hub",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-market-sniper-hub",
+          "entity_type": "site",
+          "title": "market-sniper-hub",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "micro acquisition fundability calculator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-micro-acquisition-fundability-calculator",
+          "entity_type": "github_repository",
+          "title": "micro-acquisition-fundability-calculator",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-micro-acquisition-fundability-calculator",
+          "entity_type": "site",
+          "title": "micro-acquisition-fundability-calculator",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "microsite automation",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-microsite-automation",
+          "entity_type": "github_repository",
+          "title": "Microsite-Automation",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-microsite-automation",
+          "entity_type": "site",
+          "title": "microsite-automation",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine account portal",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-account-portal",
+          "entity_type": "github_repository",
+          "title": "moonshine-account-portal",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-account-portal",
+          "entity_type": "site",
+          "title": "moonshine-account-portal",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine affiliate ops",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-affiliate-ops",
+          "entity_type": "github_repository",
+          "title": "moonshine-affiliate-ops",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-affiliate-ops",
+          "entity_type": "site",
+          "title": "moonshine-affiliate-ops",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine ai directory",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-ai-directory",
+          "entity_type": "github_repository",
+          "title": "moonshine-ai-directory",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-ai-directory",
+          "entity_type": "site",
+          "title": "moonshine-ai-directory",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine broker",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-broker",
+          "entity_type": "github_repository",
+          "title": "moonshine-broker",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-broker",
+          "entity_type": "site",
+          "title": "moonshine-broker",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine capital",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-capital",
+          "entity_type": "github_repository",
+          "title": "moonshine-capital",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-capital",
+          "entity_type": "site",
+          "title": "moonshine-capital",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine capital partners",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-capital-partners",
+          "entity_type": "github_repository",
+          "title": "moonshine-capital-partners",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-capital-partners",
+          "entity_type": "site",
+          "title": "moonshine-capital-partners",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine editorial bento",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-editorial-bento",
+          "entity_type": "github_repository",
+          "title": "moonshine-editorial-bento",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-editorial-bento",
+          "entity_type": "site",
+          "title": "moonshine-editorial-bento",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine funding funnel",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-funding-funnel",
+          "entity_type": "github_repository",
+          "title": "moonshine-funding-funnel",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-funding-funnel",
+          "entity_type": "site",
+          "title": "moonshine-funding-funnel",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine funding os",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-funding-os",
+          "entity_type": "github_repository",
+          "title": "moonshine-funding-os",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-funding-os",
+          "entity_type": "site",
+          "title": "moonshine-funding-os",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine funding static",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-funding-static",
+          "entity_type": "github_repository",
+          "title": "moonshine-funding-static",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-funding-static",
+          "entity_type": "site",
+          "title": "moonshine-funding-static",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine intake router",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-intake-router",
+          "entity_type": "github_repository",
+          "title": "moonshine-intake-router",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-intake-router",
+          "entity_type": "site",
+          "title": "moonshine-intake-router",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonshine partner marketplace",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonshine-partner-marketplace",
+          "entity_type": "github_repository",
+          "title": "moonshine-partner-marketplace",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonshine-partner-marketplace",
+          "entity_type": "site",
+          "title": "moonshine-partner-marketplace",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "moonsine partner page",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-moonsine-partner-page",
+          "entity_type": "github_repository",
+          "title": "Moonsine-Partner-Page",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-moonsine-partner-page",
+          "entity_type": "site",
+          "title": "Moonsine-Partner-Page",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "myfigures partner onboarding",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-myfigures-partner-onboarding",
+          "entity_type": "github_repository",
+          "title": "myfigures-partner-onboarding",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-myfigures-partner-onboarding",
+          "entity_type": "site",
+          "title": "myfigures-partner-onboarding",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "newsletter builder",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-newsletter-builder",
+          "entity_type": "github_repository",
+          "title": "newsletter-builder",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-newsletter-builder",
+          "entity_type": "site",
+          "title": "newsletter-builder",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "nexus foundry",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-nexus-foundry",
+          "entity_type": "github_repository",
+          "title": "nexus-foundry",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-nexus-foundry",
+          "entity_type": "site",
+          "title": "nexus-foundry",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "niche landing page factory",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-niche-landing-page-factory",
+          "entity_type": "github_repository",
+          "title": "niche-landing-page-factory",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-niche-landing-page-factory",
+          "entity_type": "site",
+          "title": "niche-landing-page-factory",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "notion to site",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-notion-to-site",
+          "entity_type": "github_repository",
+          "title": "Notion-to-Site",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-notion-to-site",
+          "entity_type": "site",
+          "title": "notion-to-site",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "onboarding",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-onboarding",
+          "entity_type": "github_repository",
+          "title": "Onboarding",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-onboarding",
+          "entity_type": "site",
+          "title": "Onboarding",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "operation velocity",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-operation-velocity",
+          "entity_type": "github_repository",
+          "title": "Operation-Velocity",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-operation-velocity",
+          "entity_type": "site",
+          "title": "operation-velocity",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "operator funding site",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-operator-funding-site",
+          "entity_type": "github_repository",
+          "title": "operator-funding-site",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-operator-funding-site",
+          "entity_type": "site",
+          "title": "operator-funding-site",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "partner command center",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-partner-command-center",
+          "entity_type": "github_repository",
+          "title": "partner-command-center",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-partner-command-center",
+          "entity_type": "site",
+          "title": "partner-command-center",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "partner enablement os",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-partner-enablement-os",
+          "entity_type": "github_repository",
+          "title": "partner-enablement-os",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-partner-enablement-os",
+          "entity_type": "site",
+          "title": "partner-enablement-os",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "partner growth hub",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-partner-growth-hub",
+          "entity_type": "github_repository",
+          "title": "partner-growth-hub",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-partner-growth-hub",
+          "entity_type": "site",
+          "title": "partner-growth-hub",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "partner onboarding",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-partner-onboarding",
+          "entity_type": "github_repository",
+          "title": "partner-onboarding",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-partner-onboarding",
+          "entity_type": "site",
+          "title": "partner-onboarding",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "partner portal",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-partner-portal",
+          "entity_type": "github_repository",
+          "title": "partner-portal",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-partner-portal",
+          "entity_type": "site",
+          "title": "partner-portal",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "partnerhub",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-partnerhub",
+          "entity_type": "github_repository",
+          "title": "PartnerHub",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-partnerhub",
+          "entity_type": "site",
+          "title": "PartnerHub",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "prompt lab",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-prompt-lab",
+          "entity_type": "github_repository",
+          "title": "Prompt-Lab",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-prompt-lab",
+          "entity_type": "site",
+          "title": "Prompt-Lab",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "real estate agents",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-real-estate-agents",
+          "entity_type": "github_repository",
+          "title": "Real-Estate-Agents",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-real-estate-agents",
+          "entity_type": "site",
+          "title": "real-estate-agents",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "reserve unlocker",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-reserve-unlocker",
+          "entity_type": "github_repository",
+          "title": "Reserve-Unlocker",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-reserve-unlocker",
+          "entity_type": "site",
+          "title": "reserve-unlocker",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "saasfly",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-saasfly",
+          "entity_type": "github_repository",
+          "title": "saasfly",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-saasfly",
+          "entity_type": "site",
+          "title": "saasfly",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "sba business acquisition calculator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-sba-business-acquisition-calculator",
+          "entity_type": "github_repository",
+          "title": "sba-business-acquisition-calculator",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-sba-business-acquisition-calculator",
+          "entity_type": "site",
+          "title": "sba-business-acquisition-calculator",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "seller funding",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-seller-funding",
+          "entity_type": "github_repository",
+          "title": "Seller-Funding",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-seller-funding",
+          "entity_type": "site",
+          "title": "Seller-Funding",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "smb ai builder",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-smb-ai-builder",
+          "entity_type": "github_repository",
+          "title": "SMB-AI-Builder",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-smb-ai-builder",
+          "entity_type": "site",
+          "title": "smb-ai-builder",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "staged funding",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-staged-funding",
+          "entity_type": "github_repository",
+          "title": "staged-funding",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-staged-funding",
+          "entity_type": "site",
+          "title": "staged-funding",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "start your agency",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-start-your-agency",
+          "entity_type": "github_repository",
+          "title": "start-your-agency",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-start-your-agency",
+          "entity_type": "site",
+          "title": "start-your-agency",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "studio ai",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-studio-ai",
+          "entity_type": "github_repository",
+          "title": "Studio-AI",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-studio-ai",
+          "entity_type": "site",
+          "title": "Studio-AI",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "the amazon fees fines auditor",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "calculator-the-amazon-fees-and-fines-auditor",
+          "entity_type": "calculator",
+          "title": "The Amazon \"Fees & Fines\" Auditor",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "tool-the-amazon-fees-and-fines-auditor",
+          "entity_type": "tool",
+          "title": "The Amazon \"Fees & Fines\" Auditor",
+          "file": "registries\\resources\\tools.json"
+        }
+      ]
+    },
+    {
+      "key": "the capital paradox podcast",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-the-capital-paradox-podcast",
+          "entity_type": "github_repository",
+          "title": "The-Capital-Paradox-Podcast",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-the-capital-paradox-podcast",
+          "entity_type": "site",
+          "title": "the-capital-paradox-podcast",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "the compliance kyc vault",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "calculator-the-compliance-and-kyc-vault",
+          "entity_type": "calculator",
+          "title": "The \"Compliance & KYC\" Vault",
+          "file": "registries\\resources\\calculators.json"
+        },
+        {
+          "resource_id": "tool-the-compliance-and-kyc-vault",
+          "entity_type": "tool",
+          "title": "The \"Compliance & KYC\" Vault",
+          "file": "registries\\resources\\tools.json"
+        }
+      ]
+    },
+    {
+      "key": "the index",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-the-index",
+          "entity_type": "github_repository",
+          "title": "The-Index",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-the-index",
+          "entity_type": "site",
+          "title": "the-index",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "the radical libertarian",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-the-radical-libertarian",
+          "entity_type": "github_repository",
+          "title": "the-radical-libertarian",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-the-radical-libertarian",
+          "entity_type": "site",
+          "title": "the-radical-libertarian",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "tracking link generator",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-tracking-link-generator",
+          "entity_type": "github_repository",
+          "title": "tracking-link-generator",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-tracking-link-generator",
+          "entity_type": "site",
+          "title": "tracking-link-generator",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "trucker repair tracker",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-trucker-repair-tracker",
+          "entity_type": "github_repository",
+          "title": "trucker-repair-tracker",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-trucker-repair-tracker",
+          "entity_type": "site",
+          "title": "trucker-repair-tracker",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "underdog capital os",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-underdog-capital-os",
+          "entity_type": "github_repository",
+          "title": "underdog-capital-os",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-underdog-capital-os",
+          "entity_type": "site",
+          "title": "underdog-capital-os",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "v0 skal ventures template",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-v0-skal-ventures-template",
+          "entity_type": "github_repository",
+          "title": "v0-skal-ventures-template",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-v0-skal-ventures-template",
+          "entity_type": "site",
+          "title": "v0-skal-ventures-template",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "vault infra portal",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-vault-infra-portal",
+          "entity_type": "github_repository",
+          "title": "vault-infra-portal",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-vault-infra-portal",
+          "entity_type": "site",
+          "title": "vault-infra-portal",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "venturebuild ai",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-venturebuild-ai",
+          "entity_type": "github_repository",
+          "title": "VentureBuild-AI",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-venturebuild-ai",
+          "entity_type": "site",
+          "title": "VentureBuild-AI",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "vnv",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "repo-vnv",
+          "entity_type": "github_repository",
+          "title": "VnV",
+          "file": "registries\\resources\\repositories.json"
+        },
+        {
+          "resource_id": "site-vnv",
+          "entity_type": "site",
+          "title": "VnV",
+          "file": "registries\\resources\\sites.json"
+        }
+      ]
+    }
+  ],
+  "policy": {
+    "fatal": [
+      "duplicate resource_id"
+    ],
+    "review_only": [
+      "shared canonical/public URL",
+      "shared repo URL",
+      "normalized title match"
+    ]
+  }
+}

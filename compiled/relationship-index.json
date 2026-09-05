@@ -1,0 +1,2948 @@
+{
+  "generated_at": "2026-09-05T13:13:17.369Z",
+  "source_count": 233,
+  "relationship_count": 275,
+  "relationships_by_source": {
+    "app-acquiremeta": [
+      {
+        "relationship_id": "rel-app-acquiremeta-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-ai-funding-pathfinder": [
+      {
+        "relationship_id": "rel-app-ai-funding-pathfinder-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-bizcredit-os": [
+      {
+        "relationship_id": "rel-app-bizcredit-os-part-of-stack-business-credit",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-business-credit"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-bizfin-os-smart-banking": [
+      {
+        "relationship_id": "rel-app-bizfin-os-smart-banking-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-distilled-funding": [
+      {
+        "relationship_id": "rel-app-distilled-funding-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-elitebroker-ai": [
+      {
+        "relationship_id": "rel-app-elitebroker-ai-part-of-stack-broker-ops-crm-automation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-broker-ops-crm-automation"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-flow-finance": [
+      {
+        "relationship_id": "rel-app-flow-finance-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-flowstate-managed-cash-flow": [
+      {
+        "relationship_id": "rel-app-flowstate-managed-cash-flow-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-foundry-os": [
+      {
+        "relationship_id": "rel-app-foundry-os-part-of-stack-business-credit",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-business-credit"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-funding-partners-os-agent-dashboard": [
+      {
+        "relationship_id": "rel-app-funding-partners-os-agent-dashboard-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-gemini-appsmith": [
+      {
+        "relationship_id": "rel-app-gemini-appsmith-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-gemini-blueprint-studio": [
+      {
+        "relationship_id": "rel-app-gemini-blueprint-studio-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-google-ai-studio-app-builder": [
+      {
+        "relationship_id": "rel-app-google-ai-studio-app-builder-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-moonshine-capital-partner-welcome": [
+      {
+        "relationship_id": "rel-app-moonshine-capital-partner-welcome-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-myfigures-partner-program-onboarding": [
+      {
+        "relationship_id": "rel-app-myfigures-partner-program-onboarding-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-partnerlaunch-funding-widget-suite": [
+      {
+        "relationship_id": "rel-app-partnerlaunch-funding-widget-suite-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-phantom-cash-calculator": [
+      {
+        "relationship_id": "rel-app-phantom-cash-calculator-part-of-stack-ecommerce-capital",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-ecommerce-capital"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-territory-commander": [
+      {
+        "relationship_id": "rel-app-territory-commander-part-of-stack-broker-ops-crm-automation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-broker-ops-crm-automation"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-venture-build-ai": [
+      {
+        "relationship_id": "rel-app-venture-build-ai-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "ai_studio_apps member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-vibe-site-smith": [
+      {
+        "relationship_id": "rel-app-vibe-site-smith-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "app-wrapperforge": [
+      {
+        "relationship_id": "rel-app-wrapperforge-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "calculator-buyer-equity-calculator": [
+      {
+        "relationship_id": "rel-calculator-buyer-equity-calculator-related-to-calculator-business-acquisition-deal-calculator",
+        "relationship_type": "related_to",
+        "target": {
+          "resource_id": "calculator-business-acquisition-deal-calculator"
+        },
+        "context": "Legacy registry maps both resources to the same AcquiStack AI live surface.",
+        "weight": 0.9
+      }
+    ],
+    "calculator-contractor-cash-flow-calculator": [
+      {
+        "relationship_id": "rel-calculator-contractor-cash-flow-calculator-related-to-calculator-payroll-gap-bridge-estimator",
+        "relationship_type": "related_to",
+        "target": {
+          "resource_id": "calculator-payroll-gap-bridge-estimator"
+        },
+        "context": "Legacy registry supplied the target resource's canonical URL as this resource's secondary URL.",
+        "weight": 0.85
+      }
+    ],
+    "calculator-earnout-modeler": [
+      {
+        "relationship_id": "rel-calculator-earnout-modeler-related-to-calculator-business-acquisition-deal-calculator",
+        "relationship_type": "related_to",
+        "target": {
+          "resource_id": "calculator-business-acquisition-deal-calculator"
+        },
+        "context": "Legacy registry maps both resources to the same AcquiStack AI live surface.",
+        "weight": 0.9
+      }
+    ],
+    "calculator-fix-and-flip-deal-math-tool": [
+      {
+        "relationship_id": "rel-calculator-fix-and-flip-deal-math-tool-related-to-calculator-deal-killer-hard-money-analyzer",
+        "relationship_type": "related_to",
+        "target": {
+          "resource_id": "calculator-deal-killer-hard-money-analyzer"
+        },
+        "context": "Legacy registry supplied the target resource's canonical URL as this resource's secondary URL.",
+        "weight": 0.85
+      }
+    ],
+    "calculator-job-cost-funding-worksheet": [
+      {
+        "relationship_id": "rel-calculator-job-cost-funding-worksheet-related-to-calculator-neca-material-money-quoter",
+        "relationship_type": "related_to",
+        "target": {
+          "resource_id": "calculator-neca-material-money-quoter"
+        },
+        "context": "Legacy registry supplied the target resource's canonical URL as this resource's secondary URL.",
+        "weight": 0.85
+      }
+    ],
+    "calculator-seller-note-modeler": [
+      {
+        "relationship_id": "rel-calculator-seller-note-modeler-implemented-by-repo-acquistack-ai",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-acquistack-ai"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-calculator-seller-note-modeler-related-to-calculator-business-acquisition-deal-calculator",
+        "relationship_type": "related_to",
+        "target": {
+          "resource_id": "calculator-business-acquisition-deal-calculator"
+        },
+        "context": "Legacy registry maps both resources to the same AcquiStack AI live surface.",
+        "weight": 0.9
+      }
+    ],
+    "gpt-ad-spend-cash-flow-calculator": [
+      {
+        "relationship_id": "rel-gpt-ad-spend-cash-flow-calculator-part-of-stack-ecommerce-capital",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-ecommerce-capital"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-affiliate-marketing-strategist": [
+      {
+        "relationship_id": "rel-gpt-affiliate-marketing-strategist-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-agent-growth-hub": [
+      {
+        "relationship_id": "rel-gpt-agent-growth-hub-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-agent-launch-site-builder": [
+      {
+        "relationship_id": "rel-gpt-agent-launch-site-builder-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-ai-fractional-cfo": [
+      {
+        "relationship_id": "rel-gpt-ai-fractional-cfo-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-ai-reviews-blog-writer": [
+      {
+        "relationship_id": "rel-gpt-ai-reviews-blog-writer-part-of-stack-seo-content-ai-citation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-seo-content-ai-citation"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-bridge-capital-finder-gpt": [
+      {
+        "relationship_id": "rel-gpt-bridge-capital-finder-gpt-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-broker-follow-up-machine": [
+      {
+        "relationship_id": "rel-gpt-broker-follow-up-machine-part-of-stack-broker-ops-crm-automation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-broker-ops-crm-automation"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-business-banker-gpt": [
+      {
+        "relationship_id": "rel-gpt-business-banker-gpt-part-of-stack-business-credit",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-business-credit"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-cashflow-copilot": [
+      {
+        "relationship_id": "rel-gpt-cashflow-copilot-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-dac-affiliate-email-wizard": [
+      {
+        "relationship_id": "rel-gpt-dac-affiliate-email-wizard-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-deal-maker-ads": [
+      {
+        "relationship_id": "rel-gpt-deal-maker-ads-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-detailed-keyword-analysis-seo": [
+      {
+        "relationship_id": "rel-gpt-detailed-keyword-analysis-seo-part-of-stack-seo-content-ai-citation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-seo-content-ai-citation"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-ecommerce-cash-flow-forecaster": [
+      {
+        "relationship_id": "rel-gpt-ecommerce-cash-flow-forecaster-part-of-stack-ecommerce-capital",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-ecommerce-capital"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-fix-and-flip-capital-coach": [
+      {
+        "relationship_id": "rel-gpt-fix-and-flip-capital-coach-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-flash-ui-prompt-architect": [
+      {
+        "relationship_id": "rel-gpt-flash-ui-prompt-architect-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-fundable-lead-finder": [
+      {
+        "relationship_id": "rel-gpt-fundable-lead-finder-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-funding-article-refresh-auditor": [
+      {
+        "relationship_id": "rel-gpt-funding-article-refresh-auditor-part-of-stack-seo-content-ai-citation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-seo-content-ai-citation"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-funding-workflow-sop-builder": [
+      {
+        "relationship_id": "rel-gpt-funding-workflow-sop-builder-part-of-stack-broker-ops-crm-automation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-broker-ops-crm-automation"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-get-my-funding-offer": [
+      {
+        "relationship_id": "rel-gpt-get-my-funding-offer-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-harper-hubspot-api-architect": [
+      {
+        "relationship_id": "rel-gpt-harper-hubspot-api-architect-part-of-stack-broker-ops-crm-automation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-broker-ops-crm-automation"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-loan-broker-automation-architect": [
+      {
+        "relationship_id": "rel-gpt-loan-broker-automation-architect-part-of-stack-broker-ops-crm-automation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-broker-ops-crm-automation"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-no-code-gpt-builder": [
+      {
+        "relationship_id": "rel-gpt-no-code-gpt-builder-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-real-time-cash-flow-analyzer": [
+      {
+        "relationship_id": "rel-gpt-real-time-cash-flow-analyzer-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-siteforge-operator": [
+      {
+        "relationship_id": "rel-gpt-siteforge-operator-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-sizzling-website-and-ui-generator": [
+      {
+        "relationship_id": "rel-gpt-sizzling-website-and-ui-generator-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-start-your-own-funding-agency": [
+      {
+        "relationship_id": "rel-gpt-start-your-own-funding-agency-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-the-business-buyer-s-blueprint": [
+      {
+        "relationship_id": "rel-gpt-the-business-buyer-s-blueprint-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-vercel-launch-smith": [
+      {
+        "relationship_id": "rel-gpt-vercel-launch-smith-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-voice-agent-call-flow-builder": [
+      {
+        "relationship_id": "rel-gpt-voice-agent-call-flow-builder-part-of-stack-broker-ops-crm-automation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-broker-ops-crm-automation"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "gpt-weekly-finance-brief-bot": [
+      {
+        "relationship_id": "rel-gpt-weekly-finance-brief-bot-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "notion-bank-statement-analyzer-funding-readiness": [
+      {
+        "relationship_id": "rel-notion-bank-statement-analyzer-funding-readiness-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "notion-bizcredit-builder-gpt": [
+      {
+        "relationship_id": "rel-notion-bizcredit-builder-gpt-part-of-stack-business-credit",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-business-credit"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      },
+      {
+        "relationship_id": "rel-notion-bizcredit-builder-gpt-uses-provider-credit-suite",
+        "relationship_type": "uses",
+        "target": {
+          "resource_id": "provider-credit-suite"
+        },
+        "context": "Related tool declared by GPT asset registry",
+        "weight": 0.85
+      }
+    ],
+    "notion-deal-scorecard-gpt": [
+      {
+        "relationship_id": "rel-notion-deal-scorecard-gpt-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "notion-finance-ops-copilot": [
+      {
+        "relationship_id": "rel-notion-finance-ops-copilot-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "notion-is-this-a-good-deal-gpt": [
+      {
+        "relationship_id": "rel-notion-is-this-a-good-deal-gpt-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "repo-capital-launchpad": [
+      {
+        "relationship_id": "rel-repo-capital-launchpad-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "repo-seo-audit-mc": [
+      {
+        "relationship_id": "rel-repo-seo-audit-mc-part-of-stack-seo-content-ai-citation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-seo-content-ai-citation"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-7-steps-launchpad": [
+      {
+        "relationship_id": "rel-site-7-steps-launchpad-implemented-by-repo-7-steps-launchpad",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-7-steps-launchpad"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-7figures-partner-lander": [
+      {
+        "relationship_id": "rel-site-7figures-partner-lander-implemented-by-repo-capital-launchpad",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-capital-launchpad"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-8fig-battle-plan": [
+      {
+        "relationship_id": "rel-site-8fig-battle-plan-implemented-by-repo-8fig-battle-plan",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-8fig-battle-plan"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-acquire-meta": [
+      {
+        "relationship_id": "rel-site-acquire-meta-implemented-by-repo-acquire-meta",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-acquire-meta"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-acquire-meta-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-acquisition-deal-calculator": [
+      {
+        "relationship_id": "rel-site-acquisition-deal-calculator-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-ad-spend-cashflow": [
+      {
+        "relationship_id": "rel-site-ad-spend-cashflow-implemented-by-repo-ad-spend-cashflow",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-ad-spend-cashflow"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-ad-spend-cashflow-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-affiliate-dashboard": [
+      {
+        "relationship_id": "rel-site-affiliate-dashboard-implemented-by-repo-affiliate-dashboard",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-affiliate-dashboard"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-affiliate-launch-kit-generator": [
+      {
+        "relationship_id": "rel-site-affiliate-launch-kit-generator-implemented-by-repo-affiliate-launch-kit-generator",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-affiliate-launch-kit-generator"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-affiliate-launch-kit-generator-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-agency-in-a-box": [
+      {
+        "relationship_id": "rel-site-agency-in-a-box-implemented-by-repo-agency-in-a-box",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-agency-in-a-box"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-agency-lab": [
+      {
+        "relationship_id": "rel-site-agency-lab-implemented-by-repo-agency-lab",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-agency-lab"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-agent-grid": [
+      {
+        "relationship_id": "rel-site-agent-grid-implemented-by-repo-agent-grid",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-agent-grid"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-agent-portal": [
+      {
+        "relationship_id": "rel-site-agent-portal-implemented-by-repo-agent-portal",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-agent-portal"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-agent-portal-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-agenthunt": [
+      {
+        "relationship_id": "rel-site-agenthunt-implemented-by-repo-agent-hunt",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-agent-hunt"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-ai-agent-arsenal": [
+      {
+        "relationship_id": "rel-site-ai-agent-arsenal-implemented-by-repo-ai-agent-arsenal",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-ai-agent-arsenal"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-ai-agent-library": [
+      {
+        "relationship_id": "rel-site-ai-agent-library-implemented-by-repo-ai-agent-library",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-ai-agent-library"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-ai-citation-auditor": [
+      {
+        "relationship_id": "rel-site-ai-citation-auditor-implemented-by-repo-ai-citation-auditor",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-ai-citation-auditor"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-ai-citation-auditor-part-of-stack-seo-content-ai-citation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-seo-content-ai-citation"
+        },
+        "context": "gpt_brains member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-ai-funding-coach": [
+      {
+        "relationship_id": "rel-site-ai-funding-coach-implemented-by-repo-ai-funding-coach",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-ai-funding-coach"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-ai-funding-pathfinder": [
+      {
+        "relationship_id": "rel-site-ai-funding-pathfinder-implemented-by-repo-ai-funding-pathfinder",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-ai-funding-pathfinder"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-ai-studio-app-builder": [
+      {
+        "relationship_id": "rel-site-ai-studio-app-builder-implemented-by-repo-ai-studio-app-builder",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-ai-studio-app-builder"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-ai-studio-app-builder-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-alan-watts-archive": [
+      {
+        "relationship_id": "rel-site-alan-watts-archive-implemented-by-repo-alan-watts-archive",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-alan-watts-archive"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-alan-watts-directory": [
+      {
+        "relationship_id": "rel-site-alan-watts-directory-implemented-by-repo-alan-watts-directory",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-alan-watts-directory"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-amazon-payout-gap": [
+      {
+        "relationship_id": "rel-site-amazon-payout-gap-implemented-by-repo-amazon-payout-gap",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-amazon-payout-gap"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-amazon-payout-unlocker": [
+      {
+        "relationship_id": "rel-site-amazon-payout-unlocker-part-of-stack-ecommerce-capital",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-ecommerce-capital"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-bank-breezy-battle-plan": [
+      {
+        "relationship_id": "rel-site-bank-breezy-battle-plan-implemented-by-repo-bank-breezy-battle-plan",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-bank-breezy-battle-plan"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-bank-breezy-nova": [
+      {
+        "relationship_id": "rel-site-bank-breezy-nova-implemented-by-repo-bank-breezy-nova",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-bank-breezy-nova"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-bio-2": [
+      {
+        "relationship_id": "rel-site-bio-2-implemented-by-repo-bio-2",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-bio-2"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-biz-credit-builder": [
+      {
+        "relationship_id": "rel-site-biz-credit-builder-implemented-by-repo-bizcredit-builder",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-bizcredit-builder"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-biz-credit-builder-part-of-stack-business-credit",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-business-credit"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-bizcred-ai": [
+      {
+        "relationship_id": "rel-site-bizcred-ai-implemented-by-repo-bizcred-ai",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-bizcred-ai"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-bizcred": [
+      {
+        "relationship_id": "rel-site-bizcred-implemented-by-repo-bizcred",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-bizcred"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-bizcredit": [
+      {
+        "relationship_id": "rel-site-bizcredit-implemented-by-repo-bizcredit",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-bizcredit"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-bizfin-os": [
+      {
+        "relationship_id": "rel-site-bizfin-os-implemented-by-repo-bizfin-os",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-bizfin-os"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-bizfin-os-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-bizfin-os-smart-banking": [
+      {
+        "relationship_id": "rel-site-bizfin-os-smart-banking-implemented-by-repo-bizfin-os-smart-banking",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-bizfin-os-smart-banking"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-broker-followup-machine": [
+      {
+        "relationship_id": "rel-site-broker-followup-machine-implemented-by-repo-broker-followup-machine",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-broker-followup-machine"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-broker-followup-machine-part-of-stack-broker-ops-crm-automation",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-broker-ops-crm-automation"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-brokerflow-ai": [
+      {
+        "relationship_id": "rel-site-brokerflow-ai-implemented-by-repo-brokerflow-ai",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-brokerflow-ai"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-burn-rate-runway-widget": [
+      {
+        "relationship_id": "rel-site-burn-rate-runway-widget-implemented-by-repo-burn-rate-runway-widget",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-burn-rate-runway-widget"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-burn-rate-runway-widget-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-burpee-v1": [
+      {
+        "relationship_id": "rel-site-burpee-v1-implemented-by-repo-burpee-v1",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-burpee-v1"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-business-loan-affiliate-hub": [
+      {
+        "relationship_id": "rel-site-business-loan-affiliate-hub-implemented-by-repo-business-loan-affiliate-hub",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-business-loan-affiliate-hub"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-business-loan-affiliate-library": [
+      {
+        "relationship_id": "rel-site-business-loan-affiliate-library-implemented-by-repo-business-loan-affiliate-library",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-business-loan-affiliate-library"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-capital-incubator": [
+      {
+        "relationship_id": "rel-site-capital-incubator-implemented-by-repo-capital-incubator",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-capital-incubator"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-capital-stack-eut5": [
+      {
+        "relationship_id": "rel-site-capital-stack-eut5-implemented-by-repo-capitalstack",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-capitalstack"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-capital-stack": [
+      {
+        "relationship_id": "rel-site-capital-stack-implemented-by-repo-capital-stack",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-capital-stack"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-capital-stack-os": [
+      {
+        "relationship_id": "rel-site-capital-stack-os-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-capitalgrid": [
+      {
+        "relationship_id": "rel-site-capitalgrid-implemented-by-repo-capitalgrid",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-capitalgrid"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-cash-command": [
+      {
+        "relationship_id": "rel-site-cash-command-implemented-by-repo-cash-command",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-cash-command"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-cash-command-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-cash-flow-gap-bridge-calculator": [
+      {
+        "relationship_id": "rel-site-cash-flow-gap-bridge-calculator-implemented-by-repo-cash-flow-gap-bridge-calculator",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-cash-flow-gap-bridge-calculator"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-cashflow-copilot-4": [
+      {
+        "relationship_id": "rel-site-cashflow-copilot-4-implemented-by-repo-cashflow-copilot-4",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-cashflow-copilot-4"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-cashflow": [
+      {
+        "relationship_id": "rel-site-cashflow-implemented-by-repo-cashflow",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-cashflow"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-cashflow-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-cashflow-stress-test": [
+      {
+        "relationship_id": "rel-site-cashflow-stress-test-implemented-by-repo-cashflow-stress-test",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-cashflow-stress-test"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-cashgap": [
+      {
+        "relationship_id": "rel-site-cashgap-implemented-by-repo-cashgap",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-cashgap"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-cfo-in-a-box": [
+      {
+        "relationship_id": "rel-site-cfo-in-a-box-implemented-by-repo-cfo-in-a-box",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-cfo-in-a-box"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-cfo-in-a-box-part-of-stack-fractional-cfo-cash-flow",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-fractional-cfo-cash-flow"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-cpa-capital-desk": [
+      {
+        "relationship_id": "rel-site-cpa-capital-desk-implemented-by-repo-cpa-capital-desk",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-cpa-capital-desk"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-cpa-partner": [
+      {
+        "relationship_id": "rel-site-cpa-partner-implemented-by-repo-cpa-partner",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-cpa-partner"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-creator-house": [
+      {
+        "relationship_id": "rel-site-creator-house-implemented-by-repo-creator-house",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-creator-house"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-custom-gpt-directory": [
+      {
+        "relationship_id": "rel-site-custom-gpt-directory-implemented-by-repo-custom-gpt-directory",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-custom-gpt-directory"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-dac-affiliate-enablement": [
+      {
+        "relationship_id": "rel-site-dac-affiliate-enablement-implemented-by-repo-dac-affiliate-enablement",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-dac-affiliate-enablement"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-dac-affiliate-enablement-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-dac-comp": [
+      {
+        "relationship_id": "rel-site-dac-comp-implemented-by-repo-dac-comp",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-dac-comp"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-dac-comp-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-dac-funnel-tracker": [
+      {
+        "relationship_id": "rel-site-dac-funnel-tracker-implemented-by-repo-dac-funnel-tracker",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-dac-funnel-tracker"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-dac-goal-calculator": [
+      {
+        "relationship_id": "rel-site-dac-goal-calculator-implemented-by-repo-dac-goal-calculator",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-dac-goal-calculator"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-dac-goal-calculator-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-dac-pay": [
+      {
+        "relationship_id": "rel-site-dac-pay-implemented-by-repo-dac-pay",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-dac-pay"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-dac-social": [
+      {
+        "relationship_id": "rel-site-dac-social-implemented-by-repo-dac-social",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-dac-social"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-dfy-funding": [
+      {
+        "relationship_id": "rel-site-dfy-funding-implemented-by-repo-dfy-funding",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-dfy-funding"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-distilled-funding-tools": [
+      {
+        "relationship_id": "rel-site-distilled-funding-tools-implemented-by-repo-distilled-funding-tools",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-distilled-funding-tools"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-distilled-partner-hub": [
+      {
+        "relationship_id": "rel-site-distilled-partner-hub-implemented-by-repo-distilled-partner-hub",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-distilled-partner-hub"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-distilled-tools-pro": [
+      {
+        "relationship_id": "rel-site-distilled-tools-pro-implemented-by-repo-distilled-tools-pro",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-distilled-tools-pro"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-distilledfunding": [
+      {
+        "relationship_id": "rel-site-distilledfunding-implemented-by-repo-distilledfunding",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-distilledfunding"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-distilledfunding-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-dmv-bizfund-os": [
+      {
+        "relationship_id": "rel-site-dmv-bizfund-os-implemented-by-repo-dmv-bizfund-os",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-dmv-bizfund-os"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-ecommerce-cash-flow": [
+      {
+        "relationship_id": "rel-site-ecommerce-cash-flow-implemented-by-repo-ecommerce-cash-flow",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-ecommerce-cash-flow"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-ecommerce-cash-flow-part-of-stack-ecommerce-capital",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-ecommerce-capital"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-elitebroker-ai": [
+      {
+        "relationship_id": "rel-site-elitebroker-ai-implemented-by-repo-elitebroker-ai",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-elitebroker-ai"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-embed-widgets": [
+      {
+        "relationship_id": "rel-site-embed-widgets-implemented-by-repo-embed-widgets",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-embed-widgets"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-equity-defender": [
+      {
+        "relationship_id": "rel-site-equity-defender-implemented-by-repo-equity-defender",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-equity-defender"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-equity-defender-widget": [
+      {
+        "relationship_id": "rel-site-equity-defender-widget-implemented-by-repo-equity-defender-widget",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-equity-defender-widget"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-estimator": [
+      {
+        "relationship_id": "rel-site-estimator-implemented-by-repo-estimator",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-estimator"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-estimator-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-finance-gap-calculator": [
+      {
+        "relationship_id": "rel-site-finance-gap-calculator-implemented-by-repo-finance-gap-calculator",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-finance-gap-calculator"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-financing-widget": [
+      {
+        "relationship_id": "rel-site-financing-widget-implemented-by-repo-financing-widget",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-financing-widget"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-finops-ai-agents": [
+      {
+        "relationship_id": "rel-site-finops-ai-agents-implemented-by-repo-finops-ai-agents",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-finops-ai-agents"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-finwise-saas-landing-page": [
+      {
+        "relationship_id": "rel-site-finwise-saas-landing-page-implemented-by-repo-finwise-saas-landing-page",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-finwise-saas-landing-page"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-flash-ui-portfolio": [
+      {
+        "relationship_id": "rel-site-flash-ui-portfolio-implemented-by-repo-flash-ui-portfolio",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-flash-ui-portfolio"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-flash-ui-prompts": [
+      {
+        "relationship_id": "rel-site-flash-ui-prompts-implemented-by-repo-flash-ui-prompts",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-flash-ui-prompts"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-flash-ui-prompts-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-flash-ui-v2": [
+      {
+        "relationship_id": "rel-site-flash-ui-v2-implemented-by-repo-flash-ui-v2",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-flash-ui-v2"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-founder-fuel": [
+      {
+        "relationship_id": "rel-site-founder-fuel-implemented-by-repo-founder-fuel",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-founder-fuel"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-foundryos": [
+      {
+        "relationship_id": "rel-site-foundryos-implemented-by-repo-foundryos",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-foundryos"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-foundryos-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-fpos": [
+      {
+        "relationship_id": "rel-site-fpos-implemented-by-repo-fpos",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-fpos"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-fund-stack-ai": [
+      {
+        "relationship_id": "rel-site-fund-stack-ai-implemented-by-repo-fundstack-ai",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-fundstack-ai"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-funding-action-plan": [
+      {
+        "relationship_id": "rel-site-funding-action-plan-implemented-by-repo-funding-action-plan",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-funding-action-plan"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-funding-any-reason": [
+      {
+        "relationship_id": "rel-site-funding-any-reason-implemented-by-repo-funding-any-reason",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-funding-any-reason"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-funding-ceo": [
+      {
+        "relationship_id": "rel-site-funding-ceo-implemented-by-repo-funding-ceo",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-funding-ceo"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-funding-embed": [
+      {
+        "relationship_id": "rel-site-funding-embed-implemented-by-repo-funding-embed",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-funding-embed"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-funding-embed-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-funding-partners-os-dashboard": [
+      {
+        "relationship_id": "rel-site-funding-partners-os-dashboard-implemented-by-repo-funding-partners-os-dashboard",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-funding-partners-os-dashboard"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-funding-partners-os": [
+      {
+        "relationship_id": "rel-site-funding-partners-os-implemented-by-repo-funding-partners-os",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-funding-partners-os"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-funding-quiz": [
+      {
+        "relationship_id": "rel-site-funding-quiz-implemented-by-repo-funding-quiz",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-funding-quiz"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-funding-quiz-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-funding-tools-os": [
+      {
+        "relationship_id": "rel-site-funding-tools-os-implemented-by-repo-funding-tools-os",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-funding-tools-os"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-funding-tools-static": [
+      {
+        "relationship_id": "rel-site-funding-tools-static-implemented-by-repo-funding-tools-static",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-funding-tools-static"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-funding-workflow-builder": [
+      {
+        "relationship_id": "rel-site-funding-workflow-builder-implemented-by-repo-funding-workflow-builder",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-funding-workflow-builder"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-fundstack-ai": [
+      {
+        "relationship_id": "rel-site-fundstack-ai-implemented-by-repo-fundstack-ai",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-fundstack-ai"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-gemini-appsmith": [
+      {
+        "relationship_id": "rel-site-gemini-appsmith-implemented-by-repo-gemini-appsmith",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-gemini-appsmith"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-gpt-action-architect": [
+      {
+        "relationship_id": "rel-site-gpt-action-architect-implemented-by-repo-gpt-action-architect",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-gpt-action-architect"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-grant-writer": [
+      {
+        "relationship_id": "rel-site-grant-writer-implemented-by-repo-grant-writer",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-grant-writer"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-hard-money-lenders": [
+      {
+        "relationship_id": "rel-site-hard-money-lenders-implemented-by-repo-hard-money-lenders",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-hard-money-lenders"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-hard-money-lenders-part-of-stack-real-estate-fix-and-flip",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-real-estate-fix-and-flip"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-intel-grid": [
+      {
+        "relationship_id": "rel-site-intel-grid-implemented-by-repo-intel-grid",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-intel-grid"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-inventory-turnover-accelerator": [
+      {
+        "relationship_id": "rel-site-inventory-turnover-accelerator-part-of-stack-ecommerce-capital",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-ecommerce-capital"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-investor-data-room": [
+      {
+        "relationship_id": "rel-site-investor-data-room-implemented-by-repo-investor-data-room",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-investor-data-room"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-jason": [
+      {
+        "relationship_id": "rel-site-jason-implemented-by-repo-jason",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-jason"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-jason-speaks": [
+      {
+        "relationship_id": "rel-site-jason-speaks-implemented-by-repo-jason-speaks",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-jason-speaks"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-jf-brand-os": [
+      {
+        "relationship_id": "rel-site-jf-brand-os-implemented-by-repo-jf-brand-os",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-jf-brand-os"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-jfv": [
+      {
+        "relationship_id": "rel-site-jfv-implemented-by-repo-jfv",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-jfv"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-kj-industries": [
+      {
+        "relationship_id": "rel-site-kj-industries-implemented-by-repo-kj-industries",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-kj-industries"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-ledgerops": [
+      {
+        "relationship_id": "rel-site-ledgerops-implemented-by-repo-ledgerops",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-ledgerops"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-lendavo-partner-portal": [
+      {
+        "relationship_id": "rel-site-lendavo-partner-portal-implemented-by-repo-lendavo-partner-portal",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-lendavo-partner-portal"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-ma-deal-analyzer": [
+      {
+        "relationship_id": "rel-site-ma-deal-analyzer-implemented-by-repo-ma-deal-analyzer",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-ma-deal-analyzer"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-ma-deal-analyzer-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-market-sniper-hub": [
+      {
+        "relationship_id": "rel-site-market-sniper-hub-implemented-by-repo-market-sniper-hub",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-market-sniper-hub"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-micro-acquisition-fundability-calculator": [
+      {
+        "relationship_id": "rel-site-micro-acquisition-fundability-calculator-implemented-by-repo-micro-acquisition-fundability-calculator",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-micro-acquisition-fundability-calculator"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-micro-acquisition-fundability-calculator-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-microsite-automation": [
+      {
+        "relationship_id": "rel-site-microsite-automation-implemented-by-repo-microsite-automation",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-microsite-automation"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-microsite-automation-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-moonshine-account-portal": [
+      {
+        "relationship_id": "rel-site-moonshine-account-portal-implemented-by-repo-moonshine-account-portal",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-account-portal"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonshine-affiliate-ops": [
+      {
+        "relationship_id": "rel-site-moonshine-affiliate-ops-implemented-by-repo-moonshine-affiliate-ops",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-affiliate-ops"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonshine-ai-directory": [
+      {
+        "relationship_id": "rel-site-moonshine-ai-directory-implemented-by-repo-moonshine-ai-directory",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-ai-directory"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-moonshine-ai-directory-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-moonshine-broker": [
+      {
+        "relationship_id": "rel-site-moonshine-broker-implemented-by-repo-moonshine-broker",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-broker"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonshine-capital": [
+      {
+        "relationship_id": "rel-site-moonshine-capital-implemented-by-repo-moonshine-capital",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-capital"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonshine-capital-partners": [
+      {
+        "relationship_id": "rel-site-moonshine-capital-partners-implemented-by-repo-moonshine-capital-partners",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-capital-partners"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonshine-editorial-bento": [
+      {
+        "relationship_id": "rel-site-moonshine-editorial-bento-implemented-by-repo-moonshine-editorial-bento",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-editorial-bento"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonshine-funding-funnel": [
+      {
+        "relationship_id": "rel-site-moonshine-funding-funnel-implemented-by-repo-moonshine-funding-funnel",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-funding-funnel"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonshine-funding-os": [
+      {
+        "relationship_id": "rel-site-moonshine-funding-os-implemented-by-repo-moonshine-funding-os",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-funding-os"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonshine-funding-static": [
+      {
+        "relationship_id": "rel-site-moonshine-funding-static-implemented-by-repo-moonshine-funding-static",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-funding-static"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonshine-intake-router": [
+      {
+        "relationship_id": "rel-site-moonshine-intake-router-implemented-by-repo-moonshine-intake-router",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-intake-router"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonshine-partner-marketplace": [
+      {
+        "relationship_id": "rel-site-moonshine-partner-marketplace-implemented-by-repo-moonshine-partner-marketplace",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonshine-partner-marketplace"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-moonsine-partner-page": [
+      {
+        "relationship_id": "rel-site-moonsine-partner-page-implemented-by-repo-moonsine-partner-page",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-moonsine-partner-page"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-myfigures-partner-onboarding": [
+      {
+        "relationship_id": "rel-site-myfigures-partner-onboarding-implemented-by-repo-myfigures-partner-onboarding",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-myfigures-partner-onboarding"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-myfigures-partner-onboarding-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-newsletter-archive": [
+      {
+        "relationship_id": "rel-site-newsletter-archive-implemented-by-repo-newsletter-site",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-newsletter-site"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-newsletter-builder": [
+      {
+        "relationship_id": "rel-site-newsletter-builder-implemented-by-repo-newsletter-builder",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-newsletter-builder"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-nexus-foundry": [
+      {
+        "relationship_id": "rel-site-nexus-foundry-implemented-by-repo-nexus-foundry",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-nexus-foundry"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-niche-landing-page-factory": [
+      {
+        "relationship_id": "rel-site-niche-landing-page-factory-implemented-by-repo-niche-landing-page-factory",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-niche-landing-page-factory"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-niche-landing-page-factory-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-notion-to-site": [
+      {
+        "relationship_id": "rel-site-notion-to-site-implemented-by-repo-notion-to-site",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-notion-to-site"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-notion-to-site-part-of-stack-asset-foundry-meta-builder",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-asset-foundry-meta-builder"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-onboarding": [
+      {
+        "relationship_id": "rel-site-onboarding-implemented-by-repo-onboarding",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-onboarding"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-onboarding-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-operation-velocity": [
+      {
+        "relationship_id": "rel-site-operation-velocity-implemented-by-repo-operation-velocity",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-operation-velocity"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-operator-funding-site": [
+      {
+        "relationship_id": "rel-site-operator-funding-site-implemented-by-repo-operator-funding-site",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-operator-funding-site"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-operator-funding-site-part-of-stack-borrower-qualification",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-borrower-qualification"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-partner-command-center": [
+      {
+        "relationship_id": "rel-site-partner-command-center-implemented-by-repo-partner-command-center",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-partner-command-center"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-partner-enablement-os": [
+      {
+        "relationship_id": "rel-site-partner-enablement-os-implemented-by-repo-partner-enablement-os",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-partner-enablement-os"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-partner-enablement-os-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-partner-growth-hub": [
+      {
+        "relationship_id": "rel-site-partner-growth-hub-implemented-by-repo-partner-growth-hub",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-partner-growth-hub"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-partner-onboarding": [
+      {
+        "relationship_id": "rel-site-partner-onboarding-implemented-by-repo-partner-onboarding",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-partner-onboarding"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-partner-portal": [
+      {
+        "relationship_id": "rel-site-partner-portal-implemented-by-repo-partner-portal",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-partner-portal"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-partnerhub": [
+      {
+        "relationship_id": "rel-site-partnerhub-implemented-by-repo-partnerhub",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-partnerhub"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-partnerhub-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-partnerlaunch": [
+      {
+        "relationship_id": "rel-site-partnerlaunch-implemented-by-repo-partnerlaunch",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-partnerlaunch"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-prompt-lab": [
+      {
+        "relationship_id": "rel-site-prompt-lab-implemented-by-repo-prompt-lab",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-prompt-lab"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-real-estate-agents": [
+      {
+        "relationship_id": "rel-site-real-estate-agents-implemented-by-repo-real-estate-agents",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-real-estate-agents"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-real-estate-agents-part-of-stack-real-estate-fix-and-flip",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-real-estate-fix-and-flip"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-reserve-unlocker": [
+      {
+        "relationship_id": "rel-site-reserve-unlocker-implemented-by-repo-reserve-unlocker",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-reserve-unlocker"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-reserve-unlocker-part-of-stack-ecommerce-capital",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-ecommerce-capital"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-saasfly-ai": [
+      {
+        "relationship_id": "rel-site-saasfly-ai-implemented-by-repo-saasfly",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-saasfly"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-saasfly": [
+      {
+        "relationship_id": "rel-site-saasfly-implemented-by-repo-saasfly",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-saasfly"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-sba-business-acquisition-calculator": [
+      {
+        "relationship_id": "rel-site-sba-business-acquisition-calculator-implemented-by-repo-sba-business-acquisition-calculator",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-sba-business-acquisition-calculator"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-sba-business-acquisition-calculator-part-of-stack-acquisitions-m-and-a",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-acquisitions-m-and-a"
+        },
+        "context": "tool_widgets member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-seller-funding": [
+      {
+        "relationship_id": "rel-site-seller-funding-implemented-by-repo-seller-funding",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-seller-funding"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-seller-funding-part-of-stack-real-estate-fix-and-flip",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-real-estate-fix-and-flip"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-smb-ai-builder": [
+      {
+        "relationship_id": "rel-site-smb-ai-builder-implemented-by-repo-smb-ai-builder",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-smb-ai-builder"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-staged-funding": [
+      {
+        "relationship_id": "rel-site-staged-funding-implemented-by-repo-staged-funding",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-staged-funding"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-start-your-agency": [
+      {
+        "relationship_id": "rel-site-start-your-agency-implemented-by-repo-start-your-agency",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-start-your-agency"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      },
+      {
+        "relationship_id": "rel-site-start-your-agency-part-of-stack-partner-affiliate-enablement",
+        "relationship_type": "part_of",
+        "target": {
+          "resource_id": "stack-partner-affiliate-enablement"
+        },
+        "context": "host_sites member of assistant stack",
+        "weight": 0.95
+      }
+    ],
+    "site-studio-ai": [
+      {
+        "relationship_id": "rel-site-studio-ai-implemented-by-repo-studio-ai",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-studio-ai"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-tax-partner-pro": [
+      {
+        "relationship_id": "rel-site-tax-partner-pro-implemented-by-repo-taxpartnerpro",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-taxpartnerpro"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-territory-commander": [
+      {
+        "relationship_id": "rel-site-territory-commander-implemented-by-repo-territory-commander",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-territory-commander"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-the-capital-paradox-podcast": [
+      {
+        "relationship_id": "rel-site-the-capital-paradox-podcast-implemented-by-repo-the-capital-paradox-podcast",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-the-capital-paradox-podcast"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-the-index": [
+      {
+        "relationship_id": "rel-site-the-index-implemented-by-repo-the-index",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-the-index"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-the-radical-libertarian": [
+      {
+        "relationship_id": "rel-site-the-radical-libertarian-implemented-by-repo-the-radical-libertarian",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-the-radical-libertarian"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-tracking-link-generator": [
+      {
+        "relationship_id": "rel-site-tracking-link-generator-implemented-by-repo-tracking-link-generator",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-tracking-link-generator"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-trucker-repair-tracker": [
+      {
+        "relationship_id": "rel-site-trucker-repair-tracker-implemented-by-repo-trucker-repair-tracker",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-trucker-repair-tracker"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-underdog-capital-os": [
+      {
+        "relationship_id": "rel-site-underdog-capital-os-implemented-by-repo-underdog-capital-os",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-underdog-capital-os"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-v0-skal-ventures-template": [
+      {
+        "relationship_id": "rel-site-v0-skal-ventures-template-implemented-by-repo-v0-skal-ventures-template",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-v0-skal-ventures-template"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-vanguard-gtm": [
+      {
+        "relationship_id": "rel-site-vanguard-gtm-implemented-by-repo-vanguard-gtm",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-vanguard-gtm"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-vault-infra-portal": [
+      {
+        "relationship_id": "rel-site-vault-infra-portal-implemented-by-repo-vault-infra-portal",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-vault-infra-portal"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-venturebuild-ai": [
+      {
+        "relationship_id": "rel-site-venturebuild-ai-implemented-by-repo-venturebuild-ai",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-venturebuild-ai"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-vibe-site-smith": [
+      {
+        "relationship_id": "rel-site-vibe-site-smith-implemented-by-repo-vibe-site-smith",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-vibe-site-smith"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-vidiom-ai": [
+      {
+        "relationship_id": "rel-site-vidiom-ai-implemented-by-repo-vidiom-ai",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-vidiom-ai"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-vnv": [
+      {
+        "relationship_id": "rel-site-vnv-implemented-by-repo-vnv",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-vnv"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ],
+    "site-wrapperforge": [
+      {
+        "relationship_id": "rel-site-wrapperforge-implemented-by-repo-wrapperforge",
+        "relationship_type": "implemented_by",
+        "target": {
+          "resource_id": "repo-wrapperforge"
+        },
+        "context": "Vercel project linked to GitHub repository in vercel-projects.registry.json",
+        "weight": 0.99
+      }
+    ]
+  }
+}

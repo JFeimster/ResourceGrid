@@ -1,1 +1,61 @@
-{}
+﻿{
+    "source_id":  "source-github",
+    "name":  "GitHub",
+    "source_type":  "code_repository_platform",
+    "status":  "active",
+    "purpose":  "Canonical metadata source for repositories, code-backed tools, schemas, skills, agents, workflows, and implementation relationships.",
+    "authority":  {
+                      "canonical_for":  [
+                                            "repository identity",
+                                            "repository URL",
+                                            "default branch",
+                                            "code paths",
+                                            "implementation relationships"
+                                        ],
+                      "rule":  "When another platform owns publication or implementation, enrich/reference that canonical entity rather than duplicating it."
+                  },
+    "ingestion":  {
+                      "preferred_method":  "GitHub connector/API",
+                      "fallback_method":  "owner-provided export",
+                      "raw_destination":  "inbox/raw/github/",
+                      "normalized_destination":  "inbox/normalized/github/",
+                      "preserve_source_ids":  true,
+                      "preserve_source_urls":  true
+                  },
+    "deduplication":  {
+                          "strong_keys":  [
+                                              "github_repository_id",
+                                              "repo_url"
+                                          ],
+                          "secondary_keys":  [
+                                                 "title",
+                                                 "aliases"
+                                             ],
+                          "merge_duplicate_entities":  true,
+                          "preserve_provenance":  true
+                      },
+    "provenance":  {
+                       "required":  true,
+                       "required_fields":  [
+                                               "source.system",
+                                               "source.source_id",
+                                               "source.source_url"
+                                           ]
+                   },
+    "sync_policy":  {
+                        "mode":  "manual_or_automated_refresh",
+                        "stale_after_days":  30,
+                        "refresh_before":  [
+                                               "reconciliation",
+                                               "promotion",
+                                               "compilation"
+                                           ]
+                    },
+    "security":  {
+                     "store_tokens":  false,
+                     "store_secrets":  false,
+                     "respect_source_permissions":  true,
+                     "expose_private_urls_in_public_outputs":  false
+                 },
+    "notes":  "JFeimster/ai-agent-library remains canonical for skill and agent implementations; ResourceGrid indexes and relates them."
+}

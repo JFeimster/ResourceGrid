@@ -1,0 +1,48 @@
+{
+  "name": "resourcegrid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "validate": "node scripts/validate-registry.js",
+    "dedupe": "node scripts/deduplicate-registry.js",
+    "relationships": "node scripts/resolve-relationships.js",
+    "compile": "node scripts/compile-registry.js",
+    "registry:check": "npm run validate && npm run dedupe && npm run relationships",
+    "registry:build": "npm run registry:check && npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JFeimster/ResourceGrid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JFeimster/ResourceGrid/issues"
+  },
+  "homepage": "https://github.com/JFeimster/ResourceGrid#readme",
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "next": "^16.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.4",
+    "typescript": "^6.0.3"
+  }
+}
