@@ -1,1196 +1,2213 @@
 {
   "schema_version": "1.0.0",
   "snapshot_date": "2026-09-05",
-  "purpose": "Master repo-by-repo deployment matrix for important Moonshine/Distilled Funding projects.",
-  "provider_catalog_file": "hosting-options.master.json",
-  "decision_rules": {
-    "priority_order": [
-      "Use the cheapest reliable host that matches actual runtime requirements.",
-      "Prefer free/freemium for static and low-volume workloads.",
-      "Do not migrate active complex Next.js/auth apps without a material benefit.",
-      "Prefer shared APIs and static-exporting where that removes unnecessary runtime.",
-      "Avoid moving one provider monoculture into another; choose by workload.",
-      "Preserve canonical source-of-truth repos and existing working infrastructure."
-    ],
-    "effort_scale": [
-      "VERY_LOW",
-      "LOW",
-      "MEDIUM",
-      "HIGH",
-      "VERY_HIGH"
-    ],
-    "free_tier_fit_scale": [
-      "EXCELLENT",
-      "GOOD",
-      "LIMITED",
-      "POOR",
-      "N/A"
-    ],
-    "migration_value_scale": [
-      "HIGH",
-      "MEDIUM",
-      "LOW",
-      "NO"
-    ]
-  },
+  "purpose": "Canonical repository deployment intelligence matrix. Hosting alternatives reference registries/hosting/hosting-options.master.json.",
+  "runtime_taxonomy": [
+    "STATIC",
+    "STATIC + EMBED",
+    "STATIC + API",
+    "NEXT STATIC EXPORT",
+    "NEXT SSR",
+    "NEXT + AUTH",
+    "NODE SERVICE",
+    "BACKGROUND WORKER",
+    "DOCS / REGISTRY"
+  ],
   "projects": [
     {
-      "id": "fundstack-ai",
+      "repo_id": "github:JFeimster/FundStack-AI",
       "github": {
-        "repo": "JFeimster/FundStack-AI",
+        "repository": "JFeimster/FundStack-AI",
         "url": "https://github.com/JFeimster/FundStack-AI",
-        "visibility": "public"
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-09-05T11:47:33Z",
+        "description": "B2B Funding Partner Network"
       },
+      "primary_runtime": "STATIC",
       "current_deployment": {
-        "provider": "vercel",
-        "project": "fundstack-ai",
-        "project_id": "prj_Zpxy4N07U73b2kGBCGjtN5ubmVFa",
-        "url": "https://fundstack-ai.vercel.app",
-        "status_note": "Canonical active FundStack deployment; duplicate fund-stack-ai was paused."
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
       },
-      "runtime": {
-        "primary_class": "STATIC",
-        "framework": null,
-        "traits": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "JSON registries"
-        ],
-        "server_runtime_required": false,
-        "api_required": false,
-        "auth_required": false,
-        "embed_distribution": false
-      },
-      "alternatives": [
+      "hosting_alternatives": [
         {
           "provider_product_id": "cloudflare-pages",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "$0 likely",
-          "notes": "Best balance of CDN economics, Git deploys and request-heavy static traffic."
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Cloudflare Pages is catalog-compatible with STATIC."
         },
         {
           "provider_product_id": "netlify",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "$0 until credit ceiling",
-          "notes": "Very easy migration but free credit ceiling can pause workloads."
-        },
-        {
-          "provider_product_id": "digitalocean-static",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "$0 if within 1 GiB/app transfer",
-          "notes": "Simple Git deployment; lower free transfer."
-        },
-        {
-          "provider_product_id": "firebase-hosting",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
           "migration_effort": "LOW",
-          "pricing_posture": "$0 within Spark limits",
-          "notes": "Reliable but smaller free transfer allowance."
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC."
         },
         {
-          "provider_product_id": "render-static",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "$0",
-          "notes": "Useful if Render becomes a backend provider too."
-        },
-        {
-          "provider_product_id": "surge",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "$0 basic",
-          "notes": "Fast/simple but weaker governance and automation."
-        },
-        {
-          "provider_product_id": "bunny-cdn-storage",
-          "fit": "GOOD",
-          "free_tier_fit": "POOR",
+          "provider_product_id": "vercel",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
           "migration_effort": "LOW",
-          "pricing_posture": "low usage-based",
-          "notes": "Strong if raw CDN economics matter more than Git-native workflow."
-        },
-        {
-          "provider_product_id": "aws-s3-cloudfront",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "usage-based",
-          "notes": "Powerful but unnecessary complexity for this repo."
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Vercel is catalog-compatible with STATIC."
         }
       ],
       "recommendation": {
-        "canonical_host": "cloudflare-pages",
-        "migration_worth": "HIGH",
-        "migration_priority": 2,
-        "wave": 1,
-        "rationale": "Pure static workload with prior request amplification; no reason to pay for a Next/server runtime."
+        "action": "investigate before deciding",
+        "migration_effort": "LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "MEDIUM",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "vercel.json"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
       }
     },
     {
-      "id": "funding-quiz",
+      "repo_id": "github:JFeimster/funding-quiz",
       "github": {
-        "repo": "JFeimster/funding-quiz",
+        "repository": "JFeimster/funding-quiz",
         "url": "https://github.com/JFeimster/funding-quiz",
-        "visibility": "public"
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-05-14T00:34:42Z",
+        "description": null
       },
-      "current_deployment": {
-        "provider": "vercel",
-        "project": "funding-quiz",
-        "project_id": "prj_RlSvfGaNW5clq4R6YrXj70phMRjy",
-        "url": "https://funding-quiz.vercel.app"
-      },
-      "runtime": {
-        "primary_class": "STATIC + EMBED",
-        "framework": null,
-        "traits": [
-          "index.html",
-          "widget.html",
-          "widget.js",
-          "widget.css",
-          "iframe/widget distribution"
-        ],
-        "server_runtime_required": false,
-        "api_required": false,
-        "auth_required": false,
-        "embed_distribution": true
-      },
-      "alternatives": [
-        {
-          "provider_product_id": "cloudflare-pages",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "$0 likely",
-          "notes": "Best free-first host for high-volume static embed traffic."
-        },
-        {
-          "provider_product_id": "cloudflare-r2",
-          "fit": "GOOD",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0/very low",
-          "notes": "Good for versioned widget assets; less convenient as the whole site host."
-        },
-        {
-          "provider_product_id": "bunny-cdn-storage",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "POOR",
-          "migration_effort": "LOW",
-          "pricing_posture": "low usage-based",
-          "notes": "Excellent pure CDN option if traffic becomes large."
-        },
-        {
-          "provider_product_id": "firebase-hosting",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0 within transfer limits",
-          "notes": "Simple, but transfer ceiling is smaller."
-        },
-        {
-          "provider_product_id": "netlify",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "$0 until credit ceiling",
-          "notes": "Easy Git workflow; credit model should be watched for embed volume."
-        },
-        {
-          "provider_product_id": "surge",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "$0 basic",
-          "notes": "Fine for simple widget distribution."
-        },
-        {
-          "provider_product_id": "aws-s3-cloudfront",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "usage-based",
-          "notes": "Good at scale, too much setup initially."
-        }
-      ],
-      "recommendation": {
-        "canonical_host": "cloudflare-pages",
-        "migration_worth": "HIGH",
-        "migration_priority": 1,
-        "wave": 1,
-        "rationale": "Tiny static widget repo. This is the safest proof-of-concept migration and directly benefits from CDN-style economics."
-      }
-    },
-    {
-      "id": "am-i-fundable",
-      "github": {
-        "repo": "JFeimster/am-i-fundable",
-        "url": "https://github.com/JFeimster/am-i-fundable",
-        "visibility": "public"
-      },
-      "current_deployment": {
-        "provider": "vercel",
-        "project": "am-i-fundable",
-        "project_id": "prj_kfOrQZoWRGLLthCrbpZfBYBzDc1q",
-        "url": "https://am-i-fundable.vercel.app"
-      },
-      "runtime": {
-        "primary_class": "STATIC + API",
-        "framework": "custom static build + Node serverless API",
-        "traits": [
-          "static dist build",
-          "Node fs access",
-          "webhooks",
-          "score engine",
-          "partner matching"
-        ],
-        "server_runtime_required": true,
-        "api_required": true,
-        "auth_required": false,
-        "embed_distribution": false
-      },
-      "alternatives": [
-        {
-          "provider_product_id": "cloudflare-pages",
-          "fit": "EXCELLENT_FRONTEND",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "VERY_LOW_FRONTEND",
-          "pricing_posture": "$0 likely",
-          "notes": "Static site portion can move almost unchanged."
-        },
-        {
-          "provider_product_id": "cloudflare-workers",
-          "fit": "GOOD_API_AFTER_ADAPTER",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 at modest API volume",
-          "notes": "Node fs/Vercel handler semantics require adaptation."
-        },
-        {
-          "provider_product_id": "netlify",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW_TO_MEDIUM",
-          "pricing_posture": "$0 until credit ceiling",
-          "notes": "Lower API migration friction than Workers for Node-style handlers."
-        },
-        {
-          "provider_product_id": "deno-deploy",
-          "fit": "GOOD",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 up to 1M requests/month",
-          "notes": "Node compatibility must be tested."
-        },
-        {
-          "provider_product_id": "firebase-app-hosting",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "PAYG with no-cost allowances",
-          "notes": "Useful if Google/Firebase becomes part of the stack."
-        },
-        {
-          "provider_product_id": "supabase-edge-functions",
-          "fit": "GOOD_FOR_API",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 up to 500k invocations",
-          "notes": "Makes sense only if Supabase data/auth is also useful."
-        },
-        {
-          "provider_product_id": "railway",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "LOW",
-          "pricing_posture": "$1 free credit or $5 Hobby",
-          "notes": "Simple Node runtime but heavier than edge/serverless needs."
-        },
-        {
-          "provider_product_id": "render-web",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "LOW",
-          "pricing_posture": "free test / paid production",
-          "notes": "Straightforward Node host, less ideal for request-heavy static delivery."
-        }
-      ],
-      "recommendation": {
-        "canonical_host": "cloudflare-pages + cloudflare-workers",
-        "migration_worth": "MEDIUM",
-        "migration_priority": 6,
-        "wave": 3,
-        "rationale": "Good long-term fit, but API adaptation should follow easier migrations and a proven Worker pattern."
-      }
-    },
-    {
-      "id": "embed-widgets",
-      "github": {
-        "repo": "JFeimster/Embed-Widgets",
-        "url": "https://github.com/JFeimster/Embed-Widgets",
-        "visibility": "private"
-      },
-      "current_deployment": {
-        "provider": "vercel",
-        "project": "embed-widgets",
-        "project_id": "prj_gKDS5B7VWtJR1oX8WWORIb4wZ0jC",
-        "url": "https://embed-widgets-kappa.vercel.app"
-      },
-      "runtime": {
-        "primary_class": "STATIC + API",
-        "framework": "Vite + React",
-        "traits": [
-          "embeddable widgets",
-          "Vite static build",
-          "API endpoints",
-          "Supabase",
-          "AI SDK/Google GenAI"
-        ],
-        "server_runtime_required": true,
-        "api_required": true,
-        "auth_required": false,
-        "embed_distribution": true
-      },
-      "alternatives": [
-        {
-          "provider_product_id": "cloudflare-pages",
-          "fit": "EXCELLENT_FRONTEND",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0 likely",
-          "notes": "Excellent widget CDN/distribution layer."
-        },
-        {
-          "provider_product_id": "cloudflare-workers",
-          "fit": "GOOD_API",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 initially",
-          "notes": "API adapters may be needed depending on current Vercel handler assumptions."
-        },
-        {
-          "provider_product_id": "netlify",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0 until credits exhausted",
-          "notes": "Strong Vite + Functions + Agent Runner fit."
-        },
-        {
-          "provider_product_id": "supabase-edge-functions",
-          "fit": "GOOD_API",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 up to 500k invocations",
-          "notes": "Attractive because the repo already depends on Supabase."
-        },
-        {
-          "provider_product_id": "deno-deploy",
-          "fit": "GOOD",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 up to 1M requests",
-          "notes": "Could host API edge logic; test npm/Node compatibility."
-        },
-        {
-          "provider_product_id": "railway",
-          "fit": "GOOD_API",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "LOW",
-          "pricing_posture": "$1 free credit / $5 Hobby",
-          "notes": "Good if API becomes persistent or needs workers."
-        },
-        {
-          "provider_product_id": "bunny-cdn-storage",
-          "fit": "EXCELLENT_STATIC_ASSETS",
-          "free_tier_fit": "POOR",
-          "migration_effort": "LOW",
-          "pricing_posture": "low usage-based",
-          "notes": "Strong future option for versioned widget JS/CSS distribution."
-        }
-      ],
-      "recommendation": {
-        "canonical_host": "cloudflare-pages + cloudflare-workers",
-        "migration_worth": "HIGH",
-        "migration_priority": 4,
-        "wave": 2,
-        "rationale": "Shared widget distribution is a compounding asset; static edge delivery plus lightweight API is a strong match."
-      }
-    },
-    {
-      "id": "capitalgrid",
-      "github": {
-        "repo": "JFeimster/capitalgrid",
-        "url": "https://github.com/JFeimster/capitalgrid",
-        "visibility": "private"
-      },
-      "current_deployment": {
-        "provider": "vercel",
-        "project": "capitalgrid",
-        "project_id": "prj_2ZMym1AiHEcmOzY7uw2RCsy7IRoG",
-        "url": "https://capitalgrid.vercel.app"
-      },
-      "runtime": {
-        "primary_class": "NEXT STATIC EXPORT",
-        "framework": "Next.js 14",
-        "traits": [
-          "local JSON data",
-          "generateStaticParams",
-          "unoptimized images",
-          "trailingSlash"
-        ],
-        "server_runtime_required": false,
-        "api_required": false,
-        "auth_required": false,
-        "embed_distribution": false,
-        "classification_note": "Static-export candidate; next.config does not yet enable output: export."
-      },
-      "alternatives": [
-        {
-          "provider_product_id": "cloudflare-pages",
-          "fit": "EXCELLENT_AFTER_EXPORT",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0 likely",
-          "notes": "Add output: export and validate dynamic routes."
-        },
-        {
-          "provider_product_id": "netlify",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "VERY_LOW",
-          "pricing_posture": "$0 until credit ceiling",
-          "notes": "Can host Next directly or static output."
-        },
-        {
-          "provider_product_id": "firebase-hosting",
-          "fit": "GOOD_AFTER_EXPORT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0 within Spark limits",
-          "notes": "Static export works cleanly."
-        },
-        {
-          "provider_product_id": "aws-amplify",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0 within eligible allowances",
-          "notes": "Can run Next or static export; more cloud complexity."
-        },
-        {
-          "provider_product_id": "digitalocean-static",
-          "fit": "GOOD_AFTER_EXPORT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0 within 1 GiB transfer",
-          "notes": "Simple but lower transfer allowance."
-        }
-      ],
-      "recommendation": {
-        "canonical_host": "cloudflare-pages",
-        "migration_worth": "HIGH",
-        "migration_priority": 3,
-        "wave": 1,
-        "rationale": "Local-data Next app appears highly static-exportable; removing the runtime is more valuable than moving SSR elsewhere."
-      }
-    },
-    {
-      "id": "partner-command-center",
-      "github": {
-        "repo": "JFeimster/partner-command-center",
-        "url": "https://github.com/JFeimster/partner-command-center",
-        "visibility": "public"
-      },
-      "current_deployment": {
-        "provider": "vercel",
-        "project": "partner-command-center",
-        "project_id": "prj_F1L6UW5jFp6L5Ov8ENwrbfVETDVY",
-        "url": "https://partner-command-center-rho.vercel.app"
-      },
-      "runtime": {
-        "primary_class": "STATIC + API",
-        "framework": null,
-        "traits": [
-          "static HTML/JS",
-          "lead routing API",
-          "partner signup API",
-          "dashboard API"
-        ],
-        "server_runtime_required": true,
-        "api_required": true,
-        "auth_required": false,
-        "embed_distribution": false
-      },
-      "alternatives": [
-        {
-          "provider_product_id": "netlify",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW_TO_MEDIUM",
-          "pricing_posture": "$0 until credit ceiling",
-          "notes": "Likely lower function-adapter friction than Workers."
-        },
-        {
-          "provider_product_id": "cloudflare-pages",
-          "fit": "EXCELLENT_FRONTEND",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "VERY_LOW_FRONTEND",
-          "pricing_posture": "$0 likely",
-          "notes": "Static shell is trivial."
-        },
-        {
-          "provider_product_id": "cloudflare-workers",
-          "fit": "GOOD_API_AFTER_ADAPTER",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 initially",
-          "notes": "Excellent economics if API handlers are adapted."
-        },
-        {
-          "provider_product_id": "deno-deploy",
-          "fit": "GOOD",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 up to 1M requests",
-          "notes": "Potential all-in-one edge option."
-        },
-        {
-          "provider_product_id": "railway",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "LOW",
-          "pricing_posture": "$1 free credit / $5 Hobby",
-          "notes": "Simple if keeping Node semantics matters more than edge economics."
-        },
-        {
-          "provider_product_id": "render-web",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "LOW",
-          "pricing_posture": "free test / paid production",
-          "notes": "Good conventional Node alternative."
-        },
-        {
-          "provider_product_id": "digitalocean-app-platform",
-          "fit": "GOOD",
-          "free_tier_fit": "POOR",
-          "migration_effort": "LOW",
-          "pricing_posture": "$5+ dynamic service",
-          "notes": "Predictable managed PaaS."
-        }
-      ],
-      "recommendation": {
-        "canonical_host": "vercel-for-now",
-        "future_target": "cloudflare-pages + cloudflare-workers OR netlify",
-        "migration_worth": "MEDIUM",
-        "migration_priority": 5,
-        "wave": 2,
-        "rationale": "Migration is reasonable but current usage is low; choose Node-compatible Netlify for speed or Cloudflare for better request economics after API adaptation."
-      }
-    },
-    {
-      "id": "partner-intake-os",
-      "github": {
-        "repo": "JFeimster/partner-intake-os",
-        "url": "https://github.com/JFeimster/partner-intake-os",
-        "visibility": "public"
-      },
-      "current_deployment": {
-        "provider": "vercel",
-        "project": "partner-intake-os",
-        "project_id": "prj_CW0X32zvV9HYXRKDAXyUAWJsuOuw",
-        "url": "https://partner-intake-os.vercel.app"
-      },
-      "runtime": {
-        "primary_class": "STATIC + API",
-        "framework": null,
-        "traits": [
-          "large API surface",
-          "admin",
-          "leads",
-          "partners",
-          "Tally",
-          "sync",
-          "security",
-          "notifications",
-          "OpenAPI contracts"
-        ],
-        "server_runtime_required": true,
-        "api_required": true,
-        "auth_required": true,
-        "embed_distribution": false
-      },
-      "alternatives": [
-        {
-          "provider_product_id": "netlify",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 until credit ceiling",
-          "notes": "Functions may preserve serverless shape with moderate migration."
-        },
-        {
-          "provider_product_id": "railway",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "LOW_TO_MEDIUM",
-          "pricing_posture": "$1 free credit / $5 Hobby",
-          "notes": "Excellent operational fit if API surface becomes a real service."
-        },
-        {
-          "provider_product_id": "render-web",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "LOW_TO_MEDIUM",
-          "pricing_posture": "paid production recommended",
-          "notes": "Strong conventional Node API host with MCP management."
-        },
-        {
-          "provider_product_id": "digitalocean-app-platform",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "POOR",
-          "migration_effort": "LOW_TO_MEDIUM",
-          "pricing_posture": "$5+ service",
-          "notes": "Good managed service with official MCP."
-        },
-        {
-          "provider_product_id": "cloudflare-workers",
-          "fit": "POSSIBLE",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "HIGH",
-          "pricing_posture": "$0 initially",
-          "notes": "Large API/auth surface makes edge adaptation more invasive."
-        },
-        {
-          "provider_product_id": "coolify-self-hosted",
-          "fit": "GOOD_LATER",
-          "free_tier_fit": "N/A",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "VPS cost",
-          "notes": "Makes sense only if several backend services are consolidated together."
-        }
-      ],
-      "recommendation": {
-        "canonical_host": "vercel",
-        "migration_worth": "LOW",
-        "migration_priority": 9,
-        "wave": null,
-        "rationale": "Broad API/auth surface and low current usage make migration churn unjustified. Revisit when API contracts and live workflows stabilize."
-      }
-    },
-    {
-      "id": "moonshine-broker",
-      "github": {
-        "repo": "JFeimster/moonshine-broker",
-        "url": "https://github.com/JFeimster/moonshine-broker",
-        "visibility": "public"
-      },
-      "current_deployment": {
-        "provider": "vercel",
-        "project": "moonshine-broker",
-        "project_id": "prj_6u2AkC3eCW11lyKuuIHfZtu22GHt",
-        "url": "https://moonshine-broker.vercel.app"
-      },
-      "runtime": {
-        "primary_class": "NEXT SSR",
-        "framework": "Next.js 15",
-        "traits": [
-          "mostly static content",
-          "single /api/lead route"
-        ],
-        "server_runtime_required": true,
-        "api_required": true,
-        "auth_required": false,
-        "embed_distribution": false,
-        "optimization_path": "Externalize lead API into canonical intake service, then convert to NEXT STATIC EXPORT."
-      },
-      "alternatives": [
-        {
-          "provider_product_id": "netlify",
-          "fit": "EXCELLENT_CURRENT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0 until credit ceiling",
-          "notes": "Closest Vercel-like Next alternative."
-        },
-        {
-          "provider_product_id": "cloudflare-workers",
-          "fit": "GOOD_CURRENT",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 initially",
-          "notes": "Works if Next runtime adaptation is accepted."
-        },
-        {
-          "provider_product_id": "cloudflare-pages",
-          "fit": "EXCELLENT_AFTER_API_EXTRACTION",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "LOW_AFTER_REFACTOR",
-          "pricing_posture": "$0 likely",
-          "notes": "Best long-term outcome if the lead API moves to shared intake."
-        },
-        {
-          "provider_product_id": "firebase-app-hosting",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW_TO_MEDIUM",
-          "pricing_posture": "PAYG with allowances",
-          "notes": "Managed SSR alternative."
-        },
-        {
-          "provider_product_id": "aws-amplify",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW_TO_MEDIUM",
-          "pricing_posture": "usage-based",
-          "notes": "Supports Next SSR but adds AWS complexity."
-        },
-        {
-          "provider_product_id": "railway",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "LOW",
-          "pricing_posture": "$1 credit / $5 Hobby",
-          "notes": "Simple containerized Next."
-        }
-      ],
-      "recommendation": {
-        "canonical_host": "vercel-for-now",
-        "future_target": "cloudflare-pages after API extraction",
-        "migration_worth": "MEDIUM_LATER",
-        "migration_priority": 7,
-        "wave": 3,
-        "rationale": "Better to remove the one server dependency than move an otherwise static marketing site to another SSR host."
-      }
-    },
-    {
-      "id": "acquire-distilled",
-      "github": {
-        "repo": "JFeimster/acquire-distilled",
-        "url": "https://github.com/JFeimster/acquire-distilled",
-        "visibility": "private"
-      },
-      "current_deployment": {
-        "provider": "vercel",
-        "project": "acquire-distilled",
-        "project_id": "prj_uP49iVonKILs6ETbEjFKrIA0O10c",
-        "url": "https://acquire-distilled.vercel.app"
-      },
-      "runtime": {
-        "primary_class": "NEXT SSR",
-        "framework": "Next.js 15",
-        "traits": [
-          "App Router",
-          "API routes",
-          "Tally intake",
-          "deal reality check",
-          "dynamic buyer/business routes"
-        ],
-        "server_runtime_required": true,
-        "api_required": true,
-        "auth_required": false,
-        "embed_distribution": false
-      },
-      "alternatives": [
-        {
-          "provider_product_id": "netlify",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW_TO_MEDIUM",
-          "pricing_posture": "$0 until credits exhausted",
-          "notes": "Best first fallback if leaving Vercel becomes necessary."
-        },
-        {
-          "provider_product_id": "cloudflare-workers",
-          "fit": "GOOD",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 initially",
-          "notes": "Requires Next/edge compatibility work."
-        },
-        {
-          "provider_product_id": "firebase-app-hosting",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "PAYG with allowances",
-          "notes": "Managed SSR alternative."
-        },
-        {
-          "provider_product_id": "aws-amplify",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "usage-based",
-          "notes": "Reasonable but more operationally complex."
-        },
-        {
-          "provider_product_id": "railway",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "LOW",
-          "pricing_posture": "$1 credit / $5 Hobby",
-          "notes": "Straightforward Node/container fallback."
-        },
-        {
-          "provider_product_id": "render-web",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "LOW",
-          "pricing_posture": "paid production",
-          "notes": "Conventional backend host."
-        }
-      ],
-      "recommendation": {
-        "canonical_host": "vercel",
-        "migration_worth": "NO",
-        "migration_priority": 10,
-        "wave": null,
-        "rationale": "Actively evolving Next app with legitimate API/dynamic runtime requirements. Migration would add work without solving a current problem."
-      }
-    },
-    {
-      "id": "moonshine-capital-portal",
-      "github": {
-        "repo": "JFeimster/moonshine-capital-portal",
-        "url": "https://github.com/JFeimster/moonshine-capital-portal",
-        "visibility": "public"
-      },
-      "current_deployment": {
-        "provider": "vercel",
-        "project": "moonshine-capital-portal",
-        "project_id": "prj_EQrfYjOPHEjm9oGGbLkfpOevUb6q",
-        "url": "https://moonshine-capital-portal.vercel.app"
-      },
-      "runtime": {
-        "primary_class": "NEXT + AUTH",
-        "framework": "Next.js 14",
-        "traits": [
-          "middleware",
-          "signed session cookies",
-          "role-based /admin and /portal",
-          "environment secrets"
-        ],
-        "server_runtime_required": true,
-        "api_required": true,
-        "auth_required": true,
-        "embed_distribution": false
-      },
-      "alternatives": [
-        {
-          "provider_product_id": "netlify",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "MEDIUM_TO_HIGH",
-          "pricing_posture": "$0 until credit ceiling",
-          "notes": "Most practical frontend-first fallback."
-        },
-        {
-          "provider_product_id": "railway",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$1 credit / $5 Hobby",
-          "notes": "Conventional Node runtime and strong MCP/Skills."
-        },
-        {
-          "provider_product_id": "render-web",
-          "fit": "GOOD",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "paid production",
-          "notes": "Strong backend control and MCP."
-        },
-        {
-          "provider_product_id": "firebase-app-hosting",
-          "fit": "GOOD",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "PAYG with allowances",
-          "notes": "Possible managed SSR/auth alternative."
-        },
-        {
-          "provider_product_id": "cloudflare-workers",
-          "fit": "POSSIBLE",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "HIGH",
-          "pricing_posture": "$0 initially",
-          "notes": "Auth/middleware/runtime adaptation makes it the most invasive option."
-        },
-        {
-          "provider_product_id": "coolify-self-hosted",
-          "fit": "GOOD_LATER",
-          "free_tier_fit": "N/A",
-          "migration_effort": "HIGH",
-          "pricing_posture": "VPS cost",
-          "notes": "Only compelling if backend services are intentionally consolidated."
-        }
-      ],
-      "recommendation": {
-        "canonical_host": "vercel",
-        "migration_worth": "NO",
-        "migration_priority": 11,
-        "wave": null,
-        "rationale": "This is exactly the kind of active Next/auth workload Vercel is currently earning its keep on."
-      }
-    },
-    {
-      "id": "resourcegrid",
-      "github": {
-        "repo": "JFeimster/ResourceGrid",
-        "url": "https://github.com/JFeimster/ResourceGrid",
-        "visibility": "private"
-      },
+      "primary_runtime": "STATIC + EMBED",
       "current_deployment": {
         "provider": null,
         "project": null,
         "project_id": null,
         "url": null,
-        "status_note": "No matching current Vercel project found during audit."
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
       },
-      "runtime": {
-        "primary_class": "DOCS / REGISTRY",
-        "framework": "Next.js 16 presentation layer + Node registry compiler",
-        "traits": [
-          "canonical registries",
-          "schemas",
-          "compiled JSON indexes",
-          "validation/dedupe/relationships",
-          "small web UI"
-        ],
-        "server_runtime_required": false,
-        "api_required": false,
-        "auth_required": false,
-        "embed_distribution": false,
-        "classification_note": "Build pipeline needs Node, but public runtime can be static if compiled outputs are generated before deploy."
-      },
-      "alternatives": [
+      "hosting_alternatives": [
         {
           "provider_product_id": "cloudflare-pages",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0 likely",
-          "notes": "Best general public UI host after static build/export."
-        },
-        {
-          "provider_product_id": "cloudflare-r2",
-          "fit": "EXCELLENT_ARTIFACTS",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0/low",
-          "notes": "Ideal for large compiled registry artifacts."
-        },
-        {
-          "provider_product_id": "mintlify",
-          "fit": "EXCELLENT_DOCS",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 Starter",
-          "notes": "Best if public API/docs + MCP exposure becomes primary."
-        },
-        {
-          "provider_product_id": "gitbook",
-          "fit": "EXCELLENT_DOCS",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "MEDIUM",
-          "pricing_posture": "$0 without custom domain; $65+ for branded domain",
-          "notes": "Excellent LLM/MCP docs output."
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Cloudflare Pages is catalog-compatible with STATIC + EMBED."
         },
         {
           "provider_product_id": "netlify",
-          "fit": "EXCELLENT",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0 until credit ceiling",
-          "notes": "Strong static docs/UI host with Agent Runners."
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC + EMBED."
         },
         {
-          "provider_product_id": "github-pages",
-          "fit": "GOOD_IF_PUBLIC_NONCOMMERCIAL_DOCS",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "LOW",
-          "pricing_posture": "$0",
-          "notes": "Use only for eligible docs/reference content, not commercial app hosting."
+          "provider_product_id": "bunny-cdn-storage",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Bunny CDN + Storage is catalog-compatible with STATIC + EMBED."
         }
       ],
       "recommendation": {
-        "canonical_host": "cloudflare-pages",
-        "artifact_host": "cloudflare-r2-later",
-        "docs_option": "mintlify-if-public-ai-native-docs-become-a-priority",
-        "migration_worth": "HIGH",
-        "migration_priority": 8,
-        "wave": 2,
-        "rationale": "Treat registry compilation as build-time work and publish the resulting UI/artifacts cheaply; don't invent a persistent runtime."
+        "action": "investigate before deciding",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "LOW",
+        "audited_at": "2026-09-05",
+        "evidence_files": [],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
       }
     },
     {
-      "id": "mc-studio",
+      "repo_id": "github:JFeimster/am-i-fundable",
       "github": {
-        "repo": "JFeimster/mc-studio",
-        "url": "https://github.com/JFeimster/mc-studio",
-        "visibility": "public"
+        "repository": "JFeimster/am-i-fundable",
+        "url": "https://github.com/JFeimster/am-i-fundable",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-09-05T12:11:59Z",
+        "description": null
       },
+      "primary_runtime": "STATIC + API",
       "current_deployment": {
-        "provider": "wix",
+        "provider": "Vercel",
         "project": null,
         "project_id": null,
-        "url": "https://www.distilledfunding.com",
-        "status_note": "Wix CLI/Velo source; no matching Vercel project."
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
       },
-      "runtime": {
-        "primary_class": "PLATFORM_NATIVE - WIX/VELO",
-        "taxonomy_exception": true,
-        "framework": "Wix CLI / Velo",
-        "traits": [
-          "Wix pages",
-          "Velo backend",
-          "routers",
-          "HTTP functions",
-          "Wix permissions",
-          "Stripe",
-          "Nodemailer"
-        ],
-        "server_runtime_required": true,
-        "api_required": true,
-        "auth_required": true,
-        "embed_distribution": false
-      },
-      "alternatives": [
+      "hosting_alternatives": [
         {
-          "provider_product_id": "netlify",
-          "fit": "REPLATFORM_ONLY",
-          "free_tier_fit": "GOOD",
-          "migration_effort": "VERY_HIGH",
-          "pricing_posture": "$0 entry",
-          "notes": "Would require rebuilding Wix/Velo-specific functionality."
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with STATIC + API."
         },
         {
           "provider_product_id": "cloudflare-workers",
-          "fit": "REPLATFORM_ONLY",
-          "free_tier_fit": "EXCELLENT",
-          "migration_effort": "VERY_HIGH",
-          "pricing_posture": "$0 entry",
-          "notes": "Not a migration; this would be an architectural rewrite."
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Workers is catalog-compatible with STATIC + API."
         },
         {
-          "provider_product_id": "railway",
-          "fit": "BACKEND_ONLY_REPLATFORM",
-          "free_tier_fit": "LIMITED",
-          "migration_effort": "VERY_HIGH",
-          "pricing_posture": "$5 typical",
-          "notes": "Could host extracted services but not replace Wix product features directly."
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC + API."
         }
       ],
       "recommendation": {
-        "canonical_host": "wix",
-        "migration_worth": "NO",
-        "migration_priority": 12,
-        "wave": null,
-        "rationale": "This repo is intentionally platform-native. Replatforming would destroy working Wix integrations for no immediate hosting benefit."
+        "action": "keep on Vercel",
+        "migration_effort": "HIGH",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Potential shared API consumer with partner-intake-os; investigate API consolidation rather than host migration.",
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "api/admin/assign-lead.js",
+          "api/admin/export-demo-payload.js",
+          "api/admin/rebuild-site-data.js",
+          "api/admin/registry-health.js",
+          "api/admin/review-lead.js",
+          "api/admin/review-queue.js",
+          "api/admin/sync-public-indexes.js",
+          "api/admin/system-check.js",
+          "api/admin/validate-product-registry.js",
+          "api/admin/validate-public-boundary.js",
+          "api/health.js",
+          "api/index.js",
+          "api/leads/create-lead.js",
+          "api/leads/route-lead.js",
+          "api/leads/update-lead-status.js",
+          "api/lender-match-review.js",
+          "api/match-partners.js",
+          "api/match/funding-paths.js",
+          "api/match/manual-review.js",
+          "api/match/partner-fit.js",
+          "api/public/document-checklist.js",
+          "api/public/embed-config.js",
+          "api/public/funding-paths.js",
+          "api/public/resource-recommendations.js",
+          "api/public/result-tier.js"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/Embed-Widgets",
+      "github": {
+        "repository": "JFeimster/Embed-Widgets",
+        "url": "https://github.com/JFeimster/Embed-Widgets",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-07-17T23:08:42Z",
+        "description": "Partner Widget Suite"
+      },
+      "primary_runtime": "STATIC + API",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Workers is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC + API."
+        }
+      ],
+      "recommendation": {
+        "action": "keep on Vercel",
+        "migration_effort": "MEDIUM",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "api/package.json",
+          "api/platform.ts",
+          "api/router.ts",
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/capitalgrid",
+      "github": {
+        "repository": "JFeimster/capitalgrid",
+        "url": "https://github.com/JFeimster/capitalgrid",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-06-21T05:27:41Z",
+        "description": null
+      },
+      "primary_runtime": "NEXT STATIC EXPORT",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Cloudflare Pages is catalog-compatible with NEXT STATIC EXPORT."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with NEXT STATIC EXPORT."
+        },
+        {
+          "provider_product_id": "vercel",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Vercel is catalog-compatible with NEXT STATIC EXPORT."
+        }
+      ],
+      "recommendation": {
+        "action": "convert to static first",
+        "migration_effort": "LOW",
+        "notes": "Runtime simplification should be evaluated before selecting a new host."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "next.config.mjs",
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/partner-command-center",
+      "github": {
+        "repository": "JFeimster/partner-command-center",
+        "url": "https://github.com/JFeimster/partner-command-center",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-08-25T15:31:37Z",
+        "description": "Static-first Funding Partners OS for Moonshine Capital partner acquisition, partner onboarding, lead submission, partner tracking, marketplace offers, training resources, lightweight admin workflows, and future integration examples."
+      },
+      "primary_runtime": "STATIC + API",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Workers is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC + API."
+        }
+      ],
+      "recommendation": {
+        "action": "extract API then migrate",
+        "migration_effort": "MEDIUM",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Possible successor/consolidation target for fpos and funding-partners-os-dashboard; requires human review before any merge.",
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "api/README.md",
+          "api/dashboard/bootstrap.js",
+          "api/dashboard/distribution.js",
+          "api/dashboard/profile.js",
+          "api/external-lead-webhook.example.js",
+          "api/lead-router.js",
+          "api/lead-status.example.js",
+          "api/leads-submit.example.js",
+          "api/partner-links.js",
+          "api/partner-signup.js",
+          "api/partner-stats.example.js",
+          "api/router.js",
+          "api/tally-signup-webhook.example.js",
+          "vercel.json"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/partner-intake-os",
+      "github": {
+        "repository": "JFeimster/partner-intake-os",
+        "url": "https://github.com/JFeimster/partner-intake-os",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-08-26T02:14:44Z",
+        "description": "Turns partner intake into classified, scored, CRM-ready operating intelligence."
+      },
+      "primary_runtime": "STATIC + API",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Workers is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC + API."
+        }
+      ],
+      "recommendation": {
+        "action": "keep on Vercel",
+        "migration_effort": "HIGH",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "api/README.md",
+          "api/admin/assign-review.ts",
+          "api/admin/audit-log.ts",
+          "api/admin/compliance-queue.ts",
+          "api/admin/leads/[lead_id]/decision.ts",
+          "api/admin/logout.ts",
+          "api/admin/me.ts",
+          "api/admin/review-action.ts",
+          "api/admin/review-queue.ts",
+          "api/admin/scoring-rules.ts",
+          "api/admin/session.ts",
+          "api/admin/sync-status.ts",
+          "api/admin/update-status.ts",
+          "api/admin/users.ts",
+          "api/compliance/scan.ts",
+          "api/developers/events.ts",
+          "api/developers/webhooks/register.ts",
+          "api/health.ts",
+          "api/leads/[lead_id].ts",
+          "api/leads/log-event.ts",
+          "api/leads/submit.ts",
+          "api/notifications/send-partner-update.ts",
+          "api/notifications/send-review-alert.ts",
+          "api/partners/[partner_id].ts",
+          "api/partners/classify.ts"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/moonshine-broker",
+      "github": {
+        "repository": "JFeimster/moonshine-broker",
+        "url": "https://github.com/JFeimster/moonshine-broker",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-08-25T13:08:16Z",
+        "description": "Next.js + Tailwind landing page for recruiting Funding Partners/Loan Brokers with a Starter Kit opt-in, FAQ, and booking flow."
+      },
+      "primary_runtime": "NEXT SSR",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with NEXT SSR."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with NEXT SSR."
+        },
+        {
+          "provider_product_id": "firebase-app-hosting",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Firebase App Hosting is catalog-compatible with NEXT SSR."
+        }
+      ],
+      "recommendation": {
+        "action": "extract API then migrate",
+        "migration_effort": "MEDIUM",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Lead endpoint is a candidate for partner-intake-os extraction.",
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "app/api/lead/route.ts",
+          "next.config.ts",
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/acquire-distilled",
+      "github": {
+        "repository": "JFeimster/acquire-distilled",
+        "url": "https://github.com/JFeimster/acquire-distilled",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-08-30T07:01:41Z",
+        "description": "Public acquisition platform for Distilled Funding connecting buyers, sellers, business listings, deal intelligence, financing, tools, directories, and acquisition resources."
+      },
+      "primary_runtime": "NEXT SSR",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with NEXT SSR."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with NEXT SSR."
+        },
+        {
+          "provider_product_id": "firebase-app-hosting",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Firebase App Hosting is catalog-compatible with NEXT SSR."
+        }
+      ],
+      "recommendation": {
+        "action": "keep on Vercel",
+        "migration_effort": "MEDIUM",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "app/api/deal-reality-check/route.ts",
+          "app/api/health/route.ts",
+          "app/api/intake/tally/route.ts",
+          "next.config.ts",
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/moonshine-capital-portal",
+      "github": {
+        "repository": "JFeimster/moonshine-capital-portal",
+        "url": "https://github.com/JFeimster/moonshine-capital-portal",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-09-03T12:08:14Z",
+        "description": "Next.js front-end layer for a broker directory, partner onboarding flow, and future Funding Agent OS experience."
+      },
+      "primary_runtime": "NEXT + AUTH",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with NEXT + AUTH."
+        },
+        {
+          "provider_product_id": "firebase-app-hosting",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Firebase App Hosting is catalog-compatible with NEXT + AUTH."
+        },
+        {
+          "provider_product_id": "supabase-edge-functions",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Supabase Edge Functions is catalog-compatible with NEXT + AUTH."
+        }
+      ],
+      "recommendation": {
+        "action": "keep on Vercel",
+        "migration_effort": "HIGH",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "app/api/health/route.ts",
+          "app/api/intake/tally/application/route.ts",
+          "app/api/intake/tally/profile/route.ts",
+          "app/api/webhooks/tally/route.ts",
+          "middleware.ts",
+          "next.config.js",
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/ResourceGrid",
+      "github": {
+        "repository": "JFeimster/ResourceGrid",
+        "url": "https://github.com/JFeimster/ResourceGrid",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-09-05T17:30:00Z",
+        "description": "Canonical registry and intelligence layer for content, tools, GPTs, CTAs, assets, relationships, and machine-ready context across the Distilled Funding ecosystem."
+      },
+      "primary_runtime": "NEXT SSR",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with NEXT SSR."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with NEXT SSR."
+        },
+        {
+          "provider_product_id": "firebase-app-hosting",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Firebase App Hosting is catalog-compatible with NEXT SSR."
+        }
+      ],
+      "recommendation": {
+        "action": "convert to static first",
+        "migration_effort": "LOW",
+        "notes": "Runtime simplification should be evaluated before selecting a new host."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Registry/query surfaces are a candidate to become static generated outputs with narrowly scoped API health handling.",
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "app/api/health/route.ts",
+          "next.config.ts",
+          "package.json"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/mc-studio",
+      "github": {
+        "repository": "JFeimster/mc-studio",
+        "url": "https://github.com/JFeimster/mc-studio",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-09-03T10:21:53Z",
+        "description": null
+      },
+      "primary_runtime": "DOCS / REGISTRY",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "github-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "GitHub Pages is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "mintlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Mintlify is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Pages is catalog-compatible with DOCS / REGISTRY."
+        }
+      ],
+      "recommendation": {
+        "action": "do not deploy independently",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "BASELINE_RECONSTRUCTED",
+        "confidence": "MEDIUM",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "package.json"
+        ],
+        "note": "Listed by the task as previously audited. The original matrix payload was corrupt and never materialized; this normalized baseline preserves identity and records only fresh hard evidence."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/ai-agent-arsenal",
+      "github": {
+        "repository": "JFeimster/ai-agent-arsenal",
+        "url": "https://github.com/JFeimster/ai-agent-arsenal",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-09-02T19:14:06Z",
+        "description": "Battle-tested AI tools for founders, funders, affiliates, sellers, and operators."
+      },
+      "primary_runtime": "DOCS / REGISTRY",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "github-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "GitHub Pages is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "mintlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Mintlify is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Pages is catalog-compatible with DOCS / REGISTRY."
+        }
+      ],
+      "recommendation": {
+        "action": "migrate in later wave",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Related public-facing catalog candidate for ai-agent-library content; relationship requires product-owner confirmation.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "LOW",
+        "audited_at": "2026-09-05",
+        "evidence_files": [],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/ai-agent-library",
+      "github": {
+        "repository": "JFeimster/ai-agent-library",
+        "url": "https://github.com/JFeimster/ai-agent-library",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-09-02T19:12:37Z",
+        "description": "A practical open-source library of reusable AI agent specs, instructions, prompts, knowledge-base templates, and platform implementation guides."
+      },
+      "primary_runtime": "DOCS / REGISTRY",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "github-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "GitHub Pages is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "mintlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Mintlify is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Pages is catalog-compatible with DOCS / REGISTRY."
+        }
+      ],
+      "recommendation": {
+        "action": "migrate now",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Canonical reusable agents/skills library; ai-agent-arsenal is a related public-facing catalog candidate.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "MEDIUM",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "vercel.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/acquisition-fundability",
+      "github": {
+        "repository": "JFeimster/acquisition-fundability",
+        "url": "https://github.com/JFeimster/acquisition-fundability",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-09-02T10:01:59Z",
+        "description": "Acquisition underwriting calculator with marketplace imports, debt-capacity screening, seller financing, buyer cash, and fundability scoring."
+      },
+      "primary_runtime": "STATIC + API",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Workers is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC + API."
+        }
+      ],
+      "recommendation": {
+        "action": "extract API then migrate",
+        "migration_effort": "MEDIUM",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "api/empire-flippers/valuation.js",
+          "api/import-listing.js",
+          "api/recommendations.js",
+          "vercel.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/acquisition-core",
+      "github": {
+        "repository": "JFeimster/acquisition-core",
+        "url": "https://github.com/JFeimster/acquisition-core",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-08-29T22:01:59Z",
+        "description": null
+      },
+      "primary_runtime": "STATIC + API",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Workers is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC + API."
+        }
+      ],
+      "recommendation": {
+        "action": "consolidate into shared service",
+        "migration_effort": "MEDIUM",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Canonical calculation owner; acquisition-adapters and acquisition-intelligence-orchestrator are supporting implementation layers.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "api/deal-reality-check.ts",
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/acquisition-adapters",
+      "github": {
+        "repository": "JFeimster/acquisition-adapters",
+        "url": "https://github.com/JFeimster/acquisition-adapters",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-08-16T16:52:12Z",
+        "description": null
+      },
+      "primary_runtime": "DOCS / REGISTRY",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "github-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "GitHub Pages is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "mintlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Mintlify is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Pages is catalog-compatible with DOCS / REGISTRY."
+        }
+      ],
+      "recommendation": {
+        "action": "do not deploy independently",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Adapter layer for acquisition-core; should not become an independent public deployment.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "MEDIUM",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "package.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/acquisition-intelligence-orchestrator",
+      "github": {
+        "repository": "JFeimster/acquisition-intelligence-orchestrator",
+        "url": "https://github.com/JFeimster/acquisition-intelligence-orchestrator",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-08-16T11:09:07Z",
+        "description": null
+      },
+      "primary_runtime": "DOCS / REGISTRY",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "github-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "GitHub Pages is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "mintlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Mintlify is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Pages is catalog-compatible with DOCS / REGISTRY."
+        }
+      ],
+      "recommendation": {
+        "action": "do not deploy independently",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Build coordination layer for acquisition-core and acquisition-adapters; should not become an independent public deployment.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "MEDIUM",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "package.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/acquisition-skills-pack",
+      "github": {
+        "repository": "JFeimster/acquisition-skills-pack",
+        "url": "https://github.com/JFeimster/acquisition-skills-pack",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-08-16T18:57:37Z",
+        "description": null
+      },
+      "primary_runtime": "DOCS / REGISTRY",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "github-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "GitHub Pages is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "mintlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Mintlify is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Pages is catalog-compatible with DOCS / REGISTRY."
+        }
+      ],
+      "recommendation": {
+        "action": "retain as reusable component source",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Reusable skill source related to the acquisition-core ecosystem; retain as source rather than standalone site.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "LOW",
+        "audited_at": "2026-09-05",
+        "evidence_files": [],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/funding-operator-os",
+      "github": {
+        "repository": "JFeimster/funding-operator-os",
+        "url": "https://github.com/JFeimster/funding-operator-os",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-08-25T18:50:26Z",
+        "description": "Funding Operator OS — operating systems, partner infrastructure, AI tools, automation, playbooks, and workflows for building and running a commercial funding business."
+      },
+      "primary_runtime": "NEXT STATIC EXPORT",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Cloudflare Pages is catalog-compatible with NEXT STATIC EXPORT."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with NEXT STATIC EXPORT."
+        },
+        {
+          "provider_product_id": "vercel",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Vercel is catalog-compatible with NEXT STATIC EXPORT."
+        }
+      ],
+      "recommendation": {
+        "action": "convert to static first",
+        "migration_effort": "LOW",
+        "notes": "Runtime simplification should be evaluated before selecting a new host."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "next.config.ts",
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/moonshine-ai-directory",
+      "github": {
+        "repository": "JFeimster/moonshine-ai-directory",
+        "url": "https://github.com/JFeimster/moonshine-ai-directory",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-08-25T20:49:19Z",
+        "description": "Find Your Perfect Funding Match Search by speed, amount, credit score, and industry. Compare up to 3 products side-by-side."
+      },
+      "primary_runtime": "NEXT + AUTH",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with NEXT + AUTH."
+        },
+        {
+          "provider_product_id": "firebase-app-hosting",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Firebase App Hosting is catalog-compatible with NEXT + AUTH."
+        },
+        {
+          "provider_product_id": "supabase-edge-functions",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Supabase Edge Functions is catalog-compatible with NEXT + AUTH."
+        }
+      ],
+      "recommendation": {
+        "action": "keep on Vercel",
+        "migration_effort": "HIGH",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "app/api/products/route.ts",
+          "app/api/submissions/route.ts",
+          "middleware.ts",
+          "next.config.js",
+          "package.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/custom-gpt-directory",
+      "github": {
+        "repository": "JFeimster/custom-gpt-directory",
+        "url": "https://github.com/JFeimster/custom-gpt-directory",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-08-23T03:46:58Z",
+        "description": "Explore purpose-built GPTs for funding, affiliate growth, content production, financial operations, automation, business building, and turning a hustle into an actual system."
+      },
+      "primary_runtime": "NEXT STATIC EXPORT",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Cloudflare Pages is catalog-compatible with NEXT STATIC EXPORT."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with NEXT STATIC EXPORT."
+        },
+        {
+          "provider_product_id": "vercel",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Vercel is catalog-compatible with NEXT STATIC EXPORT."
+        }
+      ],
+      "recommendation": {
+        "action": "migrate in later wave",
+        "migration_effort": "LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "next.config.ts",
+          "package.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/distilled-funding-tools",
+      "github": {
+        "repository": "JFeimster/distilled-funding-tools",
+        "url": "https://github.com/JFeimster/distilled-funding-tools",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-08-22T21:50:47Z",
+        "description": "Searchable Distilled Funding resource directory with reusable high-converting landing pages for tools, calculators, GPTs, playbooks, worksheets, scorecards, and lead magnets."
+      },
+      "primary_runtime": "NEXT SSR",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with NEXT SSR."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with NEXT SSR."
+        },
+        {
+          "provider_product_id": "firebase-app-hosting",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Firebase App Hosting is catalog-compatible with NEXT SSR."
+        }
+      ],
+      "recommendation": {
+        "action": "keep on Vercel",
+        "migration_effort": "MEDIUM",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "app/api/lead/route.ts",
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/gpt-action-architect",
+      "github": {
+        "repository": "JFeimster/gpt-action-architect",
+        "url": "https://github.com/JFeimster/gpt-action-architect",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-08-18T21:28:03Z",
+        "description": null
+      },
+      "primary_runtime": "DOCS / REGISTRY",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "github-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "GitHub Pages is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "mintlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Mintlify is catalog-compatible with DOCS / REGISTRY."
+        },
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Pages is catalog-compatible with DOCS / REGISTRY."
+        }
+      ],
+      "recommendation": {
+        "action": "do not deploy independently",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "LOW",
+        "audited_at": "2026-09-05",
+        "evidence_files": [],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/underdog-capital-os",
+      "github": {
+        "repository": "JFeimster/underdog-capital-os",
+        "url": "https://github.com/JFeimster/underdog-capital-os",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-08-06T15:11:30Z",
+        "description": "Fintech-cyber platform for funding readiness, acquisition capital, FinOps automation, and invite-only deal access."
+      },
+      "primary_runtime": "STATIC + API",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Workers is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC + API."
+        }
+      ],
+      "recommendation": {
+        "action": "investigate before deciding",
+        "migration_effort": "MEDIUM",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "api/liquid99.js",
+          "vercel.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/ecommerce-fee-audit",
+      "github": {
+        "repository": "JFeimster/ecommerce-fee-audit",
+        "url": "https://github.com/JFeimster/ecommerce-fee-audit",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-08-03T14:10:47Z",
+        "description": "Reconciles ecommerce payouts, exposes fee leakage, and measures contribution margin."
+      },
+      "primary_runtime": "BACKGROUND WORKER",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "railway",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Railway is catalog-compatible with BACKGROUND WORKER."
+        },
+        {
+          "provider_product_id": "google-cloud-run",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Google Cloud Run is catalog-compatible with BACKGROUND WORKER."
+        },
+        {
+          "provider_product_id": "digitalocean-app-platform",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "HIGH",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "DigitalOcean App Platform is catalog-compatible with BACKGROUND WORKER."
+        }
+      ],
+      "recommendation": {
+        "action": "investigate before deciding",
+        "migration_effort": "HIGH",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "api/events/event-catalog.yaml",
+          "api/events/event-envelope-examples.yaml",
+          "api/events/event-routing.yaml",
+          "api/events/event-state-machine.yaml",
+          "api/events/event-versioning.yaml",
+          "api/openapi/README.md",
+          "api/openapi/api-key-actions.openapi.yaml",
+          "api/openapi/consolidated-actions.openapi.yaml",
+          "api/openapi/no-auth-actions.openapi.yaml",
+          "api/openapi/oauth-actions.openapi.yaml",
+          "api/openapi/public-resources.openapi.yaml",
+          "api/schemas/audit-finding.schema.json",
+          "api/schemas/audit-intake.schema.json",
+          "api/schemas/audit-job.schema.json",
+          "api/schemas/audit-period.schema.json",
+          "api/schemas/audit-source.schema.json",
+          "api/schemas/connector-config.schema.json",
+          "api/schemas/event-envelope.schema.json",
+          "api/schemas/export-request.schema.json",
+          "api/schemas/product-entitlement.schema.json",
+          "api/schemas/service-order.schema.json",
+          "api/schemas/upload-session.schema.json",
+          "api/schemas/user-consent.schema.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/cashflow-stress-test",
+      "github": {
+        "repository": "JFeimster/cashflow-stress-test",
+        "url": "https://github.com/JFeimster/cashflow-stress-test",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-07-23T00:25:05Z",
+        "description": "Stress-tests 13 weeks of cash flow against adverse events and stacked shocks."
+      },
+      "primary_runtime": "STATIC",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Cloudflare Pages is catalog-compatible with STATIC."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC."
+        },
+        {
+          "provider_product_id": "vercel",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Vercel is catalog-compatible with STATIC."
+        }
+      ],
+      "recommendation": {
+        "action": "migrate now",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "LOW",
+        "audited_at": "2026-09-05",
+        "evidence_files": [],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/alan-watts-directory",
+      "github": {
+        "repository": "JFeimster/alan-watts-directory",
+        "url": "https://github.com/JFeimster/alan-watts-directory",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-07-23T23:00:09Z",
+        "description": "A static-first editorial archive built with Next.js App Router, TypeScript, Server Components, and a single client-side search island."
+      },
+      "primary_runtime": "NEXT STATIC EXPORT",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Cloudflare Pages is catalog-compatible with NEXT STATIC EXPORT."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with NEXT STATIC EXPORT."
+        },
+        {
+          "provider_product_id": "vercel",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Vercel is catalog-compatible with NEXT STATIC EXPORT."
+        }
+      ],
+      "recommendation": {
+        "action": "migrate now",
+        "migration_effort": "LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "next.config.ts",
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/alan-watts-archive",
+      "github": {
+        "repository": "JFeimster/alan-watts-archive",
+        "url": "https://github.com/JFeimster/alan-watts-archive",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-07-23T20:36:35Z",
+        "description": "An authentic editorial archive for Alan Watts lectures, books, verified quotations, essays, videos, and philosophical topics."
+      },
+      "primary_runtime": "STATIC",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Cloudflare Pages is catalog-compatible with STATIC."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC."
+        },
+        {
+          "provider_product_id": "vercel",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Vercel is catalog-compatible with STATIC."
+        }
+      ],
+      "recommendation": {
+        "action": "migrate now",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/tracking-link-generator",
+      "github": {
+        "repository": "JFeimster/tracking-link-generator",
+        "url": "https://github.com/JFeimster/tracking-link-generator",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-07-10T20:38:37Z",
+        "description": "A partner-enablement and campaign-attribution tool for a fintech and business-funding ecosystem."
+      },
+      "primary_runtime": "NEXT STATIC EXPORT",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Cloudflare Pages is catalog-compatible with NEXT STATIC EXPORT."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with NEXT STATIC EXPORT."
+        },
+        {
+          "provider_product_id": "vercel",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Vercel is catalog-compatible with NEXT STATIC EXPORT."
+        }
+      ],
+      "recommendation": {
+        "action": "convert to static first",
+        "migration_effort": "LOW",
+        "notes": "Runtime simplification should be evaluated before selecting a new host."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": null,
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "HIGH",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "package.json",
+          "vercel.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/fpos",
+      "github": {
+        "repository": "JFeimster/fpos",
+        "url": "https://github.com/JFeimster/fpos",
+        "visibility": "PUBLIC",
+        "archived": false,
+        "pushed_at": "2026-07-16T17:50:41Z",
+        "description": null
+      },
+      "primary_runtime": "STATIC",
+      "current_deployment": {
+        "provider": "Vercel",
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "vercel.json is source evidence for deployment intent, but no authoritative Vercel project linkage was recovered in this checkout."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Cloudflare Pages is catalog-compatible with STATIC."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC."
+        },
+        {
+          "provider_product_id": "vercel",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Vercel is catalog-compatible with STATIC."
+        }
+      ],
+      "recommendation": {
+        "action": "retain as alternate implementation",
+        "migration_effort": "VERY_LOW",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Likely earlier/alternate partner-OS surface relative to partner-command-center; retain pending product-owner review.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "MEDIUM",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "vercel.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
+      }
+    },
+    {
+      "repo_id": "github:JFeimster/funding-partners-os-dashboard",
+      "github": {
+        "repository": "JFeimster/funding-partners-os-dashboard",
+        "url": "https://github.com/JFeimster/funding-partners-os-dashboard",
+        "visibility": "PRIVATE",
+        "archived": false,
+        "pushed_at": "2026-07-08T02:58:44Z",
+        "description": "FPOS Dashboard"
+      },
+      "primary_runtime": "STATIC + API",
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "domains": [],
+        "status_note": "No authoritative deployment linkage found during this API/tree audit."
+      },
+      "hosting_alternatives": [
+        {
+          "provider_product_id": "vercel",
+          "fit": "BEST_FIT",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Use catalog pricing and limits; verify before any migration.",
+          "notes": "Vercel is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "PAY_OR_USAGE_BASED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Cloudflare Workers is catalog-compatible with STATIC + API."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "REALISTIC_ALTERNATIVE",
+          "free_tier_fit": "FREE_OR_FREEMIUM_WITH_LIMITS",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "Technically realistic; do not select solely for a free tier.",
+          "notes": "Netlify is catalog-compatible with STATIC + API."
+        }
+      ],
+      "recommendation": {
+        "action": "retain as alternate implementation",
+        "migration_effort": "MEDIUM",
+        "notes": "Recommendation is based on source/configuration signals only; deployment ownership remains unresolved where IDs are null."
+      },
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Catalog-backed providers expose CLI/API automation; treat official MCP/agent support as operational upside, not a reason to migrate by itself."
+      },
+      "relationship_note": "Likely alternate dashboard implementation relative to partner-command-center; retain pending product-owner review.",
+      "audit": {
+        "status": "AUDITED",
+        "confidence": "MEDIUM",
+        "audited_at": "2026-09-05",
+        "evidence_files": [
+          "package.json"
+        ],
+        "note": "GitHub API tree and relevant source/configuration files inspected."
       }
     }
-  ],
-  "portfolio_architecture": {
-    "recommended_now": {
-      "cloudflare": [
-        "funding-quiz",
-        "fundstack-ai",
-        "capitalgrid",
-        "resourcegrid"
-      ],
-      "vercel": [
-        "am-i-fundable",
-        "embed-widgets",
-        "partner-command-center",
-        "partner-intake-os",
-        "moonshine-broker",
-        "acquire-distilled",
-        "moonshine-capital-portal"
-      ],
-      "wix": [
-        "mc-studio"
-      ]
-    },
-    "recommended_after_migration_waves": {
-      "cloudflare": [
-        "funding-quiz",
-        "fundstack-ai",
-        "capitalgrid",
-        "resourcegrid",
-        "embed-widgets",
-        "am-i-fundable"
-      ],
-      "vercel": [
-        "partner-command-center",
-        "partner-intake-os",
-        "moonshine-broker",
-        "acquire-distilled",
-        "moonshine-capital-portal"
-      ],
-      "wix": [
-        "mc-studio"
-      ],
-      "conditional_alternatives": {
-        "partner-command-center": [
-          "netlify",
-          "cloudflare-pages + cloudflare-workers"
-        ],
-        "partner-intake-os": [
-          "railway",
-          "render-web",
-          "digitalocean-app-platform"
-        ],
-        "moonshine-broker": [
-          "cloudflare-pages after API extraction",
-          "netlify"
-        ],
-        "complex_next_fallbacks": [
-          "netlify",
-          "firebase-app-hosting",
-          "aws-amplify",
-          "railway",
-          "render-web"
-        ]
-      }
-    },
-    "migration_waves": [
-      {
-        "wave": 1,
-        "projects": [
-          "funding-quiz",
-          "fundstack-ai",
-          "capitalgrid"
-        ],
-        "goal": "Prove low-risk static hosting workflow."
-      },
-      {
-        "wave": 2,
-        "projects": [
-          "resourcegrid",
-          "embed-widgets",
-          "partner-command-center"
-        ],
-        "goal": "Move compounding shared distribution assets and establish API-hosting patterns."
-      },
-      {
-        "wave": 3,
-        "projects": [
-          "am-i-fundable",
-          "moonshine-broker"
-        ],
-        "goal": "Refactor/extract API dependencies before or during migration."
-      }
-    ]
-  }
+  ]
 }
