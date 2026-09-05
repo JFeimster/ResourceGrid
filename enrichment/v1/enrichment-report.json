@@ -1,0 +1,37 @@
+{
+  "enrichment_name": "ResourceGrid Content Intelligence Enrichment v1.2",
+  "generated_at": "2026-09-05T18:03:05.400Z",
+  "scope": {
+    "wix_articles": 427,
+    "youtube_records": 170,
+    "forms": 34,
+    "lead_magnets_guides": 12,
+    "approved_ctas": 12,
+    "canonical_resource_candidates_available": 948
+  },
+  "relationships": {
+    "content_to_content": 1582,
+    "content_to_resources": 1672,
+    "content_to_ctas": 1081
+  },
+  "method": {
+    "category_and_cluster_mapping": "Existing taxonomy plus deterministic title/topic rules.",
+    "related_post_resolution": "Historical Wix Recommended Post 1/2/3 resolved first; same-cluster fallback only where absent.",
+    "cta_matching": "Approved CTA registry matched by content cluster and funnel stage.",
+    "resource_matching": "Pre-indexed resource cluster/topic overlap plus title-token overlap.",
+    "funnel_stage": "Deterministic content-intent heuristics.",
+    "priority_scoring": "Cluster value, funnel stage, keyword presence, public access, and view snapshot."
+  },
+  "future_ingestion_queue": [
+    "Full Wix API metadata refresh including tags, relatedPostIds, SEO, metrics, and missing historical post IDs.",
+    "YouTube playlists, richer metadata, Shorts classification, transcripts, chapters, and video-to-blog relationships.",
+    "Additional lead magnets, guides, templates, downloads, newsletters, and social content.",
+    "Remaining Tally, Wix, and external forms plus destination routing.",
+    "Additional approved CTAs, offers, affiliates, and conversion destinations.",
+    "Notion content databases and resource hubs.",
+    "Google Drive asset inventory and public-sharing verification.",
+    "GitHub, site, app, tool, and deployment registry refreshes.",
+    "Skills, agents, and workflows by reference to their canonical repositories.",
+    "External funding partners, providers, products, and compliance resources."
+  ]
+}

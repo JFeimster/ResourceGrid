@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:07:52.853Z",
+  "generated_at": "2026-09-05T18:03:10.856Z",
   "terms": [
     "ecommerce",
     "amazon",
@@ -9,7 +9,7 @@
     "mrr",
     "subscription"
   ],
-  "count": 133,
+  "count": 136,
   "resources": [
     {
       "resource_id": "article-saas-valuation-multiples",
@@ -25,10 +25,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 95,
       "canonical_url": "https://www.distilledfunding.com/post/saas-valuation-multiples",
       "public_url": "https://www.distilledfunding.com/post/saas-valuation-multiples",
       "repo_url": null,
@@ -42,18 +42,20 @@
       "status": "published",
       "topics": [
         "AI Automation & Finance Ops",
-        "eCommerce Seller Funding"
+        "eCommerce Seller Funding",
+        "Payment Processing"
       ],
       "content_clusters": [
         "AI Automation & Finance Ops",
-        "eCommerce Seller Funding"
+        "eCommerce Seller Funding",
+        "Payment Processing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 85,
       "canonical_url": "https://www.distilledfunding.com/post/ai-platform-fee-audit-shopify-amazon-stripe-and-marketplace-fees-eating-your-margin",
       "public_url": "https://www.distilledfunding.com/post/ai-platform-fee-audit-shopify-amazon-stripe-and-marketplace-fees-eating-your-margin",
       "repo_url": null,
@@ -75,10 +77,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/food-truck-financing",
       "public_url": "https://www.distilledfunding.com/post/food-truck-financing",
       "repo_url": null,
@@ -100,12 +102,37 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 82,
       "canonical_url": "https://www.distilledfunding.com/post/ai-ad-spend-cash-flow",
       "public_url": "https://www.distilledfunding.com/post/ai-ad-spend-cash-flow",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-spotlightloans-review-2026",
+      "entity_type": "blog_article",
+      "title": "SpotLightLoans.com Review (2026): Legit Funding Marketplace or Just Another Aggregator?",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Reviews & Comparisons",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "Reviews & Comparisons",
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": 86,
+      "canonical_url": "https://www.distilledfunding.com/post/spotlightloans-review-2026",
+      "public_url": "https://www.distilledfunding.com/post/spotlightloans-review-2026",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -125,10 +152,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/funding-for-wix-sellers",
       "public_url": "https://www.distilledfunding.com/post/funding-for-wix-sellers",
       "repo_url": null,
@@ -150,10 +177,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 82,
       "canonical_url": "https://www.distilledfunding.com/post/ai-finance-tools-ecommerce-sellers",
       "public_url": "https://www.distilledfunding.com/post/ai-finance-tools-ecommerce-sellers",
       "repo_url": null,
@@ -166,17 +193,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "eCommerce Seller Funding"
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
-        "eCommerce Seller Funding"
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 82,
       "canonical_url": "https://www.distilledfunding.com/post/amazon-deferred-transactions-vs-account-level-reserve",
       "public_url": "https://www.distilledfunding.com/post/amazon-deferred-transactions-vs-account-level-reserve",
       "repo_url": null,
@@ -190,18 +219,24 @@
       "status": "published",
       "topics": [
         "eCommerce Seller Funding",
-        "Same-Day Business Funding"
+        "Same-Day Business Funding",
+        "Business Funding",
+        "AI Automation & Finance Ops",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "eCommerce Seller Funding",
-        "Same-Day Business Funding"
+        "Same-Day Business Funding",
+        "Business Funding",
+        "AI Automation & Finance Ops",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/payability-review-2026",
       "public_url": "https://www.distilledfunding.com/post/payability-review-2026",
       "repo_url": null,
@@ -215,18 +250,22 @@
       "status": "published",
       "topics": [
         "eCommerce Seller Funding",
-        "Same-Day Business Funding"
+        "Same-Day Business Funding",
+        "Business Funding",
+        "Acquisition Financing"
       ],
       "content_clusters": [
         "eCommerce Seller Funding",
-        "Same-Day Business Funding"
+        "Same-Day Business Funding",
+        "Business Funding",
+        "Acquisition Financing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/wix-seller-financing",
       "public_url": "https://www.distilledfunding.com/post/wix-seller-financing",
       "repo_url": null,
@@ -240,18 +279,22 @@
       "status": "published",
       "topics": [
         "eCommerce Seller Funding",
-        "Same-Day Business Funding"
+        "Same-Day Business Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "eCommerce Seller Funding",
-        "Same-Day Business Funding"
+        "Same-Day Business Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/8fig-review-2026",
       "public_url": "https://www.distilledfunding.com/post/8fig-review-2026",
       "repo_url": null,
@@ -275,10 +318,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/sba-loans-for-minorities-overcoming-barriers-to-capital-in-2026",
       "public_url": "https://www.distilledfunding.com/post/sba-loans-for-minorities-overcoming-barriers-to-capital-in-2026",
       "repo_url": null,
@@ -293,19 +336,23 @@
       "topics": [
         "Business Credit",
         "Same-Day Business Funding",
-        "eCommerce Seller Funding"
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "Business Credit",
         "Same-Day Business Funding",
-        "eCommerce Seller Funding"
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 86,
       "canonical_url": "https://www.distilledfunding.com/post/credit-card-stacking-strategies",
       "public_url": "https://www.distilledfunding.com/post/credit-card-stacking-strategies",
       "repo_url": null,
@@ -329,10 +376,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans",
       "public_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans",
       "repo_url": null,
@@ -358,10 +405,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/shopify-capital-alternatives",
       "public_url": "https://www.distilledfunding.com/post/shopify-capital-alternatives",
       "repo_url": null,
@@ -387,10 +434,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 90,
       "canonical_url": "https://www.distilledfunding.com/post/startup-loan-with-only-an-ein",
       "public_url": "https://www.distilledfunding.com/post/startup-loan-with-only-an-ein",
       "repo_url": null,
@@ -406,20 +453,22 @@
         "eCommerce Seller Funding",
         "Gig Worker Funding",
         "Business Funding",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
         "eCommerce Seller Funding",
         "Gig Worker Funding",
         "Business Funding",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/tiktok-shop-payout-delays",
       "public_url": "https://www.distilledfunding.com/post/tiktok-shop-payout-delays",
       "repo_url": null,
@@ -434,19 +483,21 @@
       "topics": [
         "eCommerce Seller Funding",
         "Gig Worker Funding",
-        "Business Funding"
+        "Business Funding",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
         "eCommerce Seller Funding",
         "Gig Worker Funding",
-        "Business Funding"
+        "Business Funding",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/finance-inventory-without-credit-check",
       "public_url": "https://www.distilledfunding.com/post/finance-inventory-without-credit-check",
       "repo_url": null,
@@ -460,18 +511,20 @@
       "status": "published",
       "topics": [
         "eCommerce Seller Funding",
-        "Business Funding"
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "eCommerce Seller Funding",
-        "Business Funding"
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/is-payability-a-scam",
       "public_url": "https://www.distilledfunding.com/post/is-payability-a-scam",
       "repo_url": null,
@@ -495,10 +548,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/8fig-s-flat-fee-vs-mca",
       "public_url": "https://www.distilledfunding.com/post/8fig-s-flat-fee-vs-mca",
       "repo_url": null,
@@ -513,19 +566,21 @@
       "topics": [
         "Business Funding",
         "eCommerce Seller Funding",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
         "Business Funding",
         "eCommerce Seller Funding",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/restaurant-inventory-financing",
       "public_url": "https://www.distilledfunding.com/post/restaurant-inventory-financing",
       "repo_url": null,
@@ -547,10 +602,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 82,
       "canonical_url": "https://www.distilledfunding.com/post/inventory-financing-for-ecommerce",
       "public_url": "https://www.distilledfunding.com/post/inventory-financing-for-ecommerce",
       "repo_url": null,
@@ -572,10 +627,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 82,
       "canonical_url": "https://www.distilledfunding.com/post/amazon-dd-7-reserve-policy",
       "public_url": "https://www.distilledfunding.com/post/amazon-dd-7-reserve-policy",
       "repo_url": null,
@@ -599,10 +654,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/why-wayflyer-rejected-your-business-and-why-onramp-won-t",
       "public_url": "https://www.distilledfunding.com/post/why-wayflyer-rejected-your-business-and-why-onramp-won-t",
       "repo_url": null,
@@ -626,10 +681,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/the-growth-stack-for-subscription-brands",
       "public_url": "https://www.distilledfunding.com/post/the-growth-stack-for-subscription-brands",
       "repo_url": null,
@@ -644,19 +699,25 @@
       "topics": [
         "eCommerce Seller Funding",
         "Gig Worker Funding",
-        "Business Funding"
+        "Business Funding",
+        "AI Automation & Finance Ops",
+        "Reviews & Comparisons",
+        "Payment Processing"
       ],
       "content_clusters": [
         "eCommerce Seller Funding",
         "Gig Worker Funding",
-        "Business Funding"
+        "Business Funding",
+        "AI Automation & Finance Ops",
+        "Reviews & Comparisons",
+        "Payment Processing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/wayflyer-vs-8fig-vs-clearco-the-hidden-cost-of-daily-repayments-revealed-2026-data",
       "public_url": "https://www.distilledfunding.com/post/wayflyer-vs-8fig-vs-clearco-the-hidden-cost-of-daily-repayments-revealed-2026-data",
       "repo_url": null,
@@ -670,18 +731,20 @@
       "status": "published",
       "topics": [
         "eCommerce Seller Funding",
-        "Business Funding"
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "eCommerce Seller Funding",
-        "Business Funding"
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/onramp-vs-payability-vs-8fig",
       "public_url": "https://www.distilledfunding.com/post/onramp-vs-payability-vs-8fig",
       "repo_url": null,
@@ -705,10 +768,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-finance-your-online-business-acquisition-content-saas-e-commerce",
       "public_url": "https://www.distilledfunding.com/post/how-to-finance-your-online-business-acquisition-content-saas-e-commerce",
       "repo_url": null,
@@ -738,12 +801,37 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://www.distilledfunding.com/post/get-a-personalized-funding-quote",
       "public_url": "https://www.distilledfunding.com/post/get-a-personalized-funding-quote",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-debt-financing-vs-equity-funding-for-marketplace-sellers",
+      "entity_type": "blog_article",
+      "title": "Debt Financing vs. Equity Funding for Marketplace Sellers",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": 82,
+      "canonical_url": "https://www.distilledfunding.com/post/debt-financing-vs-equity-funding-for-marketplace-sellers",
+      "public_url": "https://www.distilledfunding.com/post/debt-financing-vs-equity-funding-for-marketplace-sellers",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -755,18 +843,20 @@
       "status": "published",
       "topics": [
         "eCommerce Seller Funding",
-        "Business Funding"
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "eCommerce Seller Funding",
-        "Business Funding"
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/amazon-lending-vs-alternatives",
       "public_url": "https://www.distilledfunding.com/post/amazon-lending-vs-alternatives",
       "repo_url": null,
@@ -788,10 +878,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/exploring-alternative-funding-solutions",
       "public_url": "https://www.distilledfunding.com/post/exploring-alternative-funding-solutions",
       "repo_url": null,
@@ -815,10 +905,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/micro-saas-acquisitions-funding-options-when-ebitda-500k",
       "public_url": "https://www.distilledfunding.com/post/micro-saas-acquisitions-funding-options-when-ebitda-500k",
       "repo_url": null,
@@ -833,19 +923,21 @@
       "topics": [
         "Business Credit",
         "eCommerce Seller Funding",
-        "Business Funding"
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "Business Credit",
         "eCommerce Seller Funding",
-        "Business Funding"
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 94,
       "canonical_url": "https://www.distilledfunding.com/post/fundandgrow-review",
       "public_url": "https://www.distilledfunding.com/post/fundandgrow-review",
       "repo_url": null,
@@ -869,10 +961,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/shopify-working-capital-loans-in-2026",
       "public_url": "https://www.distilledfunding.com/post/shopify-working-capital-loans-in-2026",
       "repo_url": null,
@@ -887,19 +979,21 @@
       "topics": [
         "Business Funding",
         "Gig Worker Funding",
-        "eCommerce Seller Funding"
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "Business Funding",
         "Gig Worker Funding",
-        "eCommerce Seller Funding"
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/government-grants-vs-business-loans-what-s-faster-in-2025",
       "public_url": "https://www.distilledfunding.com/post/government-grants-vs-business-loans-what-s-faster-in-2025",
       "repo_url": null,
@@ -913,18 +1007,20 @@
       "status": "published",
       "topics": [
         "eCommerce Seller Funding",
-        "Business Funding"
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "eCommerce Seller Funding",
-        "Business Funding"
+        "Business Funding",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/sellersfi-review-2026",
       "public_url": "https://www.distilledfunding.com/post/sellersfi-review-2026",
       "repo_url": null,
@@ -938,18 +1034,20 @@
       "status": "published",
       "topics": [
         "Business Funding",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "eCommerce Seller Funding"
       ],
       "content_clusters": [
         "Business Funding",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "eCommerce Seller Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/how-8fig-growth-funding-helps-ecommerce-brands-scale",
       "public_url": "https://www.distilledfunding.com/post/how-8fig-growth-funding-helps-ecommerce-brands-scale",
       "repo_url": null,
@@ -971,10 +1069,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/revenue-based-buyouts-for-saas-acquisitions",
       "public_url": "https://www.distilledfunding.com/post/revenue-based-buyouts-for-saas-acquisitions",
       "repo_url": null,
@@ -1000,10 +1098,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/capital-as-a-service-why-saas-platforms-are-becoming-the-next-lenders",
       "public_url": "https://www.distilledfunding.com/post/capital-as-a-service-why-saas-platforms-are-becoming-the-next-lenders",
       "repo_url": null,
@@ -1027,10 +1125,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/doordash-drivers-business-loan",
       "public_url": "https://www.distilledfunding.com/post/doordash-drivers-business-loan",
       "repo_url": null,
@@ -1044,18 +1142,22 @@
       "status": "published",
       "topics": [
         "Business Funding",
-        "AI Automation & Finance Ops"
+        "AI Automation & Finance Ops",
+        "Acquisition Financing",
+        "eCommerce Seller Funding"
       ],
       "content_clusters": [
         "Business Funding",
-        "AI Automation & Finance Ops"
+        "AI Automation & Finance Ops",
+        "Acquisition Financing",
+        "eCommerce Seller Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/revenue-based-acquisition-financing-an-sba-alternative-for-ecommerce-brand-buyers",
       "public_url": "https://www.distilledfunding.com/post/revenue-based-acquisition-financing-an-sba-alternative-for-ecommerce-brand-buyers",
       "repo_url": null,
@@ -1072,21 +1174,23 @@
         "Gig Worker Funding",
         "Payment Processing",
         "Loan Broker & Affiliate Program",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "eCommerce Seller Funding"
       ],
       "content_clusters": [
         "Business Funding",
         "Gig Worker Funding",
         "Payment Processing",
         "Loan Broker & Affiliate Program",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "eCommerce Seller Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/api-first-lending-how-embedded-finance-powers-ecommerce-funding",
       "public_url": "https://www.distilledfunding.com/post/api-first-lending-how-embedded-finance-powers-ecommerce-funding",
       "repo_url": null,
@@ -1099,17 +1203,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Business Funding"
+        "Business Funding",
+        "eCommerce Seller Funding"
       ],
       "content_clusters": [
-        "Business Funding"
+        "Business Funding",
+        "eCommerce Seller Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/unlocking-growth-the-power-of-revenue-based-funding-for-ecommerce",
       "public_url": "https://www.distilledfunding.com/post/unlocking-growth-the-power-of-revenue-based-funding-for-ecommerce",
       "repo_url": null,
@@ -1122,19 +1228,50 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Business Funding"
+        "Business Funding",
+        "AI Automation & Finance Ops",
+        "eCommerce Seller Funding"
       ],
       "content_clusters": [
-        "Business Funding"
+        "Business Funding",
+        "AI Automation & Finance Ops",
+        "eCommerce Seller Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/how-sellersfi-s-working-capital-solutions-can-enhance-your-ecommerce-cash-flow",
       "public_url": "https://www.distilledfunding.com/post/how-sellersfi-s-working-capital-solutions-can-enhance-your-ecommerce-cash-flow",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-best-funding-options-for-online-marketplaces",
+      "entity_type": "blog_article",
+      "title": "Best Funding Options for Online Marketplaces: Secure Capital for Growth in 2024",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": 84,
+      "canonical_url": "https://www.distilledfunding.com/post/best-funding-options-for-online-marketplaces",
+      "public_url": "https://www.distilledfunding.com/post/best-funding-options-for-online-marketplaces",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -1145,17 +1282,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Business Funding"
+        "Business Funding",
+        "eCommerce Seller Funding"
       ],
       "content_clusters": [
-        "Business Funding"
+        "Business Funding",
+        "eCommerce Seller Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/unlocking-growth-without-giving-up-equity",
       "public_url": "https://www.distilledfunding.com/post/unlocking-growth-without-giving-up-equity",
       "repo_url": null,
@@ -1179,10 +1318,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/instant-funding-for-gig-workers",
       "public_url": "https://www.distilledfunding.com/post/instant-funding-for-gig-workers",
       "repo_url": null,
@@ -1195,17 +1334,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Business Funding"
+        "Business Funding",
+        "eCommerce Seller Funding"
       ],
       "content_clusters": [
-        "Business Funding"
+        "Business Funding",
+        "eCommerce Seller Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/navigating-ecommerce-funding-the-rise-of-revenue-based-financing",
       "public_url": "https://www.distilledfunding.com/post/navigating-ecommerce-funding-the-rise-of-revenue-based-financing",
       "repo_url": null,
@@ -1225,10 +1366,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/revenuebasedfinancing-lightercapital",
       "public_url": "https://www.distilledfunding.com/post/revenuebasedfinancing-lightercapital",
       "repo_url": null,
@@ -1242,18 +1383,22 @@
       "status": "published",
       "topics": [
         "Business Funding",
-        "Resources"
+        "Resources",
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "Business Funding",
-        "Resources"
+        "Resources",
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/sellersfi-review",
       "public_url": "https://www.distilledfunding.com/post/sellersfi-review",
       "repo_url": null,
@@ -1266,17 +1411,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Business Funding"
+        "Business Funding",
+        "eCommerce Seller Funding"
       ],
       "content_clusters": [
-        "Business Funding"
+        "Business Funding",
+        "eCommerce Seller Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/altfinance-ep3",
       "public_url": "https://www.distilledfunding.com/post/altfinance-ep3",
       "repo_url": null,
@@ -1289,17 +1436,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Business Funding"
+        "Business Funding",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
-        "Business Funding"
+        "Business Funding",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/saas-funding-raise-capital-without-giving-up-equity",
       "public_url": "https://www.distilledfunding.com/post/saas-funding-raise-capital-without-giving-up-equity",
       "repo_url": null,
@@ -1319,10 +1468,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 84,
       "canonical_url": "https://www.distilledfunding.com/post/revenue-based-financing-for-saas-startups",
       "public_url": "https://www.distilledfunding.com/post/revenue-based-financing-for-saas-startups",
       "repo_url": null,
@@ -1334,14 +1483,18 @@
       "title": "Your Shopify Sales Look Good But Your Bank Account Doesn't | Here's Why",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 82,
       "canonical_url": "https://www.youtube.com/watch?v=Jn3dfmmXWHY",
       "public_url": "https://www.youtube.com/watch?v=Jn3dfmmXWHY",
       "repo_url": null,
@@ -1357,10 +1510,10 @@
       "content_clusters": [],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 61,
       "canonical_url": "https://www.youtube.com/watch?v=7b-ElFJbVEw",
       "public_url": "https://www.youtube.com/watch?v=7b-ElFJbVEw",
       "repo_url": null,
@@ -1372,14 +1525,20 @@
       "title": "8 Must-Have AI Tools for Amazon & Shopify Sellers (Sell Smarter!)",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "AI Automation & Finance Ops",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "AI Automation & Finance Ops",
+        "eCommerce Seller Funding"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 82,
       "canonical_url": "https://www.youtube.com/watch?v=bqiBPPAEYvU",
       "public_url": "https://www.youtube.com/watch?v=bqiBPPAEYvU",
       "repo_url": null,
@@ -1391,14 +1550,18 @@
       "title": "Funding Your eCommerce Potential with Onramp Funds | Fast & Flexible Funding for Growth",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 82,
       "canonical_url": "https://www.youtube.com/watch?v=1Of_UsAasEk",
       "public_url": "https://www.youtube.com/watch?v=1Of_UsAasEk",
       "repo_url": null,
@@ -1410,14 +1573,18 @@
       "title": "Boost Your Online Store with eCommerce Funding Strategies",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 82,
       "canonical_url": "https://www.youtube.com/watch?v=tTtO4yDOd_o",
       "public_url": "https://www.youtube.com/watch?v=tTtO4yDOd_o",
       "repo_url": null,
@@ -1433,10 +1600,10 @@
       "content_clusters": [],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 59,
       "canonical_url": null,
       "public_url": null,
       "repo_url": null,

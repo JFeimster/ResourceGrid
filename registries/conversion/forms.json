@@ -24,8 +24,20 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-08-25T10:53:03.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "decision",
+      "priority": 92
     },
     {
       "resource_id": "form-tally-rjm6do",
@@ -48,8 +60,20 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-08-25T10:52:22.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "decision",
+      "priority": 92
     },
     {
       "resource_id": "form-tally-w4r2ad",
@@ -72,8 +96,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 9,
         "created_at": "2025-06-18T03:15:52.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 61
     },
     {
       "resource_id": "form-tally-a7edqy",
@@ -96,8 +126,18 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-08-25T10:53:59.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "funnel_stage": "decision",
+      "priority": 92
     },
     {
       "resource_id": "form-tally-dwveqn",
@@ -120,8 +160,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-05-28T13:29:13.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 61
     },
     {
       "resource_id": "form-tally-aqqvdw",
@@ -144,8 +190,18 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-08-29T11:12:31.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "funnel_stage": "decision",
+      "priority": 96
     },
     {
       "resource_id": "form-tally-q416k8",
@@ -168,8 +224,18 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-08-29T11:12:02.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "Reviews & Comparisons"
+      ],
+      "topics": [
+        "Reviews & Comparisons"
+      ],
+      "funnel_stage": "decision",
+      "priority": 78
     },
     {
       "resource_id": "form-tally-2eg0jg",
@@ -192,8 +258,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-08-29T11:11:31.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 61
     },
     {
       "resource_id": "form-tally-ek79ja",
@@ -216,8 +288,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-08-29T11:11:06.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 61
     },
     {
       "resource_id": "form-tally-oblw75",
@@ -240,8 +318,18 @@
         "workspace_id": "3X0EPO",
         "submission_count": 2,
         "created_at": "2026-08-29T11:10:37.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "funnel_stage": "decision",
+      "priority": 96
     },
     {
       "resource_id": "form-tally-moe658",
@@ -264,8 +352,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 41,
         "created_at": "2025-06-13T22:07:24.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 61
     },
     {
       "resource_id": "form-tally-mdejb5",
@@ -288,8 +382,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-06-09T09:21:27.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 61
     },
     {
       "resource_id": "form-tally-5b8kad",
@@ -312,8 +412,18 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-05-07T19:38:03.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "Reviews & Comparisons"
+      ],
+      "topics": [
+        "Reviews & Comparisons"
+      ],
+      "funnel_stage": "decision",
+      "priority": 78
     },
     {
       "resource_id": "form-tally-vllp96",
@@ -336,8 +446,20 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-03-07T04:24:54.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "decision",
+      "priority": 92
     },
     {
       "resource_id": "form-tally-j9ldxr",
@@ -360,8 +482,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2026-01-12T13:56:41.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-tally-zj9pjb",
@@ -384,8 +512,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-11-30T06:11:31.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-tally-2ejor9",
@@ -408,8 +542,18 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-11-30T06:11:25.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "AI Automation & Finance Ops"
+      ],
+      "topics": [
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "decision",
+      "priority": 82
     },
     {
       "resource_id": "form-tally-pdr80e",
@@ -432,8 +576,18 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-11-30T06:09:04.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "AI Automation & Finance Ops"
+      ],
+      "topics": [
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "decision",
+      "priority": 82
     },
     {
       "resource_id": "form-tally-gxey0k",
@@ -456,8 +610,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-11-30T06:08:56.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-tally-ob9lox",
@@ -480,8 +640,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-11-30T06:08:53.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-tally-rgw8lj",
@@ -504,8 +670,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-11-30T06:08:50.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-tally-d4q0ez",
@@ -528,8 +700,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-11-30T06:08:44.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-tally-dwbqpk",
@@ -552,8 +730,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-11-30T06:08:29.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-tally-zxewe0",
@@ -576,8 +760,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-11-30T06:08:00.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-tally-wojlov",
@@ -600,8 +790,18 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-11-30T06:01:50.000Z",
-        "tally_status": "DRAFT"
-      }
+        "tally_status": "DRAFT",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "funnel_stage": "decision",
+      "priority": 90
     },
     {
       "resource_id": "form-tally-mex7no",
@@ -624,8 +824,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 2,
         "created_at": "2025-08-06T07:50:14.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 61
     },
     {
       "resource_id": "form-tally-3x152k",
@@ -648,8 +854,14 @@
         "workspace_id": "3X0EPO",
         "submission_count": 0,
         "created_at": "2025-06-03T07:22:24.000Z",
-        "tally_status": "PUBLISHED"
-      }
+        "tally_status": "PUBLISHED",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 61
     },
     {
       "resource_id": "form-wix-1256c7dd",
@@ -673,8 +885,14 @@
         "field_identifiers": [
           "email"
         ],
-        "redirect_on_submit": "https://feimster.notion.site/The-Do-Less-Earn-More-Execution-System-2164bc1bd63c8044a9c1cf5a695d297a"
-      }
+        "redirect_on_submit": "https://feimster.notion.site/The-Do-Less-Earn-More-Execution-System-2164bc1bd63c8044a9c1cf5a695d297a",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-wix-2ab1c986",
@@ -702,8 +920,14 @@
           "message",
           "service"
         ],
-        "redirect_on_submit": null
-      }
+        "redirect_on_submit": null,
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-wix-30e6abfd",
@@ -729,8 +953,18 @@
           "last_name",
           "email"
         ],
-        "redirect_on_submit": "https://myfunding.notion.site/automation-pack-n8n/"
-      }
+        "redirect_on_submit": "https://myfunding.notion.site/automation-pack-n8n/",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "AI Automation & Finance Ops"
+      ],
+      "topics": [
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "decision",
+      "priority": 82
     },
     {
       "resource_id": "form-wix-85edd7a1",
@@ -758,8 +992,14 @@
           "date",
           "signature"
         ],
-        "redirect_on_submit": null
-      }
+        "redirect_on_submit": null,
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-wix-8c540887",
@@ -788,8 +1028,14 @@
           "checkboxes",
           "message"
         ],
-        "redirect_on_submit": null
-      }
+        "redirect_on_submit": null,
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-wix-a2f9fa93",
@@ -819,8 +1065,14 @@
           "website",
           "address"
         ],
-        "redirect_on_submit": null
-      }
+        "redirect_on_submit": null,
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [],
+      "topics": [],
+      "funnel_stage": "decision",
+      "priority": 59
     },
     {
       "resource_id": "form-wix-db7be176",
@@ -862,8 +1114,18 @@
           "primary_cta_label",
           "secondary_cta"
         ],
-        "redirect_on_submit": null
-      }
+        "redirect_on_submit": null,
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "funnel_stage": "decision",
+      "priority": 90
     }
   ]
 }

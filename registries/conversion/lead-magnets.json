@@ -15,7 +15,9 @@
       "content_clusters": [
         "Loan Broker",
         "Funding Agency",
-        "Productivity"
+        "Productivity",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "source": {
         "system": "Tally",
@@ -26,8 +28,19 @@
       },
       "metadata": {
         "reader_facing_approved": true,
-        "access_note": null
-      }
+        "access_note": null,
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "Loan Broker",
+        "Funding Agency",
+        "Productivity",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "consideration",
+      "priority": 88
     },
     {
       "resource_id": "leadmagnet-print-money-prompt-pack",
@@ -41,7 +54,9 @@
       "content_clusters": [
         "AI",
         "Prompts",
-        "Funding Agency"
+        "Funding Agency",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "source": {
         "system": "Tally",
@@ -52,8 +67,19 @@
       },
       "metadata": {
         "reader_facing_approved": true,
-        "access_note": null
-      }
+        "access_note": null,
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "AI",
+        "Prompts",
+        "Funding Agency",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "consideration",
+      "priority": 88
     },
     {
       "resource_id": "leadmagnet-do-less-earn-more",
@@ -77,8 +103,16 @@
       },
       "metadata": {
         "reader_facing_approved": true,
-        "access_note": null
-      }
+        "access_note": null,
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "Execution Systems",
+        "Entrepreneurship"
+      ],
+      "funnel_stage": "consideration",
+      "priority": 57
     },
     {
       "resource_id": "leadmagnet-automation-pack-n8n",
@@ -92,7 +126,9 @@
       "content_clusters": [
         "Loan Broker",
         "Automation",
-        "n8n"
+        "n8n",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "source": {
         "system": "Wix",
@@ -103,8 +139,19 @@
       },
       "metadata": {
         "reader_facing_approved": true,
-        "access_note": null
-      }
+        "access_note": null,
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "Loan Broker",
+        "Automation",
+        "n8n",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "consideration",
+      "priority": 88
     },
     {
       "resource_id": "guide-business-funding-blueprint",
@@ -128,8 +175,16 @@
       },
       "metadata": {
         "reader_facing_approved": false,
-        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
-      }
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use.",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "Business Funding",
+        "Capital Stack"
+      ],
+      "funnel_stage": "awareness",
+      "priority": 82
     },
     {
       "resource_id": "guide-loan-broker-partner",
@@ -142,7 +197,8 @@
       "public_access": false,
       "content_clusters": [
         "Loan Broker",
-        "Partners"
+        "Partners",
+        "Loan Broker & Affiliate Program"
       ],
       "source": {
         "system": "Google Drive",
@@ -153,8 +209,17 @@
       },
       "metadata": {
         "reader_facing_approved": false,
-        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
-      }
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use.",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "Loan Broker",
+        "Partners",
+        "Loan Broker & Affiliate Program"
+      ],
+      "funnel_stage": "awareness",
+      "priority": 86
     },
     {
       "resource_id": "guide-virtual-loan-officer-setup",
@@ -168,7 +233,9 @@
       "content_clusters": [
         "AI",
         "Loan Broker",
-        "Automation"
+        "Automation",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "source": {
         "system": "Google Drive",
@@ -179,8 +246,19 @@
       },
       "metadata": {
         "reader_facing_approved": false,
-        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
-      }
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use.",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "AI",
+        "Loan Broker",
+        "Automation",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "awareness",
+      "priority": 86
     },
     {
       "resource_id": "guide-partner-tools-and-gpts",
@@ -194,7 +272,8 @@
       "content_clusters": [
         "Partners",
         "Custom GPTs",
-        "Tools"
+        "Tools",
+        "Loan Broker & Affiliate Program"
       ],
       "source": {
         "system": "Google Drive",
@@ -205,8 +284,18 @@
       },
       "metadata": {
         "reader_facing_approved": false,
-        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
-      }
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use.",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "Partners",
+        "Custom GPTs",
+        "Tools",
+        "Loan Broker & Affiliate Program"
+      ],
+      "funnel_stage": "awareness",
+      "priority": 86
     },
     {
       "resource_id": "template-funding-agency-automations",
@@ -220,7 +309,9 @@
       "content_clusters": [
         "Loan Broker",
         "n8n",
-        "Automation"
+        "Automation",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "source": {
         "system": "Google Drive",
@@ -231,8 +322,19 @@
       },
       "metadata": {
         "reader_facing_approved": false,
-        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
-      }
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use.",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "Loan Broker",
+        "n8n",
+        "Automation",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "awareness",
+      "priority": 86
     },
     {
       "resource_id": "guide-bank-decline-recovery",
@@ -256,8 +358,16 @@
       },
       "metadata": {
         "reader_facing_approved": false,
-        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
-      }
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use.",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "Bank Declines",
+        "Business Funding"
+      ],
+      "funnel_stage": "awareness",
+      "priority": 82
     },
     {
       "resource_id": "guide-accountant-referral",
@@ -270,7 +380,8 @@
       "public_access": false,
       "content_clusters": [
         "Accountants",
-        "Referral Partners"
+        "Referral Partners",
+        "Loan Broker & Affiliate Program"
       ],
       "source": {
         "system": "Google Drive",
@@ -281,8 +392,17 @@
       },
       "metadata": {
         "reader_facing_approved": false,
-        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
-      }
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use.",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "Accountants",
+        "Referral Partners",
+        "Loan Broker & Affiliate Program"
+      ],
+      "funnel_stage": "awareness",
+      "priority": 86
     },
     {
       "resource_id": "guide-bank-manager-referral",
@@ -295,7 +415,8 @@
       "public_access": false,
       "content_clusters": [
         "Bankers",
-        "Referral Partners"
+        "Referral Partners",
+        "Loan Broker & Affiliate Program"
       ],
       "source": {
         "system": "Google Drive",
@@ -306,8 +427,17 @@
       },
       "metadata": {
         "reader_facing_approved": false,
-        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
-      }
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use.",
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
+      },
+      "topics": [
+        "Bankers",
+        "Referral Partners",
+        "Loan Broker & Affiliate Program"
+      ],
+      "funnel_stage": "awareness",
+      "priority": 86
     }
   ]
 }

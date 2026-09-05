@@ -36,6 +36,16 @@
         "source_url": "https://tally.so/r/mDEJB5",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Business Funding",
+        "Funding Readiness"
+      ],
+      "funnel_stage": "decision",
+      "priority": 88,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -70,6 +80,15 @@
         "source_url": "https://tally.so/r/w4R2Ad",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Business Funding"
+      ],
+      "funnel_stage": "decision",
+      "priority": 88,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -83,7 +102,8 @@
       "public_access": true,
       "content_clusters": [
         "Loan Broker",
-        "Partners"
+        "Partners",
+        "Loan Broker & Affiliate Program"
       ],
       "cta_role": "partner",
       "approved_cta_label": "Join the #1 B2B Funding Platform",
@@ -105,6 +125,17 @@
         "source_url": "https://tally.so/r/mOe658",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Loan Broker",
+        "Partners",
+        "Loan Broker & Affiliate Program"
+      ],
+      "funnel_stage": "decision",
+      "priority": 92,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -118,7 +149,9 @@
       "public_access": true,
       "content_clusters": [
         "Loan Broker",
-        "Partners"
+        "Partners",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "cta_role": "partner",
       "approved_cta_label": "Join Moonshine Capital — Funding Agent",
@@ -140,6 +173,18 @@
         "source_url": "https://tally.so/r/rjM6do",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Loan Broker",
+        "Partners",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "decision",
+      "priority": 92,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -153,7 +198,8 @@
       "public_access": true,
       "content_clusters": [
         "Loan Broker",
-        "Funding Agency"
+        "Funding Agency",
+        "Loan Broker & Affiliate Program"
       ],
       "cta_role": "partner",
       "approved_cta_label": "Launch Your Agency",
@@ -175,6 +221,17 @@
         "source_url": "https://tally.so/r/A7edqy",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Loan Broker",
+        "Funding Agency",
+        "Loan Broker & Affiliate Program"
+      ],
+      "funnel_stage": "decision",
+      "priority": 92,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -210,6 +267,16 @@
         "source_url": "https://tally.so/r/aQqVDW",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Acquisition Financing",
+        "ETA"
+      ],
+      "funnel_stage": "decision",
+      "priority": 96,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -223,7 +290,8 @@
       "public_access": true,
       "content_clusters": [
         "Acquisition Financing",
-        "Deal Analysis"
+        "Deal Analysis",
+        "Reviews & Comparisons"
       ],
       "cta_role": "secondary",
       "approved_cta_label": "Submit a Deal for Review",
@@ -245,6 +313,17 @@
         "source_url": "https://tally.so/r/q416K8",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Acquisition Financing",
+        "Deal Analysis",
+        "Reviews & Comparisons"
+      ],
+      "funnel_stage": "decision",
+      "priority": 96,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -280,6 +359,16 @@
         "source_url": "https://tally.so/r/2EG0Jg",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Business Sale",
+        "M&A"
+      ],
+      "funnel_stage": "decision",
+      "priority": 61,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -293,7 +382,8 @@
       "public_access": true,
       "content_clusters": [
         "Business Acquisition",
-        "Buyer"
+        "Buyer",
+        "Acquisition Financing"
       ],
       "cta_role": "primary",
       "approved_cta_label": "Create Your Buyer Profile",
@@ -315,6 +405,17 @@
         "source_url": "https://tally.so/r/Ek79JA",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Business Acquisition",
+        "Buyer",
+        "Acquisition Financing"
+      ],
+      "funnel_stage": "decision",
+      "priority": 96,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -328,7 +429,8 @@
       "public_access": true,
       "content_clusters": [
         "Business Acquisition",
-        "Network"
+        "Network",
+        "Acquisition Financing"
       ],
       "cta_role": "partner",
       "approved_cta_label": "Join the Acquisition Network",
@@ -350,6 +452,17 @@
         "source_url": "https://tally.so/r/obLW75",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Business Acquisition",
+        "Network",
+        "Acquisition Financing"
+      ],
+      "funnel_stage": "decision",
+      "priority": 96,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -363,7 +476,9 @@
       "public_access": true,
       "content_clusters": [
         "Loan Broker",
-        "Productivity"
+        "Productivity",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "cta_role": "secondary",
       "approved_cta_label": "Get the Daily 5 Tracker",
@@ -385,6 +500,18 @@
         "source_url": "https://tally.so/r/VLlP96",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "Loan Broker",
+        "Productivity",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "decision",
+      "priority": 92,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     },
     {
@@ -398,7 +525,8 @@
       "public_access": true,
       "content_clusters": [
         "AI",
-        "Prompts"
+        "Prompts",
+        "AI Automation & Finance Ops"
       ],
       "cta_role": "secondary",
       "approved_cta_label": "Get Your Print Money Prompt Pack",
@@ -420,6 +548,17 @@
         "source_url": "https://tally.so/r/meX7No",
         "verified_at": "2026-09-05T15:55:00Z",
         "confidence": 1
+      },
+      "topics": [
+        "AI",
+        "Prompts",
+        "AI Automation & Finance Ops"
+      ],
+      "funnel_stage": "decision",
+      "priority": 84,
+      "metadata": {
+        "intelligence_enrichment_version": "v1.2",
+        "intelligence_enriched_at": "2026-09-05T18:03:05.400Z"
       }
     }
   ]

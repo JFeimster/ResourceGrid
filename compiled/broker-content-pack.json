@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:07:52.853Z",
+  "generated_at": "2026-09-05T18:03:10.856Z",
   "terms": [
     "broker",
     "affiliate",
@@ -7,7 +7,7 @@
     "partner",
     "referral"
   ],
-  "count": 292,
+  "count": 298,
   "resources": [
     {
       "resource_id": "article-mcp-servers-for-lending",
@@ -17,18 +17,20 @@
       "status": "published",
       "topics": [
         "AI Automation & Finance Ops",
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "AI Automation & Finance Ops",
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 91,
       "canonical_url": "https://www.distilledfunding.com/post/mcp-servers-for-lending",
       "public_url": "https://www.distilledfunding.com/post/mcp-servers-for-lending",
       "repo_url": null,
@@ -50,10 +52,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 91,
       "canonical_url": "https://www.distilledfunding.com/post/ai-tools-for-loan-brokers",
       "public_url": "https://www.distilledfunding.com/post/ai-tools-for-loan-brokers",
       "repo_url": null,
@@ -75,10 +77,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/ai-isn-t-replacing-loan-brokers-it-s-creating-the-next-generation-of-them",
       "public_url": "https://www.distilledfunding.com/post/ai-isn-t-replacing-loan-brokers-it-s-creating-the-next-generation-of-them",
       "repo_url": null,
@@ -92,18 +94,20 @@
       "status": "published",
       "topics": [
         "AI Automation & Finance Ops",
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
         "AI Automation & Finance Ops",
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 95,
       "canonical_url": "https://www.distilledfunding.com/post/human-in-the-loop-ai-funding",
       "public_url": "https://www.distilledfunding.com/post/human-in-the-loop-ai-funding",
       "repo_url": null,
@@ -125,10 +129,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-loan-brokers-can-use-ai",
       "public_url": "https://www.distilledfunding.com/post/how-loan-brokers-can-use-ai",
       "repo_url": null,
@@ -150,10 +154,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/ai-crm-automation-for-loan-brokers",
       "public_url": "https://www.distilledfunding.com/post/ai-crm-automation-for-loan-brokers",
       "repo_url": null,
@@ -166,17 +170,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-start-as-loan-broker",
       "public_url": "https://www.distilledfunding.com/post/how-to-start-as-loan-broker",
       "repo_url": null,
@@ -188,14 +194,20 @@
       "title": "Business Loan Broker Requirements for Beginners (2026)",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/business-loan-broker-requirements-for-beginners-2026",
       "public_url": "https://www.distilledfunding.com/post/business-loan-broker-requirements-for-beginners-2026",
       "repo_url": null,
@@ -208,17 +220,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/small-business-loan-broker",
       "public_url": "https://www.distilledfunding.com/post/small-business-loan-broker",
       "repo_url": null,
@@ -230,14 +244,18 @@
       "title": "Loan Broker Affiliate Income: What You Need to Know to Win Big",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/loan-broker-affiliate-income",
       "public_url": "https://www.distilledfunding.com/post/loan-broker-affiliate-income",
       "repo_url": null,
@@ -257,10 +275,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/starting-a-commercial-loan-broker-business",
       "public_url": "https://www.distilledfunding.com/post/starting-a-commercial-loan-broker-business",
       "repo_url": null,
@@ -272,14 +290,20 @@
       "title": "Why Partnering with Moonshine Capital is the Best Home-Based Business Opportunity",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/best-home-based-business-opportunity",
       "public_url": "https://www.distilledfunding.com/post/best-home-based-business-opportunity",
       "repo_url": null,
@@ -292,17 +316,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-start-a-loan-broker-career",
       "public_url": "https://www.distilledfunding.com/post/how-to-start-a-loan-broker-career",
       "repo_url": null,
@@ -315,17 +341,21 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Same-Day Business Funding"
+        "Same-Day Business Funding",
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
       ],
       "content_clusters": [
-        "Same-Day Business Funding"
+        "Same-Day Business Funding",
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/business-loan-intermediary",
       "public_url": "https://www.distilledfunding.com/post/business-loan-intermediary",
       "repo_url": null,
@@ -337,14 +367,18 @@
       "title": "The Loan Broker’s Guide to Residual Commissions and Long-Term Equity",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/the-loan-broker-s-guide-to-residual-commissions-and-long-term-equity",
       "public_url": "https://www.distilledfunding.com/post/the-loan-broker-s-guide-to-residual-commissions-and-long-term-equity",
       "repo_url": null,
@@ -357,17 +391,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/commercial-loan-broker-training",
       "public_url": "https://www.distilledfunding.com/post/commercial-loan-broker-training",
       "repo_url": null,
@@ -379,14 +415,20 @@
       "title": "Starting a Business Loan Broker Career - Your No-Nonsense Guide",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/starting-a-business-loan-broker-career",
       "public_url": "https://www.distilledfunding.com/post/starting-a-business-loan-broker-career",
       "repo_url": null,
@@ -400,18 +442,20 @@
       "status": "published",
       "topics": [
         "Reviews & Comparisons",
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
         "Reviews & Comparisons",
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/insurance-agents-stop-losing-trucking-renewals-to-cash-flow-the-premium-finance-secret",
       "public_url": "https://www.distilledfunding.com/post/insurance-agents-stop-losing-trucking-renewals-to-cash-flow-the-premium-finance-secret",
       "repo_url": null,
@@ -424,17 +468,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "Loan Broker & Affiliate Program"
       ],
       "content_clusters": [
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/loan-broker-guide",
       "public_url": "https://www.distilledfunding.com/post/loan-broker-guide",
       "repo_url": null,
@@ -456,10 +502,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/funding-agency-automation-n8n-templates",
       "public_url": "https://www.distilledfunding.com/post/funding-agency-automation-n8n-templates",
       "repo_url": null,
@@ -472,17 +518,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/the-business-funding-blueprint",
       "public_url": "https://www.distilledfunding.com/post/the-business-funding-blueprint",
       "repo_url": null,
@@ -495,17 +543,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/bridging-the-gap-tailoring-capital-to-the-entrepreneurial-journey",
       "public_url": "https://www.distilledfunding.com/post/bridging-the-gap-tailoring-capital-to-the-entrepreneurial-journey",
       "repo_url": null,
@@ -518,17 +568,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/ai-lead-generation-for-brokers",
       "public_url": "https://www.distilledfunding.com/post/ai-lead-generation-for-brokers",
       "repo_url": null,
@@ -542,18 +594,20 @@
       "status": "published",
       "topics": [
         "AI Automation & Finance Ops",
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "content_clusters": [
         "AI Automation & Finance Ops",
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-get-paid-real-money-as-a-small-business-loan-broker-no-fluff-no-bs",
       "public_url": "https://www.distilledfunding.com/post/how-to-get-paid-real-money-as-a-small-business-loan-broker-no-fluff-no-bs",
       "repo_url": null,
@@ -566,17 +620,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/broker-in-a-box-vs-diy",
       "public_url": "https://www.distilledfunding.com/post/broker-in-a-box-vs-diy",
       "repo_url": null,
@@ -588,14 +644,18 @@
       "title": "How We Structured the Moonshine Capital Partner Program (So You’re Not Just a Lead Mule)",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-we-structured-the-moonshine-capital-partner-program-so-you-re-not-just-a-lead-mule",
       "public_url": "https://www.distilledfunding.com/post/how-we-structured-the-moonshine-capital-partner-program-so-you-re-not-just-a-lead-mule",
       "repo_url": null,
@@ -607,14 +667,18 @@
       "title": "How to Build a Commission-Only Sales Team: The No-BS Blueprint for Recruiting and Leading Sub-Brokers",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-build-a-commission-only-sales-team-the-no-bs-blueprint-for-recruiting-and-leading-sub-broker",
       "public_url": "https://www.distilledfunding.com/post/how-to-build-a-commission-only-sales-team-the-no-bs-blueprint-for-recruiting-and-leading-sub-broker",
       "repo_url": null,
@@ -626,14 +690,18 @@
       "title": "The Untold Truth About Loan Broker Commissions That's Breaking Your Wallet 🧨",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/the-truth-about-loan-broker-commissions",
       "public_url": "https://www.distilledfunding.com/post/the-truth-about-loan-broker-commissions",
       "repo_url": null,
@@ -655,10 +723,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/prompt-engineering-for-finance-pros-10-prompts-that-outperform-a-junior-analyst",
       "public_url": "https://www.distilledfunding.com/post/prompt-engineering-for-finance-pros-10-prompts-that-outperform-a-junior-analyst",
       "repo_url": null,
@@ -671,17 +739,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/ready-to-rake-in-cash-uncover-the-secrets-of-business-loan-affiliate-programs",
       "public_url": "https://www.distilledfunding.com/post/ready-to-rake-in-cash-uncover-the-secrets-of-business-loan-affiliate-programs",
       "repo_url": null,
@@ -694,17 +764,21 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops",
+        "Reviews & Comparisons"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/zapier-vs-make-com-which-automation-saves-loan-brokers-more-time",
       "public_url": "https://www.distilledfunding.com/post/zapier-vs-make-com-which-automation-saves-loan-brokers-more-time",
       "repo_url": null,
@@ -730,10 +804,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/capital-as-a-service-why-saas-platforms-are-becoming-the-next-lenders",
       "public_url": "https://www.distilledfunding.com/post/capital-as-a-service-why-saas-platforms-are-becoming-the-next-lenders",
       "repo_url": null,
@@ -755,10 +829,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/ai-toolkit-for-loan-brokers-unleashing-the-power-of-ai-to-transform-your-career",
       "public_url": "https://www.distilledfunding.com/post/ai-toolkit-for-loan-brokers-unleashing-the-power-of-ai-to-transform-your-career",
       "repo_url": null,
@@ -771,17 +845,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "AI Automation & Finance Ops"
+        "AI Automation & Finance Ops",
+        "Loan Broker & Affiliate Program"
       ],
       "content_clusters": [
-        "AI Automation & Finance Ops"
+        "AI Automation & Finance Ops",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/ai-tools-for-loan-brokers-2025-10-smart-assistants-to-turbocharge-deal-flow",
       "public_url": "https://www.distilledfunding.com/post/ai-tools-for-loan-brokers-2025-10-smart-assistants-to-turbocharge-deal-flow",
       "repo_url": null,
@@ -801,10 +877,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/7-loan-broker-mistakes",
       "public_url": "https://www.distilledfunding.com/post/7-loan-broker-mistakes",
       "repo_url": null,
@@ -824,10 +900,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/5-secrets-to-crafting-irresistible-funding-offers-that-make-prospects-feel-stupid-saying-no",
       "public_url": "https://www.distilledfunding.com/post/5-secrets-to-crafting-irresistible-funding-offers-that-make-prospects-feel-stupid-saying-no",
       "repo_url": null,
@@ -844,21 +920,23 @@
         "Gig Worker Funding",
         "Payment Processing",
         "Loan Broker & Affiliate Program",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "eCommerce Seller Funding"
       ],
       "content_clusters": [
         "Business Funding",
         "Gig Worker Funding",
         "Payment Processing",
         "Loan Broker & Affiliate Program",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "eCommerce Seller Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/api-first-lending-how-embedded-finance-powers-ecommerce-funding",
       "public_url": "https://www.distilledfunding.com/post/api-first-lending-how-embedded-finance-powers-ecommerce-funding",
       "repo_url": null,
@@ -880,10 +958,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/loan-broker-linkedin-strategy",
       "public_url": "https://www.distilledfunding.com/post/loan-broker-linkedin-strategy",
       "repo_url": null,
@@ -903,10 +981,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-start-a-commercial-loan-broker-business-in-2026",
       "public_url": "https://www.distilledfunding.com/post/how-to-start-a-commercial-loan-broker-business-in-2026",
       "repo_url": null,
@@ -930,10 +1008,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-break-free-from-your-9-to-5-and-dominate-the-loan-broker-affiliate-game-in-2025",
       "public_url": "https://www.distilledfunding.com/post/how-to-break-free-from-your-9-to-5-and-dominate-the-loan-broker-affiliate-game-in-2025",
       "repo_url": null,
@@ -959,10 +1037,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/instant-loans-for-gig-workers-get-up-to-20k-without-the-bank-hassle",
       "public_url": "https://www.distilledfunding.com/post/instant-loans-for-gig-workers-get-up-to-20k-without-the-bank-hassle",
       "repo_url": null,
@@ -976,18 +1054,20 @@
       "status": "published",
       "topics": [
         "Loan Broker & Affiliate Program",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
         "Loan Broker & Affiliate Program",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/game-plan-the-unfiltered-truth-about-building-your-funding-empire-before-the-rent-s-late-again",
       "public_url": "https://www.distilledfunding.com/post/game-plan-the-unfiltered-truth-about-building-your-funding-empire-before-the-rent-s-late-again",
       "repo_url": null,
@@ -1011,10 +1091,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/profit-isn-t-the-goal-it-s-the-weapon-why-dual-pricing-isn-t-about-saving-it-s-about-dominating",
       "public_url": "https://www.distilledfunding.com/post/profit-isn-t-the-goal-it-s-the-weapon-why-dual-pricing-isn-t-about-saving-it-s-about-dominating",
       "repo_url": null,
@@ -1038,10 +1118,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/you-re-bleeding-money-and-it-s-your-fault-the-brutal-truth-about-payment-processing",
       "public_url": "https://www.distilledfunding.com/post/you-re-bleeding-money-and-it-s-your-fault-the-brutal-truth-about-payment-processing",
       "repo_url": null,
@@ -1063,10 +1143,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/preferred-product-culture",
       "public_url": "https://www.distilledfunding.com/post/preferred-product-culture",
       "repo_url": null,
@@ -1088,10 +1168,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/build-a-million-dollar-agency",
       "public_url": "https://www.distilledfunding.com/post/build-a-million-dollar-agency",
       "repo_url": null,
@@ -1105,18 +1185,20 @@
       "status": "published",
       "topics": [
         "Loan Broker & Affiliate Program",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
         "Loan Broker & Affiliate Program",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/team-building-for-the-misfits-mavericks-and-rainmakers-how-to-build-a-business-that-builds-you-ba",
       "public_url": "https://www.distilledfunding.com/post/team-building-for-the-misfits-mavericks-and-rainmakers-how-to-build-a-business-that-builds-you-ba",
       "repo_url": null,
@@ -1140,10 +1222,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/preferred-product-strategy",
       "public_url": "https://www.distilledfunding.com/post/preferred-product-strategy",
       "repo_url": null,
@@ -1156,17 +1238,23 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding",
+        "AI Automation & Finance Ops",
+        "Real Estate Funding"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Business Funding",
+        "AI Automation & Finance Ops",
+        "Real Estate Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/business-funding-agents-the-underdog-revolution-that-s-stealing-real-estate-s-thunder",
       "public_url": "https://www.distilledfunding.com/post/business-funding-agents-the-underdog-revolution-that-s-stealing-real-estate-s-thunder",
       "repo_url": null,
@@ -1179,17 +1267,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Real Estate Funding"
       ],
       "content_clusters": [
-        "Loan Broker & Affiliate Program"
+        "Loan Broker & Affiliate Program",
+        "Real Estate Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/is-your-real-estate-career-dead-on-arrival-here-s-the-better-alternative",
       "public_url": "https://www.distilledfunding.com/post/is-your-real-estate-career-dead-on-arrival-here-s-the-better-alternative",
       "repo_url": null,
@@ -1209,10 +1299,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-become-a-money-broker-build-a-6-figure-business-with-no-experience",
       "public_url": "https://www.distilledfunding.com/post/how-to-become-a-money-broker-build-a-6-figure-business-with-no-experience",
       "repo_url": null,
@@ -1227,19 +1317,21 @@
       "topics": [
         "Loan Broker & Affiliate Program",
         "Reviews & Comparisons",
-        "Resources"
+        "Resources",
+        "Business Funding"
       ],
       "content_clusters": [
         "Loan Broker & Affiliate Program",
         "Reviews & Comparisons",
-        "Resources"
+        "Resources",
+        "Business Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-build-a-successful-services-agency-strategies-for-scaling-your-money-and-loan-broker-busines",
       "public_url": "https://www.distilledfunding.com/post/how-to-build-a-successful-services-agency-strategies-for-scaling-your-money-and-loan-broker-busines",
       "repo_url": null,
@@ -1263,10 +1355,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/money-broker-business",
       "public_url": "https://www.distilledfunding.com/post/money-broker-business",
       "repo_url": null,
@@ -1288,10 +1380,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/20-faqs-about-starting-your-own-services-agency-or-becoming-an-affiliate-loan-broker",
       "public_url": "https://www.distilledfunding.com/post/20-faqs-about-starting-your-own-services-agency-or-becoming-an-affiliate-loan-broker",
       "repo_url": null,
@@ -1311,10 +1403,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/affiliate-loan-brokering-a-path-to-financial-freedom-and-personal-fulfillment",
       "public_url": "https://www.distilledfunding.com/post/affiliate-loan-brokering-a-path-to-financial-freedom-and-personal-fulfillment",
       "repo_url": null,
@@ -1338,10 +1430,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/valpak-hustle-strategy",
       "public_url": "https://www.distilledfunding.com/post/valpak-hustle-strategy",
       "repo_url": null,
@@ -1363,10 +1455,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/leadership-for-entrepreneurs-taking-you-and-your-team-to-the-next-level",
       "public_url": "https://www.distilledfunding.com/post/leadership-for-entrepreneurs-taking-you-and-your-team-to-the-next-level",
       "repo_url": null,
@@ -1386,10 +1478,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-strategic-activity-drives-business-growth-insights-from-david-rutz",
       "public_url": "https://www.distilledfunding.com/post/how-strategic-activity-drives-business-growth-insights-from-david-rutz",
       "repo_url": null,
@@ -1411,10 +1503,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/dac-affiliate-growth-strategies",
       "public_url": "https://www.distilledfunding.com/post/dac-affiliate-growth-strategies",
       "repo_url": null,
@@ -1434,10 +1526,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/unlock-wealth-dac-affiliate-program",
       "public_url": "https://www.distilledfunding.com/post/unlock-wealth-dac-affiliate-program",
       "repo_url": null,
@@ -1459,10 +1551,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/empowering-financial-growth-dac-affiliate-insights",
       "public_url": "https://www.distilledfunding.com/post/empowering-financial-growth-dac-affiliate-insights",
       "repo_url": null,
@@ -1474,14 +1566,20 @@
       "title": "Mastering ChatGPT Prompts: Innovating Loan Brokerage with AI",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/mastering-chatgpt-prompts",
       "public_url": "https://www.distilledfunding.com/post/mastering-chatgpt-prompts",
       "repo_url": null,
@@ -1493,14 +1591,18 @@
       "title": "How to Get Started as a Loan Broker: Your Guide to Success",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-get-started-as-a-loan-broker",
       "public_url": "https://www.distilledfunding.com/post/how-to-get-started-as-a-loan-broker",
       "repo_url": null,
@@ -1512,14 +1614,18 @@
       "title": "Tech Stack for Success: Must-Have Tools for Modern Loan Brokers",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/tech-stack-for-success",
       "public_url": "https://www.distilledfunding.com/post/tech-stack-for-success",
       "repo_url": null,
@@ -1532,17 +1638,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Business Funding"
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
       ],
       "content_clusters": [
-        "Business Funding"
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/harnessing-chatgpt",
       "public_url": "https://www.distilledfunding.com/post/harnessing-chatgpt",
       "repo_url": null,
@@ -1554,14 +1662,18 @@
       "title": "Unveiling the Broker’s Financial Palette: An In-depth Exploration into Loan Brokering",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/funding-agency-podcast-ep4",
       "public_url": "https://www.distilledfunding.com/post/funding-agency-podcast-ep4",
       "repo_url": null,
@@ -1573,14 +1685,18 @@
       "title": "Broker Brilliance: Unlocking the Mindset of a Successful Loan Broker | The Funding Agency Ep. #3",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/mindset-of-a-successful-loan-broker",
       "public_url": "https://www.distilledfunding.com/post/mindset-of-a-successful-loan-broker",
       "repo_url": null,
@@ -1593,17 +1709,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Business Funding"
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
       ],
       "content_clusters": [
-        "Business Funding"
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.distilledfunding.com/post/banks-or-brokers",
       "public_url": "https://www.distilledfunding.com/post/banks-or-brokers",
       "repo_url": null,
@@ -1615,14 +1733,20 @@
       "title": "5 AI Tools Every Loan Broker Needs in 2026",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=1mD0qUNNR5E",
       "public_url": "https://www.youtube.com/watch?v=1mD0qUNNR5E",
       "repo_url": null,
@@ -1634,14 +1758,22 @@
       "title": "The Funding Product Matrix Every Broker Needs (MCA vs LOC vs AR Explained)",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops",
+        "Reviews & Comparisons"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=d3llRn13oQ4",
       "public_url": "https://www.youtube.com/watch?v=d3llRn13oQ4",
       "repo_url": null,
@@ -1653,14 +1785,18 @@
       "title": "New Course: High-Paying Loan Broker Partner Programs",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=A19TaIumRE0",
       "public_url": "https://www.youtube.com/watch?v=A19TaIumRE0",
       "repo_url": null,
@@ -1672,14 +1808,18 @@
       "title": "Why This Side Hustle Hits Harder Than Most Affiliate Programs",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=o-_me9-I_5U",
       "public_url": "https://www.youtube.com/watch?v=o-_me9-I_5U",
       "repo_url": null,
@@ -1691,14 +1831,20 @@
       "title": "Is Being a Loan Broker Worth It? Real Income Breakdown + Getting Started",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.youtube.com/watch?v=B8dSnHFMVY4",
       "public_url": "https://www.youtube.com/watch?v=B8dSnHFMVY4",
       "repo_url": null,
@@ -1710,14 +1856,18 @@
       "title": "Local SEO for Brokers: $0 Strategy to Rank #1 in Your Market",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=hAjAWAy2MD4",
       "public_url": "https://www.youtube.com/watch?v=hAjAWAy2MD4",
       "repo_url": null,
@@ -1729,14 +1879,20 @@
       "title": "10 Plug-and-Play Automations That Scaled My Funding Agency to 7 Figures",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=-KEEAlEBDO0",
       "public_url": "https://www.youtube.com/watch?v=-KEEAlEBDO0",
       "repo_url": null,
@@ -1748,14 +1904,18 @@
       "title": "Moonshine Capital Affiliate Program: Agency-in-a-Box Funding Model",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=9A3hThKaLT8",
       "public_url": "https://www.youtube.com/watch?v=9A3hThKaLT8",
       "repo_url": null,
@@ -1767,14 +1927,20 @@
       "title": "Loan Brokers Are 40x More Productive With This AI Strategy",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=GzlgSQwWGfo",
       "public_url": "https://www.youtube.com/watch?v=GzlgSQwWGfo",
       "repo_url": null,
@@ -1786,14 +1952,18 @@
       "title": "Commission Math: What 1 Deal/Week Pays Loan Brokers (4%–8%)",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=Fhtt6s6CoTI",
       "public_url": "https://www.youtube.com/watch?v=Fhtt6s6CoTI",
       "repo_url": null,
@@ -1805,14 +1975,18 @@
       "title": "Build Your Loan Brokerage EMPIRE with Scaling Strategies for Solo and Team Operations",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=YWPwyv540aE",
       "public_url": "https://www.youtube.com/watch?v=YWPwyv540aE",
       "repo_url": null,
@@ -1824,14 +1998,18 @@
       "title": "The Funding Broker Opportunity Nobody's Talking About",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=h2jqg5i5Y2o",
       "public_url": "https://www.youtube.com/watch?v=h2jqg5i5Y2o",
       "repo_url": null,
@@ -1843,14 +2021,18 @@
       "title": "The Networking Shift That's Making Brokers Rich (And Why Cold Calling Doesn't Work Anymore)",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=V60om-8yrI0",
       "public_url": "https://www.youtube.com/watch?v=V60om-8yrI0",
       "repo_url": null,
@@ -1862,14 +2044,18 @@
       "title": "Why Smart People Are Becoming Loan Brokers in 2026",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=tpihvA2OHhg",
       "public_url": "https://www.youtube.com/watch?v=tpihvA2OHhg",
       "repo_url": null,
@@ -1881,14 +2067,22 @@
       "title": "Best Affiliate Programs for Business Loan Brokers in 2026",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Business Funding",
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=mvBaddvaB2w",
       "public_url": "https://www.youtube.com/watch?v=mvBaddvaB2w",
       "repo_url": null,
@@ -1900,14 +2094,18 @@
       "title": "Money Brokers Are Quietly Making Millions | Here's How to Join",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.youtube.com/watch?v=fYOHbmH2fhk",
       "public_url": "https://www.youtube.com/watch?v=fYOHbmH2fhk",
       "repo_url": null,
@@ -1919,14 +2117,18 @@
       "title": "Tired of the Corporate Grind? Launch Your Own Lucrative Funding Agency!",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=-v1-cOEF9PM",
       "public_url": "https://www.youtube.com/watch?v=-v1-cOEF9PM",
       "repo_url": null,
@@ -1938,14 +2140,18 @@
       "title": "🌪️ 4.1 Navigating Economic Downturns | Thriving as a Money Broker in Tough Times 💼",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=XVOG2mPJyOE",
       "public_url": "https://www.youtube.com/watch?v=XVOG2mPJyOE",
       "repo_url": null,
@@ -1957,14 +2163,20 @@
       "title": "💵 3.3 Understanding Commissions and Fees | How Money Brokers Get Paid 💼",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=p2eWFRs5f2g",
       "public_url": "https://www.youtube.com/watch?v=p2eWFRs5f2g",
       "repo_url": null,
@@ -1976,14 +2188,18 @@
       "title": "💼 3.1 What is a Money Broker? | The Hidden Hero of Business Financing 🌟",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=YlvdfZfYERg",
       "public_url": "https://www.youtube.com/watch?v=YlvdfZfYERg",
       "repo_url": null,
@@ -1995,14 +2211,18 @@
       "title": "💼 2.3 Case Studies of Successful Money Broker Businesses | Real Stories, Real Success 🌟",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=VJt9bVgCFwE",
       "public_url": "https://www.youtube.com/watch?v=VJt9bVgCFwE",
       "repo_url": null,
@@ -2014,14 +2234,18 @@
       "title": "📜 2.1 The Evolution of Money Brokering | From Ancient Markets to Modern Deals 💼",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=tgGY6rJzQ9g",
       "public_url": "https://www.youtube.com/watch?v=tgGY6rJzQ9g",
       "repo_url": null,
@@ -2033,14 +2257,18 @@
       "title": "💼 1.1 Understanding the Concept of a Money Broker | Unlocking Opportunities for Businesses 💵",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=cpEpub0h_yI",
       "public_url": "https://www.youtube.com/watch?v=cpEpub0h_yI",
       "repo_url": null,
@@ -2052,14 +2280,18 @@
       "title": "💰 How to Make $10,000/Month as a Commercial Loan Broker! 🚀",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=-uMKPEnEzXI",
       "public_url": "https://www.youtube.com/watch?v=-uMKPEnEzXI",
       "repo_url": null,
@@ -2071,14 +2303,20 @@
       "title": "Earn BIG While Helping Clients Get Funded: Moonshine Capital's Partner Program Explained",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=QDOb5NiGY9Q",
       "public_url": "https://www.youtube.com/watch?v=QDOb5NiGY9Q",
       "repo_url": null,
@@ -2090,14 +2328,18 @@
       "title": "DAC Ep1 | What is a DAC Affiliate Agency & How Does It Work?",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=GhZvRveA130",
       "public_url": "https://www.youtube.com/watch?v=GhZvRveA130",
       "repo_url": null,
@@ -2109,14 +2351,20 @@
       "title": "Capitalize on Success: Becoming a Top Business Loan Broker",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=stIbAW2mnj4",
       "public_url": "https://www.youtube.com/watch?v=stIbAW2mnj4",
       "repo_url": null,
@@ -2128,14 +2376,20 @@
       "title": "The Future of Finance: How AI is Transforming Loan Brokering",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=kcv8gi3oB_E",
       "public_url": "https://www.youtube.com/watch?v=kcv8gi3oB_E",
       "repo_url": null,
@@ -2147,16 +2401,47 @@
       "title": "Unlock the Secrets of Client Acquisition: Transform Your Funding Agency with Expert Insights",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Acquisition Financing",
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.youtube.com/watch?v=mXQ7kwdggS8",
       "public_url": "https://www.youtube.com/watch?v=mXQ7kwdggS8",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-jkaeotjgfyc",
+      "entity_type": "youtube_video",
+      "title": "Scaling Your Business: From Solo Agent to a Thriving Agency",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=JkaEOTjgFYc",
+      "public_url": "https://www.youtube.com/watch?v=JkaEOTjgFYc",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -2166,14 +2451,20 @@
       "title": "Mastering ChatGPT Prompts: Innovating Loan Brokerage with AI",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=vx9kamfeh9g",
       "public_url": "https://www.youtube.com/watch?v=vx9kamfeh9g",
       "repo_url": null,
@@ -2185,14 +2476,18 @@
       "title": "Awakening Opportunity: Start Your Own DAC Affiliate Agency Today!",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=W0V6EXnh2Vs",
       "public_url": "https://www.youtube.com/watch?v=W0V6EXnh2Vs",
       "repo_url": null,
@@ -2204,14 +2499,18 @@
       "title": "Scaling Your Funding Agency: When, Why, and How",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=QqyJOA8g6HQ",
       "public_url": "https://www.youtube.com/watch?v=QqyJOA8g6HQ",
       "repo_url": null,
@@ -2223,14 +2522,18 @@
       "title": "Mastering the Art of Loan Brokering: Your Ultimate Guide",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=U2mbvM837l4",
       "public_url": "https://www.youtube.com/watch?v=U2mbvM837l4",
       "repo_url": null,
@@ -2242,14 +2545,18 @@
       "title": "Tech Stack for Success: Must-Have Tools for Modern Loan Brokers",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=KpoHu9bBids",
       "public_url": "https://www.youtube.com/watch?v=KpoHu9bBids",
       "repo_url": null,
@@ -2261,14 +2568,18 @@
       "title": "Harnessing ChatGPT: A Game-Changer for Loan Brokers",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=OAxlhjIgC3o",
       "public_url": "https://www.youtube.com/watch?v=OAxlhjIgC3o",
       "repo_url": null,
@@ -2280,14 +2591,18 @@
       "title": "Broker's Financial Palette: Navigating the Spectrum of Loan Opportunities",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=YpnwhsDJZvM",
       "public_url": "https://www.youtube.com/watch?v=YpnwhsDJZvM",
       "repo_url": null,
@@ -2299,14 +2614,18 @@
       "title": "Broker Brilliance: Unlocking the Mindset of a Successful Loan Broker | The Funding Agency Ep. #3",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=pUZsw-8iAG0",
       "public_url": "https://www.youtube.com/watch?v=pUZsw-8iAG0",
       "repo_url": null,
@@ -2318,14 +2637,18 @@
       "title": "Why Funding Agencies are the Hottest Side Hustle in Finance!?!? | The Funding Agency Ep #2",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=H3nKHX-IVTo",
       "public_url": "https://www.youtube.com/watch?v=H3nKHX-IVTo",
       "repo_url": null,
@@ -2337,14 +2660,18 @@
       "title": "Is Loan Brokering Actually Profitable? Here's What We Found | The Funding Agency, Ep #01",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=2UwHOYRKYfE",
       "public_url": "https://www.youtube.com/watch?v=2UwHOYRKYfE",
       "repo_url": null,
@@ -2356,16 +2683,43 @@
       "title": "Partner With National Business Capital and Close More Deals",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://www.youtube.com/watch?v=RrYx0uDl59A",
       "public_url": "https://www.youtube.com/watch?v=RrYx0uDl59A",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-4kpuhti9phk",
+      "entity_type": "youtube_video",
+      "title": "Empower, Earn, and Expand: Unleash Your Leadership Potential with DAC Business Services Agency!",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 88,
+      "canonical_url": "https://www.youtube.com/watch?v=4kPuHTi9pHk",
+      "public_url": "https://www.youtube.com/watch?v=4kPuHTi9pHk",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -2444,17 +2798,22 @@
       "title": "Join the #1 B2B Funding Platform",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Loan Broker",
+        "Partners",
+        "Loan Broker & Affiliate Program"
+      ],
       "content_clusters": [
         "Loan Broker",
-        "Partners"
+        "Partners",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://tally.so/r/mOe658",
       "public_url": "https://tally.so/r/mOe658",
       "repo_url": null,
@@ -2466,17 +2825,24 @@
       "title": "Join Moonshine Capital — Funding Agent",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Loan Broker",
+        "Partners",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "content_clusters": [
         "Loan Broker",
-        "Partners"
+        "Partners",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://tally.so/r/rjM6do",
       "public_url": "https://tally.so/r/rjM6do",
       "repo_url": null,
@@ -2488,17 +2854,22 @@
       "title": "Launch Your Agency",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Loan Broker",
+        "Funding Agency",
+        "Loan Broker & Affiliate Program"
+      ],
       "content_clusters": [
         "Loan Broker",
-        "Funding Agency"
+        "Funding Agency",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://tally.so/r/A7edqy",
       "public_url": "https://tally.so/r/A7edqy",
       "repo_url": null,
@@ -2510,17 +2881,22 @@
       "title": "Join the Acquisition Network",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Business Acquisition",
+        "Network",
+        "Acquisition Financing"
+      ],
       "content_clusters": [
         "Business Acquisition",
-        "Network"
+        "Network",
+        "Acquisition Financing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://tally.so/r/obLW75",
       "public_url": "https://tally.so/r/obLW75",
       "repo_url": null,
@@ -2532,17 +2908,122 @@
       "title": "Get the Daily 5 Tracker",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Loan Broker",
+        "Productivity",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "content_clusters": [
         "Loan Broker",
-        "Productivity"
+        "Productivity",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
+      "canonical_url": "https://tally.so/r/VLlP96",
+      "public_url": "https://tally.so/r/VLlP96",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "form-tally-9qjwee",
+      "entity_type": "form",
+      "title": "Build Your Funding Agent Profile",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://tally.so/r/9qjWEE",
+      "public_url": "https://tally.so/r/9qjWEE",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "form-tally-rjm6do",
+      "entity_type": "form",
+      "title": "Join Moonshine Capital — Funding Agent",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://tally.so/r/rjM6do",
+      "public_url": "https://tally.so/r/rjM6do",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "form-tally-a7edqy",
+      "entity_type": "form",
+      "title": "Launch Your Agency",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://tally.so/r/A7edqy",
+      "public_url": "https://tally.so/r/A7edqy",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "form-tally-vllp96",
+      "entity_type": "form",
+      "title": "Get the Daily 5 Tracker Used by Top Funding Agents",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": 92,
       "canonical_url": "https://tally.so/r/VLlP96",
       "public_url": "https://tally.so/r/VLlP96",
       "repo_url": null,
@@ -2554,14 +3035,18 @@
       "title": "Apply to Partner → Influencer & Sponsor Program",
       "description": null,
       "status": "draft",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 90,
       "canonical_url": null,
       "public_url": null,
       "repo_url": null,
@@ -2573,14 +3058,18 @@
       "title": "Broker Profile Builder",
       "description": null,
       "status": "active",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 90,
       "canonical_url": null,
       "public_url": null,
       "repo_url": null,
@@ -2592,18 +3081,26 @@
       "title": "Daily 5 Tracker Used by Top Funding Agents",
       "description": null,
       "status": "published",
-      "topics": [],
+      "topics": [
+        "Loan Broker",
+        "Funding Agency",
+        "Productivity",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "content_clusters": [
         "Loan Broker",
         "Funding Agency",
-        "Productivity"
+        "Productivity",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://tally.so/r/VLlP96",
       "public_url": "https://tally.so/r/VLlP96",
       "repo_url": null,
@@ -2615,18 +3112,26 @@
       "title": "Print Money Prompt Pack",
       "description": null,
       "status": "published",
-      "topics": [],
+      "topics": [
+        "AI",
+        "Prompts",
+        "Funding Agency",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "content_clusters": [
         "AI",
         "Prompts",
-        "Funding Agency"
+        "Funding Agency",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://tally.so/r/meX7No",
       "public_url": "https://tally.so/r/meX7No",
       "repo_url": null,
@@ -2638,18 +3143,26 @@
       "title": "Funding Agency Automation Pack (n8n)",
       "description": null,
       "status": "published",
-      "topics": [],
+      "topics": [
+        "Loan Broker",
+        "Automation",
+        "n8n",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "content_clusters": [
         "Loan Broker",
         "Automation",
-        "n8n"
+        "n8n",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 88,
       "canonical_url": "https://myfunding.notion.site/automation-pack-n8n/",
       "public_url": "https://myfunding.notion.site/automation-pack-n8n/",
       "repo_url": null,
@@ -2661,17 +3174,22 @@
       "title": "Moonshine Capital Loan Broker Partner Guide",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Loan Broker",
+        "Partners",
+        "Loan Broker & Affiliate Program"
+      ],
       "content_clusters": [
         "Loan Broker",
-        "Partners"
+        "Partners",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "awareness",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 86,
       "canonical_url": "https://docs.google.com/document/d/1NMmQXNmaRXopARx2THM068pz3UFmECe6MCkdz5v3aPA/edit",
       "public_url": null,
       "repo_url": null,
@@ -2683,18 +3201,26 @@
       "title": "ChatGPT as Your Virtual Loan Officer Set-Up Guide",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "AI",
+        "Loan Broker",
+        "Automation",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "content_clusters": [
         "AI",
         "Loan Broker",
-        "Automation"
+        "Automation",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "awareness",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 86,
       "canonical_url": "https://docs.google.com/document/d/1rXUBTe8owxBvW5DC9dbS5xf2Lyltad5quoNxLuE6KLw/edit",
       "public_url": null,
       "repo_url": null,
@@ -2706,18 +3232,24 @@
       "title": "Partner Tools and GPTs Guide — Moonshine Capital",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Partners",
+        "Custom GPTs",
+        "Tools",
+        "Loan Broker & Affiliate Program"
+      ],
       "content_clusters": [
         "Partners",
         "Custom GPTs",
-        "Tools"
+        "Tools",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "awareness",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 86,
       "canonical_url": "https://docs.google.com/document/d/1SqqCc8Gvn4hv5DqpLPqxK-56wWTEIz2xW0jYSf7QQbE/edit",
       "public_url": null,
       "repo_url": null,
@@ -2729,18 +3261,26 @@
       "title": "Steal My Funding Agency Automations (n8n Template)",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Loan Broker",
+        "n8n",
+        "Automation",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
+      ],
       "content_clusters": [
         "Loan Broker",
         "n8n",
-        "Automation"
+        "Automation",
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "awareness",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 86,
       "canonical_url": "https://docs.google.com/document/d/112QdrJE3CxOCIktkc5_7RUj3ZTND9yfQbypEugtlZkE/edit",
       "public_url": null,
       "repo_url": null,
@@ -2752,17 +3292,22 @@
       "title": "Accountant Referral Guide",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Accountants",
+        "Referral Partners",
+        "Loan Broker & Affiliate Program"
+      ],
       "content_clusters": [
         "Accountants",
-        "Referral Partners"
+        "Referral Partners",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "awareness",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 86,
       "canonical_url": "https://drive.google.com/file/d/1DAcsvZy5hVMThehsavXRhFU3SJVZuurj/view",
       "public_url": null,
       "repo_url": null,
@@ -2774,17 +3319,22 @@
       "title": "Bank Manager Referral Guide",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Bankers",
+        "Referral Partners",
+        "Loan Broker & Affiliate Program"
+      ],
       "content_clusters": [
         "Bankers",
-        "Referral Partners"
+        "Referral Partners",
+        "Loan Broker & Affiliate Program"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "awareness",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 86,
       "canonical_url": "https://drive.google.com/file/d/1HHkTv77-lgI4OI9gh8a15qaEfKF7-eOj/view",
       "public_url": null,
       "repo_url": null,

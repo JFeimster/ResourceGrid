@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:07:52.853Z",
+  "generated_at": "2026-09-05T18:03:10.856Z",
   "terms": [
     "acquisition",
     "eta",
@@ -9,7 +9,7 @@
     "m&a",
     "mergers"
   ],
-  "count": 96,
+  "count": 105,
   "resources": [
     {
       "resource_id": "article-saas-valuation-multiples",
@@ -25,10 +25,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 95,
       "canonical_url": "https://www.distilledfunding.com/post/saas-valuation-multiples",
       "public_url": "https://www.distilledfunding.com/post/saas-valuation-multiples",
       "repo_url": null,
@@ -41,17 +41,19 @@
       "description": "Learn how DSCR affects a business acquisition, what lenders consider a good debt service coverage ratio, and the SBA DSCR buyers should target.",
       "status": "published",
       "topics": [
-        "Acquisition Financing"
+        "Acquisition Financing",
+        "Business Funding"
       ],
       "content_clusters": [
-        "Acquisition Financing"
+        "Acquisition Financing",
+        "Business Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 95,
       "canonical_url": "https://www.distilledfunding.com/post/dscr-business-acquisition",
       "public_url": "https://www.distilledfunding.com/post/dscr-business-acquisition",
       "repo_url": null,
@@ -64,17 +66,21 @@
       "description": "How much money do you need to buy a business? Learn how down payments, SBA loans, seller financing, working capital, and deal structure affect your real cash requirement.",
       "status": "published",
       "topics": [
-        "Acquisition Financing"
+        "Acquisition Financing",
+        "Business Funding",
+        "Payment Processing"
       ],
       "content_clusters": [
-        "Acquisition Financing"
+        "Acquisition Financing",
+        "Business Funding",
+        "Payment Processing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 99,
       "canonical_url": "https://www.distilledfunding.com/post/how-much-money-do-you-need-to-buy-a-business",
       "public_url": "https://www.distilledfunding.com/post/how-much-money-do-you-need-to-buy-a-business",
       "repo_url": null,
@@ -94,10 +100,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 95,
       "canonical_url": "https://www.distilledfunding.com/post/is-this-business-worth-buying",
       "public_url": "https://www.distilledfunding.com/post/is-this-business-worth-buying",
       "repo_url": null,
@@ -117,10 +123,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 99,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-buy-a-small-business",
       "public_url": "https://www.distilledfunding.com/post/how-to-buy-a-small-business",
       "repo_url": null,
@@ -140,10 +146,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 99,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-qualify-for-an-online-business-acquisition-loan",
       "public_url": "https://www.distilledfunding.com/post/how-to-qualify-for-an-online-business-acquisition-loan",
       "repo_url": null,
@@ -163,10 +169,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/business-acquisition-financing",
       "public_url": "https://www.distilledfunding.com/post/business-acquisition-financing",
       "repo_url": null,
@@ -180,18 +186,20 @@
       "status": "published",
       "topics": [
         "Acquisition Financing",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "Business Funding"
       ],
       "content_clusters": [
         "Acquisition Financing",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "Business Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/the-sba-7-a-loan-playbook",
       "public_url": "https://www.distilledfunding.com/post/the-sba-7-a-loan-playbook",
       "repo_url": null,
@@ -211,12 +219,41 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-buy-a-business-on-empire-flippers",
       "public_url": "https://www.distilledfunding.com/post/how-to-buy-a-business-on-empire-flippers",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-wix-seller-financing",
+      "entity_type": "blog_article",
+      "title": "Wix Seller Financing: Funding Options for Wix Stores",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Same-Day Business Funding",
+        "Business Funding",
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Same-Day Business Funding",
+        "Business Funding",
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.distilledfunding.com/post/wix-seller-financing",
+      "public_url": "https://www.distilledfunding.com/post/wix-seller-financing",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -236,10 +273,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-finance-a-flippa-business",
       "public_url": "https://www.distilledfunding.com/post/how-to-finance-a-flippa-business",
       "repo_url": null,
@@ -263,12 +300,37 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/why-micro-acquisitions-are-the-best-kept-secret-in-smb-investing",
       "public_url": "https://www.distilledfunding.com/post/why-micro-acquisitions-are-the-best-kept-secret-in-smb-investing",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-dscr-loans-for-rental-portfolios",
+      "entity_type": "blog_article",
+      "title": "DSCR Loans for Rental Portfolios: How Investors Scale Faster",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Real Estate Funding",
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Real Estate Funding",
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.distilledfunding.com/post/dscr-loans-for-rental-portfolios",
+      "public_url": "https://www.distilledfunding.com/post/dscr-loans-for-rental-portfolios",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -288,10 +350,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/business-acquisition-loans",
       "public_url": "https://www.distilledfunding.com/post/business-acquisition-loans",
       "repo_url": null,
@@ -305,18 +367,20 @@
       "status": "published",
       "topics": [
         "Acquisition Financing",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
         "Acquisition Financing",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans-explained",
       "public_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans-explained",
       "repo_url": null,
@@ -340,10 +404,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans",
       "public_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans",
       "repo_url": null,
@@ -365,10 +429,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://www.distilledfunding.com/post/small-business-acquisition-loan-guide",
       "public_url": "https://www.distilledfunding.com/post/small-business-acquisition-loan-guide",
       "repo_url": null,
@@ -390,10 +454,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://www.distilledfunding.com/post/your-competitor-just-closed-here-s-how-to-buy-their-business-in-72-hours-without-a-bank",
       "public_url": "https://www.distilledfunding.com/post/your-competitor-just-closed-here-s-how-to-buy-their-business-in-72-hours-without-a-bank",
       "repo_url": null,
@@ -415,10 +479,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/finance-buying-an-existing-business-micro-acquisition-funding",
       "public_url": "https://www.distilledfunding.com/post/finance-buying-an-existing-business-micro-acquisition-funding",
       "repo_url": null,
@@ -442,10 +506,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-finance-your-online-business-acquisition-content-saas-e-commerce",
       "public_url": "https://www.distilledfunding.com/post/how-to-finance-your-online-business-acquisition-content-saas-e-commerce",
       "repo_url": null,
@@ -475,10 +539,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://www.distilledfunding.com/post/get-a-personalized-funding-quote",
       "public_url": "https://www.distilledfunding.com/post/get-a-personalized-funding-quote",
       "repo_url": null,
@@ -492,18 +556,20 @@
       "status": "published",
       "topics": [
         "Acquisition Financing",
-        "Business Funding"
+        "Business Funding",
+        "AI Automation & Finance Ops"
       ],
       "content_clusters": [
         "Acquisition Financing",
-        "Business Funding"
+        "Business Funding",
+        "AI Automation & Finance Ops"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/acquisition-financing-for-small-businesses",
       "public_url": "https://www.distilledfunding.com/post/acquisition-financing-for-small-businesses",
       "repo_url": null,
@@ -525,10 +591,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/advantages-of-sba-loans-for-small-businesses",
       "public_url": "https://www.distilledfunding.com/post/advantages-of-sba-loans-for-small-businesses",
       "repo_url": null,
@@ -552,10 +618,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/micro-saas-acquisitions-funding-options-when-ebitda-500k",
       "public_url": "https://www.distilledfunding.com/post/micro-saas-acquisitions-funding-options-when-ebitda-500k",
       "repo_url": null,
@@ -575,10 +641,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://www.distilledfunding.com/post/venture-capital-for-acquisition-financing",
       "public_url": "https://www.distilledfunding.com/post/venture-capital-for-acquisition-financing",
       "repo_url": null,
@@ -598,10 +664,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans-fast-approval-for-serious-buyers",
       "public_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans-fast-approval-for-serious-buyers",
       "repo_url": null,
@@ -623,10 +689,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/revenue-based-financing-myths-debunked",
       "public_url": "https://www.distilledfunding.com/post/revenue-based-financing-myths-debunked",
       "repo_url": null,
@@ -648,10 +714,10 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://www.distilledfunding.com/post/is-rok-financial-legit-or-too-good-to-be-true",
       "public_url": "https://www.distilledfunding.com/post/is-rok-financial-legit-or-too-good-to-be-true",
       "repo_url": null,
@@ -673,12 +739,45 @@
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/revenue-based-buyouts-for-saas-acquisitions",
       "public_url": "https://www.distilledfunding.com/post/revenue-based-buyouts-for-saas-acquisitions",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-seller-financed-acquisition",
+      "entity_type": "blog_article",
+      "title": "Seller Financing 101: How to Structure a Win-Win Buyout for Retiring Boomers",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Real Estate Funding",
+        "Gig Worker Funding",
+        "Reviews & Comparisons",
+        "Resources",
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Real Estate Funding",
+        "Gig Worker Funding",
+        "Reviews & Comparisons",
+        "Resources",
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.distilledfunding.com/post/seller-financed-acquisition",
+      "public_url": "https://www.distilledfunding.com/post/seller-financed-acquisition",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -691,19 +790,21 @@
       "topics": [
         "Business Funding",
         "Real Estate Funding",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "Acquisition Financing"
       ],
       "content_clusters": [
         "Business Funding",
         "Real Estate Funding",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "Acquisition Financing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/creative-sme-acquisition-financing-under-5m-7-structures-that-beat-sba-red-tape",
       "public_url": "https://www.distilledfunding.com/post/creative-sme-acquisition-financing-under-5m-7-structures-that-beat-sba-red-tape",
       "repo_url": null,
@@ -717,18 +818,22 @@
       "status": "published",
       "topics": [
         "Business Funding",
-        "AI Automation & Finance Ops"
+        "AI Automation & Finance Ops",
+        "Acquisition Financing",
+        "eCommerce Seller Funding"
       ],
       "content_clusters": [
         "Business Funding",
-        "AI Automation & Finance Ops"
+        "AI Automation & Finance Ops",
+        "Acquisition Financing",
+        "eCommerce Seller Funding"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/revenue-based-acquisition-financing-an-sba-alternative-for-ecommerce-brand-buyers",
       "public_url": "https://www.distilledfunding.com/post/revenue-based-acquisition-financing-an-sba-alternative-for-ecommerce-brand-buyers",
       "repo_url": null,
@@ -743,19 +848,21 @@
       "topics": [
         "Business Funding",
         "Resources",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "Acquisition Financing"
       ],
       "content_clusters": [
         "Business Funding",
         "Resources",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "Acquisition Financing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/business_acquisition_funding_solutions",
       "public_url": "https://www.distilledfunding.com/post/business_acquisition_funding_solutions",
       "repo_url": null,
@@ -769,20 +876,47 @@
       "status": "published",
       "topics": [
         "Business Funding",
-        "Resources"
+        "Resources",
+        "Acquisition Financing"
       ],
       "content_clusters": [
         "Business Funding",
-        "Resources"
+        "Resources",
+        "Acquisition Financing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/what-every-entrepreneur-needs-to-know-about-acquisition-financing-options",
       "public_url": "https://www.distilledfunding.com/post/what-every-entrepreneur-needs-to-know-about-acquisition-financing-options",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-dscr-loans-the-ultimate-hack-for-real-estate-investors-who-don-t-want-to-beg-banks-for-approval",
+      "entity_type": "blog_article",
+      "title": "DSCR Loans: The Ultimate Hack for Real Estate Investors Who Don't Want to Beg Banks for Approval",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Real Estate Funding",
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Real Estate Funding",
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.distilledfunding.com/post/dscr-loans-the-ultimate-hack-for-real-estate-investors-who-don-t-want-to-beg-banks-for-approval",
+      "public_url": "https://www.distilledfunding.com/post/dscr-loans-the-ultimate-hack-for-real-estate-investors-who-don-t-want-to-beg-banks-for-approval",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -794,18 +928,20 @@
       "status": "published",
       "topics": [
         "Business Funding",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "Acquisition Financing"
       ],
       "content_clusters": [
         "Business Funding",
-        "Reviews & Comparisons"
+        "Reviews & Comparisons",
+        "Acquisition Financing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/how-to-finance-an-acquisition-using-an-sba-loan",
       "public_url": "https://www.distilledfunding.com/post/how-to-finance-an-acquisition-using-an-sba-loan",
       "repo_url": null,
@@ -818,17 +954,19 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Business Funding"
+        "Business Funding",
+        "Acquisition Financing"
       ],
       "content_clusters": [
-        "Business Funding"
+        "Business Funding",
+        "Acquisition Financing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/acquisition-financing-your-strategic-engine-for-growth",
       "public_url": "https://www.distilledfunding.com/post/acquisition-financing-your-strategic-engine-for-growth",
       "repo_url": null,
@@ -841,19 +979,138 @@
       "description": null,
       "status": "published",
       "topics": [
-        "Business Funding"
+        "Business Funding",
+        "Acquisition Financing"
       ],
       "content_clusters": [
-        "Business Funding"
+        "Business Funding",
+        "Acquisition Financing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.distilledfunding.com/post/harnessing-the-power-of-revenue-based-financing-for-business-acquisition",
       "public_url": "https://www.distilledfunding.com/post/harnessing-the-power-of-revenue-based-financing-for-business-acquisition",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-uy-t0waclxe",
+      "entity_type": "youtube_video",
+      "title": "ROBS Financing 2026: Use Your 401(k) to Buy a Business (Tax-Free)",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "decision",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 96,
+      "canonical_url": "https://www.youtube.com/watch?v=uY-T0WAClxE",
+      "public_url": "https://www.youtube.com/watch?v=uY-T0WAClxE",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-3ojxu8zjsxc",
+      "entity_type": "youtube_video",
+      "title": "Seller Financing 101: How to Close Win-Win Deals with Retiring Boomers",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=3OJXu8ZJsxc",
+      "public_url": "https://www.youtube.com/watch?v=3OJXu8ZJsxc",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-zcllymcevsc",
+      "entity_type": "youtube_video",
+      "title": "3 Easy Ways to Find Homes with Seller Financing",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=ZCllyMCeVSc",
+      "public_url": "https://www.youtube.com/watch?v=ZCllyMCeVSc",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-zx2qhuuesbw",
+      "entity_type": "youtube_video",
+      "title": "💡 Why Every Investor Should Consider DSCR Loans for Rental Properties 🏘️",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Real Estate Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Real Estate Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=zx2QhUUESbw",
+      "public_url": "https://www.youtube.com/watch?v=zx2QhUUESbw",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-iryudzm-jm0",
+      "entity_type": "youtube_video",
+      "title": "What is Wix Seller Financing and How Does it Work?",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": "consideration",
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": 92,
+      "canonical_url": "https://www.youtube.com/watch?v=iRyUdzm_Jm0",
+      "public_url": "https://www.youtube.com/watch?v=iRyUdzm_Jm0",
       "repo_url": null,
       "recommended_cta_or_embed_role": null
     },
@@ -863,14 +1120,20 @@
       "title": "Unlock the Secrets of Client Acquisition: Transform Your Funding Agency with Expert Insights",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Acquisition Financing",
+        "Loan Broker & Affiliate Program"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Loan Broker & Affiliate Program"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.youtube.com/watch?v=mXQ7kwdggS8",
       "public_url": "https://www.youtube.com/watch?v=mXQ7kwdggS8",
       "repo_url": null,
@@ -882,14 +1145,18 @@
       "title": "Buying Power: Acquisition Financing Made Simple",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "consideration",
       "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
       "conversion_goal": null,
-      "priority": null,
+      "priority": 92,
       "canonical_url": "https://www.youtube.com/watch?v=hfCCdEHCwtk",
       "public_url": "https://www.youtube.com/watch?v=hfCCdEHCwtk",
       "repo_url": null,
@@ -964,17 +1231,20 @@
       "title": "Apply for Acquisition Concierge",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Acquisition Financing",
+        "ETA"
+      ],
       "content_clusters": [
         "Acquisition Financing",
         "ETA"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://tally.so/r/aQqVDW",
       "public_url": "https://tally.so/r/aQqVDW",
       "repo_url": null,
@@ -986,17 +1256,22 @@
       "title": "Submit a Deal for Review",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Acquisition Financing",
+        "Deal Analysis",
+        "Reviews & Comparisons"
+      ],
       "content_clusters": [
         "Acquisition Financing",
-        "Deal Analysis"
+        "Deal Analysis",
+        "Reviews & Comparisons"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://tally.so/r/q416K8",
       "public_url": "https://tally.so/r/q416K8",
       "repo_url": null,
@@ -1008,17 +1283,20 @@
       "title": "List Your Business for Sale",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Business Sale",
+        "M&A"
+      ],
       "content_clusters": [
         "Business Sale",
         "M&A"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 61,
       "canonical_url": "https://tally.so/r/2EG0Jg",
       "public_url": "https://tally.so/r/2EG0Jg",
       "repo_url": null,
@@ -1030,17 +1308,22 @@
       "title": "Create Your Buyer Profile",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Business Acquisition",
+        "Buyer",
+        "Acquisition Financing"
+      ],
       "content_clusters": [
         "Business Acquisition",
-        "Buyer"
+        "Buyer",
+        "Acquisition Financing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://tally.so/r/Ek79JA",
       "public_url": "https://tally.so/r/Ek79JA",
       "repo_url": null,
@@ -1052,17 +1335,22 @@
       "title": "Join the Acquisition Network",
       "description": null,
       "status": "active",
-      "topics": [],
+      "topics": [
+        "Business Acquisition",
+        "Network",
+        "Acquisition Financing"
+      ],
       "content_clusters": [
         "Business Acquisition",
-        "Network"
+        "Network",
+        "Acquisition Financing"
       ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://tally.so/r/obLW75",
       "public_url": "https://tally.so/r/obLW75",
       "repo_url": null,
@@ -1074,14 +1362,18 @@
       "title": "Apply for Acquisition Concierge",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://tally.so/r/aQqVDW",
       "public_url": "https://tally.so/r/aQqVDW",
       "repo_url": null,
@@ -1093,14 +1385,18 @@
       "title": "Join the Acquisition Network",
       "description": null,
       "status": "published",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 96,
       "canonical_url": "https://tally.so/r/obLW75",
       "public_url": "https://tally.so/r/obLW75",
       "repo_url": null,
@@ -1112,14 +1408,18 @@
       "title": "Client Contact Details",
       "description": null,
       "status": "draft",
-      "topics": [],
-      "content_clusters": [],
+      "topics": [
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "AI Automation & Finance Ops"
+      ],
       "audiences": [],
       "industries": [],
-      "funnel_stage": null,
+      "funnel_stage": "decision",
       "primary_use_case": null,
       "conversion_goal": null,
-      "priority": null,
+      "priority": 82,
       "canonical_url": null,
       "public_url": null,
       "repo_url": null,
