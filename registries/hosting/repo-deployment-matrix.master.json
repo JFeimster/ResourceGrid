@@ -1,0 +1,1196 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-09-05",
+  "purpose": "Master repo-by-repo deployment matrix for important Moonshine/Distilled Funding projects.",
+  "provider_catalog_file": "hosting-options.master.json",
+  "decision_rules": {
+    "priority_order": [
+      "Use the cheapest reliable host that matches actual runtime requirements.",
+      "Prefer free/freemium for static and low-volume workloads.",
+      "Do not migrate active complex Next.js/auth apps without a material benefit.",
+      "Prefer shared APIs and static-exporting where that removes unnecessary runtime.",
+      "Avoid moving one provider monoculture into another; choose by workload.",
+      "Preserve canonical source-of-truth repos and existing working infrastructure."
+    ],
+    "effort_scale": [
+      "VERY_LOW",
+      "LOW",
+      "MEDIUM",
+      "HIGH",
+      "VERY_HIGH"
+    ],
+    "free_tier_fit_scale": [
+      "EXCELLENT",
+      "GOOD",
+      "LIMITED",
+      "POOR",
+      "N/A"
+    ],
+    "migration_value_scale": [
+      "HIGH",
+      "MEDIUM",
+      "LOW",
+      "NO"
+    ]
+  },
+  "projects": [
+    {
+      "id": "fundstack-ai",
+      "github": {
+        "repo": "JFeimster/FundStack-AI",
+        "url": "https://github.com/JFeimster/FundStack-AI",
+        "visibility": "public"
+      },
+      "current_deployment": {
+        "provider": "vercel",
+        "project": "fundstack-ai",
+        "project_id": "prj_Zpxy4N07U73b2kGBCGjtN5ubmVFa",
+        "url": "https://fundstack-ai.vercel.app",
+        "status_note": "Canonical active FundStack deployment; duplicate fund-stack-ai was paused."
+      },
+      "runtime": {
+        "primary_class": "STATIC",
+        "framework": null,
+        "traits": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "JSON registries"
+        ],
+        "server_runtime_required": false,
+        "api_required": false,
+        "auth_required": false,
+        "embed_distribution": false
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "$0 likely",
+          "notes": "Best balance of CDN economics, Git deploys and request-heavy static traffic."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "$0 until credit ceiling",
+          "notes": "Very easy migration but free credit ceiling can pause workloads."
+        },
+        {
+          "provider_product_id": "digitalocean-static",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "$0 if within 1 GiB/app transfer",
+          "notes": "Simple Git deployment; lower free transfer."
+        },
+        {
+          "provider_product_id": "firebase-hosting",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 within Spark limits",
+          "notes": "Reliable but smaller free transfer allowance."
+        },
+        {
+          "provider_product_id": "render-static",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "$0",
+          "notes": "Useful if Render becomes a backend provider too."
+        },
+        {
+          "provider_product_id": "surge",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "$0 basic",
+          "notes": "Fast/simple but weaker governance and automation."
+        },
+        {
+          "provider_product_id": "bunny-cdn-storage",
+          "fit": "GOOD",
+          "free_tier_fit": "POOR",
+          "migration_effort": "LOW",
+          "pricing_posture": "low usage-based",
+          "notes": "Strong if raw CDN economics matter more than Git-native workflow."
+        },
+        {
+          "provider_product_id": "aws-s3-cloudfront",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "usage-based",
+          "notes": "Powerful but unnecessary complexity for this repo."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "cloudflare-pages",
+        "migration_worth": "HIGH",
+        "migration_priority": 2,
+        "wave": 1,
+        "rationale": "Pure static workload with prior request amplification; no reason to pay for a Next/server runtime."
+      }
+    },
+    {
+      "id": "funding-quiz",
+      "github": {
+        "repo": "JFeimster/funding-quiz",
+        "url": "https://github.com/JFeimster/funding-quiz",
+        "visibility": "public"
+      },
+      "current_deployment": {
+        "provider": "vercel",
+        "project": "funding-quiz",
+        "project_id": "prj_RlSvfGaNW5clq4R6YrXj70phMRjy",
+        "url": "https://funding-quiz.vercel.app"
+      },
+      "runtime": {
+        "primary_class": "STATIC + EMBED",
+        "framework": null,
+        "traits": [
+          "index.html",
+          "widget.html",
+          "widget.js",
+          "widget.css",
+          "iframe/widget distribution"
+        ],
+        "server_runtime_required": false,
+        "api_required": false,
+        "auth_required": false,
+        "embed_distribution": true
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "$0 likely",
+          "notes": "Best free-first host for high-volume static embed traffic."
+        },
+        {
+          "provider_product_id": "cloudflare-r2",
+          "fit": "GOOD",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0/very low",
+          "notes": "Good for versioned widget assets; less convenient as the whole site host."
+        },
+        {
+          "provider_product_id": "bunny-cdn-storage",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "POOR",
+          "migration_effort": "LOW",
+          "pricing_posture": "low usage-based",
+          "notes": "Excellent pure CDN option if traffic becomes large."
+        },
+        {
+          "provider_product_id": "firebase-hosting",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 within transfer limits",
+          "notes": "Simple, but transfer ceiling is smaller."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "$0 until credit ceiling",
+          "notes": "Easy Git workflow; credit model should be watched for embed volume."
+        },
+        {
+          "provider_product_id": "surge",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "$0 basic",
+          "notes": "Fine for simple widget distribution."
+        },
+        {
+          "provider_product_id": "aws-s3-cloudfront",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "usage-based",
+          "notes": "Good at scale, too much setup initially."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "cloudflare-pages",
+        "migration_worth": "HIGH",
+        "migration_priority": 1,
+        "wave": 1,
+        "rationale": "Tiny static widget repo. This is the safest proof-of-concept migration and directly benefits from CDN-style economics."
+      }
+    },
+    {
+      "id": "am-i-fundable",
+      "github": {
+        "repo": "JFeimster/am-i-fundable",
+        "url": "https://github.com/JFeimster/am-i-fundable",
+        "visibility": "public"
+      },
+      "current_deployment": {
+        "provider": "vercel",
+        "project": "am-i-fundable",
+        "project_id": "prj_kfOrQZoWRGLLthCrbpZfBYBzDc1q",
+        "url": "https://am-i-fundable.vercel.app"
+      },
+      "runtime": {
+        "primary_class": "STATIC + API",
+        "framework": "custom static build + Node serverless API",
+        "traits": [
+          "static dist build",
+          "Node fs access",
+          "webhooks",
+          "score engine",
+          "partner matching"
+        ],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": false
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "EXCELLENT_FRONTEND",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "VERY_LOW_FRONTEND",
+          "pricing_posture": "$0 likely",
+          "notes": "Static site portion can move almost unchanged."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "GOOD_API_AFTER_ADAPTER",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 at modest API volume",
+          "notes": "Node fs/Vercel handler semantics require adaptation."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW_TO_MEDIUM",
+          "pricing_posture": "$0 until credit ceiling",
+          "notes": "Lower API migration friction than Workers for Node-style handlers."
+        },
+        {
+          "provider_product_id": "deno-deploy",
+          "fit": "GOOD",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 up to 1M requests/month",
+          "notes": "Node compatibility must be tested."
+        },
+        {
+          "provider_product_id": "firebase-app-hosting",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "PAYG with no-cost allowances",
+          "notes": "Useful if Google/Firebase becomes part of the stack."
+        },
+        {
+          "provider_product_id": "supabase-edge-functions",
+          "fit": "GOOD_FOR_API",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 up to 500k invocations",
+          "notes": "Makes sense only if Supabase data/auth is also useful."
+        },
+        {
+          "provider_product_id": "railway",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "LOW",
+          "pricing_posture": "$1 free credit or $5 Hobby",
+          "notes": "Simple Node runtime but heavier than edge/serverless needs."
+        },
+        {
+          "provider_product_id": "render-web",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "LOW",
+          "pricing_posture": "free test / paid production",
+          "notes": "Straightforward Node host, less ideal for request-heavy static delivery."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "cloudflare-pages + cloudflare-workers",
+        "migration_worth": "MEDIUM",
+        "migration_priority": 6,
+        "wave": 3,
+        "rationale": "Good long-term fit, but API adaptation should follow easier migrations and a proven Worker pattern."
+      }
+    },
+    {
+      "id": "embed-widgets",
+      "github": {
+        "repo": "JFeimster/Embed-Widgets",
+        "url": "https://github.com/JFeimster/Embed-Widgets",
+        "visibility": "private"
+      },
+      "current_deployment": {
+        "provider": "vercel",
+        "project": "embed-widgets",
+        "project_id": "prj_gKDS5B7VWtJR1oX8WWORIb4wZ0jC",
+        "url": "https://embed-widgets-kappa.vercel.app"
+      },
+      "runtime": {
+        "primary_class": "STATIC + API",
+        "framework": "Vite + React",
+        "traits": [
+          "embeddable widgets",
+          "Vite static build",
+          "API endpoints",
+          "Supabase",
+          "AI SDK/Google GenAI"
+        ],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": true
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "EXCELLENT_FRONTEND",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 likely",
+          "notes": "Excellent widget CDN/distribution layer."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "GOOD_API",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 initially",
+          "notes": "API adapters may be needed depending on current Vercel handler assumptions."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 until credits exhausted",
+          "notes": "Strong Vite + Functions + Agent Runner fit."
+        },
+        {
+          "provider_product_id": "supabase-edge-functions",
+          "fit": "GOOD_API",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 up to 500k invocations",
+          "notes": "Attractive because the repo already depends on Supabase."
+        },
+        {
+          "provider_product_id": "deno-deploy",
+          "fit": "GOOD",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 up to 1M requests",
+          "notes": "Could host API edge logic; test npm/Node compatibility."
+        },
+        {
+          "provider_product_id": "railway",
+          "fit": "GOOD_API",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "LOW",
+          "pricing_posture": "$1 free credit / $5 Hobby",
+          "notes": "Good if API becomes persistent or needs workers."
+        },
+        {
+          "provider_product_id": "bunny-cdn-storage",
+          "fit": "EXCELLENT_STATIC_ASSETS",
+          "free_tier_fit": "POOR",
+          "migration_effort": "LOW",
+          "pricing_posture": "low usage-based",
+          "notes": "Strong future option for versioned widget JS/CSS distribution."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "cloudflare-pages + cloudflare-workers",
+        "migration_worth": "HIGH",
+        "migration_priority": 4,
+        "wave": 2,
+        "rationale": "Shared widget distribution is a compounding asset; static edge delivery plus lightweight API is a strong match."
+      }
+    },
+    {
+      "id": "capitalgrid",
+      "github": {
+        "repo": "JFeimster/capitalgrid",
+        "url": "https://github.com/JFeimster/capitalgrid",
+        "visibility": "private"
+      },
+      "current_deployment": {
+        "provider": "vercel",
+        "project": "capitalgrid",
+        "project_id": "prj_2ZMym1AiHEcmOzY7uw2RCsy7IRoG",
+        "url": "https://capitalgrid.vercel.app"
+      },
+      "runtime": {
+        "primary_class": "NEXT STATIC EXPORT",
+        "framework": "Next.js 14",
+        "traits": [
+          "local JSON data",
+          "generateStaticParams",
+          "unoptimized images",
+          "trailingSlash"
+        ],
+        "server_runtime_required": false,
+        "api_required": false,
+        "auth_required": false,
+        "embed_distribution": false,
+        "classification_note": "Static-export candidate; next.config does not yet enable output: export."
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "EXCELLENT_AFTER_EXPORT",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 likely",
+          "notes": "Add output: export and validate dynamic routes."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "VERY_LOW",
+          "pricing_posture": "$0 until credit ceiling",
+          "notes": "Can host Next directly or static output."
+        },
+        {
+          "provider_product_id": "firebase-hosting",
+          "fit": "GOOD_AFTER_EXPORT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 within Spark limits",
+          "notes": "Static export works cleanly."
+        },
+        {
+          "provider_product_id": "aws-amplify",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 within eligible allowances",
+          "notes": "Can run Next or static export; more cloud complexity."
+        },
+        {
+          "provider_product_id": "digitalocean-static",
+          "fit": "GOOD_AFTER_EXPORT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 within 1 GiB transfer",
+          "notes": "Simple but lower transfer allowance."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "cloudflare-pages",
+        "migration_worth": "HIGH",
+        "migration_priority": 3,
+        "wave": 1,
+        "rationale": "Local-data Next app appears highly static-exportable; removing the runtime is more valuable than moving SSR elsewhere."
+      }
+    },
+    {
+      "id": "partner-command-center",
+      "github": {
+        "repo": "JFeimster/partner-command-center",
+        "url": "https://github.com/JFeimster/partner-command-center",
+        "visibility": "public"
+      },
+      "current_deployment": {
+        "provider": "vercel",
+        "project": "partner-command-center",
+        "project_id": "prj_F1L6UW5jFp6L5Ov8ENwrbfVETDVY",
+        "url": "https://partner-command-center-rho.vercel.app"
+      },
+      "runtime": {
+        "primary_class": "STATIC + API",
+        "framework": null,
+        "traits": [
+          "static HTML/JS",
+          "lead routing API",
+          "partner signup API",
+          "dashboard API"
+        ],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": false
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "netlify",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW_TO_MEDIUM",
+          "pricing_posture": "$0 until credit ceiling",
+          "notes": "Likely lower function-adapter friction than Workers."
+        },
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "EXCELLENT_FRONTEND",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "VERY_LOW_FRONTEND",
+          "pricing_posture": "$0 likely",
+          "notes": "Static shell is trivial."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "GOOD_API_AFTER_ADAPTER",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 initially",
+          "notes": "Excellent economics if API handlers are adapted."
+        },
+        {
+          "provider_product_id": "deno-deploy",
+          "fit": "GOOD",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 up to 1M requests",
+          "notes": "Potential all-in-one edge option."
+        },
+        {
+          "provider_product_id": "railway",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "LOW",
+          "pricing_posture": "$1 free credit / $5 Hobby",
+          "notes": "Simple if keeping Node semantics matters more than edge economics."
+        },
+        {
+          "provider_product_id": "render-web",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "LOW",
+          "pricing_posture": "free test / paid production",
+          "notes": "Good conventional Node alternative."
+        },
+        {
+          "provider_product_id": "digitalocean-app-platform",
+          "fit": "GOOD",
+          "free_tier_fit": "POOR",
+          "migration_effort": "LOW",
+          "pricing_posture": "$5+ dynamic service",
+          "notes": "Predictable managed PaaS."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "vercel-for-now",
+        "future_target": "cloudflare-pages + cloudflare-workers OR netlify",
+        "migration_worth": "MEDIUM",
+        "migration_priority": 5,
+        "wave": 2,
+        "rationale": "Migration is reasonable but current usage is low; choose Node-compatible Netlify for speed or Cloudflare for better request economics after API adaptation."
+      }
+    },
+    {
+      "id": "partner-intake-os",
+      "github": {
+        "repo": "JFeimster/partner-intake-os",
+        "url": "https://github.com/JFeimster/partner-intake-os",
+        "visibility": "public"
+      },
+      "current_deployment": {
+        "provider": "vercel",
+        "project": "partner-intake-os",
+        "project_id": "prj_CW0X32zvV9HYXRKDAXyUAWJsuOuw",
+        "url": "https://partner-intake-os.vercel.app"
+      },
+      "runtime": {
+        "primary_class": "STATIC + API",
+        "framework": null,
+        "traits": [
+          "large API surface",
+          "admin",
+          "leads",
+          "partners",
+          "Tally",
+          "sync",
+          "security",
+          "notifications",
+          "OpenAPI contracts"
+        ],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": true,
+        "embed_distribution": false
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "netlify",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 until credit ceiling",
+          "notes": "Functions may preserve serverless shape with moderate migration."
+        },
+        {
+          "provider_product_id": "railway",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "LOW_TO_MEDIUM",
+          "pricing_posture": "$1 free credit / $5 Hobby",
+          "notes": "Excellent operational fit if API surface becomes a real service."
+        },
+        {
+          "provider_product_id": "render-web",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "LOW_TO_MEDIUM",
+          "pricing_posture": "paid production recommended",
+          "notes": "Strong conventional Node API host with MCP management."
+        },
+        {
+          "provider_product_id": "digitalocean-app-platform",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "POOR",
+          "migration_effort": "LOW_TO_MEDIUM",
+          "pricing_posture": "$5+ service",
+          "notes": "Good managed service with official MCP."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "POSSIBLE",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "HIGH",
+          "pricing_posture": "$0 initially",
+          "notes": "Large API/auth surface makes edge adaptation more invasive."
+        },
+        {
+          "provider_product_id": "coolify-self-hosted",
+          "fit": "GOOD_LATER",
+          "free_tier_fit": "N/A",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "VPS cost",
+          "notes": "Makes sense only if several backend services are consolidated together."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "vercel",
+        "migration_worth": "LOW",
+        "migration_priority": 9,
+        "wave": null,
+        "rationale": "Broad API/auth surface and low current usage make migration churn unjustified. Revisit when API contracts and live workflows stabilize."
+      }
+    },
+    {
+      "id": "moonshine-broker",
+      "github": {
+        "repo": "JFeimster/moonshine-broker",
+        "url": "https://github.com/JFeimster/moonshine-broker",
+        "visibility": "public"
+      },
+      "current_deployment": {
+        "provider": "vercel",
+        "project": "moonshine-broker",
+        "project_id": "prj_6u2AkC3eCW11lyKuuIHfZtu22GHt",
+        "url": "https://moonshine-broker.vercel.app"
+      },
+      "runtime": {
+        "primary_class": "NEXT SSR",
+        "framework": "Next.js 15",
+        "traits": [
+          "mostly static content",
+          "single /api/lead route"
+        ],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": false,
+        "optimization_path": "Externalize lead API into canonical intake service, then convert to NEXT STATIC EXPORT."
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "netlify",
+          "fit": "EXCELLENT_CURRENT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 until credit ceiling",
+          "notes": "Closest Vercel-like Next alternative."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "GOOD_CURRENT",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 initially",
+          "notes": "Works if Next runtime adaptation is accepted."
+        },
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "EXCELLENT_AFTER_API_EXTRACTION",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "LOW_AFTER_REFACTOR",
+          "pricing_posture": "$0 likely",
+          "notes": "Best long-term outcome if the lead API moves to shared intake."
+        },
+        {
+          "provider_product_id": "firebase-app-hosting",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW_TO_MEDIUM",
+          "pricing_posture": "PAYG with allowances",
+          "notes": "Managed SSR alternative."
+        },
+        {
+          "provider_product_id": "aws-amplify",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW_TO_MEDIUM",
+          "pricing_posture": "usage-based",
+          "notes": "Supports Next SSR but adds AWS complexity."
+        },
+        {
+          "provider_product_id": "railway",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "LOW",
+          "pricing_posture": "$1 credit / $5 Hobby",
+          "notes": "Simple containerized Next."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "vercel-for-now",
+        "future_target": "cloudflare-pages after API extraction",
+        "migration_worth": "MEDIUM_LATER",
+        "migration_priority": 7,
+        "wave": 3,
+        "rationale": "Better to remove the one server dependency than move an otherwise static marketing site to another SSR host."
+      }
+    },
+    {
+      "id": "acquire-distilled",
+      "github": {
+        "repo": "JFeimster/acquire-distilled",
+        "url": "https://github.com/JFeimster/acquire-distilled",
+        "visibility": "private"
+      },
+      "current_deployment": {
+        "provider": "vercel",
+        "project": "acquire-distilled",
+        "project_id": "prj_uP49iVonKILs6ETbEjFKrIA0O10c",
+        "url": "https://acquire-distilled.vercel.app"
+      },
+      "runtime": {
+        "primary_class": "NEXT SSR",
+        "framework": "Next.js 15",
+        "traits": [
+          "App Router",
+          "API routes",
+          "Tally intake",
+          "deal reality check",
+          "dynamic buyer/business routes"
+        ],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": false,
+        "embed_distribution": false
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "netlify",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW_TO_MEDIUM",
+          "pricing_posture": "$0 until credits exhausted",
+          "notes": "Best first fallback if leaving Vercel becomes necessary."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "GOOD",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 initially",
+          "notes": "Requires Next/edge compatibility work."
+        },
+        {
+          "provider_product_id": "firebase-app-hosting",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "PAYG with allowances",
+          "notes": "Managed SSR alternative."
+        },
+        {
+          "provider_product_id": "aws-amplify",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "usage-based",
+          "notes": "Reasonable but more operationally complex."
+        },
+        {
+          "provider_product_id": "railway",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "LOW",
+          "pricing_posture": "$1 credit / $5 Hobby",
+          "notes": "Straightforward Node/container fallback."
+        },
+        {
+          "provider_product_id": "render-web",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "LOW",
+          "pricing_posture": "paid production",
+          "notes": "Conventional backend host."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "vercel",
+        "migration_worth": "NO",
+        "migration_priority": 10,
+        "wave": null,
+        "rationale": "Actively evolving Next app with legitimate API/dynamic runtime requirements. Migration would add work without solving a current problem."
+      }
+    },
+    {
+      "id": "moonshine-capital-portal",
+      "github": {
+        "repo": "JFeimster/moonshine-capital-portal",
+        "url": "https://github.com/JFeimster/moonshine-capital-portal",
+        "visibility": "public"
+      },
+      "current_deployment": {
+        "provider": "vercel",
+        "project": "moonshine-capital-portal",
+        "project_id": "prj_EQrfYjOPHEjm9oGGbLkfpOevUb6q",
+        "url": "https://moonshine-capital-portal.vercel.app"
+      },
+      "runtime": {
+        "primary_class": "NEXT + AUTH",
+        "framework": "Next.js 14",
+        "traits": [
+          "middleware",
+          "signed session cookies",
+          "role-based /admin and /portal",
+          "environment secrets"
+        ],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": true,
+        "embed_distribution": false
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "netlify",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "MEDIUM_TO_HIGH",
+          "pricing_posture": "$0 until credit ceiling",
+          "notes": "Most practical frontend-first fallback."
+        },
+        {
+          "provider_product_id": "railway",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$1 credit / $5 Hobby",
+          "notes": "Conventional Node runtime and strong MCP/Skills."
+        },
+        {
+          "provider_product_id": "render-web",
+          "fit": "GOOD",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "paid production",
+          "notes": "Strong backend control and MCP."
+        },
+        {
+          "provider_product_id": "firebase-app-hosting",
+          "fit": "GOOD",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "PAYG with allowances",
+          "notes": "Possible managed SSR/auth alternative."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "POSSIBLE",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "HIGH",
+          "pricing_posture": "$0 initially",
+          "notes": "Auth/middleware/runtime adaptation makes it the most invasive option."
+        },
+        {
+          "provider_product_id": "coolify-self-hosted",
+          "fit": "GOOD_LATER",
+          "free_tier_fit": "N/A",
+          "migration_effort": "HIGH",
+          "pricing_posture": "VPS cost",
+          "notes": "Only compelling if backend services are intentionally consolidated."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "vercel",
+        "migration_worth": "NO",
+        "migration_priority": 11,
+        "wave": null,
+        "rationale": "This is exactly the kind of active Next/auth workload Vercel is currently earning its keep on."
+      }
+    },
+    {
+      "id": "resourcegrid",
+      "github": {
+        "repo": "JFeimster/ResourceGrid",
+        "url": "https://github.com/JFeimster/ResourceGrid",
+        "visibility": "private"
+      },
+      "current_deployment": {
+        "provider": null,
+        "project": null,
+        "project_id": null,
+        "url": null,
+        "status_note": "No matching current Vercel project found during audit."
+      },
+      "runtime": {
+        "primary_class": "DOCS / REGISTRY",
+        "framework": "Next.js 16 presentation layer + Node registry compiler",
+        "traits": [
+          "canonical registries",
+          "schemas",
+          "compiled JSON indexes",
+          "validation/dedupe/relationships",
+          "small web UI"
+        ],
+        "server_runtime_required": false,
+        "api_required": false,
+        "auth_required": false,
+        "embed_distribution": false,
+        "classification_note": "Build pipeline needs Node, but public runtime can be static if compiled outputs are generated before deploy."
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "cloudflare-pages",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 likely",
+          "notes": "Best general public UI host after static build/export."
+        },
+        {
+          "provider_product_id": "cloudflare-r2",
+          "fit": "EXCELLENT_ARTIFACTS",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0/low",
+          "notes": "Ideal for large compiled registry artifacts."
+        },
+        {
+          "provider_product_id": "mintlify",
+          "fit": "EXCELLENT_DOCS",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 Starter",
+          "notes": "Best if public API/docs + MCP exposure becomes primary."
+        },
+        {
+          "provider_product_id": "gitbook",
+          "fit": "EXCELLENT_DOCS",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "MEDIUM",
+          "pricing_posture": "$0 without custom domain; $65+ for branded domain",
+          "notes": "Excellent LLM/MCP docs output."
+        },
+        {
+          "provider_product_id": "netlify",
+          "fit": "EXCELLENT",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0 until credit ceiling",
+          "notes": "Strong static docs/UI host with Agent Runners."
+        },
+        {
+          "provider_product_id": "github-pages",
+          "fit": "GOOD_IF_PUBLIC_NONCOMMERCIAL_DOCS",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "LOW",
+          "pricing_posture": "$0",
+          "notes": "Use only for eligible docs/reference content, not commercial app hosting."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "cloudflare-pages",
+        "artifact_host": "cloudflare-r2-later",
+        "docs_option": "mintlify-if-public-ai-native-docs-become-a-priority",
+        "migration_worth": "HIGH",
+        "migration_priority": 8,
+        "wave": 2,
+        "rationale": "Treat registry compilation as build-time work and publish the resulting UI/artifacts cheaply; don't invent a persistent runtime."
+      }
+    },
+    {
+      "id": "mc-studio",
+      "github": {
+        "repo": "JFeimster/mc-studio",
+        "url": "https://github.com/JFeimster/mc-studio",
+        "visibility": "public"
+      },
+      "current_deployment": {
+        "provider": "wix",
+        "project": null,
+        "project_id": null,
+        "url": "https://www.distilledfunding.com",
+        "status_note": "Wix CLI/Velo source; no matching Vercel project."
+      },
+      "runtime": {
+        "primary_class": "PLATFORM_NATIVE - WIX/VELO",
+        "taxonomy_exception": true,
+        "framework": "Wix CLI / Velo",
+        "traits": [
+          "Wix pages",
+          "Velo backend",
+          "routers",
+          "HTTP functions",
+          "Wix permissions",
+          "Stripe",
+          "Nodemailer"
+        ],
+        "server_runtime_required": true,
+        "api_required": true,
+        "auth_required": true,
+        "embed_distribution": false
+      },
+      "alternatives": [
+        {
+          "provider_product_id": "netlify",
+          "fit": "REPLATFORM_ONLY",
+          "free_tier_fit": "GOOD",
+          "migration_effort": "VERY_HIGH",
+          "pricing_posture": "$0 entry",
+          "notes": "Would require rebuilding Wix/Velo-specific functionality."
+        },
+        {
+          "provider_product_id": "cloudflare-workers",
+          "fit": "REPLATFORM_ONLY",
+          "free_tier_fit": "EXCELLENT",
+          "migration_effort": "VERY_HIGH",
+          "pricing_posture": "$0 entry",
+          "notes": "Not a migration; this would be an architectural rewrite."
+        },
+        {
+          "provider_product_id": "railway",
+          "fit": "BACKEND_ONLY_REPLATFORM",
+          "free_tier_fit": "LIMITED",
+          "migration_effort": "VERY_HIGH",
+          "pricing_posture": "$5 typical",
+          "notes": "Could host extracted services but not replace Wix product features directly."
+        }
+      ],
+      "recommendation": {
+        "canonical_host": "wix",
+        "migration_worth": "NO",
+        "migration_priority": 12,
+        "wave": null,
+        "rationale": "This repo is intentionally platform-native. Replatforming would destroy working Wix integrations for no immediate hosting benefit."
+      }
+    }
+  ],
+  "portfolio_architecture": {
+    "recommended_now": {
+      "cloudflare": [
+        "funding-quiz",
+        "fundstack-ai",
+        "capitalgrid",
+        "resourcegrid"
+      ],
+      "vercel": [
+        "am-i-fundable",
+        "embed-widgets",
+        "partner-command-center",
+        "partner-intake-os",
+        "moonshine-broker",
+        "acquire-distilled",
+        "moonshine-capital-portal"
+      ],
+      "wix": [
+        "mc-studio"
+      ]
+    },
+    "recommended_after_migration_waves": {
+      "cloudflare": [
+        "funding-quiz",
+        "fundstack-ai",
+        "capitalgrid",
+        "resourcegrid",
+        "embed-widgets",
+        "am-i-fundable"
+      ],
+      "vercel": [
+        "partner-command-center",
+        "partner-intake-os",
+        "moonshine-broker",
+        "acquire-distilled",
+        "moonshine-capital-portal"
+      ],
+      "wix": [
+        "mc-studio"
+      ],
+      "conditional_alternatives": {
+        "partner-command-center": [
+          "netlify",
+          "cloudflare-pages + cloudflare-workers"
+        ],
+        "partner-intake-os": [
+          "railway",
+          "render-web",
+          "digitalocean-app-platform"
+        ],
+        "moonshine-broker": [
+          "cloudflare-pages after API extraction",
+          "netlify"
+        ],
+        "complex_next_fallbacks": [
+          "netlify",
+          "firebase-app-hosting",
+          "aws-amplify",
+          "railway",
+          "render-web"
+        ]
+      }
+    },
+    "migration_waves": [
+      {
+        "wave": 1,
+        "projects": [
+          "funding-quiz",
+          "fundstack-ai",
+          "capitalgrid"
+        ],
+        "goal": "Prove low-risk static hosting workflow."
+      },
+      {
+        "wave": 2,
+        "projects": [
+          "resourcegrid",
+          "embed-widgets",
+          "partner-command-center"
+        ],
+        "goal": "Move compounding shared distribution assets and establish API-hosting patterns."
+      },
+      {
+        "wave": 3,
+        "projects": [
+          "am-i-fundable",
+          "moonshine-broker"
+        ],
+        "goal": "Refactor/extract API dependencies before or during migration."
+      }
+    ]
+  }
+}

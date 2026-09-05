@@ -1,0 +1,1322 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-09-05",
+  "purpose": "Master hosting-provider catalog combining workload fit, pricing, features, AI/MCP automation, and access links for deployment decisions.",
+  "pricing_note": "Pricing is a point-in-time snapshot. Verify the linked pricing page before purchase or migration.",
+  "runtime_taxonomy": [
+    "STATIC",
+    "STATIC + EMBED",
+    "STATIC + API",
+    "NEXT STATIC EXPORT",
+    "NEXT SSR",
+    "NEXT + AUTH",
+    "NODE SERVICE",
+    "BACKGROUND WORKER",
+    "DOCS / REGISTRY"
+  ],
+  "provider_products": [
+    {
+      "id": "vercel",
+      "provider": "Vercel",
+      "product": "Vercel",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "STATIC + API",
+        "NEXT STATIC EXPORT",
+        "NEXT SSR",
+        "NEXT + AUTH"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Hobby plan with included usage limits; projects can pause when certain included limits are exceeded.",
+        "entry_paid_usd_month": 20,
+        "paid_summary": "Pro starts at $20/month before optional add-ons and usage overages.",
+        "model": "subscription_plus_usage",
+        "pricing_url": "https://vercel.com/pricing"
+      },
+      "features": [
+        "Git deployments",
+        "Preview deployments",
+        "Next.js-native runtime",
+        "Functions",
+        "Edge network",
+        "Custom domains",
+        "Analytics/observability options"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "Strong AI SDK/agent ecosystem and Vercel platform APIs."
+      },
+      "signup_url": "https://vercel.com/signup",
+      "login_url": "https://vercel.com/login",
+      "best_for": [
+        "Active Next.js development",
+        "Next.js SSR/auth",
+        "Fast preview workflows"
+      ],
+      "watchouts": [
+        "Hobby usage ceilings can pause service",
+        "Commercial production may justify Pro",
+        "Optional add-ons can raise base cost"
+      ]
+    },
+    {
+      "id": "cloudflare-pages",
+      "provider": "Cloudflare",
+      "product": "Pages / Workers Static Assets",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "NEXT STATIC EXPORT",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free Pages plan includes up to 500 builds/month; static delivery is designed for CDN-style hosting.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Paid Cloudflare plans increase account/project limits; dynamic Pages Functions are billed as Workers.",
+        "model": "free_static_plus_optional_compute",
+        "pricing_url": "https://developers.cloudflare.com/pages/platform/limits/"
+      },
+      "features": [
+        "Global edge delivery",
+        "GitHub/GitLab integration",
+        "Custom domains",
+        "Preview deployments",
+        "Static assets",
+        "Pages Functions via Workers"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "Cloudflare MCP servers and Agents SDK make infrastructure highly automatable."
+      },
+      "signup_url": "https://dash.cloudflare.com/sign-up",
+      "login_url": "https://dash.cloudflare.com/",
+      "best_for": [
+        "Static public sites",
+        "Embeddables",
+        "Static-export Next.js",
+        "High-request low-compute traffic"
+      ],
+      "watchouts": [
+        "Functions use Workers quotas",
+        "Next SSR requires a Workers-compatible adapter rather than plain Pages"
+      ]
+    },
+    {
+      "id": "cloudflare-workers",
+      "provider": "Cloudflare",
+      "product": "Workers",
+      "categories": [
+        "STATIC + API",
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE",
+        "BACKGROUND WORKER"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Workers Free includes 100,000 requests/day with 10 ms CPU time per request.",
+        "entry_paid_usd_month": 5,
+        "paid_summary": "Workers Paid has a $5/month minimum and removes the request-count ceiling; Pages Functions use Workers pricing.",
+        "model": "usage_based_with_low_minimum",
+        "pricing_url": "https://developers.cloudflare.com/workers/platform/pricing/"
+      },
+      "features": [
+        "Edge compute",
+        "Cron triggers",
+        "KV",
+        "Durable Objects on paid plan",
+        "Static assets",
+        "No separate egress charge on Workers Paid"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "Excellent for MCP/agent-operated infrastructure and lightweight APIs."
+      },
+      "signup_url": "https://dash.cloudflare.com/sign-up",
+      "login_url": "https://dash.cloudflare.com/",
+      "best_for": [
+        "Lightweight APIs",
+        "High-volume edge APIs",
+        "Webhooks",
+        "Small background jobs",
+        "Full-stack edge apps"
+      ],
+      "watchouts": [
+        "Node-specific code may need adaptation",
+        "CPU model differs from traditional servers"
+      ]
+    },
+    {
+      "id": "cloudflare-r2",
+      "provider": "Cloudflare",
+      "product": "R2 Object Storage",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Usage-based object storage with a free allowance; suited to large static/public artifacts.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Pay for storage and operations; no standard internet egress fees from R2.",
+        "model": "usage_based",
+        "pricing_url": "https://developers.cloudflare.com/r2/pricing/"
+      },
+      "features": [
+        "Object storage",
+        "S3-compatible API",
+        "No standard egress fees",
+        "Works with Workers/Pages"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://dash.cloudflare.com/sign-up",
+      "login_url": "https://dash.cloudflare.com/",
+      "best_for": [
+        "Large JSON registries",
+        "Static downloadable artifacts",
+        "Widget assets",
+        "Compiled datasets"
+      ],
+      "watchouts": [
+        "Not a full app host by itself"
+      ]
+    },
+    {
+      "id": "netlify",
+      "provider": "Netlify",
+      "product": "Netlify",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "STATIC + API",
+        "NEXT STATIC EXPORT",
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free plan includes 300 credits/month with a hard limit.",
+        "entry_paid_usd_month": 9,
+        "paid_summary": "Personal starts at $9/month with 1,000 credits and optional recharge; Pro starts at $20/month.",
+        "model": "credit_based",
+        "pricing_url": "https://www.netlify.com/pricing/"
+      },
+      "features": [
+        "Git/API/AI deployment",
+        "Deploy previews",
+        "Functions",
+        "Blob storage",
+        "Custom domains",
+        "Global CDN",
+        "Basic rate limiting"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "Agent Runners support Codex, Claude, Gemini and OpenCode workflows."
+      },
+      "signup_url": "https://app.netlify.com/signup",
+      "login_url": "https://app.netlify.com/login",
+      "best_for": [
+        "Vercel-like frontend workflow",
+        "Next.js alternatives",
+        "Static + functions",
+        "Agent-assisted deploy workflows"
+      ],
+      "watchouts": [
+        "Free credit ceiling can also pause workloads",
+        "Shared credit model combines multiple resource types"
+      ]
+    },
+    {
+      "id": "firebase-hosting",
+      "provider": "Google Firebase",
+      "product": "Firebase Hosting",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "NEXT STATIC EXPORT",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Spark includes 10 GB storage and 360 MB/day data transfer with custom domain and SSL.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Blaze is pay-as-you-go; hosting beyond free usage is billed by storage and transfer.",
+        "model": "free_then_usage",
+        "pricing_url": "https://firebase.google.com/pricing"
+      },
+      "features": [
+        "Global CDN",
+        "SSL",
+        "Custom domains",
+        "Multiple sites",
+        "Firebase ecosystem integration"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "Strong Google/Firebase tooling, Gemini integration, and CLI/API automation."
+      },
+      "signup_url": "https://firebase.google.com/",
+      "login_url": "https://console.firebase.google.com/",
+      "best_for": [
+        "Static sites",
+        "Static apps already using Firebase",
+        "Simple embeddables"
+      ],
+      "watchouts": [
+        "Free transfer allowance is smaller than CDN-first alternatives"
+      ]
+    },
+    {
+      "id": "firebase-app-hosting",
+      "provider": "Google Firebase",
+      "product": "App Hosting",
+      "categories": [
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "STATIC + API"
+      ],
+      "pricing": {
+        "free_tier": false,
+        "free_summary": "Requires Blaze billing, but underlying services include no-cost usage allowances.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "No-cost allowances include 10 GiB App Hosting bandwidth and 2M Cloud Run requests/month before usage charges.",
+        "model": "pay_as_you_go_with_free_allowances",
+        "pricing_url": "https://firebase.google.com/docs/app-hosting/costs"
+      },
+      "features": [
+        "Managed app hosting",
+        "Cloud Run runtime",
+        "Build pipeline",
+        "Secrets",
+        "Firebase integrations"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://firebase.google.com/",
+      "login_url": "https://console.firebase.google.com/",
+      "best_for": [
+        "Next.js with Google/Firebase dependencies",
+        "Apps needing managed SSR"
+      ],
+      "watchouts": [
+        "Billing account required",
+        "Google Cloud complexity is higher than Vercel/Netlify"
+      ]
+    },
+    {
+      "id": "aws-amplify",
+      "provider": "AWS",
+      "product": "Amplify Hosting",
+      "categories": [
+        "STATIC",
+        "STATIC + API",
+        "NEXT STATIC EXPORT",
+        "NEXT SSR",
+        "NEXT + AUTH"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Eligible AWS Free Tier includes 1,000 build minutes, 5 GB CDN storage, 15 GB transfer, and 500,000 SSR requests/month.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Usage-based after free allowances; SSR requests listed at $0.30 per million plus duration and transfer charges.",
+        "model": "usage_based",
+        "pricing_url": "https://aws.amazon.com/amplify/pricing/"
+      },
+      "features": [
+        "Git deployments",
+        "SSR",
+        "Custom domains",
+        "AWS integrations",
+        "CDN",
+        "Build pipelines"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "AWS APIs/CLI and growing MCP ecosystem make it highly automatable, but operationally heavier."
+      },
+      "signup_url": "https://signin.aws.amazon.com/signup",
+      "login_url": "https://console.aws.amazon.com/",
+      "best_for": [
+        "Next.js tied to AWS",
+        "Teams comfortable with AWS"
+      ],
+      "watchouts": [
+        "Pricing surface is fragmented",
+        "Higher operational complexity"
+      ]
+    },
+    {
+      "id": "azure-static-web-apps",
+      "provider": "Microsoft Azure",
+      "product": "Static Web Apps",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "STATIC + API",
+        "NEXT STATIC EXPORT",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free plan available for static web apps with integrated CI/CD and serverless API options.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Standard tier adds production-oriented capacity and enterprise features.",
+        "model": "free_plus_paid_tier",
+        "pricing_url": "https://azure.microsoft.com/pricing/details/app-service/static/"
+      },
+      "features": [
+        "GitHub/Azure DevOps CI",
+        "Custom domains",
+        "SSL",
+        "Global distribution",
+        "Integrated APIs"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "Azure CLI/API and Microsoft agent tooling are strong but more enterprise-oriented."
+      },
+      "signup_url": "https://azure.microsoft.com/free/",
+      "login_url": "https://portal.azure.com/",
+      "best_for": [
+        "Static + API",
+        "Microsoft ecosystem"
+      ],
+      "watchouts": [
+        "Azure setup is heavier than frontend-first platforms"
+      ]
+    },
+    {
+      "id": "digitalocean-static",
+      "provider": "DigitalOcean",
+      "product": "App Platform Static Sites",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "NEXT STATIC EXPORT",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Up to 3 apps with static sites free; each free app includes 1 GiB outbound transfer/month.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Additional static-only apps are $3/month; paid App Platform services start at $5/month.",
+        "model": "free_static_then_flat_or_usage",
+        "pricing_url": "https://www.digitalocean.com/pricing/app-platform"
+      },
+      "features": [
+        "GitHub/GitLab deploys",
+        "HTTPS",
+        "Custom domains",
+        "CDN",
+        "DDoS mitigation"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "DigitalOcean offers official MCP infrastructure tooling."
+      },
+      "signup_url": "https://cloud.digitalocean.com/registrations/new",
+      "login_url": "https://cloud.digitalocean.com/login",
+      "best_for": [
+        "Small static sites",
+        "Simple app + service portfolios"
+      ],
+      "watchouts": [
+        "1 GiB free transfer per app is modest"
+      ]
+    },
+    {
+      "id": "digitalocean-app-platform",
+      "provider": "DigitalOcean",
+      "product": "App Platform Web Services / Workers",
+      "categories": [
+        "STATIC + API",
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE",
+        "BACKGROUND WORKER"
+      ],
+      "pricing": {
+        "free_tier": false,
+        "free_summary": "Dynamic services are paid.",
+        "entry_paid_usd_month": 5,
+        "paid_summary": "Paid App Platform starts at $5/month; bandwidth overages are usage-based.",
+        "model": "resource_based",
+        "pricing_url": "https://www.digitalocean.com/pricing/app-platform"
+      },
+      "features": [
+        "Managed containers",
+        "Jobs",
+        "Workers",
+        "Web services",
+        "Custom domains",
+        "Git deploys"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://cloud.digitalocean.com/registrations/new",
+      "login_url": "https://cloud.digitalocean.com/login",
+      "best_for": [
+        "Persistent Node services",
+        "Background workers",
+        "Mixed app portfolios"
+      ],
+      "watchouts": [
+        "Overkill for static-only workloads"
+      ]
+    },
+    {
+      "id": "render-static",
+      "provider": "Render",
+      "product": "Static Sites",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "NEXT STATIC EXPORT",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Static sites can be deployed free.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Workspace/service charges apply when using paid compute or higher limits.",
+        "model": "free_static",
+        "pricing_url": "https://render.com/docs/free"
+      },
+      "features": [
+        "Git deploys",
+        "Static hosting",
+        "CDN",
+        "Custom domains"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": false,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "Official Render MCP can inspect and manage services/logs/databases."
+      },
+      "signup_url": "https://dashboard.render.com/register",
+      "login_url": "https://dashboard.render.com/",
+      "best_for": [
+        "Static sites when Render is already used for backend services"
+      ],
+      "watchouts": [
+        "Less compelling than CDN-first hosts for high-volume widgets"
+      ]
+    },
+    {
+      "id": "render-web",
+      "provider": "Render",
+      "product": "Web Services",
+      "categories": [
+        "STATIC + API",
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free web services exist for testing/hobby use but Render explicitly advises against using free instances for production.",
+        "entry_paid_usd_month": null,
+        "paid_summary": "Paid compute is resource-tier based.",
+        "model": "resource_based",
+        "pricing_url": "https://render.com/pricing"
+      },
+      "features": [
+        "Node/Python/Ruby services",
+        "Persistent apps",
+        "Databases",
+        "Cron jobs",
+        "Private services"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": false,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://dashboard.render.com/register",
+      "login_url": "https://dashboard.render.com/",
+      "best_for": [
+        "Persistent Node APIs",
+        "Backend services",
+        "Cron jobs"
+      ],
+      "watchouts": [
+        "Free web services are not production-grade"
+      ]
+    },
+    {
+      "id": "railway",
+      "provider": "Railway",
+      "product": "Railway",
+      "categories": [
+        "STATIC + API",
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE",
+        "BACKGROUND WORKER"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free plan includes $1 of resource credit/month after trial.",
+        "entry_paid_usd_month": 5,
+        "paid_summary": "Hobby is $5/month with the base subscription applied toward usage.",
+        "model": "subscription_credit_plus_usage",
+        "pricing_url": "https://docs.railway.com/pricing/plans"
+      },
+      "features": [
+        "Git deploys",
+        "Containers",
+        "Databases",
+        "Volumes",
+        "Private networking",
+        "Workers",
+        "Cron"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": true,
+        "cli": true,
+        "api": true,
+        "notes": "One of the strongest platforms for MCP + agent Skills + CLI automation."
+      },
+      "signup_url": "https://railway.com/login",
+      "login_url": "https://railway.com/login",
+      "best_for": [
+        "Node APIs",
+        "Persistent services",
+        "Workers",
+        "Simple backend PaaS"
+      ],
+      "watchouts": [
+        "Not the cheapest answer for pure static traffic"
+      ]
+    },
+    {
+      "id": "deno-deploy",
+      "provider": "Deno",
+      "product": "Deno Deploy",
+      "categories": [
+        "STATIC + API",
+        "NEXT SSR",
+        "NODE SERVICE",
+        "BACKGROUND WORKER"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free includes 1M requests/month, 20 GiB egress, and 5 custom domains.",
+        "entry_paid_usd_month": 20,
+        "paid_summary": "Pro includes 5M requests and 200 GiB egress, then usage overages.",
+        "model": "request_and_egress_based",
+        "pricing_url": "https://deno.com/deploy/pricing"
+      },
+      "features": [
+        "Edge/serverless runtime",
+        "Deno-native APIs",
+        "Custom domains",
+        "Sandbox/subhosting options"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://dash.deno.com/",
+      "login_url": "https://dash.deno.com/",
+      "best_for": [
+        "Lightweight APIs",
+        "Edge-native JavaScript/TypeScript"
+      ],
+      "watchouts": [
+        "Node compatibility should be tested before migration"
+      ]
+    },
+    {
+      "id": "supabase-edge-functions",
+      "provider": "Supabase",
+      "product": "Edge Functions",
+      "categories": [
+        "STATIC + API",
+        "NODE SERVICE"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free includes 500,000 Edge Function invocations.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Paid plans include 2M invocations; overage is $2 per 1M invocations.",
+        "model": "plan_plus_invocation_usage",
+        "pricing_url": "https://supabase.com/docs/guides/functions/pricing"
+      },
+      "features": [
+        "Edge Functions",
+        "Postgres",
+        "Auth",
+        "Storage",
+        "Realtime"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "Official remote MCP is useful when the app already needs Supabase data/auth."
+      },
+      "signup_url": "https://supabase.com/dashboard/sign-up",
+      "login_url": "https://supabase.com/dashboard/sign-in",
+      "best_for": [
+        "APIs that also need Postgres/Auth/Storage",
+        "Consolidating backend services"
+      ],
+      "watchouts": [
+        "Avoid adopting Supabase solely as a hosting substitute if no database/auth need exists"
+      ]
+    },
+    {
+      "id": "koyeb",
+      "provider": "Koyeb",
+      "product": "Koyeb",
+      "categories": [
+        "STATIC + API",
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "One free Web Service per organization: 512 MB RAM, 0.1 vCPU, 2 GB SSD; scales to zero.",
+        "entry_paid_usd_month": 1.61,
+        "paid_summary": "Eco instances start around $1.61/month; free instance is positioned for preview/hobby use.",
+        "model": "resource_based",
+        "pricing_url": "https://www.koyeb.com/docs/reference/instances"
+      },
+      "features": [
+        "Web services",
+        "APIs",
+        "Background services on paid instances",
+        "Global deployment",
+        "Git/container deploys"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://app.koyeb.com/auth/signup",
+      "login_url": "https://app.koyeb.com/auth/signin",
+      "best_for": [
+        "Low-cost Node services",
+        "Small APIs"
+      ],
+      "watchouts": [
+        "Free instance is not intended for production and scales to zero"
+      ]
+    },
+    {
+      "id": "northflank",
+      "provider": "Northflank",
+      "product": "Northflank",
+      "categories": [
+        "STATIC + API",
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE",
+        "BACKGROUND WORKER"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Sandbox/free allowances exist for small development workloads; production compute is usage-based.",
+        "entry_paid_usd_month": null,
+        "paid_summary": "Compute is billed by CPU and memory; published rates include $0.01667/vCPU-hour and $0.00833/GB-hour.",
+        "model": "resource_based",
+        "pricing_url": "https://northflank.com/pricing"
+      },
+      "features": [
+        "Containers",
+        "Jobs",
+        "Databases",
+        "Workers",
+        "Pipelines",
+        "BYOC"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://app.northflank.com/signup",
+      "login_url": "https://app.northflank.com/login",
+      "best_for": [
+        "More complex service portfolios",
+        "Workers/jobs",
+        "Containerized apps"
+      ],
+      "watchouts": [
+        "Too much platform for simple static sites"
+      ]
+    },
+    {
+      "id": "zeabur",
+      "provider": "Zeabur",
+      "product": "Zeabur",
+      "categories": [
+        "STATIC + API",
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE",
+        "BACKGROUND WORKER"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free plan available; free services may auto-sleep.",
+        "entry_paid_usd_month": 5,
+        "paid_summary": "Dev is $5/month; Pro is $19/month.",
+        "model": "subscription_plus_resources",
+        "pricing_url": "https://zeabur.com/pricing"
+      },
+      "features": [
+        "App deploys",
+        "Containers",
+        "Databases",
+        "Own-server management",
+        "Built-in agent features on paid plans"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true,
+        "notes": "Includes Zeabur Agent on paid plans."
+      },
+      "signup_url": "https://dash.zeabur.com/",
+      "login_url": "https://dash.zeabur.com/",
+      "best_for": [
+        "Low-friction app services",
+        "Managing own servers through a PaaS UI"
+      ],
+      "watchouts": [
+        "Smaller ecosystem than major clouds"
+      ]
+    },
+    {
+      "id": "heroku",
+      "provider": "Heroku",
+      "product": "Heroku",
+      "categories": [
+        "STATIC + API",
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE",
+        "BACKGROUND WORKER"
+      ],
+      "pricing": {
+        "free_tier": false,
+        "free_summary": "No meaningful always-free production dyno tier.",
+        "entry_paid_usd_month": 5,
+        "paid_summary": "Eco and Basic plans provide low-cost entry points; pricing varies by dyno/service type.",
+        "model": "resource_based",
+        "pricing_url": "https://www.heroku.com/pricing/"
+      },
+      "features": [
+        "Dynos",
+        "Buildpacks",
+        "Add-ons",
+        "Workers",
+        "Scheduler",
+        "Databases"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": false,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://signup.heroku.com/",
+      "login_url": "https://id.heroku.com/login",
+      "best_for": [
+        "Traditional PaaS Node apps",
+        "Teams already familiar with Heroku"
+      ],
+      "watchouts": [
+        "Usually not the cheapest option for a large portfolio of tiny apps"
+      ]
+    },
+    {
+      "id": "coolify-self-hosted",
+      "provider": "Coolify",
+      "product": "Self-hosted Coolify",
+      "categories": [
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE",
+        "BACKGROUND WORKER",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Coolify software is free when self-hosted; you pay for your own server.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Coolify Cloud control plane starts at $5/month for up to 2 connected servers, plus the server costs.",
+        "model": "bring_your_own_server",
+        "pricing_url": "https://coolify.io/pricing"
+      },
+      "features": [
+        "Unlimited apps subject to server capacity",
+        "Docker deployments",
+        "Databases",
+        "Domains/SSL",
+        "Workers",
+        "Cron",
+        "API"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://app.coolify.io/register",
+      "login_url": "https://app.coolify.io/login",
+      "best_for": [
+        "Consolidating many low-traffic services on one VPS",
+        "Internal tools",
+        "Workers"
+      ],
+      "watchouts": [
+        "You own server reliability, patching and capacity planning"
+      ]
+    },
+    {
+      "id": "github-pages",
+      "provider": "GitHub",
+      "product": "GitHub Pages",
+      "categories": [
+        "STATIC",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free static hosting for eligible GitHub Pages use cases.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "No dynamic runtime.",
+        "model": "free_static",
+        "pricing_url": "https://docs.github.com/pages"
+      },
+      "features": [
+        "Git-native deploys",
+        "Custom domains",
+        "Static hosting"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": true,
+        "cli": true,
+        "api": true,
+        "notes": "GitHub MCP, Actions and repo automation are excellent."
+      },
+      "signup_url": "https://github.com/signup",
+      "login_url": "https://github.com/login",
+      "best_for": [
+        "Open-source docs",
+        "Public project reference sites"
+      ],
+      "watchouts": [
+        "GitHub Pages is not intended as free hosting for commercial SaaS/online-business sites"
+      ]
+    },
+    {
+      "id": "gitlab-pages",
+      "provider": "GitLab",
+      "product": "GitLab Pages",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "NEXT STATIC EXPORT",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Pages is available with GitLab projects and CI/CD; exact quotas depend on GitLab plan.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Higher GitLab tiers add CI/CD and collaboration capacity.",
+        "model": "plan_based",
+        "pricing_url": "https://about.gitlab.com/pricing/"
+      },
+      "features": [
+        "GitLab CI/CD",
+        "Custom domains",
+        "TLS",
+        "Static generators/plain HTML"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://gitlab.com/users/sign_up",
+      "login_url": "https://gitlab.com/users/sign_in",
+      "best_for": [
+        "Static sites where GitLab is already the source-control platform"
+      ],
+      "watchouts": [
+        "Adds another source-control ecosystem if GitHub remains canonical"
+      ]
+    },
+    {
+      "id": "surge",
+      "provider": "Surge",
+      "product": "Surge",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "NEXT STATIC EXPORT"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free CLI-oriented static publishing is available.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Paid features add advanced controls and support.",
+        "model": "freemium_static",
+        "pricing_url": "https://surge.sh/pricing"
+      },
+      "features": [
+        "Very fast CLI deploys",
+        "Custom domains",
+        "Static CDN"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": false,
+        "skills": false,
+        "cli": true,
+        "api": false
+      },
+      "signup_url": "https://surge.sh/",
+      "login_url": "https://surge.sh/",
+      "best_for": [
+        "Tiny static demos",
+        "Throwaway microsites",
+        "Simple widgets"
+      ],
+      "watchouts": [
+        "Less infrastructure automation and governance than larger platforms"
+      ]
+    },
+    {
+      "id": "bunny-cdn-storage",
+      "provider": "Bunny.net",
+      "product": "Bunny CDN + Storage",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": false,
+        "free_summary": "No permanent free hosting tier; low-cost usage-based CDN/storage.",
+        "entry_paid_usd_month": null,
+        "paid_summary": "Usage-based by storage and CDN traffic; verify current regional rates.",
+        "model": "usage_based",
+        "pricing_url": "https://bunny.net/pricing/"
+      },
+      "features": [
+        "CDN",
+        "Object storage",
+        "Edge rules",
+        "Token auth options"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": false,
+        "skills": false,
+        "cli": false,
+        "api": true
+      },
+      "signup_url": "https://dash.bunny.net/register",
+      "login_url": "https://dash.bunny.net/login",
+      "best_for": [
+        "High-volume static assets/widgets where predictable CDN economics matter"
+      ],
+      "watchouts": [
+        "More manual than Git-integrated hosts"
+      ]
+    },
+    {
+      "id": "aws-s3-cloudfront",
+      "provider": "AWS",
+      "product": "S3 + CloudFront",
+      "categories": [
+        "STATIC",
+        "STATIC + EMBED",
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "AWS free allowances may apply for new/eligible accounts.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Usage-based storage, requests and CDN transfer.",
+        "model": "usage_based",
+        "pricing_url": "https://aws.amazon.com/cloudfront/pricing/"
+      },
+      "features": [
+        "Object storage",
+        "Global CDN",
+        "Fine-grained caching",
+        "WAF/IAM integration"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://signin.aws.amazon.com/signup",
+      "login_url": "https://console.aws.amazon.com/",
+      "best_for": [
+        "Large static asset sets",
+        "Teams already using AWS"
+      ],
+      "watchouts": [
+        "More configuration and billing complexity than Pages/Netlify"
+      ]
+    },
+    {
+      "id": "google-cloud-run",
+      "provider": "Google Cloud",
+      "product": "Cloud Run",
+      "categories": [
+        "STATIC + API",
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE",
+        "BACKGROUND WORKER"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Cloud Run includes ongoing no-cost usage allowances before CPU/memory/request billing.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Usage-based container compute.",
+        "model": "usage_based",
+        "pricing_url": "https://cloud.google.com/run/pricing"
+      },
+      "features": [
+        "Containers",
+        "Scale-to-zero",
+        "Jobs",
+        "Custom domains via integrations",
+        "Google Cloud services"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://cloud.google.com/free",
+      "login_url": "https://console.cloud.google.com/",
+      "best_for": [
+        "Containerized APIs",
+        "Next SSR",
+        "Workers/jobs"
+      ],
+      "watchouts": [
+        "Cloud platform complexity"
+      ]
+    },
+    {
+      "id": "fly-io",
+      "provider": "Fly.io",
+      "product": "Fly.io",
+      "categories": [
+        "NEXT SSR",
+        "NEXT + AUTH",
+        "NODE SERVICE",
+        "BACKGROUND WORKER"
+      ],
+      "pricing": {
+        "free_tier": false,
+        "free_summary": "No broad permanent free production tier assumed.",
+        "entry_paid_usd_month": null,
+        "paid_summary": "Usage-based VM/resource pricing.",
+        "model": "usage_based",
+        "pricing_url": "https://fly.io/docs/about/pricing/"
+      },
+      "features": [
+        "Global VMs",
+        "Containers",
+        "Volumes",
+        "Private networking",
+        "Machines API"
+      ],
+      "ai_automation": {
+        "official_mcp": false,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://fly.io/app/sign-up",
+      "login_url": "https://fly.io/app/sign-in",
+      "best_for": [
+        "Stateful or region-sensitive app services",
+        "Custom runtimes"
+      ],
+      "watchouts": [
+        "More ops than Vercel/Netlify"
+      ]
+    },
+    {
+      "id": "gitbook",
+      "provider": "GitBook",
+      "product": "GitBook",
+      "categories": [
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Free individual plan includes Git sync, LLM optimizations and an MCP server.",
+        "entry_paid_usd_month": 65,
+        "paid_summary": "Premium starts at $65/site/month and adds custom domain, AI search, branding and analytics.",
+        "model": "subscription_per_site",
+        "pricing_url": "https://www.gitbook.com/pricing"
+      },
+      "features": [
+        "Docs publishing",
+        "Git sync",
+        "API playground",
+        "LLM-optimized outputs",
+        "Automatic docs MCP server"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": false,
+        "api": true
+      },
+      "signup_url": "https://app.gitbook.com/join",
+      "login_url": "https://app.gitbook.com/",
+      "best_for": [
+        "Public docs",
+        "AI-consumable documentation",
+        "Reference material"
+      ],
+      "watchouts": [
+        "Custom domain requires paid plan"
+      ]
+    },
+    {
+      "id": "mintlify",
+      "provider": "Mintlify",
+      "product": "Mintlify",
+      "categories": [
+        "DOCS / REGISTRY"
+      ],
+      "pricing": {
+        "free_tier": true,
+        "free_summary": "Starter is $0 and includes 5 editor seats, custom domain, authentication, MCP server and API playground.",
+        "entry_paid_usd_month": 0,
+        "paid_summary": "Pro is $450/month and adds agent, assistant, automations, previews and admin APIs.",
+        "model": "freemium_subscription",
+        "pricing_url": "https://www.mintlify.com/pricing"
+      },
+      "features": [
+        "Docs",
+        "Custom domain",
+        "Auth",
+        "MCP server",
+        "API playground",
+        "Agent/Assistant on Pro"
+      ],
+      "ai_automation": {
+        "official_mcp": true,
+        "agents": true,
+        "skills": false,
+        "cli": true,
+        "api": true
+      },
+      "signup_url": "https://dashboard.mintlify.com/",
+      "login_url": "https://dashboard.mintlify.com/",
+      "best_for": [
+        "AI-native docs",
+        "API reference",
+        "Public machine-readable knowledge"
+      ],
+      "watchouts": [
+        "Paid jump is very large"
+      ]
+    }
+  ]
+}
