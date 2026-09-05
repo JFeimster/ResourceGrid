@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-05T15:50:36.712Z",
+  "generated_at": "2026-09-05T17:07:51.837Z",
   "summary": {
-    "entities_scanned": 936,
+    "entities_scanned": 1591,
     "duplicate_id_groups": 0,
-    "shared_url_groups": 1,
+    "shared_url_groups": 13,
     "shared_repo_groups": 3,
-    "shared_title_groups": 166
+    "shared_title_groups": 182
   },
   "duplicate_ids": [],
   "shared_urls": [
@@ -36,6 +36,234 @@
           "entity_type": "calculator",
           "title": "Seller Note Modeler",
           "file": "registries\\resources\\calculators.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/mex7no",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "cta-get-prompt-pack",
+          "entity_type": "internal_cta",
+          "title": "Get Your Print Money Prompt Pack",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-mex7no",
+          "entity_type": "form",
+          "title": "🚀 Get Your Print Money Prompt Pack",
+          "file": "registries\\conversion\\forms.json"
+        },
+        {
+          "resource_id": "leadmagnet-print-money-prompt-pack",
+          "entity_type": "lead_magnet",
+          "title": "Print Money Prompt Pack",
+          "file": "registries\\conversion\\lead-magnets.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/vllp96",
+      "count": 3,
+      "records": [
+        {
+          "resource_id": "cta-get-daily-5-tracker",
+          "entity_type": "internal_cta",
+          "title": "Get the Daily 5 Tracker",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-vllp96",
+          "entity_type": "form",
+          "title": "Get the Daily 5 Tracker Used by Top Funding Agents",
+          "file": "registries\\conversion\\forms.json"
+        },
+        {
+          "resource_id": "leadmagnet-daily-5-tracker",
+          "entity_type": "lead_magnet",
+          "title": "Daily 5 Tracker Used by Top Funding Agents",
+          "file": "registries\\conversion\\lead-magnets.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/2eg0jg",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-list-business-for-sale",
+          "entity_type": "internal_cta",
+          "title": "List Your Business for Sale",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-2eg0jg",
+          "entity_type": "form",
+          "title": "List Your Business for Sale",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/a7edqy",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-launch-your-agency",
+          "entity_type": "partner_cta",
+          "title": "Launch Your Agency",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-a7edqy",
+          "entity_type": "form",
+          "title": "Launch Your Agency",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/aqqvdw",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-acquisition-concierge",
+          "entity_type": "internal_cta",
+          "title": "Apply for Acquisition Concierge",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-aqqvdw",
+          "entity_type": "form",
+          "title": "Apply for Acquisition Concierge",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/ek79ja",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-create-buyer-profile",
+          "entity_type": "internal_cta",
+          "title": "Create Your Buyer Profile",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-ek79ja",
+          "entity_type": "form",
+          "title": "Create Your Buyer Profile",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/mdejb5",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-personalized-funding-quote",
+          "entity_type": "internal_cta",
+          "title": "Get a Personalized Funding Quote — No Hard Credit Check",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-mdejb5",
+          "entity_type": "form",
+          "title": "Get a Personalized Funding Quote — No Hard Credit Check",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/moe658",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/oblw75",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-join-acquisition-network",
+          "entity_type": "partner_cta",
+          "title": "Join the Acquisition Network",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-oblw75",
+          "entity_type": "form",
+          "title": "Join the Acquisition Network",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/q416k8",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-submit-deal-review",
+          "entity_type": "internal_cta",
+          "title": "Submit a Deal for Review",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-q416k8",
+          "entity_type": "form",
+          "title": "Submit a Deal for Review",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/rjm6do",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-join-funding-agent",
+          "entity_type": "partner_cta",
+          "title": "Join Moonshine Capital — Funding Agent",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-rjm6do",
+          "entity_type": "form",
+          "title": "Join Moonshine Capital — Funding Agent",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "https://tally.so/r/w4r2ad",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-funding-any-reason",
+          "entity_type": "internal_cta",
+          "title": "Funding for ANY Reason",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-w4r2ad",
+          "entity_type": "form",
+          "title": "Funding for ANY Reason 💵",
+          "file": "registries\\conversion\\forms.json"
         }
       ]
     }
@@ -872,6 +1100,24 @@
       ]
     },
     {
+      "key": "apply for acquisition concierge",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-acquisition-concierge",
+          "entity_type": "internal_cta",
+          "title": "Apply for Acquisition Concierge",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-aqqvdw",
+          "entity_type": "form",
+          "title": "Apply for Acquisition Concierge",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
       "key": "bank breezy battle plan",
       "count": 2,
       "records": [
@@ -1012,6 +1258,24 @@
           "entity_type": "site",
           "title": "BizFin-OS",
           "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "broker brilliance unlocking the mindset of a successful loan broker the funding agency ep 3",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "article-mindset-of-a-successful-loan-broker",
+          "entity_type": "blog_article",
+          "title": "Broker Brilliance: Unlocking the Mindset of a Successful Loan Broker | The Funding Agency Ep. #3",
+          "file": "registries\\content\\blog-articles.json"
+        },
+        {
+          "resource_id": "youtube-puzsw-8iag0",
+          "entity_type": "youtube_video",
+          "title": "Broker Brilliance: Unlocking the Mindset of a Successful Loan Broker | The Funding Agency Ep. #3",
+          "file": "registries\\content\\youtube-videos.json"
         }
       ]
     },
@@ -1318,6 +1582,24 @@
           "entity_type": "site",
           "title": "cpa-partner",
           "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "create your buyer profile",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-create-buyer-profile",
+          "entity_type": "internal_cta",
+          "title": "Create Your Buyer Profile",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-ek79ja",
+          "entity_type": "form",
+          "title": "Create Your Buyer Profile",
+          "file": "registries\\conversion\\forms.json"
         }
       ]
     },
@@ -1970,6 +2252,24 @@
       ]
     },
     {
+      "key": "funding for any reason",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-funding-any-reason",
+          "entity_type": "internal_cta",
+          "title": "Funding for ANY Reason",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-w4r2ad",
+          "entity_type": "form",
+          "title": "Funding for ANY Reason 💵",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
       "key": "funding partners os",
       "count": 2,
       "records": [
@@ -2110,6 +2410,42 @@
           "entity_type": "site",
           "title": "fundstack-ai",
           "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "get a personalized funding quote no hard credit check",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-personalized-funding-quote",
+          "entity_type": "internal_cta",
+          "title": "Get a Personalized Funding Quote — No Hard Credit Check",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-mdejb5",
+          "entity_type": "form",
+          "title": "Get a Personalized Funding Quote — No Hard Credit Check",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "get your print money prompt pack",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-get-prompt-pack",
+          "entity_type": "internal_cta",
+          "title": "Get Your Print Money Prompt Pack",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-mex7no",
+          "entity_type": "form",
+          "title": "🚀 Get Your Print Money Prompt Pack",
+          "file": "registries\\conversion\\forms.json"
         }
       ]
     },
@@ -2276,6 +2612,60 @@
       ]
     },
     {
+      "key": "join moonshine capital funding agent",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-join-funding-agent",
+          "entity_type": "partner_cta",
+          "title": "Join Moonshine Capital — Funding Agent",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-rjm6do",
+          "entity_type": "form",
+          "title": "Join Moonshine Capital — Funding Agent",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "join the 1 b2b funding platform",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-join-b2b-funding-platform",
+          "entity_type": "partner_cta",
+          "title": "Join the #1 B2B Funding Platform",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-moe658",
+          "entity_type": "form",
+          "title": "Join the #1 B2B Funding Platform!",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "join the acquisition network",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-join-acquisition-network",
+          "entity_type": "partner_cta",
+          "title": "Join the Acquisition Network",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-oblw75",
+          "entity_type": "form",
+          "title": "Join the Acquisition Network",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
       "key": "juliet foxtrot ventures",
       "count": 2,
       "records": [
@@ -2330,6 +2720,24 @@
       ]
     },
     {
+      "key": "launch your agency",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-launch-your-agency",
+          "entity_type": "partner_cta",
+          "title": "Launch Your Agency",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-a7edqy",
+          "entity_type": "form",
+          "title": "Launch Your Agency",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
       "key": "ledgerops",
       "count": 2,
       "records": [
@@ -2366,6 +2774,24 @@
       ]
     },
     {
+      "key": "list your business for sale",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-list-business-for-sale",
+          "entity_type": "internal_cta",
+          "title": "List Your Business for Sale",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-2eg0jg",
+          "entity_type": "form",
+          "title": "List Your Business for Sale",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
       "key": "ma deal analyzer",
       "count": 2,
       "records": [
@@ -2398,6 +2824,24 @@
           "entity_type": "site",
           "title": "market-sniper-hub",
           "file": "registries\\resources\\sites.json"
+        }
+      ]
+    },
+    {
+      "key": "mastering chatgpt prompts innovating loan brokerage with ai",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "article-mastering-chatgpt-prompts",
+          "entity_type": "blog_article",
+          "title": "Mastering ChatGPT Prompts: Innovating Loan Brokerage with AI",
+          "file": "registries\\content\\blog-articles.json"
+        },
+        {
+          "resource_id": "youtube-vx9kamfeh9g",
+          "entity_type": "youtube_video",
+          "title": "Mastering ChatGPT Prompts: Innovating Loan Brokerage with AI",
+          "file": "registries\\content\\youtube-videos.json"
         }
       ]
     },
@@ -3104,6 +3548,60 @@
       ]
     },
     {
+      "key": "submit a deal for review",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "cta-submit-deal-review",
+          "entity_type": "internal_cta",
+          "title": "Submit a Deal for Review",
+          "file": "registries\\conversion\\ctas.json"
+        },
+        {
+          "resource_id": "form-tally-q416k8",
+          "entity_type": "form",
+          "title": "Submit a Deal for Review",
+          "file": "registries\\conversion\\forms.json"
+        }
+      ]
+    },
+    {
+      "key": "tech stack for success must have tools for modern loan brokers",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "article-tech-stack-for-success",
+          "entity_type": "blog_article",
+          "title": "Tech Stack for Success: Must-Have Tools for Modern Loan Brokers",
+          "file": "registries\\content\\blog-articles.json"
+        },
+        {
+          "resource_id": "youtube-kpohu9bbids",
+          "entity_type": "youtube_video",
+          "title": "Tech Stack for Success: Must-Have Tools for Modern Loan Brokers",
+          "file": "registries\\content\\youtube-videos.json"
+        }
+      ]
+    },
+    {
+      "key": "term loans demystified long term growth for entrepreneurs",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "article-term-loans-demystified",
+          "entity_type": "blog_article",
+          "title": "Term Loans Demystified: Long-Term Growth for Entrepreneurs",
+          "file": "registries\\content\\blog-articles.json"
+        },
+        {
+          "resource_id": "youtube-awc2i3vicus",
+          "entity_type": "youtube_video",
+          "title": "Term Loans Demystified: Long-Term Growth for Entrepreneurs",
+          "file": "registries\\content\\youtube-videos.json"
+        }
+      ]
+    },
+    {
       "key": "the amazon fees fines auditor",
       "count": 2,
       "records": [
@@ -3118,6 +3616,24 @@
           "entity_type": "tool",
           "title": "The Amazon \"Fees & Fines\" Auditor",
           "file": "registries\\resources\\tools.json"
+        }
+      ]
+    },
+    {
+      "key": "the business funding blueprint mapping capital to growth",
+      "count": 2,
+      "records": [
+        {
+          "resource_id": "article-the-business-funding-blueprint",
+          "entity_type": "blog_article",
+          "title": "The Business Funding Blueprint: Mapping Capital to Growth",
+          "file": "registries\\content\\blog-articles.json"
+        },
+        {
+          "resource_id": "guide-business-funding-blueprint",
+          "entity_type": "guide",
+          "title": "The Business Funding Blueprint: Mapping Capital to Growth",
+          "file": "registries\\conversion\\lead-magnets.json"
         }
       ]
     },

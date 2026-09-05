@@ -1,11 +1,15 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
+import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "ResourceGrid",
-  description: "Canonical resource and content intelligence for the Distilled Funding ecosystem."
+  description: "Canonical resource, content, relationship, and context intelligence for the Distilled Funding ecosystem."
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body>{children}</body></html>;
+export default function RootLayout({ children }: Readonly<{children: React.ReactNode}>) {
+ return <html lang="en"><body>
+  <header className="topbar"><Link href="/" className="brand">ResourceGrid</Link><nav>
+   <Link href="/resources">Resources</Link><Link href="/relationships">Relationships</Link><Link href="/sources">Sources</Link><Link href="/duplicates">Duplicates</Link>
+  </nav></header>{children}</body></html>;
 }

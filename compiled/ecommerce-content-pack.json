@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:50:37.557Z",
+  "generated_at": "2026-09-05T17:07:52.853Z",
   "terms": [
     "ecommerce",
     "amazon",
@@ -9,8 +9,1439 @@
     "mrr",
     "subscription"
   ],
-  "count": 76,
+  "count": 133,
   "resources": [
+    {
+      "resource_id": "article-saas-valuation-multiples",
+      "entity_type": "blog_article",
+      "title": "SaaS Valuation Multiples: What Small SaaS Businesses Are Actually Worth",
+      "description": "Learn how SaaS valuation multiples are influenced by MRR, churn, growth, customer concentration, margins, and founder dependence in smaller acquisitions.",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/saas-valuation-multiples",
+      "public_url": "https://www.distilledfunding.com/post/saas-valuation-multiples",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-ai-platform-fee-audit-shopify-amazon-stripe-and-marketplace-fees-eating-your-margin",
+      "entity_type": "blog_article",
+      "title": "AI Platform Fee Audit: Shopify, Amazon, Stripe, and Marketplace Fees Eating Your Margin",
+      "description": "Use AI to audit platform fees, payout deductions, reserves, and hidden costs eating ecommerce margins.",
+      "status": "published",
+      "topics": [
+        "AI Automation & Finance Ops",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "AI Automation & Finance Ops",
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/ai-platform-fee-audit-shopify-amazon-stripe-and-marketplace-fees-eating-your-margin",
+      "public_url": "https://www.distilledfunding.com/post/ai-platform-fee-audit-shopify-amazon-stripe-and-marketplace-fees-eating-your-margin",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-food-truck-financing",
+      "entity_type": "blog_article",
+      "title": "Food Truck Financing: How to Fund Your Truck, Equipment, Inventory, and Launch Costs",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Same-Day Business Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Same-Day Business Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/food-truck-financing",
+      "public_url": "https://www.distilledfunding.com/post/food-truck-financing",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-ai-ad-spend-cash-flow",
+      "entity_type": "blog_article",
+      "title": "AI Ad Spend Cash Flow: When Your Ads Are Working but Your Bank Account Is Screaming",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "AI Automation & Finance Ops",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "AI Automation & Finance Ops",
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/ai-ad-spend-cash-flow",
+      "public_url": "https://www.distilledfunding.com/post/ai-ad-spend-cash-flow",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-funding-for-wix-sellers",
+      "entity_type": "blog_article",
+      "title": "Funding for Wix Sellers: Top Business Funding Options for Wix Store Owner",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/funding-for-wix-sellers",
+      "public_url": "https://www.distilledfunding.com/post/funding-for-wix-sellers",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-ai-finance-tools-ecommerce-sellers",
+      "entity_type": "blog_article",
+      "title": "AI Finance Tools for Ecommerce Sellers: Inventory, Cash Flow, and the Funding Cliff Nobody Warns You About",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "AI Automation & Finance Ops",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "AI Automation & Finance Ops",
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/ai-finance-tools-ecommerce-sellers",
+      "public_url": "https://www.distilledfunding.com/post/ai-finance-tools-ecommerce-sellers",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-amazon-deferred-transactions-vs-account-level-reserve",
+      "entity_type": "blog_article",
+      "title": "Deferred Transactions vs. Account Level Reserve: Why Your Amazon Payout Report Changed in 2026",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/amazon-deferred-transactions-vs-account-level-reserve",
+      "public_url": "https://www.distilledfunding.com/post/amazon-deferred-transactions-vs-account-level-reserve",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-payability-review-2026",
+      "entity_type": "blog_article",
+      "title": "Payability Review (2026): Daily Payouts for Amazon & TikTok Sellers — Legit or Expensive?",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Same-Day Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Same-Day Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/payability-review-2026",
+      "public_url": "https://www.distilledfunding.com/post/payability-review-2026",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-wix-seller-financing",
+      "entity_type": "blog_article",
+      "title": "Wix Seller Financing: Funding Options for Wix Stores",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Same-Day Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Same-Day Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/wix-seller-financing",
+      "public_url": "https://www.distilledfunding.com/post/wix-seller-financing",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-8fig-review-2026",
+      "entity_type": "blog_article",
+      "title": "8fig Review (2026): Legit Ecommerce Funding or Overhyped?",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Same-Day Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Same-Day Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/8fig-review-2026",
+      "public_url": "https://www.distilledfunding.com/post/8fig-review-2026",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-sba-loans-for-minorities-overcoming-barriers-to-capital-in-2026",
+      "entity_type": "blog_article",
+      "title": "SBA Loans for Minorities: Overcoming Barriers to Capital in 2026",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/sba-loans-for-minorities-overcoming-barriers-to-capital-in-2026",
+      "public_url": "https://www.distilledfunding.com/post/sba-loans-for-minorities-overcoming-barriers-to-capital-in-2026",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-credit-card-stacking-strategies",
+      "entity_type": "blog_article",
+      "title": "Credit Card Stacking Strategies for Startups: Risk vs. Reward",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Credit",
+        "Same-Day Business Funding",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "Business Credit",
+        "Same-Day Business Funding",
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/credit-card-stacking-strategies",
+      "public_url": "https://www.distilledfunding.com/post/credit-card-stacking-strategies",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-small-business-acquisition-loans",
+      "entity_type": "blog_article",
+      "title": "Small Business Acquisition Loans and Buying Business Loans Demystified",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans",
+      "public_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-shopify-capital-alternatives",
+      "entity_type": "blog_article",
+      "title": "7 Better Shopify Capital Alternatives for Fast eCommerce Funding",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Same-Day Business Funding",
+        "Gig Worker Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Same-Day Business Funding",
+        "Gig Worker Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/shopify-capital-alternatives",
+      "public_url": "https://www.distilledfunding.com/post/shopify-capital-alternatives",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-startup-loan-with-only-an-ein",
+      "entity_type": "blog_article",
+      "title": "How to Get a Startup Loan with Only an EIN (No SSN Required)",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Gig Worker Funding",
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Business Credit"
+      ],
+      "content_clusters": [
+        "Gig Worker Funding",
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Business Credit"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/startup-loan-with-only-an-ein",
+      "public_url": "https://www.distilledfunding.com/post/startup-loan-with-only-an-ein",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-tiktok-shop-payout-delays",
+      "entity_type": "blog_article",
+      "title": "TikTok Shop Payout Delays: Why You Aren't Getting Paid and How to Survive the 'Viral Curse'",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Gig Worker Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Gig Worker Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/tiktok-shop-payout-delays",
+      "public_url": "https://www.distilledfunding.com/post/tiktok-shop-payout-delays",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-finance-inventory-without-credit-check",
+      "entity_type": "blog_article",
+      "title": "How to Finance Inventory Without a Credit Check: The \"Supply Chain Health\" Method",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Gig Worker Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Gig Worker Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/finance-inventory-without-credit-check",
+      "public_url": "https://www.distilledfunding.com/post/finance-inventory-without-credit-check",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-is-payability-a-scam",
+      "entity_type": "blog_article",
+      "title": "Is Payability a Scam? The Math of Inventory Velocity vs. The 2% Fee",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/is-payability-a-scam",
+      "public_url": "https://www.distilledfunding.com/post/is-payability-a-scam",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-8fig-s-flat-fee-vs-mca",
+      "entity_type": "blog_article",
+      "title": "Is Your MCA Killing Your Business? The Math Behind 1.4x Factor Rates vs 8fig's Flat Fee",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/8fig-s-flat-fee-vs-mca",
+      "public_url": "https://www.distilledfunding.com/post/8fig-s-flat-fee-vs-mca",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-restaurant-inventory-financing",
+      "entity_type": "blog_article",
+      "title": "Inventory vs. Cash Flow: Why You Should Finance Your Bulk Food Orders Instead of Paying Cash",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/restaurant-inventory-financing",
+      "public_url": "https://www.distilledfunding.com/post/restaurant-inventory-financing",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-inventory-financing-for-ecommerce",
+      "entity_type": "blog_article",
+      "title": "Inventory Financing for Ecommerce: How It Works + Who It's For",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/inventory-financing-for-ecommerce",
+      "public_url": "https://www.distilledfunding.com/post/inventory-financing-for-ecommerce",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-amazon-dd-7-reserve-policy",
+      "entity_type": "blog_article",
+      "title": "Amazon DD+7 Reserve Policy: How to Bypass the 14-Day Hold & Unlock 'Deferred Transactions' Cash Today",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/amazon-dd-7-reserve-policy",
+      "public_url": "https://www.distilledfunding.com/post/amazon-dd-7-reserve-policy",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-why-wayflyer-rejected-your-business-and-why-onramp-won-t",
+      "entity_type": "blog_article",
+      "title": "Why Wayflyer Rejected Your Business (And Why Onramp Won't)",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Reviews & Comparisons",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/why-wayflyer-rejected-your-business-and-why-onramp-won-t",
+      "public_url": "https://www.distilledfunding.com/post/why-wayflyer-rejected-your-business-and-why-onramp-won-t",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-the-growth-stack-for-subscription-brands",
+      "entity_type": "blog_article",
+      "title": "The Growth Stack for Subscription Brands",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/the-growth-stack-for-subscription-brands",
+      "public_url": "https://www.distilledfunding.com/post/the-growth-stack-for-subscription-brands",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-wayflyer-vs-8fig-vs-clearco-the-hidden-cost-of-daily-repayments-revealed-2026-data",
+      "entity_type": "blog_article",
+      "title": "Wayflyer vs. 8fig vs. Clearco: The Hidden Cost of Daily Repayments Revealed (2026 Data)",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Gig Worker Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Gig Worker Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/wayflyer-vs-8fig-vs-clearco-the-hidden-cost-of-daily-repayments-revealed-2026-data",
+      "public_url": "https://www.distilledfunding.com/post/wayflyer-vs-8fig-vs-clearco-the-hidden-cost-of-daily-repayments-revealed-2026-data",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-onramp-vs-payability-vs-8fig",
+      "entity_type": "blog_article",
+      "title": "Onramp vs Payability vs 8fig (2026): Which Seller Funding Model Fits Your Business?",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/onramp-vs-payability-vs-8fig",
+      "public_url": "https://www.distilledfunding.com/post/onramp-vs-payability-vs-8fig",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-how-to-finance-your-online-business-acquisition-content-saas-e-commerce",
+      "entity_type": "blog_article",
+      "title": "How to Finance Your Online Business Acquisition (Content, SaaS & E-commerce)",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/how-to-finance-your-online-business-acquisition-content-saas-e-commerce",
+      "public_url": "https://www.distilledfunding.com/post/how-to-finance-your-online-business-acquisition-content-saas-e-commerce",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-get-a-personalized-funding-quote",
+      "entity_type": "blog_article",
+      "title": "Get Real Numbers, Not Guesses, with a Personalized Funding Quote",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Gig Worker Funding",
+        "Real Estate Funding",
+        "Business Credit",
+        "eCommerce Seller Funding",
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Gig Worker Funding",
+        "Real Estate Funding",
+        "Business Credit",
+        "eCommerce Seller Funding",
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/get-a-personalized-funding-quote",
+      "public_url": "https://www.distilledfunding.com/post/get-a-personalized-funding-quote",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-amazon-lending-vs-alternatives",
+      "entity_type": "blog_article",
+      "title": "Amazon Lending Alternatives (2026): Best Funding Options for Sellers",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/amazon-lending-vs-alternatives",
+      "public_url": "https://www.distilledfunding.com/post/amazon-lending-vs-alternatives",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-exploring-alternative-funding-solutions",
+      "entity_type": "blog_article",
+      "title": "Exploring Alternative Funding Solutions for Entrepreneurs",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/exploring-alternative-funding-solutions",
+      "public_url": "https://www.distilledfunding.com/post/exploring-alternative-funding-solutions",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-micro-saas-acquisitions-funding-options-when-ebitda-500k",
+      "entity_type": "blog_article",
+      "title": "Micro-SaaS Acquisitions: Funding Options When EBITDA < $500K",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/micro-saas-acquisitions-funding-options-when-ebitda-500k",
+      "public_url": "https://www.distilledfunding.com/post/micro-saas-acquisitions-funding-options-when-ebitda-500k",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-fundandgrow-review",
+      "entity_type": "blog_article",
+      "title": "Fund&Grow Review 2026: 0% Credit Stacking for Up to $250K",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Credit",
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Credit",
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/fundandgrow-review",
+      "public_url": "https://www.distilledfunding.com/post/fundandgrow-review",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-shopify-working-capital-loans-in-2026",
+      "entity_type": "blog_article",
+      "title": "Shopify Working Capital Loans in 2026: The Secret Weapon for DTC Brands Scaling to 7 Figures",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Gig Worker Funding",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Gig Worker Funding",
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/shopify-working-capital-loans-in-2026",
+      "public_url": "https://www.distilledfunding.com/post/shopify-working-capital-loans-in-2026",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-government-grants-vs-business-loans-what-s-faster-in-2025",
+      "entity_type": "blog_article",
+      "title": "Government Grants vs Business Loans: What’s Faster in 2025?",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Gig Worker Funding",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Gig Worker Funding",
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/government-grants-vs-business-loans-what-s-faster-in-2025",
+      "public_url": "https://www.distilledfunding.com/post/government-grants-vs-business-loans-what-s-faster-in-2025",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-sellersfi-review-2026",
+      "entity_type": "blog_article",
+      "title": "SellersFi Review (2026): Costs, Speed & Alternatives",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/sellersfi-review-2026",
+      "public_url": "https://www.distilledfunding.com/post/sellersfi-review-2026",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-how-8fig-growth-funding-helps-ecommerce-brands-scale",
+      "entity_type": "blog_article",
+      "title": "How 8fig Growth Funding Helps eCommerce Brands Scale",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/how-8fig-growth-funding-helps-ecommerce-brands-scale",
+      "public_url": "https://www.distilledfunding.com/post/how-8fig-growth-funding-helps-ecommerce-brands-scale",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-revenue-based-buyouts-for-saas-acquisitions",
+      "entity_type": "blog_article",
+      "title": "Revenue-Based Buyouts for SaaS Acquisitions: Smarter Financing in 2026",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/revenue-based-buyouts-for-saas-acquisitions",
+      "public_url": "https://www.distilledfunding.com/post/revenue-based-buyouts-for-saas-acquisitions",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-capital-as-a-service-why-saas-platforms-are-becoming-the-next-lenders",
+      "entity_type": "blog_article",
+      "title": "Capital-as-a-Service: Why SaaS Platforms Are Becoming the Next Lenders",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops",
+        "Resources",
+        "Services"
+      ],
+      "content_clusters": [
+        "Loan Broker & Affiliate Program",
+        "AI Automation & Finance Ops",
+        "Resources",
+        "Services"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/capital-as-a-service-why-saas-platforms-are-becoming-the-next-lenders",
+      "public_url": "https://www.distilledfunding.com/post/capital-as-a-service-why-saas-platforms-are-becoming-the-next-lenders",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-doordash-drivers-business-loan",
+      "entity_type": "blog_article",
+      "title": "DoorDash Driver Business Loan: How to Qualify Fast (Even With 1099 Income)",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Gig Worker Funding",
+        "Business Funding",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "Gig Worker Funding",
+        "Business Funding",
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/doordash-drivers-business-loan",
+      "public_url": "https://www.distilledfunding.com/post/doordash-drivers-business-loan",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-revenue-based-acquisition-financing-an-sba-alternative-for-ecommerce-brand-buyers",
+      "entity_type": "blog_article",
+      "title": "Revenue-Based Acquisition Financing: An SBA Alternative for Ecommerce Brand Buyers",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/revenue-based-acquisition-financing-an-sba-alternative-for-ecommerce-brand-buyers",
+      "public_url": "https://www.distilledfunding.com/post/revenue-based-acquisition-financing-an-sba-alternative-for-ecommerce-brand-buyers",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-api-first-lending-how-embedded-finance-powers-ecommerce-funding",
+      "entity_type": "blog_article",
+      "title": "API-First Lending: How Embedded Finance Powers Ecommerce Funding",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Gig Worker Funding",
+        "Payment Processing",
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Gig Worker Funding",
+        "Payment Processing",
+        "Loan Broker & Affiliate Program",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/api-first-lending-how-embedded-finance-powers-ecommerce-funding",
+      "public_url": "https://www.distilledfunding.com/post/api-first-lending-how-embedded-finance-powers-ecommerce-funding",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-unlocking-growth-the-power-of-revenue-based-funding-for-ecommerce",
+      "entity_type": "blog_article",
+      "title": "Unlocking Growth: The Power of Revenue-Based Funding for Ecommerce",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/unlocking-growth-the-power-of-revenue-based-funding-for-ecommerce",
+      "public_url": "https://www.distilledfunding.com/post/unlocking-growth-the-power-of-revenue-based-funding-for-ecommerce",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-how-sellersfi-s-working-capital-solutions-can-enhance-your-ecommerce-cash-flow",
+      "entity_type": "blog_article",
+      "title": "How SellersFi’s Working Capital Solutions Can Enhance Your eCommerce Cash Flow",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/how-sellersfi-s-working-capital-solutions-can-enhance-your-ecommerce-cash-flow",
+      "public_url": "https://www.distilledfunding.com/post/how-sellersfi-s-working-capital-solutions-can-enhance-your-ecommerce-cash-flow",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-unlocking-growth-without-giving-up-equity",
+      "entity_type": "blog_article",
+      "title": "Unlocking Growth Without Giving Up Equity: How Non-Dilutive Funding Powers SaaS, Ecommerce, and B2B Companies",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/unlocking-growth-without-giving-up-equity",
+      "public_url": "https://www.distilledfunding.com/post/unlocking-growth-without-giving-up-equity",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-instant-funding-for-gig-workers",
+      "entity_type": "blog_article",
+      "title": "Instant Funding for Gig Workers (2026): Up to $20K Fast",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Gig Worker Funding",
+        "Business Funding",
+        "eCommerce Seller Funding"
+      ],
+      "content_clusters": [
+        "Gig Worker Funding",
+        "Business Funding",
+        "eCommerce Seller Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/instant-funding-for-gig-workers",
+      "public_url": "https://www.distilledfunding.com/post/instant-funding-for-gig-workers",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-navigating-ecommerce-funding-the-rise-of-revenue-based-financing",
+      "entity_type": "blog_article",
+      "title": "Navigating Ecommerce Funding: The Rise of Revenue-Based Financing",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/navigating-ecommerce-funding-the-rise-of-revenue-based-financing",
+      "public_url": "https://www.distilledfunding.com/post/navigating-ecommerce-funding-the-rise-of-revenue-based-financing",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-revenuebasedfinancing-lightercapital",
+      "entity_type": "blog_article",
+      "title": "How SaaS Companies Boost Growth with Revenue-Based Financing",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/revenuebasedfinancing-lightercapital",
+      "public_url": "https://www.distilledfunding.com/post/revenuebasedfinancing-lightercapital",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-sellersfi-review",
+      "entity_type": "blog_article",
+      "title": "Unleashing the eCommerce Potential with SellersFi - An Honest Review",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Resources"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Resources"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/sellersfi-review",
+      "public_url": "https://www.distilledfunding.com/post/sellersfi-review",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-altfinance-ep3",
+      "entity_type": "blog_article",
+      "title": "Navigating the Seas of eCommerce Funding – Insights from 'AltFinance: The Funding Frontier'",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/altfinance-ep3",
+      "public_url": "https://www.distilledfunding.com/post/altfinance-ep3",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-saas-funding-raise-capital-without-giving-up-equity",
+      "entity_type": "blog_article",
+      "title": "SaaS Funding: Raise Capital Without Giving Up Equity",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/saas-funding-raise-capital-without-giving-up-equity",
+      "public_url": "https://www.distilledfunding.com/post/saas-funding-raise-capital-without-giving-up-equity",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-revenue-based-financing-for-saas-startups",
+      "entity_type": "blog_article",
+      "title": "Revenue-Based Financing for SaaS Startups and Tech Companies",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/revenue-based-financing-for-saas-startups",
+      "public_url": "https://www.distilledfunding.com/post/revenue-based-financing-for-saas-startups",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-jn3dfmmxwhy",
+      "entity_type": "youtube_video",
+      "title": "Your Shopify Sales Look Good But Your Bank Account Doesn't | Here's Why",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=Jn3dfmmXWHY",
+      "public_url": "https://www.youtube.com/watch?v=Jn3dfmmXWHY",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-7b-elfjbvew",
+      "entity_type": "youtube_video",
+      "title": "Buy Any Online Business: Smart Financing Strategies for Content, SaaS & E-commerce Deals",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=7b-ElFJbVEw",
+      "public_url": "https://www.youtube.com/watch?v=7b-ElFJbVEw",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-bqibppaeyvu",
+      "entity_type": "youtube_video",
+      "title": "8 Must-Have AI Tools for Amazon & Shopify Sellers (Sell Smarter!)",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=bqiBPPAEYvU",
+      "public_url": "https://www.youtube.com/watch?v=bqiBPPAEYvU",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-1of-usaasek",
+      "entity_type": "youtube_video",
+      "title": "Funding Your eCommerce Potential with Onramp Funds | Fast & Flexible Funding for Growth",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=1Of_UsAasEk",
+      "public_url": "https://www.youtube.com/watch?v=1Of_UsAasEk",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-ttto4ydod-o",
+      "entity_type": "youtube_video",
+      "title": "Boost Your Online Store with eCommerce Funding Strategies",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=tTtO4yDOd_o",
+      "public_url": "https://www.youtube.com/watch?v=tTtO4yDOd_o",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "form-tally-d4q0ez",
+      "entity_type": "form",
+      "title": "B2B SaaS Research Report - Survey Template",
+      "description": null,
+      "status": "draft",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": null,
+      "public_url": null,
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
     {
       "resource_id": "offer-amazon-payout-gap-guide",
       "entity_type": "offer",

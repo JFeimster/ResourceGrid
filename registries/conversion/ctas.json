@@ -1,1 +1,426 @@
-{}
+{
+  "registry_name": "ResourceGrid Approved CTA Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-05",
+  "resources": [
+    {
+      "resource_id": "cta-personalized-funding-quote",
+      "entity_type": "internal_cta",
+      "title": "Get a Personalized Funding Quote — No Hard Credit Check",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/mDEJB5",
+      "public_url": "https://tally.so/r/mDEJB5",
+      "public_access": true,
+      "content_clusters": [
+        "Business Funding",
+        "Funding Readiness"
+      ],
+      "cta_role": "primary",
+      "approved_cta_label": "Get a Personalized Funding Quote — No Hard Credit Check",
+      "approved_cta_copy": "Get a Personalized Funding Quote — No Hard Credit Check",
+      "cta_destination": "https://tally.so/r/mDEJB5",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "mDEJB5",
+        "source_url": "https://tally.so/r/mDEJB5",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-funding-any-reason",
+      "entity_type": "internal_cta",
+      "title": "Funding for ANY Reason",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/w4R2Ad",
+      "public_url": "https://tally.so/r/w4R2Ad",
+      "public_access": true,
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "cta_role": "primary",
+      "approved_cta_label": "Funding for ANY Reason",
+      "approved_cta_copy": "Funding for ANY Reason",
+      "cta_destination": "https://tally.so/r/w4R2Ad",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "w4R2Ad",
+        "source_url": "https://tally.so/r/w4R2Ad",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-join-b2b-funding-platform",
+      "entity_type": "partner_cta",
+      "title": "Join the #1 B2B Funding Platform",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/mOe658",
+      "public_url": "https://tally.so/r/mOe658",
+      "public_access": true,
+      "content_clusters": [
+        "Loan Broker",
+        "Partners"
+      ],
+      "cta_role": "partner",
+      "approved_cta_label": "Join the #1 B2B Funding Platform",
+      "approved_cta_copy": "Join the #1 B2B Funding Platform",
+      "cta_destination": "https://tally.so/r/mOe658",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "mOe658",
+        "source_url": "https://tally.so/r/mOe658",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-join-funding-agent",
+      "entity_type": "partner_cta",
+      "title": "Join Moonshine Capital — Funding Agent",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/rjM6do",
+      "public_url": "https://tally.so/r/rjM6do",
+      "public_access": true,
+      "content_clusters": [
+        "Loan Broker",
+        "Partners"
+      ],
+      "cta_role": "partner",
+      "approved_cta_label": "Join Moonshine Capital — Funding Agent",
+      "approved_cta_copy": "Join Moonshine Capital — Funding Agent",
+      "cta_destination": "https://tally.so/r/rjM6do",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "rjM6do",
+        "source_url": "https://tally.so/r/rjM6do",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-launch-your-agency",
+      "entity_type": "partner_cta",
+      "title": "Launch Your Agency",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/A7edqy",
+      "public_url": "https://tally.so/r/A7edqy",
+      "public_access": true,
+      "content_clusters": [
+        "Loan Broker",
+        "Funding Agency"
+      ],
+      "cta_role": "partner",
+      "approved_cta_label": "Launch Your Agency",
+      "approved_cta_copy": "Launch Your Agency",
+      "cta_destination": "https://tally.so/r/A7edqy",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "A7edqy",
+        "source_url": "https://tally.so/r/A7edqy",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-acquisition-concierge",
+      "entity_type": "internal_cta",
+      "title": "Apply for Acquisition Concierge",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/aQqVDW",
+      "public_url": "https://tally.so/r/aQqVDW",
+      "public_access": true,
+      "content_clusters": [
+        "Acquisition Financing",
+        "ETA"
+      ],
+      "cta_role": "primary",
+      "approved_cta_label": "Apply for Acquisition Concierge",
+      "approved_cta_copy": "Apply for Acquisition Concierge",
+      "cta_destination": "https://tally.so/r/aQqVDW",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "aQqVDW",
+        "source_url": "https://tally.so/r/aQqVDW",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-submit-deal-review",
+      "entity_type": "internal_cta",
+      "title": "Submit a Deal for Review",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/q416K8",
+      "public_url": "https://tally.so/r/q416K8",
+      "public_access": true,
+      "content_clusters": [
+        "Acquisition Financing",
+        "Deal Analysis"
+      ],
+      "cta_role": "secondary",
+      "approved_cta_label": "Submit a Deal for Review",
+      "approved_cta_copy": "Submit a Deal for Review",
+      "cta_destination": "https://tally.so/r/q416K8",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "q416K8",
+        "source_url": "https://tally.so/r/q416K8",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-list-business-for-sale",
+      "entity_type": "internal_cta",
+      "title": "List Your Business for Sale",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/2EG0Jg",
+      "public_url": "https://tally.so/r/2EG0Jg",
+      "public_access": true,
+      "content_clusters": [
+        "Business Sale",
+        "M&A"
+      ],
+      "cta_role": "primary",
+      "approved_cta_label": "List Your Business for Sale",
+      "approved_cta_copy": "List Your Business for Sale",
+      "cta_destination": "https://tally.so/r/2EG0Jg",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "2EG0Jg",
+        "source_url": "https://tally.so/r/2EG0Jg",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-create-buyer-profile",
+      "entity_type": "internal_cta",
+      "title": "Create Your Buyer Profile",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/Ek79JA",
+      "public_url": "https://tally.so/r/Ek79JA",
+      "public_access": true,
+      "content_clusters": [
+        "Business Acquisition",
+        "Buyer"
+      ],
+      "cta_role": "primary",
+      "approved_cta_label": "Create Your Buyer Profile",
+      "approved_cta_copy": "Create Your Buyer Profile",
+      "cta_destination": "https://tally.so/r/Ek79JA",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "Ek79JA",
+        "source_url": "https://tally.so/r/Ek79JA",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-join-acquisition-network",
+      "entity_type": "partner_cta",
+      "title": "Join the Acquisition Network",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/obLW75",
+      "public_url": "https://tally.so/r/obLW75",
+      "public_access": true,
+      "content_clusters": [
+        "Business Acquisition",
+        "Network"
+      ],
+      "cta_role": "partner",
+      "approved_cta_label": "Join the Acquisition Network",
+      "approved_cta_copy": "Join the Acquisition Network",
+      "cta_destination": "https://tally.so/r/obLW75",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "obLW75",
+        "source_url": "https://tally.so/r/obLW75",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-get-daily-5-tracker",
+      "entity_type": "internal_cta",
+      "title": "Get the Daily 5 Tracker",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/VLlP96",
+      "public_url": "https://tally.so/r/VLlP96",
+      "public_access": true,
+      "content_clusters": [
+        "Loan Broker",
+        "Productivity"
+      ],
+      "cta_role": "secondary",
+      "approved_cta_label": "Get the Daily 5 Tracker",
+      "approved_cta_copy": "Get the Daily 5 Tracker",
+      "cta_destination": "https://tally.so/r/VLlP96",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "VLlP96",
+        "source_url": "https://tally.so/r/VLlP96",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    },
+    {
+      "resource_id": "cta-get-prompt-pack",
+      "entity_type": "internal_cta",
+      "title": "Get Your Print Money Prompt Pack",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://tally.so/r/meX7No",
+      "public_url": "https://tally.so/r/meX7No",
+      "public_access": true,
+      "content_clusters": [
+        "AI",
+        "Prompts"
+      ],
+      "cta_role": "secondary",
+      "approved_cta_label": "Get Your Print Money Prompt Pack",
+      "approved_cta_copy": "Get Your Print Money Prompt Pack",
+      "cta_destination": "https://tally.so/r/meX7No",
+      "cta_position": "contextual",
+      "cta_conditions": [
+        "Use only when the CTA matches reader intent."
+      ],
+      "cta_exclusions": [
+        "Do not imply guaranteed approval, funding amount, pricing, or outcome beyond the destination form's explicit language."
+      ],
+      "affiliate": false,
+      "requires_disclosure": false,
+      "regulatory_notes": "Funding-related CTAs must remain educational and must not imply guaranteed approval or terms.",
+      "source": {
+        "system": "Tally",
+        "source_id": "meX7No",
+        "source_url": "https://tally.so/r/meX7No",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      }
+    }
+  ]
+}

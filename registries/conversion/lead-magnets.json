@@ -1,1 +1,313 @@
-{}
+{
+  "registry_name": "ResourceGrid Lead Magnets, Guides & Downloads",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-05",
+  "resources": [
+    {
+      "resource_id": "leadmagnet-daily-5-tracker",
+      "entity_type": "lead_magnet",
+      "title": "Daily 5 Tracker Used by Top Funding Agents",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/VLlP96",
+      "public_url": "https://tally.so/r/VLlP96",
+      "public_access": true,
+      "content_clusters": [
+        "Loan Broker",
+        "Funding Agency",
+        "Productivity"
+      ],
+      "source": {
+        "system": "Tally",
+        "source_id": "VLlP96",
+        "source_url": "https://tally.so/r/VLlP96",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "reader_facing_approved": true,
+        "access_note": null
+      }
+    },
+    {
+      "resource_id": "leadmagnet-print-money-prompt-pack",
+      "entity_type": "lead_magnet",
+      "title": "Print Money Prompt Pack",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/meX7No",
+      "public_url": "https://tally.so/r/meX7No",
+      "public_access": true,
+      "content_clusters": [
+        "AI",
+        "Prompts",
+        "Funding Agency"
+      ],
+      "source": {
+        "system": "Tally",
+        "source_id": "meX7No",
+        "source_url": "https://tally.so/r/meX7No",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "reader_facing_approved": true,
+        "access_note": null
+      }
+    },
+    {
+      "resource_id": "leadmagnet-do-less-earn-more",
+      "entity_type": "lead_magnet",
+      "title": "The Do-Less-Earn-More Execution System",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://feimster.notion.site/The-Do-Less-Earn-More-Execution-System-2164bc1bd63c8044a9c1cf5a695d297a",
+      "public_url": "https://feimster.notion.site/The-Do-Less-Earn-More-Execution-System-2164bc1bd63c8044a9c1cf5a695d297a",
+      "public_access": true,
+      "content_clusters": [
+        "Execution Systems",
+        "Entrepreneurship"
+      ],
+      "source": {
+        "system": "Wix",
+        "source_id": "1256c7dd-1df2-47cb-b7a6-d7b6ae8aa8b6",
+        "source_url": "https://feimster.notion.site/The-Do-Less-Earn-More-Execution-System-2164bc1bd63c8044a9c1cf5a695d297a",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "reader_facing_approved": true,
+        "access_note": null
+      }
+    },
+    {
+      "resource_id": "leadmagnet-automation-pack-n8n",
+      "entity_type": "lead_magnet",
+      "title": "Funding Agency Automation Pack (n8n)",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://myfunding.notion.site/automation-pack-n8n/",
+      "public_url": "https://myfunding.notion.site/automation-pack-n8n/",
+      "public_access": true,
+      "content_clusters": [
+        "Loan Broker",
+        "Automation",
+        "n8n"
+      ],
+      "source": {
+        "system": "Wix",
+        "source_id": "30e6abfd-3371-4fef-a9d9-5de70465ec17",
+        "source_url": "https://myfunding.notion.site/automation-pack-n8n/",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "reader_facing_approved": true,
+        "access_note": null
+      }
+    },
+    {
+      "resource_id": "guide-business-funding-blueprint",
+      "entity_type": "guide",
+      "title": "The Business Funding Blueprint: Mapping Capital to Growth",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://docs.google.com/document/d/1EHhqtDFg2p0VfX0gy8TE3usMRyXm4HOYXCkv2rvnRBc/edit",
+      "public_url": null,
+      "public_access": false,
+      "content_clusters": [
+        "Business Funding",
+        "Capital Stack"
+      ],
+      "source": {
+        "system": "Google Drive",
+        "source_id": "1EHhqtDFg2p0VfX0gy8TE3usMRyXm4HOYXCkv2rvnRBc",
+        "source_url": "https://docs.google.com/document/d/1EHhqtDFg2p0VfX0gy8TE3usMRyXm4HOYXCkv2rvnRBc/edit",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 0.95
+      },
+      "metadata": {
+        "reader_facing_approved": false,
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
+      }
+    },
+    {
+      "resource_id": "guide-loan-broker-partner",
+      "entity_type": "guide",
+      "title": "Moonshine Capital Loan Broker Partner Guide",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://docs.google.com/document/d/1NMmQXNmaRXopARx2THM068pz3UFmECe6MCkdz5v3aPA/edit",
+      "public_url": null,
+      "public_access": false,
+      "content_clusters": [
+        "Loan Broker",
+        "Partners"
+      ],
+      "source": {
+        "system": "Google Drive",
+        "source_id": "1NMmQXNmaRXopARx2THM068pz3UFmECe6MCkdz5v3aPA",
+        "source_url": "https://docs.google.com/document/d/1NMmQXNmaRXopARx2THM068pz3UFmECe6MCkdz5v3aPA/edit",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 0.95
+      },
+      "metadata": {
+        "reader_facing_approved": false,
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
+      }
+    },
+    {
+      "resource_id": "guide-virtual-loan-officer-setup",
+      "entity_type": "guide",
+      "title": "ChatGPT as Your Virtual Loan Officer Set-Up Guide",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://docs.google.com/document/d/1rXUBTe8owxBvW5DC9dbS5xf2Lyltad5quoNxLuE6KLw/edit",
+      "public_url": null,
+      "public_access": false,
+      "content_clusters": [
+        "AI",
+        "Loan Broker",
+        "Automation"
+      ],
+      "source": {
+        "system": "Google Drive",
+        "source_id": "1rXUBTe8owxBvW5DC9dbS5xf2Lyltad5quoNxLuE6KLw",
+        "source_url": "https://docs.google.com/document/d/1rXUBTe8owxBvW5DC9dbS5xf2Lyltad5quoNxLuE6KLw/edit",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 0.95
+      },
+      "metadata": {
+        "reader_facing_approved": false,
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
+      }
+    },
+    {
+      "resource_id": "guide-partner-tools-and-gpts",
+      "entity_type": "guide",
+      "title": "Partner Tools and GPTs Guide — Moonshine Capital",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://docs.google.com/document/d/1SqqCc8Gvn4hv5DqpLPqxK-56wWTEIz2xW0jYSf7QQbE/edit",
+      "public_url": null,
+      "public_access": false,
+      "content_clusters": [
+        "Partners",
+        "Custom GPTs",
+        "Tools"
+      ],
+      "source": {
+        "system": "Google Drive",
+        "source_id": "1SqqCc8Gvn4hv5DqpLPqxK-56wWTEIz2xW0jYSf7QQbE",
+        "source_url": "https://docs.google.com/document/d/1SqqCc8Gvn4hv5DqpLPqxK-56wWTEIz2xW0jYSf7QQbE/edit",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 0.95
+      },
+      "metadata": {
+        "reader_facing_approved": false,
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
+      }
+    },
+    {
+      "resource_id": "template-funding-agency-automations",
+      "entity_type": "template",
+      "title": "Steal My Funding Agency Automations (n8n Template)",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://docs.google.com/document/d/112QdrJE3CxOCIktkc5_7RUj3ZTND9yfQbypEugtlZkE/edit",
+      "public_url": null,
+      "public_access": false,
+      "content_clusters": [
+        "Loan Broker",
+        "n8n",
+        "Automation"
+      ],
+      "source": {
+        "system": "Google Drive",
+        "source_id": "112QdrJE3CxOCIktkc5_7RUj3ZTND9yfQbypEugtlZkE",
+        "source_url": "https://docs.google.com/document/d/112QdrJE3CxOCIktkc5_7RUj3ZTND9yfQbypEugtlZkE/edit",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 0.95
+      },
+      "metadata": {
+        "reader_facing_approved": false,
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
+      }
+    },
+    {
+      "resource_id": "guide-bank-decline-recovery",
+      "entity_type": "guide",
+      "title": "Bank Decline Recovery Guide",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://drive.google.com/file/d/1jSxi5YX99dyKQLHRSxnPAVkcgtQbnE-O/view",
+      "public_url": null,
+      "public_access": false,
+      "content_clusters": [
+        "Bank Declines",
+        "Business Funding"
+      ],
+      "source": {
+        "system": "Google Drive",
+        "source_id": "1jSxi5YX99dyKQLHRSxnPAVkcgtQbnE-O",
+        "source_url": "https://drive.google.com/file/d/1jSxi5YX99dyKQLHRSxnPAVkcgtQbnE-O/view",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 0.95
+      },
+      "metadata": {
+        "reader_facing_approved": false,
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
+      }
+    },
+    {
+      "resource_id": "guide-accountant-referral",
+      "entity_type": "guide",
+      "title": "Accountant Referral Guide",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://drive.google.com/file/d/1DAcsvZy5hVMThehsavXRhFU3SJVZuurj/view",
+      "public_url": null,
+      "public_access": false,
+      "content_clusters": [
+        "Accountants",
+        "Referral Partners"
+      ],
+      "source": {
+        "system": "Google Drive",
+        "source_id": "1DAcsvZy5hVMThehsavXRhFU3SJVZuurj",
+        "source_url": "https://drive.google.com/file/d/1DAcsvZy5hVMThehsavXRhFU3SJVZuurj/view",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 0.95
+      },
+      "metadata": {
+        "reader_facing_approved": false,
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
+      }
+    },
+    {
+      "resource_id": "guide-bank-manager-referral",
+      "entity_type": "guide",
+      "title": "Bank Manager Referral Guide",
+      "brand": "Moonshine Capital",
+      "status": "active",
+      "canonical_url": "https://drive.google.com/file/d/1HHkTv77-lgI4OI9gh8a15qaEfKF7-eOj/view",
+      "public_url": null,
+      "public_access": false,
+      "content_clusters": [
+        "Bankers",
+        "Referral Partners"
+      ],
+      "source": {
+        "system": "Google Drive",
+        "source_id": "1HHkTv77-lgI4OI9gh8a15qaEfKF7-eOj",
+        "source_url": "https://drive.google.com/file/d/1HHkTv77-lgI4OI9gh8a15qaEfKF7-eOj/view",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 0.95
+      },
+      "metadata": {
+        "reader_facing_approved": false,
+        "access_note": "Indexed source asset; confirm public sharing before reader-facing use."
+      }
+    }
+  ]
+}

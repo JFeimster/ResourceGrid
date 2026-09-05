@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:50:37.557Z",
+  "generated_at": "2026-09-05T17:07:52.853Z",
   "terms": [
     "acquisition",
     "eta",
@@ -9,8 +9,892 @@
     "m&a",
     "mergers"
   ],
-  "count": 52,
+  "count": 96,
   "resources": [
+    {
+      "resource_id": "article-saas-valuation-multiples",
+      "entity_type": "blog_article",
+      "title": "SaaS Valuation Multiples: What Small SaaS Businesses Are Actually Worth",
+      "description": "Learn how SaaS valuation multiples are influenced by MRR, churn, growth, customer concentration, margins, and founder dependence in smaller acquisitions.",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/saas-valuation-multiples",
+      "public_url": "https://www.distilledfunding.com/post/saas-valuation-multiples",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-dscr-business-acquisition",
+      "entity_type": "blog_article",
+      "title": "DSCR Business Acquisition Guide: What Is a Good DSCR?",
+      "description": "Learn how DSCR affects a business acquisition, what lenders consider a good debt service coverage ratio, and the SBA DSCR buyers should target.",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/dscr-business-acquisition",
+      "public_url": "https://www.distilledfunding.com/post/dscr-business-acquisition",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-how-much-money-do-you-need-to-buy-a-business",
+      "entity_type": "blog_article",
+      "title": "How Much Money Do You Need to Buy a Business?",
+      "description": "How much money do you need to buy a business? Learn how down payments, SBA loans, seller financing, working capital, and deal structure affect your real cash requirement.",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/how-much-money-do-you-need-to-buy-a-business",
+      "public_url": "https://www.distilledfunding.com/post/how-much-money-do-you-need-to-buy-a-business",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-is-this-business-worth-buying",
+      "entity_type": "blog_article",
+      "title": "Is This Business Worth Buying? 12 Numbers to Check Before Making an Offer",
+      "description": "Check the 12 numbers that help determine whether a business is worth buying before you make an offer or invest heavily in diligence.",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/is-this-business-worth-buying",
+      "public_url": "https://www.distilledfunding.com/post/is-this-business-worth-buying",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-how-to-buy-a-small-business",
+      "entity_type": "blog_article",
+      "title": "How to Buy a Small Business: The Complete Guide for First-Time Buyers",
+      "description": "Learn how to buy a small business with this complete first-time buyer guide covering valuation, financing, due diligence, deal structure, and closing.",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/how-to-buy-a-small-business",
+      "public_url": "https://www.distilledfunding.com/post/how-to-buy-a-small-business",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-how-to-qualify-for-an-online-business-acquisition-loan",
+      "entity_type": "blog_article",
+      "title": "How to Qualify for an Online Business Acquisition Loan as a First-Time Buyer",
+      "description": "Want to buy an online business but need financing? Learn exactly how to qualify for an acquisition loan as a first-time buyer — step by step.",
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/how-to-qualify-for-an-online-business-acquisition-loan",
+      "public_url": "https://www.distilledfunding.com/post/how-to-qualify-for-an-online-business-acquisition-loan",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-business-acquisition-financing",
+      "entity_type": "blog_article",
+      "title": "Business Acquisition Financing: What You Need to Know",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/business-acquisition-financing",
+      "public_url": "https://www.distilledfunding.com/post/business-acquisition-financing",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-the-sba-7-a-loan-playbook",
+      "entity_type": "blog_article",
+      "title": "The SBA 7(a) Loan Playbook for First-Time Business Buyers",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/the-sba-7-a-loan-playbook",
+      "public_url": "https://www.distilledfunding.com/post/the-sba-7-a-loan-playbook",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-how-to-buy-a-business-on-empire-flippers",
+      "entity_type": "blog_article",
+      "title": "How to Buy a Business on Empire Flippers (And Actually Get It Funded)",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/how-to-buy-a-business-on-empire-flippers",
+      "public_url": "https://www.distilledfunding.com/post/how-to-buy-a-business-on-empire-flippers",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-how-to-finance-a-flippa-business",
+      "entity_type": "blog_article",
+      "title": "I Want to Buy a Business on Flippa — What Financing Do I Actually Need?",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/how-to-finance-a-flippa-business",
+      "public_url": "https://www.distilledfunding.com/post/how-to-finance-a-flippa-business",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-why-micro-acquisitions-are-the-best-kept-secret-in-smb-investing",
+      "entity_type": "blog_article",
+      "title": "Why Micro-Acquisitions Are the Best-Kept Secret in SMB Investing",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/why-micro-acquisitions-are-the-best-kept-secret-in-smb-investing",
+      "public_url": "https://www.distilledfunding.com/post/why-micro-acquisitions-are-the-best-kept-secret-in-smb-investing",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-business-acquisition-loans",
+      "entity_type": "blog_article",
+      "title": "Business Acquisition Loans: How to Finance Buying a Small Business",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/business-acquisition-loans",
+      "public_url": "https://www.distilledfunding.com/post/business-acquisition-loans",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-small-business-acquisition-loans-explained",
+      "entity_type": "blog_article",
+      "title": "Buying Businesses with Loans: Small Business Acquisition Loans Explained",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans-explained",
+      "public_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans-explained",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-small-business-acquisition-loans",
+      "entity_type": "blog_article",
+      "title": "Small Business Acquisition Loans and Buying Business Loans Demystified",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans",
+      "public_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-small-business-acquisition-loan-guide",
+      "entity_type": "blog_article",
+      "title": "Small Business Acquisition Loan Guide: How to Buy a Business Without Getting Smoked",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/small-business-acquisition-loan-guide",
+      "public_url": "https://www.distilledfunding.com/post/small-business-acquisition-loan-guide",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-your-competitor-just-closed-here-s-how-to-buy-their-business-in-72-hours-without-a-bank",
+      "entity_type": "blog_article",
+      "title": "Your Competitor Just Closed—Here's How to Buy Their Business in 72 Hours (Without a Bank)",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/your-competitor-just-closed-here-s-how-to-buy-their-business-in-72-hours-without-a-bank",
+      "public_url": "https://www.distilledfunding.com/post/your-competitor-just-closed-here-s-how-to-buy-their-business-in-72-hours-without-a-bank",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-finance-buying-an-existing-business-micro-acquisition-funding",
+      "entity_type": "blog_article",
+      "title": "How to Finance Buying an Existing Business (Micro-Acquisition Funding Playbook)",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/finance-buying-an-existing-business-micro-acquisition-funding",
+      "public_url": "https://www.distilledfunding.com/post/finance-buying-an-existing-business-micro-acquisition-funding",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-how-to-finance-your-online-business-acquisition-content-saas-e-commerce",
+      "entity_type": "blog_article",
+      "title": "How to Finance Your Online Business Acquisition (Content, SaaS & E-commerce)",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/how-to-finance-your-online-business-acquisition-content-saas-e-commerce",
+      "public_url": "https://www.distilledfunding.com/post/how-to-finance-your-online-business-acquisition-content-saas-e-commerce",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-get-a-personalized-funding-quote",
+      "entity_type": "blog_article",
+      "title": "Get Real Numbers, Not Guesses, with a Personalized Funding Quote",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Gig Worker Funding",
+        "Real Estate Funding",
+        "Business Credit",
+        "eCommerce Seller Funding",
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Gig Worker Funding",
+        "Real Estate Funding",
+        "Business Credit",
+        "eCommerce Seller Funding",
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/get-a-personalized-funding-quote",
+      "public_url": "https://www.distilledfunding.com/post/get-a-personalized-funding-quote",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-acquisition-financing-for-small-businesses",
+      "entity_type": "blog_article",
+      "title": "Acquisition Financing for Small Businesses: How to Fund a Buyout Without Lighting Your Hair on Fire",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/acquisition-financing-for-small-businesses",
+      "public_url": "https://www.distilledfunding.com/post/acquisition-financing-for-small-businesses",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-advantages-of-sba-loans-for-small-businesses",
+      "entity_type": "blog_article",
+      "title": "Advantages of SBA Loans for Small Businesses",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/advantages-of-sba-loans-for-small-businesses",
+      "public_url": "https://www.distilledfunding.com/post/advantages-of-sba-loans-for-small-businesses",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-micro-saas-acquisitions-funding-options-when-ebitda-500k",
+      "entity_type": "blog_article",
+      "title": "Micro-SaaS Acquisitions: Funding Options When EBITDA < $500K",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "eCommerce Seller Funding",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/micro-saas-acquisitions-funding-options-when-ebitda-500k",
+      "public_url": "https://www.distilledfunding.com/post/micro-saas-acquisitions-funding-options-when-ebitda-500k",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-venture-capital-for-acquisition-financing",
+      "entity_type": "blog_article",
+      "title": "Venture Capital for Acquisition Financing: How Startups Can Buy Their Way Into Growth",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/venture-capital-for-acquisition-financing",
+      "public_url": "https://www.distilledfunding.com/post/venture-capital-for-acquisition-financing",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-small-business-acquisition-loans-fast-approval-for-serious-buyers",
+      "entity_type": "blog_article",
+      "title": "Small Business Acquisition Loans: Fast Approval for Serious Buyers",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans-fast-approval-for-serious-buyers",
+      "public_url": "https://www.distilledfunding.com/post/small-business-acquisition-loans-fast-approval-for-serious-buyers",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-revenue-based-financing-myths-debunked",
+      "entity_type": "blog_article",
+      "title": "Revenue‑Based Financing Myths Debunked",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/revenue-based-financing-myths-debunked",
+      "public_url": "https://www.distilledfunding.com/post/revenue-based-financing-myths-debunked",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-is-rok-financial-legit-or-too-good-to-be-true",
+      "entity_type": "blog_article",
+      "title": "Is ROK Financial Legit or Too Good to Be True?",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Acquisition Financing"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Acquisition Financing"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/is-rok-financial-legit-or-too-good-to-be-true",
+      "public_url": "https://www.distilledfunding.com/post/is-rok-financial-legit-or-too-good-to-be-true",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-revenue-based-buyouts-for-saas-acquisitions",
+      "entity_type": "blog_article",
+      "title": "Revenue-Based Buyouts for SaaS Acquisitions: Smarter Financing in 2026",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/revenue-based-buyouts-for-saas-acquisitions",
+      "public_url": "https://www.distilledfunding.com/post/revenue-based-buyouts-for-saas-acquisitions",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-creative-sme-acquisition-financing-under-5m-7-structures-that-beat-sba-red-tape",
+      "entity_type": "blog_article",
+      "title": "Creative SME Acquisition Financing Under $5M: 7 Structures That Beat SBA Red Tape",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Real Estate Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Real Estate Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/creative-sme-acquisition-financing-under-5m-7-structures-that-beat-sba-red-tape",
+      "public_url": "https://www.distilledfunding.com/post/creative-sme-acquisition-financing-under-5m-7-structures-that-beat-sba-red-tape",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-revenue-based-acquisition-financing-an-sba-alternative-for-ecommerce-brand-buyers",
+      "entity_type": "blog_article",
+      "title": "Revenue-Based Acquisition Financing: An SBA Alternative for Ecommerce Brand Buyers",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "AI Automation & Finance Ops"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "AI Automation & Finance Ops"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/revenue-based-acquisition-financing-an-sba-alternative-for-ecommerce-brand-buyers",
+      "public_url": "https://www.distilledfunding.com/post/revenue-based-acquisition-financing-an-sba-alternative-for-ecommerce-brand-buyers",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-business-acquisition-funding-solutions",
+      "entity_type": "blog_article",
+      "title": "How to Secure the Best Business Acquisition Funding Solutions for Success",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Resources",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Resources",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/business_acquisition_funding_solutions",
+      "public_url": "https://www.distilledfunding.com/post/business_acquisition_funding_solutions",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-what-every-entrepreneur-needs-to-know-about-acquisition-financing-options",
+      "entity_type": "blog_article",
+      "title": "What Every Entrepreneur Needs to Know About Acquisition Financing Options",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Resources"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Resources"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/what-every-entrepreneur-needs-to-know-about-acquisition-financing-options",
+      "public_url": "https://www.distilledfunding.com/post/what-every-entrepreneur-needs-to-know-about-acquisition-financing-options",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-how-to-finance-an-acquisition-using-an-sba-loan",
+      "entity_type": "blog_article",
+      "title": "How to Finance an Acquisition Using an SBA Loan: Your Ultimate Guide",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "content_clusters": [
+        "Business Funding",
+        "Reviews & Comparisons"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/how-to-finance-an-acquisition-using-an-sba-loan",
+      "public_url": "https://www.distilledfunding.com/post/how-to-finance-an-acquisition-using-an-sba-loan",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-acquisition-financing-your-strategic-engine-for-growth",
+      "entity_type": "blog_article",
+      "title": "Acquisition Financing: Your Strategic Engine for Growth",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/acquisition-financing-your-strategic-engine-for-growth",
+      "public_url": "https://www.distilledfunding.com/post/acquisition-financing-your-strategic-engine-for-growth",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "article-harnessing-the-power-of-revenue-based-financing-for-business-acquisition",
+      "entity_type": "blog_article",
+      "title": "Harnessing the Power of Revenue-based Financing for Business Acquisition",
+      "description": null,
+      "status": "published",
+      "topics": [
+        "Business Funding"
+      ],
+      "content_clusters": [
+        "Business Funding"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Internal linking, content discovery, topic coverage, and related-resource recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.distilledfunding.com/post/harnessing-the-power-of-revenue-based-financing-for-business-acquisition",
+      "public_url": "https://www.distilledfunding.com/post/harnessing-the-power-of-revenue-based-financing-for-business-acquisition",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-mxq7kwdggs8",
+      "entity_type": "youtube_video",
+      "title": "Unlock the Secrets of Client Acquisition: Transform Your Funding Agency with Expert Insights",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=mXQ7kwdggS8",
+      "public_url": "https://www.youtube.com/watch?v=mXQ7kwdggS8",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "youtube-hfccdehcwtk",
+      "entity_type": "youtube_video",
+      "title": "Buying Power: Acquisition Financing Made Simple",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": "Video discovery, content repurposing, embedding, and related-content recommendation.",
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://www.youtube.com/watch?v=hfCCdEHCwtk",
+      "public_url": "https://www.youtube.com/watch?v=hfCCdEHCwtk",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
     {
       "resource_id": "affiliate-flippa-referral",
       "entity_type": "affiliate_partner",
@@ -61,6 +945,173 @@
       "title": "Manual Review Language — Routing Results",
       "description": "Your file may require a manual strategy review because the best path depends on details that should not be decided by a quiz alone.",
       "status": "active",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": null,
+      "public_url": null,
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "cta-acquisition-concierge",
+      "entity_type": "internal_cta",
+      "title": "Apply for Acquisition Concierge",
+      "description": null,
+      "status": "active",
+      "topics": [],
+      "content_clusters": [
+        "Acquisition Financing",
+        "ETA"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://tally.so/r/aQqVDW",
+      "public_url": "https://tally.so/r/aQqVDW",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "cta-submit-deal-review",
+      "entity_type": "internal_cta",
+      "title": "Submit a Deal for Review",
+      "description": null,
+      "status": "active",
+      "topics": [],
+      "content_clusters": [
+        "Acquisition Financing",
+        "Deal Analysis"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://tally.so/r/q416K8",
+      "public_url": "https://tally.so/r/q416K8",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "cta-list-business-for-sale",
+      "entity_type": "internal_cta",
+      "title": "List Your Business for Sale",
+      "description": null,
+      "status": "active",
+      "topics": [],
+      "content_clusters": [
+        "Business Sale",
+        "M&A"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://tally.so/r/2EG0Jg",
+      "public_url": "https://tally.so/r/2EG0Jg",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "cta-create-buyer-profile",
+      "entity_type": "internal_cta",
+      "title": "Create Your Buyer Profile",
+      "description": null,
+      "status": "active",
+      "topics": [],
+      "content_clusters": [
+        "Business Acquisition",
+        "Buyer"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://tally.so/r/Ek79JA",
+      "public_url": "https://tally.so/r/Ek79JA",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "cta-join-acquisition-network",
+      "entity_type": "partner_cta",
+      "title": "Join the Acquisition Network",
+      "description": null,
+      "status": "active",
+      "topics": [],
+      "content_clusters": [
+        "Business Acquisition",
+        "Network"
+      ],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://tally.so/r/obLW75",
+      "public_url": "https://tally.so/r/obLW75",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "form-tally-aqqvdw",
+      "entity_type": "form",
+      "title": "Apply for Acquisition Concierge",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://tally.so/r/aQqVDW",
+      "public_url": "https://tally.so/r/aQqVDW",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "form-tally-oblw75",
+      "entity_type": "form",
+      "title": "Join the Acquisition Network",
+      "description": null,
+      "status": "published",
+      "topics": [],
+      "content_clusters": [],
+      "audiences": [],
+      "industries": [],
+      "funnel_stage": null,
+      "primary_use_case": null,
+      "conversion_goal": null,
+      "priority": null,
+      "canonical_url": "https://tally.so/r/obLW75",
+      "public_url": "https://tally.so/r/obLW75",
+      "repo_url": null,
+      "recommended_cta_or_embed_role": null
+    },
+    {
+      "resource_id": "form-tally-2ejor9",
+      "entity_type": "form",
+      "title": "Client Contact Details",
+      "description": null,
+      "status": "draft",
       "topics": [],
       "content_clusters": [],
       "audiences": [],

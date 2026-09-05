@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "id": "6110dd24-931e-4fa1-b085-25455e98932d",
+      "label": "Business Funding"
+    },
+    {
+      "id": "b45c536d-985d-4934-b0b4-221622f65ade",
+      "label": "Same-Day Business Funding"
+    },
+    {
+      "id": "8337742f-bfbd-4058-aa4f-8b1ef44055cc",
+      "label": "Gig Worker Funding"
+    },
+    {
+      "id": "e8e9ce31-1c7d-49f1-bd82-716a81cd1ecb",
+      "label": "eCommerce Seller Funding"
+    },
+    {
+      "id": "f85e7e63-568a-40c6-8653-6679a3f92a58",
+      "label": "Business Credit"
+    },
+    {
+      "id": "a9f34851-45d7-42c9-8012-feab3a09d0ed",
+      "label": "Loan Broker & Affiliate Program"
+    },
+    {
+      "id": "892e647a-6bfa-4f91-b625-400da4ada9c6",
+      "label": "AI Automation & Finance Ops"
+    },
+    {
+      "id": "09eb5203-0a59-4d70-a9d4-c8173e0224ce",
+      "label": "Acquisition Financing"
+    },
+    {
+      "id": "6cfa2e47-3719-44d0-bbc6-e73ceed09838",
+      "label": "Real Estate Funding"
+    },
+    {
+      "id": "7a4aa0c3-4d12-46c9-b530-1713a89489e1",
+      "label": "Reviews & Comparisons"
+    },
+    {
+      "id": "0fa7ae93-267e-400d-aa7a-49ad155910a9",
+      "label": "Payment Processing"
+    }
+  ]
+}

@@ -1,1 +1,869 @@
-{}
+{
+  "registry_name": "ResourceGrid Forms Registry",
+  "registry_version": "1.0.0",
+  "generated_date": "2026-09-05",
+  "resources": [
+    {
+      "resource_id": "form-tally-9qjwee",
+      "entity_type": "form",
+      "title": "Build Your Funding Agent Profile",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/9qjWEE",
+      "public_url": "https://tally.so/r/9qjWEE",
+      "public_access": true,
+      "last_updated_at": "2026-09-02T13:22:10.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "9qjWEE",
+        "source_url": "https://tally.so/r/9qjWEE",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-08-25T10:53:03.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-rjm6do",
+      "entity_type": "form",
+      "title": "Join Moonshine Capital — Funding Agent",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/rjM6do",
+      "public_url": "https://tally.so/r/rjM6do",
+      "public_access": true,
+      "last_updated_at": "2026-09-02T13:21:48.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "rjM6do",
+        "source_url": "https://tally.so/r/rjM6do",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-08-25T10:52:22.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-w4r2ad",
+      "entity_type": "form",
+      "title": "Funding for ANY Reason 💵",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/w4R2Ad",
+      "public_url": "https://tally.so/r/w4R2Ad",
+      "public_access": true,
+      "last_updated_at": "2026-09-02T13:18:19.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "w4R2Ad",
+        "source_url": "https://tally.so/r/w4R2Ad",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 9,
+        "created_at": "2025-06-18T03:15:52.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-a7edqy",
+      "entity_type": "form",
+      "title": "Launch Your Agency",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/A7edqy",
+      "public_url": "https://tally.so/r/A7edqy",
+      "public_access": true,
+      "last_updated_at": "2026-09-02T13:17:09.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "A7edqy",
+        "source_url": "https://tally.so/r/A7edqy",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-08-25T10:53:59.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-dwveqn",
+      "entity_type": "form",
+      "title": "Personalized Funding Quote Intake",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/dWvEqN",
+      "public_url": "https://tally.so/r/dWvEqN",
+      "public_access": true,
+      "last_updated_at": "2026-09-02T13:16:39.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "dWvEqN",
+        "source_url": "https://tally.so/r/dWvEqN",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-05-28T13:29:13.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-aqqvdw",
+      "entity_type": "form",
+      "title": "Apply for Acquisition Concierge",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/aQqVDW",
+      "public_url": "https://tally.so/r/aQqVDW",
+      "public_access": true,
+      "last_updated_at": "2026-08-29T11:12:31.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "aQqVDW",
+        "source_url": "https://tally.so/r/aQqVDW",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-08-29T11:12:31.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-q416k8",
+      "entity_type": "form",
+      "title": "Submit a Deal for Review",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/q416K8",
+      "public_url": "https://tally.so/r/q416K8",
+      "public_access": true,
+      "last_updated_at": "2026-08-29T11:12:02.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "q416K8",
+        "source_url": "https://tally.so/r/q416K8",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-08-29T11:12:02.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-2eg0jg",
+      "entity_type": "form",
+      "title": "List Your Business for Sale",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/2EG0Jg",
+      "public_url": "https://tally.so/r/2EG0Jg",
+      "public_access": true,
+      "last_updated_at": "2026-08-29T11:11:31.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "2EG0Jg",
+        "source_url": "https://tally.so/r/2EG0Jg",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-08-29T11:11:31.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-ek79ja",
+      "entity_type": "form",
+      "title": "Create Your Buyer Profile",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/Ek79JA",
+      "public_url": "https://tally.so/r/Ek79JA",
+      "public_access": true,
+      "last_updated_at": "2026-08-29T11:11:06.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "Ek79JA",
+        "source_url": "https://tally.so/r/Ek79JA",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-08-29T11:11:06.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-oblw75",
+      "entity_type": "form",
+      "title": "Join the Acquisition Network",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/obLW75",
+      "public_url": "https://tally.so/r/obLW75",
+      "public_access": true,
+      "last_updated_at": "2026-08-29T11:10:37.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "obLW75",
+        "source_url": "https://tally.so/r/obLW75",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 2,
+        "created_at": "2026-08-29T11:10:37.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-moe658",
+      "entity_type": "form",
+      "title": "Join the #1 B2B Funding Platform!",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/mOe658",
+      "public_url": "https://tally.so/r/mOe658",
+      "public_access": true,
+      "last_updated_at": "2026-08-25T10:42:20.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "mOe658",
+        "source_url": "https://tally.so/r/mOe658",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 41,
+        "created_at": "2025-06-13T22:07:24.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-mdejb5",
+      "entity_type": "form",
+      "title": "Get a Personalized Funding Quote — No Hard Credit Check",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/mDEJB5",
+      "public_url": "https://tally.so/r/mDEJB5",
+      "public_access": true,
+      "last_updated_at": "2026-05-28T12:39:36.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "mDEJB5",
+        "source_url": "https://tally.so/r/mDEJB5",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-06-09T09:21:27.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-5b8kad",
+      "entity_type": "form",
+      "title": "Weekly Review Questions",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/5B8Kad",
+      "public_url": "https://tally.so/r/5B8Kad",
+      "public_access": true,
+      "last_updated_at": "2026-05-07T19:50:12.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "5B8Kad",
+        "source_url": "https://tally.so/r/5B8Kad",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-05-07T19:38:03.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-vllp96",
+      "entity_type": "form",
+      "title": "Get the Daily 5 Tracker Used by Top Funding Agents",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/VLlP96",
+      "public_url": "https://tally.so/r/VLlP96",
+      "public_access": true,
+      "last_updated_at": "2026-03-07T04:54:47.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "VLlP96",
+        "source_url": "https://tally.so/r/VLlP96",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-03-07T04:24:54.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-j9ldxr",
+      "entity_type": "form",
+      "title": "Can You Actually Fund This Project?",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2026-01-12T14:16:35.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "J9ldxR",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2026-01-12T13:56:41.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-zj9pjb",
+      "entity_type": "form",
+      "title": "Discord Application form",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2025-11-30T06:11:31.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "Zj9PJB",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-11-30T06:11:31.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-2ejor9",
+      "entity_type": "form",
+      "title": "Client Contact Details",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2025-11-30T06:11:25.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "2EjOr9",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-11-30T06:11:25.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-pdr80e",
+      "entity_type": "form",
+      "title": "Lead Magnet Personality Quiz for Email Marketing",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2025-11-30T06:09:04.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "PdR80e",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-11-30T06:09:04.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-gxey0k",
+      "entity_type": "form",
+      "title": "Amela Membership 💜 Application",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2025-11-30T06:08:56.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "GxeY0k",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-11-30T06:08:56.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-ob9lox",
+      "entity_type": "form",
+      "title": "Pre-Launch Survey for [OFFER]: Past Clients",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2025-11-30T06:08:53.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "ob9lOx",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-11-30T06:08:53.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-rgw8lj",
+      "entity_type": "form",
+      "title": "Good to see you 👋",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2025-11-30T06:08:50.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "RGW8Lj",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-11-30T06:08:50.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-d4q0ez",
+      "entity_type": "form",
+      "title": "B2B SaaS Research Report - Survey Template",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2025-11-30T06:08:44.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "D4q0eZ",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-11-30T06:08:44.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-dwbqpk",
+      "entity_type": "form",
+      "title": "Paywall view",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2025-11-30T06:08:29.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "dWbQPK",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-11-30T06:08:29.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-zxewe0",
+      "entity_type": "form",
+      "title": "Introduction Form",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2025-11-30T06:08:00.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "zxEWe0",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-11-30T06:08:00.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-wojlov",
+      "entity_type": "form",
+      "title": "Apply to Partner → Influencer & Sponsor Program",
+      "brand": "Moonshine Capital",
+      "status": "draft",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": false,
+      "last_updated_at": "2025-11-30T06:01:50.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "WOJlov",
+        "source_url": null,
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-11-30T06:01:50.000Z",
+        "tally_status": "DRAFT"
+      }
+    },
+    {
+      "resource_id": "form-tally-mex7no",
+      "entity_type": "form",
+      "title": "🚀 Get Your Print Money Prompt Pack",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/meX7No",
+      "public_url": "https://tally.so/r/meX7No",
+      "public_access": true,
+      "last_updated_at": "2025-08-06T16:10:06.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "meX7No",
+        "source_url": "https://tally.so/r/meX7No",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 2,
+        "created_at": "2025-08-06T07:50:14.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-tally-3x152k",
+      "entity_type": "form",
+      "title": "📋 FinanceOS™ Onboarding Form",
+      "brand": "Moonshine Capital",
+      "status": "published",
+      "canonical_url": "https://tally.so/r/3x152k",
+      "public_url": "https://tally.so/r/3x152k",
+      "public_access": true,
+      "last_updated_at": "2025-06-03T07:58:09.000Z",
+      "source": {
+        "system": "Tally",
+        "source_id": "3x152k",
+        "source_url": "https://tally.so/r/3x152k",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "workspace_id": "3X0EPO",
+        "submission_count": 0,
+        "created_at": "2025-06-03T07:22:24.000Z",
+        "tally_status": "PUBLISHED"
+      }
+    },
+    {
+      "resource_id": "form-wix-1256c7dd",
+      "entity_type": "form",
+      "title": "Do-Less-Earn-More Form",
+      "brand": "Distilled Funding",
+      "status": "active",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": null,
+      "source": {
+        "system": "Wix",
+        "source_id": "1256c7dd-1df2-47cb-b7a6-d7b6ae8aa8b6",
+        "source_url": "https://www.distilledfunding.com",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "wix_form_id": "1256c7dd-1df2-47cb-b7a6-d7b6ae8aa8b6",
+        "enabled": true,
+        "field_identifiers": [
+          "email"
+        ],
+        "redirect_on_submit": "https://feimster.notion.site/The-Do-Less-Earn-More-Execution-System-2164bc1bd63c8044a9c1cf5a695d297a"
+      }
+    },
+    {
+      "resource_id": "form-wix-2ab1c986",
+      "entity_type": "form",
+      "title": "Inquiry Services Form",
+      "brand": "Distilled Funding",
+      "status": "active",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": null,
+      "source": {
+        "system": "Wix",
+        "source_id": "2ab1c986-bef5-42c8-b3d9-d33d2ff46f83",
+        "source_url": "https://www.distilledfunding.com",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "wix_form_id": "2ab1c986-bef5-42c8-b3d9-d33d2ff46f83",
+        "enabled": true,
+        "field_identifiers": [
+          "first_name",
+          "last_name",
+          "phone",
+          "message",
+          "service"
+        ],
+        "redirect_on_submit": null
+      }
+    },
+    {
+      "resource_id": "form-wix-30e6abfd",
+      "entity_type": "form",
+      "title": "Automation Pack n8n",
+      "brand": "Distilled Funding",
+      "status": "active",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": null,
+      "source": {
+        "system": "Wix",
+        "source_id": "30e6abfd-3371-4fef-a9d9-5de70465ec17",
+        "source_url": "https://www.distilledfunding.com",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "wix_form_id": "30e6abfd-3371-4fef-a9d9-5de70465ec17",
+        "enabled": true,
+        "field_identifiers": [
+          "first_name",
+          "last_name",
+          "email"
+        ],
+        "redirect_on_submit": "https://myfunding.notion.site/automation-pack-n8n/"
+      }
+    },
+    {
+      "resource_id": "form-wix-85edd7a1",
+      "entity_type": "form",
+      "title": "Limited Power of Attorney",
+      "brand": "Distilled Funding",
+      "status": "active",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": null,
+      "source": {
+        "system": "Wix",
+        "source_id": "85edd7a1-f66f-491d-a92b-32c296e95bb7",
+        "source_url": "https://www.distilledfunding.com",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "wix_form_id": "85edd7a1-f66f-491d-a92b-32c296e95bb7",
+        "enabled": true,
+        "field_identifiers": [
+          "first_name",
+          "last_name",
+          "address",
+          "date",
+          "signature"
+        ],
+        "redirect_on_submit": null
+      }
+    },
+    {
+      "resource_id": "form-wix-8c540887",
+      "entity_type": "form",
+      "title": "Application",
+      "brand": "Distilled Funding",
+      "status": "active",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": null,
+      "source": {
+        "system": "Wix",
+        "source_id": "8c540887-7ec2-477b-82a6-acde00b0d9dc",
+        "source_url": "https://www.distilledfunding.com",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "wix_form_id": "8c540887-7ec2-477b-82a6-acde00b0d9dc",
+        "enabled": true,
+        "field_identifiers": [
+          "first_name",
+          "last_name",
+          "email",
+          "phone",
+          "checkboxes",
+          "message"
+        ],
+        "redirect_on_submit": null
+      }
+    },
+    {
+      "resource_id": "form-wix-a2f9fa93",
+      "entity_type": "form",
+      "title": "Founders Contact Info Form",
+      "brand": "Distilled Funding",
+      "status": "active",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": null,
+      "source": {
+        "system": "Wix",
+        "source_id": "a2f9fa93-8e8b-4f47-a528-c6e4e6903c48",
+        "source_url": "https://www.distilledfunding.com",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "wix_form_id": "a2f9fa93-8e8b-4f47-a528-c6e4e6903c48",
+        "enabled": true,
+        "field_identifiers": [
+          "first_name",
+          "last_name",
+          "email",
+          "phone",
+          "company",
+          "website",
+          "address"
+        ],
+        "redirect_on_submit": null
+      }
+    },
+    {
+      "resource_id": "form-wix-db7be176",
+      "entity_type": "form",
+      "title": "Broker Profile Builder",
+      "brand": "Distilled Funding",
+      "status": "active",
+      "canonical_url": null,
+      "public_url": null,
+      "public_access": null,
+      "source": {
+        "system": "Wix",
+        "source_id": "db7be176-5841-4c1b-b740-8343eae4465b",
+        "source_url": "https://www.distilledfunding.com",
+        "verified_at": "2026-09-05T15:55:00Z",
+        "confidence": 1
+      },
+      "metadata": {
+        "wix_form_id": "db7be176-5841-4c1b-b740-8343eae4465b",
+        "enabled": true,
+        "field_identifiers": [
+          "public_email",
+          "phone",
+          "url",
+          "socials",
+          "address",
+          "service_type",
+          "why_choose_you",
+          "target_clients",
+          "funding_types",
+          "average_deal_size",
+          "experience",
+          "deals",
+          "testimonials",
+          "uploads",
+          "banner",
+          "intro_video",
+          "primary_cta_link",
+          "primary_cta_label",
+          "secondary_cta"
+        ],
+        "redirect_on_submit": null
+      }
+    }
+  ]
+}

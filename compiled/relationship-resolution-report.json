@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T15:50:37.130Z",
+  "generated_at": "2026-09-05T17:07:52.332Z",
   "valid": true,
   "summary": {
-    "canonical_entities": 936,
+    "canonical_entities": 1591,
     "relationships_scanned": 275,
     "resolved_relationships": 275,
     "unresolved_relationships": 0,

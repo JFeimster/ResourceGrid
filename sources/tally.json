@@ -1,0 +1,47 @@
+{
+  "source_id": "source-tally",
+  "name": "Tally",
+  "source_type": "form_and_intake_platform",
+  "status": "active",
+  "purpose": "Canonical metadata source for Tally forms used for funding, partner, acquisition, onboarding, lead capture, and downloadable-resource delivery.",
+  "authority": {
+    "canonical_for": [
+      "Tally form identity",
+      "form publication state",
+      "form title",
+      "submission metadata"
+    ],
+    "rule": "Use Tally as the canonical form source while ResourceGrid indexes form purpose, conversion role, and relationships."
+  },
+  "ingestion": {
+    "preferred_method": "Tally connector",
+    "raw_destination": "inbox/raw/tally/",
+    "normalized_destination": "inbox/normalized/tally/",
+    "preserve_source_ids": true
+  },
+  "deduplication": {
+    "strong_keys": [
+      "tally_form_id",
+      "canonical_url"
+    ],
+    "secondary_keys": [
+      "title"
+    ],
+    "preserve_provenance": true
+  },
+  "sync_policy": {
+    "mode": "connector_refresh",
+    "stale_after_days": 14,
+    "refresh_before": [
+      "content compilation",
+      "CTA review",
+      "form routing review"
+    ]
+  },
+  "security": {
+    "store_tokens": false,
+    "store_secrets": false,
+    "store_submissions_in_resourcegrid": false
+  },
+  "notes": "ResourceGrid stores form metadata only; submission/customer data does not belong in the content registry."
+}
