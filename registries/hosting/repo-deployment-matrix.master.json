@@ -29,19 +29,26 @@
       "runtime_details": {
         "primary_class": "STATIC",
         "framework": null,
-        "traits": ["HTML", "CSS", "JavaScript", "JSON registries"],
+        "traits": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "JSON registries"
+        ],
         "server_runtime_required": false,
         "api_required": false,
         "auth_required": false,
         "embed_distribution": false
       },
       "current_deployment": {
-        "provider": "Vercel",
+        "provider": "Cloudflare",
         "project": "fundstack-ai",
-        "project_id": "prj_Zpxy4N07U73b2kGBCGjtN5ubmVFa",
-        "url": "https://fundstack-ai.vercel.app",
-        "domains": [],
-        "status_note": "Canonical active FundStack deployment; duplicate fund-stack-ai was paused."
+        "project_id": null,
+        "url": "https://fundstack-ai.pages.dev",
+        "domains": [
+          "fundstack.distilledfunding.com"
+        ],
+        "status_note": "Canonical production moved to Cloudflare Pages with Wix-managed CNAME. Legacy Vercel projects fundstack-ai (prj_Zpxy4N07U73b2kGBCGjtN5ubmVFa) and fund-stack-ai (prj_WCbfAbh3RcCopMfUIWfwE7xrC4nW) are non-canonical retirement/history only."
       },
       "hosting_alternatives": [
         {
@@ -107,7 +114,13 @@
       "runtime_details": {
         "primary_class": "STATIC + EMBED",
         "framework": null,
-        "traits": ["index.html", "widget.html", "widget.js", "widget.css", "iframe/widget distribution"],
+        "traits": [
+          "index.html",
+          "widget.html",
+          "widget.js",
+          "widget.css",
+          "iframe/widget distribution"
+        ],
         "server_runtime_required": false,
         "api_required": false,
         "auth_required": false,
@@ -183,7 +196,13 @@
       "runtime_details": {
         "primary_class": "STATIC + API",
         "framework": "custom static build + Node serverless API",
-        "traits": ["static dist build", "Node fs access", "webhooks", "score engine", "partner matching"],
+        "traits": [
+          "static dist build",
+          "Node fs access",
+          "webhooks",
+          "score engine",
+          "partner matching"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": false,
@@ -285,7 +304,13 @@
       "runtime_details": {
         "primary_class": "STATIC + API",
         "framework": "Vite + React",
-        "traits": ["embeddable widgets", "Vite static build", "API endpoints", "Supabase", "AI SDK/Google GenAI"],
+        "traits": [
+          "embeddable widgets",
+          "Vite static build",
+          "API endpoints",
+          "Supabase",
+          "AI SDK/Google GenAI"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": false,
@@ -367,7 +392,12 @@
       "runtime_details": {
         "primary_class": "NEXT STATIC EXPORT",
         "framework": "Next.js 14",
-        "traits": ["local JSON data", "generateStaticParams", "unoptimized images", "trailingSlash"],
+        "traits": [
+          "local JSON data",
+          "generateStaticParams",
+          "unoptimized images",
+          "trailingSlash"
+        ],
         "server_runtime_required": false,
         "api_required": false,
         "auth_required": false,
@@ -448,7 +478,12 @@
       "runtime_details": {
         "primary_class": "STATIC + API",
         "framework": null,
-        "traits": ["static HTML/JS", "lead routing API", "partner signup API", "dashboard API"],
+        "traits": [
+          "static HTML/JS",
+          "lead routing API",
+          "partner signup API",
+          "dashboard API"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": false,
@@ -540,7 +575,17 @@
       "runtime_details": {
         "primary_class": "STATIC + API",
         "framework": null,
-        "traits": ["large API surface", "admin", "leads", "partners", "Tally", "sync", "security", "notifications", "OpenAPI contracts"],
+        "traits": [
+          "large API surface",
+          "admin",
+          "leads",
+          "partners",
+          "Tally",
+          "sync",
+          "security",
+          "notifications",
+          "OpenAPI contracts"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": true,
@@ -642,7 +687,10 @@
       "runtime_details": {
         "primary_class": "NEXT SSR",
         "framework": "Next.js 15",
-        "traits": ["mostly static content", "single /api/lead route"],
+        "traits": [
+          "mostly static content",
+          "single /api/lead route"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": false,
@@ -725,7 +773,13 @@
       "runtime_details": {
         "primary_class": "NEXT SSR",
         "framework": "Next.js 15",
-        "traits": ["App Router", "API routes", "Tally intake", "deal reality check", "dynamic buyer/business routes"],
+        "traits": [
+          "App Router",
+          "API routes",
+          "Tally intake",
+          "deal reality check",
+          "dynamic buyer/business routes"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": false,
@@ -808,7 +862,12 @@
       "runtime_details": {
         "primary_class": "NEXT + AUTH",
         "framework": "Next.js 14",
-        "traits": ["middleware", "signed session cookies", "role-based /admin and /portal", "environment secrets"],
+        "traits": [
+          "middleware",
+          "signed session cookies",
+          "role-based /admin and /portal",
+          "environment secrets"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": true,
@@ -893,7 +952,13 @@
       "runtime_details": {
         "primary_class": "DOCS / REGISTRY",
         "framework": "Next.js 16 presentation layer + Node registry compiler",
-        "traits": ["canonical registries", "schemas", "compiled JSON indexes", "validation/dedupe/relationships", "small web UI"],
+        "traits": [
+          "canonical registries",
+          "schemas",
+          "compiled JSON indexes",
+          "validation/dedupe/relationships",
+          "small web UI"
+        ],
         "server_runtime_required": false,
         "api_required": false,
         "auth_required": false,
@@ -1001,7 +1066,15 @@
         "primary_class": "PLATFORM_NATIVE - WIX/VELO",
         "taxonomy_exception": true,
         "framework": "Wix CLI / Velo",
-        "traits": ["Wix pages", "Velo backend", "routers", "HTTP functions", "Wix permissions", "Stripe", "Nodemailer"],
+        "traits": [
+          "Wix pages",
+          "Velo backend",
+          "routers",
+          "HTTP functions",
+          "Wix permissions",
+          "Stripe",
+          "Nodemailer"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": true,
@@ -2407,7 +2480,12 @@
       "runtime_details": {
         "primary_class": "NEXT + AUTH",
         "framework": "Next.js",
-        "traits": ["NextAuth", "middleware", "authentication API route", "secure client and partner dashboard"],
+        "traits": [
+          "NextAuth",
+          "middleware",
+          "authentication API route",
+          "secure client and partner dashboard"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": true,
@@ -2436,7 +2514,12 @@
         "status": "AUDITED",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
-        "evidence_files": ["app/api/auth/[...nextauth]/route.ts", "middleware.ts", "next.config.mjs", "package.json"],
+        "evidence_files": [
+          "app/api/auth/[...nextauth]/route.ts",
+          "middleware.ts",
+          "next.config.mjs",
+          "package.json"
+        ],
         "note": "GitHub API tree and relevant source/configuration files inspected."
       }
     },
@@ -2454,7 +2537,11 @@
       "runtime_details": {
         "primary_class": "STATIC",
         "framework": null,
-        "traits": ["static HTML", "vercel.json", "funding-routing interface"],
+        "traits": [
+          "static HTML",
+          "vercel.json",
+          "funding-routing interface"
+        ],
         "server_runtime_required": false,
         "api_required": false,
         "auth_required": false,
@@ -2474,13 +2561,18 @@
         "migration_effort": "LOW",
         "notes": "Deployment linkage is verified. Static infrastructure makes this a low-friction candidate for later host optimization after product overlap with funding-operator-os and funding-partners-os is reviewed."
       },
-      "automation_upside": {"level": "MEDIUM", "notes": "Static hosting and Git-based deployment should be straightforward once ownership is confirmed."},
+      "automation_upside": {
+        "level": "MEDIUM",
+        "notes": "Static hosting and Git-based deployment should be straightforward once ownership is confirmed."
+      },
       "relationship_note": "Potentially related to funding-operator-os and funding-partners-os; retain as a distinct implementation until reviewed.",
       "audit": {
         "status": "AUDITED",
         "confidence": "MEDIUM",
         "audited_at": "2026-09-05",
-        "evidence_files": ["vercel.json"],
+        "evidence_files": [
+          "vercel.json"
+        ],
         "note": "GitHub API tree and relevant source/configuration files inspected."
       }
     },
@@ -2498,7 +2590,11 @@
       "runtime_details": {
         "primary_class": "NEXT SSR",
         "framework": "Next.js",
-        "traits": ["JSON configuration", "lead API route", "multi-vertical partner acquisition"],
+        "traits": [
+          "JSON configuration",
+          "lead API route",
+          "multi-vertical partner acquisition"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": false,
@@ -2518,13 +2614,20 @@
         "migration_effort": "MEDIUM",
         "notes": "Deployment linkage is verified. The lead route requires a server-capable host; compare against moonshine-broker and partner-intake-os before any migration or consolidation decision."
       },
-      "automation_upside": {"level": "HIGH", "notes": "Next.js and a small API surface are compatible with existing Vercel-style automation."},
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "Next.js and a small API surface are compatible with existing Vercel-style automation."
+      },
       "relationship_note": "Potential partner-funnel predecessor or parallel implementation; review against the canonical partner acquisition stack.",
       "audit": {
         "status": "AUDITED",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
-        "evidence_files": ["app/api/lead/route.ts", "next.config.js", "package.json"],
+        "evidence_files": [
+          "app/api/lead/route.ts",
+          "next.config.js",
+          "package.json"
+        ],
         "note": "GitHub API tree and relevant source/configuration files inspected."
       }
     },
@@ -2542,7 +2645,13 @@
       "runtime_details": {
         "primary_class": "NODE SERVICE",
         "framework": "Vite + Express",
-        "traits": ["React client", "Express dependency", "worker/cron signals", "server/container signals", "Google GenAI"],
+        "traits": [
+          "React client",
+          "Express dependency",
+          "worker/cron signals",
+          "server/container signals",
+          "Google GenAI"
+        ],
         "server_runtime_required": true,
         "api_required": true,
         "auth_required": false,
@@ -2562,13 +2671,18 @@
         "migration_effort": "HIGH",
         "notes": "Vercel deployment linkage is verified, while the project display name remains unverified. Express, worker, and container signals rule out a static-only target despite the Vite client."
       },
-      "automation_upside": {"level": "HIGH", "notes": "A Node-capable host can support the application and its background processing signals."},
+      "automation_upside": {
+        "level": "HIGH",
+        "notes": "A Node-capable host can support the application and its background processing signals."
+      },
       "relationship_note": "Potentially related to acquisition-core and acquisition-fundability; validate shared calculation boundaries before consolidation.",
       "audit": {
         "status": "AUDITED",
         "confidence": "HIGH",
         "audited_at": "2026-09-05",
-        "evidence_files": ["package.json"],
+        "evidence_files": [
+          "package.json"
+        ],
         "note": "GitHub API tree and relevant source/configuration files inspected."
       }
     }

@@ -2800,8 +2800,8 @@
       "audiences": [
         "business_owner"
       ],
-      "canonical_url": "https://fundstack-ai.vercel.app/",
-      "public_url": "https://fundstack-ai.vercel.app/",
+      "canonical_url": "https://fundstack.distilledfunding.com/",
+      "public_url": "https://fundstack.distilledfunding.com/",
       "source": {
         "system": "registry_reconciliation_v1",
         "source_file": "vercel-projects.registry.json",
