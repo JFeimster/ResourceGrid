@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resourcegrid.local/schemas/plugin-marketplace.schema.json",
+  "title": "Operator Marketplace Registry",
+  "type": "object",
+  "required": ["registryVersion", "name", "generatedAt", "adapterTargets", "themes", "listings"],
+  "properties": {
+    "registryVersion": { "type": "string" },
+    "name": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "adapterTargets": { "type": "array" },
+    "themes": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "listings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "slug", "name", "kind", "theme", "status", "availability", "description", "version", "platforms", "source"],
+        "properties": {
+          "id": { "type": "string" },
+          "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "name": { "type": "string" },
+          "kind": { "enum": ["skill", "tool", "operator"] },
+          "theme": { "type": "string" },
+          "status": { "type": "string" },
+          "availability": { "type": "string" },
+          "description": { "type": "string" },
+          "version": { "type": "string" },
+          "platforms": { "type": "array", "items": { "enum": ["openai", "claude", "codex", "mcp", "api", "vscode", "saas"] }, "uniqueItems": true },
+          "components": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+          "source": { "type": "object" }
+        }
+      }
+    }
+  }
+}

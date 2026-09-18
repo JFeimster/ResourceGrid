@@ -1,0 +1,285 @@
+[
+  {
+    "id": "operator-seller-transition-operator",
+    "slug": "seller-transition-operator",
+    "name": "Seller Transition Operator",
+    "kind": "operator",
+    "theme": "Acquisition Ops",
+    "status": "active",
+    "availability": "installable",
+    "tagline": "Run seller intake, confidentiality, exit readiness, buyer matching, transaction materials, and transition planning from one capability pack.",
+    "description": "Run seller intake, confidentiality, exit readiness, buyer matching, transaction materials, and transition planning from one capability pack.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "orchestration",
+      "multi-skill",
+      "seller-transition-exchange",
+      "seller-listing-and-confidentiality",
+      "buyer-matching-and-financing"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "components": [
+      "seller-transition-exchange",
+      "seller-listing-and-confidentiality",
+      "buyer-matching-and-financing",
+      "seller-launch-studio",
+      "exit-readiness-and-value-builder",
+      "marketplace-data-integrity",
+      "succession-and-legacy-transition",
+      "vertical-seller-intelligence"
+    ],
+    "source": {
+      "type": "composed",
+      "registry": "ResourceGrid"
+    }
+  },
+  {
+    "id": "plugin-buyer-matching-and-financing",
+    "slug": "buyer-matching-and-financing",
+    "name": "buyer-matching-and-financing",
+    "kind": "skill",
+    "theme": "Acquisition Ops",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Validate and qualify acquisition-buyer profiles, process buyer inquiries, compare buyers with business listings, calculate explainable match scores, assess disclosure readiness, prepare acquisition-financing requests,...",
+    "description": "Validate and qualify acquisition-buyer profiles, process buyer inquiries, compare buyers with business listings, calculate explainable match scores, assess disclosure readiness, prepare acquisition-financing requests,...",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Funding / Credit / Lending",
+      "Seller / Acquisition Finance"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\buyer-matching-and-financing\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-exit-readiness-and-value-builder",
+    "slug": "exit-readiness-and-value-builder",
+    "name": "exit-readiness-and-value-builder",
+    "kind": "skill",
+    "theme": "Acquisition Ops",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Assess, calculate, explain, validate, or revise Seller Transition Exchange exit readiness; identify evidence gaps, buyer risks, and value suppressors; and produce prioritized 90-day stabilization and 12-month value-bu...",
+    "description": "Assess, calculate, explain, validate, or revise Seller Transition Exchange exit readiness; identify evidence gaps, buyer risks, and value suppressors; and produce prioritized 90-day stabilization and 12-month value-bu...",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Funding / Credit / Lending",
+      "Seller / Acquisition Finance"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\exit-readiness-and-value-builder\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-marketplace-data-integrity",
+    "slug": "marketplace-data-integrity",
+    "name": "marketplace-data-integrity",
+    "kind": "skill",
+    "theme": "Acquisition Ops",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Validate, normalize, deduplicate, reconcile, classify, review, and audit Seller Transition Exchange sellers, businesses, listings, buyers, inquiries, Exit Readiness Assessments, Financing Requests, documents, advisors...",
+    "description": "Validate, normalize, deduplicate, reconcile, classify, review, and audit Seller Transition Exchange sellers, businesses, listings, buyers, inquiries, Exit Readiness Assessments, Financing Requests, documents, advisors...",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Skills / MCP / Plugins / Automation",
+      "Seller / Acquisition Finance"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\marketplace-data-integrity\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-seller-launch-studio",
+    "slug": "seller-launch-studio",
+    "name": "seller-launch-studio",
+    "kind": "skill",
+    "theme": "Acquisition Ops",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Generate, revise, validate, or package evidence-grounded Seller Transition Exchange materials, including public listings, anonymous teasers, business overviews, investment highlights, growth opportunities, seller tran...",
+    "description": "Generate, revise, validate, or package evidence-grounded Seller Transition Exchange materials, including public listings, anonymous teasers, business overviews, investment highlights, growth opportunities, seller tran...",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Funding / Credit / Lending",
+      "Seller / Acquisition Finance"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\seller-launch-studio\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-seller-listing-and-confidentiality",
+    "slug": "seller-listing-and-confidentiality",
+    "name": "seller-listing-and-confidentiality",
+    "kind": "skill",
+    "theme": "Acquisition Ops",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Create, validate, redact, revise, review, or audit seller intake, business profiles, Public Listings, Anonymous Teasers, Verified-Buyer Only opportunities, Private Mandates, Coming to Market records, confidentiality s...",
+    "description": "Create, validate, redact, revise, review, or audit seller intake, business profiles, Public Listings, Anonymous Teasers, Verified-Buyer Only opportunities, Private Mandates, Coming to Market records, confidentiality s...",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Skills / MCP / Plugins / Automation",
+      "Seller / Acquisition Finance"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\seller-listing-and-confidentiality\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-seller-transition-exchange",
+    "slug": "seller-transition-exchange",
+    "name": "seller-transition-exchange",
+    "kind": "skill",
+    "theme": "Acquisition Ops",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Orchestrate the Seller Transition Exchange across seller intake, business profiles, five listing visibility levels, exit readiness, value building, buyer inquiries and qualification, buyer matching, acquisition and se...",
+    "description": "Orchestrate the Seller Transition Exchange across seller intake, business profiles, five listing visibility levels, exit readiness, value building, buyer inquiries and qualification, buyer matching, acquisition and se...",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Skills / MCP / Plugins / Automation",
+      "Seller / Acquisition Finance"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\seller-transition-exchange\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-succession-and-legacy-transition",
+    "slug": "succession-and-legacy-transition",
+    "name": "succession-and-legacy-transition",
+    "kind": "skill",
+    "theme": "Acquisition Ops",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Evaluate, compare, document, or revise Seller Transition Exchange ownership-transition paths including family succession, management buyouts, partner buyouts, employee ownership, partial sales, gradual seller-financed...",
+    "description": "Evaluate, compare, document, or revise Seller Transition Exchange ownership-transition paths including family succession, management buyouts, partner buyouts, employee ownership, partial sales, gradual seller-financed...",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Sales / CRM / Partnerships",
+      "Seller / Acquisition Finance"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\succession-and-legacy-transition\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-vertical-seller-intelligence",
+    "slug": "vertical-seller-intelligence",
+    "name": "vertical-seller-intelligence",
+    "kind": "skill",
+    "theme": "Acquisition Ops",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Apply evidence-grounded industry overlays to Seller Transition Exchange intake, listings, exit-readiness assessments, value-building plans, buyer diligence, financing considerations, succession planning, and marketpla...",
+    "description": "Apply evidence-grounded industry overlays to Seller Transition Exchange intake, listings, exit-readiness assessments, value-building plans, buyer diligence, financing considerations, succession planning, and marketpla...",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Funding / Credit / Lending",
+      "Seller / Acquisition Finance"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\vertical-seller-intelligence\\SKILL.md"
+    }
+  }
+]

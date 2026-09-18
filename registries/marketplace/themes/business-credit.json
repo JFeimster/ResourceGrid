@@ -1,0 +1,192 @@
+[
+  {
+    "id": "operator-business-credit-operator",
+    "slug": "business-credit-operator",
+    "name": "Business Credit Operator",
+    "kind": "operator",
+    "theme": "Business Credit",
+    "status": "active",
+    "availability": "installable",
+    "tagline": "Audit business credit, identify profile gaps, sequence remediation, and guide vendor/tradeline setup.",
+    "description": "Audit business credit, identify profile gaps, sequence remediation, and guide vendor/tradeline setup.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "orchestration",
+      "multi-skill",
+      "bizcredit-os",
+      "business-credit-audit",
+      "credit-report-analysis"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "components": [
+      "bizcredit-os",
+      "business-credit-audit",
+      "credit-report-analysis",
+      "credit-score-improvement",
+      "vendor-setup-guide"
+    ],
+    "source": {
+      "type": "composed",
+      "registry": "ResourceGrid"
+    }
+  },
+  {
+    "id": "plugin-bizcredit-os",
+    "slug": "bizcredit-os",
+    "name": "BizCredit OS",
+    "kind": "skill",
+    "theme": "Business Credit",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Audit a business's commercial credit profile, identity consistency, trade reporting, and public-record risks across Dun & Bradstreet, Experian Commercial, and Equifax Small Business.",
+    "description": "Audit a business's commercial credit profile, identity consistency, trade reporting, and public-record risks across Dun & Bradstreet, Experian Commercial, and Equifax Small Business.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Funding / Credit / Lending",
+      "Business Credit"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\OneDrive\\Desktop\\Vercel Projects\\BizCredit OS\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-business-credit-audit",
+    "slug": "business-credit-audit",
+    "name": "business-credit-audit",
+    "kind": "skill",
+    "theme": "Business Credit",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Perform an end-to-end audit of a business credit profile and related identity signals, then surface missing, inconsistent, or risky items.",
+    "description": "Perform an end-to-end audit of a business credit profile and related identity signals, then surface missing, inconsistent, or risky items.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Funding / Credit / Lending",
+      "Business Credit"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+       "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\business-credit-audit\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-credit-report-analysis",
+    "slug": "credit-report-analysis",
+    "name": "credit-report-analysis",
+    "kind": "skill",
+    "theme": "Business Credit",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Analyze a business credit report, explain bureau data, flag risks or inconsistencies, and translate findings into actionable fixes.",
+    "description": "Analyze a business credit report, explain bureau data, flag risks or inconsistencies, and translate findings into actionable fixes.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Funding / Credit / Lending",
+      "Business Credit"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\credit-report-analysis\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-credit-score-improvement",
+    "slug": "credit-score-improvement",
+    "name": "credit-score-improvement",
+    "kind": "skill",
+    "theme": "Business Credit",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Create a practical plan to improve business credit strength over time by prioritizing payment behavior, utilization, trade lines, reporting setup, and profile consistency.",
+    "description": "Create a practical plan to improve business credit strength over time by prioritizing payment behavior, utilization, trade lines, reporting setup, and profile consistency.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Funding / Credit / Lending",
+      "Business Credit"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\credit-score-improvement\\SKILL.md"
+    }
+  },
+  {
+    "id": "plugin-vendor-setup-guide",
+    "slug": "vendor-setup-guide",
+    "name": "vendor-setup-guide",
+    "kind": "skill",
+    "theme": "Business Credit",
+    "status": "active",
+    "availability": "generated-package",
+    "tagline": "Recommend and sequence starter vendors that report to business credit, then guide setup and early use.",
+    "description": "Recommend and sequence starter vendors that report to business credit, then guide setup and early use.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Funding / Credit / Lending",
+      "Business Credit"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "C:\\Users\\jason\\.codex\\skills\\vendor-setup-guide\\SKILL.md"
+    }
+  }
+]

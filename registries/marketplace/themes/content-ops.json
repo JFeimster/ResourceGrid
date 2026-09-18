@@ -1,0 +1,33 @@
+[
+  {
+    "id": "plugin-writing-style",
+    "slug": "writing-style",
+    "name": "Writing Style Operator",
+    "kind": "skill",
+    "theme": "Content Ops",
+    "status": "active",
+    "availability": "installable",
+    "tagline": "Apply a reusable writing-style system to drafting and editing workflows.",
+    "description": "Apply a reusable writing-style system to drafting and editing workflows.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "Writing",
+      "Editorial",
+      "Brand voice"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "user-owned-skill",
+      "path": "skills/writing-style/SKILL.md"
+    }
+  }
+]

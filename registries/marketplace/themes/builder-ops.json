@@ -1,0 +1,100 @@
+[
+  {
+    "id": "operator-builder-ops-starter",
+    "slug": "builder-ops-starter",
+    "name": "Builder Ops Starter",
+    "kind": "operator",
+    "theme": "Builder Ops",
+    "status": "active",
+    "availability": "installable",
+    "tagline": "Find the right local repo and launch the correct local preview without hunting through folders.",
+    "description": "Find the right local repo and launch the correct local preview without hunting through folders.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "orchestration",
+      "multi-skill",
+      "find-local-repo",
+      "start-local-site"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "components": [
+      "find-local-repo",
+      "start-local-site"
+    ],
+    "source": {
+      "type": "composed",
+      "registry": "ResourceGrid"
+    }
+  },
+  {
+    "id": "plugin-find-local-repo",
+    "slug": "find-local-repo",
+    "name": "Find-LocalRepo",
+    "kind": "tool",
+    "theme": "Builder Ops",
+    "status": "active",
+    "availability": "installable",
+    "tagline": "Find and rank local folders associated with a GitHub repository using Git remotes, folder names, configured project roots, and confidence scoring.",
+    "description": "Find and rank local folders associated with a GitHub repository using Git remotes, folder names, configured project roots, and confidence scoring.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "PowerShell",
+      "Git",
+      "GitHub"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "powershell-toolkit",
+      "repo": "JFeimster/powershell-ops-toolkit",
+      "path": "find-local-repo"
+    }
+  },
+  {
+    "id": "plugin-start-local-site",
+    "slug": "start-local-site",
+    "name": "Start-LocalSite",
+    "kind": "tool",
+    "theme": "Builder Ops",
+    "status": "active",
+    "availability": "installable",
+    "tagline": "Start a local site preview from a supplied project path using the existing reusable local-site-preview skill.",
+    "description": "Start a local site preview from a supplied project path using the existing reusable local-site-preview skill.",
+    "version": "1.0.0",
+    "publisher": "Operator Marketplace / JFeimster",
+    "capabilities": [
+      "PowerShell"
+    ],
+    "platforms": [
+      "openai",
+      "claude",
+      "codex",
+      "mcp",
+      "api",
+      "vscode",
+      "saas"
+    ],
+    "source": {
+      "type": "powershell-toolkit",
+      "repo": "JFeimster/powershell-ops-toolkit",
+      "path": "start-local-site"
+    }
+  }
+]

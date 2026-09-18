@@ -1,0 +1,75 @@
+{
+  "registryVersion": "1.0.0",
+  "name": "Operator Marketplace Registry",
+  "generatedAt": "2026-09-17",
+  "sourceInventory": {
+    "enrichedSkills": 2526,
+    "monetizationScoredSkills": 1316,
+    "platformAssets": 620,
+    "policy": "User-owned/custom assets only are publishable."
+  },
+  "adapterTargets": [
+    {
+      "id": "openai",
+      "label": "OpenAI Skills",
+      "output": "SKILL.md package + Skills API descriptor"
+    },
+    {
+      "id": "claude",
+      "label": "Claude Skills",
+      "output": "SKILL.md package descriptor"
+    },
+    {
+      "id": "codex",
+      "label": "Codex Workflows",
+      "output": ".codex-plugin/plugin.json + skill package"
+    },
+    {
+      "id": "mcp",
+      "label": "MCP Clients",
+      "output": "Remote MCP endpoint descriptor"
+    },
+    {
+      "id": "api",
+      "label": "APIs",
+      "output": "REST endpoint descriptor"
+    },
+    {
+      "id": "vscode",
+      "label": "VS Code",
+      "output": "MCP/workflow settings descriptor"
+    },
+    {
+      "id": "saas",
+      "label": "SaaS",
+      "output": "Embeddable REST/MCP capability descriptor"
+    }
+  ],
+  "themes": [
+    {
+      "name": "Acquisition Ops",
+      "file": "themes/acquisition-ops.json",
+      "count": 9
+    },
+    {
+      "name": "Builder Ops",
+      "file": "themes/builder-ops.json",
+      "count": 3
+    },
+    {
+      "name": "Business Credit",
+      "file": "themes/business-credit.json",
+      "count": 6
+    },
+    {
+      "name": "CRM & Funding Ops",
+      "file": "themes/crm-funding-ops.json",
+      "count": 8
+    },
+    {
+      "name": "Content Ops",
+      "file": "themes/content-ops.json",
+      "count": 1
+    }
+  ]
+}
