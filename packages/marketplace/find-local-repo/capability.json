@@ -30,7 +30,7 @@
     "path": "find-local-repo"
   },
   "packagePath": "packages/marketplace/find-local-repo",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

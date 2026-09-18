@@ -30,7 +30,7 @@
     "path": "skills/moonshine-funding-pipeline-health"
   },
   "packagePath": "packages/marketplace/moonshine-funding-pipeline-health",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

@@ -30,7 +30,7 @@
     "path": "skills/moonshine-crm-note-normalizer"
   },
   "packagePath": "packages/marketplace/moonshine-crm-note-normalizer",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

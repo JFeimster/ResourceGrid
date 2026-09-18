@@ -30,7 +30,7 @@
     "path": "skills/moonshine-crm-intake"
   },
   "packagePath": "packages/marketplace/moonshine-crm-intake",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

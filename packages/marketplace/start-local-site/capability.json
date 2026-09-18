@@ -28,7 +28,7 @@
     "path": "start-local-site"
   },
   "packagePath": "packages/marketplace/start-local-site",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

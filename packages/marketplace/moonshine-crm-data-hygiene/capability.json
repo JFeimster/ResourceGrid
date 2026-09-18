@@ -30,7 +30,7 @@
     "path": "skills/moonshine-crm-data-hygiene"
   },
   "packagePath": "packages/marketplace/moonshine-crm-data-hygiene",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

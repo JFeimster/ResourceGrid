@@ -30,7 +30,7 @@
     "path": "skills/moonshine-funding-follow-up"
   },
   "packagePath": "packages/marketplace/moonshine-funding-follow-up",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

@@ -30,7 +30,7 @@
     "path": "skills/moonshine-crm-reconciler"
   },
   "packagePath": "packages/marketplace/moonshine-crm-reconciler",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

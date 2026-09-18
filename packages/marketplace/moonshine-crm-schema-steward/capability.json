@@ -30,7 +30,7 @@
     "path": "skills/moonshine-crm-schema-steward"
   },
   "packagePath": "packages/marketplace/moonshine-crm-schema-steward",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"
