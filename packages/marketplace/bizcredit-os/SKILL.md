@@ -1,5 +1,5 @@
 ---
-name: business-credit-audit
+name: bizcredit-os
 description: Audit a business's commercial credit profile, identity consistency, trade reporting, and public-record risks across Dun & Bradstreet, Experian Commercial, and Equifax Small Business. Use when reviewing business credit reports, investigating a credit denial, prioritizing credit-profile remediation, or documenting missing evidence for a commercial-credit application.
 ---
 
