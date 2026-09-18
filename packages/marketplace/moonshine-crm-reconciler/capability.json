@@ -1,0 +1,49 @@
+{
+  "id": "plugin-moonshine-crm-reconciler",
+  "slug": "moonshine-crm-reconciler",
+  "name": "Moonshine CRM Reconciler",
+  "kind": "skill",
+  "theme": "CRM & Funding Ops",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Cross-system identity, stage, task, note, association, and source-conflict reconciliation.",
+  "description": "Cross-system identity, stage, task, note, association, and source-conflict reconciliation.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "crm",
+    "funding",
+    "reconciliation"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "repo": "JFeimster/ai-agent-library",
+    "path": "skills/moonshine-crm-reconciler"
+  },
+  "packagePath": "packages/marketplace/moonshine-crm-reconciler",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

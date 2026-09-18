@@ -1,0 +1,60 @@
+{
+  "id": "operator-seller-transition-operator",
+  "slug": "seller-transition-operator",
+  "name": "Seller Transition Operator",
+  "kind": "operator",
+  "theme": "Acquisition Ops",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Run seller intake, confidentiality, exit readiness, buyer matching, transaction materials, and transition planning from one capability pack.",
+  "description": "Run seller intake, confidentiality, exit readiness, buyer matching, transaction materials, and transition planning from one capability pack.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "orchestration",
+    "multi-skill",
+    "seller-transition-exchange",
+    "seller-listing-and-confidentiality",
+    "buyer-matching-and-financing"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "components": [
+    "seller-transition-exchange",
+    "seller-listing-and-confidentiality",
+    "buyer-matching-and-financing",
+    "seller-launch-studio",
+    "exit-readiness-and-value-builder",
+    "marketplace-data-integrity",
+    "succession-and-legacy-transition",
+    "vertical-seller-intelligence"
+  ],
+  "source": {
+    "type": "composed",
+    "registry": "ResourceGrid"
+  },
+  "packagePath": "packages/marketplace/seller-transition-operator",
+  "instructionStatus": "composed",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

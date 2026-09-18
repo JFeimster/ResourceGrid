@@ -1,0 +1,47 @@
+{
+  "id": "plugin-credit-report-analysis",
+  "slug": "credit-report-analysis",
+  "name": "credit-report-analysis",
+  "kind": "skill",
+  "theme": "Business Credit",
+  "status": "active",
+  "availability": "generated-package",
+  "tagline": "Analyze a business credit report, explain bureau data, flag risks or inconsistencies, and translate findings into actionable fixes.",
+  "description": "Analyze a business credit report, explain bureau data, flag risks or inconsistencies, and translate findings into actionable fixes.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "Funding / Credit / Lending",
+    "Business Credit"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "path": "C:\\Users\\jason\\.codex\\skills\\credit-report-analysis\\SKILL.md"
+  },
+  "packagePath": "packages/marketplace/credit-report-analysis",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "plugin-moonshine-funding-pipeline-health",
+  "slug": "moonshine-funding-pipeline-health",
+  "name": "Moonshine Funding Pipeline Health",
+  "kind": "skill",
+  "theme": "CRM & Funding Ops",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Operator queue and risk review for active funding opportunities.",
+  "description": "Operator queue and risk review for active funding opportunities.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "crm",
+    "funding",
+    "pipeline-operations"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "repo": "JFeimster/ai-agent-library",
+    "path": "skills/moonshine-funding-pipeline-health"
+  },
+  "packagePath": "packages/marketplace/moonshine-funding-pipeline-health",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

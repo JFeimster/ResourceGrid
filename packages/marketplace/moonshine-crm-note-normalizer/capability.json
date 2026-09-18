@@ -1,0 +1,49 @@
+{
+  "id": "plugin-moonshine-crm-note-normalizer",
+  "slug": "moonshine-crm-note-normalizer",
+  "name": "Moonshine CRM Note Normalizer",
+  "kind": "skill",
+  "theme": "CRM & Funding Ops",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Conversion of messy applicant, partner, email, SMS, call, screenshot, or CRM notes into operational context.",
+  "description": "Conversion of messy applicant, partner, email, SMS, call, screenshot, or CRM notes into operational context.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "crm",
+    "funding",
+    "notes"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "repo": "JFeimster/ai-agent-library",
+    "path": "skills/moonshine-crm-note-normalizer"
+  },
+  "packagePath": "packages/marketplace/moonshine-crm-note-normalizer",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

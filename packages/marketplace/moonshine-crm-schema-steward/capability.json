@@ -1,0 +1,49 @@
+{
+  "id": "plugin-moonshine-crm-schema-steward",
+  "slug": "moonshine-crm-schema-steward",
+  "name": "Moonshine CRM Schema Steward",
+  "kind": "skill",
+  "theme": "CRM & Funding Ops",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Live HubSpot property, enum, pipeline, stage, and custom-property budget governance.",
+  "description": "Live HubSpot property, enum, pipeline, stage, and custom-property budget governance.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "crm",
+    "hubspot",
+    "schema-governance"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "repo": "JFeimster/ai-agent-library",
+    "path": "skills/moonshine-crm-schema-steward"
+  },
+  "packagePath": "packages/marketplace/moonshine-crm-schema-steward",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

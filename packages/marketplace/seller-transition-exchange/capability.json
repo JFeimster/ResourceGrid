@@ -1,0 +1,47 @@
+{
+  "id": "plugin-seller-transition-exchange",
+  "slug": "seller-transition-exchange",
+  "name": "seller-transition-exchange",
+  "kind": "skill",
+  "theme": "Acquisition Ops",
+  "status": "active",
+  "availability": "generated-package",
+  "tagline": "Orchestrate the Seller Transition Exchange across seller intake, business profiles, five listing visibility levels, exit readiness, value building, buyer inquiries and qualification, buyer matching, acquisition and se...",
+  "description": "Orchestrate the Seller Transition Exchange across seller intake, business profiles, five listing visibility levels, exit readiness, value building, buyer inquiries and qualification, buyer matching, acquisition and se...",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "Skills / MCP / Plugins / Automation",
+    "Seller / Acquisition Finance"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "path": "C:\\Users\\jason\\.codex\\skills\\seller-transition-exchange\\SKILL.md"
+  },
+  "packagePath": "packages/marketplace/seller-transition-exchange",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "plugin-exit-readiness-and-value-builder",
+  "slug": "exit-readiness-and-value-builder",
+  "name": "exit-readiness-and-value-builder",
+  "kind": "skill",
+  "theme": "Acquisition Ops",
+  "status": "active",
+  "availability": "generated-package",
+  "tagline": "Assess, calculate, explain, validate, or revise Seller Transition Exchange exit readiness; identify evidence gaps, buyer risks, and value suppressors; and produce prioritized 90-day stabilization and 12-month value-bu...",
+  "description": "Assess, calculate, explain, validate, or revise Seller Transition Exchange exit readiness; identify evidence gaps, buyer risks, and value suppressors; and produce prioritized 90-day stabilization and 12-month value-bu...",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "Funding / Credit / Lending",
+    "Seller / Acquisition Finance"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "path": "C:\\Users\\jason\\.codex\\skills\\exit-readiness-and-value-builder\\SKILL.md"
+  },
+  "packagePath": "packages/marketplace/exit-readiness-and-value-builder",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

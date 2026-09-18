@@ -1,0 +1,49 @@
+{
+  "id": "plugin-find-local-repo",
+  "slug": "find-local-repo",
+  "name": "Find-LocalRepo",
+  "kind": "tool",
+  "theme": "Builder Ops",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Find and rank local folders associated with a GitHub repository using Git remotes, folder names, configured project roots, and confidence scoring.",
+  "description": "Find and rank local folders associated with a GitHub repository using Git remotes, folder names, configured project roots, and confidence scoring.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "PowerShell",
+    "Git",
+    "GitHub"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "powershell-toolkit",
+    "repo": "JFeimster/powershell-ops-toolkit",
+    "path": "find-local-repo"
+  },
+  "packagePath": "packages/marketplace/find-local-repo",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "plugin-business-credit-audit",
+  "slug": "business-credit-audit",
+  "name": "business-credit-audit",
+  "kind": "skill",
+  "theme": "Business Credit",
+  "status": "active",
+  "availability": "generated-package",
+  "tagline": "Perform an end-to-end audit of a business credit profile and related identity signals, then surface missing, inconsistent, or risky items.",
+  "description": "Perform an end-to-end audit of a business credit profile and related identity signals, then surface missing, inconsistent, or risky items.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "Funding / Credit / Lending",
+    "Business Credit"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "path": "C:\\Users\\jason\\.codex\\skills\\business-credit-audit\\SKILL.md"
+  },
+  "packagePath": "packages/marketplace/business-credit-audit",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "plugin-vertical-seller-intelligence",
+  "slug": "vertical-seller-intelligence",
+  "name": "vertical-seller-intelligence",
+  "kind": "skill",
+  "theme": "Acquisition Ops",
+  "status": "active",
+  "availability": "generated-package",
+  "tagline": "Apply evidence-grounded industry overlays to Seller Transition Exchange intake, listings, exit-readiness assessments, value-building plans, buyer diligence, financing considerations, succession planning, and marketpla...",
+  "description": "Apply evidence-grounded industry overlays to Seller Transition Exchange intake, listings, exit-readiness assessments, value-building plans, buyer diligence, financing considerations, succession planning, and marketpla...",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "Funding / Credit / Lending",
+    "Seller / Acquisition Finance"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "path": "C:\\Users\\jason\\.codex\\skills\\vertical-seller-intelligence\\SKILL.md"
+  },
+  "packagePath": "packages/marketplace/vertical-seller-intelligence",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

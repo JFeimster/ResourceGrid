@@ -1,0 +1,53 @@
+{
+  "id": "operator-builder-ops-starter",
+  "slug": "builder-ops-starter",
+  "name": "Builder Ops Starter",
+  "kind": "operator",
+  "theme": "Builder Ops",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Find the right local repo and launch the correct local preview without hunting through folders.",
+  "description": "Find the right local repo and launch the correct local preview without hunting through folders.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "orchestration",
+    "multi-skill",
+    "find-local-repo",
+    "start-local-site"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "components": [
+    "find-local-repo",
+    "start-local-site"
+  ],
+  "source": {
+    "type": "composed",
+    "registry": "ResourceGrid"
+  },
+  "packagePath": "packages/marketplace/builder-ops-starter",
+  "instructionStatus": "composed",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

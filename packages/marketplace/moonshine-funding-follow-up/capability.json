@@ -1,0 +1,49 @@
+{
+  "id": "plugin-moonshine-funding-follow-up",
+  "slug": "moonshine-funding-follow-up",
+  "name": "Moonshine Funding Follow-Up",
+  "kind": "skill",
+  "theme": "CRM & Funding Ops",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Drafted applicant/provider follow-up and task sequencing after intake or routing.",
+  "description": "Drafted applicant/provider follow-up and task sequencing after intake or routing.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "crm",
+    "funding",
+    "follow-up"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "repo": "JFeimster/ai-agent-library",
+    "path": "skills/moonshine-funding-follow-up"
+  },
+  "packagePath": "packages/marketplace/moonshine-funding-follow-up",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}
