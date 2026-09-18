@@ -29,7 +29,7 @@
     "path": "skills/writing-style/SKILL.md"
   },
   "packagePath": "packages/marketplace/writing-style",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

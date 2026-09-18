@@ -28,7 +28,7 @@
     "path": "C:\\Users\\jason\\.codex\\skills\\vendor-setup-guide\\SKILL.md"
   },
   "packagePath": "packages/marketplace/vendor-setup-guide",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

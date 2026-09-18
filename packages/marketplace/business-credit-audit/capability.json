@@ -28,7 +28,7 @@
     "path": "C:\\Users\\jason\\.codex\\skills\\business-credit-audit\\SKILL.md"
   },
   "packagePath": "packages/marketplace/business-credit-audit",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

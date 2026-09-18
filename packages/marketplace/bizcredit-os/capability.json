@@ -28,7 +28,7 @@
     "path": "C:\\Users\\jason\\OneDrive\\Desktop\\Vercel Projects\\BizCredit OS\\SKILL.md"
   },
   "packagePath": "packages/marketplace/bizcredit-os",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"

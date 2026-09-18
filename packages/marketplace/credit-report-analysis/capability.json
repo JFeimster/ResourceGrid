@@ -28,7 +28,7 @@
     "path": "C:\\Users\\jason\\.codex\\skills\\credit-report-analysis\\SKILL.md"
   },
   "packagePath": "packages/marketplace/credit-report-analysis",
-  "instructionStatus": "source-unavailable",
+  "instructionStatus": "canonical",
   "publisherMeta": {
     "name": "JFeimster",
     "type": "owner"
