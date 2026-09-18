@@ -1,0 +1,47 @@
+{
+  "id": "plugin-credit-score-improvement",
+  "slug": "credit-score-improvement",
+  "name": "credit-score-improvement",
+  "kind": "skill",
+  "theme": "Business Credit",
+  "status": "active",
+  "availability": "generated-package",
+  "tagline": "Create a practical plan to improve business credit strength over time by prioritizing payment behavior, utilization, trade lines, reporting setup, and profile consistency.",
+  "description": "Create a practical plan to improve business credit strength over time by prioritizing payment behavior, utilization, trade lines, reporting setup, and profile consistency.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "Funding / Credit / Lending",
+    "Business Credit"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "path": "C:\\Users\\jason\\.codex\\skills\\credit-score-improvement\\SKILL.md"
+  },
+  "packagePath": "packages/marketplace/credit-score-improvement",
+  "instructionStatus": "canonical",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

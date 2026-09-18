@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resourcegrid.local/schemas/marketplace-index.schema.json",
+  "type": "object",
+  "required": [
+    "registryVersion",
+    "name",
+    "generatedAt",
+    "adapterTargets",
+    "themes"
+  ],
+  "properties": {
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "file",
+          "count"
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}

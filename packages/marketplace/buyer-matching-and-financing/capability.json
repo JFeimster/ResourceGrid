@@ -1,0 +1,47 @@
+{
+  "id": "plugin-buyer-matching-and-financing",
+  "slug": "buyer-matching-and-financing",
+  "name": "buyer-matching-and-financing",
+  "kind": "skill",
+  "theme": "Acquisition Ops",
+  "status": "active",
+  "availability": "generated-package",
+  "tagline": "Validate and qualify acquisition-buyer profiles, process buyer inquiries, compare buyers with business listings, calculate explainable match scores, assess disclosure readiness, prepare acquisition-financing requests,...",
+  "description": "Validate and qualify acquisition-buyer profiles, process buyer inquiries, compare buyers with business listings, calculate explainable match scores, assess disclosure readiness, prepare acquisition-financing requests,...",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "Funding / Credit / Lending",
+    "Seller / Acquisition Finance"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "path": "C:\\Users\\jason\\.codex\\skills\\buyer-matching-and-financing\\SKILL.md"
+  },
+  "packagePath": "packages/marketplace/buyer-matching-and-financing",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

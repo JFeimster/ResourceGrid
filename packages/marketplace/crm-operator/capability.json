@@ -1,0 +1,59 @@
+{
+  "id": "operator-crm-operator",
+  "slug": "crm-operator",
+  "name": "CRM Operator",
+  "kind": "operator",
+  "theme": "CRM & Funding Ops",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Clean, reconcile, route, and follow up on funding leads without turning CRM work into manual archaeology.",
+  "description": "Clean, reconcile, route, and follow up on funding leads without turning CRM work into manual archaeology.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "orchestration",
+    "multi-skill",
+    "moonshine-crm-intake",
+    "moonshine-crm-note-normalizer",
+    "moonshine-crm-reconciler"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "components": [
+    "moonshine-crm-intake",
+    "moonshine-crm-note-normalizer",
+    "moonshine-crm-reconciler",
+    "moonshine-crm-data-hygiene",
+    "moonshine-crm-schema-steward",
+    "moonshine-funding-follow-up",
+    "moonshine-funding-pipeline-health"
+  ],
+  "source": {
+    "type": "composed",
+    "registry": "ResourceGrid"
+  },
+  "packagePath": "packages/marketplace/crm-operator",
+  "instructionStatus": "composed",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

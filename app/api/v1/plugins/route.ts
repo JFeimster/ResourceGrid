@@ -10,5 +10,10 @@ export function GET(request: NextRequest) {
     platform: searchParams.get("platform") ?? undefined,
   });
   const registry = marketplaceRegistry();
-  return NextResponse.json({ registryVersion: registry.registryVersion, count: results.length, data: results.map(({ instructions, ...item }) => item) });
+
+  return NextResponse.json({
+    registryVersion: registry.registryVersion,
+    count: results.length,
+    data: results,
+  });
 }

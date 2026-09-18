@@ -1,0 +1,26 @@
+name: Operator Marketplace CI
+on:
+  pull_request:
+    paths:
+      - "app/api/mcp/**"
+      - "app/api/v1/**"
+      - "app/lib/marketplace.ts"
+      - "app/marketplace/**"
+      - "packages/marketplace/**"
+      - "registries/marketplace/**"
+      - "schemas/marketplace-*.json"
+      - "scripts/*marketplace*"
+      - "package.json"
+      - "package-lock.json"
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run marketplace:check
+      - run: npm run build

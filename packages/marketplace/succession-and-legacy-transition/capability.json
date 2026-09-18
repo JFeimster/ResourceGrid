@@ -1,0 +1,47 @@
+{
+  "id": "plugin-succession-and-legacy-transition",
+  "slug": "succession-and-legacy-transition",
+  "name": "succession-and-legacy-transition",
+  "kind": "skill",
+  "theme": "Acquisition Ops",
+  "status": "active",
+  "availability": "generated-package",
+  "tagline": "Evaluate, compare, document, or revise Seller Transition Exchange ownership-transition paths including family succession, management buyouts, partner buyouts, employee ownership, partial sales, gradual seller-financed...",
+  "description": "Evaluate, compare, document, or revise Seller Transition Exchange ownership-transition paths including family succession, management buyouts, partner buyouts, employee ownership, partial sales, gradual seller-financed...",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "Sales / CRM / Partnerships",
+    "Seller / Acquisition Finance"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "path": "C:\\Users\\jason\\.codex\\skills\\succession-and-legacy-transition\\SKILL.md"
+  },
+  "packagePath": "packages/marketplace/succession-and-legacy-transition",
+  "instructionStatus": "source-unavailable",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

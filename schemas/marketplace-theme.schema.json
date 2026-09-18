@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resourcegrid.local/schemas/marketplace-theme.schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "slug",
+      "name",
+      "kind",
+      "theme",
+      "status",
+      "availability",
+      "description",
+      "version",
+      "platforms",
+      "source"
+    ],
+    "additionalProperties": true
+  }
+}

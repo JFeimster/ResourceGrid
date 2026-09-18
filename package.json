@@ -17,7 +17,10 @@
     "relationships": "node scripts/resolve-relationships.js",
     "compile": "node scripts/compile-registry.js",
     "registry:check": "npm run validate && npm run dedupe && npm run relationships",
-    "registry:build": "npm run registry:check && npm run compile"
+    "registry:build": "npm run registry:check && npm run compile",
+    "marketplace:build": "node scripts/build-marketplace-registry.js",
+    "marketplace:validate": "node scripts/validate-marketplace.js",
+    "marketplace:check": "npm run marketplace:build && npm run marketplace:validate"
   },
   "repository": {
     "type": "git",

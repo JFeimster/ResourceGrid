@@ -1,0 +1,57 @@
+{
+  "id": "operator-business-credit-operator",
+  "slug": "business-credit-operator",
+  "name": "Business Credit Operator",
+  "kind": "operator",
+  "theme": "Business Credit",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Audit business credit, identify profile gaps, sequence remediation, and guide vendor/tradeline setup.",
+  "description": "Audit business credit, identify profile gaps, sequence remediation, and guide vendor/tradeline setup.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "orchestration",
+    "multi-skill",
+    "bizcredit-os",
+    "business-credit-audit",
+    "credit-report-analysis"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "components": [
+    "bizcredit-os",
+    "business-credit-audit",
+    "credit-report-analysis",
+    "credit-score-improvement",
+    "vendor-setup-guide"
+  ],
+  "source": {
+    "type": "composed",
+    "registry": "ResourceGrid"
+  },
+  "packagePath": "packages/marketplace/business-credit-operator",
+  "instructionStatus": "composed",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

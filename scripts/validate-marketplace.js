@@ -1,0 +1,4 @@
+const fs=require("node:fs"),path=require("node:path");const root=process.cwd(),index=JSON.parse(fs.readFileSync(path.join(root,"registries","marketplace","marketplace.index.json"),"utf8"));const slugs=new Set();let count=0;
+for(const t of index.themes){const data=JSON.parse(fs.readFileSync(path.join(root,"registries","marketplace",t.file),"utf8"));if(data.length!==t.count)throw new Error("Count mismatch: "+t.name);for(const item of data){if(slugs.has(item.slug))throw new Error("Duplicate slug: "+item.slug);slugs.add(item.slug);count++;}}
+for(const t of index.themes){const data=JSON.parse(fs.readFileSync(path.join(root,"registries","marketplace",t.file),"utf8"));for(const item of data.filter(x=>x.kind==="operator"))for(const c of item.components||[])if(!slugs.has(c))throw new Error(`Missing component ${c} referenced by ${item.slug}`);}
+console.log(`Marketplace validation passed: ${count} capabilities, ${index.themes.length} themes, 0 duplicate slugs.`);

@@ -1,0 +1,47 @@
+{
+  "id": "plugin-vendor-setup-guide",
+  "slug": "vendor-setup-guide",
+  "name": "vendor-setup-guide",
+  "kind": "skill",
+  "theme": "Business Credit",
+  "status": "active",
+  "availability": "generated-package",
+  "tagline": "Recommend and sequence starter vendors that report to business credit, then guide setup and early use.",
+  "description": "Recommend and sequence starter vendors that report to business credit, then guide setup and early use.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "Funding / Credit / Lending",
+    "Business Credit"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "path": "C:\\Users\\jason\\.codex\\skills\\vendor-setup-guide\\SKILL.md"
+  },
+  "packagePath": "packages/marketplace/vendor-setup-guide",
+  "instructionStatus": "canonical",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

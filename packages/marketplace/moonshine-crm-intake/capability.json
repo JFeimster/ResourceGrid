@@ -1,0 +1,49 @@
+{
+  "id": "plugin-moonshine-crm-intake",
+  "slug": "moonshine-crm-intake",
+  "name": "Moonshine CRM Intake",
+  "kind": "skill",
+  "theme": "CRM & Funding Ops",
+  "status": "active",
+  "availability": "installable",
+  "tagline": "Funding applicant, affiliate, partner, or existing-contact intake and routing.",
+  "description": "Funding applicant, affiliate, partner, or existing-contact intake and routing.",
+  "version": "2.1.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "crm",
+    "funding",
+    "hubspot"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "repo": "JFeimster/ai-agent-library",
+    "path": "skills/moonshine-crm-intake"
+  },
+  "packagePath": "packages/marketplace/moonshine-crm-intake",
+  "instructionStatus": "canonical",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}

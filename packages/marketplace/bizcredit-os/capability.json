@@ -1,0 +1,47 @@
+{
+  "id": "plugin-bizcredit-os",
+  "slug": "bizcredit-os",
+  "name": "BizCredit OS",
+  "kind": "skill",
+  "theme": "Business Credit",
+  "status": "active",
+  "availability": "generated-package",
+  "tagline": "Audit a business's commercial credit profile, identity consistency, trade reporting, and public-record risks across Dun & Bradstreet, Experian Commercial, and Equifax Small Business.",
+  "description": "Audit a business's commercial credit profile, identity consistency, trade reporting, and public-record risks across Dun & Bradstreet, Experian Commercial, and Equifax Small Business.",
+  "version": "1.0.0",
+  "publisher": "Operator Marketplace / JFeimster",
+  "capabilities": [
+    "Funding / Credit / Lending",
+    "Business Credit"
+  ],
+  "platforms": [
+    "openai",
+    "claude",
+    "codex",
+    "mcp",
+    "api",
+    "vscode",
+    "saas"
+  ],
+  "source": {
+    "type": "user-owned-skill",
+    "path": "C:\\Users\\jason\\OneDrive\\Desktop\\Vercel Projects\\BizCredit OS\\SKILL.md"
+  },
+  "packagePath": "packages/marketplace/bizcredit-os",
+  "instructionStatus": "canonical",
+  "publisherMeta": {
+    "name": "JFeimster",
+    "type": "owner"
+  },
+  "trust": {
+    "verified": true,
+    "status": "owned"
+  },
+  "license": "proprietary",
+  "pricing": {
+    "model": "free",
+    "free": true,
+    "commercialUse": true,
+    "requiresEntitlement": false
+  }
+}
